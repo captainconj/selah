@@ -1,6 +1,6 @@
-(ns selah.els-test
+(ns selah.els.engine-test
   (:require [clojure.test :refer [deftest testing is are]]
-            [selah.els :as els]
+            [selah.els.engine :as els]
             [selah.text.normalize :as norm]
             [selah.text.sefaria :as sefaria]))
 

@@ -1,4 +1,4 @@
-(ns selah.els
+(ns selah.els.engine
   "Equidistant Letter Spacing — the core engine.
    Works on any letter stream (vector of chars).")
 

@@ -290,7 +290,7 @@ The individual pieces are each plausible on their own. Common letters produce co
 
 ## Broad Scan: Meaningful Words at Symbolic Skips
 
-Beyond the Torah/YHWH chiastic pattern, we scanned 20 meaningful Hebrew words across 5 symbolically significant skips (7, 12, 26, 40, 50) in all five books. Full scan tool: `selah.scan`.
+Beyond the Torah/YHWH chiastic pattern, we scanned 20 meaningful Hebrew words across 5 symbolically significant skips (7, 12, 26, 40, 50) in all five books. Full scan tool: `selah.els.scan`.
 
 ### The symbolic skips
 
@@ -397,9 +397,9 @@ clojure -M:dev
 (require '[selah.text.sefaria :as sefaria]
          '[selah.text.normalize :as norm]
          '[selah.text.locate :as locate]
-         '[selah.els :as els]
-         '[selah.scan :as scan]
-         '[selah.stats :as stats])
+         '[selah.els.engine :as els]
+         '[selah.els.scan :as scan]
+         '[selah.els.stats :as stats])
 
 ;; Load a book's letter stream
 (def genesis (sefaria/book-letters "Genesis"))

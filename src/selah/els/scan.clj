@@ -1,8 +1,8 @@
-(ns selah.scan
+(ns selah.els.scan
   "Broad ELS scanning — search meaningful Hebrew words across symbolic skips."
-  (:require [selah.els :as els]
+  (:require [selah.els.engine :as els]
             [selah.text.sefaria :as sefaria]
-            [selah.stats :as stats]))
+            [selah.els.stats :as stats]))
 
 ;; ── Symbolic skips ──────────────────────────────────────────────────
 

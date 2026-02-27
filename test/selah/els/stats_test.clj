@@ -1,7 +1,7 @@
-(ns selah.stats-test
+(ns selah.els.stats-test
   (:require [clojure.test :refer [deftest testing is are]]
-            [selah.els :as els]
-            [selah.stats :as stats]
+            [selah.els.engine :as els]
+            [selah.els.stats :as stats]
             [selah.text.sefaria :as sefaria]))
 
 ;; ── Load all five books (cached) ────────────────────────────────────

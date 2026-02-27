@@ -1,6 +1,6 @@
-(ns selah.stats
+(ns selah.els.stats
   "Statistical significance analysis for ELS patterns."
-  (:require [selah.els :as els]))
+  (:require [selah.els.engine :as els]))
 
 (defn letter-prob
   "Probability of a specific letter in a stream, based on frequency."

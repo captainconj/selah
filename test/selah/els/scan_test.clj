@@ -1,7 +1,7 @@
-(ns selah.scan-test
+(ns selah.els.scan-test
   (:require [clojure.test :refer [deftest testing is]]
-            [selah.scan :as scan]
-            [selah.stats :as stats]))
+            [selah.els.scan :as scan]
+            [selah.els.stats :as stats]))
 
 ;; ── Load books once ─────────────────────────────────────────────────
 
