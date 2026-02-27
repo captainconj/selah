@@ -37,11 +37,13 @@ The skip values themselves carry meaning. **50** is the number of days from the 
 
 **3 hits.** The first begins at the 6th letter of the book.
 
-| Hit | Start (0-based) | Position in book |
-|-----|-----------------|------------------|
-| 1   | 5               | 0.01% (near the very beginning) |
-| 2   | 18,854          | 24.1% |
-| 3   | 76,617          | 97.8% |
+| Hit | Start (0-based) | Chapter | Narrative context |
+|-----|-----------------|---------|-------------------|
+| 1   | 5               | Genesis 1 | **Creation.** The opening words of the Torah. |
+| 2   | 18,854          | Genesis 16 | **Hagar and the angel.** The first promise of a nation. |
+| 3   | 76,617          | Genesis 49 | **Jacob blesses the twelve tribes.** The closing. |
+
+The first and last hits frame the entire book — creation to the blessing of Israel.
 
 Published claim verified:
 
@@ -59,7 +61,20 @@ The letters land in:
 
 ### Exodus — תורה at skip +50
 
-**8 hits** — notably more than any other book at this skip. The first begins at position 8.
+**8 hits** — notably more than any other book at this skip (3.5× expected, p=0.001). The first begins at position 8.
+
+| Hit | Start (0-based) | Chapter | Narrative context |
+|-----|-----------------|---------|-------------------|
+| 1   | 7               | Exodus 1 | **Slavery.** The opening — Israel in Egypt. |
+| 2   | 5,112           | Exodus 4 | **Moses sent to Pharaoh.** "Let my son go." |
+| 3   | 16,452          | Exodus 12 | **Passover instructions.** How to eat the lamb. |
+| 4   | 18,571          | Exodus 12 | **Passover law.** "No bone shall be broken." |
+| 5   | 20,300          | Exodus 14 | **Pursuit.** "What have we done, letting Israel go?" |
+| 6   | 21,826          | Exodus 14 | **The Red Sea.** "Israel saw the great hand." |
+| 7   | 50,930          | Exodus 33 | **Face to face.** "You have found favor in my eyes." |
+| 8   | 60,523          | Exodus 39 | **The Tabernacle.** Priestly garments completed. |
+
+The 8 hits trace the entire Exodus arc: slavery, calling, Passover, deliverance, encounter, dwelling.
 
 Published claim verified:
 
@@ -74,6 +89,18 @@ Both Genesis and Exodus begin their first תורה within the first 10 letters o
 ### Leviticus — יהוה at skip +7
 
 **7 hits** of God's name at skip 7 in the center book.
+
+| Hit | Start (0-based) | Chapter | Narrative context |
+|-----|-----------------|---------|-------------------|
+| 1   | 22,308          | Leviticus 14 | **Purification from tzaraat.** Restoring the unclean to community. |
+| 2   | 24,927          | Leviticus 16 | **Yom Kippur.** The scapegoat for Azazel. The central ritual of the Torah. |
+| 3   | 32,641          | Leviticus 21 | **Priestly holiness.** Requirements for who may serve before God. |
+| 4   | 38,060          | Leviticus 24 | **"I am YHWH your God."** כי אני יהוה אלהיכם — the ELS of God's name lands where the surface text declares the same name. |
+| 5   | 43,139          | Leviticus 26 | **Covenant blessings and curses.** "I am YHWH their God." כי אני יהוה אלהיהם — again, the hidden encoding surfaces where the plain text says the Name. |
+| 6   | 44,164          | Leviticus 27 | **Dedications to YHWH.** Valuations of things consecrated. |
+| 7   | 44,909          | Leviticus 27 | **Dedications to YHWH.** Two hits in the closing chapter of the center book. |
+
+The 7 hits trace a theological arc: purification → atonement → holiness → self-revelation → covenant → dedication. Hits 4 and 5 are the most striking — the ELS encoding of God's name lands precisely in passages where the surface text itself declares "I am YHWH." The hidden structure echoes the plain text.
 
 For context, יהוה appears **317 times** at skip 1 (surface text) in Leviticus — it is saturated with the divine name. At skip 7, the 7 occurrences stand out against surrounding skips:
 
@@ -91,20 +118,22 @@ Skip 7 is not the highest count in the neighborhood, but 7 is a symbolically sig
 
 **2 hits.** The reverse reading.
 
-| Hit | Start (0-based) | % into book |
-|-----|-----------------|-------------|
-| 1   | 163             | 0.26%       |
-| 2   | 60,606          | 94.9%       |
+| Hit | Start (0-based) | Chapter | Narrative context |
+|-----|-----------------|---------|-------------------|
+| 1   | 163             | Numbers 1 | **The census.** Counting Israel's armies by tribe. |
+| 2   | 60,606          | Numbers 34 | **Borders of the land.** The inheritance mapped out. |
+
+The two hits frame Numbers: the counting of the people, and the land promised to them.
 
 ### Deuteronomy — תורה at skip -50
 
 **3 hits.**
 
-| Hit | Start (0-based) | % into book |
-|-----|-----------------|-------------|
-| 1   | 20,603          | 37.3%       |
-| 2   | 31,222          | 56.5%       |
-| 3   | 35,481          | 64.3%       |
+| Hit | Start (0-based) | Chapter | Narrative context |
+|-----|-----------------|---------|-------------------|
+| 1   | 20,603          | Deuteronomy 11 | **Obedience and the land.** "The land YHWH your God gives you." |
+| 2   | 31,222          | Deuteronomy 19 | **Cities of refuge.** Purging innocent blood from Israel. |
+| 3   | 35,481          | Deuteronomy 22 | **Purging evil.** Laws of communal responsibility. |
 
 ---
 
@@ -346,45 +375,17 @@ Some absences are as notable as presences:
 
 ---
 
-## How to Reproduce the Broad Scan
-
-```bash
-clojure -M:dev
-```
-
-```clojure
-(require '[selah.scan :as scan])
-
-;; Load all books (uses cache)
-(def books (scan/load-books))
-
-;; Run full scan: all words × all symbolic skips × all books
-(def results (scan/scan-all books))
-
-;; Print summary table
-(scan/print-summary results)
-
-;; Find statistically notable patterns (ratio > 2× expected)
-(def notable (scan/notable-patterns books results))
-(doseq [{:keys [word english skip ratio books-with-hits]} notable]
-  (println word english "skip=" skip "ratio=" ratio "books=" books-with-hits))
-
-;; Search for any word at any skip
-(require '[selah.els :as els])
-(els/search (get books "Genesis") "ישוע" 26)
-```
-
----
-
 ## How to Reproduce
 
 All commands assume you're in the project root with cached Sefaria data in `data/cache/sefaria/`.
 
-### Run the tests (confirms the pattern)
+### Run the tests (confirms everything)
 
 ```bash
 clojure -X:dev:test
 ```
+
+35 tests, 162 assertions covering the chiastic pattern, statistical analysis, and broad scan.
 
 ### REPL exploration
 
@@ -395,7 +396,10 @@ clojure -M:dev
 ```clojure
 (require '[selah.text.sefaria :as sefaria]
          '[selah.text.normalize :as norm]
-         '[selah.els :as els])
+         '[selah.text.locate :as locate]
+         '[selah.els :as els]
+         '[selah.scan :as scan]
+         '[selah.stats :as stats])
 
 ;; Load a book's letter stream
 (def genesis (sefaria/book-letters "Genesis"))
@@ -409,15 +413,27 @@ clojure -M:dev
 (els/search genesis "תורה" 50)
 ;=> ({:start 5, :skip 50, :word "תורה"} ...)
 
-;; Scan across a range of skips
-(els/scan genesis "תורה" 2 100)
+;; Map hits to chapter locations
+(def gen-map (locate/chapter-map "Genesis"))
+(locate/locate "Genesis" gen-map 18854)
+;=> {:book "Genesis", :chapter 16, :local-pos ...}
+
+;; Locate all hits at once
+(locate/locate-hits "Genesis" gen-map (els/search genesis "תורה" 50))
+
+;; Broad scan: all words × all symbolic skips × all books
+(def books (scan/load-books))
+(def results (scan/scan-all books))
+(scan/print-summary results)
+
+;; Find statistically notable patterns (ratio > 2× expected)
+(def notable (scan/notable-patterns books results))
+(doseq [{:keys [word english skip ratio books-with-hits]} notable]
+  (println word english "skip=" skip "ratio=" ratio "books=" books-with-hits))
 
 ;; Debug window around a position (1-based)
 (els/debug-window genesis 6 10)
 ;=> {:snippet "בראשיתבראאלהיםאתהשמי", :pointer 5, :letter \ת, ...}
-
-;; Surface occurrences (skip 1)
-(count (els/search genesis "תורה" 1))  ;=> 0
 ```
 
 ### First-time setup (if no cache exists)
