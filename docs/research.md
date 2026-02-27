@@ -120,12 +120,109 @@ Numbers convince the mind. Images convince the heart. The chiastic structure is 
 
 ---
 
+## 5. Lineage Translations
+
+**Question:** Do the names in the genealogies carry a message when read as their root meanings?
+
+Hebrew names are not arbitrary labels — they are sentences. Each name in a lineage was chosen with semantic intent. When you read the meaning of each name in sequence, does a message emerge?
+
+**Starting points:**
+
+- **Genesis 5 (Adam → Noah):** Adam, Seth, Enosh, Kenan, Mahalalel, Jared, Enoch, Methuselah, Lamech, Noah. The commonly cited translation: "Man appointed mortal sorrow. The blessed God shall come down teaching. His death shall bring the despairing rest." This needs rigorous verification against Hebrew roots.
+
+- **Genesis 10–11 (Table of Nations / Shem → Abram):** The post-flood lineage. Do the names trace a theological narrative through the scattering and re-gathering?
+
+- **Ruth 4:18-22 (Perez → David):** The lineage that produces the king.
+
+- **Matthew 1 (Abraham → Jesus):** The New Testament opens with a genealogy. 3 sets of 14 generations. 14 = the gematria of דוד (David: ד=4 + ו=6 + ד=4). Do the Hebrew name meanings across this lineage tell a story?
+
+**Approach:**
+1. Collect the names in Hebrew
+2. Research each name's root meaning (lexicon sources, Strong's concordance)
+3. Lay out the sequence of meanings
+4. Check: does a coherent message emerge, or does it require forcing?
+5. Compare multiple scholarly translations of each name to avoid cherry-picking
+
+**What we'd learn:**
+Whether the genealogies are not just lists but compressed narratives — names as sentences, lineages as stories.
+
+---
+
+## 6. The Ark — Dimensions as Design
+
+**Question:** Do the specifications of Noah's Ark (Genesis 6:14-16) encode something beyond carpentry?
+
+The dimensions: 300 × 50 × 30 cubits. Three decks. One window. One door. These numbers appear nowhere else in the Torah in this combination.
+
+**Areas to investigate:**
+- Ratios: 300:50:30 = 6:1:0.6 — what are the proportional relationships?
+- Gematria of the construction terms
+- Structural parallels to the Tabernacle (also given exact dimensions by God)
+- The word תבה (ark/vessel) appears only twice in Torah — Noah's ark and Moses' basket. Both vessels of salvation through water.
+- Naval architecture: modern analysis has shown these proportions are remarkably seaworthy
+
+**What we'd learn:**
+Whether the Ark specifications are purely narrative or carry embedded meaning through their numbers and vocabulary.
+
+---
+
+## 7. The Tabernacle — Blueprint as Theology
+
+**Question:** Do the Tabernacle's dimensions, materials, and layout encode a theological structure?
+
+Exodus 25-31 and 35-40 give extraordinary detail — measurements, materials, colors, arrangement. This is the most specification-dense section of the Torah.
+
+**Areas to investigate:**
+- Dimensional relationships between the Ark of the Covenant, the Table, the Menorah, the Altar
+- The progression from outer court → holy place → holy of holies as a spatial theology
+- Material symbolism: gold, silver, bronze, blue/purple/scarlet, acacia wood
+- Numerical patterns: 10 curtains, 5 bars, 3 layers, specific cubit measurements
+- ELS analysis within the Tabernacle passages specifically — do the construction chapters carry different ELS signatures than the surrounding narrative?
+- Parallels to Genesis 1: some scholars see the seven speeches of Tabernacle instruction mirroring the seven days of creation
+
+**What we'd learn:**
+Whether the Tabernacle is a microcosm — a physical structure whose specifications encode the same theology we're finding in the letter structure.
+
+---
+
+## 8. Matthew 1 — The Genealogy Claim
+
+**Question:** Does the genealogy in Matthew 1 carry an ELS or gematria structure in its original language?
+
+Matthew opens with "the book of the genealogy of Jesus Christ, son of David, son of Abraham" and then lists 42 generations in three groups of 14. Claims exist that:
+
+- The three groups of 14 correspond to דוד (David) = 14 in gematria
+- The names read as meanings tell a compressed gospel narrative
+- There may be ELS patterns in the Hebrew/Aramaic behind the Greek text
+
+**Complications:**
+- Matthew is written in Greek, not Hebrew
+- The original Semitic substrate (if any) is debated
+- We'd need to work with the Hebrew names underlying the Greek transliterations
+
+**Approach:**
+1. Extract the 42 names from Matthew 1
+2. Map each to its Hebrew form
+3. Translate each name to its root meaning
+4. Check the gematria structure (3 × 14 = 3 × דוד)
+5. If a Hebrew reconstruction exists, test for ELS patterns
+6. Compare the Matthean genealogy to the Luke 3 genealogy (which differs)
+
+**What we'd learn:**
+Whether the New Testament's opening genealogy is designed with the same structural intentionality we see in the Torah's letter patterns.
+
+---
+
 ## Priority Order
 
 1. **Variant sensitivity** — the most scientifically rigorous next step. Answers "how precise is this?"
 2. **Non-Torah controls** — the strongest skeptical challenge. Answers "is this unique?"
-3. **Proximity mapping** — deepens what we already have. Answers "is there more structure?"
-4. **Visualization** — communicates what we've found. Answers "can others see it?"
+3. **Lineage translations** — immediately accessible, no new text sources needed. Answers "do the names speak?"
+4. **Proximity mapping** — deepens what we already have. Answers "is there more structure?"
+5. **The Tabernacle** — specification-dense, rich territory. Answers "is the blueprint a theology?"
+6. **The Ark** — focused investigation. Answers "are the numbers more than measurements?"
+7. **Matthew 1** — crosses into NT territory, requires careful sourcing. Answers "does the pattern extend?"
+8. **Visualization** — communicates what we've found. Answers "can others see it?"
 
 ---
 
