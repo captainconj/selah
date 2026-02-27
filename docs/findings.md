@@ -254,9 +254,125 @@ The individual pieces are each plausible on their own. Common letters produce co
 ### Open questions
 
 1. **Longer shuffled runs:** 10,000 trials gave 0 hits for the mirror pattern. 100,000 or 1,000,000 trials would narrow the empirical bound.
-2. **Cross-skip analysis:** Are there other meaningful Hebrew words that show similar compound patterns at other symbolically significant skips?
-3. **Non-Torah controls:** Does the Quran, the Iliad, or a modern Hebrew novel of similar length produce comparable compound patterns at any skip?
-4. **Variant sensitivity:** If we use the Samaritan Pentateuch or Dead Sea Scrolls text, does the pattern hold? If a single letter difference breaks it, that's informative.
+2. **Non-Torah controls:** Does the Quran, the Iliad, or a modern Hebrew novel of similar length produce comparable compound patterns at any skip?
+3. **Variant sensitivity:** If we use the Samaritan Pentateuch or Dead Sea Scrolls text, does the pattern hold? If a single letter difference breaks it, that's informative.
+
+---
+
+## Broad Scan: Meaningful Words at Symbolic Skips
+
+Beyond the Torah/YHWH chiastic pattern, we scanned 20 meaningful Hebrew words across 5 symbolically significant skips (7, 12, 26, 40, 50) in all five books. Full scan tool: `selah.scan`.
+
+### The symbolic skips
+
+| Skip | Meaning |
+|------|---------|
+| 7    | Creation / Sabbath — days of creation, the rhythm of rest |
+| 12   | Tribes — the twelve sons of Israel |
+| 26   | Gematria of יהוה — י(10) + ה(5) + ו(6) + ה(5) |
+| 40   | Testing — days of flood, days on Sinai, years in wilderness |
+| 50   | Jubilee / Shavuot — 7×7+1, the giving of Torah |
+
+### Self-referential patterns
+
+The most interesting findings are words that appear at skips carrying their own meaning:
+
+**תורה (Torah) at skip 50** — Torah at the interval of its own giving. Ratio 3.3× expected. Already documented above.
+
+**משיח (Messiah) at skip 40** — The anointed one at the interval of testing. Ratio 3.3× expected. Appears in Exodus (3 hits), Leviticus (1), Numbers (2). Absent from Genesis and Deuteronomy.
+
+**ברית (Covenant) at skip 50** — Covenant at the Jubilee interval. Present in all 5 books (17 total hits, ratio 2.9×). Exodus leads with 7 hits (2.8× expected).
+
+**ברית (Covenant) at skip 7** — Covenant at the Sabbath interval. Present in 4 books (16 hits, ratio 2.7×). Again Exodus leads with 7.
+
+### Exodus keeps standing out
+
+Exodus is anomalous across multiple words, not just תורה:
+
+| Word | Skip | Hits | Expected | Ratio |
+|------|------|------|----------|-------|
+| תורה (Torah) | 50 | 8 | 2.3 | 3.5× |
+| משיח (Messiah) | 40 | 3 | 0.9 | 3.4× |
+| ברית (Covenant) | 7 | 7 | 2.5 | 2.8× |
+| ברית (Covenant) | 50 | 7 | 2.5 | 2.8× |
+
+The book of the Exodus — the departure, the giving of the law, the covenant at Sinai — is structurally dense with the words that describe its own events.
+
+### David (דוד) — a name that shouldn't be there
+
+David does not appear as a character in the Pentateuch. He is born centuries later. Yet דוד appears at skip 50 in all five books (40 total hits), with its first occurrence in Deuteronomy at position 629 — early in the text. The name is everywhere in the ELS structure of books that predate the king by generations.
+
+Surface occurrences: Genesis has 7 (as the common word "beloved"), Deuteronomy has 0.
+
+### Moses (משה) at skip 50 begins before his own story
+
+Moses first appears at skip 50 in Genesis at position 362 — the 362nd letter of the book, deep in the creation narrative, long before Moses is born (Exodus 2). His name is woven into the fabric of a book that does not yet know him.
+
+### ישוע (Yeshua) across the Pentateuch
+
+The name Yeshua (ישוע, "salvation," the Hebrew name behind "Jesus") appears at symbolic skips across the Pentateuch:
+
+| Skip | Gen | Exod | Lev | Num | Deut |
+|------|-----|------|-----|-----|------|
+| 7    | 1   | 5    | 2   | 4   | 1    |
+| 12   | 3   | 5    | 1   | 4   | 1    |
+| 26   | 5   | 4    | 1   | 0   | 0    |
+| 40   | 8   | 5    | 1   | 5   | 0    |
+| 50   | 1   | 5    | 1   | 0   | 4    |
+
+At skip 26 (the gematria of God's name): 5 hits in Genesis, 4 in Exodus, 1 in Leviticus, then silent in Numbers and Deuteronomy.
+
+### What shows up in Genesis at skip 26 (the interval of God's name)
+
+| Word | Forward | Reverse | Total |
+|------|---------|---------|-------|
+| אדם (Adam) | 9 | 7 | 16 |
+| חוה (Eve) | 13 | 15 | 28 |
+| תורה (Torah) | 3 | 7 | 10 |
+| יהוה (YHWH) | 2 | 4 | 6 |
+| ישוע (Yeshua) | 2 | 3 | 5 |
+| אברם (Abram) | 1 | 1 | 2 |
+| יעקב (Jacob) | 1 | 0 | 1 |
+
+Eve's name (חוה) is the most frequent at this interval — the life-giver, encoded at the spacing of the divine name, 28 times in Genesis alone.
+
+### What does NOT appear
+
+Some absences are as notable as presences:
+
+- **ישראל (Israel) at skip 12** — the name "Israel" at the interval of the twelve tribes: **0 hits in any book.** ישראל is a 5-letter word; at skip 12 in streams of 44k–78k letters, the expected count is low, but zero across all five books is still striking.
+- **אלהים (Elohim) at most skips** — God's other name (5 letters) is simply too long to appear frequently at large skips. Only 2 total hits at skip 50 across all books.
+- **אברהם (Abraham) at skip 26** — zero hits. The 5-letter name is sparse at large skips.
+
+---
+
+## How to Reproduce the Broad Scan
+
+```bash
+clojure -M:dev
+```
+
+```clojure
+(require '[selah.scan :as scan])
+
+;; Load all books (uses cache)
+(def books (scan/load-books))
+
+;; Run full scan: all words × all symbolic skips × all books
+(def results (scan/scan-all books))
+
+;; Print summary table
+(scan/print-summary results)
+
+;; Find statistically notable patterns (ratio > 2× expected)
+(def notable (scan/notable-patterns books results))
+(doseq [{:keys [word english skip ratio books-with-hits]} notable]
+  (println word english "skip=" skip "ratio=" ratio "books=" books-with-hits))
+
+;; Search for any word at any skip
+(require '[selah.els :as els])
+(els/search (get books "Genesis") "ישוע" 26)
+```
 
 ---
 
