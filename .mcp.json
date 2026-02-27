@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "selah-repl": {
+      "command": "/home/scott/Projects/selah/scripts/mcp-bridge.sh"
+    }
+  }
+}
