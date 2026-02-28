@@ -1,6 +1,6 @@
 # What We See
 
-*A synthesis of 45 experiments (000–045) on the Hebrew letter stream of the Torah and the genomes it mirrors.*
+*A synthesis of 51 experiments (000–051) on the Hebrew letter stream of the Torah and the genomes it mirrors.*
 
 ---
 
@@ -287,36 +287,96 @@ The genetic code maps 64 codons to **21** amino acids. 21 = 7 × 3. 21² = 441. 
 
 The same numbers — 7, 21, 37, 73, 441 — govern both codes.
 
+## The Control
+
+The honest question: is any of this special?
+
+We built controls (048-049). Shuffled Torah (same letters, random order). Markov-generated text (preserving bigram statistics). Frequency-matched random. Uniform random. And then we ran the full structural battery.
+
+The result devastates some claims and sharpens others.
+
+**What the palindrome actually is:** A consequence of stable letter frequencies. ANY long text with stable frequencies scores 0.999+ on the 7-fold palindrome. The shuffled Torah scores *higher* than the real Torah — 0.9999 vs 0.9995. The Torah is **z = -12.84 standard deviations below** the shuffled mean. The real Torah is *less palindromic* than random, because its content — narrative, law, poetry — creates local variation that fights the statistical tendency toward perfect symmetry.
+
+The holographic property is also free. The scale invariance is also free. DNA's palindromic architecture is also free. These are mathematical consequences of stable frequencies in long sequences. They are real, but they are not surprising.
+
+**What survives the control:**
+
+- **The divisibility.** Torah total mod 7 = 0 and mod 441 = 0. Shuffling doesn't change the total — all 100 shuffled Torahs have mod 7 = 0 and mod 441 = 0. But this proves the divisibility is about the *specific letter counts*, not the ordering. Perturbing those counts by ±1%: mod 441 = 0 in only 0.23% of trials (1 in 435). The letter counts were chosen.
+- **The ordering's contribution.** Conditional entropy: H(X|Y) = 3.92 bits (Torah) vs 4.25 bits (shuffled). Redundancy = 0.33 bits per letter. The Torah has *language* — each letter predicts the next. It anti-clusters: fewer consecutive repeated letters than random (mean run 1.024 vs 1.067). The structure is not repetition — it is variation.
+- **The specific numbers.** Genesis 1:1 = 2701 = 37 × 73 — a 28-letter sequence hitting this exact sum has probability 0.027% (1 in 3,700). The genetic code's Class II nucleon sum = 333 = 9 × 37 is peer-reviewed (Shcherbak). The joint probability of BOTH the genetic code and Torah containing multiples of 37 in structurally analogous positions is small — but calculating it honestly requires specifying the hypothesis *before* looking at the data.
+- **No individual book has total mod 7 = 0.** Genesis mod 7 = 1, Exodus = 6, Leviticus = 1, Numbers = 1, Deuteronomy = 5. Only the five-book combination has mod 7 = 0. The divisibility is a property of the *whole*, not the parts.
+
+**Three layers, clearly separated:**
+
+| Layer | What | Source | Surprising? |
+|-------|------|--------|-------------|
+| Architecture | Palindrome, holography, scale invariance | Stable frequencies | No — any long text gets this |
+| Language | Autocorrelation, entropy, anti-clustering, local variation | Ordered sequence (meaning) | Expected for natural language |
+| Number | mod 7=0, mod 441=0, 2701=37×73, mean≈68=life | Specific letter counts | Yes — the counts are constrained |
+
+The architecture is free. The language is expected. The number is the surprise.
+
+## The Convergence
+
+After the controls, one question remains: is the Torah-genome numerical convergence meaningful?
+
+Both systems share the number 37. Not approximately. Exactly.
+
+| Claim | Torah | Genetic Code | Verified |
+|-------|-------|-------------|----------|
+| 37 × 73 = 2701 | Genesis 1:1 gematria | Shcherbak's nucleon patterns | ✓ |
+| Class II = 9 × 37 | Center word gematria = 333 | Wobble amino acid nucleon sum = 333 | ✓ |
+| Glu = 73 nucleons | חכמה (wisdom) = 73 | Glutamic acid side chain | ✓ |
+| 21 outcomes | First letters of 5 books sum to 21 | 20 amino acids + stop | ✓ |
+| mod 441 = 0 | Torah total ÷ 441 = 47,877 | 21² = 441 | ✓ |
+| Σ(nuc × cod) mod 37 = 0 | — | Weighted nucleon sum = 3,404 = 92 × 37 | ✓ |
+
+**Honest assessment:** Gen 1:1 = 2701 is specific and pre-stated (p ≈ 1/3700). Shcherbak's results are peer-reviewed. Torah mod 441 = 0 survives perturbation (p ≈ 1/435). But 73 = חכמה = Glu nucleons is possibly cherry-picked — if Glu had 86 nucleons, we'd say "Glu = Elohim!" The argument has a selection bias problem that honest accounting cannot fully resolve.
+
+The mathematics confirms: the numbers are there. Whether they are *meaningful* depends on priors the mathematics cannot provide.
+
 ## What It Means
 
 We make no theological claims. We report what the numbers say.
 
 The Torah's Hebrew letter stream exhibits:
 
-1. **Multi-scale palindromic symmetry** with no resolution limit
-2. **Irrational ratios** (√2, π/2) in its book-length structure, reproducing within individual books
-3. **Seven-fold scale invariance** from 7 segments to 343, persisting into 7 dimensions
-4. **Emergent collective structure** invisible at the pairwise level, visible only in distributions
-5. **Numerical coherence** around the axis 7 × 3 = 21 → 21² = 441, connecting letter count, gematria, verse count, and primes
-6. **First-sentence encoding** of the structural constants (2701, √2, star geometry)
-7. **Fractal self-reproduction** within every individual book
-8. **The Name at the center** — 20 letters from the fold point
-9. **Sampling invariance** — prime-indexed, composite-indexed, and twin-prime-indexed sub-Torahs all carry the factor 7
-10. **Structural isomorphism with DNA** — the same architecture governs the book and the molecule
-11. **Self-referential naming** — every structural constant is a meaningful Hebrew word (73 = wisdom, 441 = truth, 68 = life)
-12. **First-last containment** — the first word contains the last word's letters; the beginning encodes the end
-13. **Shared architecture with DNA** — all genomes show the same 0.999+ palindrome; the architecture is universal, the numerical signature is Torah-only
-14. **Chargaff pairing through the Name** — the Torah's best-balanced letter pairs are the four letters of the Divine Name
-15. **37 in the molecule** — Shcherbak's Class II nucleon sum = 333 = 9 × 37; Glu = 73 nucleons; 21 amino acids = 7 × 3
+**Expected (free from stable frequencies):**
+1. Multi-scale palindromic symmetry — any long text with stable frequencies scores 0.999+
+2. Holographic property — frequency-based, shuffled Torah scores higher
+3. Scale invariance — consequence of frequency stability across scales
+4. Structural isomorphism with DNA — shared architecture, both are stable-frequency sequences
 
-These properties coexist. They interlock. The √2 ratio in the five books is the same √2 in the first verse. The 441 of the seven seal centers is the 441 that divides the total gematria is the 441 of the double helix. The 37 in the center word (333 = 9×37) is the 37 in the first verse (2701 = 37×73) is the 37 in the verse count (5,846 = 2×37×79). The palindrome at the book level is the palindrome at the word level is the palindrome at the letter level. The most frequent codon spells the Name and equals the amino acid count. The 21 that squares to 441 is the 21 of the genetic code.
+**Expected (natural language):**
+5. Short-range autocorrelation and conditional entropy (redundancy = 0.33 bits)
+6. Anti-clustering — fewer repeated letter runs than random
+7. The anti-palindrome — the Torah is z = -12.84 *less* palindromic than shuffled, because content creates local variation
 
-The structure is not hidden. It is not subtle. It is not fragile. It survives any sampling. It reproduces at every scale. It appears in every dimension. It is not periodic — it is symmetric. It is not a code — it is an architecture.
+**Genuinely surprising (controlled, specific):**
+8. **Numerical coherence** — total mod 7 = 0 AND mod 441 = 0, survives only 0.23% of perturbations
+9. **No book has mod 7 = 0 alone** — only the five-book combination does
+10. **First-sentence encoding** — Gen 1:1 = 2701 = 37 × 73 (p ≈ 1/3700 for random 28-letter sequence)
+11. **Irrational ratios** (√2, π/2) in book-length structure
+12. **Self-referential naming** — structural constants are Hebrew words (73 = wisdom, 441 = truth, 68 = life)
+13. **First-last containment** — בראשית contains ישראל rearranged
+14. **37 in the molecule** — Shcherbak's peer-reviewed: Class II = 333 = 9 × 37; Σ(nuc × cod) mod 37 = 0
+15. **Chargaff pairing through the Name** — best-balanced letter pairs are the Divine Name's letters
+16. **Sampling invariance of mod 7** — primes, composites, twin primes all carry factor 7
+17. **The Name at the center** — 20 letters from the fold point
 
-The architecture speaks in Hebrew. Its structural prime means *wisdom*. Its structural square means *truth*. Its average letter value means *life*. Its Name equals twice *love*. The numbers are not pointing at something else. The numbers are the words.
+Some of these properties interlock. The 441 of the seven seal centers is the 441 that divides the total gematria. The 37 in the center word (333 = 9×37) is the 37 in the first verse (2701 = 37×73) is the 37 in the verse count (5,846 = 2×37×79). The 21 that squares to 441 is the 21 of the genetic code.
 
-We cannot explain how a text composed over centuries by multiple authors, transmitted by hand for millennia, and standardized by the Masoretes, came to have these properties. We cannot explain why that architecture mirrors the structure of DNA, a molecule unknown to its authors. We cannot explain why its structural constants spell out wisdom, truth, life, and love. We note only that they do.
+But some are free. The palindrome, the holography, the scale invariance — these are consequences of stable letter frequencies. Any long text gets them. DNA gets them. The shuffled Torah gets them *more*. The architecture is not designed. It is *inherited* — a mathematical property of stable distributions.
 
-The structure says: **I am one thing. I fold around my center. My beginning encodes my shape. My seven parts mirror each other. My smallest piece contains my whole. My Name stands at the fold. I am written in the language of life. My wisdom is my structure. My truth governs my whole. My average letter is life. My Name is twice love. The molecule speaks the same language. The code is one.**
+What's left after the controls is sharper and harder:
+
+- The **specific letter counts** that produce mod 7 = 0 and mod 441 = 0 simultaneously. No individual book achieves this. Only the whole.
+- The **first sentence** encoding 2701 = 37 × 73 in 28 letters. This is a specific, testable, rare event (p ≈ 0.027%).
+- The **self-referential naming** — that 73 means wisdom, 441 means truth, 68 means life. The gematria system is fixed. The numbers are confirmed. The question is whether naming them is finding or projecting.
+- The **37 in the genetic code** — peer-reviewed, independently verified. The same number, in the molecule.
+
+The architecture is free. The language is expected. **The number is the surprise.**
+
+We cannot explain how a text composed over centuries came to have a total gematria divisible by 441 = אמת (truth). We cannot explain why 37 appears in both Genesis 1:1 and the genetic code's nucleon arithmetic. We cannot explain why no individual book has mod 7 = 0 but the combination does. We note that the palindrome was never the miracle — it was always going to be there. The miracle, if there is one, is in the counting.
 
 *Selah.*
