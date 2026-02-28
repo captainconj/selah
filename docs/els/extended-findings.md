@@ -264,6 +264,89 @@ Diagonal sums: Main = 5,321,502. Anti = 5,400,216. Both diagonals are close — 
 
 ---
 
+## Chiastic Decomposition — A-B-C-B'-A' as Linear Algebra
+
+The five books form a chiasm: A-B-C-B'-A'. Each book can be represented as a 22-dimensional vector (one dimension per Hebrew letter, normalized frequency). The chiastic structure decomposes into symmetric and antisymmetric components.
+
+### The palindromic mirror
+
+| Pair | Anti/Sym ratio | Interpretation |
+|------|---------------|----------------|
+| B/B' (Exodus / Numbers) | **0.045** | 95.5% mirror — the tightest pair |
+| A/A' (Genesis / Deuteronomy) | **0.060** | 94.0% mirror |
+
+The inner pair is a tighter reflection than the outer pair. Both pairs are >94% symmetric.
+
+### What the antisymmetric component reveals
+
+The difference between paired books — what varies across the chiasm:
+
+- **Genesis → Deuteronomy**: gains **ה** (+0.8%), gains **כ** (+0.4%), loses **י**, **ו**, **א**
+- **Exodus → Numbers**: gains **ת** (+0.6%), gains **ה**, loses **נ**, **ל**, **ב**
+
+Both pairs gain ה toward the latter book. The Torah accumulates ה as it progresses forward — the letter at the center, the definite article, the letter that appears twice in יהוה.
+
+### Letter stability across books
+
+| Most variable | CV | Most stable | CV |
+|---------------|-----|-------------|-----|
+| ט (tet, 9) | 0.39 | ר (resh, 200) | 0.04 |
+| ז (zayin, 7) | 0.18 | ב (bet, 2) | 0.05 |
+| צ (tsade, 90) | 0.19 | ו (vav, 6) | 0.05 |
+
+The **high-energy letters are the most stable** across books. The low-value letters fluctuate. The principal components (the eigenvectors that carry the most energy) are rigid; the small components are free to vary. This is the signature of a robust encoding — the structure is preserved in the dominant modes, while the minor modes accommodate linguistic variation.
+
+### Leviticus as centroid
+
+Leviticus has cosine similarity **0.9966** to the mean letter distribution of all five books — it is the closest book to the "average Torah." The center of the chiasm is also the statistical center of the 22-dimensional distribution space.
+
+---
+
+## את (Aleph-Tav) Distribution
+
+### Counts
+
+| Book | את | ואת | Total |
+|------|-----|------|-------|
+| Genesis | 665 | 210 | 875 |
+| Exodus | 649 | 220 | 869 |
+| Leviticus | 429 | 178 | 607 |
+| Numbers | 439 | 125 | 564 |
+| Deuteronomy | 435 | 95 | 530 |
+| **Total** | **2,617** | **828** | **3,445** |
+
+The ואת form decreases steadily through the Torah (210 → 220 → 178 → 125 → 95), while את alone remains more stable.
+
+### The את markers cluster at the centers
+
+The chapters with the **most** את+ואת markers in the entire Torah:
+
+| Rank | Chapter | Count | Significance |
+|------|---------|-------|-------------|
+| 1 | **Leviticus 8** | **76** | Center of the Torah — consecration |
+| 2 | Exodus 40 | 63 | Tabernacle completion |
+| 3 | Exodus 39 | 63 | Priestly garments |
+| 4 | **Leviticus 14** | 61 | Center of Leviticus — purification |
+| 5 | Exodus 29 | 58 | Consecration of priests |
+
+The two chapters that contain the geometric centers of the text (Leviticus 8 for the whole Torah, Leviticus 14 for Leviticus) are ranked #1 and #4 in את density. The את markers are *densest at the center*.
+
+### Genesis 1:1 — the first two markers
+
+The first two את markers in the entire Torah:
+- **את** at word 4, stream position **14** (= 2 × 7)
+- **ואת** at word 6, stream position **21** (= 3 × 7)
+
+Both positions are multiples of 7. "In the beginning God created **את** the heavens **ואת** the earth."
+
+### Spacing
+
+Mean spacing between consecutive markers: **88.9 letters** (median: 40). The spacing distribution is exponential-like — most markers are clustered close together, with occasional long gaps.
+
+One את marker every ~89 letters on average. The Torah is 306,269 letters long. 306,269 / 3,445 ≈ 88.9.
+
+---
+
 ## Numerical Coincidences — The Numbers Behind the Numbers
 
 ### Total Torah gematria: 21,113,757 = 3³ × 7² × 15,959
