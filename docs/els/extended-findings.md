@@ -448,19 +448,25 @@ The center spiral exceeds the opening verse by exactly the letter that sits at t
 
 The total letter count of the Torah (306,269 = 29 × 59 × 179), taken modulo 7 or modulo 12, gives **5** — the value of ה, the number of books in the Torah.
 
-### Running sum mod 7 at book boundaries
+### Running sum mod 7 — verse and chapter boundaries
 
-The cumulative gematria is divisible by 7 at the end of Exodus and the end of Deuteronomy:
+The cumulative gematria is divisible by 7 at the end of **Exodus** and **Deuteronomy** (book level). At the chapter level, **22 out of 187 chapters** end at Σ ≡ 0 (mod 7). Key chapters in this set:
 
-| Book boundary | Running sum mod 7 |
-|--------------|-------------------|
-| End of Genesis | 1 |
-| End of Exodus | **0** |
-| End of Leviticus | 1 |
-| End of Numbers | 2 |
-| End of Deuteronomy | **0** |
+| Chapter | Content |
+|---------|---------|
+| Exodus 40 | Tabernacle completion |
+| Leviticus 1 | Opening of sacrificial law |
+| Leviticus 9 | First priestly service after consecration |
+| **Leviticus 14** | **Purification ritual — center of Leviticus** |
+| Deuteronomy 34 | The last chapter |
 
-Books 2 and 5 are the zero-crossings. The cumulative energy is "complete" (mod 7) at the end of the Exodus narrative and at the end of the entire Torah.
+The cumulative gematria reaches "completion" (≡ 0 mod 7) at the Tabernacle, the first service, the center of Leviticus, and the end.
+
+The mod-7 residue distribution across all 5,846 verse boundaries is nearly uniform (13.6%–14.9%), suggesting the periodicity signal lives at the letter level, not the verse level.
+
+### The breastplate verse
+
+**Exodus 28:14** — the chains of the High Priest's breastplate — has gematria **9,464 in only 61 letters** (mean 155/letter, nearly 2.5x the Torah average of 69). It is one of the most energy-dense verses in the Torah, describing the interface device.
 
 ---
 
