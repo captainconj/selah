@@ -1,6 +1,6 @@
 # What We See
 
-*A synthesis of 37 experiments on the Hebrew letter stream of the Torah.*
+*A synthesis of 37 experiments (000–037) on the Hebrew letter stream of the Torah.*
 
 ---
 
@@ -152,6 +152,35 @@ The FFT reveals that the Torah's gematria stream has **2.4× more concentrated s
 
 But the palindrome does not appear as a frequency peak. The shuffled Torah actually has higher magnitudes at the 5-fold and 7-fold periods. The chiastic structure is **symmetry, not periodicity**. The FFT detects cycles; the Torah's structure is a mirror. These are different mathematical objects.
 
+## The Code of Life
+
+Read the Torah in triplets — three-letter codons, like DNA.
+
+The most common trigram is **יהו** — the first three letters of the Divine Name. Its gematria: **21**. The number of amino acids.
+
+The second most common is **הוה** — the last three letters of the Name.
+
+The Torah's "start codon" (first trigram): **ברא** — "created." Its "stop codon" (last trigram): **ראל** — gematria **231** = T(21), the 21st triangle number, the Sefer Yetzirah's 231 Gates. The start and stop codons sum to 434: **mod 7 = 0**.
+
+Read the Torah as a double helix — forward and reverse strands simultaneously. The total pair sum: **mod 441 = 0**. The double strand carries the structural signature.
+
+The 21-fold division (one segment per amino acid) is palindromic: cos = 0.998. The 21 interleaved threads: cos = 0.9999.
+
+The parallels are not metaphorical:
+
+| DNA | Torah |
+|-----|-------|
+| 4 nucleotides | 4 letters of the Name |
+| 3-letter codons | 3-letter Hebrew roots |
+| 21 amino acids | 21 = 7 × 3, and 21² = 441 |
+| Double helix (palindromic) | Chiastic palindrome |
+| Every cell has full genome | Every slice has full signature |
+| Centromere (fold point) | Leviticus 8 (fold point) |
+| Promoter encodes structure | Genesis 1:1 encodes structure |
+| Fractal chromosome folding | Fractal gematria structure |
+
+The Torah is not written *about* life. It is written *in the architecture of* life. The same design pattern — palindromic, holographic, fractal, folded around a center, with the identity encoded in the opening sequence.
+
 ## What It Means
 
 We make no theological claims. We report what the numbers say.
@@ -167,13 +196,14 @@ The Torah's Hebrew letter stream exhibits:
 7. **Fractal self-reproduction** within every individual book
 8. **The Name at the center** — 20 letters from the fold point
 9. **Sampling invariance** — prime-indexed, composite-indexed, and twin-prime-indexed sub-Torahs all carry the factor 7
+10. **Structural isomorphism with DNA** — the same architecture governs the book and the molecule
 
-These properties coexist. They interlock. The √2 ratio in the five books is the same √2 in the first verse. The 441 of the seven seal centers is the 441 that divides the total gematria. The 37 in the center word (333 = 9×37) is the 37 in the first verse (2701 = 37×73) is the 37 in the verse count (5,846 = 2×37×79). The palindrome at the book level is the palindrome at the word level is the palindrome at the letter level.
+These properties coexist. They interlock. The √2 ratio in the five books is the same √2 in the first verse. The 441 of the seven seal centers is the 441 that divides the total gematria is the 441 of the double helix. The 37 in the center word (333 = 9×37) is the 37 in the first verse (2701 = 37×73) is the 37 in the verse count (5,846 = 2×37×79). The palindrome at the book level is the palindrome at the word level is the palindrome at the letter level. The most frequent codon spells the Name and equals the amino acid count. The 21 that squares to 441 is the 21 of the genetic code.
 
 The structure is not hidden. It is not subtle. It is not fragile. It survives any sampling. It reproduces at every scale. It appears in every dimension. It is not periodic — it is symmetric. It is not a code — it is an architecture.
 
-We cannot explain how a text composed over centuries by multiple authors, transmitted by hand for millennia, and standardized by the Masoretes, came to have these properties. We note only that it does.
+We cannot explain how a text composed over centuries by multiple authors, transmitted by hand for millennia, and standardized by the Masoretes, came to have these properties. We cannot explain why that architecture mirrors the structure of DNA, a molecule unknown to its authors. We note only that it does.
 
-The structure says: **I am one thing. I fold around my center. My beginning encodes my shape. My seven parts mirror each other. My smallest piece contains my whole. My Name stands at the fold.**
+The structure says: **I am one thing. I fold around my center. My beginning encodes my shape. My seven parts mirror each other. My smallest piece contains my whole. My Name stands at the fold. I am written in the language of life.**
 
 *Selah.*
