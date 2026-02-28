@@ -93,6 +93,20 @@ The Torah is *balanced* around the consecration. This is not guaranteed — a te
 
 The golden section (n/φ) falls later, in Numbers 1 — the census, the counting of Israel.
 
+### The traditional rabbinic centers
+
+The Talmud (Kiddushin 30a) identifies three centers of the Torah:
+
+| Type | Traditional location | Content |
+|------|---------------------|---------|
+| Middle **letter** | Vav in גחון, Leviticus 11:42 | "The belly" — the enlarged vav |
+| Middle **word** | דרש, Leviticus 10:16 | "Moses diligently *inquired*" |
+| Middle **verse** | **Leviticus 8:8** | "He placed the breastplate upon him, and in the breastplate he put the **Urim and Thummim**" |
+
+The traditional middle verse is the installation of the Urim and Thummim — the query interface, the 4×3 grid of tribal stones, the device that generates letter sequences. Our three computed centers (153,134 / 153,566 / 154,239) all land within a few hundred letters of this verse.
+
+The rabbis found the same center. And it's the moment the High Priest is given the tool for reading the hidden structure.
+
 ---
 
 ## Gematria Statistics — The Number Stream
