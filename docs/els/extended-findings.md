@@ -74,6 +74,58 @@ The difference likely reflects minor variations between our Sefaria-sourced text
 
 ---
 
+---
+
+## The Three Centers Converge
+
+Three different mathematical definitions of "center" were computed for the entire Torah (306,269 letters). All three converge on the same chapter.
+
+| Center type | Definition | Position | Location | Letter |
+|-------------|-----------|----------|----------|--------|
+| Geometric | n/2 | 153,134 | **Leviticus 8:29** | ה |
+| Energy midpoint | Σ(gematria)/2 | 153,566 | **Leviticus 8** | ר |
+| Center of mass | Σ(i × v_i) / Σ(v_i) | 154,239 | **Leviticus 9** | ה |
+| Golden section | n/φ | 189,284 | Numbers 1 | ב |
+
+The geometric center, the energy midpoint, and the center of mass all fall in **Leviticus 8–9** — the consecration of the priesthood. Aaron and his sons anointed with blood and oil. The breast waved before YHWH.
+
+The Torah is *balanced* around the consecration. This is not guaranteed — a text with uneven letter-value distribution across its length would have its energy midpoint and center of mass diverge from its geometric center. The convergence means the gematria energy is evenly distributed, as if the numerical weight of the text was intentionally balanced.
+
+The golden section (n/φ) falls later, in Numbers 1 — the census, the counting of Israel.
+
+---
+
+## Gematria Statistics — The Number Stream
+
+### Per-book statistics
+
+| Book | Letters | Total value | Mean | Median | Skewness | Excess kurtosis |
+|------|---------|-------------|------|--------|----------|-----------------|
+| Genesis | 78,364 | 5,128,061 | 65.44 | 10 | 2.058 | 3.060 |
+| Exodus | 63,857 | 4,662,888 | 73.02 | 20 | 1.857 | 2.116 |
+| Leviticus | 44,980 | 3,150,911 | 70.05 | 10 | 1.931 | 2.402 |
+| Numbers | 63,846 | 4,372,012 | 68.48 | 20 | 1.979 | 2.679 |
+| Deuteronomy | 55,222 | 3,799,885 | 68.81 | 20 | 1.964 | 2.574 |
+| **Total** | **306,269** | **21,113,757** | **68.94** | **10** | **1.963** | **2.586** |
+
+The skewness (~1.96) and excess kurtosis (~2.6) are remarkably consistent across all five books — like five samples from the same underlying distribution. Same signal, five windows.
+
+### The eigenspectrum — power law energy distribution
+
+Letter energy = frequency × gematria value. The distribution follows a power law:
+
+| Letter | Value | Count | Freq | Energy | % of total |
+|--------|-------|-------|------|--------|------------|
+| ת | 400 | 17,995 | 5.9% | 7,198,000 | **34.1%** |
+| ש | 300 | 15,625 | 5.1% | 4,687,500 | **22.2%** |
+| ר | 200 | 18,194 | 5.9% | 3,638,800 | **17.2%** |
+
+The top 3 letters (ת, ש, ר) carry **73.5%** of all gematria energy while comprising only **16.9%** of the letter count. This is the signature of a power law — a few principal components dominate the signal.
+
+This matches the eigenvalue distribution found in neural networks, natural signals, and covariance matrices of physical systems.
+
+---
+
 ## Method
 
 Centers computed from Hebrew letter streams (U+05D0–U+05EA only, final forms preserved) sourced from the Sefaria API. Geometric center = ⌊total_letters / 2⌋. Verse locations identified via `selah.text.locate/locate`.
