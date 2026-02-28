@@ -365,4 +365,10 @@ But the *selection* of these features — lemma counting instead of surface coun
 
 The Torah ELS pattern is different in kind. It has no analytical freedom — the skips come from theology, the text is fixed, and shuffled controls fail 10,000 out of 10,000 times. It doesn't require anyone to count a specific way or scope to a specific range. It just sits there in the letters.
 
-Both inquiries taught us something. The sevens investigation taught us how real patterns can emerge from feature selection — and how important it is to distinguish "the numbers check out" from "the numbers couldn't have happened by chance." The ELS investigation taught us that some patterns survive every test, and when they do, they don't need to be coaxed.
+And there is something deeper. The word *Torah* (תורה) comes from the root ירה — to point, to direct, to aim at a target. The Torah is instruction in the most literal sense: it *points*.
+
+The ELS patterns are exactly this. They are not static properties like counts or sums. They are *vectors* — skip sequences that move directionally through the letter stream. The chiastic structure points forward in Genesis and Exodus, backward in Numbers and Deuteronomy, all converging on Leviticus. The text's hidden geometry enacts its own name. The instruction *instructs* even in its structure.
+
+Panin's sevens are snapshots — numerical properties frozen in place. The Torah's patterns have direction. They move. They point. They have a target. That distinction may matter more than any p-value.
+
+Both inquiries taught us something. The sevens investigation taught us how real patterns can emerge from feature selection — and how important it is to distinguish "the numbers check out" from "the numbers couldn't have happened by chance." The ELS investigation taught us that some patterns survive every test, and when they do, they don't need to be coaxed. They point.
