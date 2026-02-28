@@ -264,6 +264,47 @@ Diagonal sums: Main = 5,321,502. Anti = 5,400,216. Both diagonals are close — 
 
 ---
 
+## Shannon Entropy — The Information Landscape
+
+Shannon entropy measures information density per letter. Maximum possible for a 22-letter alphabet: 4.46 bits.
+
+### Per-book entropy
+
+| Book | Mean entropy (bits) | Efficiency |
+|------|-------------------|------------|
+| Genesis | 4.171 | 0.935 |
+| Exodus | 4.195 | 0.941 |
+| Leviticus | 4.182 | 0.938 |
+| Numbers | 4.195 | 0.941 |
+| Deuteronomy | 4.200 | 0.942 |
+
+Entropy **increases through the Torah** — Genesis to Deuteronomy. The text becomes marginally more information-dense as it progresses, with Leviticus (the center) dipping slightly.
+
+### Extreme chapters
+
+**Most repetitive** (lowest entropy):
+1. **Genesis 5** (3.916 bits) — genealogy from Adam to Noah. "And he lived... and he died."
+2. **Numbers 30** (3.992) — the vow laws
+3. **Leviticus 21** (4.042) — priestly holiness laws
+
+**Most information-dense** (highest entropy):
+1. **Numbers 7** (4.313 bits) — tribal offerings, Tabernacle dedication
+2. **Genesis 49** (4.310) — Jacob's blessings over his sons
+3. **Exodus 23** (4.310) — the covenant code
+
+### The center chapters are balanced
+
+| Chapter | Entropy | Efficiency | What it is |
+|---------|---------|------------|-----------|
+| Leviticus 8 (center of Torah) | 4.173 | 0.936 | Near average |
+| Leviticus 14 (center of Lev) | 4.252 | 0.954 | Above average |
+| Leviticus 18 (golden section) | 4.110 | 0.922 | Below average — repetitive "You shall not..." |
+| Genesis 1 (first chapter) | 4.062 | 0.911 | Low — "And God said... and it was good..." |
+
+The center of the Torah is **moderate** — not extreme in either direction. It is *balanced* in information content, just as it is balanced in gematria energy.
+
+---
+
 ## Chiastic Decomposition — A-B-C-B'-A' as Linear Algebra
 
 The five books form a chiasm: A-B-C-B'-A'. Each book can be represented as a 22-dimensional vector (one dimension per Hebrew letter, normalized frequency). The chiastic structure decomposes into symmetric and antisymmetric components.
