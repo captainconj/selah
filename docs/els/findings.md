@@ -375,6 +375,18 @@ Some absences are as notable as presences:
 
 ---
 
+## Torah Means "To Point"
+
+The word *Torah* (תורה) comes from the root ירה — to throw, to aim, to point, to direct. Torah is not "law" in the static sense. It is instruction as *direction*. It points at a target.
+
+The ELS patterns are exactly this. They are not static properties of the text — not counts, not sums, not features divisible by some number. They are *vectors*. Each skip sequence moves directionally through the letter stream, extracting meaning at a fixed interval. The chiastic structure points forward in Genesis and Exodus, backward in Numbers and Deuteronomy, all converging on Leviticus — where the Name dwells.
+
+The hidden geometry of the text enacts the meaning of its own name. The Torah points — and its letter-level structure *also* points, across books, at theologically loaded intervals, toward a center.
+
+This is what separates ELS patterns from other claims of biblical numerics (e.g., Panin's heptadic structure in Matthew). Those claims are about numerical *properties* — static counts that happen to be divisible by 7. They are snapshots. The Torah's patterns have direction. They move through the text. They have a target. The medium carries the message.
+
+---
+
 ## How to Reproduce
 
 All commands assume you're in the project root with cached Sefaria data in `data/cache/sefaria/`.
