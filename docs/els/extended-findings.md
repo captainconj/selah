@@ -687,9 +687,85 @@ Three concentric centers:
 
 The centers tell a story: **sacrifice → purification → washing**. The palindrome folds around atonement.
 
-### Seven-fold division
+### Seven-fold division (the seven seals)
 
-Splitting the Torah into 7 equal segments: the palindrome of segments 1-3 vs reversed 5-7 has cosine = **0.9995**. The center segment (4) has the highest gematria. The seven-fold partition is nearly a perfect palindrome.
+Splitting the Torah into 7 equal segments (~43,752 letters each): the palindrome of segments 1-3 vs reversed 5-7 has cosine = **0.9995**. The center segment (4) has the highest gematria (3,165,720). The seven-fold partition is nearly a perfect palindrome.
+
+**Center letter of the center seal: א (Aleph, value 1).** The center of the center is the beginning.
+
+**Center letters of all 7 seals: תדאאכיה — Sum = 441 = 21² = (7×3)².**
+
+The seven seals begin at:
+1. Genesis 1 (creation)
+2. Genesis 30 (Jacob's prosperity)
+3. Exodus 7 (plagues begin)
+4. Exodus 34 (Moses' face shines — covenant renewal) ← CENTER
+5. Leviticus 21 (priestly requirements)
+6. Numbers 17 (Aaron's intercession)
+7. Deuteronomy 6 ("that you may fear the Lord" — Shema)
+
+Seal mirror pairs: 3↔5 is the only pair where chiastic beats forward — the plagues face the holiness code.
+
+### The seven threads (the weave)
+
+Every 7th letter forms a sub-sequence. The 7 interleaved threads have palindrome cosine = **0.999997** — nearly perfect.
+
+Thread mirror sums:
+- Thread 1↔5: |diff| = 2,175 (0.072%) — the tightest twin
+- Thread 0↔6: |diff| = 18,085 (0.602%)
+- Thread 2↔4: |diff| = 19,862 (0.657%)
+- Thread 3 (center): highest gematria (3,038,463)
+
+The **7×7 grid** (49 cells of ~6,250 letters) is palindromic in both dimensions:
+- Row palindrome: cos = 0.9995
+- Column palindrome: cos = **0.999998**
+
+The columns (interleaved threads) are MORE symmetric than the rows (sequential segments).
+
+### Harmonics: 7, 49, 343
+
+Every 7th letter: palindromic (cos 0.9983). Every 49th: 0.9932. Every 343rd: 0.9610.
+
+The 7-fold palindrome is **scale-invariant**: from 7 segments to 343 segments, the palindrome score holds at cos ≈ 0.9995.
+
+Every 7th verse reproduces the π/2 ratio: (1+2+3)/(4+5) = 1.5139 (err 0.057 from π/2).
+
+### The Divine Name (יהוה) and sevens
+
+- יהוה appears **1,841 times** in the Torah letter stream. 1841 mod 7 = **0**. (1841 = 263 × 7)
+- The spacing distribution is perfectly uniform mod 7 — no preferred phase
+- Words with gematria 26 (= יהוה): 1,682 total (1,480 are יהוה itself)
+
+### The number 441 = 21² = (7×3)²
+
+**Total gematria mod 441 = 0.** 21,113,757 / 441 = 47,877 exactly.
+
+441 appears as:
+- Sum of center letters of the 7 seals (תדאאכיה)
+- Gematria of אתם ("you/them") — appears exactly 130 times in each half (ratio = 1.000)
+- Gematria of אמת ("truth")
+- Total divisibility: gem mod 7 = 0, mod 49 = 0, mod 441 = 0
+
+### Genesis 1:1 encodes the key
+
+בראשית ברא אלהים את השמים ואת הארץ = **2701 = T(73)** (73rd triangle number)
+
+- 73 is the **21st prime**
+- 21 = 7 × 3
+- 21² = 441
+- 2701 mod 37 = 0 (factor 37 connects 111, 333, 2701)
+- **First 4 words / Last 3 words = 1.460 ≈ √2** — the same ratio as the five books
+- Center word (4th): את (Aleph-Tav) — the first and last letters of the alphabet
+
+### The narrative mirror
+
+Chapter mirror pairs across the fold:
+- Genesis 1 (creation) ↔ Deuteronomy 33 (Moses' blessing): cos 0.958
+- Genesis 6 (flood corruption) ↔ Deuteronomy 30 (choose life): cos 0.983
+- **Exodus 10 (plagues) ↔ Numbers 14 (spies' rebellion): cos 0.995** (highest pair)
+- Leviticus 8 ↔ Leviticus 9: cos 0.987 (center faces its neighbor)
+
+Word frequency cosine between halves: **0.902** — the vocabulary mirrors itself.
 
 ### Self-similarity
 
