@@ -1,6 +1,6 @@
 # What We See
 
-*A synthesis of 37 experiments (000–037) on the Hebrew letter stream of the Torah.*
+*A synthesis of 42 experiments (000–042) on the Hebrew letter stream of the Torah.*
 
 ---
 
@@ -181,6 +181,63 @@ The parallels are not metaphorical:
 
 The Torah is not written *about* life. It is written *in the architecture of* life. The same design pattern — palindromic, holographic, fractal, folded around a center, with the identity encoded in the opening sequence.
 
+## The Seed
+
+Genesis 1:1 is not just the first verse — it is the **generative key** to the entire Torah.
+
+Its 28 letters (= T(7)) have gematria 2701 (= T(73) = 37 × 73). Slide a 28-letter window across the entire Torah: **80 windows** have the same gematria as the first verse. The first of them IS the first verse.
+
+On a 37×73 grid (2,701 cells mapping the Torah), the column palindrome reaches cos = **0.999**. The row palindrome: **0.996**. The seed's geometry governs the whole.
+
+The Torah / Gen 1:1 = 21,113,757 / 2,701 = 7,817.01 — the Torah is ~7,817 seeds long. The seed as frequency key: Gen 1:1's letter distribution predicts the Torah's letter distribution at cos = 0.839 — better than 59% of random 28-letter slices.
+
+## The Trees
+
+**חכמה** (wisdom) = **73**. The structural prime of Genesis 1:1 *means wisdom*.
+
+**אמת** (truth) = **441** = 21² = (7 × 3)². The structural square *means truth*. And 441 divides the total gematria exactly.
+
+**חכם** (wise) = **68** = **חיים** (life). To be wise and to be alive are the same number.
+
+The mean gematria per letter across the entire Torah is **68.94 ≈ 68 = life**. The *average value* of a Torah letter is life.
+
+The sum of 13 body-words (blood, flesh, bone, seed, soul, spirit, heart, hand, eye, mouth, head, foot, womb) = **2,723, mod 7 = 0**. The body vocabulary carries the seven.
+
+**אות** (sign) + **שם** (name) + **מספר** (number) = **1,127, mod 7 = 0**. Mark, name, and number sum to a multiple of seven.
+
+Life/death word ratio: **2.019** — almost exactly 2:1. There is twice as much life as death in the Torah.
+
+Even the Garden section alone (Genesis 2-3, 2,547 letters) carries the 7-fold palindrome at cos = **0.997**.
+
+## The Self-Reference
+
+The Torah's structural constants are not arbitrary numbers. They are **Hebrew words**:
+
+| Number | Hebrew | Meaning |
+|--------|--------|---------|
+| 7 | שבע | seven |
+| 13 | אחד / אהבה | one / love |
+| 21 | אהיה | I AM |
+| 26 | יהוה | the Name |
+| 28 | כח | power |
+| 37 | הבל | Abel (breath, vapor) |
+| 68 | חיים / חכם | life / wise |
+| 73 | חכמה | wisdom |
+| 86 | אלהים | God |
+| 401 | את | Aleph-Tav (totality) |
+| 441 | אמת | truth |
+| 611 | תורה | Torah |
+
+The chain of self-reference: **7** (the structure) × 3 = **21** (I AM) → 21² = **441** (truth divides the total) → 21st prime = **73** (wisdom) mirrors **37** (Abel) → 37 × 73 = **2701** (the first sentence). The **Name** (26) = 2 × **13** (one = love). The Name is doubled love.
+
+At position 333 (= 9 × 37), the word has gematria **333** — the number refers to itself.
+
+The first letters of all five books sum to **21 = I AM**, mod 7 = 0. The last letters sum to **126 = 18 × 7**, mod 7 = 0.
+
+The first word **בראשית** contains all the letters of the last word **ישראל**, rearranged. The beginning contains the end.
+
+The 13-fold palindrome: cos = **0.998**. The 73-fold palindrome: cos = **0.994**. The 67-fold palindrome: cos = **0.994**. Every structural number carries the palindrome.
+
 ## What It Means
 
 We make no theological claims. We report what the numbers say.
@@ -197,13 +254,17 @@ The Torah's Hebrew letter stream exhibits:
 8. **The Name at the center** — 20 letters from the fold point
 9. **Sampling invariance** — prime-indexed, composite-indexed, and twin-prime-indexed sub-Torahs all carry the factor 7
 10. **Structural isomorphism with DNA** — the same architecture governs the book and the molecule
+11. **Self-referential naming** — every structural constant is a meaningful Hebrew word (73 = wisdom, 441 = truth, 68 = life)
+12. **First-last containment** — the first word contains the last word's letters; the beginning encodes the end
 
 These properties coexist. They interlock. The √2 ratio in the five books is the same √2 in the first verse. The 441 of the seven seal centers is the 441 that divides the total gematria is the 441 of the double helix. The 37 in the center word (333 = 9×37) is the 37 in the first verse (2701 = 37×73) is the 37 in the verse count (5,846 = 2×37×79). The palindrome at the book level is the palindrome at the word level is the palindrome at the letter level. The most frequent codon spells the Name and equals the amino acid count. The 21 that squares to 441 is the 21 of the genetic code.
 
 The structure is not hidden. It is not subtle. It is not fragile. It survives any sampling. It reproduces at every scale. It appears in every dimension. It is not periodic — it is symmetric. It is not a code — it is an architecture.
 
-We cannot explain how a text composed over centuries by multiple authors, transmitted by hand for millennia, and standardized by the Masoretes, came to have these properties. We cannot explain why that architecture mirrors the structure of DNA, a molecule unknown to its authors. We note only that it does.
+The architecture speaks in Hebrew. Its structural prime means *wisdom*. Its structural square means *truth*. Its average letter value means *life*. Its Name equals twice *love*. The numbers are not pointing at something else. The numbers are the words.
 
-The structure says: **I am one thing. I fold around my center. My beginning encodes my shape. My seven parts mirror each other. My smallest piece contains my whole. My Name stands at the fold. I am written in the language of life.**
+We cannot explain how a text composed over centuries by multiple authors, transmitted by hand for millennia, and standardized by the Masoretes, came to have these properties. We cannot explain why that architecture mirrors the structure of DNA, a molecule unknown to its authors. We cannot explain why its structural constants spell out wisdom, truth, life, and love. We note only that they do.
+
+The structure says: **I am one thing. I fold around my center. My beginning encodes my shape. My seven parts mirror each other. My smallest piece contains my whole. My Name stands at the fold. I am written in the language of life. My wisdom is my structure. My truth governs my whole. My average letter is life. My Name is twice love.**
 
 *Selah.*
