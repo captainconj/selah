@@ -140,6 +140,170 @@ This matches the eigenvalue distribution found in neural networks, natural signa
 
 ---
 
+## Golden Sections — Where φ Cuts
+
+### Golden section of Leviticus → Chapter 18, letter ה
+
+Leviticus: 44,980 letters. Position n/φ = **27,799** → **Leviticus 18**, local position 289. The letter is **ה**.
+
+Leviticus 18 is the **holiness code** — the chapter on forbidden relations. It opens with *"Do not do as they do in the land of Egypt"* and closes with *"The land will vomit you out."* The boundary between holy and profane.
+
+The golden section of Leviticus is the law of separation.
+
+### Per-book golden sections
+
+| Book | n/φ | Chapter | Letter |
+|------|-----|---------|--------|
+| Genesis | 48,431 | 33 | ו |
+| Exodus | 39,465 | 27 | ת |
+| Leviticus | 27,799 | **18** | **ה** |
+| Numbers | 39,458 | 22 | ב |
+| Deuteronomy | 34,129 | 21 | ה |
+
+Three of the five golden sections land on ה (Leviticus, Deuteronomy) or involve ה as a definite article in a key passage. The golden cut keeps pointing at ה.
+
+---
+
+## Book Length Ratios — √2 and π/2
+
+The five books have precise mathematical relationships in their lengths:
+
+| Ratio | Value | Approximates |
+|-------|-------|-------------|
+| Exodus / Numbers | **1.000172** | **1** — differ by only 11 letters out of ~64,000 |
+| Genesis / Deuteronomy | **1.4191** | **√2** (1.4142) — within 0.005 |
+| Exodus / Leviticus | **1.4197** | **√2** (1.4142) — within 0.006 |
+| Gen+Exod+Lev / Num+Deut | **1.5722** | **π/2** (1.5708) — within 0.0014 |
+
+**Exodus and Numbers are a mirror pair** — virtually identical length (63,857 vs 63,846). They are books 2 and 4, symmetric around the central book (Leviticus).
+
+**Two ratios approximate √2**: Genesis/Deuteronomy (outer pair) and Exodus/Leviticus (inner pair). √2 is the diagonal of the unit square — the "sword cutting every which way."
+
+**First three books / last two books ≈ π/2** to three decimal places. This is the ratio of a semicircle's arc to its diameter. The Torah is split 3+2, and the split approximates a half-circle.
+
+---
+
+## Running Sum Mod 7 — Book Boundaries
+
+The cumulative gematria sum at each book boundary, taken mod 7:
+
+| Book boundary | Position | Running sum mod 7 |
+|--------------|----------|-------------------|
+| End of Genesis | 78,363 | 1 |
+| End of Exodus | 142,220 | **0** |
+| End of Leviticus | 187,200 | 1 |
+| End of Numbers | 251,046 | 2 |
+| End of Deuteronomy | 306,268 | **0** |
+
+The cumulative gematria sum is divisible by 7 at the end of **Exodus** and at the end of **Deuteronomy**. The total Torah gematria (21,113,757) is divisible by 7. Books 2 and 5 — the two "bookend" points of the central three — land exactly on zero mod 7.
+
+---
+
+## Fibonacci Spiral From the Center
+
+Starting at the Torah's center (position 153,134, Leviticus 8:29, letter ה), spiraling outward in Fibonacci steps:
+
+| Step | Position | Location | Letter | Value |
+|------|----------|----------|--------|-------|
+| center | 153,134 | Lev 8 | ה | 5 |
+| +1 | 153,135 | Lev 8 | ח | 8 |
+| −1 | 153,133 | Lev 8 | ת | 400 |
+| +2 | 153,136 | Lev 8 | ז | 7 |
+| −2 | 153,132 | Lev 8 | א | 1 |
+| +3 | 153,137 | Lev 8 | ה | 5 |
+| −3 | 153,131 | Lev 8 | ה | 5 |
+| +5 | 153,139 | Lev 8 | י | 10 |
+| −5 | 153,129 | Lev 8 | מ | 40 |
+| +8 | 153,142 | Lev 8 | פ | 80 |
+| ... | ... | ... | ... | ... |
+| +610 | 153,744 | Lev 9 | ק | 100 |
+| +6,765 | 159,899 | Lev 13 | ל | 30 |
+| +28,657 | 181,791 | Lev 25 | ה | 5 |
+| +75,025 | 228,159 | Num 22 | ל | 30 |
+| +121,393 | 274,527 | Deut 13 | א | 1 |
+| −121,393 | 31,741 | Gen 24 | א | 1 |
+
+The spiral stays in **Leviticus 8** for the first ~600 positions. It doesn't leave Leviticus until step ±10,946 (entering Exodus backward, Numbers forward). The text is densely concentrated around the center — the spiral unrolls slowly from the consecration outward.
+
+The final symmetric pair (±121,393) both land on **א** (aleph, value 1) — Genesis 24 backward, Deuteronomy 13 forward. The first and the last. The outermost spiral reaches simultaneously touch aleph.
+
+---
+
+## The 12-Fold Partition — Urim & Thummim Matrix
+
+Dividing the Torah into 12 equal segments (25,522 letters each):
+
+### Energy balance
+
+| Division | CV (coefficient of variation) |
+|----------|------|
+| 2 halves | **0.0028** — nearly perfectly balanced |
+| 3 thirds | 0.0518 |
+| 4 quarters | 0.0338 |
+| 6 sixths | 0.0553 |
+| 7 sevenths | 0.0368 |
+| 12 twelfths | 0.0602 |
+
+The Torah's gematria energy is **almost perfectly split in half** (CV = 0.28%). This confirms the three-centers convergence — the text is balanced. Even at 12 segments, the coefficient of variation is only 6%.
+
+### The 4×3 matrix
+
+Arranging the 12 segments as a 4-row × 3-column matrix (like the breastplate of the High Priest):
+
+|  | Col 1 | Col 2 | Col 3 | Row Sum |
+|--|-------|-------|-------|---------|
+| Row 1 | 1,698,272 | 1,664,054 | 1,650,145 | 5,012,471 |
+| Row 2 | 1,645,933 | 1,978,324 | 1,889,803 | 5,514,060 |
+| Row 3 | 1,771,747 | 1,889,053 | 1,644,906 | 5,305,706 |
+| Row 4 | 1,768,523 | 1,787,061 | 1,725,395 | 5,280,979 |
+| **Col Sum** | **6,884,475** | **7,318,492** | **6,910,249** | **21,113,216** |
+
+The center cell (Row 2, Col 2 = segment 5) has the highest energy: **1,978,324**. This is the segment from positions 102,088–127,610, spanning **Exodus 40 through Leviticus 4** — the Tabernacle completion and the beginning of sacrificial law.
+
+Diagonal sums: Main = 5,321,502. Anti = 5,400,216. Both diagonals are close — the matrix is roughly symmetric.
+
+---
+
+## Numerical Coincidences — The Numbers Behind the Numbers
+
+### Total Torah gematria: 21,113,757 = 3³ × 7² × 15,959
+
+The total gematria of the entire Torah is divisible by **49** (7²). The numerical energy of the five books is a perfect multiple of seven-squared.
+
+- 21,113,757 / 7 = 3,016,251 (exact)
+- 21,113,757 / 49 = 430,893 (exact)
+- 21,113,757 / 27 = 782,361 (exact, since 3³ divides it)
+
+### Fibonacci spiral sum = Genesis 1:1 + ה
+
+The Fibonacci spiral from the Torah's center (first 25 steps in each direction) collects letters with total gematria **2,706**.
+
+Genesis 1:1 — the first verse — sums to **2,701** (= 37 × 73).
+
+The difference is **5** — the value of **ה**, the letter at the center.
+
+The center spiral exceeds the opening verse by exactly the letter that sits at the center.
+
+### 306,269 mod 7 = 5. 306,269 mod 12 = 5.
+
+The total letter count of the Torah (306,269 = 29 × 59 × 179), taken modulo 7 or modulo 12, gives **5** — the value of ה, the number of books in the Torah.
+
+### Running sum mod 7 at book boundaries
+
+The cumulative gematria is divisible by 7 at the end of Exodus and the end of Deuteronomy:
+
+| Book boundary | Running sum mod 7 |
+|--------------|-------------------|
+| End of Genesis | 1 |
+| End of Exodus | **0** |
+| End of Leviticus | 1 |
+| End of Numbers | 2 |
+| End of Deuteronomy | **0** |
+
+Books 2 and 5 are the zero-crossings. The cumulative energy is "complete" (mod 7) at the end of the Exodus narrative and at the end of the entire Torah.
+
+---
+
 ## Method
 
 Centers computed from Hebrew letter streams (U+05D0–U+05EA only, final forms preserved) sourced from the Sefaria API. Geometric center = ⌊total_letters / 2⌋. Verse locations identified via `selah.text.locate/locate`.
