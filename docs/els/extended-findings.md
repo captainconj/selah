@@ -363,6 +363,30 @@ The difference between paired books — what varies across the chiasm:
 
 Both pairs gain ה toward the latter book. The Torah accumulates ה as it progresses forward — the letter at the center, the definite article, the letter that appears twice in יהוה.
 
+### Recursive palindromic structure
+
+The chiastic symmetry is not just at the book level — it is **recursive**.
+
+**Between paired books**: Chapter lengths are chiastically correlated. Exodus ch 1 mirrors Numbers ch 36, Exodus ch 2 mirrors Numbers ch 35, etc.
+
+| Pair | Forward correlation | Chiastic (reversed) | Winner |
+|------|-------------------|-------------------|--------|
+| Exodus / Numbers lengths | 0.878 | **0.886** | Chiastic |
+| Genesis / Deuteronomy lengths | 0.864 | **0.899** | Chiastic |
+
+**Within each book**: First half vs reversed second half shows strong palindromic structure.
+
+| Book | Length palindrome | Mean palindrome |
+|------|------------------|-----------------|
+| Genesis | 0.918 | 0.996 |
+| Exodus | 0.939 | 0.990 |
+| Numbers | 0.860 | 0.989 |
+| Deuteronomy | 0.875 | 0.998 |
+
+The gematria mean profiles are >0.99 palindromic in every book — near-perfect internal symmetry in the letter-value distributions.
+
+**The 11-letter difference** between Exodus and Numbers arises from a massive cancellation: Exodus has 4 extra chapters (6,882 letters), but Numbers' first 36 chapters are 6,871 letters longer. 6,882 − 6,871 = 11. Two very different structures integrating to almost exactly the same value. Same bottle size, different wine — the letter counts match while the gematria totals differ by 290,876.
+
 ### Letter stability across books
 
 | Most variable | CV | Most stable | CV |
