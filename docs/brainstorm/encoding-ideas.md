@@ -416,6 +416,32 @@ When the scroll is wound, letters from distant parts of the linear stream become
 
 This is a completely unexplored axis. Everyone reads the scroll unrolled. What does it say *rolled up*?
 
+### 12 as the optimal partition base
+
+12 = 3 × 4. Divisible evenly by 1, 2, 3, 4, 6, and 12. The most divisible small number — more factors than any number near it. This is why we have 12 inches, 12 hours, 12 months, 12 tribes, 12 stones.
+
+The breastplate's 4×3 grid can be read as:
+- 4 rows of 3
+- 3 columns of 4
+- 2 halves of 6
+- 6 pairs of 2
+- 12 individuals
+
+Every partition is clean. No remainders. No fractions. The "sword that turns every which way" — 12 allows clean cuts in every direction. It's the optimal base for slicing data with integrity.
+
+### The spiral fold
+
+The Torah scroll doesn't fold flat — it wraps on a **cylinder**. The fold is a helix, not a crease. Each "fold" wraps around the circumference and advances along the axis.
+
+The chiastic structure IS the fold:
+- Genesis and Deuteronomy are equidistant from the center → they become adjacent when rolled
+- Exodus and Numbers are equidistant → they overlay too
+- Leviticus is at the center → it's at the fold point, the axis
+
+If you fold with golden ratio proportions on a cylinder, you get a **Fibonacci helix** — the same spiral as a sunflower, a nautilus shell, a galaxy. Each wrap is φ times the previous. The Fibonacci positions in the text would be the points where the helix crosses a reference line.
+
+The key missing parameter: the **circumference** of the cylinder. This is defined by the scribal specifications — letters per line × letter width. The Talmudic scroll dimensions literally define the geometry of the helix.
+
 ---
 
 ## 15. את — The Aleph-Tav
