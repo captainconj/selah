@@ -468,6 +468,27 @@ The mod-7 residue distribution across all 5,846 verse boundaries is nearly unifo
 
 **Exodus 28:14** — the chains of the High Priest's breastplate — has gematria **9,464 in only 61 letters** (mean 155/letter, nearly 2.5x the Torah average of 69). It is one of the most energy-dense verses in the Torah, describing the interface device.
 
+## Grid Wrapping — Vertical Word Density
+
+Wrapping the Torah at various widths and scanning vertical columns and diagonals for 14 key Hebrew words (Torah, YHWH, Elohim, Moses, Israel, Shalom, Truth, Life, Holy, Covenant, Love, David, Messiah, Aleph-Tav).
+
+### Word density by width
+
+| Width | Vertical hits | Diagonal hits | Type |
+|-------|--------------|---------------|------|
+| 7 | 1,819 | **4,325** | Symbolic (days) |
+| 8 | 1,773 | 4,233 | Control |
+| 12 | **1,868** | 4,118 | Symbolic (tribes) |
+| 13 | 1,940 | 3,976 | Control |
+| 22 | 1,799 | 3,955 | Symbolic (letters) |
+| 42 | 1,836 | 3,818 | Symbolic (6×7) |
+| 49 | 1,735 | 3,749 | Symbolic (7²) |
+| 50 | 1,806 | 3,705 | Symbolic (Tabernacle) |
+
+Width 7 produces the most diagonal hits; width 12 produces the most vertical hits. But differences from controls are modest (2-5%). A full dictionary scan is needed for a proper test.
+
+Note: this uses only 14 words. The ELS engine finds many more words at skip-50 — the grid wrapping is effectively ELS at skip=width. The proper test requires comparing symbolic widths against a distribution of random widths with a large word list.
+
 ---
 
 ## Method
