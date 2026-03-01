@@ -20,7 +20,7 @@
    - Fold test: אל→לא at 0.93× (chance). The structure is in vocabulary, not positioning.
    - את shows strongest fold-reversal affinity (1.27×), יה second (1.23×)"
   (:require [selah.gematria :as g]
-            [selah.text.stream :as stream]
+            [selah.text.oshb :as oshb]
             [clojure.string :as str]))
 
 ;; ═══════════════════════════════════════════════════════════════
@@ -148,7 +148,7 @@
   (println "Part 3: The Fold Test — does אל mirror to לא?")
   (println "══════════════════════════════════════════════\n")
 
-  (let [stream (stream/torah-stream)
+  (let [stream (vec (oshb/torah-letters))
         N      (count stream)
         ;; Find all consecutive אל and לא
         al-positions (for [i (range (dec N))
@@ -199,7 +199,7 @@
   (println "Part 4: Pair Reversal Affinity Under the Fold")
   (println "══════════════════════════════════════════════\n")
 
-  (let [stream (stream/torah-stream)
+  (let [stream (vec (oshb/torah-letters))
         N      (count stream)
         test-pairs [[\א \ת] [\א \ל] [\י \ה] [\ה \ו] [\ו \י] [\ו \א]]
         results (for [[c1 c2] test-pairs]
