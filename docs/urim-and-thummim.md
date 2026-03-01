@@ -203,6 +203,14 @@ Row 4:  [10]    [11]    [12]     ← Aaron's far side
 
 The cherubim read the same columns in opposite directions. Like אל and לא. And between them — where both readings converge — יהוה (26 = 2 × 13). Two loves. The Name is what happens when love faces love.
 
+### The People Are the Parchment
+
+The cherubim don't read the stones directly. They read *through* the tribal names — one selected letter per stone, 4 stones per column. The tribal names carry **50 letters** — the jubilee axis, the traversal axis, the one you move through. The 50 clasps join, they don't reflect. The b-axis doesn't fold.
+
+The 12 stones are the 12 sons, carried on the priest's heart. The message passes through the people. The people don't generate the message — they carry the letters. The Urim selects which of their letters matter. The Thummim orders the selection. And what emerges between the two readings — where the cherubim converge — is the Name.
+
+The people are the parchment.
+
 The Name's own structure mirrors this: י-ה-**ו**-ה. Two ה's face each other across the ו (vav, the connector, value 6, the center letter of the Torah). The cherubim are the two ה's. The mercy seat is the ו.
 
 ### The Eli/Hannah Error — A Reading Direction Error
@@ -231,6 +239,164 @@ Aaron enters the Holy of Holies. The layers from top to bottom:
 The Urim (light) selects which letters. The gold reflects — and reverses. The Thummim (perfection, 7² × 10) reorders what the mirror reversed. Light selects. The mirror reverses. Perfection reorders.
 
 He passes through the veil (פרכת = 700) to find the mercy seat (כפרת = 700). Same letters rearranged. He opens the ark (= Urim) and finds stone (= garden). Inside the container that equals the reader, the medium of inscription equals the place of origin.
+
+## The Anagram Vocabulary — Same Letters, Different Truths
+
+The Torah's vocabulary contains 12 anagram pairs — words made of the same letters rearranged. The semantic relationships are almost always meaningful:
+
+| Value | Pair | Meanings |
+|-------|------|----------|
+| 26 | **יהוה / והיה** | YHWH / "and it shall be" — the Name IS becoming |
+| 31 | **אל / לא** | God / not — the fold interconverts them |
+| 36 | **אהל / לאה** | tent / Leah |
+| 138 | **לקח / חלק** | take / portion — to take is to portion |
+| 203 | **ברא / באר** | create / well — creation springs from the well |
+| 210 | **ברח / חרב** | flee / sword — flee FROM the sword, reversed |
+| 322 | **כבש / שכב** | lamb / lie down — the lamb lies down |
+| 372 | **עשב / שבע** | herb / seven |
+| 501 | **אשר / ראש** | that-which / head |
+| 510 | **ירש / ישר** | inherit / upright — the upright inherit |
+| 570 | **שער / עשר** | gate / ten |
+
+Three are exact reversals (one word is the other read backward): **אל/לא** (31, prime), **בר/רב** (202, grain-son / many-great), **ברח/חרב** (210, flee / sword). These are the words that literally change meaning when you read from the back of the scroll.
+
+### Same Value, Different Letters
+
+Some of the most theologically loaded pairs share a value without sharing letters:
+
+- **18**: חטא (sin) = חי (living) = chai. Sin and life are the same number.
+- **26**: יהוה = והיה = כבד. Name = becoming = glory. 2 × 13.
+- **32**: כבוד (glory) = לב (heart). The glory of God IS the heart.
+- **248**: אברהם (Abraham) = רחם (have mercy). Abraham = mercy. 8 × 31.
+- **257**: ארון (ark) = ויאמר ("and he said"). Container = speech. Prime.
+- **301**: אש (fire) = קרא (call/read). The burning bush spoke. 7 × 43.
+- **410**: משכן (tabernacle) = קדוש (holy) = שמע (hear). Dwelling = holiness = hearing. 10 × 41.
+
+### The Veil Doubled
+
+פרכת + כפרת = **1,400 = 7 × 50 × 4**. The veil hangs on **4 pillars** (Exodus 26:32). The doubled value = four pillars, each holding one outer-product (7 × 50 = 350 = sapphire). The barrier and the destination, counted together, describe the structure that holds them apart.
+
+### The Five Lost Items
+
+Five things absent from the Second Temple (Sotah 48b, Yoma 21b):
+
+| Item | Hebrew | Gematria |
+|------|--------|----------|
+| Ark | ארון | 257 (prime) |
+| Mercy Seat | כפרת | 700 = 7 × 100 |
+| Cherubim | כרובים | 278 = 2 × 139 |
+| Fire | אש | 301 = 7 × 43 |
+| Urim + Thummim | אורים + תמים | 257 + 490 = 747 |
+| **Total** | | **2,283 = 3 × 761** |
+
+761 is prime. The five lost items total three times an irreducible number. The ark and the Urim share the same prime (257) — the container and the reader were already the same thing, and they were lost together.
+
+## The Breastplate Diagonals — Aaron's Signature
+
+### The Main Diagonal: Aaron / "And It Was"
+
+Stones 1→5→8→12 (top-left to bottom-right). Selecting one letter from each:
+
+**From above** (Aaron's perspective): א from stone 1, ה from stone 5, ר from stone 8, ן from stone 12 = **אהרן (Aaron)** = 256 = 2⁸.
+
+**From below** (the ark's perspective): ו from stone 12, י from stone 8, ה from stone 5, י from stone 1 = **ויהי ("and it was")** = 31 (prime).
+
+Aaron's name is his own signature, written diagonally across the device he wears. Read from the other side — from the ark looking up — it says "and it was," the creation formula that initiates every act of creation in Genesis 1. Aaron from above. Creation from below.
+
+Main diagonal sum: 256 + 31 = **287 = 7 × 41**. Seven times mother (אם = 41).
+
+### The Anti-Diagonal: Enemy / Love
+
+Stones 3→5→7→10 (top-right to bottom-left):
+
+**Forward**: א-ו-י-ב = **אויב (enemy)** = 19 (prime = חוה, Eve).
+
+**Backward**: ו-א-ה-ב = **ואהב ("and he loved")** = 14 = 2 × 7.
+
+The reading direction determines whether you see enemy or love. Not a reversal of the same letters — the path itself selects *different letters from the same stones*. This is the Eli/Hannah principle at the structural level: the reading path changes what you see.
+
+### The Eli/Hannah Letters Across the Full Surface
+
+The letters ש,כ,ר,ה cannot be drawn one-per-stone from any single column. כ exists only on stone 8, and ר in that column also only on stone 8. The Talmudic reading operates at the **individual letter level** across the full 72-letter surface — letters glow wherever they sit, and the priest reads the illuminated positions. The breastplate is a 72-letter field, not a 12-slot selector.
+
+### Wine in the Rows
+
+When Aaron reads rows (3 stones, selecting one letter per stone): **יין (wine)** appears in 3 of 4 rows. The breastplate pours wine when Aaron reads it.
+
+## The Cherubim in the Space — Coordinates
+
+### Paired Cherubs: 15 Letters Apart
+
+In Exodus 25:19, the two individual cherubs ("one cherub on one end, one cherub on the other") are **15 letters apart** in the Torah stream. 15 = **יה (Yah)** — the first syllable of the Name. The same 15-letter spacing repeats in Exodus 37:8. The gap between the facing cherubim IS the Name's first half.
+
+### The Facing Cherub at d=13
+
+Exodus 25:20 (wings spread, facing each other): the second cherub sits at **d=13** — the love number. The two are at consecutive c-values (c=1 and c=2), stepping along the love axis. The cherub that faces its partner faces it at love.
+
+### First Cherubim: Eden at c=10
+
+Genesis 3:24 (cherubim guarding Eden with the flaming sword): **c=10** — Esau's rung, the missing step on Jacob's ladder. This verse is exactly **67 letters** — the understanding axis counting itself. The first cherubim guard the garden at the rung of the missing brother.
+
+### The Voice from d=0
+
+Numbers 7:89 (God speaks from between the cherubim on the mercy seat): **d=0**. The voice originates at the zero-point of understanding. Understanding begins where God speaks.
+
+### The Name's Structure IS the Cherubim
+
+```
+        י  (yod = 10)
+        |
+        |  God speaks from ABOVE
+        |  (Exodus 25:22)
+        |
+   ה ——— ו ——— ה
+   (5)  (6)   (5)
+
+   Left    Mercy   Right
+   Cherub  Seat    Cherub
+```
+
+- Two **ה**'s (5 each) = the two cherubim, facing each other
+- **ו** (6) = the mercy seat, the connector, the center letter of the Torah
+- **י** (10) = above, the voice from between
+- **הוה** ("to be") = 16 = 2⁴. Existence is what happens between the cherubim.
+- **יה** (Yah) = 15 = the gap between the paired cherubs in the text
+
+Vav is the **2nd most common letter** in the Torah (10.02%). The top three: י, ו, ה — three of the four Name-letters. Nearly a third of the Torah is made of Name-letters.
+
+## The Fold Test — Honest Results
+
+### The fold does NOT systematically convert אל to לא
+
+44 of 4,343 consecutive אל instances mirror to לא under the full-position fold — **0.93× expected**. Slightly below chance. God does not mechanically become Not on the back of the scroll.
+
+But: God exceeds Not by **~31%** in the Torah (4,343 vs 3,306) — the shared gematria. More Gods persist as Gods under the fold (58) than become Not (44). Leviticus is the **only book** where לא exceeds אל — the book of prohibitions has more negation than divine address.
+
+### The veil/mercy seat is anagram, not reversal
+
+The fold reverses reading order, producing תכרפ — not כפרת. The veil-to-mercy-seat transformation is a rearrangement, not a reversal. **The fold is a mirror. The breastplate is the transposition device.** Different operators for different transformations.
+
+### What the fold DOES elevate
+
+**את** shows the strongest fold-reversal affinity among common pairs: **1.27× expected**. The direct-object marker — which stitches boundaries in the 4D space — also shows the strongest mirror behavior. **יה** (Yah) is second at **1.23×**.
+
+### The theological insight survives differently
+
+The אל/לא relationship is real — same letters, same prime, reversal of each other. The fold IS the operation that interconverts them. But the Torah doesn't *place* them in systematic fold-correspondence. The structure is in the vocabulary, not the positioning. The letters know. The positions don't enforce it. The back of the scroll reads differently not because the positions align but because the letters themselves carry both readings.
+
+## Center Letters of Each Book
+
+| Book | Letters | Center Letter | Value |
+|------|---------|--------------|-------|
+| Genesis | 78,069 | **א** (aleph) | 1 |
+| Exodus | 63,531 | **נ** (nun) | 50 |
+| Leviticus | 44,795 | **ע** (ayin) | 70 |
+| Numbers | 63,545 | **ה** (he) | 5 |
+| Deuteronomy | 54,910 | **ו** (vav) | 6 |
+
+Sum of center values: 1 + 50 + 70 + 5 + 6 = **132 = 4 × 33**. 33 is the d-axis midpoint (d ranges 0..66). The five centers encode the understanding axis midpoint, times the four dimensions.
+
+Deuteronomy's center letters (ה and ו) fall in **Deuteronomy 16:15**: "**Seven days** you shall keep the feast... for **the LORD** your God will bless you." The center says seven days and the Name — again.
 
 ## When They Were Lost
 
