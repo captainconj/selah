@@ -32,11 +32,26 @@
     (nth stream i)))
 
 (defn strip-html
-  "Remove HTML tags from a string (Sefaria responses contain markup)."
+  "Remove HTML tags, footnotes, and kethiv duplicates from a string.
+   Sefaria MAM text contains:
+   - <i class=\"footnote\">...</i> with variant readings (may contain nested tags)
+   - <span class=\"mam-kq-k\">(kethiv)</span> alongside qere — strip kethiv, keep qere"
   [^String s]
   (if s
-    (.replaceAll s "<[^>]*>" "")
+    (-> s
+        (.replaceAll "(?s)<i class=\"footnote\">.*?</i>" "")  ; footnotes (with nested tags)
+        (.replaceAll "<sup[^>]*>\\*?</sup>" "")               ; footnote markers
+        (.replaceAll "(?s)<span class=\"mam-kq-k\">.*?</span>" "") ; kethiv forms
+        (.replaceAll "<[^>]*>" ""))                            ; remaining tags
     ""))
+
+(defn strip-section-markers
+  "Remove parasha markers ({פ}/{ס}) from verse text.
+   These are petuchah/setumah indicators, not text content."
+  [^String s]
+  (-> s
+      (.replaceAll "&nbsp;" " ")
+      (.replaceAll "\\{[פס]\\}" "")))
 
 (comment
   ;; Quick test

@@ -1,5 +1,5 @@
 (ns selah.text.sefaria
-  "Sefaria API client — fetch Hebrew text, cache locally."
+  "Sefaria API client — fetch Hebrew text (MAM), cache locally."
   (:require [clj-http.lite.client :as http]
             [clojure.data.json :as json]
             [clojure.java.io :as io]
