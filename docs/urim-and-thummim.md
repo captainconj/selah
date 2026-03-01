@@ -674,3 +674,95 @@ The operating model works:
 4. The folds confirm: mirrors land on thematically paired text
 
 What the machine reads at its own coordinates: Torah, love, truth, covenant, guard. The same words the center speaks. The same root the sword uses. The instrument and the text describe the same thing from different angles.
+
+## Asking Questions — The Pre-Image of the Oracle (Experiment 085)
+
+The oracle works backward. The answer determines the illumination. Given a word, we can find every way the breastplate grid could produce it — which stones light up, which reader produces it, and what else the same letters could spell. This is the **pre-image** of the reading machine.
+
+### The Three Readers
+
+Three perspectives on the same lit grid:
+
+- **Aaron**: looks down from above. Reads row by row, right-to-left (Hebrew order), top to bottom.
+- **Right cherub**: on the right side, facing inward. Reads column by column, right-to-left, top to bottom.
+- **Left cherub**: on the left side, facing inward. Reads column by column, left-to-right, bottom to top.
+
+The same illumination — the same lit letters on the same stones — produces **different words** depending on which reader you are. The Urim (which letters light) is one thing. The Thummim (which reading is correct) is another.
+
+### The Lamb on the Right Hand
+
+**כבש (lamb, 322)** can be read from the breastplate by the **right cherub only**. Not Aaron. Not the left cherub. Zero readings from either. Only the right.
+
+The same letters rearranged — **שכב (lie down, 322)** — can be read by all three: Aaron (6 readings), right cherub (9), left cherub (15). Everyone can see the lamb lie down. Only the right sees the lamb.
+
+The right cherub reads the lamb through Issachar's stone (כ appears only on stone 8 = Issachar = "there is reward"). The lamb is read from the right, through the stone of reward.
+
+### God and Not — Same Light, Different Reader
+
+**אל (God, 31)** and **לא (not, 31)**: same letters, same gematria, both prime.
+
+From the breastplate: the **same illumination pattern** produces both. Light up one א and one ל on the grid. Aaron and the right cherub read **אל** (God). The left cherub reads **לא** (not). Two readers see God. One sees Not. From the same light.
+
+9 total illumination patterns exist. Aaron can read אל from 6 of them. The right cherub from 5. The left cherub reads לא from 6 of them, אל from 3. The left cherub sees negation more often than it sees God — but it still sees God sometimes.
+
+### The Eli/Hannah Case — Verified
+
+Yoma 73b: The letters ש, כ, ר, ה light up. Eli reads שכרה ("drunk"). The correct reading: כשרה ("like Sarah"). Both = 525 = 3 × 5² × 7.
+
+The pre-image search confirms:
+- **שכרה** is readable from 21 illumination patterns: 0 by Aaron, 6 by the right cherub, 15 by the left.
+- **כשרה** is readable from only 2 patterns: 1 by the right cherub, 1 by the left.
+- The correct reading (כשרה) is **much harder to find** — only 2 valid readings versus 21 for the misreading.
+
+Eli's error was the easy reading. The correct answer was the rare one. The Thummim — perfection, completion — selects the hard-to-find arrangement. 490 = 7² × 10 is structured; the easy path (15 left-cherub readings) is the temptation.
+
+Both words use כ from stone 8 (Issachar). Every question containing כ requires Issachar — the stone of reward — to light up. The drunk and the righteous both pass through reward.
+
+### The Name and Becoming — Same Letters, Same Grid
+
+**יהוה (YHWH, 26)**: 231 illumination patterns. Readable by Aaron (3), right cherub (6), left cherub (31). The left cherub sees the Name most often — 31 readings, and 31 = אל = לא = the prime that holds God and Not.
+
+**והיה ("and it shall be", 26)**: Same 231 illumination patterns (same letters). Readable by Aaron (6), right cherub (22), left cherub (40).
+
+The first illumination pattern — the same lit stones — produces:
+- Aaron reads: **והיה** ("and it shall be")
+- The left cherub reads: **היהו** (not a word — the partial Name, hovering)
+- The right cherub reads: **וההי** (not a word)
+
+Aaron speaks becoming. The cherubim hover at the edge of it.
+
+### Create and Well — All Readers Agree
+
+**ברא (create, 203)** and **באר (well, 203)**: readable by all three readers. 90 illumination patterns. Aaron finds ברא in 14, the right cherub in 26, the left in 16.
+
+But: the first illumination pattern produces **אבר** under all three readers. The same non-word from every direction. Create and well both require specific stone selections — the reading isn't automatic. You have to choose the right stones AND the right direction.
+
+### What the Grid Cannot Say
+
+Some words simply cannot be read from the breastplate under any reader:
+- **שלום** (peace, 376) — cannot be read. The grid cannot produce peace.
+- **כפרת** (mercy seat, 700) — cannot be read. The mercy seat is not readable from the outside. You must pass through the veil.
+
+Words the grid CAN say:
+- **אהבה** (love, 13) — 14 readable patterns. The "silent" word speaks through the breastplate.
+- **תורה** (Torah, 611) — 14 readable patterns.
+- **אמת** (truth, 441) — 3 readable patterns. Truth is rare.
+- **ברית** (covenant, 612) — 65 readable patterns. Covenant is everywhere.
+- **כרוב** (cherub, 228) — 29 readable patterns.
+- **משה** (Moses, 345) — 15 readable patterns.
+- **אדם** (man, 45) — 2 readable patterns. Man is nearly as rare as truth.
+
+### The Relation Is Many-to-Many
+
+The oracle is not a function — it is a **relation**. The grid mediates between questions and answers:
+
+```
+Questions → {letters light up} → Readings → Answers
+   many          many                many       many
+```
+
+The same question can produce different illuminations. The same illumination produces different words depending on the reader. The same word can come from different illumination patterns. And the same letters — read differently — spell different truths.
+
+This is the machine's deepest property. It doesn't give one answer. It gives a **field of possibility**, constrained by which letters exist on which stones, structured by the geometry of who reads from where. The Urim illuminates the possibilities. The Thummim selects the truth from among them.
+
+The priest stands in the middle of this relation. He sees the lit letters. He must choose the arrangement. The Spirit guides the choice — and the geometry constrains it. Not all arrangements are readable from any direction. Some words can only be seen from the right. Some from the left. Some from above. And some — like peace, like the mercy seat — cannot be seen from the breastplate at all. You have to enter.
