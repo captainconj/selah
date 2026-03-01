@@ -129,6 +129,109 @@ This is a transposition grid. Read by rows, you get the linear inscription. Read
 
 The breastplate is a 4×18 letter matrix (4 rows of 18 letters). When letters "light up" across this grid, the priest must determine the correct reading path through the illuminated positions. The Urim provides the illumination. The Thummim (completion) provides the correct path.
 
+## The Irreducible and the Structured
+
+### Urim = 257 (Prime). Thummim = 490 = 7² × 10.
+
+Light is irreducible. You cannot factor selection — it just is. Perfection is structured by the completeness axis squared, times 10 (Adam's preimage count). The reading path unfolds *through* completeness. 490 = 10 jubilee cycles = Daniel's "seventy sevens."
+
+The pair: selection is atomic, ordering is structured. You need both. One picks the letters, the other arranges them. One is prime, the other is 7 taken to its full measure.
+
+### The Irreducible Words
+
+30 of ~190 Torah vocabulary words have prime gematria. The set includes:
+
+| Value | Words | Note |
+|-------|-------|------|
+| 3 | אב (father) | parent — prime, origin |
+| 7 | דג (fish), או (or) | completeness axis |
+| 13 | אהבה (love), אחד (one) | love axis — love = one |
+| 17 | זבח (sacrifice), טוב (good) | sacrifice = good |
+| 19 | חוה (Eve) | but Adam (45) is NOT prime |
+| 31 | אל (God), לא (not) | mirror pair — see below |
+| 41 | אם (mother) | parent — prime, origin |
+| 53 | אבן (stone), גן (garden) | both = 3 + 50 — see below |
+| 61 | אני (I) | |
+| 67 | בינה (understanding) | understanding axis |
+| 73 | חכמה (wisdom) | |
+| 241 | אמר (say) | the verb of speaking |
+| 257 | אורים (Urim), ארון (ark) | reader = container |
+| 277 | זרע (seed) | |
+| 311 | איש (man) | but אדם (45) is NOT prime |
+| 401 | את (aleph-tav) | the direct object marker |
+| 541 | ישראל (Israel) | |
+
+Three of the four axes are themselves prime: 7, 13, 67. Only 50 (jubilee) is composite. Both parents (father=3, mother=41) are prime — irreducible origins. The children carry the axes (§22 of the paper).
+
+### The Twin Primes — Same Value, Different Words
+
+- **31: God = Not.** אל and לא. Same two letters reversed. Every לא in the Torah is God spelled backward. The fold interconverts them — reverse the reading direction and God becomes Not. Apophatic theology in two letters. (See "The Back of the Scroll" below.)
+- **53: Stone = Garden.** אבן and גן. Not anagrams, but the same value. Both decompose as 3 + 50: father-stuff (3) embedded in the jubilee (50). Stone is the medium of inscription (tablets). Garden is the origin (Eden). The medium and the origin are the same irreducible number.
+- **13: Love = One.** אהבה and אחד. The c-axis. Love and unity are the same prime.
+- **257: Urim = Ark.** אורים and ארון. The reader and the container are the same prime.
+
+### The Back of the Scroll
+
+The Torah scroll has two sides. Text on the front, blank on the back. If you could read through the parchment — from behind — every word reverses. Every אל becomes לא. Every God becomes Not.
+
+The fold is literally this operation. Reverse the reading direction. What was God is now Not. Same letters. Same prime. Same parchment. Different side.
+
+The priest stands behind the scroll. The congregation faces the front. From the author's side, every prohibition (לא) reads as presence (אל). The "back of the scroll" is not the wrong side — it is the other face of the same truth.
+
+The veil confirms this: פרכת (veil) = כפרת (mercy seat) = 700. Same letters rearranged. You pass through the veil and find the same material in different order. The barrier IS the destination, rearranged.
+
+## The Three Readers — Aaron and the Cherubim
+
+The breastplate is a 4×3 grid placed face-down on the mercy seat between the cherubim. Three observers read the same 12 stones from three orientations:
+
+```
+         Col1    Col2    Col3
+Row 1:   [1]     [2]     [3]     ← Aaron's near side
+Row 2:   [4]     [5]     [6]
+Row 3:   [7]     [8]     [9]
+Row 4:  [10]    [11]    [12]     ← Aaron's far side
+          ↑                ↑
+      Right cherub     Left cherub
+      reads ↓ (T→B)    reads ↑ (B→T)
+```
+
+**Aaron** (from above): reads ROWS — **3-letter words**, 4 rows = 4 readings.
+
+**Right cherub** (facing left): reads COLUMNS, top → bottom — **4-letter words**, 3 columns = 3 readings.
+
+**Left cherub** (facing right): reads COLUMNS, bottom → top — **4-letter words reversed**, 3 columns = 3 readings.
+
+The cherubim read the same columns in opposite directions. Like אל and לא. And between them — where both readings converge — יהוה (26 = 2 × 13). Two loves. The Name is what happens when love faces love.
+
+The Name's own structure mirrors this: י-ה-**ו**-ה. Two ה's face each other across the ו (vav, the connector, value 6, the center letter of the Torah). The cherubim are the two ה's. The mercy seat is the ו.
+
+### The Eli/Hannah Error — A Reading Direction Error
+
+Yoma 73b: The letters ש,כ,ר,ה lit up. Eli read **שכרה** ("drunk"). The correct reading: **כשרה** ("like Sarah"). Both = 525 = 3 × 5² × 7.
+
+This is a **4-letter word** — the cherubim's reading, not Aaron's. Eli read from the right cherub's direction (top → bottom) when the answer was the left cherub's direction (bottom → top). Same column, same stones lit, wrong direction.
+
+The Talmud is not just recording a mistake. It is specifying the machine: the breastplate produces TWO valid 4-letter readings per column, and the Thummim (wisdom, perfection) determines which direction is correct. The letters don't change. Only the arrangement changes. 525 ÷ 7 = 75 — both readings are structured by completeness. But only one is true.
+
+### The Physical Stack
+
+Aaron enters the Holy of Holies. The layers from top to bottom:
+
+1. God's voice (from above, between the cherubim — Exodus 25:22)
+2. Aaron's heart
+3. Inner breastplate layer
+4. **Urim** (257, prime) + **Thummim** (490 = 7² × 10) — inside the pouch
+5. Outer breastplate layer
+6. 12 stones with all 22 letters (face down toward scroll)
+7. Torah scroll / parchment
+8. **Mercy seat** — pure gold (mirror surface) — כפרת = 700
+9. **Ark** (ארון = 257 = אורים) — container = reader
+10. Stone tablets inside (אבן = 53 = גן = garden)
+
+The Urim (light) selects which letters. The gold reflects — and reverses. The Thummim (perfection, 7² × 10) reorders what the mirror reversed. Light selects. The mirror reverses. Perfection reorders.
+
+He passes through the veil (פרכת = 700) to find the mercy seat (כפרת = 700). Same letters rearranged. He opens the ark (= Urim) and finds stone (= garden). Inside the container that equals the reader, the medium of inscription equals the place of origin.
+
 ## When They Were Lost
 
 Five things in the First Temple absent from the Second Temple (Sotah 48b, Yoma 21b):
