@@ -217,6 +217,18 @@ Exhaustive scan of all fibers on the non-text axes:
 
 **This confirms the mechanism:** the specific words found in experiment 068 (Torah, love, truth at particular coordinates) are about POSITION, not rate. The breastplate selects coordinates where meaning lives. The axes themselves are transparent. The structure is geometric, not lexical.
 
+## The Fold Is Not the Reading Path (070)
+
+**Null result.** Fold-aligned reading — alternating between a position and its fold mirror — does not exceed chance word rates.
+
+Null model: 1,000 random positions × 15 folds, mean 3.5 words per 134-letter interleaved reading. The best milemarker reading (11 words) falls within the null model's upper tail (max 12). Center readings average BELOW the null mean. Clean fiber readings match the null mean.
+
+Two textures worth noting:
+- The **d-fold** through Exodus 34:29 (the veil) produces **אור** (light) — the root of Urim. Thematically correct but quantitatively at chance.
+- The **a-fold** and **d-fold** at the veil's start both yield GV = 8,960 = **7 × 1,280**. Divisibility by 7 at the fold crease.
+
+**Interpretation:** The fold **confirms** readings (testing truth against its mirror) but does not **generate** them. The reading path comes from elsewhere — the d-axis (consecutive text) and the a-axis (where 068 found Torah, love, truth). The folds are verification, not discovery. The Thummim is not the fold.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -226,4 +238,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–068 in `dev/experiments/`
+- Experiments 053–073 in `dev/experiments/`
