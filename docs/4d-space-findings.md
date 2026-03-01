@@ -112,6 +112,25 @@ The d-fibers (67 letters of understanding) through each signpost contain the wor
 
 None of the 8 signposts are in **a=3** (the center seventh / Leviticus). Days 3, 4, and 6 have no jubilee-bridging את at all. The center guards; the signposts bridge. They don't overlap.
 
+## The Milemarker Mirrors (060)
+
+The classic ELS pattern — תורה at skip 50 in the outer books, יהוה at skip 7 in Leviticus — forms a chiasm pointing inward. The a-fold confirms it.
+
+26 milemarkers in the WLC stream. Key mirror pairs:
+
+| Original | Mirror | Note |
+|----------|--------|------|
+| **Gen 1:1** תורה@+50 | **Deut 6:1** (the Shema) | Pair GV = 651 = 7 × 93 |
+| **Exod 39:8** תורה@+50 | **Exod 39:8** (self) | The breastplate. Pair = 1,222 = 2 × תורה. ÷13 |
+| **Lev 14:46, 16:9, 21:13** יהוה@+7 | Themselves | Pair = 52 = 4 × 13. 52 = outer את pairs |
+| **Lev 26:44** יהוה@+7 | **Exod 13:13** — הוהי at skip 1 | The Name mirrors to the Name reversed |
+| **Deut 5:16** הרות@+50 | **Exod 6:26** | Pair GV = 777 = 7 × 111 |
+| **Deut 8:9** הרות@+50 | **Gen 3:10** — hiding in Eden | Reversed Torah mirrors to the fall |
+
+The first milemarker in the entire Torah (Genesis 1:1, position 5) folds to the introduction of the Shema. The most famous hidden pattern mirrors to the most famous spoken declaration.
+
+See `docs/milemarker-mirrors.md` for the full table and analysis.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -121,4 +140,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–059 in `dev/experiments/`
+- Experiments 053–060 in `dev/experiments/`
