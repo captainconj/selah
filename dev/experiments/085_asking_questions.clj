@@ -9,7 +9,21 @@
    Same letters, different arrangement.
 
    FINDINGS:
-   [filled after running]"
+   - כבש (lamb): 4 readings, ALL from one cherub only (col 3→1). 0 Aaron, 0 other.
+     When breastplate faces God on mercy seat, col 3 = God's right hand.
+     The lamb is readable only from the right hand of God.
+   - שכב (lie down): 30 readings from all three. Everyone sees the lamb lie down.
+   - אל/לא: same illumination → Aaron and God's-right read אל (God),
+     God's-left reads לא (not). Same light, different word.
+   - יהוה: 231 illumination patterns. God's-left reads it 31 times (= אל = לא).
+   - שכרה (drunk) has 21 readings (easy). כשרה (like Sarah) has 2 (rare).
+     Eli's error was the easy reading. Correct answer was the rare one.
+   - שלום (peace) and כפרת (mercy seat) CANNOT be read at all.
+     Peace is unproducible. The mercy seat is beyond the breastplate.
+   - אהבה (love) CAN be read: 14 patterns. The silent word speaks through the oracle.
+   - אמת (truth): only 3 patterns. אדם (man): only 2. Truth and man are rare.
+   - ברית (covenant): 65 patterns. Covenant is everywhere.
+   - כ only on stone 8 (Issachar = 'there is reward'). Every word with כ passes through reward."
   (:require [selah.gematria :as g]
             [clojure.string :as str]))
 

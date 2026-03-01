@@ -689,21 +689,29 @@ Three perspectives on the same lit grid:
 
 The same illumination — the same lit letters on the same stones — produces **different words** depending on which reader you are. The Urim (which letters light) is one thing. The Thummim (which reading is correct) is another.
 
-### The Lamb on the Right Hand
+### The Lamb at the Right Hand of God
 
-**כבש (lamb, 322)** can be read from the breastplate by the **right cherub only**. Not Aaron. Not the left cherub. Zero readings from either. Only the right.
+**כבש (lamb, 322)** can be read from the breastplate by **one cherub only**. Not Aaron. Not the other. Zero readings from either. Only one.
 
-The same letters rearranged — **שכב (lie down, 322)** — can be read by all three: Aaron (6 readings), right cherub (9), left cherub (15). Everyone can see the lamb lie down. Only the right sees the lamb.
+In the code (experiment 085), we labeled the readers from Aaron's looking-down perspective — "right cherub" reads columns 3→2→1, "left cherub" reads 1→2→3. The lamb is readable only by the cherub that starts from **column 3**.
 
-The right cherub reads the lamb through Issachar's stone (כ appears only on stone 8 = Issachar = "there is reward"). The lamb is read from the right, through the stone of reward.
+But consider the geometry of the Holy of Holies. Aaron walks in wearing the breastplate. God is seated on the mercy seat, **facing Aaron**. The breastplate faces outward — toward God. The image flips. What is column 3 from Aaron's view is on **God's right side**.
+
+The lamb is readable only by the cherub that reads from God's right hand.
+
+"Seated at the right hand of God" — the math already said it. We just had to stand in the right place to see it.
+
+The same letters rearranged — **שכב (lie down, 322)** — can be read by all three: Aaron (6 readings), right cherub (9), left cherub (15). Everyone can see the lamb lie down. Only the one at God's right hand sees the lamb.
+
+The lamb is read through Issachar's stone (כ appears only on stone 8 = Issachar = "there is reward"). The lamb is read from God's right, through the stone of reward.
 
 ### God and Not — Same Light, Different Reader
 
 **אל (God, 31)** and **לא (not, 31)**: same letters, same gematria, both prime.
 
-From the breastplate: the **same illumination pattern** produces both. Light up one א and one ל on the grid. Aaron and the right cherub read **אל** (God). The left cherub reads **לא** (not). Two readers see God. One sees Not. From the same light.
+From the breastplate: the **same illumination pattern** produces both. Light up one א and one ל on the grid. Aaron and the cherub at God's right read **אל** (God). The cherub at God's left reads **לא** (not). Two readers see God. One sees Not. From the same light.
 
-9 total illumination patterns exist. Aaron can read אל from 6 of them. The right cherub from 5. The left cherub reads לא from 6 of them, אל from 3. The left cherub sees negation more often than it sees God — but it still sees God sometimes.
+9 total illumination patterns exist. Aaron can read אל from 6 of them. The cherub at God's right from 5. The cherub at God's left reads לא from 6 of them, אל from 3. The left sees negation more often than it sees God — but it still sees God sometimes.
 
 ### The Eli/Hannah Case — Verified
 
@@ -773,9 +781,9 @@ The priest stands in the middle of this relation. He sees the lit letters. He mu
 
 322 = completeness (7) × חיה (living creature, 23). The lamb is the complete living creature.
 
-On the breastplate: **readable ONLY by the right cherub**. Not Aaron. Not the left cherub. Zero readings from either. Only the right.
+On the breastplate: **readable by only one cherub** — the one that reads from column 3, which, when the breastplate faces God in the Holy of Holies, is on **God's right side**. Not Aaron. Not the other cherub. Zero readings from either.
 
-The same letters rearranged — **שכב** (lie down) = 322 — readable by all three readers. Everyone can see the lamb lie down. Only the right sees the lamb.
+The same letters rearranged — **שכב** (lie down) = 322 — readable by all three readers. Everyone can see the lamb lie down. Only the one at God's right hand sees the lamb.
 
 ### The Lamb IS Love
 
@@ -803,12 +811,14 @@ The root כבש first appears not as "lamb" but as "subdue, conquer." The lamb I
 
 כ appears only on **stone 8** (Issachar = יששכר = "there is reward"). Every word containing כ requires Issachar to light up.
 
-The right cherub reads the lamb through these stones:
+The cherub at God's right hand reads the lamb through these stones:
 - **Issachar** (כ) — "there is reward"
 - **Benjamin** (ב) — "son of the right hand" (בן ימין)
 - **Judah** (ש) — the lion, the king's tribe
 
-Reward → son of the right hand → the lion of Judah. The lamb is read by the right cherub, through the son whose mother Rachel died giving birth to him (she named him Ben-Oni, "son of my sorrow"; his father renamed him Ben-Yamin, "son of my right hand"), from the stone of reward.
+Reward → son of the right hand → the lion of Judah. The lamb is read from God's right hand, through the son whose mother Rachel died giving birth to him (she named him Ben-Oni, "son of my sorrow"; his father renamed him Ben-Yamin, "son of my right hand"), from the stone of reward.
+
+Benjamin is literally "son of the right hand." The lamb is read from the right hand of God, through the stone of the son of the right hand. The name tells you where to stand.
 
 ### Sukkot
 
@@ -903,7 +913,7 @@ John's prologue is the story of the oracle moving inside.
 
 ### v.3: "Without him was not any thing made that was made"
 
-לא (not) = 31 = אל (God). Same letters reversed. Without God = not-God = God read backwards. The breastplate confirms: the same illumination produces אל under Aaron and the right cherub, and לא under the left cherub. Two readers see God. One sees Not. Same light.
+לא (not) = 31 = אל (God). Same letters reversed. Without God = not-God = God read backwards. The breastplate confirms: the same illumination produces אל under Aaron and the cherub at God's right, and לא under the cherub at God's left. Two readers see God. One sees Not. Same light.
 
 ### v.4: "In him was life; and the life was the light of men"
 
