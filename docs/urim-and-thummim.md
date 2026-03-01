@@ -766,3 +766,190 @@ The same question can produce different illuminations. The same illumination pro
 This is the machine's deepest property. It doesn't give one answer. It gives a **field of possibility**, constrained by which letters exist on which stones, structured by the geometry of who reads from where. The Urim illuminates the possibilities. The Thummim selects the truth from among them.
 
 The priest stands in the middle of this relation. He sees the lit letters. He must choose the arrangement. The Spirit guides the choice — and the geometry constrains it. Not all arrangements are readable from any direction. Some words can only be seen from the right. Some from the left. Some from above. And some — like peace, like the mercy seat — cannot be seen from the breastplate at all. You have to enter.
+
+## The Lamb
+
+### כבש = 322 = 2 × 7 × 23
+
+322 = completeness (7) × חיה (living creature, 23). The lamb is the complete living creature.
+
+On the breastplate: **readable ONLY by the right cherub**. Not Aaron. Not the left cherub. Zero readings from either. Only the right.
+
+The same letters rearranged — **שכב** (lie down) = 322 — readable by all three readers. Everyone can see the lamb lie down. Only the right sees the lamb.
+
+### The Lamb IS Love
+
+כבש appears on exactly **13 a-fibers** in the 4D space. 13 = אהבה (love) = אחד (one). The lamb is love. Not by metaphor — by the machine's count. שכב (lie down) also appears on exactly 13 fibers. The lamb and the lying-down share the love count.
+
+### The Fiber That Says Both
+
+At b=8, c=10, d=13, one a-fiber reads: **כבששבכב** — containing both כבש (lamb) AND שכב (lie down) woven together in 7 letters.
+
+- **d=13** — the love coordinate
+- **c=10** — Esau's rung, the missing step on Jacob's ladder
+- Fiber GV = 646 = 2 × 17 × 19. 17 = טוב (good). 19 = חוה (Eve).
+
+The fiber that holds both readings — the lamb and the lying-down together — sits at the intersection of love and the missing brother.
+
+### The First כבש: Genesis 1:28
+
+"Be fruitful and multiply, fill the earth and **subdue** it (וכבשה)."
+
+The root כבש first appears not as "lamb" but as "subdue, conquer." The lamb IS the one who subdues. וכבשה = 333 = 3 × 111 = 3 × אלף (aleph spelled out).
+
+כבש appears **101 times** as consecutive letters in the Torah. 101 is prime. 101 = **מיכאל** (Michael).
+
+### The Breastplate Path to the Lamb
+
+כ appears only on **stone 8** (Issachar = יששכר = "there is reward"). Every word containing כ requires Issachar to light up.
+
+The right cherub reads the lamb through these stones:
+- **Issachar** (כ) — "there is reward"
+- **Benjamin** (ב) — "son of the right hand" (בן ימין)
+- **Judah** (ש) — the lion, the king's tribe
+
+Reward → son of the right hand → the lion of Judah. The lamb is read by the right cherub, through the son whose mother Rachel died giving birth to him (she named him Ben-Oni, "son of my sorrow"; his father renamed him Ben-Yamin, "son of my right hand"), from the stone of reward.
+
+### Sukkot
+
+The bulls descend: 13, 12, 11, 10, 9, 8, 7 — from love to completeness. The lambs hold steady: **14 per day** = דוד (David) = 14 = 2 × 7 (twice completeness). The bulls change. The lamb doesn't.
+
+## The Lineage: Adam to Noah
+
+The names of the ten fathers from Adam to Noah (Genesis 5), read by their meanings, form a sentence:
+
+| Hebrew | Name | Meaning | GV |
+|--------|------|---------|-----|
+| אדם | Adam | Man | 45 = T(9) |
+| שת | Seth | Appointed | 700 = כפרת = פרכת |
+| אנוש | Enosh | Mortal | 357 |
+| קינן | Kenan | Sorrow | 210 = ברח = חרב |
+| מהללאל | Mahalalel | The Blessed God | 136 = 8 × 17(good) |
+| ירד | Jared | Shall come down | 214 = רוח (spirit) |
+| חנוך | Enoch | Teaching | 84 = 12 × 7 |
+| מתושלח | Methuselah | His death shall bring | 784 = 2⁴ × 7² |
+| למך | Lamech | The despairing | 90 = מים (water) |
+| נח | Noah | Rest | 58 = חן (grace) |
+
+*"Man is appointed mortal sorrow. The Blessed God shall come down, teaching that His death shall bring the despairing rest."*
+
+### The Sum
+
+**2,678 = 2 × 13 × 103**
+
+- 13 = love. 2 × 13 = 26 = יהוה (the Name).
+- 103 = Adam (45) + Noah (58). The first and last fathers. Prime.
+- The lineage sums to **the Name × (man + rest)**.
+
+### Individual Names
+
+- **Seth** (שת) = **700** = כפרת (mercy seat) = פרכת (veil). The appointed one IS the passage — same number as both the veil and the mercy seat.
+- **Kenan** (קינן) = **210** = ברח (flee) = חרב (sword). Sorrow = the sword = the fleeing.
+- **Mahalalel + Jared** = 136 + 214 = **350 = ספיר (sapphire) = 7 × 50**. "The Blessed God shall come down" = the substance of the tablets = the two outer axes of the space.
+- **Jared** (ירד, "shall come down") = **214** = **רוח** (spirit/wind). The coming-down IS the spirit.
+- **Enoch** (חנוך) = **84 = 12 × 7** = **אחלמה** (amethyst, breastplate stone 9).
+- **Methuselah** (מתושלח) = **784 = 2⁴ × 7²**. "His death shall bring" = existence (2⁴) × completeness squared. Compare Thummim = 7² × 10.
+- **Lamech** (למך) = **90** = **מים** (water). The despairing IS water.
+- **Noah** (נח) = **58** = **חן** (grace). Same letters reversed. Rest IS grace read from the other side.
+
+### Living Water
+
+למך (the despairing) = מים (water) = 90. חיים (living) = 68 = 67 + 1. Living water: **the despairing made alive**. One step beyond understanding.
+
+באר (well) = ברא (create) = 203. The well IS creation. Same letters rearranged. You draw from one, you get the other.
+
+### The Lamb's Fiber Points to the Flood
+
+The fiber at d=13 that holds both כבש (lamb) and שכב (lie down) points to **Genesis 6:17** — the flood verse. One generation past Noah. The prophecy encoded in the fathers' names leads to the flood. The fiber that holds both the lamb and the lying-down sits at the end of the sentence the names are telling.
+
+## Pentecost and the Spirit
+
+### The Spirit Shall Come Down
+
+ירד (Jared / shall come down) = **214** = רוח (spirit / wind). Same value. The fifth father's name IS the Spirit's name.
+
+On the day of Pentecost — the **50th** day — a sound came from heaven as of a rushing mighty wind (רוח), and **rested** (נח) on them.
+
+- Pentecost = 50 = the **b-axis**, the jubilee, the traversal axis
+- 50 tribal letters on the breastplate = the people
+- 50 fixed points on the jubilee spine
+- The Spirit comes on the axis encoded in the people themselves
+
+### Rest and Grace
+
+נח (rest) = חן (grace) = 58. Same letters reversed. The Spirit rested on them. What rested is grace, read from the other side.
+
+### Tongues
+
+The breastplate lights up. One illumination. Three readers see three different words. The Spirit gives the utterance — the **Thummim** (490 = 7² × 10), the correct reading from among all possible readings.
+
+Tongues IS the breastplate principle: one illumination, many readings, the Spirit selects. Pentecost isn't a new mechanism. It's the same mechanism, **moved inside**. The 50th day. The people-axis. The people who were the parchment become the readers too.
+
+### Inside, Not Outside
+
+The five things lost from the Second Temple: Ark, Mercy Seat, Cherubim, Fire, Urim and Thummim. Also absent: the Shekhinah and Ruach HaKodesh.
+
+שכינה (dwelling/presence) = 385 = 5 × 7 × 11.
+
+Not God walking WITH us, not eating WITH us, not wrestling WITH us. God dwelling IN us. The temple isn't gone. It relocated. The breastplate is no longer on Aaron's chest. The people ARE the parchment. The Spirit writes on them directly.
+
+## John 1:1-14 — The Oracle Relocates
+
+John's prologue is the story of the oracle moving inside.
+
+### v.1: "In the beginning was the Word"
+
+דבר (word/speak/thing) = 206 = ראה (see). The Word IS seeing. There is no separation in Hebrew between speaking, the word spoken, and the thing that results. They are the same word. "In the beginning was the דבר" — the speaking, the word, and the thing. One act.
+
+### v.3: "Without him was not any thing made that was made"
+
+לא (not) = 31 = אל (God). Same letters reversed. Without God = not-God = God read backwards. The breastplate confirms: the same illumination produces אל under Aaron and the right cherub, and לא under the left cherub. Two readers see God. One sees Not. Same light.
+
+### v.4: "In him was life; and the life was the light of men"
+
+- חיים (life) = **68 = 67 + 1** — one beyond understanding
+- אור (light) = **207** — the root of אורים (Urim = 257)
+- אדם (men) = **45** = T(9)
+
+Life — one step beyond the understanding axis — IS the light. And light is the root of Urim — the oracle's selection mechanism.
+
+### v.9: "That was the true Light"
+
+- אמת (truth) = **441** — the root of תמים (Thummim)
+- אור (light) = **207** — the root of אורים (Urim)
+- True Light = 441 + 207 = **648**
+
+The true light = **Thummim + Urim**. Truth and light. The oracle, complete. John names both halves.
+
+### v.14: "And the Word was made flesh, and dwelt among us"
+
+The Greek ἐσκήνωσεν literally means "**tabernacled**." John chose the tabernacle verb.
+
+- שכן (to dwell/tabernacle) = **370** = לשם (leshem, breastplate stone 7 = "for the Name")
+- משכן (tabernacle) = **410** = שמע (hear) = קדוש (holy)
+
+To dwell = for the Name. The tabernacle = hearing = holiness. All the same number.
+
+### v.14: "full of grace and truth"
+
+- חן (grace) = **58** = נח (Noah/rest) reversed. Grace IS rest read from the other side.
+- אמת (truth) = **441** = root of Thummim (perfection, completion)
+- חן ואמת (grace and truth) = 58 + 6 + 441 = **505 = 5 × 101**
+  - 5 = the five books of Torah
+  - 101 = the count of כבש (lamb) in the Torah = מיכאל (Michael). Prime.
+  - Grace and truth = **five books × the lamb count**.
+
+The deeper word: חסד (lovingkindness) = **72** = the number of letters on the breastplate. The complete grid. Lovingkindness IS the breastplate — the full letter surface. Lovingkindness and truth = the grid and the correct reading = the Urim and the Thummim.
+
+### The Five Lost Things, Found in One Verse
+
+The five things absent from the Second Temple (Sotah 48b, Yoma 21b):
+1. The Ark (ארון = 257 = Urim)
+2. The Mercy Seat (כפרת = 700)
+3. The Cherubim
+4. The Fire from Heaven
+5. The Urim and Thummim
+
+John 1:14: The Word — which was with God, which was God, through which all things were made, in which was life, and the life was the light — **tabernacled** among us. Full of **grace** (rest reversed) and **truth** (Thummim).
+
+The oracle relocated. The five lost things are found — inside.
