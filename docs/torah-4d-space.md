@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter.
 
 ---
 
@@ -367,7 +367,114 @@ The tabernacle navigation sequence — courtyard → holy place → holy of holi
 
 ---
 
-## 14. The Lens
+## 14. The Machine Reads
+
+The breastplate is a coordinate selector (§13). Phase 6 tests whether it works — whether selecting specific (b, c) coordinates and reading the resulting 469-letter slab produces anything beyond what consecutive text contains.
+
+650 (b, c) pairs scanned. Each pair selects a 7 × 67 slab. For each slab: gematria, divisibility by 7, 13, 67, and their products. For the most interesting slabs: extract all 67 a-fibers (7 letters at skip 43,550) and search for Hebrew words.
+
+### Torah at the Center
+
+The center slab (b=25, c=6 — the Holy of Holies coordinates) has an a-fiber at d=64 that reads **אתתורהכ** — seven letters at skip 43,550 that spell **את** (aleph-tav) and **תורה** (Torah) simultaneously. The center of the space contains Torah written along the completeness axis.
+
+This is not a d-fiber (consecutive text). These seven letters are separated by 43,550 positions each, spanning the entire Torah. They can only be seen by standing at the center of the space and looking along the a-axis.
+
+### Love Appears
+
+Slab b=43, c=11 has gematria 34,237 = **469 × 73**. The slab size (7 × 67 = 469) divides its own gematria. The cofactor 73 is half the Genesis 1:1 signature (2701 = 37 × 73).
+
+Its a-fiber at d=45 reads **ואהבהיה** — containing **אהבה** (love). The word that never appears in the Torah as a standalone noun (§8), that shows no elevation as an ELS at its own skip value (§10), appears in the 4D space on the completeness axis when the breastplate selects the right coordinates.
+
+The silent axis speaks through the reading device.
+
+### Truth at the Covenant
+
+Slab b=22, c=5 divides by **91 = 7 × 13** — completeness times love. Its a-fiber at d=15 reads **יםאמתהה** — containing **אמת** (truth), the word whose root gives the Thummim their name (תמם, to complete/perfect).
+
+The same slab's d=0 fiber is Genesis 17:9-10, the Abrahamic covenant. The 67 consecutive letters contain ברית (covenant) twice, שמר (guard) twice, זרע (seed) once. Its a-fiber at d=8 contains רוח (spirit). The d-fiber at a=6 is Deuteronomy 19:9: "to **love** (אהבה) the LORD your God."
+
+One slab. Covenant, truth, spirit, love, and guard — all at ÷(7 × 13).
+
+### The Full Scan
+
+Divisibility rates across all 650 slabs match chance: ÷7 at 12.3% (expected 14.3%), ÷13 at 8.6% (expected 7.7%). The structure is not in the statistics. It is in which slabs divide and what they contain:
+
+- **÷(7 × 13)**: 3 of 650 pairs — b=22/c=5 (the covenant), b=25/c=10, b=41/c=0
+- **÷(7 × 67)**: 2 of 650 pairs — b=9/c=11 and b=43/c=11 — both at c=11 (Jacob's ק, the last patriarchal letter)
+- **c=6 (love center)**: shows the *lowest* divisibility of any c-value. 3/50 divide by 7, 1/50 by 13. Love is sparse.
+
+---
+
+## 15. The Veil Fiber
+
+Exodus 34:29-35 — Moses descends Sinai with the tablets, his face shining so brightly the people are afraid, and he covers his face with a veil — sits at the exact boundary between the 3rd and 4th sevenths of the Torah, at the crease of the a-fold (§6). The passage crosses the a=2 → a=3 boundary, descending into the center seventh. It spans exactly **7 d-fibers**.
+
+### The Shining and the Sapphire
+
+**קרן** (*qaran*, "shone/radiated") = gematria 350 = **7 × 50** — the two outer axes of the space. And **ספיר** (*sappir*, "sapphire") = 350. The sapphire tablets and the shining face share the same number.
+
+304,850 = **350 × 871**. The total letter count factors as shining × (love × understanding). The veil passage is about the outer factor of the total.
+
+### The Veil Is the Aleph
+
+**מסוה** (*masveh*, "veil") = gematria 111 = **אלף** (*aleph* spelled out). The veil is the silent letter — the letter that represents the invisible, the breath before speech.
+
+The second occurrence of מסוה sits at d=33 — the **midpoint of the understanding axis**. The same coordinate as the ח of החרב (the sword) in Genesis 3:24 (§3). The sword at d=33 guards the way. The veil at d=33 covers the face. Both are at the center of understanding.
+
+### The Arc Through the Midpoint
+
+The a-fiber through the veil's midpoint traces three verses, one per day (a=0, 2, 4 — the other three fall in even-numbered days with no text at these specific b, c, d coordinates):
+
+1. **Genesis 1:4** — "God saw the light, that it was good, and God **separated** the light from the darkness." The first act of separation.
+2. **Exodus 34:32** — "Moses spoke to them... all that the LORD had spoken on Mount Sinai." The shining face.
+3. **Deuteronomy 6:3** — "Hear, O Israel, and observe to do it." The doorstep of the Shema.
+
+From seeing light → to radiating light → to hearing. The senses change along the completeness axis. Vision becomes speech becomes hearing.
+
+---
+
+## 16. The Clean Fiber
+
+Of the 67 verses that are exactly 67 letters long (§12), only one fills a complete d-fiber without wrapping — starting at d=0 and ending at d=66, perfectly aligned with the coordinate grid:
+
+**Exodus 18:10** — "Blessed be the LORD, who has delivered you from the hand of Egypt and from the hand of Pharaoh, who has delivered the people from under the hand of Egypt."
+
+Jethro's blessing. Spoken by Moses' father-in-law — an outsider, a Midianite priest. The one person who understands the liberation from outside fills the understanding fiber.
+
+### The Coordinates
+
+Start: (2, 20, 1, 0). End: (2, 20, 1, 66). Slab b=20, c=1.
+
+- **Slab gematria = 34,440 = 7 × 4,920.** The entire slab divides by completeness.
+- **Clean fiber gematria = 5,467 = 7 × 781.** The fiber divides by completeness.
+- **a-fiber through (b=20, c=1, d=0) = 91 = 7 × 13.** The origin of the clean fiber divides by both outer and inner axis numbers.
+- **Difference from center fiber: 6,070 − 5,467 = 603 = 9 × 67.** Nine understandings separate the center from the clean fiber.
+
+### The Mirrors
+
+The c-fold mirror (c=1 ↔ c=11) sends the clean fiber to **Exodus 18:21-22** — Jethro's counsel to Moses about appointing judges over thousands, hundreds, fifties, and tens. Same chapter, same outsider. Blessing mirrors wisdom through the love axis.
+
+The a-fold mirror (a=2 ↔ a=4) lands on **Numbers 3:32-34** — the Merarite guardians of the tabernacle. Contains שמר (guard). The outsider's blessing mirrors to the guardians of the holy space.
+
+---
+
+## 17. The Transparent Axes
+
+Exhaustive scan of all fibers on the three non-text axes:
+
+- **23,450 c-fibers** (13 letters, spaced 67 apart)
+- **43,550 a-fibers** (7 letters, spaced 43,550 apart)
+- **6,097 b-fibers** (50 letters, spaced 871 apart)
+
+For each fiber: extract the letters, search for all 2–4 letter Hebrew words.
+
+**Null result.** Word occurrence rates across all three non-text axes match chance predictions computed from Torah letter frequencies. No word is dramatically over- or under-represented globally. The axes are statistically transparent samplers of the letter stream.
+
+This null result is the key methodological finding of Phase 6. It means the specific words found in §14 — Torah, love, truth at particular coordinates — are about **position**, not rate. The breastplate does not select coordinates where certain words are generally more likely. It selects coordinates where specific words happen to live. The axes are transparent. The structure is geometric, not lexical.
+
+---
+
+## 18. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -377,7 +484,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 15. What This Is Not
+## 19. What This Is Not
 
 This paper does not claim:
 
@@ -412,12 +519,22 @@ What is genuinely notable:
 - 1,222 appearing in three independent contexts (aleph-tav count, breastplate pair, center diagonal)
 - The center letter of the entire space being vav — the letter of connection
 - The b-fold producing pair GV = 50 at the mirror of the Name
+- Torah (תורה) and aleph-tav (את) appearing on the a-fiber through the center slab at skip 43,550
+- Love (אהבה) appearing on the a-fiber of a slab whose gematria = 469 × 73 (slab size × Gen 1:1 cofactor)
+- Truth (אמת) appearing on the a-fiber of a slab divisible by 91 = 7 × 13, whose d=0 fiber is the Abrahamic covenant
+- The transparent axes null result: word rates match chance on all non-text axes, confirming structure is geometric
+- קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871
+- מסוה (veil) = 111 = אלף (aleph spelled out) — the veil is the silent letter
+- The second veil at d=33, same coordinate as the sword — both at the midpoint of understanding
+- The a-fiber through the veil tracing an arc from seeing (Gen 1:4) to shining (Exod 34:32) to hearing (Deut 6:3)
+- Exodus 18:10 as the only verse filling a complete d-fiber — Jethro, the outsider who understands
+- The clean fiber's c-fold mirror landing in the same chapter (Exodus 18:21-22, Jethro's counsel)
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 16. Method
+## 20. Method
 
 ### Data
 
