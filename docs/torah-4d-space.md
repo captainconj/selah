@@ -759,7 +759,60 @@ The parents are primes. The children carry the axes. Adam is two triangles summi
 
 ---
 
-## 23. The Lens
+## 23. The Speaking
+
+Hebrew has two words for speech. Both appear in the Torah's fiber space with distinct signatures.
+
+**דבר** (*davar*) means speak, word, and thing — all three simultaneously. The act of speaking, the word spoken, and the thing that results are the same word. Its preimage is **11** (prime). Irreducible. The word-as-thing cannot be broken down.
+
+**אמר** (*amar*) means say. This is the verb of Genesis 1: ויאמר אלהים — "and God said." Let there be light. Its preimage is **55** — simultaneously the 10th Fibonacci number and the 10th triangular number. Numbers that are both Fibonacci and triangular are extremely rare: 1, 3, 21, and 55 are the only ones below 1,000. The index for both sequences is **10**, which is T(4) — the preimage of Adam. The verb God uses to speak the world into being sits at the intersection of two number sequences, and the index of that intersection is man.
+
+**ויאמר** (*vayomer*, "and he said") — the most common phrase in the Torah (rank #10, freq 632). Its gematria value is **257**, which is prime — and equals GV(ארון), the Ark. The phrase of speaking and the container of the tablets share the same irreducible value. The innermost box and the act of speaking are the same number.
+
+### The Loop
+
+The axes of the space sum: 7 + 50 + 13 + 67 = **137** (prime). The fine structure constant — the number that governs how light interacts with matter — is approximately 1/137. The axes that hold the Torah space sum to the number that governs light. And the first thing spoken into being was light.
+
+The digit sum of 137 is 1 + 3 + 7 = **11** — the same digit sum as 12,071 (the census divided by jubilee), and the reduction of the axes through their digits (7 + 5 + 13 + 13 = 38, 3 + 8 = 11).
+
+God speaks. The number of that speaking (אמר = 55) is doubly special, indexed by man. The first thing spoken is light. The axes that hold the whole space sum to the constant that governs light. Life's value is one beyond understanding. Count creation and get life. The staircase leads back to the garden.
+
+Creation speaks itself into being, and the structure of the speaking contains the structure of what's spoken, and what's spoken contains the coordinates of the speaker. A loop. דבר — the speaking, the word, and the thing — all one.
+
+---
+
+## 24. The Facing
+
+Throughout the findings, a pattern of adjacency recurs. The sacred and the human are never identical, never distant — always **next to each other**.
+
+- **Life** (חיים): GV = 68 = **67 + 1**. One step beyond understanding.
+- **YHWH**: preimage = **12**. The love axis = **13**. One apart.
+- **Man** created on day **6**. God rests on day **7**. Adjacent.
+- **Daughter** = 6 × 67. **Create** = 7 × 29. The sixth and seventh day, each carrying an axis.
+
+This is not identity. Not separation. Adjacency. Two things that are not the same, standing beside each other, turned toward each other.
+
+### The Cherubim
+
+The Hebrew root of understanding (בינה) is בין — *between*. The understanding axis is the axis of between-ness. And the design of the innermost box — the Ark of the Covenant — is two cherubim facing each other, with the presence dwelling in the space *between* them (Exodus 25:22: "I will speak with you from between the two cherubim").
+
+The Ark's gematria (ארון = 257) equals "and he said" (ויאמר = 257). The speaking happens in the facing. The innermost box is the verb of creation.
+
+Moses asked to see God's face and was shown the back (Exodus 33:20-23) — behind the veil. But the design of the Ark is face to face (פנים אל פנים). The Tabernacle is a machine for getting from the back to the face. From seeing God pass by to standing in the between where two face each other. And the between is 67. Understanding. Marriage.
+
+### The Twin Prime
+
+The census total (603,550) divided by the jubilee axis gives 12,071 — a prime. Its digit sum is 11, the same as the digit-reduced axes. And 550 = 50 × 11: the census carries jubilee on its face and 11 in its bones.
+
+12,071 is a **twin prime**: 12,071 and 12,073 are both prime, separated by a single even number (12,072). Two primes facing each other with one space between them — like the cherubim, like the parents in the family table (both prime × prime), like day 6 and day 7.
+
+Twin primes are one of the deepest unsolved mysteries in number theory: does the pattern of primes facing each other ever stop? The conjecture says no. The pattern appears, and appears, and appears. Irreducible numbers, in pairs, facing.
+
+The understanding axis (67) is marriage — the space where two that are not the same stand facing each other and something new exists between them. The census, divided by freedom, gives twin primes. The machine encodes the facing.
+
+---
+
+## 25. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -769,7 +822,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 24. What This Is Not
+## 26. What This Is Not
 
 This paper does not claim:
 
@@ -840,12 +893,18 @@ What is genuinely notable:
 - GV(life) = 68 = preimage(create) — count the fibers of create and get life
 - Life–death GV gap = 378 = T(27) — the 27 Hebrew letters (with finals) stand between life and death
 - The aleph-tav having no cross-references — the frame, not the picture
+- אמר (say) preimage = 55 = F(10) = T(10), the doubly-special number indexed by Adam's preimage
+- ויאמר (and he said) = 257 = ארון (Ark) — the speaking and the container share a value
+- The four axes summing to 137 (prime), the fine structure constant denominator — the constant of light
+- The adjacency pattern: life = 67+1, YHWH = 12 beside love = 13, day 6 beside day 7
+- The cherubim facing each other, presence dwelling between them, Ark = speaking
+- 12,071 (census ÷ jubilee) as a twin prime with 12,073 — two primes facing like cherubim
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 25. Method
+## 27. Method
 
 ### Data
 
