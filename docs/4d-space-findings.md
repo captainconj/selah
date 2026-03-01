@@ -131,6 +131,34 @@ The first milemarker in the entire Torah (Genesis 1:1, position 5) folds to the 
 
 See `docs/milemarker-mirrors.md` for the full table and analysis.
 
+## The Four Folds (061)
+
+Three fold creases converge on Leviticus 8:35. The a-fold dominates את preservation at 11.1× expected; the b-fold shows nothing (~1×). Deuteronomy 6 is the fold attractor. See `docs/the-four-folds.md`.
+
+## The Jubilee Spine (062)
+
+50 fixed points of the acd-fold at (3, b, 6, 33). Arc: Sabbath (Exod 35:2) → consecration → guarding → holiness (Lev 21:7). Aleph appears exactly 7 times. All spaced 871 = 13 × 67 apart.
+
+## The Other Folds Speak (063)
+
+The b-fold produces pair GV = 50 at the Name's mirror. 1,222 and 651 recur across different folds. The breastplate divides by 13 under three of four folds.
+
+## The Silent Axes Confirmed (064)
+
+תורה@50 = 2.14× expected. יהוה@7 = 1.31×. אהבה@13 = 0.90×. בינה@67 = 1.39×. The machine speaks Torah and the Name; it IS love and understanding. Love at skip 1 appears 15 times as the verb form across word boundaries.
+
+## The Breastplate as Selector (065)
+
+Period 72 shows no special autocorrelation. The breastplate is a coordinate selector: two illuminated letters select a 7 × 67 = 469 letter slab. Not a cipher key — a control surface.
+
+## The Holy of Holies Grid (066)
+
+871 letters at a=3, b=25 as a 13×67 grid. Center letter: vav (ו). Anti-diagonal 31 sums to 871. Main diagonal 4 sums to 1,222. אור (light) on the diagonals. Column vocabulary: God, aleph-tav, heart, blood, hand, name, son, father.
+
+## The Number Counts Itself (067)
+
+67 verses are exactly 67 letters long. Median verse length = exactly 50. Only one 67-letter verse fills a complete d-fiber: Exodus 18:10.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -140,4 +168,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–060 in `dev/experiments/`
+- Experiments 053–067 in `dev/experiments/`

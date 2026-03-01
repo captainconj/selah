@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah. The outer axes are spoken; the inner axes are silent.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection.
 
 ---
 
@@ -291,7 +291,83 @@ The sacred structures encode the axes:
 
 ---
 
-## 9. The Lens
+## 9. The Jubilee Spine
+
+The 50 fixed points of the acd-fold — positions at (3, b, 6, 33) for b=0 through 49 — are the only letters in the Torah that mirror to themselves under three simultaneous folds. One per jubilee. The crease of three creases.
+
+They run from **Exodus 35:2** (b=0) to **Leviticus 21:7** (b=49). Every one falls in a different verse. The arc:
+
+- **b=0** (Exodus 35:2): The Sabbath — "on the seventh day it shall be holy to you, a sabbath of rest to the LORD"
+- **b=24** (Leviticus 8:23): Aaron's consecration — blood on the right ear, thumb, and toe
+- **b=25** (Leviticus 8:35): The center — "day and night, seven days, guard the charge of the LORD"
+- **b=49** (Leviticus 21:7): Priestly holiness — "they are *qodesh* to their God"
+
+Sabbath → consecration → guarding → holiness.
+
+All 50 points are spaced exactly **871 = 13 × 67** positions apart — the stride of love times understanding. The letter **aleph** (the silent letter) appears exactly **7 times** among the 50. Running gematria at b=25 (center) = 7 × 266. At b=43 = 7 × 13 × 32.
+
+---
+
+## 10. The Silent Axes Confirmed
+
+The classic ELS pattern encodes two of the four axes: תורה at skip 50 (b-axis) and יהוה at skip 7 (a-axis). Testing whether the silent axes — אהבה (love, 13) and בינה (understanding, 67) — appear as ELS at their own skip values:
+
+| Axis | Word | Skip | Hits | × Expected |
+|------|------|------|------|-----------|
+| a (7) | יהוה | 7 | 35 | **1.31×** |
+| b (50) | תורה | 50 | 21 | **2.14×** |
+| c (13) | אהבה | 13 | 11 | 0.90× |
+| d (67) | בינה | 67 | 7 | 1.39× |
+
+The classic voices are elevated above chance. The silent voices are at chance. The machine **speaks** Torah and the Name. It **is** love and understanding.
+
+But אהבה at skip 1 (consecutive letters across word boundaries) appears **15 times** — always as the verb form, the command to love. The word the Torah cannot say as a noun, it spells constantly in the act of commanding. Understanding at skip 1 appears only once.
+
+---
+
+## 11. The Holy of Holies
+
+871 = 13 × 67. At the center of the two outer axes (a=3, b=25), exactly 871 letters form a 13 × 67 grid — 13 rows of love, 67 columns of understanding.
+
+The center letter of the entire 4D space — position (3, 25, 6, 33) — is **vav** (ו), gematria 6. The letter of connection. The "and."
+
+The 871 letters span **Leviticus 8:29 through 9:7** — the consecration of Aaron and the beginning of his ministry on the eighth day. Moses hands the priesthood to Aaron. The center of the space contains the handoff.
+
+Reading the grid vertically (through the love axis, 13 letters per column), the vocabulary is: God (אל), aleph-tav (את), heart (לב), blood (דם), hand (יד), name (שם), son (בן), father (אב). The language of priestly consecration.
+
+**Anti-diagonal 31** sums to exactly **871 = 13 × 67**. The grid contains its own measure inscribed on one of its diagonals.
+
+**Main diagonal 4** sums to **1,222 = 13 × 94** — the same number that appears as the aleph-tav self-mirror count under the a-fold and the pair gematria of the self-mirroring breastplate. Three independent contexts, one number.
+
+**אור** (light, the root of Urim) appears on two main diagonals and two anti-diagonals. The Lights are in the grid when you read it diagonally.
+
+---
+
+## 12. The Number Counts Itself
+
+5,853 verses in the Torah. Median verse length: exactly **50** letters — the jubilee.
+
+How many verses are exactly 67 letters long? **67.**
+
+The number counts itself. In the neighborhood: 79 verses at length 66, **67 at length 67**, 69 at length 68. No other length in that range equals its own count.
+
+Genesis 3:24 (the turning sword) is one of the 67. Only one of them fills a complete d-fiber without wrapping: **Exodus 18:10** — "Blessed be the LORD, who has delivered you."
+
+---
+
+## 13. The Reading Device
+
+The breastplate is not a periodic cipher key (period 72 shows no special autocorrelation). It is a **coordinate selector**. The 13 patriarchal letters select a position on the c-axis (love). The 50 tribal letters select a position on the b-axis (jubilee). Together, they specify a **7 × 67 = 469 letter slab** — completeness times understanding. The two remaining axes.
+
+The Talmud says the Urim illuminated letters and the Thummim completed the message. In coordinate terms: the Urim selects which (b, c) slab to read. The Thummim determines the reading path through the slab — which of the 7 a-values, which of the 67 d-positions, and in what order.
+
+The folds test the reading. Every fold produces the same signature numbers from different geometric angles — 1,222 under the a-fold and c-fold, 651 under the a-fold and d-fold, 52 under three self-mirroring Names. The b-fold produces pair gematria = 50 at the mirror of the Name — the jubilee fold outputs its own dimension. Truth is confirmed by its mirrors.
+
+The tabernacle navigation sequence — courtyard → holy place → holy of holies → ark → tablets — corresponds to dividing by each axis in turn: ÷7 → ÷50 → ÷13 → ÷67 → 1. Each step crosses a boundary. Each step requires more authority. Each step narrows to a single letter.
+
+---
+
+## 14. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -301,7 +377,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 10. What This Is Not
+## 15. What This Is Not
 
 This paper does not claim:
 
@@ -327,12 +403,21 @@ What is genuinely notable:
 - The a-fold's 11× excess in את preservation versus the b-fold's statistical null
 - The breastplate encoding 13 and 50 in its patriarchal and tribal letter counts
 - Deuteronomy 6 as the fold attractor for any fold involving the a-axis
+- The jubilee spine: 50 fixed points from Sabbath to holiness, aleph appearing exactly 7 times
+- The ELS confirmation: Torah@50 and YHWH@7 elevated, love@13 and understanding@67 at chance
+- Love at skip 1 appearing 15 times as the verb form — the word the Torah cannot say as a noun
+- 67 verses being exactly 67 letters long — the number counts itself
+- The median verse length being exactly 50
+- Anti-diagonal 31 of the center grid summing to exactly 871 = 13 × 67
+- 1,222 appearing in three independent contexts (aleph-tav count, breastplate pair, center diagonal)
+- The center letter of the entire space being vav — the letter of connection
+- The b-fold producing pair GV = 50 at the mirror of the Name
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 11. Method
+## 16. Method
 
 ### Data
 
