@@ -22,6 +22,7 @@ Clojure toolkit for studying biblical texts at the letter level.
 ### Analysis engines
 - `selah.els.*` — ELS engine, broad scan, statistical significance
 - `selah.gematria` — letter values, word/verse sums, running totals, statistics, spectrum
+- `selah.space.*` — 4D coordinate space (304,850 = 7×50×13×67), projection, point cloud export
 
 ### Planned namespaces
 - `selah.signal` — FFT, autocorrelation, power spectrum, spectral analysis
