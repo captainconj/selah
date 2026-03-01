@@ -9,7 +9,11 @@
      c ∈ {0..12}  — אחד (one) / אהבה (love)
      d ∈ {0..66}  — בינה (understanding)
 
-   position = a×43,550 + b×871 + c×67 + d"
+   position = a×43,550 + b×871 + c×67 + d
+
+   The factorization is a lens — the data is invariant.
+   Use (with-dims [7 50 13 67] ...) or (set-dims! [13 67 7 50])
+   to explore alternate arrangements of the same stream."
   (:require [selah.text.oshb :as oshb]
             [selah.text.normalize :as norm]
             [clojure.string :as str]))
@@ -17,15 +21,50 @@
 ;; ── Constants ──────────────────────────────────────────────
 
 (def ^:const total-letters 304850)
-(def ^:const dim-a 7)
-(def ^:const dim-b 50)
-(def ^:const dim-c 13)
-(def ^:const dim-d 67)
 
-(def ^:const stride-a 43550)   ;; 50 × 13 × 67
-(def ^:const stride-b 871)     ;; 13 × 67
-(def ^:const stride-c 67)      ;; 67
-(def ^:const stride-d 1)
+;; ── Lens: the factorization ───────────────────────────────
+;;
+;; The default lens: [7 50 13 67].
+;; This is the ONLY 4D factorization of 304,850 that contains
+;; all three of 7 (completeness), 13 (one/love), and 67 (understanding).
+;; The 50 (jubilee) is forced.
+
+(defonce ^:dynamic *dims* (atom [7 50 13 67]))
+
+(defn- compute-strides [dims]
+  (vec (for [i (range (count dims))]
+         (reduce * (subvec dims (inc i))))))
+
+(defn dims    [] @*dims*)
+(defn strides [] (compute-strides @*dims*))
+
+(defn set-dims!
+  "Change the factorization lens. dims must multiply to 304,850."
+  [dims]
+  (assert (= (reduce * dims) total-letters)
+          (str "Dimensions must multiply to " total-letters))
+  (reset! *dims* (vec dims)))
+
+(defmacro with-dims
+  "Temporarily use a different factorization."
+  [dims & body]
+  `(let [old# @*dims*]
+     (try
+       (set-dims! ~dims)
+       ~@body
+       (finally
+         (reset! *dims* old#)))))
+
+;; Convenience accessors for the current lens
+(defn dim-a ^long [] (nth @*dims* 0))
+(defn dim-b ^long [] (nth @*dims* 1))
+(defn dim-c ^long [] (nth @*dims* 2))
+(defn dim-d ^long [] (nth @*dims* 3))
+
+(defn stride-a ^long [] (nth (strides) 0))
+(defn stride-b ^long [] (nth (strides) 1))
+(defn stride-c ^long [] (nth (strides) 2))
+(defn stride-d ^long [] 1)
 
 ;; ── Lookup tables ──────────────────────────────────────────
 ;;
@@ -69,18 +108,19 @@
 (defn idx->coord
   "Position → [a b c d] via mixed-radix decomposition."
   ^longs [^long i]
-  (let [a (quot i stride-a)
-        r (rem  i stride-a)
-        b (quot r stride-b)
-        r (rem  r stride-b)
-        c (quot r stride-c)
-        d (rem  r stride-c)]
+  (let [sa (stride-a) sb (stride-b) sc (stride-c)
+        a (quot i sa)
+        r (rem  i sa)
+        b (quot r sb)
+        r (rem  r sb)
+        c (quot r sc)
+        d (rem  r sc)]
     (long-array [a b c d])))
 
 (defn coord->idx
   "Coordinate [a b c d] → position."
   ^long [^long a ^long b ^long c ^long d]
-  (+ (* a stride-a) (* b stride-b) (* c stride-c) d))
+  (+ (* a (stride-a)) (* b (stride-b)) (* c (stride-c)) d))
 
 ;; ── State ──────────────────────────────────────────────────
 
@@ -195,11 +235,11 @@
 ;; All query results are int[] of positions.
 ;; No objects, no maps — just position arrays.
 
-(def ^:private axis-info
-  {:a {:dim dim-a :stride stride-a}
-   :b {:dim dim-b :stride stride-b}
-   :c {:dim dim-c :stride stride-c}
-   :d {:dim dim-d :stride stride-d}})
+(defn- axis-info []
+  {:a {:dim (dim-a) :stride (stride-a)}
+   :b {:dim (dim-b) :stride (stride-b)}
+   :c {:dim (dim-c) :stride (stride-c)}
+   :d {:dim (dim-d) :stride (stride-d)}})
 
 (def ^:private axes [:a :b :c :d])
 
@@ -207,32 +247,31 @@
   "All positions where axis = value.
    Returns int[] of (total / dim) positions."
   [axis ^long value]
-  (let [{:keys [dim stride]} (get axis-info axis)
+  (let [{:keys [dim]} (get (axis-info) axis)
+        da (dim-a) db (dim-b) dc (dim-c) dd (dim-d)
         size (/ total-letters dim)
-        result (int-array size)
-        ;; Which axes are free?
-        other-axes (remove #{axis} axes)]
+        result (int-array size)]
     (assert (< value dim) (str axis " must be < " dim))
     (let [idx (atom 0)]
       (case axis
-        :a (dotimes [b dim-b]
-             (dotimes [c dim-c]
-               (dotimes [d dim-d]
+        :a (dotimes [b db]
+             (dotimes [c dc]
+               (dotimes [d dd]
                  (aset result (int @idx) (int (coord->idx value b c d)))
                  (swap! idx inc))))
-        :b (dotimes [a dim-a]
-             (dotimes [c dim-c]
-               (dotimes [d dim-d]
+        :b (dotimes [a da]
+             (dotimes [c dc]
+               (dotimes [d dd]
                  (aset result (int @idx) (int (coord->idx a value c d)))
                  (swap! idx inc))))
-        :c (dotimes [a dim-a]
-             (dotimes [b dim-b]
-               (dotimes [d dim-d]
+        :c (dotimes [a da]
+             (dotimes [b db]
+               (dotimes [d dd]
                  (aset result (int @idx) (int (coord->idx a b value d)))
                  (swap! idx inc))))
-        :d (dotimes [a dim-a]
-             (dotimes [b dim-b]
-               (dotimes [c dim-c]
+        :d (dotimes [a da]
+             (dotimes [b db]
+               (dotimes [c dc]
                  (aset result (int @idx) (int (coord->idx a b c value)))
                  (swap! idx inc))))))
     result))
@@ -242,7 +281,7 @@
    free-axis is the axis that varies; fixed is a map of the other 3.
    Returns int[] of dim(free-axis) positions."
   [free-axis fixed]
-  (let [{:keys [dim]} (get axis-info free-axis)
+  (let [{:keys [dim]} (get (axis-info) free-axis)
         result (int-array dim)
         a (get fixed :a 0)
         b (get fixed :b 0)
@@ -261,14 +300,14 @@
   "2D slice: fix some axes, free the rest. Returns int[].
    fixed is a map of axis → value for axes to fix."
   [fixed]
-  (let [free (remove (set (keys fixed)) axes)
-        ;; Compute total size
-        size (reduce * (map #(:dim (get axis-info %)) free))
+  (let [ai (axis-info)
+        free (remove (set (keys fixed)) axes)
+        size (reduce * (map #(:dim (get ai %)) free))
         result (int-array size)
-        a-range (if (contains? fixed :a) [(get fixed :a)] (range dim-a))
-        b-range (if (contains? fixed :b) [(get fixed :b)] (range dim-b))
-        c-range (if (contains? fixed :c) [(get fixed :c)] (range dim-c))
-        d-range (if (contains? fixed :d) [(get fixed :d)] (range dim-d))
+        a-range (if (contains? fixed :a) [(get fixed :a)] (range (dim-a)))
+        b-range (if (contains? fixed :b) [(get fixed :b)] (range (dim-b)))
+        c-range (if (contains? fixed :c) [(get fixed :c)] (range (dim-c)))
+        d-range (if (contains? fixed :d) [(get fixed :d)] (range (dim-d)))
         idx (atom 0)]
     (doseq [a a-range b b-range c c-range d d-range]
       (aset result (int @idx) (int (coord->idx a b c d)))
@@ -285,7 +324,7 @@
   "Walk along an axis from a starting position. Generalized ELS.
    Returns int[] of n positions."
   [^long start axis ^long step ^long n]
-  (let [{:keys [stride dim]} (get axis-info axis)
+  (let [{:keys [stride dim]} (get (axis-info) axis)
         coord (idx->coord start)
         result (int-array n)]
     (aset result 0 (int start))

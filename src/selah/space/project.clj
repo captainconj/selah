@@ -10,11 +10,11 @@
 ;; Maps positions to spatial coordinates by selecting which
 ;; coordinate axes become x, y, z. Normalized to [0..1].
 
-(def ^:private axis-max
-  {:a (dec c/dim-a)    ;; 6
-   :b (dec c/dim-b)    ;; 49
-   :c (dec c/dim-c)    ;; 12
-   :d (dec c/dim-d)})  ;; 66
+(defn- axis-max []
+  {:a (dec (c/dim-a))
+   :b (dec (c/dim-b))
+   :c (dec (c/dim-c))
+   :d (dec (c/dim-d))})
 
 (defn- coord-component
   "Extract a single coordinate component from a position."
@@ -34,9 +34,10 @@
    Returns float[] of [x y z x y z ...] normalized to [0..1]."
   ^floats [^ints positions axes]
   (let [[ax ay az] axes
-        mx (double (get axis-max ax))
-        my (double (get axis-max ay))
-        mz (double (get axis-max az))
+        am (axis-max)
+        mx (double (get am ax))
+        my (double (get am ay))
+        mz (double (get am az))
         n (alength positions)
         out (float-array (* 3 n))]
     (dotimes [i n]
@@ -60,8 +61,9 @@
    Returns float[] of [x y x y ...] normalized to [0..1]."
   ^floats [^ints positions axes]
   (let [[ax ay] axes
-        mx (double (get axis-max ax))
-        my (double (get axis-max ay))
+        am (axis-max)
+        mx (double (get am ax))
+        my (double (get am ay))
         n (alength positions)
         out (float-array (* 2 n))]
     (dotimes [i n]
@@ -86,7 +88,7 @@
    temporal = axis keyword (:a :b :c :d).
    Returns vec of {:t n :positions int[]}."
   [^ints positions spatial temporal]
-  (let [dim (get {:a c/dim-a :b c/dim-b :c c/dim-c :d c/dim-d} temporal)
+  (let [dim (get {:a (c/dim-a) :b (c/dim-b) :c (c/dim-c) :d (c/dim-d)} temporal)
         ;; Group positions by their temporal coordinate
         buckets (make-array (Class/forName "[I") dim)]
     ;; First pass: count per bucket
