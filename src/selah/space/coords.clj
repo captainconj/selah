@@ -409,6 +409,65 @@
                     :text text :gv @gv :verse @v})))))
     (into {} (map (fn [[w hits]] [w (persistent! hits)])) @results)))
 
+(defn preimage-indexed
+  "Fast preimage for large vocabularies.
+   Extracts all substrings per fiber, looks up in a hash set.
+   O(fibers × substrings-per-fiber) — independent of word count.
+   Returns {word -> count} for all words found at least once."
+  [words]
+  (let [s (space)
+        word-set (set words)
+        fl (dim-a)  ;; fiber length = 7
+        results (java.util.concurrent.ConcurrentHashMap.)]
+    (doseq [b (range (dim-b))
+            c (range (dim-c))
+            d (range (dim-d))]
+      (let [fib (fiber :a {:b b :c c :d d})
+            text (apply str (map #(letter-at s %) (seq fib)))]
+        ;; Extract all substrings of length 2..fl
+        (dotimes [len-minus-2 (dec fl)]
+          (let [len (+ 2 len-minus-2)]
+            (dotimes [offset (- (inc fl) len)]
+              (let [sub (subs text offset (+ offset len))]
+                (when (contains? word-set sub)
+                  (.merge results sub (long 1) (reify java.util.function.BiFunction
+                                                 (apply [_ a b] (+ (long a) (long b))))))))))))
+    (into {} results)))
+
+(defn preimage-full
+  "Fast preimage returning full hit data for large vocabularies.
+   Returns {word -> vec of {:b :c :d :text :gv :verse}}."
+  [words]
+  (let [s (space)
+        word-set (set words)
+        fl (dim-a)
+        results (atom (into {} (map #(vector % (transient [])) words)))]
+    (doseq [b (range (dim-b))
+            c (range (dim-c))
+            d (range (dim-d))]
+      (let [fib (fiber :a {:b b :c c :d d})
+            text (apply str (map #(letter-at s %) (seq fib)))
+            gv (delay (reduce + (map #(gv-at s %) (seq fib))))
+            v  (delay (let [vr (verse-at s (aget fib 0))]
+                        (str (:book vr) " " (:ch vr) ":" (:vs vr))))
+            found (volatile! #{})]
+        ;; Extract all substrings, collect unique matches
+        (dotimes [len-minus-2 (dec fl)]
+          (let [len (+ 2 len-minus-2)]
+            (dotimes [offset (- (inc fl) len)]
+              (let [sub (subs text offset (+ offset len))]
+                (when (and (contains? word-set sub)
+                           (not (contains? @found sub)))
+                  (vswap! found conj sub)
+                  (swap! results update sub conj!
+                         {:b b :c c :d d
+                          :text text :gv @gv :verse @v}))))))
+        ))
+    (into {} (keep (fn [[w hits]]
+                     (let [h (persistent! hits)]
+                       (when (seq h) [w h]))))
+          @results)))
+
 ;; ── REPL ───────────────────────────────────────────────────
 
 (comment

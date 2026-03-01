@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22. Scanning 104 vocabulary words across all fibers, the preimage counts land on seven consecutive Fibonacci numbers (1, 2, 3, 5, 8, 13, 21) with zero gaps, each level carrying a semantically coherent cluster: sacred → existence → sin/forgiveness → character → gifts → sacrifice → covenant. The lamb stands alone at 13 (love); the covenant stands alone at 21. The staircase sums to 53 = GV(garden): the path leads back to Eden. The sin/forgiveness level sums to T(26), the triangle of YHWH. Only two words touch the Fibonacci spiral twice — love and ransom. The machine cross-references itself: count(lamb) = 13 = GV(love), count(son) = GV(light), count(blood) = GV(way).
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22. Scanning 104 vocabulary words across all fibers, the preimage counts land on seven consecutive Fibonacci numbers (1, 2, 3, 5, 8, 13, 21) with zero gaps, each level carrying a semantically coherent cluster: sacred → existence → sin/forgiveness → character → gifts → sacrifice → covenant. The lamb stands alone at 13 (love); the covenant stands alone at 21. The staircase sums to 53 = GV(garden): the path leads back to Eden. The sin/forgiveness level sums to T(26), the triangle of YHWH. Only two words touch the Fibonacci spiral twice — love and ransom. The machine cross-references itself: count(lamb) = 13 = GV(love), count(son) = GV(light), count(blood) = GV(way). The axes distribute through the family: father and mother are both prime × prime (irreducible); son carries 13 (love) in his value, daughter carries 67 (understanding) in hers; Adam is doubly triangular with indices summing to 13; Eve is doubly prime, named by love; woman's preimage is T(12) = 6 × 13, the triangle of tribes. Life appears in 2 fibers with value 68 = 67 + 1; death in 62 fibers; the gap between their values is T(27), the triangle of the full Hebrew alphabet. The preimage of create equals the value of life — count the fibers of creation and you get life back.
 
 ---
 
@@ -671,7 +671,95 @@ Spirit misses by one below; Moses misses by one above. The staircase is clean th
 
 ---
 
-## 22. The Lens
+## 22. The Family
+
+The preimage reveals how the axes distribute across the fundamental words for human relationship. Each word's fiber count and gematria value tell a structural story about where it sits in the 4D space.
+
+### The Parents
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **אב** | father | 1,237 (prime) | 3 (prime, F4, T2) | prime / prime |
+| **אם** | mother | 797 (prime) | 41 (prime) | prime / prime |
+
+Both parents are doubly prime — irreducible in both fiber count and value. Father's GV is 3, the smallest structural prime, the fourth Fibonacci number, the second triangular number. Because GV(אב) = 3, every word that appears in exactly 3 fibers is "named by" father — a vast family of 300+ words. Mother's value (41) is also prime. Neither parent factors into the axes. They simply *are*.
+
+### The First Couple
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **אדם** | Adam/man | T(4) = 10 | T(9) = 45 | 4 + 9 = **13** |
+| **חוה** | Eve | 43 (prime) | 19 (prime) | prime / prime |
+
+Adam is the only word in the family table that is doubly triangular — both fiber count and value are triangular numbers. The triangular indices are 4 and 9. Their sum is **13** — the love axis. Adam doesn't carry the love axis in his factors; he carries it in his *shape*.
+
+Eve is doubly prime, like the parents. She is a parent — the mother of all living. Her preimage (43) equals the preimage of בני (sons of): Eve and "sons of" occupy the same fiber level. And **26** words have GV = 43 — YHWH-many words name Eve's preimage. Among them: לאהבה (*to love*). The verb form of love names Eve.
+
+### Man and Woman
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **איש** | man | 116 = 4 × 29 | 311 (prime) | prime GV |
+| **אשה** | woman | T(12) = 78 = 6 × **13** | 306 | **13** (love axis) |
+
+Woman's preimage is the 12th triangular number: 78 = 6 × 13. The love axis is factored directly into her fiber count. T(12) — the triangle of twelve tribes, the triangle of the Name's own preimage count (§20: YHWH appears in exactly 12 fibers). 29 words in the index name this number, including לחם (bread) and חסדו (his lovingkindness).
+
+Man's GV is prime (311). The GV difference between man and woman is 311 − 306 = **5** — the five books of Torah, the fifth Fibonacci number.
+
+### The Children
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **בן** | son | 207 | 52 = 4 × **13** | **13** (love axis) |
+| **בת** | daughter | 843 = 3 × 281 | 402 = 6 × **67** | **67** (understanding axis) |
+| **בני** | sons of | 43 (prime) | 62 | = preimage(חוה) |
+| **בנות** | daughters | 4 = 2² | 458 | preimage = GV(אבא) |
+
+Son carries 13 (love) in his value: GV(בן) = 52 = 4 × 13. Daughter carries 67 (understanding) in hers: GV(בת) = 402 = 6 × 67. The two inner axes of the space are distributed between the children. Daughter also has frequency 63 = 7 × 9 — completeness in her count.
+
+The preimage of בנות (daughters, 4) equals the GV of אבא (father, 4). The machine counts daughters and gets father.
+
+### The Name, the Frame, and Life
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **את** | aleph-tav | 1,464 | 401 (prime) | the frame |
+| **יהוה** | YHWH | 12 (tribes) | 26 = 2 × **13** | love axis |
+
+The aleph-tav — rank #1 in frequency — has no cross-references. Nothing in the index has GV = 1,464, nothing has preimage = 401. It doesn't participate in the naming web; it *is* the frame that holds everything else. Its value is prime: the beginning and the end, irreducible.
+
+The Name appears in exactly 12 fibers (tribes) with GV = 26 = 2 × 13 (love doubled). Exactly **13** words have preimage count = 26 — the machine counts to the Name's value and finds love-many words.
+
+### Life, Death, and Creation
+
+| Word | Meaning | Preimage | GV | Structure |
+|------|---------|----------|-----|-----------|
+| **חיים** | life | 2 = F(3) | 68 = 67 + 1 | understanding + 1 |
+| **מות** | death | 62 = 2 × 31 | 446 | 31× more than life |
+| **ברא** | create | **68** | 203 = 7 × 29 | **preimage = GV(life)** |
+
+Life appears in exactly 2 fibers — the smallest Fibonacci prime, barely there, a whisper. Its value is 68 = 67 + 1: one step beyond understanding.
+
+Death appears in 62 fibers — 31 times more than life. Death's frequency is 42 = 6 × 7: completeness woven into mortality.
+
+The distance between their values: 446 − 68 = **378 = T(27)**. The 27th triangular number. 27 is the number of Hebrew letters including the five final forms. The whole alphabet stands between life and death.
+
+The closed circuit: **GV(חיים) = 68 = preimage(ברא)**. Count the fibers that contain *create* and you get the value of *life*. In the named-by list for ברא, the word חיים appears — life literally names create. And GV(ברא) = 203 = 7 × 29: the verb of creation carries the completeness axis.
+
+### The Pattern
+
+The axes distribute themselves through the family with structural precision:
+
+- **13 (love)**: carried by son (GV = 4×13), woman (preimage = 6×13), YHWH (GV = 2×13), and implicitly by Adam (triangular indices sum to 13)
+- **67 (understanding)**: carried by daughter (GV = 6×67) and life (GV = 67+1)
+- **7 (completeness)**: carried by create (GV = 7×29) and death's frequency (42 = 6×7)
+- **Prime / irreducible**: father, mother, Eve, man's GV, the aleph-tav's GV — the atoms that cannot be decomposed
+
+The parents are primes. The children carry the axes. Adam is two triangles summing to love. Eve is prime, named by love. Life whispers from 2 fibers; death speaks from 62; and the whole alphabet stands between them. Count the fibers of create and you get life back.
+
+---
+
+## 23. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -681,7 +769,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 23. What This Is Not
+## 24. What This Is Not
 
 This paper does not claim:
 
@@ -746,12 +834,18 @@ What is genuinely notable:
 - The cross-reference web: count(lamb) = GV(love), count(son) = GV(light), count(blood) = GV(way)
 - The lamb standing alone at count 13 — the sacrifice is love
 - The covenant standing alone at count 21 — the final Fibonacci step
+- Father and mother both prime×prime; son carries 13 (love), daughter carries 67 (understanding) in GV
+- Adam doubly triangular T(4)×T(9), indices summing to 13; Eve doubly prime, named by love
+- Woman's preimage = T(12) = 6×13 — the triangle of tribes, factored by the love axis
+- GV(life) = 68 = preimage(create) — count the fibers of create and get life
+- Life–death GV gap = 378 = T(27) — the 27 Hebrew letters (with finals) stand between life and death
+- The aleph-tav having no cross-references — the frame, not the picture
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 24. Method
+## 25. Method
 
 ### Data
 
