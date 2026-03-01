@@ -265,6 +265,26 @@ All large numbers (25000, 10000, 5000, 4500, 1000, 500, 250) divide by **50**. T
 
 **Interpretation:** Ezekiel gives you the control surface (7, 13, 50) but not the understanding axis (67). The architecture provides three coordinates — the fourth must come from elsewhere. בינה (understanding) = 67 is not built. It is received.
 
+## Hierarchy and Ladder (075)
+
+The captains of thousands/hundreds/fifties/tens (Exodus 18:21) and Jacob's Ladder (Genesis 28:12) in the 4D space.
+
+**Jethro's fold:** Exod 18:10 (clean fiber, c=1) fold-mirrors to Exod 18:21 (captains, c=10-11). Same a=2, b=20 slab. Blessing ↔ wisdom through the love axis fold.
+
+**Ladder sweeps love:** Gen 28:10-22 covers c-values 0-9,11,12 — **12 of 13** love-axis positions. The missing c=10 belongs to Gen 28:9 (Esau marries Ishmael's daughter). Include Esau and the pair sweeps all 13. The ladder verse itself (28:12) crosses c=12→c=0 through b=44→45, a jubilee boundary.
+
+**סלם = סיני = 130 = 10 × 13.** Ladder = Sinai. Same gematria. Both = captains-of-tens × love-axis.
+
+**Fibers through סלם:** c-fiber GV = 741 = **13 × 57** (÷ love). b-fiber GV = 2,709 = **7 × 387** (÷ completeness). Each non-text fiber divides by the axis number it's not on.
+
+**Esau completes understanding:** With Esau (28:9-22), GV = 50,786 = **67 × 758**. Without him, no axis divisibility. Include the brother and the total ÷ understanding.
+
+**304,850 / (50 × 67) = 91 = 7 × 13.** Total letters ÷ (50 gates of understanding) = completeness × love.
+
+**Two trees:** Torah = 7 × 50 × 13 × 67. Captains = 10 × 2 × 5 × 10. Both 4-level hierarchies containing 50. Torah admits 10 and 50 from captains but rejects 100 and 1000 (304,850 has only one factor of 2).
+
+Sum of rank words (עשרת + חמשים + מאות + אלפים) = 1,976 = **13 × 152**. The hierarchy ÷ love.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -274,4 +294,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–074 in `dev/experiments/`
+- Experiments 053–075 in `dev/experiments/`
