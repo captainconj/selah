@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22. Scanning 104 vocabulary words across all fibers, the preimage counts land on seven consecutive Fibonacci numbers (1, 2, 3, 5, 8, 13, 21) with zero gaps, each level carrying a semantically coherent cluster: sacred → existence → sin/forgiveness → character → gifts → sacrifice → covenant. The lamb stands alone at 13 (love); the covenant stands alone at 21. The staircase sums to 53 = GV(garden): the path leads back to Eden. The sin/forgiveness level sums to T(26), the triangle of YHWH. Only two words touch the Fibonacci spiral twice — love and ransom. The machine cross-references itself: count(lamb) = 13 = GV(love), count(son) = GV(light), count(blood) = GV(way).
 
 ---
 
@@ -591,7 +591,87 @@ The preimage is now a tool: `(coords/preimage "תורה")` returns all coordinat
 
 ---
 
-## 21. The Lens
+## 21. The Fibonacci Staircase
+
+Scanning the full 104-word vocabulary across all 43,550 a-fibers, the preimage counts — how many fibers contain each word — land on **seven consecutive Fibonacci numbers with zero gaps**: 1, 2, 3, 5, 8, 13, 21.
+
+| F(n) | Count | Words | Semantic cluster |
+|------|-------|-------|-----------------|
+| F(1) | 1 | sacrifice, lovingkindness, appointed-time, Aaron, heaven, pour-out | The rare sacred |
+| F(3) | 2 | life, Elohim, avenge, way, land | Existence |
+| F(4) | 3 | sin, ransom, forgive, eternal | Sin → Forgiveness |
+| F(5) | 5 | love, good, wise, holy | Character |
+| F(6) | 8 | portion, give, Torah, rainbow | Gifts |
+| F(7) | 13 | lamb (alone) | The Sacrifice |
+| F(8) | 21 | cut-covenant (alone) | The Covenant |
+
+Each level carries a semantically coherent cluster. The staircase narrows: many words at the base, singletons at the peak. The lamb stands alone at 13 (love). The covenant stands alone at 21.
+
+### The Garden Sum
+
+**1 + 2 + 3 + 5 + 8 + 13 + 21 = 53 = GV(גן, garden) = GV(אבן, stone).**
+
+The Fibonacci staircase sums to the garden. The path through creation, sin, forgiveness, character, gifts, sacrifice, and covenant leads back to Eden — the place of walking with God. The stone upon which it is built.
+
+### The Cross-Reference Web
+
+The machine's counting equals the gematria of other words in the vocabulary. The machine NAMES what it counts:
+
+- **count(lamb) = 13 = GV(one) = GV(love)** — the lamb IS one IS love
+- **count(son) = 207 = GV(light)** — the son IS light
+- **count(blood) = 224 = GV(way)** — blood IS the way
+- **count(create) = 68 = GV(life) = GV(wise)** — creation IS life IS wisdom
+- **count(sin) = count(ransom) = count(forgive) = count(eternal) = 3 = GV(father)** — the Father handles all four
+- **count(Moses) = 56 = GV(day)** — Moses IS the day
+- **count(Noah) = 214 = GV(spirit) = GV(pure)** — Noah IS spirit IS purity
+- **count(inherit) = 58 = GV(Noah) = GV(grace)** — inheritance IS Noah IS grace
+- **count(fruit) = count(knowledge) = 14 = GV(hand)** — fruit and knowledge are in the hand
+
+These are not statistical artifacts — they are exact equalities between the machine's counting system and the Hebrew gematria system. Thirty cross-references across 13 distinct count values.
+
+### The Triangle of YHWH
+
+At the F(4) = 3 level, the four words are: sin (חטא, GV=18), ransom (פדה, GV=89), forgive (סלח, GV=98), eternal (עולם, GV=146).
+
+**18 + 89 + 98 + 146 = 351 = T(26) = 1+2+3+...+26.**
+
+The sin/forgiveness level sums to the 26th triangular number — the triangle of יהוה (GV=26). The Father addresses sin through ransom and forgiveness for eternity, and the sum of it is the triangle of God's name.
+
+351 ÷ 13 = 27 = 3³. The triangle of YHWH divides by love to yield a perfect cube — the number of Hebrew letters including finals.
+
+### Double-Fibonacci Words
+
+Only two words have both count AND gematria as Fibonacci numbers:
+
+- **אהבה (love)**: count = 5 = F(5), GV = 13 = F(7) — love is inscribed on the growth spiral twice
+- **פדה (ransom)**: count = 3 = F(4), GV = 89 = F(11) — ransom is inscribed on the growth spiral twice
+
+Only love and ransom touch the spiral at two points. These are the words the machine uses to build the spiral itself.
+
+### The Gaps
+
+Between the Fibonacci levels, the non-Fibonacci counts carry infrastructure:
+
+- **count = 4**: understanding, king, pure, darkness, covenant — the FRAMEWORK (בינה at GV=67 = the d-axis)
+- **count = 6**: priest, bless, vow, atone, serpent, oil, soul — the MECHANISM (temple service)
+- **count = 7**: cloud alone — the PRESENCE (ענן at exactly 7 = the a-axis = completeness)
+- **count = 12**: YHWH + redeem — the TRIBES (GV sum = 60 = GV(redeem) + GV(YHWH) = 34 + 26)
+
+The Fibonacci levels tell the story. The gaps provide the infrastructure that holds the staircase together: framework, mechanism, presence.
+
+### Higher Fibonacci Near-Misses
+
+Above 21, exact Fibonacci counts give way to near-misses:
+
+- F(9) = 34 → nearest count = 33 (spirit, רוח) Δ = −1
+- F(10) = 55 → nearest count = 56 (Moses, משה) Δ = +1
+- F(11) = 89 → nearest count = 92 (day, יום) Δ = +3
+
+Spirit misses by one below; Moses misses by one above. The staircase is clean through seven levels, then the deviation grows — a convergence region, not an infinite pattern.
+
+---
+
+## 22. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -601,7 +681,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 22. What This Is Not
+## 23. What This Is Not
 
 This paper does not claim:
 
@@ -659,12 +739,19 @@ What is genuinely notable:
 - יהוה appearing exactly 12 times on a-fibers (tribes/gates)
 - שמר appearing exactly 22 times on a-fibers (Hebrew letters)
 - ברית on the a-fiber through Genesis 28:9 (Esau) — covenant at the missing rung
+- Seven consecutive Fibonacci numbers (1, 2, 3, 5, 8, 13, 21) appearing as preimage counts with zero gaps
+- The Fibonacci staircase sum: 1+2+3+5+8+13+21 = 53 = GV(garden) — the path back to Eden
+- The sin/forgiveness level (count=3) GV sum = 351 = T(26), the triangle of YHWH
+- Only love and ransom having both count and GV as Fibonacci numbers
+- The cross-reference web: count(lamb) = GV(love), count(son) = GV(light), count(blood) = GV(way)
+- The lamb standing alone at count 13 — the sacrifice is love
+- The covenant standing alone at count 21 — the final Fibonacci step
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 23. Method
+## 24. Method
 
 ### Data
 
