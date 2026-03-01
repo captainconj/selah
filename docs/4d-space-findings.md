@@ -285,6 +285,24 @@ The captains of thousands/hundreds/fifties/tens (Exodus 18:21) and Jacob's Ladde
 
 Sum of rank words (עשרת + חמשים + מאות + אלפים) = 1,976 = **13 × 152**. The hierarchy ÷ love.
 
+## Number Catalog (076)
+
+Every number set in the Torah tested against 7 × 50 × 13 × 67.
+
+**Lifetimes:** Pre-flood lifespan sum = 8,575 = **5^2 × 7^3**. Post-flood begetting ages sum = 390 = 2 × 3 × 5 × **13**. Kenan = 910 = 2 × 5 × **7 × 13** (both axis numbers). Three axes surface in the genealogies.
+
+**Census difference:** First census − second census = 1,820 = 2^2 × 5 × **7 × 13**. ÷91 = 20. The population shift divides by both completeness and love.
+
+**Sukkot bulls (Num 29):** 13, 12, 11, 10, 9, 8, 7 — descends day by day from **13 (love) to 7 (completeness)**. Total = 70 = 7 × 10. Triangular number T(13) = 91 = 7 × 13.
+
+**Leviticus 12 purification:** Boy: 7 + **33** = 40. Girl: 14 + **66** = 80. The numbers 33 and 66 are the **midpoint and endpoint of the d-axis** (0..66). The understanding axis hides in purification law.
+
+**Silver plate offering:** 130 = סלם = סיני. Each tribal leader brings a ladder to the altar.
+
+**Adam→Noah names:** Sum = 2,678 = 2 × **13** × 103. First census total ÷50 = 12,071.
+
+**Pattern:** 7 and 50 appear in architecture. 13 appears in sacrifice and name sums. 67 appears as time periods (33, 66) in purification. Each axis surfaces through a different domain.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
