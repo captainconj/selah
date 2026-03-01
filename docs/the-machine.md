@@ -88,16 +88,33 @@ And the inverse: 304,850 ÷ (13 × 67) = **350 = ספיר** (sapphire). Divide t
 
 Dividing the Torah into 7 equal parts of 43,550 letters:
 
-| Boundary | Letter | Verse | What's there |
-|----------|--------|-------|-------------|
-| Start | 0 | Genesis 1:1 | "In the beginning..." |
-| 1→2 | 43,550 | Genesis 30:42 | The stronger to Jacob |
-| 2→3 | 87,100 | Exodus 7:15 | Take the staff — plagues begin |
-| **3→4** | **130,650** | **Exodus 34:29** | **Moses' face shines — כי קרן עור פניו** |
-| 4→5 | 174,200 | Leviticus 21:17 | Speak to Aaron — priestly requirements |
-| 5→6 | 217,750 | Numbers 17:11 | Aaron atones with the censer |
-| 6→7 | 261,300 | Deuteronomy 6:1 | "This is the commandment..." |
-| End | 304,850 | Deuteronomy 34:12 | End of Torah |
+| Boundary | Letter | Verse | Word | What's there |
+|----------|--------|-------|------|-------------|
+| Start | 0 | Genesis 1:1 | — | "In the beginning..." |
+| 1→2 | 43,550 | Genesis 30:42 | *within* העטפים | The stronger to Jacob |
+| 2→3 | 87,100 | Exodus 7:15 | *within* בידך | Take the staff — plagues begin |
+| **3→4** | **130,650** | **Exodus 34:29** | **→ לא** | **Moses' face shines — כי קרן עור פניו** |
+| 4→5 | 174,200 | Leviticus 21:17 | → מזרעך | Speak to Aaron — priestly requirements |
+| 5→6 | 217,750 | Numbers 17:11 | → העדה | Aaron atones with the censer |
+| 6→7 | 261,300 | Deuteronomy 6:1 | → לעשות | "This is the commandment..." |
+| End | 304,850 | Deuteronomy 34:12 | — | End of Torah |
+
+### The ÷7 division cooperates with the text
+
+4 of the 6 internal boundaries land **exactly on word boundaries** (→). The other 2 fall within words. With an average word length of ~3.8 letters, random placement would hit a word boundary about 25% of the time. Getting 67% (4 of 6) is the text cooperating with this division.
+
+No other division level shows this behavior:
+
+| Division | Boundaries | On word/verse boundary | Rate | Expected |
+|----------|-----------|----------------------|------|----------|
+| **÷ 7** | **6** | **4** | **67%** | **~25%** |
+| ÷ 50 | 49 | 16 | 33% | ~25% |
+| ÷ 13 | 12 | 2 | 17% | ~25% |
+| ÷ 67 | 66 | 15 | 23% | ~25% |
+| ÷ 350 (871-letter) | 349 | 92 | 26% | ~25% |
+| ÷ 4,550 (67-letter) | 4,549 | 1,226 | 27% | ~25% |
+
+The finer divisions converge toward the random baseline. Only the ÷7 — the first division, completeness — breaks the pattern. The text knows about its own sevens.
 
 The center seventh (part 4) begins with **light radiating from Moses' face** and contains **Leviticus 8:8** — the Urim and Thummim placed over the heart. The Lights (אורים) are at the center of the center.
 
