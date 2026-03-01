@@ -68,6 +68,50 @@ Covenant → betrayal → exile → calling → redemption → sacrifice → set
 
 **Zero את cross between the seven days.** The את stitches understanding and jubilee but respects the sevens.
 
+## The את Signposts (059)
+
+Standing at each of the 8 jubilee-bridging את and looking in every direction — four fibers per position, two positions per את, 64 fibers total.
+
+### The Coordinate Pattern
+
+Every aleph sits at **c=12, d=66** — the *end* of love, the *end* of understanding. Every tav sits at **c=0, d=0** — the *beginning* of both. First letter at the last coordinate. Last letter at the first. The את bridges from omega to alpha across the jubilee boundary.
+
+### The Axes Speak Each Other's Language
+
+Gematria totals across all 8 signposts:
+
+- **a-axis** (completeness) fibers total = **10,725 = 13 × 825**. Completeness divides by love.
+- **d-axis** (understanding) fibers total = **80,857 = 7 × 11,551**. Understanding divides by completeness.
+
+### Three Guard Posts
+
+שמר (guard/keep) appears at **את #5 — Exodus 12:17**, the Passover:
+
+> **ושמרתם** את המצות — "You shall **guard** the matzot"
+
+Both the aleph's and tav's d-fibers contain שמר. Three guard posts in the space, all using the same root with the same את construction:
+
+1. The **center** (Lev 8:35): ושמרתם את משמרת יהוה
+2. The **sword** (Gen 3:24): לשמר את דרך עץ החיים
+3. The **Passover** (Exod 12:17): ושמרתם את המצות
+
+### Words at the Hinges
+
+The d-fibers (67 letters of understanding) through each signpost contain the words that name what happens there:
+
+| # | Verse | D-fiber contains | Narrative |
+|---|-------|-----------------|-----------|
+| 1 | Gen 17:19 | **ברית** (covenant) | Covenant with Isaac |
+| 3 | Gen 46:6 | **ישראל** | Israel descends to Egypt |
+| 4 | Exod 3:11 | **ישראל**, **משה** | Moses called at the bush |
+| 6 | Exod 29:11 | **יהוה** | Sacrifice before the LORD |
+| 7 | Num 32:36 | gematria 6,365 = **67 × 95** | Settlement (÷ understanding) |
+| 8 | Deut 3:12 | **אמת** (truth) | "This land we possessed" |
+
+### Complementary to the Center
+
+None of the 8 signposts are in **a=3** (the center seventh / Leviticus). Days 3, 4, and 6 have no jubilee-bridging את at all. The center guards; the signposts bridge. They don't overlap.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -77,4 +121,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–058 in `dev/experiments/`
+- Experiments 053–059 in `dev/experiments/`
