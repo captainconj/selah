@@ -337,6 +337,56 @@
             (recur (inc i) next-pos)))))
     result))
 
+;; ── Preimage ──────────────────────────────────────────────
+;;
+;; The machine reads forward: (b, c) → slab → text.
+;; The preimage reads backward: word → which (b, c, d) contain it?
+
+(defn preimage
+  "Find all a-fibers containing a given Hebrew word.
+   Returns vec of {:b :c :d :text :gv :verse} maps.
+   word is a Hebrew string (e.g. \"תורה\")."
+  [word]
+  (let [s (space)
+        results (atom (transient []))]
+    (doseq [b (range (dim-b))
+            c (range (dim-c))
+            d (range (dim-d))]
+      (let [fib (fiber :a {:b b :c c :d d})
+            text (apply str (map #(letter-at s %) (seq fib)))]
+        (when (str/includes? text word)
+          (let [gv (reduce + (map #(gv-at s %) (seq fib)))
+                v (verse-at s (aget fib 0))]
+            (swap! results conj!
+                   {:b b :c c :d d
+                    :text text :gv gv
+                    :verse (str (:book v) " " (:ch v) ":" (:vs v))})))))
+    (persistent! @results)))
+
+(defn preimage-on
+  "Find all fibers on a given axis containing a word.
+   axis is :a, :b, :c, or :d. Returns vec of maps."
+  [axis word]
+  (let [s (space)
+        ai (axis-info)
+        free-axis axis
+        fixed-axes (remove #{axis} axes)
+        dims (mapv #(:dim (get ai %)) fixed-axes)
+        ranges (mapv #(range %) dims)
+        results (atom (transient []))]
+    (doseq [i0 (nth ranges 0)
+            i1 (nth ranges 1)
+            i2 (nth ranges 2)]
+      (let [fixed (zipmap fixed-axes [i0 i1 i2])
+            fib (fiber free-axis fixed)
+            text (apply str (map #(letter-at s %) (seq fib)))]
+        (when (str/includes? text word)
+          (let [gv (reduce + (map #(gv-at s %) (seq fib)))]
+            (swap! results conj!
+                   (merge fixed
+                          {:text text :gv gv :axis axis}))))))
+    (persistent! @results)))
+
 ;; ── REPL ───────────────────────────────────────────────────
 
 (comment

@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22.
 
 ---
 
@@ -474,7 +474,124 @@ This null result is the key methodological finding of Phase 6. It means the spec
 
 ---
 
-## 18. The Lens
+## 18. The Hierarchy and the Ladder
+
+Biblical hierarchies are trees. The Torah's 4D factorization is a tree. They share a node.
+
+### The Captains Tree
+
+Exodus 18:21 — Jethro counsels Moses to appoint captains of **thousands, hundreds, fifties, and tens**. A four-level nested hierarchy. The same depth as the Torah's factorization. Both contain 50:
+
+```
+Torah tree:     304,850 → ÷7 → ÷50 → ÷13 → ÷67 → 1
+Captains tree:    1,000 → ÷10 → ÷2 → ÷5 → ÷10 → 1
+```
+
+304,850 = 2 × 5² × 7 × 13 × 67. Only one factor of 2. The number 100 = 2² × 5² needs two factors of 2. So the Torah admits 10 and 50 from the captains hierarchy but rejects 100 and 1000. The tree branches differently.
+
+### Jethro's Fold
+
+The captains verse (Exodus 18:21) sits at coordinates (2, 20, **10**, 35) → (2, 20, **11**, 50), spanning c=10-11. The clean fiber (Exodus 18:10, Jethro's blessing, §16) sits at (2, 20, **1**, 0), c=1. Same a=2, same b=20 — the same 871-letter slab.
+
+The c-fold: c ↔ 12−c. So c=1 mirrors to c=**11**. Jethro's blessing fold-mirrors to Jethro's counsel. The clean fiber and the captains share the same fold line in the same slab. Blessing ↔ wisdom through the love axis.
+
+Both captains verses (Exodus 18:21 and Deuteronomy 1:15) sit at c=10-11.
+
+The sum of the four rank words (עשרת + חמשים + מאות + אלפים) = 1,976 = **13 × 152**. The hierarchy divides by love.
+
+### Jacob's Ladder
+
+**סלם** (*sullam*, "ladder") = gematria **130 = 10 × 13**. Captains-of-tens × the love axis.
+
+**סיני** (*Sinai*) = gematria **130 = 10 × 13**. Ladder = Sinai. Both connect heaven to earth. Same number.
+
+Genesis 28:12 — the ladder verse — starts at (0, 44, **12**, 40) and ends at (0, 45, **0**, 32). It crosses from c=12 (the *end* of the love axis) to c=0 (the *beginning*), passing through a jubilee boundary (b=44 → b=45). The ladder wraps the love axis through a jubilee gate.
+
+The full episode (Genesis 28:10-22) sweeps c-values 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12 — **twelve of thirteen** love-axis values. The missing c=10 belongs to Genesis 28:9: **Esau** marries Ishmael's daughter. The one who sold the birthright fills the rung the ladder leaves empty. Include Esau and the pair sweeps all 13.
+
+### Fibers Through the Ladder
+
+The c-fiber through סלם has gematria 741 = **13 × 57** — divides by the love axis number.
+The b-fiber through סלם has gematria 2,709 = **7 × 387** — divides by the completeness number.
+Each non-text fiber through the ladder divides by the axis it's not on.
+
+With Esau (28:9-22), the episode gematria = 50,786 = **67 × 758**. Without Esau, no axis divisibility. Include the brother and the total divides by understanding. Esau completes both the c-axis sweep and the 67 connection.
+
+---
+
+## 19. The Number Catalog
+
+The Torah is dense with explicit numbers — lifetimes, census counts, sacrificial quantities, purification periods, architectural dimensions. Testing each set against 304,850 = 7 × 50 × 13 × 67:
+
+### Lifetimes
+
+Pre-flood lifespan sum (Adam→Noah) = 8,575 = **5² × 7³**. Three powers of completeness.
+
+Post-flood begetting ages sum (Shem→Terah) = 390 = 2 × 3 × 5 × **13**. Divides by love.
+
+Kenan's lifetime = 910 = 2 × 5 × **7 × 13**. Both axis numbers in one lifespan.
+
+### Census
+
+First census total (Numbers 1) = 603,550. ÷50 = 12,071 (prime). The census divides by the jubilee axis and then hits bedrock.
+
+Second census total (Numbers 26) = 601,730 = 2 × 5 × 19 × 3,167.
+
+**Census difference = 1,820 = 2² × 5 × 7 × 13.** ÷91 = 20. The population shift between censuses — the *change*, not the total — divides by both completeness and love. The structure lives in the delta.
+
+### Sukkot Bulls
+
+Numbers 29: the daily bull offerings during Sukkot are **13, 12, 11, 10, 9, 8, 7** — descending from love to completeness, one per day. Total = **70** = 7 × 10. The triangular number T(13) = 1+2+...+13 = **91 = 7 × 13**.
+
+### Leviticus 12: The Hidden Axis
+
+Birth purification periods: boy = 7 + **33** = 40 days. Girl = 14 + **66** = 80 days.
+
+33 is the **midpoint** of the d-axis (0..66). 66 is the **endpoint**. The understanding axis appears nowhere in the Torah as a count or a measurement. It hides in purification law — as time, not space. As a duration, not a dimension.
+
+### The Silver Plate
+
+Each tribal leader's dedication offering (Numbers 7) includes a silver plate weighing **130** shekels = **סלם** = **סיני** = 10 × 13. Each leader brings a ladder to the altar.
+
+### The Pattern
+
+Each axis surfaces through a different domain:
+- **7** (completeness) → architecture, steps, menorah, curtain length
+- **50** (jubilee) → courtyard, clasps, loops, gates, captains
+- **13** (love) → sacrifice, name sums, census difference
+- **67** (understanding) → time periods in purification law (33, 66)
+
+The outer axes are spoken in structure. The inner axes are hidden in number.
+
+---
+
+## 20. The Preimage
+
+The machine reads forward: coordinates → text. The preimage reads backward: **word → coordinates**.
+
+For any Hebrew word, scan all 43,550 a-fibers (7 letters at skip 43,550). Which (b, c, d) coordinates contain it?
+
+| Word | GV | a-fiber hits | Notable coordinates |
+|------|----|-------------|-------------------|
+| תורה (Torah) | 611 | **8** | b=25, c=6 (center/Holy of Holies) |
+| אהבה (love) | 13 | **5** | b=43, c=11 (slab ÷ 469×73) |
+| אמת (truth) | 441 | **54** | b=22, c=5 (slab ÷ 91) |
+| יהוה (the Name) | 26 | **12** | 12 = tribes = gates |
+| שמר (guard) | 540 | **22** | 22 = Hebrew letters |
+| ברית (covenant) | 612 | **4** | b=44, c=11 (Gen 28:9 = Esau = the missing rung) |
+| שלום (peace) | 376 | **5** | |
+
+**יהוה appears exactly 12 times** on a-fibers — the number of tribes, the number of gates in Ezekiel's city.
+
+**שמר appears exactly 22 times** — the number of Hebrew letters.
+
+**ברית at b=44, c=11** — the a-fiber origin is Genesis 28:9, Esau's marriage. The very verse that fills the missing c=10 rung of Jacob's Ladder (§18). Its a-fiber contains "covenant."
+
+The preimage is now a tool: `(coords/preimage "תורה")` returns all coordinates where Torah appears on the completeness axis. The inverse of the breastplate.
+
+---
+
+## 21. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -484,7 +601,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 19. What This Is Not
+## 22. What This Is Not
 
 This paper does not claim:
 
@@ -529,12 +646,25 @@ What is genuinely notable:
 - The a-fiber through the veil tracing an arc from seeing (Gen 1:4) to shining (Exod 34:32) to hearing (Deut 6:3)
 - Exodus 18:10 as the only verse filling a complete d-fiber — Jethro, the outsider who understands
 - The clean fiber's c-fold mirror landing in the same chapter (Exodus 18:21-22, Jethro's counsel)
+- Jethro's blessing (c=1) and Jethro's counsel (c=10-11) in the same slab, connected by c-fold (c=1↔c=11)
+- Ezekiel's temple containing 7, 13, and 50 but not 67 — the understanding axis has no architectural expression
+- Jacob's Ladder sweeping 12 of 13 c-values, with Esau filling the missing c=10 rung
+- סלם (ladder) = סיני (Sinai) = 130 = 10 × 13 = captains-of-tens × love-axis
+- Each non-text fiber through the ladder dividing by the axis it's not on (c-fiber ÷13, b-fiber ÷7)
+- With Esau, the ladder episode divides by 67; without him, no axis divisibility
+- Census difference = 1,820 = 2² × 5 × 7 × 13 — the change divides by 91, the total hits a prime wall
+- Sukkot bulls descending 13, 12, 11, 10, 9, 8, 7 — from love to completeness, total = 70
+- Leviticus 12 purification periods (33 midpoint, 66 endpoint) encoding the d-axis boundaries as time
+- Silver plate offering = 130 = ladder = Sinai — each tribal leader brings a ladder
+- יהוה appearing exactly 12 times on a-fibers (tribes/gates)
+- שמר appearing exactly 22 times on a-fibers (Hebrew letters)
+- ברית on the a-fiber through Genesis 28:9 (Esau) — covenant at the missing rung
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 20. Method
+## 23. Method
 
 ### Data
 

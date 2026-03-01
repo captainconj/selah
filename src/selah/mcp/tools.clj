@@ -166,3 +166,24 @@
                  :binary export/write-binary!)]
     (with-out-str
       (pp/pprint (writer path pts cols)))))
+
+(deftool space-preimage
+  "Find all a-fibers (7 letters at skip 43,550) containing a Hebrew word. Reverse lookup: word → coordinates. Returns the (b, c, d) locations where the word appears on the completeness axis."
+  {:type "object"
+   :properties {:word {:type "string" :description "Hebrew word to search for (e.g. תורה, אהבה, שמר)"}
+                :axis {:type "string" :description "Axis to search on (a, b, c, d). Default: a"
+                       :enum ["a" "b" "c" "d"]}}
+   :required ["word"]}
+  [args]
+  (let [word (:word args)
+        axis (keyword (get args :axis "a"))
+        results (if (= axis :a)
+                  (coords/preimage word)
+                  (coords/preimage-on axis word))]
+    (with-out-str
+      (println (format "Preimage of \"%s\" on %s-axis: %d hits\n" word (name axis) (count results)))
+      (doseq [r results]
+        (println (format "  b=%-2d c=%-2d d=%-2d  GV=%-5d  %s  %s"
+                         (:b r) (:c r) (:d r)
+                         (:gv r) (:text r)
+                         (or (:verse r) "")))))))
