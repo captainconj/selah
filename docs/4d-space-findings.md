@@ -241,6 +241,30 @@ Two textures worth noting:
 
 Combined with 070 (fold ≠ reading path) and 073 (transparent non-text axes), this completes the picture: the d-axis IS the text, the a-axis carries positioned words (068), and everything else — folds, diagonals, other axes — samples the text transparently.
 
+## Ezekiel's Temple Dimensions (074)
+
+122 measurements compiled from Ezekiel 40-48. Three of four axis numbers appear directly:
+
+- **7** = outer gate steps (40:22, 40:26)
+- **13** = gate passage length (40:11)
+- **50** = gate total length (6 gates), building width, open space, outer wall
+- **67 is absent** — the understanding axis has no architectural expression
+
+Products reach 4,550 but not 304,850:
+
+- **91 = 7 × 13** as a two-factor product
+- **350 = 7 × 50** = קרן = ספיר, three ways (5×70, 7×50, 14×25)
+- **4,550 = 7 × 13 × 50** = half-stride, three ways
+- No four-factor Ezekiel product reaches 304,850 or 43,550. The bottleneck is 67 — prime and absent.
+
+**Zero pure-Ezekiel 4D factorizations** of 304,850 (of 41 possible). But 39 of 41 have ≥2 Ezekiel factors — the temple provides most of the lens.
+
+**25 × 13 = 325** divides 304,850, 43,550, and 4,550. Gate width × gate passage. 304,850 / 325 = 938 = 2 × 7 × 67.
+
+All large numbers (25000, 10000, 5000, 4500, 1000, 500, 250) divide by **50**. The jubilee axis scales the sacred district. Powers of 2, 3, 5 dominate construction — 7 and 13 appear only in ritual/symbolic counts.
+
+**Interpretation:** Ezekiel gives you the control surface (7, 13, 50) but not the understanding axis (67). The architecture provides three coordinates — the fourth must come from elsewhere. בינה (understanding) = 67 is not built. It is received.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -250,4 +274,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–073 in `dev/experiments/`
+- Experiments 053–074 in `dev/experiments/`
