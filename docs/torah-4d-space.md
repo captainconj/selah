@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space at its center reveals a self-mirroring passage about veiling and unveiling. The classic ELS milemarkers — תורה at skip 50, יהוה at skip 7 — mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed in consecutive text.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah. The outer axes are spoken; the inner axes are silent.
 
 ---
 
@@ -212,7 +212,86 @@ The fold is not independent of the chiasm — it is the same structure seen from
 
 ---
 
-## 8. The Lens
+## 8. The Four Folds
+
+Each axis has a fold — a mirror at its midpoint:
+
+| Fold | Operation | Midpoint |
+|------|-----------|----------|
+| **a-fold** | a ↔ 6-a | a=3 |
+| **b-fold** | b ↔ 49-b | b=24/25 (no single center — even dimension) |
+| **c-fold** | c ↔ 12-c | c=6 |
+| **d-fold** | d ↔ 66-d | d=33 |
+
+### The Convergence
+
+Three of the four folds share the same crease center. The a-fold midpoint (a=3), the c-fold midpoint (c=6), and the d-fold midpoint (d=33) all converge on **Leviticus 8:35** — the same verse at the geometric center:
+
+> ושמרתם את משמרת יהוה ולא תמותו... שבעת ימים — "You shall guard the charge of the LORD, that you do not die... **seven days**."
+
+Three independent symmetry axes — completeness, love, understanding — point to the same verse. The b-fold's crease pair (b=24 and b=25) also lands in Leviticus 8, within the consecration of Aaron.
+
+Fix a=3, c=6, d=33 — the midpoints of three axes. Only b varies freely. That leaves exactly **50 positions** — one per jubilee. The intersection of three fold creases *is* the jubilee axis. The fourth dimension is what remains when the other three are folded.
+
+### The Silent Axes
+
+The factorization names four concepts: completeness (7), jubilee (50), love (13), understanding (67). Searching for these words in the Torah:
+
+| Word | Meaning | Gematria | Occurrences in Torah |
+|------|---------|----------|---------------------|
+| שבע | seven | — | 171 |
+| חמשים | fifty | — | 39 |
+| אהבה | love | **13** | **0** |
+| בינה | understanding | **67** | **0** |
+
+**אהבה (love) and בינה (understanding) never appear in the Torah as words.**
+
+The outer axes — 7 and 50 — are spoken. The inner axes — 13 and 67 — are silent. The Torah shows love and understanding through its text. It doesn't name them.
+
+This mirrors the tabernacle architecture: 7 and 50 appear as cubit measurements (menorah branches, courtyard width, curtain clasps). 13 and 67 appear only in gematria (אחד = 13, בינה = 67). The outer dimensions are physical. The inner dimensions are semantic.
+
+The word שבע (*seven*) clusters at **c=7** — the seventh position on the love axis — at 1.44× expected density. Leviticus 25:8 — the verse connecting 7 to 50 ("count seven sabbaths of years, seven times seven years, and consecrate the fiftieth year") — puts all four of its שבע on the same d-fiber at c=7. The verse about the relationship between the axes occupies the coordinate where they meet.
+
+### The Aleph-Tav Under Each Fold
+
+6,032 את in the Torah. How many mirror to another את under each fold?
+
+| Fold | Self-mirrors | Outer pairs | Total | × Expected |
+|------|-------------|-------------|-------|-----------|
+| **a-fold** | 1,222 | 52 | 1,326 | **11.1×** |
+| **c-fold** | 461 | 46 | 553 | 4.6× |
+| **d-fold** | 100 | 82 | 264 | 2.2× |
+| **b-fold** | 0 | 53 | 106 | 0.9× |
+
+Expected by chance: ~119. The a-fold dominates at 11× the chance rate. The b-fold (jubilee) shows no special preservation at all.
+
+The a-fold self-mirror count (1,222) and outer pair count (52) both divide by 13. 1,222 = 13 × 94 = 2 × 611 = twice-Torah — the same number that appears as the pair gematria of the self-mirroring breastplate verse (§7).
+
+### The Tabernacle as Fold Instructions
+
+The sacred structures encode the axes:
+
+**The number 50 saturates the tabernacle**: Noah's Ark width (50 cubits), tabernacle courtyard width (50 cubits), curtain loops (50 + 50 + 50), gold clasps (50), bronze clasps (50). The 50 clasps join two sets of curtains into "one tabernacle" — אחד (*one*, gematria 13). The physical joining mechanism (50) and the concept of unity (13) interlock in the construction.
+
+**The breastplate encodes the inner axes**: The Urim and Thummim breastplate (Exodus 28) contains 72 letters. The patriarchal names (Abraham, Isaac, Jacob) contribute **13 letters** — the c-axis. The twelve tribal names contribute **50 letters** — the b-axis. The reading device has the dimensions encoded in its letter counts.
+
+**The veil has four pillars** (Exodus 26:32) — four axes, four dimensions. The entrance to the courtyard has **five pillars** (Exodus 26:37) — five books.
+
+**The nested reduction**: courtyard (100 × 50) → holy place (20 × 10 × 10) → holy of holies (10 × 10 × 10) → ark → tablets → text. The Torah space mirrors this: 304,850 → ÷7 → 43,550 → ÷50 → 871 → ÷13 → 67 → ÷67 → 1. Four divisions to reach unity. Four veil pillars. Four curtain colors.
+
+### Compound Folds
+
+15 possible folds: 4 single, 6 double, 4 triple, 1 quad. Every fold is an involution — fold twice and you're back. Findings:
+
+**Deuteronomy 6 is the fold attractor.** The a-fold sends position 0 (ב of בראשית) to Deuteronomy 6:1 (the Shema). The ad-fold sends it to 6:2. The ac-fold and acd-fold send it to 6:18 ("do what is right and good in the eyes of the LORD"). Any fold involving the seven-day axis sends the first letter of the Torah to the chapter of the Shema.
+
+**The acd-fold has exactly 50 fixed points** — positions that mirror to themselves when all three odd-dimension axes are folded. They sit at a=3, c=6, d=33 with b free to vary: the center of three axes, free on the fourth. One fixed point per jubilee.
+
+**The full reversal (abcd-fold)** maps position i to 304,849 − i. Same-letter rate: 6.37%, matching the 6.34% expected from letter frequencies. The full reversal has no special structure — the interesting geometry is in the partial folds.
+
+---
+
+## 9. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -222,7 +301,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 9. What This Is Not
+## 10. What This Is Not
 
 This paper does not claim:
 
@@ -243,12 +322,17 @@ What is genuinely notable:
 - The first תורה ELS (Genesis 1:1) mirroring to the Shema (Deuteronomy 6:1)
 - The breastplate verse (Exodus 39:8) containing a self-mirroring תורה with pair gematria = 2 × תורה
 - The Name at skip 7 mirroring to the Name reversed in consecutive text
+- The convergence of three fold creases on the same verse, leaving exactly 50 free positions
+- The absence of אהבה and בינה as words in the Torah — the inner axes are silent
+- The a-fold's 11× excess in את preservation versus the b-fold's statistical null
+- The breastplate encoding 13 and 50 in its patriarchal and tribal letter counts
+- Deuteronomy 6 as the fold attractor for any fold involving the a-axis
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 10. Method
+## 11. Method
 
 ### Data
 
