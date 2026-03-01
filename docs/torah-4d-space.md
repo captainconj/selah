@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space at its center reveals a self-mirroring passage about veiling and unveiling.
+The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space at its center reveals a self-mirroring passage about veiling and unveiling. The classic ELS milemarkers — תורה at skip 50, יהוה at skip 7 — mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed in consecutive text.
 
 ---
 
@@ -162,7 +162,57 @@ The 52 outer pairs reveal thematic echoes across the Torah:
 
 ---
 
-## 7. The Lens
+## 7. The Milemarker Mirrors
+
+The Torah contains equidistant letter sequences (ELS) that spell תורה (*Torah*) at skip 50 in each of the outer four books, pointing inward to Leviticus, where יהוה (the Name) appears at skip 7:
+
+```
+Genesis:      תורה →   (forward, skip +50)
+Exodus:       תורה →   (forward, skip +50)
+Leviticus:    יהוה     (the Name, skip +7)
+Numbers:      הרות ←   (reversed, skip +50)
+Deuteronomy:  הרות ←   (reversed, skip +50)
+```
+
+This chiastic structure is the original Torah Codes finding. The outer books point inward. The center spells the Name. The a-fold tests this: mirror each milemarker's position across the seven days and look at what's there.
+
+26 milemarkers in the WLC stream (3 in Genesis, 8 in Exodus, 10 in Leviticus, 2 in Numbers, 4 in Deuteronomy).
+
+### The Beginning Mirrors the Declaration
+
+The first תורה in the entire Torah — position 5, the 6th letter of Genesis 1:1 — mirrors to **Deuteronomy 6:1**. The introduction to the Shema: שמע ישראל יהוה אלהינו יהוה אחד — "Hear O Israel, the LORD our God, the LORD is one."
+
+The most famous hidden pattern mirrors to the most famous spoken declaration. And Deuteronomy 6:1 contains אחד (*echad*, "one"), gematria 13 — the c-axis of the space. The verse about oneness sits at the mirror of the beginning.
+
+Pair gematria = **651 = 7 × 93**. Divides by completeness.
+
+### The Breastplate Mirrors Itself
+
+The תורה at **Exodus 39:8** sits in a=3 — the center seventh — and mirrors to itself. Exodus 39:8 describes the making of the **breastplate** (חשן), the garment that holds the Urim and Thummim. The device that reads the letters sits at a position that reads itself.
+
+Pair gematria = **1,222 = 2 × 611**. And 611 is the gematria of תורה. Twice-Torah. Divides by 13.
+
+### The Name Mirrors the Name
+
+Three יהוה at skip +7 sit in a=3 and self-mirror (Lev 14:46, 16:9, 21:13). Pair gematria = **52 = 4 × 13**. And 52 is the exact number of outer aleph-tav mirror pairs from the fold analysis (§6).
+
+**Leviticus 26:44** contains יהוה at skip +7. Its mirror lands at **Exodus 13:13**, where the consecutive letters (skip 1) spell **הוהי** — the Name reversed. The hidden Name at skip 7 mirrors to the reversed Name in the surface text.
+
+### Torah Reversed Mirrors to Eden
+
+**Deuteronomy 8:9** — הרות at skip +50 — mirrors to **Genesis 3:10**: "I heard your voice in the garden and I was afraid." The reversed Torah in Deuteronomy points back to the moment of hiding in Eden.
+
+**Deuteronomy 5:16** — הרות in the Ten Commandments ("honor your father and mother") — mirrors to Exodus 6:26. Pair gematria = **777 = 7 × 111**.
+
+### Summary
+
+The chiastic structure already points inward. The a-fold confirms it. The outer books mirror each other (Genesis↔Deuteronomy, Exodus↔Numbers). The center mirrors itself. The thematic pairings hold: beginning↔declaration, Torah↔Torah, the Name↔the Name reversed, commandment↔Eden.
+
+The fold is not independent of the chiasm — it is the same structure seen from a different angle. The ELS pattern says "point inward." The coordinate geometry says "mirror at the center." They agree.
+
+---
+
+## 8. The Lens
 
 The factorization is not the only way to read the space. 304,850 admits 41 four-factor decompositions. The lens [7, 50, 13, 67] is distinguished by containing all three semantically significant primes. But the operation `(with-dims [13 67 7 50] ...)` rotates the same letters into a different geometry. The data is invariant; the decomposition is a way of seeing.
 
@@ -172,7 +222,7 @@ The Torah describes placing this device at the geometric center of this very spa
 
 ---
 
-## 8. What This Is Not
+## 9. What This Is Not
 
 This paper does not claim:
 
@@ -190,12 +240,15 @@ What is genuinely notable:
 - The perfect self-symmetry of the center seventh under the fold
 - The convergence of the fold-point, the division boundary, and the veil passage on Exodus 34:29-35
 - The thematic coherence of the mirror pairs (covenant↔love, exile↔conquest, blessing↔blessing)
+- The first תורה ELS (Genesis 1:1) mirroring to the Shema (Deuteronomy 6:1)
+- The breastplate verse (Exodus 39:8) containing a self-mirroring תורה with pair gematria = 2 × תורה
+- The Name at skip 7 mirroring to the Name reversed in consecutive text
 
 The factorization is a lens. The text is the text. What is interesting is how often the lens and the text agree.
 
 ---
 
-## 9. Method
+## 10. Method
 
 ### Data
 
