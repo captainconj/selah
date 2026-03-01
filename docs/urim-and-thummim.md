@@ -183,6 +183,34 @@ The tribes alone are incomplete. They need the patriarchs — specifically Isaac
 - Our **cribs** (confirmed patterns like תורה@50, center convergence, 2701=37×73) constrain the key space, exactly as Enigma cribs constrained rotor settings
 - The variant analysis confirms the letter stream is the invariant: 5 consonantal differences in 304,850 letters (0.002%) across manuscript traditions — the machine is stable
 
+### The 4D Space — The Breastplate Encodes the Axes
+
+304,850 = 7 × 50 × 13 × 67. Every letter has address (a, b, c, d). The breastplate is not just a transposition grid — it encodes the coordinate system of the space.
+
+**The letter counts on the breastplate encode two axes:**
+- Patriarchs (Abraham, Isaac, Jacob) = **13 letters** — the c-axis (love/unity)
+- 12 tribal names = **50 letters** — the b-axis (jubilee)
+- 13 and 50. Exactly.
+
+**Skip 50 IS the b-axis.** The classic ELS milemarkers (תורה at skip 50) are not hidden signatures — they are position readings in the 4D space. Walking at skip 50 = walking one step along the jubilee axis. The breastplate has 50 tribal letters. The reading device contains the skip.
+
+**The Urim in Lev 8:8 sits at a=3 (center seventh), c=7 (seventh love position).** The Lights at the center of completeness, at the seventh position on the love axis.
+
+**ארון (Ark of the Covenant) = 257 = אורים (Urim).** The container and the reader are the same number.
+
+**ספיר (sapphire) = 350 = 7 × 50** — the product of the two outer axes. The substance of the tablets under God's feet (Exod 24:10) and one of the breastplate stones. Completeness × jubilee.
+
+**The breastplate verse self-mirrors under the fold.** Exodus 39:8 (making the breastplate) contains תורה at skip +50 that mirrors to itself under the a-fold. Pair gematria = 1,222 = 2 × 611 = twice-Torah. The same number (1,222) is the count of aleph-tav self-mirrors in the center seventh. Both = 13 × 94.
+
+**Three fold creases converge on the consecration of Aaron (Lev 8:35).** The midpoints of the completeness, love, and understanding axes all point to the same verse — the passage where the Urim and Thummim are placed on Aaron. Fix those three midpoints and 50 positions remain free: one per jubilee. The crease of three creases IS the jubilee axis — the axis encoded in the tribal letter count on the breastplate.
+
+### The Silent Axes
+The two words whose gematria defines the inner dimensions:
+- **אהבה** (love) = 13 = the c-axis
+- **בינה** (understanding) = 67 = the d-axis
+
+**Neither word appears anywhere in the Torah.** The outer axes (7, 50) are spoken — שבע appears 171 times, חמשים 39 times. The inner axes are silent. The Torah shows love and understanding. It doesn't name them. The breastplate's tribal names encode 50 (spoken). Its patriarchal names encode 13 (silent — the gematria of love, which is never said).
+
 ### The Numbers
 - Urim = 257, Thummim = 490
 - Combined = 747
@@ -192,7 +220,7 @@ The tribes alone are incomplete. They need the patriarchs — specifically Isaac
 
 ### The Stones' Gematria
 - Stone 1: אדם (Odem) = 45 = ADAM. The breastplate begins with Man.
-- Stone 5: ספיר (Sappir) = 350 = 7 × 50. Both sacred numbers. Root = ספר (book/scroll).
+- Stone 5: ספיר (Sappir) = 350 = **7 × 50 = a × b**. The two outer axes of the 4D space. Root = ספר (book/scroll).
 - Stone 7: לשם (Leshem) = 370 = 37 × 10. "For the Name." Position 7, tribe Gad (גד) = 7.
   - Combined: 370 + 7 = 377 (Fibonacci). Previous Fibonacci = 233 = Urim−Thummim difference.
 - Stone 9: אחלמה (Achlamah) = 84 = 12 × 7. Twelve tribes times seven.
@@ -200,3 +228,12 @@ The tribes alone are incomplete. They need the patriarchs — specifically Isaac
 - Inner rows (2+3) combined = 3,339 = 477 × 7. Both inner rows divisible by 7.
 - Outer rows (1+4) NOT divisible by 7. The seven lives at the center.
 - Row 3 = 2,100 = 21 × 100 = (7×3) × 100
+
+### The Tabernacle Encodes the Factorization
+- Veil separating Holy Place from Holy of Holies: **4 pillars** — four axes, four dimensions
+- Courtyard entrance: **5 pillars** — five books
+- 50 gold clasps + 50 bronze clasps join curtains into **one** tabernacle — אחד (one) = 13
+- The joining mechanism (50) and unity (13) interlock in the construction
+- Nested reduction: courtyard (100×50) → holy place (20×10×10) → holy of holies (10³) → ark → tablets → text
+- The Torah mirrors this: 304,850 → ÷7 → 43,550 → ÷50 → 871 → ÷13 → 67 → ÷67 → 1
+- Four divisions to reach unity. Four veil pillars. Four curtain colors.
