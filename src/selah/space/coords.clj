@@ -387,6 +387,28 @@
                           {:text text :gv gv :axis axis}))))))
     (persistent! @results)))
 
+(defn preimage-all
+  "Scan all a-fibers once, checking for all words in parallel.
+   words is a seq of Hebrew strings.
+   Returns {word -> vec of {:b :c :d :text :gv :verse}}."
+  [words]
+  (let [s (space)
+        results (atom (into {} (map #(vector % (transient [])) words)))]
+    (doseq [b (range (dim-b))
+            c (range (dim-c))
+            d (range (dim-d))]
+      (let [fib (fiber :a {:b b :c c :d d})
+            text (apply str (map #(letter-at s %) (seq fib)))
+            gv (delay (reduce + (map #(gv-at s %) (seq fib))))
+            v  (delay (let [vr (verse-at s (aget fib 0))]
+                        (str (:book vr) " " (:ch vr) ":" (:vs vr))))]
+        (doseq [w words]
+          (when (str/includes? text w)
+            (swap! results update w conj!
+                   {:b b :c c :d d
+                    :text text :gv @gv :verse @v})))))
+    (into {} (map (fn [[w hits]] [w (persistent! hits)])) @results)))
+
 ;; ── REPL ───────────────────────────────────────────────────
 
 (comment
