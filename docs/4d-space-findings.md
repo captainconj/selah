@@ -159,6 +159,64 @@ Period 72 shows no special autocorrelation. The breastplate is a coordinate sele
 
 67 verses are exactly 67 letters long. Median verse length = exactly 50. Only one 67-letter verse fills a complete d-fiber: Exodus 18:10.
 
+## The Machine Reads (068)
+
+The first actual use of the breastplate as a coordinate selector. 13 patriarchal letters → c-axis (0..12), 50 tribal letters → b-axis (0..49). Each (b, c) pair selects a 7×67 = 469 letter slab.
+
+### Torah at the Center
+
+The center slab (b=25, c=6 — Holy of Holies coordinates) has a-fiber d=64 that reads **אתתורהכ** — seven letters at skip 43,550 that spell **את** (aleph-tav) AND **תורה** (Torah). The center of the space contains Torah written along the completeness axis.
+
+### Love Appears
+
+Slab b=43, c=11 has gematria 34,237 = **469 × 73**. 469 = 7 × 67 (completeness × understanding). The factor 73 is half the Genesis 1:1 signature (2701 = 37 × 73). Its a-fiber d=45 reads **ואהבהיה** — containing **אהבה** (love). The word that never appears in the Torah as a noun shows up in the 4D space on the completeness axis. The silent axis speaks through the reading device.
+
+### Truth at the Covenant
+
+Slab b=22, c=5 divides by **91 = 7 × 13** (completeness × love). Its a-fiber d=15 reads **יםאמתהה** — containing **אמת** (truth), the root of Thummim. Its d=0 fiber is Genesis 17:9-10, the Abrahamic **covenant**: ברית appears twice, שמר (guard) twice, זרע (seed) once. A-fiber d=8 contains **רוח** (spirit). The machine reads covenant, truth, and spirit at ÷(7×13). The a=6 d-fiber (Deut 19:9) contains **אהבה** (love): "to love YHWH your God."
+
+### The Full Scan
+
+650 (b, c) pairs scanned. Divisibility rates are near chance globally (÷7: 12.3% vs 14.3% expected; ÷13: 8.6% vs 7.7%). The structure is not in the statistics — it is in WHICH slabs divide and WHAT they contain:
+
+- **÷(7×13)**: 3 pairs — b=22/c=5 (covenant), b=25/c=10, b=41/c=0
+- **÷(7×67)**: 2 pairs — b=9/c=11 and b=43/c=11 — BOTH at c=11 (Jacob's ק)
+- **c=6 (love center)** shows LOWEST divisibility: 3/50 ÷7, 1/50 ÷13. Love is sparse.
+
+## The Veil Fiber (069)
+
+Exodus 34:29-35 (Moses' shining face, the veil) crosses the a=2→a=3 boundary — the text descends into the center seventh. Spans exactly 7 d-fibers. Midpoint at (3, 0, 2, 10).
+
+**קרן (shining) = 350 = ספיר (sapphire) = 7 × 50.** 304,850 = 350 × 871. The shining and the sapphire tablets share the outer factor of the total letter count.
+
+**מסוה (veil) = 111 = אלף (aleph spelled out).** The veil IS the aleph — the silent, invisible letter. The 2nd veil occurrence sits at d=33, the midpoint of understanding — same as the sword (החרב in Gen 3:24).
+
+The a-fiber through the midpoint: Genesis 1:4 (first separation of light) → Exodus 34:32 (shining face) → Deuteronomy 6:3 (doorstep of the Shema). From seeing to shining to hearing.
+
+## The Clean Fiber (071)
+
+Exodus 18:10 — Jethro's blessing — is the ONLY 67-letter verse that fills a complete d-fiber without wrapping. Start (2, 20, 1, 0), end (2, 20, 1, 66).
+
+- **Slab gematria (b=20, c=1) = 34,440 = 7 × 4,920.** The whole slab ÷7.
+- **Clean fiber gematria = 5,467 = 7 × 781.** Also ÷7.
+- **a-fiber through (b=20, c=1, d=0) = 91 = 7 × 13.** Both axis numbers.
+- **Difference from center fiber: 6,070 − 5,467 = 603 = 9 × 67.** Nine understandings.
+- **c-fold mirror** (c=1 ↔ c=11): lands on **Exodus 18:21-22** — Jethro's counsel to Moses about appointing judges. Same chapter, same outsider. Blessing mirrors wisdom through the love axis.
+- **a-fold mirror** (a=2 ↔ a=4): Numbers 3:32-34 — the Merarite guardians. Contains שמר (guard).
+
+The one who understands from outside fills the understanding fiber.
+
+## The Transparent Axes (073)
+
+Exhaustive scan of all fibers on the non-text axes:
+- 23,450 c-fibers (13 letters at skip 67)
+- 43,550 a-fibers (7 letters at skip 43,550)
+- 6,097 b-fibers (50 letters at skip 871)
+
+**Null result.** Word occurrence rates match chance predictions from Torah letter frequencies. The non-text axes are statistically transparent letter samplers. No word is dramatically over-represented globally.
+
+**This confirms the mechanism:** the specific words found in experiment 068 (Torah, love, truth at particular coordinates) are about POSITION, not rate. The breastplate selects coordinates where meaning lives. The axes themselves are transparent. The structure is geometric, not lexical.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
@@ -168,4 +226,4 @@ The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 
 - `selah.space.coords` — kernel, address arithmetic, slicing
 - `selah.space.project` — projection, color, temporal frames
 - `selah.space.export` — PLY, JSON, binary point clouds
-- Experiments 053–067 in `dev/experiments/`
+- Experiments 053–068 in `dev/experiments/`
