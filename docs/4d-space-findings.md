@@ -229,6 +229,18 @@ Two textures worth noting:
 
 **Interpretation:** The fold **confirms** readings (testing truth against its mirror) but does not **generate** them. The reading path comes from elsewhere — the d-axis (consecutive text) and the a-axis (where 068 found Torah, love, truth). The folds are verification, not discovery. The Thummim is not the fold.
 
+## Diagonal Walks (072)
+
+**Null result.** Multi-axis diagonal walks — incrementing two or more coordinates simultaneously — do not produce word rates above single-axis fibers. Diagonals are transparent samplers, just like the non-text axes.
+
+- **7-step diagonals** (exhaustive): 14.1–14.9% word rate, uniformly across all slopes. This is *lower* than the a-fiber baseline (~27% from 073).
+- **13-step diagonals**: 25–27% word rate. All matches are short common words.
+- **50-step diagonals**: 56–67% word rate — expected for 50-letter random samples.
+
+**The grand diagonal** from (0,0,0,0) — the first letter of Torah traced through all seven days — reads **בויאההו**, GV = **35 = 5 × 7**. The main diagonal of the space divides by completeness. From corner (0,0,0,66), GV = **952 = 7 × 136**, containing **לב** (heart).
+
+Combined with 070 (fold ≠ reading path) and 073 (transparent non-text axes), this completes the picture: the d-axis IS the text, the a-axis carries positioned words (068), and everything else — folds, diagonals, other axes — samples the text transparently.
+
 ## The Lens is Dynamic
 
 The byte stream is invariant. The factorization is a lens. `(with-dims [13 67 7 50] ...)` rotates the view. Same letters, different decomposition. Like the Urim and Thummim — same stones, different readings.
