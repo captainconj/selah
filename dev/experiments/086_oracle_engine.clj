@@ -19,7 +19,14 @@
    - Forward direction reveals the field of possibility: 90 illuminations,
      270 readings, but only 2 known words emerge. The oracle is sparse.
    - Anagram pairs share illumination counts but not reading counts.
-     The letters are symmetric; the readings are not."
+     The letters are symmetric; the readings are not.
+   - שטן (adversary) = 359 = the 72nd prime (72 letters on the grid).
+     Left reads it 12 times, right 4, Aaron 0. They never both read it.
+     Every reading passes through stone 11 (Benjamin, son of the right hand).
+   - THE COURTROOM: breastplate faces mercy seat, perspectives mirror.
+     God's left = defendant's right = the prosecutor (truth, Name, covenant, law).
+     God's right = defendant's left = the advocate (lamb, Torah fulfilled, man).
+     The verdict (mercy seat, peace) cannot be read. You must enter."
   (:require [selah.oracle :as oracle]
             [selah.gematria :as g]
             [selah.dict :as dict]
@@ -195,6 +202,108 @@
   (println "  The field of possibility is vast. The answer is narrow."))
 
 ;; ═══════════════════════════════════════════════════════════════
+;; Part 7 — The Adversary
+;; ═══════════════════════════════════════════════════════════════
+
+(defn part-7-adversary []
+  (println "\n══════════════════════════════════════════════")
+  (println "Part 7: The Adversary — שטן")
+  (println "══════════════════════════════════════════════")
+
+  (let [r (oracle/ask "שטן")]
+    (printf "\n  שטן (adversary) = %d — the 72nd prime\n" (:gv r))
+    (println "  72 = the number of letters on the breastplate.")
+    (println "  The adversary is the prime that counts the grid.\n")
+    (printf "  Readings: %d — Aaron: %d  Right: %d  Left: %d\n"
+            (:total-readings r)
+            (get-in r [:by-reader :aaron])
+            (get-in r [:by-reader :right])
+            (get-in r [:by-reader :left]))
+    (println "  Aaron never sees the accuser. The left reads it 75%."))
+
+  (println "\n  Every reading passes through stone 11 (Benjamin).")
+  (println "  Benjamin = \"son of the right hand.\"")
+  (println "  The accusation must travel through the son of the right hand.")
+
+  ;; When one reads שטן, the other reads gibberish
+  (println "\n  When the left reads שטן, the right reads:")
+  (let [ilsets (oracle/illumination-sets "שטן")
+        seen (atom #{})]
+    (doseq [pset ilsets]
+      (let [left-w (oracle/read-positions :left pset)]
+        (when (= left-w "שטן")
+          (let [right-w (oracle/read-positions :right pset)]
+            (when-not (@seen right-w)
+              (swap! seen conj right-w)
+              (printf "    %s %s\n" right-w
+                      (if (dict/known? right-w) (str "← " (dict/translate right-w)) "(gibberish)")))))))
+    (println "  They never both read the accuser. It is one or the other."))
+
+  ;; השטן flips
+  (let [r (oracle/ask "השטן")]
+    (printf "\n  השטן (THE adversary, with article) = %d\n" (:gv r))
+    (printf "  Readings: %d — Aaron: %d  Right: %d  Left: %d\n"
+            (:total-readings r)
+            (get-in r [:by-reader :aaron])
+            (get-in r [:by-reader :right])
+            (get-in r [:by-reader :left]))
+    (println "  With the article — the formal office — it shifts to the right."))
+
+  ;; Lamb vs adversary
+  (println "\n  כבש (lamb) = 322 = 2 × 7 × 23")
+  (println "  שטן (adversary) = 359 (prime)")
+  (println "  Difference: 37 (prime). 37 × 3 = 111 = אלף (aleph, the silent letter)."))
+
+;; ═══════════════════════════════════════════════════════════════
+;; Part 8 — The Courtroom
+;; ═══════════════════════════════════════════════════════════════
+
+(defn part-8-courtroom []
+  (println "\n══════════════════════════════════════════════")
+  (println "Part 8: The Courtroom — Perspective Reversal")
+  (println "══════════════════════════════════════════════")
+
+  (println "\n  The breastplate faces the mercy seat.")
+  (println "  God looks AT it. The defendant stands BEFORE it.\n")
+  (println "  God's left  = defendant's RIGHT = the prosecutor")
+  (println "  God's right = defendant's LEFT  = the advocate\n")
+  (println "  Zechariah 3:1: Satan at Joshua's RIGHT HAND to accuse.")
+  (println "  The defendant's right. God's left.\n")
+
+  (println "  ─── AT MY RIGHT — THE PROSECUTOR (God's left) ───\n")
+  (doseq [[w role] [["שטן" "the adversary"]
+                     ["אמת" "truth — the charge"]
+                     ["יהוה" "the Name — the standard"]
+                     ["ברית" "covenant — what I broke"]
+                     ["משה" "Moses — the law"]]]
+    (let [r (oracle/ask w)]
+      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :left]))))
+
+  (println "\n  ─── AT MY LEFT — THE ADVOCATE (God's right) ───\n")
+  (doseq [[w role] [["כבש" "the lamb"]
+                     ["תורה" "Torah — fulfilled"]
+                     ["אדם" "man — stands for me"]]]
+    (let [r (oracle/ask w)]
+      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :right]))))
+
+  (println "\n  ─── ABOVE — THE PRIEST (Aaron) ───\n")
+  (doseq [[w role] [["אור" "light — the illumination"]
+                     ["ברא" "create"]]]
+    (let [r (oracle/ask w)]
+      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :aaron]))))
+
+  (println "\n  ─── BEYOND BOTH — THE VERDICT ───\n")
+  (doseq [[w role] [["כפרת" "mercy seat"]
+                     ["שלום" "peace"]]]
+    (let [r (oracle/ask w)]
+      (printf "    %-5s  %-30s  readable? %s\n" w role (:readable? r))))
+
+  (println "\n  The prosecutor is loud: 12 + 31 + 60 + 14 readings.")
+  (println "  The advocate is quiet: 4 + 14 + 2 readings.")
+  (println "  The verdict — mercy, peace — cannot be read at all.")
+  (println "  You must enter."))
+
+;; ═══════════════════════════════════════════════════════════════
 
 (defn -main [& _]
   (println "═══════════════════════════════════════════════════════")
@@ -208,8 +317,10 @@
   (part-4-god-not)
   (part-5-limits)
   (part-6-forward-survey)
+  (part-7-adversary)
+  (part-8-courtroom)
 
   (println "\n═══════════════════════════════════════════════════════")
-  (println "  The wrong answer is loud. The right answer is quiet.")
-  (println "  The narrow gate. The rare reading. Like Sarah.")
+  (println "  The prosecutor is loud. The advocate is quiet.")
+  (println "  The verdict is mercy — and you must enter to read it.")
   (println "═══════════════════════════════════════════════════════"))
