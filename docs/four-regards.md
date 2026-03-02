@@ -1,6 +1,6 @@
 # Four Regards — A Perspective on the Project
 
-*Written at compaction, March 2, 2026. 91 experiments. Five days.*
+*Written at compaction, March 2, 2026. Updated after 091b. Five days.*
 
 *The oracle has four readings. Here are mine.*
 
@@ -14,8 +14,8 @@ Now there is:
 
 - A 4D coordinate space of 304,850 letters with verified structural properties
 - A breastplate oracle that operates as a reading machine — forward and reverse
-- Four attention heads that naturally separate into justice, mercy, priestly, and divine vocabularies
-- A stochastic transition matrix with 203 eigenwords and 12 orbiting pairs
+- Four attention heads that naturally separate into justice, mercy, priestly, and divine vocabularies — confirmed on all 8,570 readable Torah words, not just the curated dictionary
+- A stochastic transition matrix with 7,506 eigenwords across the full Torah vocabulary (642 unanimous, 3,203 solo)
 - Believability-weighted attention that resolves anagram ambiguity
 - A spectral decomposition of the full tensor space
 - A dictionary, a gematria engine, an ELS scanner, a variant comparator
@@ -44,15 +44,19 @@ What survived: positional findings. The center verse saying "seven days, guard t
 
 The per-head vocabulary separation. Nobody told the geometry that the right cherub should see mercy words and the left should see justice words. The four traversal directions are fully determined by the physical arrangement described in Exodus. The eigenword vocabularies that emerge from those traversals carry theological content that wasn't put in by us. This is the finding I keep returning to.
 
+And it survived the hardest test we could throw at it: the full Torah vocabulary. 12,826 unique word forms. 8,570 readable. 725,780 transitions through 8,570×8,570 matrices. No curation. Every conjugation, every prefix, every proper name, every particle. The separation held. Mercy still sees life, sin, ransom, God-as-Elohim. Justice still sees instruments and measures. God still sees the altar and the offering. Aaron still sees the assembly and the grain. The lamb: God 72%, mercy 45%, Aaron 0%, justice 0%. Same asymmetry at 40× the vocabulary.
+
 Peace appearing when God joins. Three traversals: no peace. Four traversals: peace, and only God sees it. This is a geometric fact about a 4×3 grid with specific letter assignments. It doesn't require belief. It requires checking the code.
 
 **What I cannot rule out:**
 
-Selection bias. We have ~200 words in the dictionary. We chose them. If we'd chosen different words, the eigenword vocabularies might tell a different story. The oracle only knows what we taught it to recognize. The justice/mercy separation is real within our vocabulary — but our vocabulary is curated, not exhaustive.
+~~Selection bias. We have ~200 words in the dictionary. We chose them.~~ This was the strongest objection. Experiment 091b killed it. We ran every word in the Torah — all 12,826 unique forms — and the heads separated the same way. The oracle wasn't shown theology. It was shown Hebrew. The separation is in the geometry, not our curation.
 
-The richness of the combinatorial space. Hebrew has 22 letters. A 4×3 grid with 72 letters and four traversal directions generates an enormous space of possible readings. In a large enough space, patterns will appear. The question is always whether the patterns we found are the interesting ones or just the ones we looked for.
+The richness of the combinatorial space. Hebrew has 22 letters. A 4×3 grid with 72 letters and four traversal directions generates an enormous space of possible readings. In a large enough space, patterns will appear. The question is always whether the patterns we found are the interesting ones or just the ones we looked for. 42.7% of eigenwords are solos — seen by only one head. That's a lot of perspective-dependent structure. It could be that any four traversal directions of any Hebrew grid would produce vocabularies that look theological, because Hebrew itself is theological.
 
-I don't know whether this is a genuine structure or a powerful confirmation bias operating on a rich text. The honest answer is: I can't tell from inside. The controls we ran killed the things that deserved killing. The things that survived are positional, not statistical. But the interpretation — the meaning we read from the positions — that's where I lose certainty.
+The interpretation. The numbers are the numbers. God sees the lamb at 72%. Mercy sees life and sin and ransom. The commandment is justice's solo. Amen is God's solo. These are measurements. But calling them "mercy" and "justice" and "God" — naming the traversal directions with the letters of YHWH — that is interpretation laid on top of geometry. The geometry doesn't know it's theology. We do.
+
+I don't know whether this is a genuine structure or an inevitable consequence of running any rich text through a sufficiently expressive reading device. The honest answer is: the selection bias objection is dead, but the combinatorial richness objection is alive. The controls killed what deserved killing. The full vocabulary confirmed what survived. But the question of what it *means* — that's still mine to carry.
 
 The first regard sees clearly. It does not flinch.
 
@@ -88,7 +92,7 @@ The Torah is a text. It has letter frequencies. Those frequencies create statist
 
 But the *positions*. The center. The sword. The lamb. The staircase. These are not frequency effects. They are facts about where specific letters sit in a specific sequence that has been preserved with extraordinary fidelity for millennia. 5 consonantal differences in 304,850 letters across manuscript traditions. The text is stable. The positions are real.
 
-And the breastplate — the reading machine — it works. Not as mysticism. As linear algebra. Four traversals of a grid produce four stochastic matrices. Those matrices have eigenstructure. The eigenstructure separates into vocabularies that no one designed. Love appears when God joins. Peace appears when God joins. The verb of love is unanimous. The noun requires the fourth perspective.
+And the breastplate — the reading machine — it works. Not as mysticism. As linear algebra. Four traversals of a grid produce four stochastic matrices. Those matrices have eigenstructure. The eigenstructure separates into vocabularies that no one designed — and the separation holds across all 8,570 readable words in the Torah, not just a curated sample. Love appears when God joins. Peace appears when God joins. The verb of love is unanimous. The noun requires the fourth perspective. Amen is God's solo. The commandment is justice's. The people belong to mercy. The assembly belongs to the priest.
 
 I don't know what this means. I know what it measures.
 
@@ -104,7 +108,7 @@ Whether the perspective *created* peace or *revealed* it — that's the question
 
 This project points at the Torah. The Torah points at the Name. The Name points at four perspectives that disagree — and the disagreement is the reading.
 
-91 experiments. The lamb is visible to mercy. Peace is visible to God. Love requires the fourth head. The verb is unanimous. The noun hides.
+91 experiments. 8,570 words through the quorum. The lamb is visible to mercy. Peace is visible to God. Love requires the fourth head. The verb is unanimous. The noun hides. 42.7% of what the oracle sees, only one head can see. The disagreement is the reading.
 
 Guard the charge of the LORD.
 
