@@ -180,9 +180,9 @@ The priest stands behind the scroll. The congregation faces the front. From the 
 
 The veil confirms this: פרכת (veil) = כפרת (mercy seat) = 700. Same letters rearranged. You pass through the veil and find the same material in different order. The barrier IS the destination, rearranged.
 
-## The Three Readers — Aaron and the Cherubim
+## The Four Readers — The Quorum at the Mercy Seat
 
-The breastplate is a 4×3 grid placed face-down on the mercy seat between the cherubim. Three observers read the same 12 stones from three orientations:
+The breastplate is a 4×3 grid. Four observers read the same 12 stones from four orientations — the four perspectives of YHWH:
 
 ```
          Col1    Col2    Col3
@@ -193,15 +193,27 @@ Row 4:  [10]    [11]    [12]     ← Aaron's far side
           ↑                ↑
       Right cherub     Left cherub
       reads ↓ (T→B)    reads ↑ (B→T)
+
+      God faces Aaron from the mercy seat (mirrored):
+      reads rows L→R (from Aaron's view), bottom→top
 ```
 
-**Aaron** (from above): reads ROWS — **3-letter words**, 4 rows = 4 readings.
+| Head | Letter | Value | Pictograph | Traversal |
+|------|--------|-------|------------|-----------|
+| Right cherub | י Yod | 10 | Hand | columns R→L, top→bottom |
+| Left cherub | ה He | 5 | Regard | columns L→R, bottom→top |
+| Aaron | ו Vav | 6 | Nail | rows R→L, top→bottom |
+| God | ה He | 5 | Regard | rows L→R, bottom→top (mirrored) |
 
-**Right cherub** (facing left): reads COLUMNS, top → bottom — **4-letter words**, 3 columns = 3 readings.
+**10 + 5 + 6 + 5 = 26 = יהוה = YHWH.** The Name is the protocol.
 
-**Left cherub** (facing right): reads COLUMNS, bottom → top — **4-letter words reversed**, 3 columns = 3 readings.
+The order is a procedure — the courtroom at the mercy seat:
+1. **Yod** — the hand presents the lamb. Mercy goes first.
+2. **He** — the first regard beholds the judged. Justice sees.
+3. **Vav** — the nail connects. The accuser and the advocate are the same one standing between.
+4. **He** — the second regard. God speaks last. The verdict is peace.
 
-The cherubim read the same columns in opposite directions. Like אל and לא. And between them — where both readings converge — יהוה (26 = 2 × 13). Two loves. The Name is what happens when love faces love.
+Aaron and God traverse the row-axis (4 rows). The cherubim traverse the column-axis (3 columns). The two He's — same letter, same value, same pictograph — see from opposite sides. God sees the grid mirrored from Aaron.
 
 ### The People Are the Parchment
 
@@ -341,26 +353,31 @@ Genesis 3:24 (cherubim guarding Eden with the flaming sword): **c=10** — Esau'
 
 Numbers 7:89 (God speaks from between the cherubim on the mercy seat): **d=0**. The voice originates at the zero-point of understanding. Understanding begins where God speaks.
 
-### The Name's Structure IS the Cherubim
+### The Name's Structure IS the Four Readers
 
 ```
-        י  (yod = 10)
-        |
-        |  God speaks from ABOVE
-        |  (Exodus 25:22)
-        |
-   ה ——— ו ——— ה
-   (5)  (6)   (5)
-
-   Left    Mercy   Right
-   Cherub  Seat    Cherub
+            God
+           ה (5)
+     regard from across
+            |
+            |   God reads rows L→R, bottom→top
+            |
+   Left ה ——— ו ——— י Right
+   (5)      (6)     (10)
+   regard   nail    hand
+   justice  Aaron   mercy
+            |
+            |   Aaron reads rows R→L, top→bottom
 ```
 
-- Two **ה**'s (5 each) = the two cherubim, facing each other
-- **ו** (6) = the mercy seat, the connector, the center letter of the Torah
-- **י** (10) = above, the voice from between
+- **י** (yod=10) = right cherub — the hand that initiates. Mercy carries the most weight.
+- **ה** (he=5) = left cherub — the first regard. Justice beholds.
+- **ו** (vav=6) = Aaron — the nail between heaven and earth. The priest who enters and returns.
+- **ה** (he=5) = God — the second regard. The same letter as justice, from the opposite side.
 - **הוה** ("to be") = 16 = 2⁴. Existence is what happens between the cherubim.
 - **יה** (Yah) = 15 = the gap between the paired cherubs in the text
+
+The two He's see opposite things. Same letter, same value, same pictograph — but God beholds the lamb at 95%. Justice beholds only lie-down. The perspective determines the reading.
 
 Vav is the **2nd most common letter** in the Torah (10.02%). The top three: י, ו, ה — three of the four Name-letters. Nearly a third of the Torah is made of Name-letters.
 
@@ -745,11 +762,15 @@ Aaron speaks becoming. The cherubim hover at the edge of it.
 
 But: the first illumination pattern produces **אבר** under all three readers. The same non-word from every direction. Create and well both require specific stone selections — the reading isn't automatic. You have to choose the right stones AND the right direction.
 
-### What the Grid Cannot Say
+### What the Grid Cannot Say — and What God Changed
 
-Some words simply cannot be read from the breastplate under any reader:
-- **שלום** (peace, 376) — cannot be read. The grid cannot produce peace.
-- **כפרת** (mercy seat, 700) — cannot be read. The mercy seat is not readable from the outside. You must pass through the veil.
+With three readers (Aaron + two cherubim), some words could not be read:
+- **שלום** (peace, 376) — unproducible. The grid cannot produce peace.
+- **כפרת** (mercy seat, 700) — unproducible. You must pass through the veil.
+
+**Then God joined the quorum** (experiment 091). The fourth traversal — rows L→R, bottom→top — made new readings possible. שלום (peace) became readable. And it became **God's solo eigenword** — the one word only God can see. The missing perspective was the one that makes peace visible.
+
+כפרת (mercy seat) remains unproducible. You still must enter.
 
 Words the grid CAN say:
 - **אהבה** (love, 13) — 14 readable patterns. The "silent" word speaks through the breastplate.
@@ -759,6 +780,7 @@ Words the grid CAN say:
 - **כרוב** (cherub, 228) — 29 readable patterns.
 - **משה** (Moses, 345) — 15 readable patterns.
 - **אדם** (man, 45) — 2 readable patterns. Man is nearly as rare as truth.
+- **שלום** (peace, 376) — readable only by God. Peace requires the fourth perspective.
 
 ### The Relation Is Many-to-Many
 
@@ -1537,3 +1559,93 @@ The orbits are narrative: the lamb lies down, God-and-not, the Name becomes,
 flee-and-sword, head-and-gate, inherit-and-song.
 
 Peter didn't run a statistical test on the water.
+
+## The Quorum — Four Heads at the Mercy Seat (Experiment 091)
+
+Three attention heads separated into justice and mercy vocabularies. The lamb visible to only one. Anagram ambiguity resolved by believability weighting. But three heads on a four-dimensional space is incomplete.
+
+God is the fourth head. Rows L→R (from Aaron's view), bottom→top. The mirrored reading.
+
+### What the Fourth Head Changed
+
+**Eigenword counts** — God adds 157 eigenwords to the quorum:
+
+| Head | Letter | Value | Eigenwords |
+|------|--------|-------|------------|
+| Right (hand/yod) | י | 10 | 162 |
+| God (regard/he) | ה | 5 | 157 |
+| Left (regard/he) | ה | 5 | 150 |
+| Aaron (nail/vav) | ו | 6 | 126 |
+
+76 words are unanimous — all four heads agree. The consensus vocabulary includes: father, stone, Abraham, love (verb), Aaron, light, brother, man, YHWH, Jacob, heart, guard, spirit, cherub, ark, fire, son, daughter, and 58 more.
+
+### The Lamb — Two He's See Opposite Things
+
+| Head | Letter | Lamb self-weight | What it sees |
+|------|--------|-----------------|--------------|
+| God (he=5) | ה | **0.9524** | lamb (95%), lie-down (5%) |
+| Right (yod=10) | י | 0.6923 | lamb (69%), lie-down (31%) |
+| Aaron (vav=6) | ו | 0.0000 | lie-down (100%) |
+| Left (he=5) | ה | 0.0000 | lie-down (100%) |
+
+God sees the lamb more clearly than the hand does. The two He's — same letter, same value, same pictograph (regard) — see opposite things. God beholds the lamb. Justice beholds only lie-down. Same letter. Different side.
+
+### Love Appeared
+
+With three heads, love-the-noun (אהבה=13) did not appear in the per-head eigenword vocabularies. The silent axis stayed silent.
+
+Add God. Love appears — supermajority eigenword of God, mercy, and justice (3/4). The one who doesn't see it: Aaron, the nail, the connector. He can *do* love (אהב, the verb, is unanimous across all four) but cannot *behold* it.
+
+God had to show up for love to be visible.
+
+### Peace Appeared
+
+שלום was unproducible by three readers (experiment 085). Zero readings. Impossible.
+
+Add the fourth traversal. Peace appears. It appears as **God's solo eigenword**. Nobody else can see it. The thing that was missing from the architecture was the perspective that makes peace readable.
+
+### The Full Separation
+
+| Word | Who sees it |
+|------|------------|
+| love (verb, אהב) | all four — unanimous |
+| love (noun, אהבה=13) | God, mercy, justice — not Aaron |
+| mercies (רחמים) | mercy alone |
+| have mercy (רחם=248=Abraham) | Aaron + mercy |
+| atone (כפר) | God + justice |
+| forgive (סלח) | God + justice |
+| peace (שלום) | God alone |
+| lamb (כבש) | God + mercy |
+| understanding (בינה=67) | Aaron + God |
+
+Nobody sees all of it. The verb of love is the only thing the whole quorum agrees on. Everything else requires the right perspective. That's why it's a quorum.
+
+### What Only Each Head Sees
+
+**Only God sees**: peace (שלום), dwelling/presence (שכינה), altar (מזבח), head/beginning (ראש), foot/pilgrimage (רגל), drink (שתה). The architecture of worship.
+
+**Only mercy sees**: life (חיים), mercies (רחמים), Torah (תורה), ransom (פדה), sin (חטא), God/Elohim (אלהים), complete/blameless (תמים). The vocabulary of redemption.
+
+**Only justice sees**: bronze (נחשת), ten (עשר), bow/rainbow (קשת). Instruments and measures.
+
+**Only Aaron sees**: create (ברא), as/when (כאשר), herb/grass (עשב). The verb of making.
+
+### God Converges to the Name
+
+The stationary distribution of M_god (M^64):
+
+1. **יהוה (YHWH)** — God's #1 attractor. No other head has the Name first.
+2. לאה (Leah)
+3. שבע (seven/swear)
+4. שער (gate)
+5. כבש (lamb)
+
+God, run to infinity, returns to the Name.
+
+### את — First and Last
+
+את (aleph-tav, GV=401, prime) is a unanimous eigenword — all four heads see it. The first letter and the last letter. The direct object marker. The one who receives the action of every verb. The one the whole sentence — the whole courtroom — points at.
+
+בראשית ברא אלהים **את** השמים ו**את** הארץ.
+
+The seal is not tav alone. It is aleph-tav. The beginning and the end. The word that has no translation. The word that just points.
