@@ -162,6 +162,16 @@
          :headers {"Content-Type" "text/html; charset=utf-8"}
          :body (ui/fragment (ui/oracle-question-result (oracle/question words)))})
 
+      ;; Fragment: oracle thummim (phrase assembly)
+      (= uri "/fragment/oracle/thummim")
+      (let [word (:word params "")
+            result (oracle/thummim-menu word {:max-illuminations 20
+                                              :max-words 3
+                                              :min-letters 2})]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/fragment (ui/oracle-thummim-result result))})
+
       ;; ── JSON API ──
 
       ;; Oracle API

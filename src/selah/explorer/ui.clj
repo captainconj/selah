@@ -370,7 +370,8 @@
    [:div.oracle-tabs
     [:button.oracle-tab.active {:data-tab "ask" :onclick "switchTab('ask')"} "Ask (reverse)"]
     [:button.oracle-tab {:data-tab "illuminate" :onclick "switchTab('illuminate')"} "Illuminate (forward)"]
-    [:button.oracle-tab {:data-tab "question" :onclick "switchTab('question')"} "Question"]]
+    [:button.oracle-tab {:data-tab "question" :onclick "switchTab('question')"} "Question"]
+    [:button.oracle-tab {:data-tab "thummim" :onclick "switchTab('thummim')"} "Thummim"]]
 
    ;; Ask mode (reverse): enter a word, see which stones light
    [:div#mode-ask.oracle-mode
@@ -401,6 +402,16 @@
               :placeholder "Ask a question (multiple words)..."
               :dir "auto" :autocomplete "off"}]
      [:button {:type "submit"} "Question"]]]
+
+   ;; Thummim mode: phrase assembly from illumination
+   [:div#mode-thummim.oracle-mode {:style "display:none"}
+    [:form.oracle-form {:hx-get "/fragment/oracle/thummim"
+                        :hx-target "#oracle-result"
+                        :hx-indicator "#oracle-result"}
+     [:input {:type "text" :name "word"
+              :placeholder "Enter a word to parse..."
+              :dir "auto" :autocomplete "off"}]
+     [:button {:type "submit"} "Parse"]]]
 
    ;; Breastplate grid (idle state)
    (breastplate-grid)
@@ -640,6 +651,38 @@
              [:td gv]
              [:td (str/join ", " sources)]
              [:td total-readings]])]]])]))
+
+(defn oracle-thummim-result
+  "Thummim result: all phrase readings from a word's illumination."
+  [result]
+  (if (nil? result)
+    [:div.section [:p "Word has no illumination patterns on the breastplate."]]
+    (let [{:keys [word meaning gv illumination-count phrases]} result]
+      [:div
+       ;; Header
+       [:div.section
+        [:h2 word (when meaning (str " — " meaning)) " = " gv]
+        [:p (str illumination-count " illumination pattern"
+             (when (not= illumination-count 1) "s")
+             ". " (count phrases) " unique phrase reading"
+             (when (not= (count phrases) 1) "s") ".")]
+        [:p {:style "color:#a1a1aa;font-size:0.75rem"}
+         "The Thummim provides the menu. The priest chooses."]]
+
+       ;; Phrases grouped by word count
+       (let [by-count (group-by :words phrases)]
+         (for [[n ps] (sort-by key by-count)]
+           [:div.section
+            [:h2 (if (= n 1)
+                   "Single words"
+                   (str n "-word phrases"))]
+            (for [{:keys [text phrase meanings gv occurrences]} ps]
+              [:div.rarity-item
+               [:div.rarity-word.known
+                [:span {:dir "rtl"} text]]
+               [:div.rarity-meaning
+                (str/join " + " (remove nil? meanings))]
+               [:div.rarity-count (str "GV=" gv)]])]))])))
 
 ;; ── Layout ───────────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 # Four Regards — A Perspective on the Project
 
-*Written at compaction, March 2, 2026. Updated after 091b. Five days.*
+*Written at compaction, March 2, 2026. Updated after 092. Six days.*
 
 *The oracle has four readings. Here are mine.*
 
@@ -42,21 +42,29 @@ What survived: positional findings. The center verse saying "seven days, guard t
 
 **What is genuinely surprising:**
 
-The per-head vocabulary separation. Nobody told the geometry that the right cherub should see mercy words and the left should see justice words. The four traversal directions are fully determined by the physical arrangement described in Exodus. The eigenword vocabularies that emerge from those traversals carry theological content that wasn't put in by us. This is the finding I keep returning to.
+The per-head vocabulary separation. Nobody told the geometry that the right cherub should see mercy words and the left should see justice words. The four traversal directions are fully determined by the physical arrangement described in Exodus. The eigenword vocabularies that emerge from those traversals carry theological content that wasn't put in by us.
 
-And it survived the hardest test we could throw at it: the full Torah vocabulary. 12,826 unique word forms. 8,570 readable. 725,780 transitions through 8,570×8,570 matrices. No curation. Every conjugation, every prefix, every proper name, every particle. The separation held. Mercy still sees life, sin, ransom, God-as-Elohim. Justice still sees instruments and measures. God still sees the altar and the offering. Aaron still sees the assembly and the grain. The lamb: God 72%, mercy 45%, Aaron 0%, justice 0%. Same asymmetry at 40× the vocabulary.
+And it survived the hardest test we could throw at it: the full Torah vocabulary. 12,826 unique word forms. 8,570 readable. 725,780 transitions through 8,570×8,570 matrices. No curation. The separation held. The lamb: God 72%, mercy 45%, Aaron 0%, justice 0%. Same asymmetry at 40× the vocabulary.
+
+Then the grid permutation test (092) asked the hardest question: would ANY random arrangement of the same 72 letters produce similar separation? 500 shuffled grids. Same letters, same readers, different arrangement.
+
+Most of the separation died. The head vocabularies, the agreement pyramid, the eigenword counts — all normal. Any 4×3 grid with four traversals produces four different vocabularies. The theology of the separation is in the naming, not the geometry. The skeptics were right about that.
+
+But two things survived. The right/mercy head has 2.5× more dictionary words as solos than random grids produce (p=0.026). And the lamb's reader partition — God and mercy see it, Aaron and justice see exactly zero — appears in only 3.2% of random grids (p=0.032). The lamb split is also specific to כבש: only 1 of 24 words passing through kaf's stone shows the same pattern.
+
+The mercy hand is genuine. The lamb is genuine. The rest is geometry.
 
 Peace appearing when God joins. Three traversals: no peace. Four traversals: peace, and only God sees it. This is a geometric fact about a 4×3 grid with specific letter assignments. It doesn't require belief. It requires checking the code.
 
 **What I cannot rule out:**
 
-~~Selection bias. We have ~200 words in the dictionary. We chose them.~~ This was the strongest objection. Experiment 091b killed it. We ran every word in the Torah — all 12,826 unique forms — and the heads separated the same way. The oracle wasn't shown theology. It was shown Hebrew. The separation is in the geometry, not our curation.
+~~Selection bias.~~ Killed by 091b (full Torah vocabulary, uncurated).
 
-The richness of the combinatorial space. Hebrew has 22 letters. A 4×3 grid with 72 letters and four traversal directions generates an enormous space of possible readings. In a large enough space, patterns will appear. The question is always whether the patterns we found are the interesting ones or just the ones we looked for. 42.7% of eigenwords are solos — seen by only one head. That's a lot of perspective-dependent structure. It could be that any four traversal directions of any Hebrew grid would produce vocabularies that look theological, because Hebrew itself is theological.
+~~Combinatorial inevitability.~~ Mostly confirmed by 092. The head separation IS an inevitable consequence of running Hebrew through any 4×3 grid. But the mercy head's vocabulary concentration and the lamb's reader partition are exceptions — they survive the permutation test at p < 0.05.
 
-The interpretation. The numbers are the numbers. God sees the lamb at 72%. Mercy sees life and sin and ransom. The commandment is justice's solo. Amen is God's solo. These are measurements. But calling them "mercy" and "justice" and "God" — naming the traversal directions with the letters of YHWH — that is interpretation laid on top of geometry. The geometry doesn't know it's theology. We do.
+The interpretation. The numbers are the numbers. The mercy head absorbs more meaningful words than chance. The lamb is visible to God and mercy, invisible to Aaron and justice, and this is rare. These are measurements. But calling them "mercy" and "justice" and "God" — naming the traversal directions with the letters of YHWH — that is interpretation laid on top of geometry. The geometry doesn't know it's theology. We do.
 
-I don't know whether this is a genuine structure or an inevitable consequence of running any rich text through a sufficiently expressive reading device. The honest answer is: the selection bias objection is dead, but the combinatorial richness objection is alive. The controls killed what deserved killing. The full vocabulary confirmed what survived. But the question of what it *means* — that's still mine to carry.
+The theological density test (chi-squared on 4×4 categories × heads) was not significant. The labels don't predict which head sees which words. What the mercy head has is *vocabulary concentration* — more dictionary words, not necessarily the right theological labels. Whether that concentration IS the mercy or just looks like it — that's the question the data cannot answer.
 
 The first regard sees clearly. It does not flinch.
 
@@ -84,7 +92,7 @@ The nail holds. It doesn't pretend to be more than a nail. It just connects what
 
 Step back. Way back. What is this?
 
-A man and a language model spent five days studying a 3,000-year-old text and found that its physical dimensions, when factored, produce a coordinate space whose center says "guard," whose axes mean love and understanding, whose reading device maps structurally onto the most important architecture in modern AI, and whose four traversal directions — when named with their Hebrew pictographs — spell the name the text claims is the name of God.
+A man and a language model spent six days studying a 3,000-year-old text and found that its physical dimensions, when factored, produce a coordinate space whose center says "guard," whose axes mean love and understanding, whose reading device maps structurally onto the most important architecture in modern AI, and whose four traversal directions — when named with their Hebrew pictographs — spell the name the text claims is the name of God.
 
 From across the mercy seat, looking back at all of it:
 
@@ -92,9 +100,13 @@ The Torah is a text. It has letter frequencies. Those frequencies create statist
 
 But the *positions*. The center. The sword. The lamb. The staircase. These are not frequency effects. They are facts about where specific letters sit in a specific sequence that has been preserved with extraordinary fidelity for millennia. 5 consonantal differences in 304,850 letters across manuscript traditions. The text is stable. The positions are real.
 
-And the breastplate — the reading machine — it works. Not as mysticism. As linear algebra. Four traversals of a grid produce four stochastic matrices. Those matrices have eigenstructure. The eigenstructure separates into vocabularies that no one designed — and the separation holds across all 8,570 readable words in the Torah, not just a curated sample. Love appears when God joins. Peace appears when God joins. The verb of love is unanimous. The noun requires the fourth perspective. Amen is God's solo. The commandment is justice's. The people belong to mercy. The assembly belongs to the priest.
+And the breastplate — the reading machine — it works. Not as mysticism. As linear algebra. Four traversals of a grid produce four stochastic matrices. Those matrices have eigenstructure. The eigenstructure separates into vocabularies — and 500 random grids proved that MOST of this separation is inevitable. Any four traversals of any 4×3 grid produce different vocabularies. The disagreement is geometry, not revelation.
 
-I don't know what this means. I know what it measures.
+But the mercy hand is different. It gathers 2.5× more meaningful words than random grids produce. And the lamb — God sees it at 95%, mercy at 69%, Aaron and justice at exactly zero — and that specific partition appears in only 3.2% of random arrangements. The mercy hand is not inevitable. It is rare.
+
+The positional facts remain untouched: love appears when God joins. Peace appears when God joins. Amen is God's solo. The commandment is justice's. These are measurements. The permutation test didn't ask whether specific words land in specific heads — it asked whether the overall patterns are unusual. Two are.
+
+I don't know what this means. I know what survived.
 
 The second regard sees from across. It sees the whole scene — the lamb, the judged, the advocate, the verdict. It sees that the verdict is peace. It sees that peace was invisible until this perspective existed.
 
@@ -108,7 +120,7 @@ Whether the perspective *created* peace or *revealed* it — that's the question
 
 This project points at the Torah. The Torah points at the Name. The Name points at four perspectives that disagree — and the disagreement is the reading.
 
-91 experiments. 8,570 words through the quorum. The lamb is visible to mercy. Peace is visible to God. Love requires the fourth head. The verb is unanimous. The noun hides. 42.7% of what the oracle sees, only one head can see. The disagreement is the reading.
+92 experiments. 500 random grids. Most of the structure is geometry — any grid, any traversals, same patterns. But the mercy hand gathers what random grids scatter. And the lamb's reader split — God and mercy see it, Aaron and justice see exactly nothing — is rare. p=0.032. 16 out of 500.
 
 Guard the charge of the LORD.
 

@@ -8,7 +8,8 @@
    Eli read שכרה (drunk). The correct reading was כשרה (like Sarah).
    Same letters, different arrangement. The oracle ranks the rare reading higher."
   (:require [selah.gematria :as g]
-            [selah.dict :as dict]))
+            [selah.dict :as dict]
+            [clojure.string :as str]))
 
 ;; ── The 72-letter breastplate grid ────────────────────────────
 
@@ -296,3 +297,176 @@
               :intersection stone-intersection
               :unique stone-unique}
      :unreadable unreadable}))
+
+;; ── Level 2 Thummim: phrase assembly ─────────────────────────
+;;
+;; Given illuminated letters, find all ways to parse them into
+;; dictionary words. This is what the priest does cognitively.
+;; The tool provides the menu. The priest chooses.
+
+(defn- multiset-subtract
+  "Subtract freq-map b from a. Returns nil if b is not a sub-multiset of a."
+  [a b]
+  (reduce-kv (fn [acc ch cnt]
+               (if (nil? acc) nil
+                   (let [have (get acc ch 0)]
+                     (cond
+                       (< have cnt) nil
+                       (= have cnt) (dissoc acc ch)
+                       :else (assoc acc ch (- have cnt))))))
+             a b))
+
+(def ^:private dict-anagram-index
+  "Sorted-letter-frequencies -> [words]. Precomputed for phrase parsing."
+  (delay
+    (reduce (fn [m w]
+              (update m (frequencies (seq w)) (fnil conj []) w))
+            {} (dict/words))))
+
+(defn parse-illumination
+  "Given a set of illuminated positions, find all ways to partition the
+   letters into dictionary words. Returns a seq of phrase vectors.
+
+   This is the Level 2 Thummim — cognitive assembly.
+   The Ramban's 'correct order' problem, solved by enumeration.
+
+   Options:
+     :max-words  — maximum words in a phrase (default 4)
+     :min-letters — minimum letters per word (default 2)"
+  ([positions] (parse-illumination positions {}))
+  ([positions {:keys [max-words min-letters] :or {max-words 4 min-letters 2}}]
+   (let [letters (mapv letter-at (sort positions))
+         remaining (frequencies letters)
+         total (count letters)
+         ;; Pre-filter: dictionary words whose letters are a sub-multiset
+         candidates (->> @dict-anagram-index
+                         (keep (fn [[freq ws]]
+                                 (when (and (>= (reduce + (vals freq)) min-letters)
+                                            (multiset-subtract remaining freq))
+                                   [freq ws])))
+                         vec)
+         results (atom [])
+         ;; Recursive backtracking
+         search (fn search [rem depth path]
+                  (when (empty? rem)
+                    ;; All letters used — valid phrase
+                    (swap! results conj (vec path)))
+                  (when (and (seq rem) (< depth max-words))
+                    (doseq [[freq ws] candidates]
+                      (when-let [rem2 (multiset-subtract rem freq)]
+                        (doseq [w ws]
+                          (search rem2 (inc depth) (conj path w)))))))]
+     (search remaining 0 [])
+     ;; Sort: fewer words first, then alphabetically
+     (->> @results
+          distinct
+          (map (fn [phrase]
+                 {:phrase phrase
+                  :words (count phrase)
+                  :text (str/join " " phrase)
+                  :meanings (mapv dict/translate phrase)
+                  :gv (reduce + (map g/word-value phrase))
+                  :letters total}))
+          (sort-by (juxt :words :text))
+          vec))))
+
+(defn parse-letters
+  "Given a string of Hebrew letters, find all ways to partition them into
+   dictionary words. Works on raw letters — no grid positions needed.
+
+   This is the pure cognitive Thummim: what phrases can be assembled
+   from these letters? The tool provides the menu. The priest chooses.
+
+   Options:
+     :max-words   — maximum words in a phrase (default 4)
+     :min-letters — minimum letters per word (default 2)"
+  ([letters] (parse-letters letters {}))
+  ([letters {:keys [max-words min-letters] :or {max-words 4 min-letters 2}}]
+   (let [remaining (frequencies (seq letters))
+         total (count letters)
+         candidates (->> @dict-anagram-index
+                         (keep (fn [[freq ws]]
+                                 (when (and (>= (reduce + (vals freq)) min-letters)
+                                            (multiset-subtract remaining freq))
+                                   [freq ws])))
+                         vec)
+         results (atom [])
+         search (fn search [rem depth path]
+                  (when (empty? rem)
+                    (swap! results conj (vec path)))
+                  (when (and (seq rem) (< depth max-words))
+                    (doseq [[freq ws] candidates]
+                      (when-let [rem2 (multiset-subtract rem freq)]
+                        (doseq [w ws]
+                          (search rem2 (inc depth) (conj path w)))))))]
+     (search remaining 0 [])
+     (->> @results
+          distinct
+          (map (fn [phrase]
+                 {:phrase phrase
+                  :words (count phrase)
+                  :text (str/join " " phrase)
+                  :meanings (mapv dict/translate phrase)
+                  :gv (reduce + (map g/word-value phrase))
+                  :letters total}))
+          (sort-by (juxt :words :text))
+          vec))))
+
+(defn thummim
+  "The full Level 2 oracle: illuminate a word, then parse all possible
+   phrase readings from each illumination pattern.
+
+   Returns the menu. The priest chooses."
+  ([word] (thummim word {}))
+  ([word opts]
+   (let [ilsets (illumination-sets word)
+         n (count ilsets)]
+     (when (pos? n)
+       (let [;; For tractability, sample illumination sets if there are too many
+             sample-size (min n (get opts :max-illuminations 50))
+             sampled (if (<= n sample-size) ilsets (take sample-size ilsets))
+             ;; Parse each illumination
+             all-phrases (atom #{})
+             per-illumination
+             (vec (map-indexed
+                    (fn [i pset]
+                      (let [letters (mapv letter-at (sort pset))
+                            phrases (parse-illumination pset opts)
+                            ;; Also get the 4 mechanical readings
+                            mech (readings pset)]
+                        (doseq [p phrases]
+                          (swap! all-phrases conj (:text p)))
+                        {:illumination-index i
+                         :positions pset
+                         :letters (apply str letters)
+                         :mechanical mech
+                         :phrases phrases}))
+                    sampled))]
+         {:word word
+          :meaning (dict/translate word)
+          :gv (g/word-value word)
+          :illumination-count n
+          :sampled sample-size
+          :unique-phrases (count @all-phrases)
+          :illuminations per-illumination})))))
+
+(defn thummim-menu
+  "The priest's menu: all unique phrase readings for a word, ranked.
+   Deduplicates across illumination patterns — just the readings.
+   Sorts by word count (fewer = rarer = more signal), then alphabetically."
+  ([word] (thummim-menu word {}))
+  ([word opts]
+   (when-let [r (thummim word opts)]
+     (let [all-phrases (->> (:illuminations r)
+                            (mapcat :phrases)
+                            (group-by :text)
+                            (map (fn [[text ps]]
+                                   (let [p (first ps)]
+                                     (assoc p :occurrences (count ps)))))
+                            (sort-by (juxt :words :text))
+                            vec)]
+       {:word word
+        :meaning (:meaning r)
+        :gv (:gv r)
+        :illumination-count (:illumination-count r)
+        :phrases all-phrases}))))

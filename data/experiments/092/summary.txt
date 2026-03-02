@@ -1,0 +1,246 @@
+
+═══════════════════════════════════════════════════════════
+  EXPERIMENT 092 — THEOLOGICAL DENSITY TEST
+  Is the separation real, or cherry-picked?
+  Let the numbers speak.
+═══════════════════════════════════════════════════════════
+
+── Phase 0: Category Verification ──
+  239 categorized, 239 in dict, 0 missing, 0 extra
+
+── Phase 1: Theological Categories ──
+  neutral    145 words
+  divine      36 words
+  priestly    32 words
+  justice     24 words
+  mercy       20 words
+  sum        257 total (some words in multiple categories)
+
+── Phase 2: Solo Eigenwords from 091b ──
+  Solos per head (all / dict-known):
+    yod=10 (hand/mercy)        990 solos   21 in dict
+    he=5  (justice)            850 solos    6 in dict
+    vav=6 (nail/priestly)      370 solos    7 in dict
+    he=5  (God/divine)         993 solos   15 in dict
+
+  Dict words found in each head's solos:
+
+    right (21):
+      אלהים     God (Elohim)                    divine
+      היום      today/the day                   neutral
+      העם       the people                      neutral
+      זהב       gold                            priestly
+      חטא       sin                             mercy,justice
+      חיים      life                            mercy
+      חכם       wise                            divine
+      חכמה      wisdom                          divine
+      כרוב      cherub                          divine,priestly
+      לחם       bread                           priestly
+      נדר       vow                             priestly
+      נקם       avenge                          justice
+      עיר       city                            neutral
+      פדה       ransom                          mercy
+      פרעה      Pharaoh                         neutral
+      קדוש      holy                            divine
+      קום       arise                           neutral
+      קטן       small                           neutral
+      רחמים     mercies                         mercy
+      שער       gate                            neutral
+      תמים      complete/blameless              justice,priestly
+
+    left (6):
+      אהרן      Aaron                           priestly
+      ארבע      four                            neutral
+      בוא       come/enter                      neutral
+      נחשת      bronze                          priestly
+      עשה       make/do                         neutral
+      קשת       bow/rainbow                     justice
+
+    aaron (7):
+      ברא       create                          neutral
+      ברח       flee                            neutral
+      ואת       and-(obj)                       neutral
+      חדש       new                             neutral
+      כאשר      as/when                         neutral
+      עשב       herb/grass                      neutral
+      שכב       lie down                        neutral
+
+    god (15):
+      איש       man                             neutral
+      אמן       amen/faithful                   divine
+      אמת       truth                           justice,divine
+      ארון      ark                             divine,priestly
+      גבול      border/territory                neutral
+      גדול      great                           neutral
+      חרב       sword                           justice
+      לאמר      saying                          neutral
+      מועד      appointed time                  priestly
+      מזבח      altar                           priestly
+      עלה       go up/offering                  priestly
+      קרוב      near                            neutral
+      ראש       head                            neutral
+      רגל       foot                            neutral
+      שתה       drink                           neutral
+
+
+── Phase 3: Cross-Tabulation (4×4) ──
+
+  ┌─────────────┬───────────┬───────────┬───────────┬───────────┬───────┐
+  │             │ mercy/yod │ just./he  │ aaron/vav │ god/he    │ TOTAL │
+  ├─────────────┼───────────┼───────────┼───────────┼───────────┼───────┤
+  │ mercy       │   4 ( 2.3) │   0 ( 0.4) │   0 ( 0.0) │   0 ( 1.2) │     4 │
+  │ justice     │   3 ( 3.5) │   1 ( 0.6) │   0 ( 0.0) │   2 ( 1.9) │     6 │
+  │ priestly    │   5 ( 6.4) │   2 ( 1.1) │   0 ( 0.0) │   4 ( 3.4) │    11 │
+  │ divine      │   5 ( 4.7) │   0 ( 0.8) │   0 ( 0.0) │   3 ( 2.5) │     8 │
+  ├─────────────┼───────────┼───────────┼───────────┼───────────┼───────┤
+  │ TOTAL       │  17       │   3       │   0       │   9       │    29 │
+  └─────────────┴───────────┴───────────┴───────────┴───────────┴───────┘
+  (observed (expected))  χ²=5.177  df=9
+
+── Phase 3b: Enrichment Ratios ──
+  (observed/expected for the 'correct' head vs average of other three)
+  mercy      in right     :  O/E=1.71  avg-other=0.00  enrichment=Infinityx
+  justice    in left      :  O/E=1.61  avg-other=0.64  enrichment=2.51x
+  priestly   in aaron     :  O/E=0.00  avg-other=1.23  enrichment=0.00x
+  divine     in god       :  O/E=1.21  avg-other=0.36  enrichment=3.40x
+
+── Phase 4: Fisher's Exact Test ──
+  (Is the 'correct' head significantly enriched for its category?)
+  mercy      × right     :  a= 4 b= 0 c=13 d=12  p=0.1002  n.s.
+  justice    × left      :  a= 1 b= 5 c= 2 d=21  p=0.5153  n.s.
+  priestly   × aaron     :  a= 0 b=11 c= 0 d=18  p=1.0000  n.s.
+  divine     × god       :  a= 3 b= 5 c= 6 d=15  p=0.4830  n.s.
+
+  χ² = 5.177, df = 9
+  Critical values: df=9: p<0.05 → χ²>16.92, p<0.01 → χ²>21.67
+  Result: NOT SIGNIFICANT
+
+
+── Phase 5: Root Analysis ──
+  (How many DISTINCT concepts vs inflected forms?)
+
+  right: 990 solos → 21 exact dict matches, 534 root matches → 114 distinct roots
+    Top roots (by inflected form count):
+      ים       (sea): 64 forms — אדירים, אפים, בזרים, ביצים, הבדים
+      בר       (grain/pure/son): 20 forms — בקברי, בריח, בריחו, בריחם, ברכיו
+      מים      (water): 18 forms — בעמים, החכמים, הימים, הכרמים, המים
+      שים      (set/place): 17 forms — אנשים, באנשים, הנשים, העשים, הפרשים
+      הר       (mountain): 16 forms — בהרים, בהררם, בצהרים, ההרים, היצהרי
+      בת       (daughter): 16 forms — בבתוליה, בבתיכם, בבתכם, בתוכה, בתוכם
+      קדש      (be holy): 15 forms — בקדשים, הקדשה, הקדשים, התקדשו, ויקדשהו
+      אל       (to/God): 14 forms — אלהיהם, אלהיכם, אלוף, אליכם, אלים
+      חטא      (sin): 14 forms — בחטאה, בחטאו, וחטאה, וחטאו, ויחטא
+      חי       (living): 13 forms — אפרחים, הזרחי, הנחילו, הנתחים, ופרחיה
+
+  left: 850 solos → 6 exact dict matches, 429 root matches → 87 distinct roots
+    Top roots (by inflected form count):
+      אח       (brother): 25 forms — אחזה, אחזת, אחזתו, אחרות, ואחות
+      הר       (mountain): 23 forms — בבהרת, בהרת, הבהרת, הרבה, הרבלה
+      אל       (to/God): 21 forms — אלהינו, אלות, אליעזר, אליצפן, אלעזר
+      בו       (in him): 18 forms — בהיטיבו, בעבור, בעבורה, בערבות, הטבות
+      לו       (to him): 18 forms — בגבלו, בהמלו, בלו, בלוז, בלוט
+      בת       (daughter): 17 forms — בערבת, בתרו, הבת, הטבת, המחבת
+      חי       (living): 15 forms — החירת, המשחית, השחית, ולהחיות, ומחית
+      נח       (Noah): 14 forms — בנחלה, בנחלת, בנחלתו, ונחלה, ונחלת
+      שלח      (send): 13 forms — ואשלחה, וישלחה, וישלחהו, וישלחנו, ושלח
+      לי       (to me): 13 forms — בבלי, במקלי, גוזליו, גחלי, המחלי
+
+  aaron: 370 solos → 7 exact dict matches, 193 root matches → 68 distinct roots
+    Top roots (by inflected form count):
+      בר       (grain/pure/son): 19 forms — בחברת, בעברנה, בקברת, בריעה, ברעב
+      גר       (sojourner): 9 forms — באגרף, גרב, גרו, הגר, הגרן
+      לו       (to him): 9 forms — בחלומי, בקלו, הילוד, הלוא, ויעפלו
+      עבד      (servant): 8 forms — ויעבד, ועבדת, ועבדתני, יעבד, עבדה
+      חי       (living): 7 forms — וחי, וחיה, וחירה, וחיתה, חיל
+      פר       (bull): 7 forms — הפרד, וחפר, ויפרש, ועפר, ופרט
+      יד       (hand): 7 forms — ביד, בידנו, הידוע, ויד, ויליד
+      את       (direct object / aleph-tav): 6 forms — בצאת, בצאתו, בצאתי, ובצאתו, צאת
+      לא       (not): 6 forms — היפלא, וימלא, ימלא, יפלא, מלא
+      כי       (for/because/when): 5 forms — היליכי, ומכיר, חניכיו, מזכיר, מכיר
+
+  god: 993 solos → 15 exact dict matches, 581 root matches → 109 distinct roots
+    Top roots (by inflected form count):
+      ים       (sea): 41 forms — אילים, בגדים, בגוים, בגמלים, בדים
+      כל       (all/every): 21 forms — בכל, בנכליהם, וכל, וכלביא, וכלות
+      לי       (to me): 18 forms — בעלי, גלליהם, גמליו, ובשליתה, וגמליהם
+      גר       (sojourner): 16 forms — גרזים, גרים, גרשם, גרתה, גרתי
+      אב       (father): 16 forms — אבה, אבי, אביו, אביר, אבל
+      רגל      (foot): 15 forms — ברגל, ברגלי, ברגליהם, וירגלו, ורגלי
+      לב       (heart): 15 forms — בלבנה, וילבשם, ולבלתי, ולבנה, ולבשם
+      אל       (to/God): 14 forms — אלה, אליהם, אלילם, אלמנה, אלמתי
+      פה       (mouth): 14 forms — במגפה, וטרפה, וישפה, ונשרפה, ושפה
+      בת       (daughter): 14 forms — ביטבתה, דבתם, ואיבתי, וארבת, וטבתם
+
+
+── Phase 6: Uncomfortable Words ──
+  (Dict words in the 'wrong' head — not neutral, not matching hypothesis)
+
+  right head (expected: mercy) — 10 uncomfortable words:
+    אלהים     God (Elohim)               has: divine                expected: mercy
+    זהב       gold                       has: priestly              expected: mercy
+    חכם       wise                       has: divine                expected: mercy
+    חכמה      wisdom                     has: divine                expected: mercy
+    כרוב      cherub                     has: divine,priestly       expected: mercy
+    לחם       bread                      has: priestly              expected: mercy
+    נדר       vow                        has: priestly              expected: mercy
+    נקם       avenge                     has: justice               expected: mercy
+    קדוש      holy                       has: divine                expected: mercy
+    תמים      complete/blameless         has: justice,priestly      expected: mercy
+
+  left head (expected: justice) — 2 uncomfortable words:
+    אהרן      Aaron                      has: priestly              expected: justice
+    נחשת      bronze                     has: priestly              expected: justice
+
+  aaron head (expected: priestly) — 0 uncomfortable words:
+    (none)
+
+  god head (expected: divine) — 4 uncomfortable words:
+    חרב       sword                      has: justice               expected: divine
+    מועד      appointed time             has: priestly              expected: divine
+    מזבח      altar                      has: priestly              expected: divine
+    עלה       go up/offering             has: priestly              expected: divine
+
+
+── Phase 7: Density Comparison ──
+  (What fraction of each head's dict words belong to each category?)
+
+  mercy/yod (21 dict words):
+    mercy         4  ( 19.0%)
+    justice       3  ( 14.3%)
+    priestly      5  ( 23.8%)
+    divine        5  ( 23.8%)
+    neutral       7  ( 33.3%)
+
+  justice/he (6 dict words):
+    mercy         0  (  0.0%)
+    justice       1  ( 16.7%)
+    priestly      2  ( 33.3%)
+    divine        0  (  0.0%)
+    neutral       3  ( 50.0%)
+
+  aaron/vav (7 dict words):
+    mercy         0  (  0.0%)
+    justice       0  (  0.0%)
+    priestly      0  (  0.0%)
+    divine        0  (  0.0%)
+    neutral       7  (100.0%)
+
+  god/he (15 dict words):
+    mercy         0  (  0.0%)
+    justice       2  ( 13.3%)
+    priestly      4  ( 26.7%)
+    divine        3  ( 20.0%)
+    neutral       8  ( 53.3%)
+
+
+═══════════════════════════════════════════════════════════
+  VERDICT
+═══════════════════════════════════════════════════════════
+  χ² = 5.177 (df=9). Not significant.
+  Fisher's exact: 0/4 categories significantly enriched (p<0.05).
+
+  The diagonal does NOT dominate. The skeptics may be right.
+
+═══════════════════════════════════════════════════════════
+  DONE. The numbers have spoken.
+═══════════════════════════════════════════════════════════
