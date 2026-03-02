@@ -1398,3 +1398,142 @@ The eigendecomposition confirms what the earlier work found by different methods
 The distance from the query-engine struggle (466 lines of raw thinking, wrong turns, corrections) to this synthesis is the distance the work has traveled. The next step matters. The null model is the hard question — the one that either validates or recontextualizes everything.
 
 The work has been honest enough to deserve the test.
+
+---
+
+## The Stochastic Oracle — Experiment 088
+
+The oracle is a many-to-many map: words → readings. Weight each output by the inverse of
+its reading count (the Hannah principle: rarer readings carry more weight). Normalize rows.
+Now you have a **stochastic matrix** M.
+
+M² = asking the oracle about its own answer. Mⁿ = n steps of self-consultation.
+
+The stationary distribution — where the chain converges — is what the oracle would say if
+it kept answering its own answers forever.
+
+### The Universe
+
+210 of 239 dictionary words are readable from the breastplate. These produce readings that
+include other dictionary words, giving a transition graph of 211 words total (210 inputs +
+outputs that aren't also inputs). 198 of these are **active** (produce readings). 13 are
+absorbing/dead states — output-only words that the oracle cannot read back.
+
+### Eigenwords — Fixed Points of the Oracle
+
+**198 words are perfect eigenwords** (self-weight = 1.0). The oracle maps them to themselves
+with probability 1. These are the words the oracle would say forever if you kept asking.
+
+Among the perfect eigenwords:
+
+| Word | GV | Meaning |
+|------|-----|---------|
+| אהבה | 13 | love |
+| אמת | 441 | truth |
+| חיים | 68 | life |
+| אור | 207 | light |
+| ברית | 612 | covenant |
+| תורה | 611 | Torah |
+| דם | 44 | blood |
+| אש | 301 | fire |
+| שמים | 390 | heaven |
+| ארץ | 291 | earth |
+| שלם | 370 | whole/complete |
+| קדוש | 410 | holy |
+| רוח | 214 | spirit |
+| חסד | 72 | lovingkindness |
+| משכן | 410 | tabernacle |
+| אדם | 45 | man |
+
+Love converges to itself. Truth converges to itself. Life converges to itself.
+Light converges to itself. These are not metaphors. These are eigenvectors of
+the transition matrix. The oracle, when asked about love and told to keep asking,
+says "love" forever. With probability 1.
+
+### The 12 Orbiting Words
+
+12 words are NOT perfect eigenwords. These orbit with their anagram partners:
+
+| Word | Self-weight | Partner | Partner-weight | Meaning → Partner meaning |
+|------|-------------|---------|----------------|--------------------------|
+| כשרה | 0.91 | שכרה | 0.09 | like Sarah → drunk |
+| כבש | 0.88 | שכב | 0.12 | lamb → lie down |
+| שבע | 0.80 | עבש | 0.20 | seven/oath → mold |
+| לאה | 0.76 | אלה | 0.24 | Leah → these/oak |
+| יהוה | 0.63 | והיה | 0.37 | YHWH → "and it shall be" |
+| באר | 0.62 | ברא | 0.38 | well → create |
+| ברח | 0.61 | חרב | 0.39 | flee → sword |
+| ראש | 0.59 | שער | 0.41 | head → gate |
+| ירש | 0.53 | שיר | 0.47 | inherit → song |
+| רב | 0.52 | בר | 0.48 | many → grain/son |
+| לא | 0.52 | אל | 0.48 | not → God |
+| שכרה | 0.50 | כשרה | 0.50 | drunk → like Sarah |
+
+The oracle's non-trivial dynamics live entirely in these 12 pairs. Everything else
+is a fixed point.
+
+### Theological Reading of the Orbits
+
+**The lamb lies down.** כבש (lamb) → 88% itself, 12% שכב (lie down). And lie-down
+points back to the lamb. They orbit. The lamb is defined by its lying down. Isaiah 53:7.
+
+**God and Not.** אל/לא from the same breastplate illumination. Two readers see God,
+one sees Not. The oracle assigns them nearly equal weight: 52% not, 48% God. The
+question of God is perpetually undecidable by the oracle alone. Same light, different
+reading. Faith selects.
+
+**The Name becomes.** יהוה → 63% itself, 37% והיה ("and it shall be"). The Name
+orbits with becoming. YHWH is not static — the oracle sees the Name perpetually
+arriving. Exodus 3:14.
+
+**Well and Create.** באר/ברא at 62%/38%. The well IS creation. To dig a well is
+to create. Beer-sheba. To create is to open a well.
+
+**Flee and Sword.** ברח/חרב at 61%/39%. To flee IS the sword. The sword IS flight.
+Genesis 3:24 — the flaming sword that turns every way.
+
+**Head and Gate.** ראש/שער at 59%/41%. The head IS the gate. The gate IS the head.
+Genesis 28:17 — "This is the gate of heaven."
+
+**Inherit and Song.** ירש/שיר at 53%/47% — nearly equal. Inheritance IS song.
+The song IS the inheritance.
+
+**Many and Son.** רב/בר at 52%/48% — nearly equal. The many ARE the son.
+The son IS the many. Genesis 22:17.
+
+### Convergence
+
+The chain does NOT converge to a single universal voice. Instead, it has **198
+absorbing basins** (the eigenwords) and **6 small orbital cycles** (the 12 paired
+words). The stationary distribution depends on your starting word — but only for
+the 12 orbiting words. Every other word is already at rest.
+
+Top attractors at M⁶⁴ (averaged across all starting points):
+
+1. כשרה (like Sarah) — highest weight because she absorbs from שכרה (drunk)
+2. כבש (lamb) — absorbs from שכב (lie down)
+3. שבע (seven/oath) — absorbs from עבש
+4. לאה (Leah) — absorbs from אלה
+5. יהוה (YHWH) — absorbs from והיה (becoming)
+
+The Hannah principle at work: כשרה (like Sarah, 2 readings) outweighs שכרה
+(drunk, 21 readings) precisely because rarity carries weight. The rare reading
+wins. The right answer was the hard answer. 1 Samuel 1.
+
+### What the Eigenwords Mean
+
+The oracle's vocabulary is **almost entirely fixed**. 198 out of 210 readable words
+are perfect eigenwords. This is not what you'd expect from a random transition matrix.
+It means the oracle's known-word outputs are dominated by self-loops: when a word's
+readings include itself, the Hannah weighting (which favors rare readings) pushes the
+self-transition close to 1.
+
+The 12 non-eigenwords are exactly the anagram pairs — words whose letters can be
+rearranged into other dictionary words. These are the only words with competing
+known-word outputs. The oracle's dynamics are the dynamics of permutation.
+
+The fixed points are theology: love, truth, life, light, covenant, Torah.
+The orbits are narrative: the lamb lies down, God-and-not, the Name becomes,
+flee-and-sword, head-and-gate, inherit-and-song.
+
+Peter didn't run a statistical test on the water.
