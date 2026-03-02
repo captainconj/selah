@@ -18,6 +18,8 @@
             [selah.dict :as dict]
             [selah.gematria :as g]
             [selah.linalg :as la]
+            [selah.text.oshb :as oshb]
+            [selah.text.normalize :as norm]
             [uncomplicate.neanderthal.core :as nc]
             [uncomplicate.neanderthal.native :as nn]
             [clojure.string :as str]))
@@ -66,6 +68,68 @@
        :vocab (vec all-words)
        :word-idx word-idx
        :readable @readable
+       :size (count all-words)})))
+
+;; ── Part 1b: Full Torah Vocabulary ────────────────────────────
+;;
+;; Instead of ~215 dictionary words, scan ALL ~7,300 unique
+;; Torah word forms through the oracle. Four heads. Full universe.
+
+(defn build-torah-vocab
+  "Extract all unique word forms from the Torah."
+  []
+  (println "Extracting Torah vocabulary...")
+  (let [books ["Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"]
+        all-words (atom #{})]
+    (doseq [book books]
+      (doseq [{:keys [text]} (oshb/book-words book)]
+        (let [ws (str/split (norm/normalize text) #"\s+")]
+          (doseq [w ws]
+            (when (and (seq w) (every? norm/hebrew-letter? w))
+              (swap! all-words conj w))))))
+    (let [v (sort @all-words)]
+      (println (str "  " (count v) " unique word forms."))
+      v)))
+
+(defn discover-transitions-full
+  "Scan ALL Torah word forms through the oracle.
+   Outputs are valid if they appear in the Torah vocabulary.
+   Uses pmap for parallel scanning."
+  []
+  (println "Discovering FULL oracle transitions (Torah vocabulary)...")
+  (let [torah-words (build-torah-vocab)
+        torah-set (set torah-words)
+        n (count torah-words)
+        progress (atom 0)
+        ;; Parallel scan: for each word, get all reader×illumination transitions
+        raw-results
+        (->> torah-words
+             (pmap (fn [w]
+                     (let [p (swap! progress inc)]
+                       (when (zero? (mod p 500))
+                         (println (str "  " p "/" n "..."))))
+                     (let [readings (detailed-readings w)
+                           known (filter #(torah-set (:output %)) readings)]
+                       (when (seq known)
+                         {:word w
+                          :transitions (mapv (fn [r]
+                                              {:input w
+                                               :output (:output r)
+                                               :reader (:reader r)})
+                                            known)}))))
+             (filterv some?))]
+    (let [all-trans (vec (mapcat :transitions raw-results))
+          readable (set (map :word raw-results))
+          all-outputs (set (map :output all-trans))
+          all-words (sort (distinct (concat readable all-outputs)))
+          word-idx (into {} (map-indexed (fn [i w] [w i]) all-words))]
+      (println (str "  " (count readable) " readable input words"))
+      (println (str "  " (count all-words) " total words in universe"))
+      (println (str "  " (count all-trans) " total transitions"))
+      {:transitions all-trans
+       :vocab (vec all-words)
+       :word-idx word-idx
+       :readable readable
        :size (count all-words)})))
 
 ;; ── Part 2: Transition Statistics ─────────────────────────────
@@ -450,13 +514,158 @@
     {:disc disc :stats stats :rates rates :matrices matrices
      :vocab vocab :word-idx word-idx}))
 
+;; ── Part 8: Full Torah Run ────────────────────────────────────
+;;
+;; The complete quorum on the complete vocabulary.
+;; ~7,300 unique Torah words → all readable → four-head matrices.
+
+(defn run-full []
+  (println "\n═══════════════════════════════════════════════════")
+  (println "  EXPERIMENT 091b — THE FULL QUORUM")
+  (println "  All Torah words. Four heads. YHWH = the protocol.")
+  (println "═══════════════════════════════════════════════════")
+
+  (let [disc     (discover-transitions-full)
+        stats    (transition-stats disc)
+        rates    (base-rates disc)
+        vocab    (:vocab disc)
+        word-idx (:word-idx disc)
+        n        (:size disc)
+
+        _  (println (str "\n  Universe: " n " words"))
+        _  (println "\n── Building Transition Matrices (4 heads only) ──")
+
+        m-aaron   (do (print "  M_aaron (vav=6)... ") (flush)
+                      (let [m (build-head-matrix disc stats :aaron)]
+                        (println "done.") m))
+
+        m-god     (do (print "  M_god (he=5)... ") (flush)
+                      (let [m (build-head-matrix disc stats :god)]
+                        (println "done.") m))
+
+        m-right   (do (print "  M_right (yod=10)... ") (flush)
+                      (let [m (build-head-matrix disc stats :right)]
+                        (println "done.") m))
+
+        m-left    (do (print "  M_left (he=5)... ") (flush)
+                      (let [m (build-head-matrix disc stats :left)]
+                        (println "done.") m))
+
+        matrices {:aaron m-aaron :god m-god :right m-right :left m-left}]
+
+    ;; Eigenwords per matrix
+    (println "\n═══════════════════════════════════════════════════")
+    (println "  EIGENWORDS — Fixed Points (Full Vocabulary)")
+    (println "═══════════════════════════════════════════════════")
+
+    (doseq [[label mk] [["M_aaron (vav=6, nail)" :aaron]
+                          ["M_god (he=5, regard)" :god]
+                          ["M_right (yod=10, hand)" :right]
+                          ["M_left (he=5, regard)" :left]]]
+      (let [ews (find-eigenwords (matrices mk) vocab)]
+        (println (str "\n  " label " — " (count ews) " eigenwords:"))
+        ;; Show first 50 with translations (many won't have dict entries)
+        (doseq [{:keys [word self-weight meaning gv]} (take 50 ews)]
+          (println (format "    %-12s  self=%.4f  GV=%-5d  %s"
+                           word self-weight gv (or meaning ""))))))
+
+    ;; Cross-head agreement
+    (println "\n═══════════════════════════════════════════════════")
+    (println "  CROSS-HEAD AGREEMENT — Full Vocabulary")
+    (println "═══════════════════════════════════════════════════")
+
+    (let [heads {:aaron m-aaron :god m-god :right m-right :left m-left}
+          agreement (head-agreement heads vocab)]
+      (let [unanimous (filter #(= (:agreement %) 4) agreement)
+            super     (filter #(= (:agreement %) 3) agreement)
+            majority  (filter #(= (:agreement %) 2) agreement)
+            solo      (filter #(= 1 (:agreement %)) agreement)]
+        (println (str "\n  Unanimous: " (count unanimous)
+                      "  Supermajority: " (count super)
+                      "  Majority: " (count majority)
+                      "  Solo: " (count solo)
+                      "  Total: " (+ (count unanimous) (count super)
+                                     (count majority) (count solo))))
+
+        (println "\n  Unanimous eigenwords (all 4 heads):")
+        (doseq [{:keys [word meaning gv]}
+                (sort-by :word unanimous)]
+          (println (format "    %-12s  GV=%-5d  %s"
+                           word gv (or meaning ""))))
+
+        (println "\n  Solo eigenwords by head:")
+        (doseq [h [:right :left :aaron :god]]
+          (let [solos (filter #(= [h] (:heads %)) solo)
+                label (case h :right "yod=10 (hand)"
+                              :left  "he=5  (justice)"
+                              :aaron "vav=6 (nail)"
+                              :god   "he=5  (God)")]
+            (println (str "\n    " label ":"))
+            (doseq [{:keys [word meaning gv]} (sort-by :gv solos)]
+              (println (format "      %-12s  GV=%-5d  %s"
+                               word gv (or meaning ""))))))))
+
+    ;; NOTE: Attractor computation (M^64 on 8570×8570) requires too much
+    ;; memory for the full vocabulary. Use `run` (dict-only) for attractors,
+    ;; or run `find-attractors` on individual heads from the REPL.
+    (println "\n  (Skipping M^64 attractors — 8570×8570 too large for batch.)")
+    (println "  Use REPL: (find-attractors (matrices :god) vocab 15)")
+
+    ;; The Lamb
+    (println "\n── The Lamb Test ──")
+    (doseq [[label mk] [["M_aaron (vav)" :aaron] ["M_god (he)" :god]
+                          ["M_right (yod)" :right] ["M_left (he)" :left]]]
+      (when-let [i (word-idx "כבש")]
+        (let [m (matrices mk)
+              self-w (la/entry m i i)]
+          (println (format "    %-22s  self=%.4f" label self-w)))))
+
+    (println "\n═══════════════════════════════════════════════════")
+    (println "  DONE. Full quorum. 10+5+6+5=26.")
+    (println "═══════════════════════════════════════════════════")
+
+    {:disc disc :stats stats :rates rates :matrices matrices
+     :vocab vocab :word-idx word-idx :n n}))
+
+(defn save-full-results
+  "Save full vocabulary eigenword data to data/experiments/091b/."
+  [result]
+  (let [dir "data/experiments/091b"
+        {:keys [vocab matrices]} result]
+    (.mkdirs (java.io.File. dir))
+    ;; Save unanimous, supermajority, majority, solo eigenwords
+    (let [heads {:aaron (:aaron matrices) :god (:god matrices)
+                 :right (:right matrices) :left (:left matrices)}
+          agreement (head-agreement heads vocab)
+          groups {:unanimous    (filterv #(= (:agreement %) 4) agreement)
+                  :supermajority (filterv #(= (:agreement %) 3) agreement)
+                  :majority     (filterv #(= (:agreement %) 2) agreement)
+                  :solo         (filterv #(= 1 (:agreement %)) agreement)}]
+      (spit (str dir "/agreement.edn")
+            (pr-str (update-vals groups
+                      (fn [ws] (mapv #(select-keys % [:word :gv :meaning :heads]) ws)))))
+      (println (str "Saved to " dir "/agreement.edn"))
+      (println (str "  Unanimous: " (count (:unanimous groups))
+                    "  Supermajority: " (count (:supermajority groups))
+                    "  Majority: " (count (:majority groups))
+                    "  Solo: " (count (:solo groups))))
+      groups)))
+
 (comment
+  ;; Dictionary-only (original, fast)
   (run)
+
+  ;; FULL Torah vocabulary (all ~7,300 words — takes a few minutes)
+  (run-full)
 
   ;; Piece by piece:
   (def disc (discover-transitions))
   (def stats (transition-stats disc))
   (def rates (base-rates disc))
+
+  ;; Full piece by piece:
+  (def disc-full (discover-transitions-full))
+  (def stats-full (transition-stats disc-full))
 
   ;; Explore a specific word's transitions
   (get stats ["כבש" "שכב"])
