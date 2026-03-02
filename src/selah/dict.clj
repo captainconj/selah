@@ -173,6 +173,7 @@
    "כרוב"  "cherub"
    "אהל"   "tent"
    "פרכת"  "veil/curtain"
+   "כפרת"  "mercy seat"
    "שמן"   "oil"
    "יין"   "wine"
    "לחם"   "bread"
@@ -255,7 +256,8 @@
    "ויהי"  "and it was"
    "כאשר"  "as/when"
 
-   ;; Key compound forms
+   ;; Names
+   "שרה"   "Sarah"
    "רחל"   "Rachel"
    "לאה"   "Leah"
    "קהת"   "Kohath"
@@ -266,7 +268,16 @@
    ;; More words from experiment 078 vocab
    "עז"    "strong/goat"
    "גר"    "sojourner"
-   "בר"    "grain/pure/son"})
+   "בר"    "grain/pure/son"
+
+   ;; Oracle vocabulary (Yoma 73b)
+   "שכרה"  "drunk"
+   "כשרה"  "like Sarah"})
+
+(defn words
+  "All Hebrew words in the dictionary (key set)."
+  []
+  (set (keys entries)))
 
 (defn translate
   "Look up the English meaning of a Hebrew word. Returns nil if unknown."

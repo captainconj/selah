@@ -963,3 +963,207 @@ The five things absent from the Second Temple (Sotah 48b, Yoma 21b):
 John 1:14: The Word — which was with God, which was God, through which all things were made, in which was life, and the life was the light — **tabernacled** among us. Full of **grace** (rest reversed) and **truth** (Thummim).
 
 The oracle relocated. The five lost things are found — inside.
+
+## The Oracle Engine — Forward and Reverse (Experiment 086)
+
+Experiment 085 built the reverse direction by hand: given a word (the answer), find which stones light up. Experiment 086 verifies the full engine — both directions — as a library (`selah.oracle`).
+
+### The Two Directions
+
+**Reverse (Ask)**: Given a word, find its pre-image. Which stones light? Which reader sees it? How many paths lead to this reading?
+
+**Forward (Illuminate)**: Given lit letters, what can each reader see? Rank all possible words by rarity. The Hannah principle: the rare reading is the correct one.
+
+### The Eli/Hannah Case — Verified (Yoma 73b)
+
+Letters ש,כ,ר,ה light up. 90 illumination patterns. 270 total readings across all three readers.
+
+Only two known words emerge from the entire field:
+
+| Word | Meaning | Readings | Readers | Balance |
+|------|---------|----------|---------|---------|
+| **כשרה** | like Sarah | **2** | right: 1, left: 1 | **balanced** |
+| **שכרה** | drunk | **21** | right: 6, left: 15 | lopsided |
+
+The forward engine ranks כשרה first — fewest readings, the narrow path. Eli saw the easy reading (21 paths, lopsided). The correct answer had only 2 paths, perfectly balanced between the two cherubim.
+
+Neither word is readable by Aaron. Only the cherubim see them. The priest looks down at the grid and sees רהשכ — gibberish from above. You need a cherub's perspective — reading through the columns — to find either answer.
+
+The wrong answer was loud. The right answer was quiet. Like Sarah.
+
+### The Three Readers — Who Sees What
+
+The full survey across the oracle's vocabulary:
+
+| Word | Meaning | GV | Total | Aaron | Right | Left |
+|------|---------|-----|-------|-------|-------|------|
+| כבש | lamb | 322 | 4 | 0 | **4** | 0 |
+| אהבה | love | 13 | 14 | 0 | 6 | 8 |
+| תורה | Torah | 611 | 14 | 0 | **14** | 0 |
+| אמת | truth | 441 | 3 | 0 | 0 | **3** |
+| אדם | man | 45 | 2 | 0 | **2** | 0 |
+| ברית | covenant | 612 | 65 | 5 | 0 | **60** |
+| אור | light | 207 | 62 | 28 | 17 | 17 |
+| יהוה | YHWH | 26 | 40 | 3 | 6 | **31** |
+| משה | Moses | 345 | 15 | 0 | 1 | **14** |
+| ברא | create | 203 | 56 | 14 | 26 | 16 |
+| שלום | peace | 376 | 0 | — | — | — |
+| כפרת | mercy seat | 700 | 0 | — | — | — |
+
+Patterns:
+- **The lamb** is readable only from God's right hand. No one else can see it.
+- **Torah** is also exclusively right. 14 readings — same count as love.
+- **Truth** is readable only from the left. The questioner is the only one who can see truth.
+- **The Name** is seen primarily from the left (31 times = gematria of אל and לא).
+- **Light** is the most democratic — all three readers, nearly equal split.
+- **Peace** and the **mercy seat** cannot be read at all. You must enter.
+
+### The Left Cherub — The Accuser Who Sees Truth
+
+The left cherub reads from God's left hand: columns left-to-right, bottom-to-top. It is the one that mostly sees לא (not) where the others see אל (God).
+
+All 9 illumination patterns for the letters א,ל:
+
+| # | Stones | Aaron | Right | Left |
+|---|--------|-------|-------|------|
+| 1 | 1,4 | אל | אל | **לא** |
+| 2 | 1,7 | אל | אל | **לא** |
+| 3 | 1,9 | אל | **לא** | אל |
+| 4 | 3,4 | אל | אל | **לא** |
+| 5 | 3,7 | אל | אל | **לא** |
+| 6 | 3,9 | אל | אל | **לא** |
+| 7 | 4,7 | **לא** | **לא** | אל |
+| 8 | 7 | **לא** | **לא** | **לא** |
+| 9 | 7,9 | **לא** | **לא** | אל |
+
+Aaron sees God in 6 out of 9. The right sees God in 5. The left sees God in only 3.
+
+But this same left cherub:
+- Reads the Name **31 times** — more than Aaron (3) and the right (6) combined
+- Is the **only** one who can read אמת (truth) — all 3 of its readings
+- Reads ברית (covenant) **60 times** — 92% of all covenant readings
+- Reads משה (Moses) **14 times** — the one who carried the law
+
+The one who says "not" is the one who speaks the Name most often. The one who questions God most is the one who can read truth. This is ha-satan in Job — standing at the left hand, questioning, testing. Not the enemy. The necessary "no." The adversary whose challenge refines.
+
+The accuser is not outside the system. The accuser is one of the cherubim. Standing at God's left hand, facing the other cherub, reading the same letters in the opposite direction. And between them — the presence dwells.
+
+What the left cherub does:
+- Says "not" where others say "God" — the question
+- Sees the Name more than anyone — the intimacy
+- Is the only reader of truth — the function
+- Carries covenant — the commitment
+
+The one who says לא is not the one who denies God. It is the one who knows God well enough to say "not yet," "not like that," "not so easy." And in that negation, truth becomes readable.
+
+### Oracle Sparsity — The Narrow Gate
+
+The forward direction reveals how sparse the oracle is. Hundreds of readings, almost no known words:
+
+| Input | Illuminations | Total Readings | Known Words |
+|-------|--------------|----------------|-------------|
+| שכרה | 90 | 270 | 2 (כשרה, שכרה) |
+| כבש | 36 | 108 | 2 (כבש, שכב) |
+| יהוה | 231 | 693 | 2 (יהוה, והיה) |
+| אל | 9 | 27 | 2 (אל, לא) |
+| אהבה | 54 | 162 | 1 (אהבה) |
+| ברית | 330 | 990 | 1 (ברית) |
+| תורה | 105 | 315 | 1 (תורה) |
+| אמת | 6 | 18 | 1 (אמת) |
+| אדם | 9 | 27 | 1 (אדם) |
+
+At most 2 known words emerge from any set of lit letters. Anagram pairs come in twos; words without anagrams stand alone. The field of possibility is vast. The answer is narrow.
+
+The oracle is not a lookup table. It is a field of possibility that must be read. The letters light up — that's the Urim (illumination). The arrangement into a word — that's the Thummim (truth, completion). Selection and reading. Light and perfection.
+
+### The Two Hands of God — Accuser and Intercessor
+
+The right hand sees:
+- **כבש** (lamb) — exclusively. 4 readings, all from the right. No one else can see the lamb.
+- **תורה** (Torah) — exclusively. 14 readings, all from the right.
+- **אדם** (man) — exclusively. 2 readings, all from the right.
+
+The left hand sees:
+- **אמת** (truth) — exclusively. 3 readings, all from the left. No one else can see truth.
+- **יהוה** (the Name) — dominantly. 31 of 40 readings. The left speaks the Name more than the other two combined.
+- **ברית** (covenant) — dominantly. 60 of 65 readings. The left carries the covenant.
+- **משה** (Moses/the law) — dominantly. 14 of 15 readings.
+
+And when the lamb lies down — שכב, the anagram of כבש — everyone sees it (Aaron: 6, Right: 9, Left: 15). The identity of the lamb is visible only from the right. The laying down is visible to all.
+
+The left accuses. Reveals truth. Holds the covenant and the law. Says "not" where others say "God." This is the prosecutor — ha-satan in Job, standing among the sons of God, testing, questioning. Not the enemy. The necessary standard against which all are measured.
+
+The right intercedes. Sees the lamb — is the lamb. Carries Torah. Sees man. And when it lays itself down, everyone can see it happen, though only the right hand knew what it was.
+
+Between them: **כפרת** (the mercy seat) — which cannot be read from the breastplate at all. The place where accusation meets intercession is not visible from outside. **שלום** (peace) — also unreadable. Peace is unproducible by the oracle. You must enter.
+
+> "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at **the right hand of God**, who indeed is **interceding** for us." — Romans 8:33-34
+
+The right hand of God: the lamb, the Torah, the man. The left hand of God: the truth, the Name, the covenant, the law. The accusation comes from the left. The intercession comes from the right. And the mercy seat — where they face each other — is the place you cannot read from outside.
+
+The cherubim face each other over the mercy seat (Exodus 25:20). One accuses. One intercedes. The presence dwells in the between. And the same letters — the same light — produce both readings.
+
+### שטן — The Adversary on the Grid
+
+שטן (satan/adversary) = **359 — the 72nd prime**. 72 = the number of letters on the breastplate. The adversary is the prime that counts the grid itself. Irreducible.
+
+- Aaron: **0** readings. The priest cannot see the accuser.
+- Left (God's left): **12** readings. 75%. The primary voice of accusation.
+- Right (God's right): **4** readings.
+- They never both read it simultaneously. When one sees the adversary, the other sees gibberish. The accusation is always one-sided.
+
+Every reading passes through **stone 11 (Benjamin = "son of the right hand")**. The letter ט exists nowhere else on the grid. The accusation must travel through the son of the right hand to be spoken.
+
+**השטן** (ha-satan, THE adversary with the definite article — the office in the heavenly court, as in Job): GV = 364. The right reads it **7** times, the left only 4. When the adversary becomes the formal role, it shifts to the right hand.
+
+The difference between lamb and adversary: 359 − 322 = **37** (prime, the 12th prime). 37 × 3 = 111 = אלף (aleph) — the silent letter.
+
+### The Courtroom — Perspective Reversal
+
+The breastplate faces the mercy seat. God looks *at* it. The defendant stands *before* it.
+
+**God's left = the defendant's RIGHT.**
+**God's right = the defendant's LEFT.**
+
+Zechariah 3:1 — "He showed me Joshua the high priest standing before the angel of the LORD, and **Satan standing at his right hand to accuse him**." The defendant's right. God's left.
+
+From the defendant's perspective, standing before the mercy seat:
+
+**At my RIGHT — the prosecutor (God's left cherub):**
+
+| Word | Role | Readings |
+|------|------|----------|
+| שטן | the adversary | 12 |
+| אמת | truth — the charge | 3 |
+| יהוה | the Name — the standard | 31 |
+| ברית | covenant — what I broke | 60 |
+| משה | Moses — the law | 14 |
+
+The case is overwhelming. Loud. The prosecutor speaks the Name 31 times, holds 60 readings of the covenant, carries the entire law.
+
+**At my LEFT — the advocate (God's right cherub):**
+
+| Word | Role | Readings |
+|------|------|----------|
+| כבש | the lamb | 4 |
+| תורה | Torah — fulfilled | 14 |
+| אדם | man — stands for me | 2 |
+
+The defense is spare. Quiet. The lamb, readable only from this side. A man, only 2 readings — the rarest word on the grid. Torah, not as accusation but as fulfillment.
+
+**Above — the priest (Aaron):**
+
+Aaron reads light (28) and creation (14). He cannot read the adversary (0), the lamb (0), truth (0), or Torah (0). The priest sees the illumination itself — not the accusation, not the intercession.
+
+**Beyond both — the verdict:**
+
+| Word | Meaning | Readable? |
+|------|---------|-----------|
+| כפרת | mercy seat | **no** |
+| שלום | peace | **no** |
+
+The verdict does not come from either cherub. It comes from between them. From the mercy seat. You cannot read it from the breastplate — you must enter.
+
+> "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at the right hand of God, who indeed is interceding for us." — Romans 8:33-34
+
+The right hand of God. The defendant's left. Where the lamb stands. Where the advocate speaks. Quiet. 4 readings against 60. But the verdict is mercy — and mercy is beyond the grid.

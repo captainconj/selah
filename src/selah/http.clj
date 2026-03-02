@@ -3,6 +3,7 @@
             [clojure.data.json :as json]
             [selah.explorer :as exp]
             [selah.explorer.ui :as ui]
+            [selah.oracle :as oracle]
             [clojure.string :as str]))
 
 (defonce ^:dynamic *state* (atom {:server nil :port 8099}))
@@ -123,7 +124,58 @@
          :headers {"Content-Type" "text/html; charset=utf-8"}
          :body (ui/layout (ui/coincidence-view words))})
 
+      ;; ── Oracle ──
+
+      ;; Oracle page
+      (= uri "/oracle")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/layout (ui/oracle-content))}
+
+      ;; Fragment: oracle page
+      (= uri "/fragment/oracle")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/fragment (ui/oracle-content))}
+
+      ;; Fragment: oracle ask (reverse)
+      (= uri "/fragment/oracle/ask")
+      (let [word (:word params "")
+            result (oracle/ask word)]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/fragment (ui/oracle-ask-result result))})
+
+      ;; Fragment: oracle illuminate (forward)
+      (= uri "/fragment/oracle/illuminate")
+      (let [letters (:letters params "")
+            result (oracle/forward letters)]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/fragment (ui/oracle-illuminate-result result))})
+
       ;; ── JSON API ──
+
+      ;; Oracle API
+      (= uri "/api/oracle/ask")
+      (let [word (:word params "")
+            result (oracle/ask word)]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str (update result :first-illumination
+                                       #(mapv vec %)))})
+
+      (= uri "/api/oracle/illuminate")
+      (let [letters (:letters params "")
+            result (oracle/forward letters)]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str (-> result
+                                   (dissoc :sample-readings)
+                                   (update :known-words
+                                           (fn [ws] (mapv #(update % :readers (comp vec sort)) ws)))))})
 
       (str/starts-with? uri "/api/")
       (or (exp/api-handler req)

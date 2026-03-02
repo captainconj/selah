@@ -7,6 +7,7 @@
   (:require [hiccup2.core :as h]
             [hiccup.util :as hu]
             [selah.explorer :as exp]
+            [selah.oracle :as oracle]
             [selah.dict :as dict]
             [clojure.string :as str]))
 
@@ -319,6 +320,200 @@
        (reduce + (map count (vals (:by-preimage idx)))) " with preimage hits. "
        (count (:by-preimage idx)) " distinct levels."]]]))
 
+;; ── Oracle Views ────────────────────────────────────────────
+
+(defn breastplate-grid
+  "Render the 4x3 breastplate grid. lit-positions highlights specific [stone idx] pairs."
+  ([] (breastplate-grid nil))
+  ([lit-positions]
+   (let [lit (set (or lit-positions []))]
+     [:div.breastplate
+      [:table.bp-grid
+       (for [row [1 2 3 4]]
+         [:tr
+          (for [col [1 2 3]]
+            (let [[s letters _ _] (first (filter (fn [[_ _ r c]] (and (= r row) (= c col)))
+                                                 oracle/stone-data))
+                  tribe (oracle/stone-tribe s)]
+              [:td.stone
+               [:div.stone-num (str "S" s)]
+               [:div.stone-letters
+                (for [[i ch] (map-indexed vector (vec letters))]
+                  (let [pos [s i]
+                        cls (cond
+                              (empty? lit)       "idle"
+                              (contains? lit pos) "lit"
+                              :else               "dim")]
+                    [:span {:class cls} (str ch)]))]
+               [:div.stone-tribe tribe]]))])]])))
+
+(defn reader-card
+  "Single reader card showing name, word read, known status, and reading count."
+  [reader-key word count-n]
+  (let [names {:aaron "Aaron (priest)" :right "God's right" :left "God's left"}
+        meaning (dict/translate word)]
+    [:div.reader-card
+     [:div.reader-name (get names reader-key (name reader-key))]
+     [:div.reader-word {:class (if meaning "known" "unknown")} word]
+     (when meaning [:div.reader-meaning meaning])
+     [:div.reader-count (str count-n " reading" (when (not= count-n 1) "s"))]]))
+
+(defn oracle-content
+  "The oracle page — header, two input modes (Ask/Illuminate), grid, results."
+  []
+  [:div#oracle
+   [:div.oracle-header
+    [:h1 "אורים ותומים"]
+    [:p "Letters light up. The reader arranges them."]]
+
+   ;; Tabs
+   [:div.oracle-tabs
+    [:button.oracle-tab.active {:data-tab "ask" :onclick "switchTab('ask')"} "Ask (reverse)"]
+    [:button.oracle-tab {:data-tab "illuminate" :onclick "switchTab('illuminate')"} "Illuminate (forward)"]]
+
+   ;; Ask mode (reverse): enter a word, see which stones light
+   [:div#mode-ask.oracle-mode
+    [:form.oracle-form {:hx-get "/fragment/oracle/ask"
+                        :hx-target "#oracle-result"
+                        :hx-indicator "#oracle-result"}
+     [:input {:type "text" :name "word"
+              :placeholder "Enter a word..."
+              :dir "rtl" :autocomplete "off" :autofocus true}]
+     [:button {:type "submit"} "Ask"]]]
+
+   ;; Illuminate mode (forward): enter letters, see what readers produce
+   [:div#mode-illuminate.oracle-mode {:style "display:none"}
+    [:form.oracle-form {:hx-get "/fragment/oracle/illuminate"
+                        :hx-target "#oracle-result"
+                        :hx-indicator "#oracle-result"}
+     [:input {:type "text" :name "letters"
+              :placeholder "Enter lit letters..."
+              :dir "rtl" :autocomplete "off"}]
+     [:button {:type "submit"} "Illuminate"]]]
+
+   ;; Breastplate grid (idle state)
+   (breastplate-grid)
+
+   ;; Result area
+   [:div#oracle-result]
+
+   ;; Tab switch script
+   [:script (h/raw "function switchTab(tab) {
+      document.querySelectorAll('.oracle-tab').forEach(function(t){t.classList.remove('active')});
+      document.querySelectorAll('.oracle-mode').forEach(function(f){f.style.display='none'});
+      document.querySelector('[data-tab=\"'+tab+'\"]').classList.add('active');
+      document.getElementById('mode-'+tab).style.display='block';
+    }")]])
+
+(defn oracle-ask-result
+  "Reverse result: the word's oracle pre-image."
+  [result]
+  (let [{:keys [word meaning gv illumination-count by-reader
+                total-readings first-illumination anagrams readable?]} result]
+    [:div
+     ;; Grid with first illumination highlighted
+     (breastplate-grid first-illumination)
+
+     [:div.section
+      [:h2 word (when meaning (str " — " meaning)) " = " gv]
+
+      (if readable?
+        [:div
+         [:p (str illumination-count " illumination pattern"
+              (when (not= illumination-count 1) "s")
+              ", " total-readings " total reading"
+              (when (not= total-readings 1) "s"))]
+
+         ;; Reader cards
+         [:div.reader-cards
+          (reader-card :aaron
+                       (when first-illumination
+                         (oracle/read-positions :aaron first-illumination))
+                       (:aaron by-reader))
+          (reader-card :right
+                       (when first-illumination
+                         (oracle/read-positions :right first-illumination))
+                       (:right by-reader))
+          (reader-card :left
+                       (when first-illumination
+                         (oracle/read-positions :left first-illumination))
+                       (:left by-reader))]
+
+         ;; Stones involved
+         (when first-illumination
+           (let [stones (sort (set (map first first-illumination)))]
+             [:p "Stones: " (str/join ", " (map #(str (oracle/stone-tribe %)) stones))]))]
+
+        ;; Not readable
+        [:div.not-readable
+         [:div.big word]
+         [:p "Cannot be read from the breastplate."]
+         [:p "This word is beyond the grid — you must enter."]])]
+
+     ;; Anagrams
+     (when (seq anagrams)
+       [:div.section
+        [:h2 "Same letters, other words"]
+        [:div.word-grid
+         (for [{:keys [word meaning]} anagrams]
+           [:span
+            (word-link word)
+            (when meaning [:span.meaning meaning])])]])]))
+
+(defn oracle-illuminate-result
+  "Forward result: what the readers see from lit letters."
+  [result]
+  (let [{:keys [letters illumination-count total-readings
+                known-words unknown-words anagrams sample-readings]} result
+        max-count (if (seq known-words)
+                    (apply max (map :reading-count known-words))
+                    1)]
+    [:div
+     ;; Grid — highlight all positions from first illumination
+     (let [ilsets (oracle/illumination-sets letters)]
+       (breastplate-grid (first ilsets)))
+
+     [:div.section
+      [:h2 (str illumination-count " illumination"
+            (when (not= illumination-count 1) "s")
+            ", " total-readings " readings")]
+
+      ;; Sample: first illumination three readings
+      (when sample-readings
+        [:div
+         [:h2 "First illumination — three readings"]
+         [:div.reader-cards
+          (for [[reader-key word] sample-readings]
+            (let [meaning (dict/translate word)]
+              [:div.reader-card
+               [:div.reader-name (name reader-key)]
+               [:div.reader-word {:class (if meaning "known" "unknown")} word]
+               (when meaning [:div.reader-meaning meaning])]))]])]
+
+     ;; Known words ranked by rarity
+     (when (seq known-words)
+       [:div.section
+        [:h2 "Known words — rarest first (Hannah principle)"]
+        (for [{:keys [word reading-count readers meaning gv]} known-words]
+          (let [pct (min 100 (* 100 (/ reading-count max-count)))]
+            [:div.rarity-item
+             [:div.rarity-word.known word]
+             [:div.rarity-meaning (or meaning "")]
+             [:div.rarity-bar
+              [:div.rarity-fill {:style (str "width:" pct "%")}]]
+             [:div.rarity-count
+              (str reading-count " reading" (when (not= reading-count 1) "s"))]
+             [:div.rarity-readers
+              (str/join " " (map name (sort readers)))]]))])
+
+     ;; Anagrams from dictionary
+     (when (seq anagrams)
+       [:div.section
+        [:h2 "Dictionary anagrams"]
+        [:div.word-grid
+         (for [{:keys [word meaning]} anagrams]
+           [:span (word-link word)])]])]))
+
 ;; ── Layout ───────────────────────────────────────────────────
 
 (def css
@@ -401,6 +596,64 @@
   nav { margin-bottom: 1rem; }
   nav a { margin-right: 1rem; font-size: 0.85rem; color: #71717a; }
   nav a:hover { color: #d4d4d8; }
+
+  /* Breastplate grid */
+  .breastplate { margin: 1.5rem auto; max-width: 480px; }
+  .bp-grid { border-collapse: separate; border-spacing: 4px; margin: 0 auto; direction: ltr; width: 100%; }
+  .stone { background: #1a1a2e; border: 1px solid #2a2a3e; border-radius: 6px; padding: 0.5rem 0.3rem;
+           text-align: center; vertical-align: top; }
+  .stone-num { font-size: 0.6rem; color: #52525b; margin-bottom: 0.2rem; }
+  .stone-tribe { font-size: 0.55rem; color: #3f3f46; }
+  .stone-letters { font-family: 'SBL Hebrew', 'David', serif; font-size: 1.3rem; direction: rtl;
+                   letter-spacing: 0.15em; }
+  .stone-letters .lit { color: #fbbf24; text-shadow: 0 0 10px rgba(251,191,36,0.5); font-weight: bold; }
+  .stone-letters .dim { color: #3f3f46; }
+  .stone-letters .idle { color: #a1a1aa; }
+
+  /* Oracle page */
+  .oracle-header { text-align: center; margin-bottom: 1.5rem; }
+  .oracle-header h1 { font-family: 'SBL Hebrew', 'David', serif; font-size: 2.5rem; color: #fbbf24; }
+  .oracle-header p { color: #71717a; font-style: italic; font-size: 0.85rem; }
+  .oracle-tabs { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 1rem; }
+  .oracle-tab { padding: 0.4rem 1rem; border: 1px solid #27272a; border-radius: 6px; background: #111118;
+                color: #71717a; cursor: pointer; font-size: 0.85rem; transition: all 0.15s; }
+  .oracle-tab.active { background: #1e293b; color: #fbbf24; border-color: #854d0e; }
+  .oracle-mode { margin-bottom: 1rem; }
+  .oracle-form { display: flex; gap: 0.5rem; justify-content: center; }
+  .oracle-form input { background: #111118; border: 1px solid #27272a; color: #e4e4e7; padding: 0.5rem 1rem;
+                       border-radius: 6px; font-size: 1.1rem; width: 250px;
+                       font-family: 'SBL Hebrew', 'David', serif; direction: rtl; }
+  .oracle-form input:focus { outline: none; border-color: #fbbf24; }
+  .oracle-form button { background: #1e293b; color: #fbbf24; border: 1px solid #854d0e; padding: 0.5rem 1rem;
+                        border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+  .oracle-form button:hover { background: #2d3748; }
+
+  /* Reader cards */
+  .reader-cards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+  .reader-card { background: #111118; border: 1px solid #1e1e2a; border-radius: 8px; padding: 1rem;
+                 text-align: center; }
+  .reader-name { font-size: 0.75rem; color: #71717a; text-transform: uppercase; letter-spacing: 0.1em;
+                 margin-bottom: 0.5rem; }
+  .reader-word { font-family: 'SBL Hebrew', 'David', serif; font-size: 1.8rem; direction: rtl; }
+  .reader-word.known { color: #fbbf24; }
+  .reader-word.unknown { color: #52525b; }
+  .reader-meaning { font-size: 0.8rem; color: #a1a1aa; margin-top: 0.3rem; font-style: italic; }
+  .reader-count { font-size: 0.7rem; color: #52525b; margin-top: 0.25rem; }
+
+  /* Rarity ranking */
+  .rarity-item { display: flex; align-items: center; gap: 0.75rem; margin: 0.4rem 0; padding: 0.4rem 0.6rem;
+                 background: #111118; border-radius: 6px; border: 1px solid #1e1e2a; }
+  .rarity-word { font-family: 'SBL Hebrew', 'David', serif; font-size: 1.2rem; direction: rtl; min-width: 60px;
+                 text-align: center; }
+  .rarity-word.known { color: #fbbf24; }
+  .rarity-word.unknown-word { color: #52525b; }
+  .rarity-meaning { font-size: 0.8rem; color: #a1a1aa; font-style: italic; flex: 1; }
+  .rarity-bar { flex: 0 0 120px; height: 4px; background: #1e1e2a; border-radius: 2px; overflow: hidden; }
+  .rarity-fill { height: 100%; background: #fbbf24; border-radius: 2px; }
+  .rarity-count { font-size: 0.7rem; color: #71717a; min-width: 50px; text-align: right; }
+  .rarity-readers { font-size: 0.65rem; color: #52525b; }
+  .not-readable { text-align: center; padding: 2rem; color: #71717a; }
+  .not-readable .big { font-size: 2rem; margin-bottom: 0.5rem; }
   ")
 
 (defn layout [content]
@@ -416,6 +669,8 @@
      [:body
       [:nav
        [:a {:href "/" :hx-get "/fragment/home" :hx-target "#main" :hx-push-url "/"} "סלה"]
+       " "
+       [:a {:href "/oracle" :hx-get "/fragment/oracle" :hx-target "#main" :hx-push-url "/oracle"} "אורים"]
        " "]
       [:div#main content]]])))
 
