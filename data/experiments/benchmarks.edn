@@ -1,0 +1,31 @@
+{:date "2026-03-01"
+ :platform {:os "Linux 6.17.0-14-generic"
+            :cores 16
+            :backend "MKL (Intel oneAPI Math Kernel Library)"
+            :neanderthal "0.61.0"
+            :clojure "1.12.4"}
+
+ :linalg
+ {:mat-pow  {:size [211 211] :power 64 :time-ms 9.3}
+  :eigendecomp {:size [211 211] :time-ms 50.3}
+  :stochastic-eigendecomp {:size [211 211] :time-ms 50.6}}
+
+ :spectral
+ {:dft-7    {:N 7  :time-us 47}
+  :dft-67   {:N 67 :time-us 70}
+  :dft-batch {:size [67 650] :time-ms 27.9
+              :note "650 signals of length 67, single mm call"}
+  :dft-2d   {:size [50 67] :time-ms 11.3
+             :note "factorized as 4 matrix multiplies"}}
+
+ :affinity
+ {:stone-overlap {:size "7323×12 · 12×7323" :time-ms 280.7
+                  :note "mm(F·F^T), dense 7323×7323 output"}
+  :reader-dots   {:size "7323×3 · 3×7323"   :time-ms 301.5
+                  :note "mm(F·F^T) + norm division"}}
+
+ :notes
+ "All timings are mean of 10 runs after warmup.
+  mat-pow uses repeated squaring via BLAS GEMM.
+  DFT uses pre-computed Fourier cos/sin matrices (memoized per dimension).
+  Dense affinity matrix ~430MB (7323² doubles) — fits comfortably in memory."}
