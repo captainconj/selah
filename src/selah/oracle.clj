@@ -247,14 +247,34 @@
                        (sort-by (juxt #(- (:source-count %))
                                       :total-readings)))
 
-        ;; Coincidences: readings produced by more than one input word
+        ;; Set operations on readings
+        ;; Union: all distinct readings (already in by-output)
+        ;; Intersection: readings produced by more than one input word
         coincidences (vec (filter #(> (:source-count %) 1) by-output))
 
-        ;; Stone analysis
+        ;; Difference: readings unique to each input word
+        unique-per-word (into {}
+                          (map (fn [w]
+                                 [w (vec (filter #(and (= 1 (:source-count %))
+                                                       (= w (first (:sources %))))
+                                                 by-output))])
+                               words))
+
+        ;; Stone set operations
         all-stone-sets (map :stones per-word)
-        shared-stones (when (and (seq all-stone-sets)
-                                 (every? seq all-stone-sets))
-                        (apply clojure.set/intersection all-stone-sets))
+        stone-union (when (seq all-stone-sets)
+                      (apply clojure.set/union all-stone-sets))
+        stone-intersection (when (and (seq all-stone-sets)
+                                      (every? seq all-stone-sets))
+                             (apply clojure.set/intersection all-stone-sets))
+        stone-unique (into {}
+                       (map (fn [{:keys [input stones]}]
+                              [input (clojure.set/difference
+                                       stones
+                                       (apply clojure.set/union
+                                              (map :stones (remove #(= input (:input %))
+                                                                   per-word))))])
+                            per-word))
 
         ;; Unreadable words in the question
         unreadable (vec (filter (complement :readable?) per-word))]
@@ -263,5 +283,8 @@
      :per-word per-word
      :all-readings (vec by-output)
      :coincidences coincidences
-     :shared-stones shared-stones
+     :unique-per-word unique-per-word
+     :stones {:union stone-union
+              :intersection stone-intersection
+              :unique stone-unique}
      :unreadable unreadable}))

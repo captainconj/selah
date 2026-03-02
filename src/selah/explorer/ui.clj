@@ -525,11 +525,15 @@
          (for [{:keys [word meaning]} anagrams]
            [:span (word-link word)])]])]))
 
+(defn- stone-label [s]
+  (str "S" s " (" (oracle/stone-tribe s) ")"))
+
 (defn oracle-question-result
-  "Question result: many-to-many coincidence across multiple words."
+  "Question result: union / intersection / difference across words."
   [result]
   (let [{:keys [words per-word coincidences all-readings
-                shared-stones unreadable]} result]
+                unique-per-word stones unreadable]} result
+        {:keys [union intersection unique]} stones]
     [:div
      ;; Per-word summary
      [:div.section
@@ -539,7 +543,7 @@
                [:th "Readings"] [:th "A"] [:th "R"] [:th "L"] [:th "Stones"]]]
        [:tbody
         (for [{:keys [input meaning gv readable? total-readings
-                      by-reader stones]} per-word]
+                      by-reader]} (sort-by (comp - :total-readings) per-word)]
           [:tr
            [:td [:span.oracle-word {:class (when readable? "known")} input]]
            [:td.meaning-col (or meaning "")]
@@ -549,13 +553,8 @@
            [:td (get by-reader :aaron 0)]
            [:td (get by-reader :right 0)]
            [:td (get by-reader :left 0)]
-           [:td (str/join "," (sort stones))]])]]]
-
-     ;; Shared stones
-     (when (seq shared-stones)
-       [:div.section
-        [:h2 "Shared stones — lit by every word"]
-        [:p (str/join ", " (map #(str "S" % " (" (oracle/stone-tribe %) ")") (sort shared-stones)))]])
+           [:td (str/join "," (sort (:stones (first (filter #(= input (:input %)) per-word)))))]
+           ])]]]
 
      ;; Unreadable words
      (when (seq unreadable)
@@ -567,11 +566,34 @@
            [:span.oracle-word input
             (when meaning [:span.meaning meaning])])]])
 
-     ;; Coincidences — the answer
+     ;; ── Stones: union / intersection / difference ──
+
+     [:div.section
+      [:h2 "Stones"]
+
+      (when (seq intersection)
+        [:div
+         [:h3 "Intersection — lit by every word"]
+         [:p (str/join ", " (map stone-label (sort intersection)))]])
+
+      (when (some seq (vals unique))
+        [:div
+         [:h3 "Difference — unique to one word"]
+         (for [w words
+               :let [u (get unique w)]
+               :when (seq u)]
+           [:p [:span.oracle-word.known w] " only: "
+            (str/join ", " (map stone-label (sort u)))])])
+
+      (when union
+        [:p {:style "color:#52525b;font-size:0.75rem;margin-top:0.5rem"}
+         "Union: " (count union) " of 12 stones"])]
+
+     ;; ── Readings: intersection (coincidences) ──
+
      (if (seq coincidences)
        [:div.section
-        [:h2 "Coincidences — same output from different inputs"]
-        [:p "These readings appear for multiple words in the question:"]
+        [:h2 "Intersection — same reading from different inputs"]
         (for [{:keys [word meaning gv sources source-count total-readings]} coincidences]
           [:div.rarity-item
            [:div.rarity-word.known word]
@@ -581,20 +603,37 @@
              (str source-count "/" (count words) " words: " (str/join ", " sources))]]
            [:div.rarity-count (str total-readings " readings")]])]
 
-       ;; No coincidences
        [:div.section
-        [:h2 "No coincidences"]
-        [:p "Each word in the question produces its own readings. No shared output."]])
+        [:h2 "Intersection"]
+        [:p "No shared readings. Each word speaks to a different part of the grid."]])
 
-     ;; All readings across all words
+     ;; ── Readings: difference (unique to each word) ──
+
+     (when (some seq (vals unique-per-word))
+       [:div.section
+        [:h2 "Difference — readings unique to each word"]
+        (for [w words
+              :let [unique-readings (get unique-per-word w)]
+              :when (seq unique-readings)]
+          [:div
+           [:h3 [:span.oracle-word.known w]
+            (when-let [m (dict/translate w)] (str " — " m))]
+           (for [{:keys [word meaning total-readings]} (take 10 unique-readings)]
+             [:div.rarity-item
+              [:div.rarity-word {:class (if meaning "known" "unknown-word")} word]
+              [:div.rarity-meaning (or meaning "")]
+              [:div.rarity-count (str total-readings " readings")]])])])
+
+     ;; ── Union: full reading table ──
+
      (when (seq all-readings)
        [:div.section
-        [:h2 "All readings (across all words)"]
+        [:h2 "Union — all " (count all-readings) " readings"]
         [:table.word-table
          [:thead [:tr [:th "Reading"] [:th ""] [:th "GV"] [:th "Sources"] [:th "Readings"]]]
          [:tbody
           (for [{:keys [word meaning gv sources total-readings]}
-                (take 30 all-readings)]
+                (take 40 all-readings)]
             [:tr {:class (when (> (count sources) 1) "coincidence-row")}
              [:td [:span.oracle-word {:class (when (dict/known? word) "known")} word]]
              [:td.meaning-col (or meaning "")]
