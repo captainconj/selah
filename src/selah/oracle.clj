@@ -9,7 +9,10 @@
    Same letters, different arrangement. The oracle ranks the rare reading higher."
   (:require [selah.gematria :as g]
             [selah.dict :as dict]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.set :as set]
+            [clojure.java.io :as io]
+            [clojure.edn :as edn]))
 
 ;; ── The 72-letter breastplate grid ────────────────────────────
 
@@ -316,12 +319,34 @@
                        :else (assoc acc ch (- have cnt))))))
              a b))
 
+(defn build-anagram-index
+  "Build letter-frequency -> [words] index for a vocabulary set.
+   Used by parse-letters for phrase assembly."
+  [vocab]
+  (reduce (fn [m w]
+            (update m (frequencies (seq w)) (fnil conj []) w))
+          {} vocab))
+
 (def ^:private dict-anagram-index
-  "Sorted-letter-frequencies -> [words]. Precomputed for phrase parsing."
-  (delay
-    (reduce (fn [m w]
-              (update m (frequencies (seq w)) (fnil conj []) w))
-            {} (dict/words))))
+  "Curated dictionary (239 words). Precomputed for phrase parsing."
+  (delay (build-anagram-index (dict/words))))
+
+(def ^:private torah-anagram-index
+  "Full Torah vocabulary (~7,300 words). Lazy — first call builds the index."
+  (delay (build-anagram-index (dict/torah-words))))
+
+(declare voice-vocab)
+
+(defn- resolve-index
+  "Resolve a vocabulary spec to a cached anagram index.
+   Supports: :dict, :torah, :voice (fidelity=0), a set, or {:fidelity f}."
+  [vocab]
+  (cond
+    (= vocab :torah) @torah-anagram-index
+    (= vocab :voice) @dict-anagram-index  ;; voice(0) = dict — optimal for theology
+    (set? vocab)     (build-anagram-index vocab)
+    (map? vocab)     (build-anagram-index (voice-vocab (get vocab :fidelity 0)))
+    :else            @dict-anagram-index))
 
 (defn parse-illumination
   "Given a set of illuminated positions, find all ways to partition the
@@ -331,15 +356,17 @@
    The Ramban's 'correct order' problem, solved by enumeration.
 
    Options:
-     :max-words  — maximum words in a phrase (default 4)
-     :min-letters — minimum letters per word (default 2)"
+     :max-words   — maximum words in a phrase (default 4)
+     :min-letters — minimum letters per word (default 2)
+     :vocab       — :dict (239 curated, default), :torah (~7,300), or a set"
   ([positions] (parse-illumination positions {}))
-  ([positions {:keys [max-words min-letters] :or {max-words 4 min-letters 2}}]
+  ([positions {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :dict}}]
    (let [letters (mapv letter-at (sort positions))
          remaining (frequencies letters)
          total (count letters)
-         ;; Pre-filter: dictionary words whose letters are a sub-multiset
-         candidates (->> @dict-anagram-index
+         index (resolve-index vocab)
+         ;; Pre-filter: words whose letters are a sub-multiset
+         candidates (->> index
                          (keep (fn [[freq ws]]
                                  (when (and (>= (reduce + (vals freq)) min-letters)
                                             (multiset-subtract remaining freq))
@@ -379,12 +406,14 @@
 
    Options:
      :max-words   — maximum words in a phrase (default 4)
-     :min-letters — minimum letters per word (default 2)"
+     :min-letters — minimum letters per word (default 2)
+     :vocab       — :dict (239 curated, default), :torah (~7,300), or a set"
   ([letters] (parse-letters letters {}))
-  ([letters {:keys [max-words min-letters] :or {max-words 4 min-letters 2}}]
+  ([letters {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :dict}}]
    (let [remaining (frequencies (seq letters))
          total (count letters)
-         candidates (->> @dict-anagram-index
+         index (resolve-index vocab)
+         candidates (->> index
                          (keep (fn [[freq ws]]
                                  (when (and (>= (reduce + (vals freq)) min-letters)
                                             (multiset-subtract remaining freq))
@@ -416,23 +445,26 @@
   "The full Level 2 oracle: illuminate a word, then parse all possible
    phrase readings from each illumination pattern.
 
+   Options:
+     :max-illuminations — sample size (default 50)
+     :max-words         — max words per phrase (default 4)
+     :min-letters       — min letters per word (default 2)
+     :vocab             — :dict (default), :torah, or a set
+
    Returns the menu. The priest chooses."
   ([word] (thummim word {}))
   ([word opts]
    (let [ilsets (illumination-sets word)
          n (count ilsets)]
      (when (pos? n)
-       (let [;; For tractability, sample illumination sets if there are too many
-             sample-size (min n (get opts :max-illuminations 50))
+       (let [sample-size (min n (get opts :max-illuminations 50))
              sampled (if (<= n sample-size) ilsets (take sample-size ilsets))
-             ;; Parse each illumination
              all-phrases (atom #{})
              per-illumination
              (vec (map-indexed
                     (fn [i pset]
                       (let [letters (mapv letter-at (sort pset))
                             phrases (parse-illumination pset opts)
-                            ;; Also get the 4 mechanical readings
                             mech (readings pset)]
                         (doseq [p phrases]
                           (swap! all-phrases conj (:text p)))
@@ -453,7 +485,9 @@
 (defn thummim-menu
   "The priest's menu: all unique phrase readings for a word, ranked.
    Deduplicates across illumination patterns — just the readings.
-   Sorts by word count (fewer = rarer = more signal), then alphabetically."
+   Sorts by word count (fewer = rarer = more signal), then alphabetically.
+
+   Options: same as thummim — :vocab :dict|:torah, :max-words, etc."
   ([word] (thummim-menu word {}))
   ([word opts]
    (when-let [r (thummim word opts)]
@@ -469,4 +503,118 @@
         :meaning (:meaning r)
         :gv (:gv r)
         :illumination-count (:illumination-count r)
+        :vocab (get opts :vocab :dict)
         :phrases all-phrases}))))
+
+;; ── Oracle voice — stationary vocabulary ────────────────────────
+;;
+;; The oracle has a natural voice: the distribution of words it
+;; produces across all inputs × illuminations × readers.
+;; Words with high output frequency are the oracle's core vocabulary.
+;; The "knee" of the cumulative distribution gives the optimal
+;; vocabulary size — fidelity=0.
+
+(def ^:private voice-cache-path "data/oracle-voice.edn")
+
+(defn compute-oracle-voice
+  "Scan all Torah words through the oracle. Count output frequencies
+   across all illumination×reader combinations. Returns the oracle's
+   natural vocabulary ranked by frequency.
+
+   Expensive (~2-4 min). Result is cached to disk."
+  []
+  (println "[oracle] Computing oracle voice (full Torah vocabulary)...")
+  (let [torah (vec (dict/torah-words))
+        torah-set (set torah)
+        n (count torah)
+        progress (atom 0)
+        ;; Count output frequencies across all inputs × illuminations × readers
+        output-counts (atom {})
+        _ (->> torah
+               (pmap (fn [w]
+                       (let [p (swap! progress inc)]
+                         (when (zero? (mod p 1000))
+                           (println (str "  " p "/" n "..."))))
+                       (let [ilsets (illumination-sets w)]
+                         (doseq [pset ilsets
+                                 reader [:aaron :god :right :left]]
+                           (let [out (read-positions reader pset)]
+                             (when (torah-set out)
+                               (swap! output-counts update out (fnil inc 0))))))))
+               dorun)
+        ;; Sort by frequency descending
+        sorted (->> @output-counts
+                    (sort-by val >)
+                    vec)
+        total (reduce + (map second sorted))
+        ;; Build ranked vocabulary with cumulative mass
+        ranked (loop [items sorted, cum 0.0, result []]
+                 (if (empty? items)
+                   result
+                   (let [[w freq] (first items)
+                         prob (/ (double freq) total)
+                         cum' (+ cum prob)]
+                     (recur (rest items)
+                            cum'
+                            (conj result {:word w :freq freq
+                                          :prob (Double/parseDouble (format "%.6f" prob))
+                                          :cumulative (Double/parseDouble (format "%.6f" cum'))})))))
+        ;; Find the knee — where marginal gain drops below 0.01% per word
+        knee-idx (or (first (keep-indexed
+                              (fn [i {:keys [prob]}]
+                                (when (< prob 0.0001) i))
+                              ranked))
+                     (count ranked))
+        voice {:computed (str (java.time.LocalDate/now))
+               :total-words n
+               :readable-words (count (filter #(seq (illumination-sets %)) torah))
+               :total-transitions total
+               :vocabulary-size (count ranked)
+               :knee {:index knee-idx
+                      :cumulative-mass (:cumulative (nth ranked (dec knee-idx) {:cumulative 1.0}))
+                      :words-above-knee knee-idx}
+               :vocabulary ranked}]
+    ;; Cache to disk
+    (io/make-parents voice-cache-path)
+    (spit voice-cache-path (pr-str voice))
+    (println (str "[oracle] Voice computed: " (count ranked) " words, knee at "
+                  knee-idx " (" (format "%.1f%%" (* 100.0 (:cumulative-mass (:knee voice)))) " mass)"))
+    voice))
+
+(def ^:private oracle-voice*
+  "The oracle's voice — cached. Loads from disk or computes on first access."
+  (delay
+    (if (.exists (io/file voice-cache-path))
+      (do (println "[oracle] Loading cached voice...")
+          (edn/read-string (slurp voice-cache-path)))
+      (compute-oracle-voice))))
+
+(defn oracle-voice
+  "The oracle's natural vocabulary, ranked by output frequency.
+   Returns {:vocabulary [...] :knee {...} :total-transitions ...}"
+  []
+  @oracle-voice*)
+
+(defn voice-vocab
+  "Get a vocabulary at a given fidelity level.
+   fidelity=0 — curated dict (239 words, optimal signal/noise for theology)
+   fidelity=0.5 — dict + voice core (dict ∪ top-knee voice words)
+   fidelity=1 — full Torah vocabulary
+   Returns a set of Hebrew words.
+
+   The oracle's mechanical voice (output frequency) is dominated by long
+   compound forms. The theological building blocks (חי, ים, דם, נא, חן)
+   live in the deep tail. The curated dict captures this semantic core."
+  [fidelity]
+  (cond
+    (<= fidelity 0) (dict/words)
+    (>= fidelity 1) (dict/torah-words)
+    :else
+    (let [voice (oracle-voice)
+          ranked (:vocabulary voice)
+          n (count ranked)
+          knee (:index (:knee voice))
+          ;; Interpolate: add voice words proportionally
+          k (int (* fidelity n))
+          voice-words (set (map :word (take k ranked)))]
+      (set/union (dict/words) voice-words))))

@@ -1,8 +1,15 @@
 (ns selah.dict
   "Hebrew-English dictionary for Torah vocabulary.
 
-   Not exhaustive — covers the most frequent and thematically important words.
-   Returns nil for unknown words. That's honest.")
+   Two vocabularies:
+   - Curated: 239 words with English translations (entries map)
+   - Torah: ~7,300 unique word forms from the WLC text (lazy, cached)
+
+   The curated set is for display. The Torah set is for analysis.
+   Returns nil for unknown words. That's honest."
+  (:require [selah.text.oshb :as oshb]
+            [selah.text.normalize :as norm]
+            [clojure.string :as str]))
 
 (def ^:private entries
   {;; Function words
@@ -288,3 +295,24 @@
   "Is this word in the dictionary?"
   [word]
   (contains? entries word))
+
+;; ── Full Torah vocabulary ─────────────────────────────────────
+
+(def ^:private torah-vocab
+  "All unique Hebrew word forms in the Torah. Lazy — first call extracts from OSHB."
+  (delay
+    (let [books ["Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"]
+          all-words (transient #{})]
+      (doseq [book books]
+        (doseq [{:keys [text]} (oshb/book-words book)]
+          (doseq [w (str/split (norm/normalize text) #"\s+")]
+            (when (and (seq w) (every? norm/hebrew-letter? w))
+              (conj! all-words w)))))
+      (persistent! all-words))))
+
+(defn torah-words
+  "All unique Hebrew word forms in the Torah (~7,300 words).
+   Includes every form that appears in the text — no curation.
+   Lazy — first call triggers extraction from OSHB data."
+  []
+  @torah-vocab)

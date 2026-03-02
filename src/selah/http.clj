@@ -195,6 +195,51 @@
                                    (update :known-words
                                            (fn [ws] (mapv #(update % :readers (comp vec sort)) ws)))))})
 
+      ;; Thummim API — phrase assembly with vocab selection
+      (= uri "/api/oracle/thummim")
+      (let [word (:word params "")
+            vocab (case (:vocab params "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+            max-words (try (Integer/parseInt (:max_words params "3"))
+                           (catch Exception _ 3))
+            result (oracle/thummim-menu word {:vocab vocab
+                                              :max-illuminations 50
+                                              :max-words max-words
+                                              :min-letters 2})]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str (or result {:word word :error "no illuminations"}))})
+
+      ;; Parse letters API — raw letter partition with vocab selection
+      (= uri "/api/oracle/parse-letters")
+      (let [letters (:letters params "")
+            vocab (case (:vocab params "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+            max-words (try (Integer/parseInt (:max_words params "3"))
+                           (catch Exception _ 3))
+            result (oracle/parse-letters letters {:vocab vocab
+                                                   :max-words max-words
+                                                   :min-letters 2})]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str {:letters letters
+                                :vocab (if (keyword? vocab) (name vocab) "dict")
+                                :phrase-count (count result)
+                                :phrases result})})
+
+      ;; Oracle voice info API
+      (= uri "/api/oracle/voice")
+      (let [voice (oracle/oracle-voice)
+            top-50 (take 50 (:vocabulary voice))]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str {:knee (:knee voice)
+                                :total-words (:total-words voice)
+                                :vocabulary-size (:vocabulary-size voice)
+                                :total-transitions (:total-transitions voice)
+                                :top-50 top-50})})
+
       (str/starts-with? uri "/api/")
       (or (exp/api-handler req)
           {:status 404

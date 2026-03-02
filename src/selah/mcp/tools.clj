@@ -2,7 +2,9 @@
   (:require [clojure.pprint :as pp]
             [selah.space.coords :as coords]
             [selah.space.project :as project]
-            [selah.space.export :as export]))
+            [selah.space.export :as export]
+            [selah.oracle :as oracle]
+            [selah.dict :as dict]))
 
 ;; ── Tool registry ──────────────────────────────────────────────────
 
@@ -187,3 +189,71 @@
                          (:b r) (:c r) (:d r)
                          (:gv r) (:text r)
                          (or (:verse r) "")))))))
+
+;; ── Oracle tools ──────────────────────────────────────────────────
+
+(deftool oracle-thummim
+  "Level 2 Thummim — phrase assembly. Given a Hebrew word, finds all illumination patterns on the breastplate and partitions each into dictionary phrases. The priest's menu.
+
+  Vocab options:
+  - 'dict' (default): 239 curated Torah words with translations — optimal signal/noise
+  - 'torah': ~7,300 unique word forms from the full Torah text
+  - 'voice': oracle's natural vocabulary (currently same as dict)"
+  {:type "object"
+   :properties {:word {:type "string" :description "Hebrew word to illuminate (e.g. כבש, אלהים, שלום)"}
+                :vocab {:type "string" :enum ["dict" "torah" "voice"]
+                        :description "Vocabulary — 'dict' (239 curated, default), 'torah' (~7,300 full), or 'voice' (oracle's natural, same as dict)"}
+                :max_words {:type "integer" :description "Max words per phrase (default 3)"}}
+   :required ["word"]}
+  [args]
+  (let [word (:word args)
+        vocab (case (get args :vocab "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+        max-words (or (:max_words args) 3)
+        result (oracle/thummim-menu word {:vocab vocab
+                                          :max-illuminations 50
+                                          :max-words max-words
+                                          :min-letters 2})]
+    (with-out-str
+      (if result
+        (do
+          (println (format "Thummim menu for \"%s\" (%s, GV=%d)"
+                           word (or (:meaning result) "?") (:gv result)))
+          (println (format "Vocab: %s | Illuminations: %d | Phrases: %d\n"
+                           (if (keyword? vocab) (name vocab) "dict")
+                           (:illumination-count result) (count (:phrases result))))
+          (doseq [p (:phrases result)]
+            (println (format "  [%d words] %s  →  %s  (GV=%d, ×%d)"
+                             (:words p) (:text p)
+                             (pr-str (:meanings p))
+                             (:gv p) (:occurrences p)))))
+        (println (format "No illuminations for \"%s\"" word))))))
+
+(deftool oracle-parse-letters
+  "Parse raw Hebrew letters into all possible dictionary phrases. No breastplate — pure letter partition. Use for combined words (e.g. letters of 'father+son+spirit').
+
+  Vocab options:
+  - 'dict' (default): 239 curated Torah words with translations — optimal signal/noise
+  - 'torah': ~7,300 unique word forms from the full Torah text
+  - 'voice': oracle's natural vocabulary (currently same as dict)"
+  {:type "object"
+   :properties {:letters {:type "string" :description "Hebrew letters to parse (e.g. אבבנרוח for father+son+spirit)"}
+                :vocab {:type "string" :enum ["dict" "torah" "voice"]
+                        :description "Vocabulary — 'dict' (239 curated, default), 'torah' (~7,300 full), or 'voice' (oracle's natural, same as dict)"}
+                :max_words {:type "integer" :description "Max words per phrase (default 3)"}}
+   :required ["letters"]}
+  [args]
+  (let [letters (:letters args)
+        vocab (case (get args :vocab "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+        max-words (or (:max_words args) 3)
+        result (oracle/parse-letters letters {:vocab vocab
+                                               :max-words max-words
+                                               :min-letters 2})]
+    (with-out-str
+      (println (format "Parse letters \"%s\" (%d letters, vocab=%s)"
+                       letters (count letters) (if (keyword? vocab) (name vocab) "dict")))
+      (println (format "Found %d phrase readings:\n" (count result)))
+      (doseq [p result]
+        (println (format "  [%d words] %s  →  %s  (GV=%d)"
+                         (:words p) (:text p)
+                         (pr-str (:meanings p))
+                         (:gv p)))))))
