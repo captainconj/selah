@@ -199,3 +199,69 @@
      :unknown-words unknown
      :anagrams anagram-hits
      :sample-readings sample}))
+
+;; ── Question: many-to-many coincidence ────────────────────────
+
+(defn- word-stones
+  "Set of stones lit by any illumination of this word."
+  [word]
+  (let [ilsets (illumination-sets word)]
+    (set (mapcat #(map first %) ilsets))))
+
+(defn question
+  "Ask a multi-word question. Each word is illuminated independently.
+   Coincidences in the readings reveal the oracle's answer —
+   same output from different inputs, like co-fibers in the preimage."
+  [words]
+  (let [;; Ask each word independently
+        per-word (mapv (fn [w]
+                         (let [a (ask w)
+                               f (forward w)
+                               stones (word-stones w)]
+                           {:input w
+                            :meaning (dict/translate w)
+                            :gv (g/word-value w)
+                            :readable? (:readable? a)
+                            :illumination-count (:illumination-count a)
+                            :total-readings (:total-readings a)
+                            :by-reader (:by-reader a)
+                            :stones stones
+                            :known-words (:known-words f)}))
+                       words)
+
+        ;; Collect all known readings with their source word
+        all-readings (mapcat (fn [{:keys [input known-words]}]
+                               (map #(assoc % :source input) known-words))
+                             per-word)
+
+        ;; Group by output word — count how many input words produce each reading
+        by-output (->> all-readings
+                       (group-by :word)
+                       (map (fn [[w entries]]
+                              {:word w
+                               :meaning (:meaning (first entries))
+                               :gv (:gv (first entries))
+                               :sources (vec (distinct (map :source entries)))
+                               :source-count (count (distinct (map :source entries)))
+                               :total-readings (reduce + (map :reading-count entries))}))
+                       (sort-by (juxt #(- (:source-count %))
+                                      :total-readings)))
+
+        ;; Coincidences: readings produced by more than one input word
+        coincidences (vec (filter #(> (:source-count %) 1) by-output))
+
+        ;; Stone analysis
+        all-stone-sets (map :stones per-word)
+        shared-stones (when (and (seq all-stone-sets)
+                                 (every? seq all-stone-sets))
+                        (apply clojure.set/intersection all-stone-sets))
+
+        ;; Unreadable words in the question
+        unreadable (vec (filter (complement :readable?) per-word))]
+
+    {:words words
+     :per-word per-word
+     :all-readings (vec by-output)
+     :coincidences coincidences
+     :shared-stones shared-stones
+     :unreadable unreadable}))

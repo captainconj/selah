@@ -369,7 +369,8 @@
    ;; Tabs
    [:div.oracle-tabs
     [:button.oracle-tab.active {:data-tab "ask" :onclick "switchTab('ask')"} "Ask (reverse)"]
-    [:button.oracle-tab {:data-tab "illuminate" :onclick "switchTab('illuminate')"} "Illuminate (forward)"]]
+    [:button.oracle-tab {:data-tab "illuminate" :onclick "switchTab('illuminate')"} "Illuminate (forward)"]
+    [:button.oracle-tab {:data-tab "question" :onclick "switchTab('question')"} "Question"]]
 
    ;; Ask mode (reverse): enter a word, see which stones light
    [:div#mode-ask.oracle-mode
@@ -378,7 +379,7 @@
                         :hx-indicator "#oracle-result"}
      [:input {:type "text" :name "word"
               :placeholder "Enter a word..."
-              :dir "rtl" :autocomplete "off" :autofocus true}]
+              :dir "auto" :autocomplete "off" :autofocus true}]
      [:button {:type "submit"} "Ask"]]]
 
    ;; Illuminate mode (forward): enter letters, see what readers produce
@@ -388,8 +389,18 @@
                         :hx-indicator "#oracle-result"}
      [:input {:type "text" :name "letters"
               :placeholder "Enter lit letters..."
-              :dir "rtl" :autocomplete "off"}]
+              :dir "auto" :autocomplete "off"}]
      [:button {:type "submit"} "Illuminate"]]]
+
+   ;; Question mode: multi-word, coincidence in the output
+   [:div#mode-question.oracle-mode {:style "display:none"}
+    [:form.oracle-form {:hx-get "/fragment/oracle/question"
+                        :hx-target "#oracle-result"
+                        :hx-indicator "#oracle-result"}
+     [:input {:type "text" :name "q"
+              :placeholder "Ask a question (multiple words)..."
+              :dir "auto" :autocomplete "off"}]
+     [:button {:type "submit"} "Question"]]]
 
    ;; Breastplate grid (idle state)
    (breastplate-grid)
@@ -513,6 +524,83 @@
         [:div.word-grid
          (for [{:keys [word meaning]} anagrams]
            [:span (word-link word)])]])]))
+
+(defn oracle-question-result
+  "Question result: many-to-many coincidence across multiple words."
+  [result]
+  (let [{:keys [words per-word coincidences all-readings
+                shared-stones unreadable]} result]
+    [:div
+     ;; Per-word summary
+     [:div.section
+      [:h2 "Each word independently"]
+      [:table.word-table
+       [:thead [:tr [:th "Word"] [:th ""] [:th "GV"] [:th "Readable?"]
+               [:th "Readings"] [:th "A"] [:th "R"] [:th "L"] [:th "Stones"]]]
+       [:tbody
+        (for [{:keys [input meaning gv readable? total-readings
+                      by-reader stones]} per-word]
+          [:tr
+           [:td [:span.oracle-word {:class (when readable? "known")} input]]
+           [:td.meaning-col (or meaning "")]
+           [:td gv]
+           [:td (if readable? "yes" [:strong "NO"])]
+           [:td total-readings]
+           [:td (get by-reader :aaron 0)]
+           [:td (get by-reader :right 0)]
+           [:td (get by-reader :left 0)]
+           [:td (str/join "," (sort stones))]])]]]
+
+     ;; Shared stones
+     (when (seq shared-stones)
+       [:div.section
+        [:h2 "Shared stones — lit by every word"]
+        [:p (str/join ", " (map #(str "S" % " (" (oracle/stone-tribe %) ")") (sort shared-stones)))]])
+
+     ;; Unreadable words
+     (when (seq unreadable)
+       [:div.section
+        [:h2 "Beyond the grid"]
+        [:p "These words cannot be read from the breastplate:"]
+        [:div.word-grid
+         (for [{:keys [input meaning]} unreadable]
+           [:span.oracle-word input
+            (when meaning [:span.meaning meaning])])]])
+
+     ;; Coincidences — the answer
+     (if (seq coincidences)
+       [:div.section
+        [:h2 "Coincidences — same output from different inputs"]
+        [:p "These readings appear for multiple words in the question:"]
+        (for [{:keys [word meaning gv sources source-count total-readings]} coincidences]
+          [:div.rarity-item
+           [:div.rarity-word.known word]
+           [:div.rarity-meaning (or meaning "")]
+           [:div {:style "flex:1"}
+            [:div {:style "font-size:0.75rem;color:#a1a1aa"}
+             (str source-count "/" (count words) " words: " (str/join ", " sources))]]
+           [:div.rarity-count (str total-readings " readings")]])]
+
+       ;; No coincidences
+       [:div.section
+        [:h2 "No coincidences"]
+        [:p "Each word in the question produces its own readings. No shared output."]])
+
+     ;; All readings across all words
+     (when (seq all-readings)
+       [:div.section
+        [:h2 "All readings (across all words)"]
+        [:table.word-table
+         [:thead [:tr [:th "Reading"] [:th ""] [:th "GV"] [:th "Sources"] [:th "Readings"]]]
+         [:tbody
+          (for [{:keys [word meaning gv sources total-readings]}
+                (take 30 all-readings)]
+            [:tr {:class (when (> (count sources) 1) "coincidence-row")}
+             [:td [:span.oracle-word {:class (when (dict/known? word) "known")} word]]
+             [:td.meaning-col (or meaning "")]
+             [:td gv]
+             [:td (str/join ", " sources)]
+             [:td total-readings]])]]])]))
 
 ;; ── Layout ───────────────────────────────────────────────────
 
@@ -654,6 +742,8 @@
   .rarity-readers { font-size: 0.65rem; color: #52525b; }
   .not-readable { text-align: center; padding: 2rem; color: #71717a; }
   .not-readable .big { font-size: 2rem; margin-bottom: 0.5rem; }
+  .coincidence-row { background: #1a1a0a !important; }
+  .coincidence-row td { color: #fbbf24; }
   ")
 
 (defn layout [content]

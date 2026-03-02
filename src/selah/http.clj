@@ -154,6 +154,14 @@
          :headers {"Content-Type" "text/html; charset=utf-8"}
          :body (ui/fragment (ui/oracle-illuminate-result result))})
 
+      ;; Fragment: oracle question (many-to-many)
+      (= uri "/fragment/oracle/question")
+      (let [q (:q params "")
+            words (vec (remove empty? (str/split (str/trim q) #"\s+")))]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/fragment (ui/oracle-question-result (oracle/question words)))})
+
       ;; ── JSON API ──
 
       ;; Oracle API
