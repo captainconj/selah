@@ -18,6 +18,8 @@
   (:require [selah.oracle :as oracle]
             [selah.dict :as dict]
             [selah.gematria :as g]
+            [selah.linalg :as la]
+            [uncomplicate.neanderthal.core :as nc]
             [clojure.string :as str]))
 
 ;; ── Part 1: Discover the oracle's vocabulary ────────────────
@@ -65,7 +67,7 @@
 (defn build-transition-matrix
   "Build a stochastic matrix from oracle vocabulary.
    Returns {:words (index→word), :word-idx (word→index),
-            :matrix (vec of vec of doubles), :size int}."
+            :matrix (Neanderthal dge), :size int}."
   [vocab]
   (println "\nBuilding transition matrix...")
   ;; Collect all words that appear as inputs OR outputs
@@ -75,29 +77,21 @@
         word-idx (into {} (map-indexed (fn [i w] [w i]) all-words))
         n (count all-words)
         _ (println (str "  " n " words in the oracle's universe."))
-        ;; Build raw weight matrix
-        matrix (vec (repeatedly n #(double-array n)))]
+        ;; Build Neanderthal matrix
+        matrix (la/dge n n)]
     ;; Fill weights
     (doseq [{:keys [word known-outputs]} vocab]
       (when-let [i (word-idx word)]
         (doseq [{:keys [word reading-count]} known-outputs]
           (when-let [j (word-idx word)]
             ;; Hannah weight: inverse of reading count (rarer = heavier)
-            (let [weight (/ 1.0 (max 1 reading-count))
-                  ^doubles row (matrix i)]
-              (aset row j (+ (aget row j) weight)))))))
+            (let [weight (/ 1.0 (max 1 reading-count))]
+              (la/entry! matrix i j (+ (la/entry matrix i j) weight)))))))
     ;; Normalize rows to sum to 1 (stochastic)
-    (doseq [i (range n)]
-      (let [^doubles row (matrix i)
-            total (areduce row j sum 0.0 (+ sum (aget row j)))]
-        (when (pos? total)
-          (dotimes [j n]
-            (aset row j (/ (aget row j) total))))))
-    ;; Count non-trivial rows (words that produce readings)
+    (la/row-normalize! matrix)
+    ;; Count non-trivial rows
     (let [active (count (filter (fn [i]
-                                  (let [^doubles row (matrix i)]
-                                    (pos? (areduce row j sum 0.0
-                                                   (+ sum (aget row j))))))
+                                  (pos? (nc/asum (nc/row matrix i))))
                                 (range n)))]
       (println (str "  " active " active words (produce readings)."))
       (println (str "  " (- n active) " absorbing/dead states.")))
@@ -106,45 +100,14 @@
      :matrix matrix
      :size n}))
 
-;; ── Part 3: Matrix operations ───────────────────────────────
-
-(defn mat-mul
-  "Multiply two square matrices (vec of double-array)."
-  [a b n]
-  (let [result (vec (repeatedly n #(double-array n)))]
-    (dotimes [i n]
-      (dotimes [j n]
-        (let [^doubles row-a (a i)
-              ^doubles row-r (result i)]
-          (loop [k 0 sum 0.0]
-            (if (= k n)
-              (aset row-r j sum)
-              (recur (inc k)
-                     (+ sum (* (aget row-a k)
-                               (aget ^doubles (b k) j)))))))))
-    result))
-
-(defn mat-pow
-  "Raise matrix to power p by repeated squaring."
-  [m n p]
-  (cond
-    (= p 1) m
-    (even? p) (let [half (mat-pow m n (/ p 2))]
-                (mat-mul half half n))
-    :else (mat-mul m (mat-pow m n (dec p)) n)))
-
-(defn row-vec
-  "Extract row i as a regular vector of doubles."
-  [matrix i n]
-  (let [^doubles row (matrix i)]
-    (mapv #(aget row %) (range n))))
+;; ── Part 3: Matrix operations (via selah.linalg) ───────────
 
 (defn top-entries
   "Top k entries of a row, sorted by weight."
   [matrix i n words k]
   (->> (range n)
        (map (fn [j] {:word (words j)
-                     :weight (aget ^doubles (matrix i) j)
+                     :weight (la/entry matrix i j)
                      :meaning (dict/translate (words j))}))
        (filter #(pos? (:weight %)))
        (sort-by :weight >)
@@ -158,7 +121,7 @@
    Returns the distribution starting from each active word."
   [{:keys [matrix size words]} power]
   (println (str "\nComputing M^" power "..."))
-  (let [mp (mat-pow matrix size power)]
+  (let [mp (la/mat-pow matrix power)]
     (println "Done.")
     {:matrix-power mp
      :power power}))
@@ -169,9 +132,9 @@
   [{:keys [matrix size words]}]
   (let [eigenwords (atom [])]
     (dotimes [i size]
-      (let [^doubles row (matrix i)
-            self-weight (aget row i)
-            max-weight (areduce row j mx 0.0 (max mx (aget row j)))]
+      (let [self-weight (la/entry matrix i i)
+            row-vals (la/row-vec matrix i)
+            max-weight (apply max row-vals)]
         (when (and (pos? self-weight)
                    (= self-weight max-weight))
           (swap! eigenwords conj
@@ -189,11 +152,10 @@
     ;; Average the stationary distribution across all starting words
     (let [avg (double-array size)]
       (dotimes [i size]
-        (let [^doubles row (matrix-power i)
-              row-sum (areduce row j s 0.0 (+ s (aget row j)))]
+        (let [row-sum (nc/asum (nc/row matrix-power i))]
           (when (pos? row-sum)
             (dotimes [j size]
-              (aset avg j (+ (aget avg j) (/ (aget row j) size)))))))
+              (aset avg j (+ (aget avg j) (/ (la/entry matrix-power i j) (double size))))))))
       ;; Top attractors
       (->> (range size)
            (map (fn [j] {:word (words j)
@@ -209,11 +171,11 @@
 
 (defn convergence-check
   "Check if different starting words converge to the same distribution."
-  [{:keys [matrix size words] :as tm} power sample-words]
+  [{:keys [matrix size words word-idx] :as tm} power sample-words]
   (let [{:keys [matrix-power]} (stationary-distribution tm power)]
     (println "\nConvergence check — do different starting words reach the same voice?")
     (doseq [w sample-words]
-      (when-let [i (get (:word-idx tm) w)]
+      (when-let [i (get word-idx w)]
         (let [top (top-entries matrix-power i size words 10)]
           (println (str "\n  Starting from " w " (" (dict/translate w) "):"))
           (doseq [{:keys [word weight meaning]} top]
@@ -253,44 +215,50 @@
           (println (format "    %-8s  self=%.4f  GV=%d  %s"
                            word self-weight gv (or meaning "")))))
 
-      ;; Part 4: One step — what does each word produce?
+      ;; Part 4: One step — what does every word produce?
       (println "\n═══════════════════════════════════════════════════")
-      (println "  ONE STEP — Where Each Word Goes")
+      (println "  ONE STEP — Where Every Word Goes")
       (println "═══════════════════════════════════════════════════")
-      (let [sample-words ["כבש" "שכב" "אל" "יהוה" "אהבה" "שטן" "תורה"
-                          "ברית" "אמת" "דם" "אור" "חיים"]]
-        (doseq [w sample-words]
-          (when-let [i (get (:word-idx tm) w)]
-            (let [top (top-entries (:matrix tm) i (:size tm) (:words tm) 5)]
+      (doseq [i (range (:size tm))]
+        (let [total (nc/asum (nc/row (:matrix tm) i))]
+          (when (pos? total)
+            (let [w ((:words tm) i)
+                  top (top-entries (:matrix tm) i (:size tm) (:words tm) 5)]
               (when (seq top)
                 (println (format "\n  %s (%s, GV=%d):"
                                  w (or (dict/translate w) "?") (g/word-value w)))
                 (doseq [{:keys [word weight meaning]} top]
                   (println (format "    → %-8s  %.4f  %s"
-                                   word weight (or meaning ""))))))))
+                                   word weight (or meaning "")))))))))
 
-        ;; Part 5: Iterate — find attractors
-        (println "\n═══════════════════════════════════════════════════")
-        (println "  ATTRACTORS — The Oracle's Voice (M^64)")
-        (println "═══════════════════════════════════════════════════")
-        (let [attractors (find-attractors tm 64)]
-          (println "\n  Top 30 words by stationary weight:")
-          (println (format "  %-4s %-8s %8s %6s  %s" "#" "Word" "Weight" "GV" "Meaning"))
-          (doseq [[i {:keys [word weight gv meaning]}] (map-indexed vector attractors)]
-            (println (format "  %-4d %-8s %8.6f %6d  %s"
-                             (inc i) word weight gv (or meaning "")))))
+      ;; Part 5: Iterate — find attractors
+      (println "\n═══════════════════════════════════════════════════")
+      (println "  ATTRACTORS — The Oracle's Voice (M^64)")
+      (println "═══════════════════════════════════════════════════")
+      (let [attractors (find-attractors tm 64)]
+        (println "\n  Top 30 words by stationary weight:")
+        (println (format "  %-4s %-8s %8s %6s  %s" "#" "Word" "Weight" "GV" "Meaning"))
+        (doseq [[i {:keys [word weight gv meaning]}] (map-indexed vector attractors)]
+          (println (format "  %-4d %-8s %8.6f %6d  %s"
+                           (inc i) word weight gv (or meaning "")))))
 
-        ;; Part 6: Convergence check
-        (println "\n═══════════════════════════════════════════════════")
-        (println "  CONVERGENCE — Does It Reach One Voice?")
-        (println "═══════════════════════════════════════════════════")
-        (convergence-check tm 64 (filter #(get (:word-idx tm) %)
-                                         sample-words))
+      ;; Part 6: Convergence check — all non-eigenwords
+      (println "\n═══════════════════════════════════════════════════")
+      (println "  CONVERGENCE — Does It Reach One Voice?")
+      (println "═══════════════════════════════════════════════════")
+      (let [non-eigen (remove (fn [w]
+                                (when-let [i (get (:word-idx tm) w)]
+                                  (let [self (la/entry (:matrix tm) i i)
+                                        row-vals (la/row-vec (:matrix tm) i)
+                                        mx (apply max row-vals)]
+                                    (and (pos? self) (= self mx)))))
+                              (:words tm))]
+        (convergence-check tm 64 non-eigen))
 
-        (println "\n═══════════════════════════════════════════════════")
-        (println "  DONE. The oracle has spoken.")
-        (println "═══════════════════════════════════════════════════")
-        :done))))
+      (println "\n═══════════════════════════════════════════════════")
+      (println "  DONE. The oracle has spoken.")
+      (println "═══════════════════════════════════════════════════")
+      :done)))
 
 (comment
   (run)
