@@ -45,14 +45,19 @@
   [[s i]]
   ((stone-letters s) i))
 
-;; ── Three readers — three traversal orders ────────────────────
+;; ── Four readers — four traversal orders ─────────────────────
 ;;
-;; Aaron:  looks down, Hebrew R->L within rows, top->bottom
+;; Aaron:  looks down at his chest, rows R->L, top->bottom
+;; God:    faces Aaron from mercy seat (mirrored), rows L->R, bottom->top
 ;; Right cherub: columns R->L (nearest first), top->bottom
 ;; Left cherub:  columns L->R (nearest first), bottom->top
 ;;
 ;; Perspective: breastplate faces God on the mercy seat.
 ;; Col 3 = God's right hand. Col 1 = God's left.
+;; God sees the grid mirrored: Aaron's left = God's right.
+;;
+;; The four readers = four orientations of the 4x3 grid.
+;; YHWH: Yod(10)=right, He(5)=left, Vav(6)=Aaron, He(5)=God.
 
 (defn read-key
   "Sort key for a position under a given reader's traversal."
@@ -60,6 +65,7 @@
   (let [r (stone-row s) c (stone-col s)]
     (case reader
       :aaron [r (- c) i]
+      :god   [(- r) c i]
       :right [(- c) r i]
       :left  [c (- r) i])))
 
@@ -105,7 +111,7 @@
       (letfn [(go [i chosen used]
                 (if (= i n)
                   (let [pset (set chosen)]
-                    (doseq [reader [:aaron :right :left]]
+                    (doseq [reader [:aaron :god :right :left]]
                       (let [k [reader pset]]
                         (when (and (not (@seen k))
                                    (= word (read-positions reader pset)))
@@ -146,6 +152,7 @@
      :illumination-count (count ilsets)
      :first-illumination (first ilsets)
      :by-reader {:aaron (by-reader :aaron)
+                 :god   (by-reader :god)
                  :right (by-reader :right)
                  :left  (by-reader :left)}
      :total-readings (count hits)
@@ -158,6 +165,7 @@
   "Given a position-set, what does each reader see?"
   [positions]
   {:aaron (read-positions :aaron positions)
+   :god   (read-positions :god positions)
    :right (read-positions :right positions)
    :left  (read-positions :left positions)})
 
@@ -169,7 +177,7 @@
   (let [ilsets (illumination-sets letters)
         ;; For each illumination, get what each reader sees
         all-readings (mapcat (fn [pset]
-                               (for [reader [:aaron :right :left]]
+                               (for [reader [:aaron :god :right :left]]
                                  {:reader reader
                                   :word (read-positions reader pset)
                                   :positions pset}))
