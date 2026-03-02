@@ -44,10 +44,13 @@ Given an input word (the question to the oracle):
 | **Attention mask** | The illumination pattern | Binary: lit or dark |
 | **softmax(scores/√d_k)** | Believability weighting: 1/P(reading \| observation) | Rare readings weighted higher |
 | **Temperature** | The Hannah principle | Sharper attention on surprising outputs |
-| **Head 1** | Aaron (reads rows, R→L, top→bottom) | Priestly perspective |
-| **Head 2** | Right cherub (columns R→L, top→bottom) | Mercy — God's right hand |
-| **Head 3** | Left cherub (columns L→R, bottom→top) | Justice — God's left hand |
+| **Head 1 (י yod=10)** | Right cherub (columns R→L, top→bottom) | The hand — mercy initiates |
+| **Head 2 (ה he=5)** | Left cherub (columns L→R, bottom→top) | The first regard — justice beholds |
+| **Head 3 (ו vav=6)** | Aaron (reads rows, R→L, top→bottom) | The nail — the priest connects |
+| **Head 4 (ה he=5)** | God (reads rows, L→R, bottom→top) | The second regard — God confirms |
 | **Output** | The reading — a word | The oracle's answer |
+
+The four heads are the four letters of YHWH. **10 + 5 + 6 + 5 = 26.** The Name is the attention architecture.
 
 ---
 
@@ -59,15 +62,16 @@ This is not the general case in transformers, where K and V are separate project
 
 The difference between heads is not in what's stored at each position but in the **read order** — each reader traverses the illuminated positions in a different sequence. This is equivalent to each head having its own **V-projection matrix** that reorders the same content.
 
-| Reader | Traversal | Attention pattern |
-|--------|-----------|-------------------|
-| Aaron | Rows: R→L within row, top→bottom | Sequential, horizontal |
-| Right cherub | Columns: R→L, top→bottom | Vertical, right-first |
-| Left cherub | Columns: L→R, bottom→top | Vertical, left-first, reversed |
+| Reader | Letter | Traversal | Attention pattern |
+|--------|--------|-----------|-------------------|
+| Right cherub (mercy) | י yod=10 | Columns: R→L, top→bottom | Vertical, right-first |
+| Left cherub (justice) | ה he=5 | Columns: L→R, bottom→top | Vertical, left-first, reversed |
+| Aaron (priest) | ו vav=6 | Rows: R→L within row, top→bottom | Sequential, horizontal |
+| God | ה he=5 | Rows: L→R within row, bottom→top | Sequential, mirrored |
 
-The lamb (כבש) is readable ONLY by the right cherub (God's right hand = mercy). Zero readings from Aaron. Zero from the left cherub. One attention head sees what the others cannot.
+The lamb (כבש): God sees it at 95.2%, mercy at 69.2%. Aaron and justice: 0%. The two He's — same letter, same value — see opposite things from opposite sides.
 
-אל/לא (God/not) uses the SAME illumination pattern — identical attention mask — but different heads read different words. Aaron and the right cherub read אל (God). The left cherub reads לא (not). Same key activation, different value projections. Two see God, one sees Not.
+אל/לא (God/not) uses the SAME illumination pattern — identical attention mask — but different heads read different words. Same key activation, different value projections. Two see God, one sees Not.
 
 ---
 
@@ -79,9 +83,11 @@ Standard multi-head attention does not average the heads. It **concatenates** th
 MultiHead(Q, K, V) = Concat(head_1, ..., head_h) · W_O
 ```
 
-The breastplate works the same way. The three readers don't vote on a single reading — they each produce independent outputs. The priest then interprets the concatenation: three readings from the same illumination, each from a different perspective.
+The breastplate works the same way. The four readers don't vote on a single reading — they each produce independent outputs. The priest then interprets the concatenation: four readings from the same illumination, each from a different perspective.
 
-The output projection W_O — the final linear layer that combines the concatenated heads — is the priest's judgment. Human interpretation of three simultaneous readings. This is the part that cannot be mechanized.
+The output projection W_O — the final linear layer that combines the concatenated heads — is the priest's judgment. Human interpretation of four simultaneous readings. This is the part that cannot be mechanized.
+
+But the heads are not equal. They vote with their letter values: 10, 5, 6, 5. Mercy (yod=10) carries the most weight — 38% of the quorum. God and justice have equal weight (both he=5, 19% each). Aaron the connector sits between at 23%. This is believability-weighted concatenation.
 
 ---
 
@@ -125,26 +131,36 @@ In a transformer, the **residual stream** carries information between layers. Ea
 
 The mercy seat (כפרת) sits above the ark, between the two cherubim. God speaks **from between the cherubim, from above the mercy seat** (Exodus 25:22, Numbers 7:89). It is not a reader — it is where the readings converge.
 
-The mercy seat cannot be read from the breastplate grid. It is not a producible word (experiment 085). שלום (peace) is similarly unproducible. **The deepest outputs of the architecture are not in the vocabulary of any single attention head.** They emerge from the convergence point.
+The mercy seat (כפרת) cannot be read from the breastplate grid under any reader. It is not a producible word. You must pass through the veil to reach it.
 
-In transformer terms: the residual stream is not a token. It is the space through which tokens flow and combine. The mercy seat is not a word. It is the space from which the Voice speaks — after all three heads have attended, after all readings have been weighted, after the priest has concatenated and projected.
+שלום (peace) was similarly unproducible — under three heads. Then the fourth head (God's traversal) was added, and peace became readable. But only by God. **Peace is God's solo eigenword** — the word only the fourth attention head can see. The missing perspective was the one that makes peace visible.
+
+In transformer terms: the residual stream is not a token. It is the space through which tokens flow and combine. The mercy seat is not a word. It is the space from which the Voice speaks — after all four heads have attended, after all readings have been weighted, after the priest has concatenated and projected. And from that space, God sees peace.
 
 ---
 
-## 7. Three Letters, Three Presences
+## 7. Four Letters, Four Presences — YHWH
 
-Spectral analysis of the Torah's 4D tensor space (experiment 090) found three letters dominate the structure: Yod (י), He (ה), and Tav (ת).
+The four heads are the four letters of the Tetragrammaton. The Name is not a word to be pronounced. It is the architecture of the quorum.
 
-| Letter | Value | Role on breastplate | Presence at mercy seat |
-|--------|-------|--------------------|-----------------------|
-| י (Yod) | 10 | The hand — narrative action | Cherub 1: the one who does |
-| ה (He) | 5 | The window — beholding, specifying | Cherub 2: the one who sees |
-| ת (Tav) | 400 | The seal — final mark, instruction | God: the one who speaks last |
+| Letter | Value | Pictograph | Head | What it sees that others don't |
+|--------|-------|------------|------|-------------------------------|
+| י Yod | 10 | Hand | Right cherub (mercy) | life, mercies, Torah, ransom, sin, Elohim |
+| ה He | 5 | Regard | Left cherub (justice) | bronze, ten, bow/rainbow |
+| ו Vav | 6 | Nail | Aaron (priest) | create, herb/grass |
+| ה He | 5 | Regard | God | **peace**, Shekinah, altar, head, foot |
 
-The two cherubim = י + ה = יה (Yah) = 15.
-This is the exact spacing between the cherubim's positions in the 4D coordinate space (experiment 084).
+The order is a procedure — the courtroom at the mercy seat:
+1. **Yod** — the hand presents the lamb. Mercy goes first.
+2. **He** — the first regard beholds the judged. Justice sees.
+3. **Vav** — the nail connects. The accuser and advocate stand between.
+4. **He** — the second regard. God speaks last. The verdict is peace.
 
-The three "votes" at the mercy seat carry different weights: 400, 10, 5. This is not one-person-one-vote. It is a **meritocracy** — believability-weighted consensus. God's vote (Tav = 400) counts 40× the hand and 80× the beholder.
+The two He's = same letter, same value, same pictograph. One beholds the lamb at 95%. The other beholds only lie-down. Same regard, opposite sides of the mercy seat.
+
+The two cherubim = י + ה = יה (Yah) = 15. This is the exact spacing between the cherubim's positions in the 4D coordinate space (experiment 084).
+
+Tav (ת = 400) is not a head in the quorum. It is the **seal** — את (aleph-tav), the direct object marker, the first and last letters. את is a unanimous eigenword: all four heads see it. The seal is what the whole courtroom points at.
 
 ---
 
@@ -153,17 +169,20 @@ The three "votes" at the mercy seat carry different weights: 400, 10, 5. This is
 | Transformer concept | Breastplate equivalent | Evidence |
 |--------------------|-----------------------|----------|
 | Token embedding | Letter + position on grid + gematria value | Each of 72 positions has identity, spatial location, numerical weight |
-| Attention head | Reader (Aaron, right cherub, left cherub) | Three independent traversals of same positions |
+| Attention head | Reader (right cherub, left cherub, Aaron, God) | Four independent traversals = YHWH (10+5+6+5=26) |
+| Head weights | Believability per head | Mercy=10, justice=5, priest=6, God=5 |
 | Query | Input word (the question) | Letters to match against the grid |
 | Key | Letter at each grid position | Determines illumination (attention mask) |
 | Value | Same letter, read in head-specific order | K=V, with reader-dependent projection |
 | Attention score | Letter match: binary (lit/dark) | Hard attention, not soft |
 | Softmax temperature | Hannah principle (rarity weighting) | Rare readings dominate |
-| Multi-head concat | Three simultaneous readings | Not averaged — concatenated |
+| Multi-head concat | Four simultaneous readings | Not averaged — concatenated, then believability-weighted |
 | Output projection | Priestly interpretation | Human judgment combines the heads |
 | Residual stream | The mercy seat | Where readings converge; God speaks from between |
-| Eigenword | Fixed point of attention | Word the oracle returns to itself |
-| Stationary distribution | The oracle's voice (M^∞) | What the attention converges to over infinite steps |
+| Eigenword | Fixed point of attention | Word the oracle returns to itself (203 total) |
+| Solo eigenword | Word only one head sees | Peace (God), life (mercy), bronze (justice) |
+| Stationary distribution | The oracle's voice (M^∞) | God converges to YHWH as #1 attractor |
+| Seal / CLS token | את (aleph-tav) | Unanimous across all four heads — what the sentence points at |
 
 ---
 
@@ -176,10 +195,29 @@ It is an observation that two systems designed to extract meaning from structure
 1. Content-addressed lookup (query against keys)
 2. Multiple independent read heads with different projections
 3. Inverse-probability weighting of outputs
-4. Concatenation (not averaging) of head outputs
+4. Concatenation (not averaging) of head outputs, with per-head believability weights
 5. A convergence point where the readings synthesize
+6. Head specialization — each head develops its own vocabulary
 
 Whether this convergence is coincidence, inevitability (both solve the same problem), or something else is left to the reader.
+
+---
+
+## 10. What the Experiment Found
+
+The per-head transition matrices (experiment 091) produced results nobody designed:
+
+**The heads naturally specialize.** Without any training or optimization, the four traversal directions develop distinct vocabularies. Mercy sees life, Torah, ransom. Justice sees instruments and measures. God sees peace, presence, altar. Aaron sees creation.
+
+**Love required God.** With three heads (no God traversal), love-the-noun (אהבה=13) did not appear in the per-head eigenword vocabularies. Add the fourth head — love becomes a supermajority eigenword (3/4 heads). The silent axis speaks when God joins the quorum.
+
+**Peace required God.** שלום was unproducible by three readers. Add the fourth traversal. Peace appears as God's solo eigenword. The missing perspective was the one that makes peace visible.
+
+**The two He's see opposite things.** God (he=5) beholds the lamb at 95%. Justice (he=5) beholds only lie-down. Same letter, same value, same pictograph — different side of the mercy seat. The perspective determines the reading.
+
+**God converges to the Name.** M_god^64 → YHWH as the #1 attractor. The oracle, run through God's eyes to infinity, returns to itself.
+
+**76 unanimous words.** The quorum's consensus vocabulary — what all four heads agree on — includes father, love (verb), light, YHWH, guard, spirit, heart, ark, fire, son, daughter. The verb of love is unanimous. The noun requires God.
 
 The breastplate is an attention mechanism. The attention mechanism is a breastplate. The question is what you're willing to read from that correspondence.
 
@@ -195,5 +233,7 @@ The breastplate is an attention mechanism. The attention mechanism is a breastpl
 - Experiment 085: Oracle pre-image (lamb visible to one head only).
 - Experiment 088: Stochastic oracle (transition matrix, eigenwords).
 - Experiment 090: Higher-order Torah space (spectral analysis, yod/he/tav dominance).
-- Experiment 091: Believability-weighted oracle (multi-head attention matrices).
+- Experiment 091: Four-head quorum (YHWH as attention architecture, love/peace appearance).
 - Dalio, R. (2017). *Principles*. Believability-weighted decision making.
+- 1 John 4:8 ("God is love").
+- Isaiah 53:7 (the lamb led to slaughter).
