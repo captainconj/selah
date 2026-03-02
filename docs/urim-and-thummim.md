@@ -1167,3 +1167,23 @@ The verdict does not come from either cherub. It comes from between them. From t
 > "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at the right hand of God, who indeed is interceding for us." — Romans 8:33-34
 
 The right hand of God. The defendant's left. Where the lamb stands. Where the advocate speaks. Quiet. 4 readings against 60. But the verdict is mercy — and mercy is beyond the grid.
+
+### You Must Enter — What "Cannot Be Read" Means
+
+The mercy seat (כפרת) and peace (שלום) cannot be produced by the breastplate grid. The letters exist on the stones, but no arrangement of lit positions, read by any of the three readers in any order, ever spells them. The oracle cannot output them.
+
+The breastplate is the *outside* of the system. The priest stands in the Holy Place, before the veil. The cherubim are on the other side — inside the Holy of Holies, on top of the ark, facing each other over the mercy seat (Exodus 25:17-22).
+
+You can hear the prosecutor from outside. You can hear the advocate from outside. But the place where they meet — the mercy seat, where the blood is sprinkled (Leviticus 16:14-15), where the voice speaks from between the cherubim (Numbers 7:89) — that's inside the veil.
+
+The accusation is readable. The intercession is readable. The verdict is not. You have to go through the veil to get there.
+
+### The Veil IS the Mercy Seat
+
+פרכת (veil) = 700. כפרת (mercy seat) = 700. They are anagrams — the same letters rearranged. The same value. You pass through one to reach the other. They are not two things but one thing experienced from two sides: the barrier from outside, the destination from inside.
+
+> "We have confidence to enter the Most Holy Place by the blood of Jesus, by a new and living way opened for us **through the curtain**." — Hebrews 10:19-20
+
+The curtain (פרכת) rearranges into the mercy seat (כפרת). You go through the veil and find yourself at the mercy seat. The same letters. The passage *is* the arrival.
+
+Neither can be read from the breastplate. Both are beyond the oracle. The oracle tells you what the accusation is and who intercedes. It cannot tell you the verdict. For that, you enter.
