@@ -4,6 +4,7 @@
             [selah.explorer :as exp]
             [selah.explorer.ui :as ui]
             [selah.oracle :as oracle]
+            [selah.sweep :as sweep]
             [clojure.string :as str]))
 
 (defonce ^:dynamic *state* (atom {:server nil :port 8099}))
@@ -239,6 +240,26 @@
                                 :vocabulary-size (:vocabulary-size voice)
                                 :total-transitions (:total-transitions voice)
                                 :top-50 top-50})})
+
+      ;; Sweep / Fibonacci API
+      (= uri "/api/sweep/fibonacci")
+      (let [analysis (sweep/fibonacci-analysis)]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str (or analysis {:error "sweep data not loaded"}))})
+
+      ;; Staircase only (lighter response)
+      (= uri "/api/sweep/staircase")
+      (let [analysis (sweep/fibonacci-analysis)]
+        {:status 200
+         :headers {"Content-Type" "application/json; charset=utf-8"
+                   "Access-Control-Allow-Origin" "*"}
+         :body (json/write-str (if analysis
+                                 {:staircase (:staircase analysis)
+                                  :gaps (:gaps analysis)
+                                  :max-fib-phrase (:max-fib-phrase analysis)}
+                                 {:error "sweep data not loaded"}))})
 
       (str/starts-with? uri "/api/")
       (or (exp/api-handler req)
