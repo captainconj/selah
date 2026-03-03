@@ -8,6 +8,7 @@
             [hiccup.util :as hu]
             [selah.explorer :as exp]
             [selah.oracle :as oracle]
+            [selah.translate :as translate]
             [selah.dict :as dict]
             [selah.explorer.sweep-ui :as sweep-ui]
             [clojure.string :as str]))
@@ -369,13 +370,26 @@
 
    ;; Tabs
    [:div.oracle-tabs
-    [:button.oracle-tab.active {:data-tab "ask" :onclick "switchTab('ask')"} "Ask (reverse)"]
+    [:button.oracle-tab.active {:data-tab "english" :onclick "switchTab('english')"} "English"]
+    [:button.oracle-tab {:data-tab "ask" :onclick "switchTab('ask')"} "Ask (reverse)"]
     [:button.oracle-tab {:data-tab "illuminate" :onclick "switchTab('illuminate')"} "Illuminate (forward)"]
     [:button.oracle-tab {:data-tab "question" :onclick "switchTab('question')"} "Question"]
     [:button.oracle-tab {:data-tab "thummim" :onclick "switchTab('thummim')"} "Thummim"]]
 
+   ;; English mode: type English, auto-translate to Hebrew, run oracle
+   [:div#mode-english.oracle-mode
+    [:form.oracle-form {:hx-get "/fragment/oracle/translate"
+                        :hx-target "#oracle-result"
+                        :hx-indicator "#oracle-result"}
+     [:input {:type "text" :name "q"
+              :placeholder "Ask in English..."
+              :dir "ltr" :autocomplete "off" :autofocus true}]
+     [:button {:type "submit"} "Ask"]]
+    (when-not (translate/loaded?)
+      [:p.oracle-warning "Translation model not loaded."])]
+
    ;; Ask mode (reverse): enter a word, see which stones light
-   [:div#mode-ask.oracle-mode
+   [:div#mode-ask.oracle-mode {:style "display:none"}
     [:form.oracle-form {:hx-get "/fragment/oracle/ask"
                         :hx-target "#oracle-result"
                         :hx-indicator "#oracle-result"}
@@ -685,6 +699,39 @@
                 (str/join " + " (remove nil? meanings))]
                [:div.rarity-count (str "GV=" gv)]])]))])))
 
+(defn oracle-translate-result
+  "Translation result: English → Hebrew → oracle readings."
+  [{:keys [english hebrew hebrew-letters gv readings]}]
+  [:div
+   [:div.section
+    [:h2 "Translation"]
+    [:p {:style "font-size:0.85rem;color:#a1a1aa"} english]
+    [:div {:style "display:flex;align-items:baseline;gap:1rem;margin:0.5rem 0"}
+     [:span.hebrew {:style "font-size:2rem"} hebrew]
+     [:span {:style "color:#71717a;font-size:0.85rem"} (str "letters: " hebrew-letters)]
+     [:span {:style "color:#71717a;font-size:0.85rem"} (str "GV=" gv)]]]
+
+   (if (seq readings)
+     [:div.section
+      [:h2 (str (count readings) " phrase reading"
+            (when (not= (count readings) 1) "s"))]
+      [:p {:style "color:#a1a1aa;font-size:0.75rem"}
+       "The oracle partitions the Hebrew letters into Torah words."]
+      (let [by-count (group-by :words readings)]
+        (for [[n ps] (sort-by key by-count)]
+          [:div {:style "margin-top:0.75rem"}
+           [:h3 (if (= n 1)
+                  "Single words"
+                  (str n "-word phrases"))]
+           (for [{:keys [text meanings gv]} ps]
+             [:div.rarity-item
+              [:div.rarity-word.known [:span {:dir "rtl"} text]]
+              [:div.rarity-meaning (str/join " + " (remove nil? meanings))]
+              [:div.rarity-count (str "GV=" gv)]])]))]
+
+     [:div.section
+      [:p "No oracle readings found for these letters."]])])
+
 ;; ── Layout ───────────────────────────────────────────────────
 
 (def css
@@ -827,6 +874,11 @@
   .not-readable .big { font-size: 2rem; margin-bottom: 0.5rem; }
   .coincidence-row { background: #1a1a0a !important; }
   .coincidence-row td { color: #fbbf24; }
+
+  /* English input (LTR in an RTL page) */
+  .oracle-form input[dir=ltr] { direction: ltr; text-align: left;
+    font-family: 'IBM Plex Mono', 'Menlo', monospace; font-size: 1rem; }
+  .oracle-warning { color: #f87171; font-size: 0.8rem; text-align: center; margin-top: 0.5rem; }
   ")
 
 (defn layout [content]

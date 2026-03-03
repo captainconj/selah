@@ -6,6 +6,7 @@
             [selah.oracle :as oracle]
             [selah.sweep :as sweep]
             [selah.explorer.sweep-ui :as sweep-ui]
+            [selah.translate :as translate]
             [clojure.string :as str]))
 
 (defonce ^:dynamic *state* (atom {:server nil :port 8099}))
@@ -233,9 +234,49 @@
        :headers {"Content-Type" "text/html; charset=utf-8"}
        :body (ui/fragment (sweep-ui/distribution-view))}
 
+      ;; ── Translation ──
+
+      ;; Fragment: translate English → Hebrew → oracle (HTMX)
+      (= uri "/fragment/oracle/translate")
+      (let [q (:q params "")]
+        (if (translate/loaded?)
+          (let [result (translate/ask q)]
+            {:status 200
+             :headers {"Content-Type" "text/html; charset=utf-8"}
+             :body (ui/fragment (ui/oracle-translate-result result))})
+          {:status 200
+           :headers {"Content-Type" "text/html; charset=utf-8"}
+           :body (ui/fragment [:div.section [:p "Translation model not loaded. Run (translate/load!) at the REPL."]])}))
+
       ;; ── JSON API ──
 
-      ;; Oracle API
+      ;; Translation API — English → Hebrew → Oracle
+      (= uri "/api/oracle/translate")
+      (let [q (:q params "")
+            vocab (case (:vocab params "torah") "dict" :dict "voice" :voice "torah" :torah :torah)]
+        (if (translate/loaded?)
+          {:status 200
+           :headers {"Content-Type" "application/json; charset=utf-8"
+                     "Access-Control-Allow-Origin" "*"}
+           :body (json/write-str (translate/ask q :vocab vocab))}
+          {:status 503
+           :headers {"Content-Type" "application/json; charset=utf-8"}
+           :body (json/write-str {:error "Translation model not loaded"})}))
+
+      ;; Batch translation API
+      (= uri "/api/translate")
+      (let [q (:q params "")]
+        (if (translate/loaded?)
+          {:status 200
+           :headers {"Content-Type" "application/json; charset=utf-8"
+                     "Access-Control-Allow-Origin" "*"}
+           :body (json/write-str {:english q
+                                  :hebrew (translate/translate q)})}
+          {:status 503
+           :headers {"Content-Type" "application/json; charset=utf-8"}
+           :body (json/write-str {:error "Translation model not loaded"})}))
+
+      ;; Oracle API (reverse — existing)
       (= uri "/api/oracle/ask")
       (let [word (:word params "")
             result (oracle/ask word)]

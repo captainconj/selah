@@ -18,7 +18,15 @@
 
   ;; Linear algebra (native BLAS/LAPACK via MKL)
   uncomplicate/neanderthal {:mvn/version "0.61.0"}
-  org.bytedeco/mkl-platform-redist {:mvn/version "2025.3-1.5.13"}}
+  org.bytedeco/mkl-platform-redist {:mvn/version "2025.3-1.5.13"}
+
+  ;; ONNX Runtime (Microsoft official Java binding)
+  ;; diamond-onnxrt doesn't handle encoder-decoder dynamic shapes —
+  ;; using the official ORT API directly per plan fallback
+  com.microsoft.onnxruntime/onnxruntime {:mvn/version "1.22.0"}
+
+  ;; SentencePiece tokenizer (DJL)
+  ai.djl.sentencepiece/sentencepiece {:mvn/version "0.36.0"}}
 
  :aliases
  {:dev {:extra-paths ["dev" "test"]}
