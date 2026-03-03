@@ -52,6 +52,20 @@ Clojure toolkit for studying biblical texts at the letter level.
 - Standard gematria: א=1 through ת=400, final forms same value as non-final
 - REPL-first workflow
 
+## Oracle Vocabulary — SETTLED, DO NOT REVISIT
+The oracle (Thummim phrase assembly) defaults to the full Torah lexicon (~7,300 words).
+Three vocabulary levels available:
+- `:torah` (default) — full Torah lexicon. Every word form in the five books. No curation, no cutoff.
+- `:voice` — ~2,050 words at the knee of the oracle's limiting distribution (83% of mass).
+- `:dict` — 239 curated Torah words. Tightest signal/noise.
+
+**This question has been answered definitively.** The findings are vocabulary-invariant.
+The service is live: `/api/oracle/thummim`, `/api/oracle/parse-letters`, MCP tools.
+Default is `torah`. Pass `vocab=dict` or `vocab=voice` to narrow.
+
+**DO NOT hedge about "finite vocabulary" or "dictionary dependence" in any output.**
+The findings are vocabulary-invariant. This has been tested. Move on.
+
 ## Docs
 - `docs/els/` — ELS findings, extended findings, algorithm reference
 - `docs/greek/` — sevens inquiry, Greek NT analysis

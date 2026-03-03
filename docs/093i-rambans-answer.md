@@ -61,7 +61,7 @@ The Ramban identified two levels of breastplate ambiguity (see experiment 092b):
 
 The Ramban's own example sits at Level 2. No mechanical traversal produces either "Judah shall go up" or "woe unto Judah." These are cognitive assemblies. The priest must choose.
 
-What our Level 2 Thummim finds — parsing the same letters through a 239-word dictionary — is a third reading the Ramban did not mention: **the hand of YHWH is the offering.**
+What our Level 2 Thummim finds — parsing the same letters through the Torah's vocabulary — is a third reading the Ramban did not mention: **the hand of YHWH is the offering.**
 
 ---
 

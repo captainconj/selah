@@ -198,7 +198,7 @@
       ;; Thummim API — phrase assembly with vocab selection
       (= uri "/api/oracle/thummim")
       (let [word (:word params "")
-            vocab (case (:vocab params "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+            vocab (case (:vocab params "torah") "dict" :dict "voice" :voice "torah" :torah :torah)
             max-words (try (Integer/parseInt (:max_words params "3"))
                            (catch Exception _ 3))
             result (oracle/thummim-menu word {:vocab vocab
@@ -213,7 +213,7 @@
       ;; Parse letters API — raw letter partition with vocab selection
       (= uri "/api/oracle/parse-letters")
       (let [letters (:letters params "")
-            vocab (case (:vocab params "dict") "torah" :torah "voice" :voice "dict" :dict :dict)
+            vocab (case (:vocab params "torah") "dict" :dict "voice" :voice "torah" :torah :torah)
             max-words (try (Integer/parseInt (:max_words params "3"))
                            (catch Exception _ 3))
             result (oracle/parse-letters letters {:vocab vocab
@@ -223,7 +223,7 @@
          :headers {"Content-Type" "application/json; charset=utf-8"
                    "Access-Control-Allow-Origin" "*"}
          :body (json/write-str {:letters letters
-                                :vocab (if (keyword? vocab) (name vocab) "dict")
+                                :vocab (if (keyword? vocab) (name vocab) "torah")
                                 :phrase-count (count result)
                                 :phrases result})})
 

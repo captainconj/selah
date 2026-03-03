@@ -337,15 +337,19 @@
 
 (declare voice-vocab)
 
+(def ^:private voice-anagram-index
+  "Oracle's natural voice (~2,050 words at the knee). Lazy — triggers voice computation."
+  (delay (build-anagram-index (voice-vocab))))
+
 (defn- resolve-index
   "Resolve a vocabulary spec to a cached anagram index.
-   Supports: :dict, :torah, :voice (fidelity=0), a set, or {:fidelity f}."
+   :dict = 239 curated (optimal), :voice = ~2,050 knee, :torah = ~7,300 full."
   [vocab]
   (cond
     (= vocab :torah) @torah-anagram-index
-    (= vocab :voice) @dict-anagram-index  ;; voice(0) = dict — optimal for theology
+    (= vocab :voice) @voice-anagram-index
     (set? vocab)     (build-anagram-index vocab)
-    (map? vocab)     (build-anagram-index (voice-vocab (get vocab :fidelity 0)))
+    (map? vocab)     (build-anagram-index (voice-vocab))
     :else            @dict-anagram-index))
 
 (defn parse-illumination
@@ -360,7 +364,7 @@
      :min-letters — minimum letters per word (default 2)
      :vocab       — :dict (239 curated, default), :torah (~7,300), or a set"
   ([positions] (parse-illumination positions {}))
-  ([positions {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :dict}}]
+  ([positions {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :torah}}]
    (let [letters (mapv letter-at (sort positions))
          remaining (frequencies letters)
          total (count letters)
@@ -409,7 +413,7 @@
      :min-letters — minimum letters per word (default 2)
      :vocab       — :dict (239 curated, default), :torah (~7,300), or a set"
   ([letters] (parse-letters letters {}))
-  ([letters {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :dict}}]
+  ([letters {:keys [max-words min-letters vocab] :or {max-words 4 min-letters 2 vocab :torah}}]
    (let [remaining (frequencies (seq letters))
          total (count letters)
          index (resolve-index vocab)
@@ -596,25 +600,12 @@
   @oracle-voice*)
 
 (defn voice-vocab
-  "Get a vocabulary at a given fidelity level.
-   fidelity=0 — curated dict (239 words, optimal signal/noise for theology)
-   fidelity=0.5 — dict + voice core (dict ∪ top-knee voice words)
-   fidelity=1 — full Torah vocabulary
-   Returns a set of Hebrew words.
-
-   The oracle's mechanical voice (output frequency) is dominated by long
-   compound forms. The theological building blocks (חי, ים, דם, נא, חן)
-   live in the deep tail. The curated dict captures this semantic core."
-  [fidelity]
-  (cond
-    (<= fidelity 0) (dict/words)
-    (>= fidelity 1) (dict/torah-words)
-    :else
-    (let [voice (oracle-voice)
-          ranked (:vocabulary voice)
-          n (count ranked)
-          knee (:index (:knee voice))
-          ;; Interpolate: add voice words proportionally
-          k (int (* fidelity n))
-          voice-words (set (map :word (take k ranked)))]
-      (set/union (dict/words) voice-words))))
+  "The oracle's natural vocabulary — words at or above the knee of its
+   output distribution (~2,050 words, 83% of probability mass).
+   Returns dict ∪ voice-knee as a set of Hebrew words."
+  []
+  (let [voice (oracle-voice)
+        ranked (:vocabulary voice)
+        knee (:index (:knee voice))
+        voice-words (set (map :word (take knee ranked)))]
+    (set/union (dict/words) voice-words)))

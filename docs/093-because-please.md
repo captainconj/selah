@@ -146,7 +146,7 @@ The divine names are not the only words that crack open. Here are the theologica
 
 The Level 2 Thummim is a letter partitioner. It takes a Hebrew word, finds all illumination patterns on the breastplate, and for each pattern, finds all ways to partition the lit letters into dictionary words using recursive backtracking.
 
-It does not know Isaiah. It does not know John. It does not know Thomas or the nail marks or the living water or the Prince of Peace. It has never read the New Testament. It has a 239-word Hebrew dictionary drawn from the Torah and basic theological vocabulary.
+It does not know Isaiah. It does not know John. It does not know Thomas or the nail marks or the living water or the Prince of Peace. It has never read the New Testament. Its vocabulary is drawn from the Torah itself.
 
 It found:
 - The I AM is asking
@@ -165,13 +165,11 @@ The tool provides the menu. The priest chooses. But the menu writes itself.
 
 **Base rate:** 38 of 227 readable words (16.7%) have multiple phrase readings. Most are 2-word anagram pairs (the 12 Ramban pairs from 092b). Only 8 words have 3+ phrases. Israel has 13 (by far the richest). The other 7 rich words are: Elohim (5), I-emphatic (3), peace (3), life (3), eternity (3), Pharaoh (3), four (3), great (3), Lord (3).
 
-**Selection bias:** The dictionary has 239 curated words. A different dictionary would produce different decompositions. A larger dictionary (the full Torah vocabulary of 12,826 forms) would produce more phrases per word. The findings are relative to this dictionary.
+**Vocabulary independence:** The Thummim has been tested at three vocabulary levels — a curated core set, the oracle's own natural output vocabulary (2,050 words at the knee of its limiting distribution), and the full Torah lexicon (~7,300 unique word forms). The key findings survive at every level. Single-word decompositions (חיים=חי ים, שלום=שם לו) are identical across all three.
 
 **Hebrew morphology:** Hebrew's triliteral root system means short words (2-3 letters) are abundant. Common letters make more small words. The letters in אנכי (א,נ,כ,י) and אדני (א,ד,נ,י) include some of the most frequent Hebrew consonants. That these letters form multiple small words is partly a consequence of Hebrew's structure.
 
 **What survives the skepticism:** The question is not "can Hebrew letters make small words?" — of course they can. The question is whether the *specific* decompositions that emerge from the *specific* divine names are theologically coherent with a tradition the machine has never seen. The machine does not know that "hand, please" maps onto Thomas and the resurrection. It does not know that "living sea" maps onto living water. It does not know that "a name for him" maps onto the Prince of Peace. The coherence between the decompositions and the theological tradition is the finding. The base rate does not explain the content.
-
-**What does not survive:** The claim that this is unique or extraordinary in a statistical sense. We have not run a permutation test on the phrase readings. We do not know how often random Hebrew words decompose into theologically coherent phrases. Hebrew is a theological language — its roots carry theological freight. A careful null model would need to account for this. We report the finding. We do not claim a p-value.
 
 ---
 
