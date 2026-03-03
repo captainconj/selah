@@ -1,0 +1,229 @@
+#!/usr/local/bin/bb
+
+(require '[clojure.string :as str])
+(require '[babashka.cli :as cli]
+         '[babashka.fs :as fs]
+         '[babashka.process :as p :refer [process]]
+         '[babashka.tasks :as tasks]
+         '[clojure.java.io :as io])
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Config
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(def ^:const +selah-dir+ (str (System/getProperty "user.home") "/.selah"))
+(def ^:const +nrepl-port-file+ ".nrepl-port")  ;; project-root, written by nrepl.clj
+(def ^:const +pid-file+ (str +selah-dir+ "/engine.pid"))
+(def ^:const +log-file+ (str +selah-dir+ "/engine.log"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Helpers
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn ensure-selah-dir! []
+  (let [dir (io/file +selah-dir+)]
+    (when-not (.exists dir)
+      (.mkdirs dir))))
+
+(defn pid-alive? [pid]
+  (when pid
+    (-> (io/file (str "/proc/" pid))
+        (.exists))))
+
+(defn read-pid []
+  (let [f (io/file +pid-file+)]
+    (when (.exists f)
+      (parse-long (str/trim (slurp f))))))
+
+(defn read-nrepl-port []
+  (let [f (io/file +nrepl-port-file+)]
+    (when (.exists f)
+      (parse-long (str/trim (slurp f))))))
+
+(defn engine-running? []
+  (when-let [pid (read-pid)]
+    (pid-alive? pid)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; nREPL eval
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn nrepl-eval [code]
+  (when-let [port (read-nrepl-port)]
+    (let [result (p/shell {:out :string :err :string :continue true}
+                          "bb" "-e"
+                          (str "(require '[babashka.nrepl-client :as nrepl])
+                                (let [conn (nrepl/connect \"localhost\" " port ")]
+                                  (try
+                                    (-> (nrepl/eval conn " (pr-str code) ")
+                                        :val
+                                        println)
+                                    (finally
+                                      (nrepl/disconnect conn))))"))]
+      (when (zero? (:exit result))
+        (:out result)))))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Engine Commands
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn engine-status [_]
+  (println "Selah Engine Status")
+  (println "-------------------")
+  (if-let [pid (read-pid)]
+    (if (pid-alive? pid)
+      (do
+        (println (str "  Status: Running"))
+        (println (str "  PID: " pid))
+        (when-let [port (read-nrepl-port)]
+          (println (str "  nREPL: " port)))
+        (println (str "  HTTP: 8099")))
+      (println "  Status: Stopped (stale PID file)"))
+    (println "  Status: Stopped")))
+
+(defn engine-start [opts]
+  (if (engine-running?)
+    (do
+      (println "Selah engine already running (PID:" (read-pid) ")")
+      (println "Use 'selah engine stop' to stop it first."))
+    (do
+      (ensure-selah-dir!)
+      (println "Starting Selah engine...")
+      (let [log (io/file +log-file+)]
+        ;; Start as background process
+        (p/process {:out :write
+                    :out-file log
+                    :err :out}
+                   "clojure" "-M:dev" "-m" "selah.main")
+        ;; Wait for startup (JVM + model loading)
+        (Thread/sleep 15000)
+        (if (engine-running?)
+          (do
+            (println (str "Selah engine started (PID: " (read-pid) ")"))
+            (when-let [port (read-nrepl-port)]
+              (println (str "  nREPL: " port)))
+            (println (str "  HTTP: http://localhost:8099"))
+            (println (str "  Log: " +log-file+)))
+          (println "Failed to start engine. Check log:" +log-file+))))))
+
+(defn engine-stop [_]
+  (if-let [pid (read-pid)]
+    (if (pid-alive? pid)
+      (do
+        (println "Stopping Selah engine (PID:" pid ")...")
+        (p/shell "kill" (str pid))
+        (Thread/sleep 2000)
+        (when (pid-alive? pid)
+          (println "  Still alive, waiting...")
+          (Thread/sleep 2000)
+          (when (pid-alive? pid)
+            (println "  Sending SIGKILL...")
+            (p/shell "kill" "-9" (str pid))
+            (Thread/sleep 500)))
+        ;; Clean up
+        (let [pid-f (io/file +pid-file+)]
+          (when (.exists pid-f) (.delete pid-f)))
+        (println "  Stopped."))
+      (do
+        (println "No running engine found (stale PID file)")
+        (let [pid-f (io/file +pid-file+)]
+          (when (.exists pid-f) (.delete pid-f)))))
+    (println "No engine PID file found. Engine not running.")))
+
+(defn engine-restart [_]
+  (engine-stop nil)
+  (Thread/sleep 500)
+  (engine-start nil))
+
+(defn engine [opts]
+  (let [subcmd (first (:args opts))]
+    (case subcmd
+      "start"   (engine-start opts)
+      "stop"    (engine-stop opts)
+      "restart" (engine-restart opts)
+      "status"  (engine-status opts)
+      (nil "")  (engine-status opts)
+      (do
+        (println "Unknown engine subcommand:" subcmd)
+        (println "Usage: selah engine [start|stop|restart|status]")))))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Tasks
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn start-foreground [_]
+  (tasks/shell "clojure -M:dev -m selah.main"))
+
+(defn test-cmd [_]
+  (tasks/shell "clojure -X:dev:test"))
+
+(defn repl-cmd [_]
+  (if-not (engine-running?)
+    (println "Selah engine not running. Start it first: selah engine start")
+    (if-let [port (read-nrepl-port)]
+      (do
+        (println (str "Connecting to nREPL on port " port "..."))
+        (tasks/shell (str "clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version \"1.3.1\"} cider/cider-nrepl {:mvn/version \"0.50.2\"}}}' -m nrepl.cmdline --connect --host localhost --port " port)))
+      (println "No nREPL port file found."))))
+
+(defn eval-cmd [opts]
+  (if-not (engine-running?)
+    (println "Selah engine not running. Start it first: selah engine start")
+    (let [code (str/join " " (:args opts))]
+      (if (str/blank? code)
+        (println "Usage: selah eval '(+ 1 2)'")
+        (println (nrepl-eval code))))))
+
+(defn mcp [_]
+  (tasks/shell "bash scripts/mcp-bridge.sh"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Help
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn help [_]
+  (println (str/join
+             "\n"
+             ["Selah CLI"
+              ""
+              "Engine:"
+              "  selah engine start    Start the Selah engine (background)"
+              "  selah engine stop     Stop the Selah engine"
+              "  selah engine restart  Restart the Selah engine"
+              "  selah engine status   Show engine status (default)"
+              ""
+              "Development:"
+              "  selah start           Start Selah in foreground (blocking)"
+              "  selah test            Run the test suite"
+              "  selah eval <expr>     Evaluate Clojure via nREPL"
+              "  selah repl            Connect an nREPL client"
+              ""
+              "MCP:"
+              "  selah mcp             Start MCP bridge (for Claude Code)"
+              ""
+              "Other:"
+              "  selah status          Alias for 'engine status'"
+              "  selah help            Show this help"
+              ""])))
+
+(defn unknown [_]
+  (println "Unknown command. Try `selah help`.")
+  (help nil))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Dispatch Table
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(def table
+  [{:cmds ["engine"]  :fn engine        :spec {}}
+   {:cmds ["start"]   :fn start-foreground :spec {}}
+   {:cmds ["mcp"]     :fn mcp           :spec {}}
+   {:cmds ["status"]  :fn engine-status :spec {}}
+   {:cmds ["test"]    :fn test-cmd      :spec {}}
+   {:cmds ["eval"]    :fn eval-cmd      :spec {}}
+   {:cmds ["repl"]    :fn repl-cmd      :spec {}}
+   {:cmds ["help"]    :fn help          :spec {}}
+   {:cmds []          :fn help}
+   {:cmds [:else]     :fn unknown}])
+
+(cli/dispatch table *command-line-args*)
