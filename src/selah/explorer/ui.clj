@@ -9,6 +9,7 @@
             [selah.explorer :as exp]
             [selah.oracle :as oracle]
             [selah.dict :as dict]
+            [selah.explorer.sweep-ui :as sweep-ui]
             [clojure.string :as str]))
 
 ;; ── Helpers ──────────────────────────────────────────────────
@@ -837,12 +838,15 @@
       [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
       [:title "Selah Explorer"]
       [:style (h/raw css)]
+      [:style (h/raw sweep-ui/sweep-css)]
       [:script {:src "https://unpkg.com/htmx.org@2.0.4"}]]
      [:body
       [:nav
        [:a {:href "/" :hx-get "/fragment/home" :hx-target "#main" :hx-push-url "/"} "סלה"]
        " "
        [:a {:href "/oracle" :hx-get "/fragment/oracle" :hx-target "#main" :hx-push-url "/oracle"} "אורים"]
+       " "
+       [:a {:href "/sweep" :hx-get "/fragment/sweep" :hx-target "#main" :hx-push-url "/sweep"} "תמים"]
        " "]
       [:div#main content]]])))
 

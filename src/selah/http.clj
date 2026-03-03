@@ -5,6 +5,7 @@
             [selah.explorer.ui :as ui]
             [selah.oracle :as oracle]
             [selah.sweep :as sweep]
+            [selah.explorer.sweep-ui :as sweep-ui]
             [clojure.string :as str]))
 
 (defonce ^:dynamic *state* (atom {:server nil :port 8099}))
@@ -172,6 +173,65 @@
         {:status 200
          :headers {"Content-Type" "text/html; charset=utf-8"}
          :body (ui/fragment (ui/oracle-thummim-result result))})
+
+      ;; ── Sweep Explorer ──
+
+      ;; Sweep home (staircase)
+      (= uri "/sweep")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/layout (sweep-ui/staircase-overview))}
+
+      (= uri "/fragment/sweep")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/fragment (sweep-ui/staircase-overview))}
+
+      ;; Step detail
+      (str/starts-with? uri "/sweep/step/")
+      (let [f (try (Integer/parseInt (subs uri 12)) (catch Exception _ 0))]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/layout (sweep-ui/step-detail f))})
+
+      (str/starts-with? uri "/fragment/sweep/step/")
+      (let [f (try (Integer/parseInt (subs uri 21)) (catch Exception _ 0))]
+        {:status 200
+         :headers {"Content-Type" "text/html; charset=utf-8"}
+         :body (ui/fragment (sweep-ui/step-detail f))})
+
+      ;; Forced readings
+      (= uri "/sweep/forced")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/layout (sweep-ui/forced-view))}
+
+      (= uri "/fragment/sweep/forced")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/fragment (sweep-ui/forced-view))}
+
+      ;; Extremes
+      (= uri "/sweep/extremes")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/layout (sweep-ui/extremes-view))}
+
+      (= uri "/fragment/sweep/extremes")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/fragment (sweep-ui/extremes-view))}
+
+      ;; Distribution
+      (= uri "/sweep/distribution")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/layout (sweep-ui/distribution-view))}
+
+      (= uri "/fragment/sweep/distribution")
+      {:status 200
+       :headers {"Content-Type" "text/html; charset=utf-8"}
+       :body (ui/fragment (sweep-ui/distribution-view))}
 
       ;; ── JSON API ──
 

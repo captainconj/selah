@@ -116,3 +116,51 @@
   "Complete Fibonacci analysis of the Thummim sweep. Cached."
   []
   @analysis-cache)
+
+;; ── Queries ──────────────────────────────────────────────────
+
+(defn staircase-level
+  "Words at a specific Fibonacci phrase count. Returns nil if not a Fibonacci number."
+  [f]
+  (when-let [a (fibonacci-analysis)]
+    (first (filter #(= f (:fib %)) (:staircase a)))))
+
+(defn word-detail
+  "Full sweep data for a specific word."
+  [word]
+  (when-let [results (sweep-results)]
+    (first (filter #(= word (:word %)) results))))
+
+(defn forced-readings
+  "Words with exactly 1 phrase reading — the oracle speaks unambiguously."
+  []
+  (when-let [results (sweep-results)]
+    (->> results
+         (filter :illuminable?)
+         (filter #(= 1 (:phrase-count %)))
+         (sort-by :word)
+         vec)))
+
+(defn synonyms
+  "Oracle synonym groups — words with identical phrase sets (same letter multiset)."
+  []
+  (let [f (io/file "data/experiments/094/synonyms.edn")]
+    (when (.exists f)
+      (edn/read-string (slurp f)))))
+
+(defn distributions
+  "Distribution data from the sweep."
+  []
+  (let [f (io/file "data/experiments/094/distributions.edn")]
+    (when (.exists f)
+      (edn/read-string (slurp f)))))
+
+(defn extreme-words
+  "Top N words by phrase count."
+  [n]
+  (when-let [results (sweep-results)]
+    (->> results
+         (filter :illuminable?)
+         (sort-by (comp - :phrase-count))
+         (take n)
+         vec)))
