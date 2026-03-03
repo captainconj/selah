@@ -6,3 +6,5 @@ target/
 *.class
 .idea/
 models/
+.clj-kondo/
+*.iml
