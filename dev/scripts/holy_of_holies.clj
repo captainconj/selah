@@ -60,20 +60,6 @@
   (for [b (range 20 24) cc (range 5 8) d (range 31 36)]
     (pos 3 b cc d)))
 
-;; ── Cross axes through center ────────────────────────────
-
-(defn a-axis-positions []
-  (for [a (range 7)] (pos a 25 6 33)))
-
-(defn b-axis-positions []
-  (for [b (range 50)] (pos 3 b 6 33)))
-
-(defn c-axis-positions []
-  (for [cc (range 13)] (pos 3 25 cc 33)))
-
-(defn d-axis-positions []
-  (for [d (range 67)] (pos 3 25 6 d)))
-
 ;; ── Analysis helpers ─────────────────────────────────────
 
 (defn region-info
@@ -130,12 +116,6 @@
   (describe-region "ABOVE THE ARK" (above-ark-positions))
   (describe-region "IN FRONT OF THE ARK" (in-front-positions))
 
-  ;; Cross axes
-  (describe-region "A-AXIS (completeness, 7)" (a-axis-positions))
-  (describe-region "B-AXIS (jubilee, 50)" (b-axis-positions))
-  (describe-region "C-AXIS (love, 13)" (c-axis-positions))
-  (describe-region "D-AXIS (understanding, 67)" (d-axis-positions))
-
   ;; Oracle readings
   ;; Between the cherubim → dict: איש מות משה (man, death, Moses)
   (let [results (oracle-region (between-cherubim-positions) :vocab :dict)]
@@ -168,72 +148,5 @@
     (let [p (c/coord->idx 3 b cc d)
           desc (c/describe p)]
       (println (str "(" b "," cc "," d ") " (:letter desc) " — " (:verse desc)))))
-
-  ;; Cross beam analysis
-  ;; d-axis: left arm (d=0..32), nail (d=33), right arm (d=34..66)
-  (let [s (c/space)
-        left-gv  (reduce + (for [d (range 33)]  (c/gv-at s (c/coord->idx 3 25 6 d))))
-        right-gv (reduce + (for [d (range 34 67)] (c/gv-at s (c/coord->idx 3 25 6 d))))
-        nail-gv  (c/gv-at s (c/coord->idx 3 25 6 33))]
-    {:left left-gv :nail nail-gv :right right-gv
-     :total (+ left-gv nail-gv right-gv)})
-
-  ;; === THE CROSS ===
-  ;;
-  ;; Horizontal beam (d-axis, understanding, 67 letters)
-  ;;   Left end: ו,י = nail, hand (d=0,1)
-  ;;   Center: ו = nail (d=33) — Lev 8:35
-  ;;   Right end: א,ת = aleph-tav (d=65,66)
-  ;;   33 + 1 + 33 symmetric arms
-  ;;   Left GV=3437 | Nail=6 | Right GV=2627 | Total=6070
-  ;;
-  ;; Vertical beam (c-axis, love, 13 letters)
-  ;;   Bottom: ל (teach, c=0) — Lev 8:29
-  ;;   Center: ו (nail, c=6) — Lev 8:35
-  ;;   Top: א (aleph/silent, c=12) — Lev 9:7 (approach the altar)
-  ;;   Top 3: א,ה,י = beginning of אהיה (I AM)
-  ;;   GV=622 = 2×311 = 2×GV(איש/man)
-  ;;
-  ;; 13 nails (ו) on the cross = one per unit of love
-  ;; 79 total positions (prime)
-  ;; Cross GV = 6686 = 2 × 3343 (prime)
-  ;;
-  ;; A-axis spine (7 letters): GV=73 = GV(חכמה) = wisdom
-  ;;
-  ;; Left corner: וי = 6+10 = 16. Vertical = 13.  16/13 = cross ratio.
-  ;;
-  ;; Mercy Seat line (c=7, b=25):
-  ;;   d=14..17: יהוה (the Name)
-  ;;   d=18..20: ביד (by the hand of)
-  ;;   d=21..23: משה (Moses)
-  ;;   d=33: ש (shin/fire)
-  ;;   Distance from hand to fire = 14 = GV(יד)
-
-  ;; Cross endpoints
-  (let [s (c/space)]
-    {:left   (c/letter-at s (c/coord->idx 3 25 6 0))   ;; ו (nail)
-     :right  (c/letter-at s (c/coord->idx 3 25 6 66))   ;; ת (mark)
-     :bottom (c/letter-at s (c/coord->idx 3 25 0 33))   ;; ל (teach)
-     :top    (c/letter-at s (c/coord->idx 3 25 12 33))}) ;; א (silent)
-
-  ;; Nail count on the cross
-  (let [s (c/space)]
-    (->> (concat
-           (for [d (range 67)] (c/coord->idx 3 25 6 d))
-           (for [cc (range 13) :when (not= cc 6)] (c/coord->idx 3 25 cc 33)))
-         (filter #(= \ו (c/letter-at s %)))
-         count))
-  ;; => 13
-
-  ;; Mercy Seat centerline (c=7, b=25) — YHWH → hand → Moses → fire
-  (let [s (c/space)]
-    (doseq [d (range 67)]
-      (let [desc (c/describe (c/coord->idx 3 25 7 d))]
-        (print (:letter desc))))
-    (println))
-
-  ;; Hand-to-fire distance
-  ;; ביד at d=18..20, ש at d=33
-  ;; center of ביד ≈ d=19, distance to d=33 = 14 = GV(יד)
 
   nil)
