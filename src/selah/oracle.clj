@@ -176,41 +176,81 @@
 (defn forward
   "Forward query: given lit letters, what can each reader see?
    Returns all readings ranked by rarity (fewest readings first).
-   The Hannah principle: the rare reading is the correct one."
-  [letters]
-  (let [ilsets (illumination-sets letters)
-        ;; For each illumination, get what each reader sees
-        all-readings (mapcat (fn [pset]
-                               (for [reader [:aaron :god :right :left]]
-                                 {:reader reader
-                                  :word (read-positions reader pset)
-                                  :positions pset}))
-                             ilsets)
-        ;; Group by word, count readings per word
-        word-counts (->> all-readings
-                         (group-by :word)
-                         (map (fn [[w rs]]
-                                {:word w
-                                 :reading-count (count rs)
-                                 :readers (set (map :reader rs))
-                                 :meaning (dict/translate w)
-                                 :known? (dict/known? w)
-                                 :gv (g/word-value w)})))
-        ;; Separate known from unknown, sort by rarity
-        known (vec (sort-by :reading-count (filter :known? word-counts)))
-        unknown (vec (take 20 (sort-by :reading-count (remove :known? word-counts))))
-        ;; Dictionary anagrams
-        anagram-hits (vec (distinct (anagrams letters)))
-        ;; Sample: first illumination readings
-        sample (when (seq ilsets)
-                 (readings (first ilsets)))]
-    {:letters letters
-     :illumination-count (count ilsets)
-     :total-readings (count all-readings)
-     :known-words known
-     :unknown-words unknown
-     :anagrams anagram-hits
-     :sample-readings sample}))
+   The Hannah principle: the rare reading is the correct one.
+   Vocab: :dict (239 curated, default), :torah (full ~7,300), or a set."
+  ([letters] (forward letters :dict))
+  ([letters vocab]
+   (let [known-fn (cond
+                    (= vocab :dict)  dict/known?
+                    (= vocab :torah) #(contains? (dict/torah-words) %)
+                    (set? vocab)     #(contains? vocab %)
+                    :else            dict/known?)
+         ilsets (illumination-sets letters)
+         ;; For each illumination, get what each reader sees
+         all-readings (mapcat (fn [pset]
+                                (for [reader [:aaron :god :right :left]]
+                                  {:reader reader
+                                   :word (read-positions reader pset)
+                                   :positions pset}))
+                              ilsets)
+         ;; Group by word, count readings per word
+         word-counts (->> all-readings
+                          (group-by :word)
+                          (map (fn [[w rs]]
+                                 {:word w
+                                  :reading-count (count rs)
+                                  :readers (set (map :reader rs))
+                                  :meaning (or (dict/translate w) (dict/translate-english w))
+                                  :known? (known-fn w)
+                                  :gv (g/word-value w)})))
+         ;; Separate known from unknown, sort by rarity
+         known (vec (sort-by :reading-count (filter :known? word-counts)))
+         unknown (vec (take 20 (sort-by :reading-count (remove :known? word-counts))))
+         ;; Dictionary anagrams
+         anagram-hits (vec (distinct (anagrams letters)))
+         ;; Sample: first illumination readings
+         sample (when (seq ilsets)
+                  (readings (first ilsets)))]
+     {:letters letters
+      :illumination-count (count ilsets)
+      :total-readings (count all-readings)
+      :known-words known
+      :unknown-words unknown
+      :anagrams anagram-hits
+      :sample-readings sample})))
+
+;; ── Forward by head — per-reader ranked word lists ──────────
+
+(defn forward-by-head
+  "Like forward, but returns per-reader ranked word lists.
+   One illumination-sets call, four reader views.
+   Result: {:aaron [{:word :reading-count :gv}...] :god [...] ...}"
+  ([letters] (forward-by-head letters :torah))
+  ([letters vocab]
+   (let [known-fn (cond
+                    (= vocab :dict)  dict/known?
+                    (= vocab :torah) #(contains? (dict/torah-words) %)
+                    (set? vocab)     #(contains? vocab %)
+                    :else            #(contains? (dict/torah-words) %))
+         ilsets (illumination-sets letters)
+         all-readings (mapcat (fn [pset]
+                                (for [reader [:aaron :god :right :left]]
+                                  {:reader reader
+                                   :word (read-positions reader pset)}))
+                              ilsets)
+         by-reader (group-by :reader all-readings)]
+     (into {}
+       (for [reader [:aaron :god :right :left]]
+         [reader (->> (get by-reader reader [])
+                      (group-by :word)
+                      (map (fn [[w rs]]
+                             {:word w
+                              :reading-count (count rs)
+                              :known? (known-fn w)
+                              :gv (g/word-value w)}))
+                      (filter :known?)
+                      (sort-by (comp - :reading-count))
+                      vec)])))))
 
 ;; ── Question: many-to-many coincidence ────────────────────────
 
@@ -609,3 +649,114 @@
         knee (:index (:knee voice))
         voice-words (set (map :word (take knee ranked)))]
     (set/union (dict/words) voice-words)))
+
+;; ── GV properties (inlined to avoid circular dep with explorer) ──
+
+(def ^:private fibs
+  (set (take 25 (map first (iterate (fn [[a b]] [b (+ a b)]) [1 1])))))
+
+(def ^:private fib-idx
+  (into {} (map-indexed (fn [i f] [f (inc i)]) (take 25 (map first (iterate (fn [[a b]] [b (+ a b)]) [1 1]))))))
+
+(defn- prime? [n]
+  (and (> n 1)
+       (not-any? #(zero? (mod n %)) (range 2 (inc (long (Math/sqrt n)))))))
+
+(defn gv-properties
+  "Number properties relevant to oracle ranking: Fibonacci, prime, axis divisors."
+  [n]
+  (when (and n (pos? n))
+    (cond-> {}
+      (fibs n)              (assoc :fibonacci (fib-idx n))
+      (prime? n)            (assoc :prime true)
+      (zero? (mod n 7))     (assoc :div-7 (/ n 7))
+      (zero? (mod n 13))    (assoc :div-13 (/ n 13))
+      (zero? (mod n 26))    (assoc :div-26 (/ n 26))
+      (zero? (mod n 50))    (assoc :div-50 (/ n 50))
+      (zero? (mod n 67))    (assoc :div-67 (/ n 67)))))
+
+;; ── Phrase ranking ──────────────────────────────────────────────
+;;
+;; Tiers — based on reader agreement (who speaks):
+;;   0 SELF      — single word reproducing the input (the echo)
+;;   1 UNANIMOUS — all 4 readers see every word
+;;   2 MAJORITY  — 3 readers agree
+;;   3 SPLIT     — 2 readers agree
+;;   4 SOLO      — only 1 reader sees every word
+;;   5 SILENT    — no reader can produce all words from the grid
+
+(def ^:private tier-names
+  {0 "SELF" 1 "UNANIMOUS" 2 "MAJORITY" 3 "SPLIT" 4 "SOLO" 5 "SILENT"})
+
+(defn- word-readers
+  "Which readers can produce this word from the breastplate?
+   Returns a set of #{:aaron :god :right :left}, or #{} if not producible."
+  [word]
+  (set (map :reader (preimage word))))
+
+(defn rank-phrases
+  "Rank parse-letters output into tiers with scores.
+   Tiers by reader agreement: who on the breastplate can speak this phrase?
+   Enriches each phrase with English, reader info, and number properties.
+   input-letters: the original Hebrew letter string."
+  [phrases input-letters]
+  (let [input-freq (frequencies (seq input-letters))
+        ;; Pre-compute caches for all unique words (O(|words|) not O(|phrases|))
+        all-words     (distinct (mapcat :phrase phrases))
+        dict-set      (set (filter dict/known? all-words))
+        english-cache (into {} (map (fn [w] [w (dict/translate-english w)]) all-words))
+        reader-cache  (into {} (map (fn [w] [w (word-readers w)]) all-words))
+        rank-one (fn [{:keys [phrase text meanings gv words] :as p}]
+                   (let [english (mapv english-cache phrase)
+                         self?   (and (= words 1)
+                                      (= input-freq (frequencies (seq (first phrase)))))
+                         ;; Reader analysis
+                         per-word-readers (mapv reader-cache phrase)
+                         phrase-readers   (if (seq per-word-readers)
+                                            (apply set/intersection per-word-readers)
+                                            #{})
+                         any-readers      (apply set/union #{} per-word-readers)
+                         reader-count     (count phrase-readers)
+                         ;; Tier by reader agreement
+                         tier (cond
+                                self?              0
+                                (= reader-count 4) 1
+                                (= reader-count 3) 2
+                                (= reader-count 2) 3
+                                (= reader-count 1) 4
+                                :else              5)
+                         dict-count (count (filter dict-set phrase))
+                         props (gv-properties gv)
+                         score (+ (* 100 (- 5 words))
+                                  (* 25 reader-count)
+                                  (* 3 (count any-readers))
+                                  (* 20 dict-count)
+                                  (if (:fibonacci props) 15 0)
+                                  (if (:prime props) 10 0)
+                                  (if (:div-7 props) 8 0)
+                                  (if (:div-13 props) 8 0)
+                                  (if (:div-26 props) 5 0))]
+                     (assoc p
+                            :english english
+                            :tier tier
+                            :tier-name (tier-names tier)
+                            :self? self?
+                            :score score
+                            :gv-props props
+                            :readers phrase-readers
+                            :per-word-readers per-word-readers
+                            :any-readers any-readers)))]
+    ;; Bin by tier, sort within each, cap the large bins.
+    (let [bins (group-by :tier (mapv rank-one phrases))
+          tier-counts (into {} (map (fn [[t ps]] [t (count ps)]) bins))
+          sorter (fn [ps] (sort-by (juxt (comp - :score) :text) ps))
+          cap 50]
+      (with-meta
+        (into []
+              (concat (sorter (get bins 0))            ;; SELF — all
+                      (take cap (sorter (get bins 1)))  ;; UNANIMOUS
+                      (take cap (sorter (get bins 2)))  ;; MAJORITY
+                      (take cap (sorter (get bins 3)))  ;; SPLIT
+                      (take cap (sorter (get bins 4)))  ;; SOLO
+                      (take cap (sorter (get bins 5))))) ;; SILENT
+        {:tier-counts tier-counts}))))

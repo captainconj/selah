@@ -1,0 +1,1 @@
+{:containment {:ark-in-hoh false, :hoh-in-tab true, :ark-in-tab false}, :center {:in-ark true, :in-hoh true, :in-tab true}, :lev88 {:position 151144, :coord [3 23 6 59], :in-ark false, :in-hoh false, :in-tab false}, :set-sizes {:ark 2250, :hoh 9100, :intersection 450, :ark-only 1800}}

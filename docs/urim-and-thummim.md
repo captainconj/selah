@@ -73,6 +73,8 @@ The letters ש,כ,ר,ה lit up. Eli read them as **שכרה** ("she is drunk"). 
 
 This is not just a story about a misreading. It is a **description of the mechanism**: the oracle is a transposition cipher. No substitution — the letters don't change. Only their arrangement changes. The Urim illuminates which letters matter. The Thummim (completion/truth) is the correct permutation.
 
+**We located the exact illumination.** By computing the preimage intersection — which set of grid positions can produce BOTH שכרה and כשרה — exactly one position-set survives: Stone 1/Abraham (ר,ה), Stone 8/Issachar (כ), Stone 11/Benjamin (ש). Justice reads שכרה, Mercy reads כשרה, and the single-word reading is **הרכש** ("purchase") — what Hannah was doing: buying her son Samuel with a vow. See [The Eli/Hannah Case — Verified and Located](#the-elihannah-case--verified-and-located) for the full analysis.
+
 The breastplate is a letter grid — 12 stones inscribed with the complete 22-letter alphabet. Letters light up across the grid. The priest reads them in the right order. This is the machine.
 
 ### Rashi — Parchment with the Divine Name
@@ -730,18 +732,51 @@ From the breastplate: the **same illumination pattern** produces both. Light up 
 
 9 total illumination patterns exist. Aaron can read אל from 6 of them. The cherub at God's right from 5. The cherub at God's left reads לא from 6 of them, אל from 3. The left sees negation more often than it sees God — but it still sees God sometimes.
 
-### The Eli/Hannah Case — Verified
+### The Eli/Hannah Case — Verified and Located
 
-Yoma 73b: The letters ש, כ, ר, ה light up. Eli reads שכרה ("drunk"). The correct reading: כשרה ("like Sarah"). Both = 525 = 3 × 5² × 7.
+Yoma 73b: The letters ש, כ, ר, ה light up on the breastplate. Eli reads שכרה ("drunk"). The correct reading: כשרה ("like Sarah"). Both = 525 = 3 × 5² × 7.
 
-The pre-image search confirms:
-- **שכרה** is readable from 21 illumination patterns: 0 by Aaron, 6 by the right cherub, 15 by the left.
-- **כשרה** is readable from only 2 patterns: 1 by the right cherub, 1 by the left.
-- The correct reading (כשרה) is **much harder to find** — only 2 valid readings versus 21 for the misreading.
+**The setting**: Shiloh. The Tabernacle — the portable sanctuary from the wilderness — was set up there semi-permanently before the Temple existed. 1 Samuel 1:9 says Eli was sitting on a seat by the doorpost of the Sanctuary of the LORD. He was the High Priest, on duty, wearing the breastplate facing inward toward the Holy of Holies, toward the ark, toward the cherubim. Hannah came to pray silently — lips moving, no sound. The breastplate responded to her prayer. Eli looked down, saw four letters glowing, and read them wrong.
 
-Eli's error was the easy reading. The correct answer was the rare one. The Thummim — perfection, completion — selects the hard-to-find arrangement. 490 = 7² × 10 is structured; the easy path (15 left-cherub readings) is the temptation.
+**The pre-image search** (experiment 085) confirms the asymmetry:
+- **שכרה** (drunk) has 41 preimage readings across god, left, and right readers.
+- **כשרה** (like Sarah) has only 3 preimage readings — god, right, and left.
+- The wrong answer is 13.7× easier to find than the right one.
 
-Both words use כ from stone 8 (Issachar). Every question containing כ requires Issachar — the stone of reward — to light up. The drunk and the righteous both pass through reward.
+**The unique illumination** — found by preimage intersection:
+
+Both שכרה and כשרה are anagrams (same four letters). For both readings to be valid, the same set of grid positions must support both words under different readers. Computing the intersection of all position-sets that produce שכרה (27 unique sets) with all position-sets that produce כשרה (3 unique sets) yields **exactly one shared illumination**:
+
+| Position | Stone | Letter |
+|----------|-------|--------|
+| [1, 2]   | Stone 1 (Abraham) | ר |
+| [1, 3]   | Stone 1 (Abraham) | ה |
+| [8, 4]   | Stone 8 (Issachar) | כ |
+| [11, 3]  | Stone 11 (Benjamin) | ש |
+
+Four positions on three stones: Abraham (ר,ה), Issachar (כ), Benjamin (ש).
+
+**Who reads what from this unique illumination**:
+- **God/Justice** (He=5, left cherub) reads stones 11→8→1→1: **שכרה** — "drunk"
+- **Mercy/Right** (Yod=10, right cherub) reads stones 8→11→1→1: **כשרה** — "like Sarah"
+
+Eli read with justice. The correct answer required mercy.
+
+**The five Thummim readings** of these four letters (via `parse-letters`):
+
+1. **הרכש** — "purchase/acquisition" (single word, all four letters)
+2. **כשרה** — "like Sarah" (the correct answer)
+3. **שכרה** — "drunk" (Eli's wrong answer)
+4. **כה רש** — "thus + poor"
+5. **כה שר** — "thus + prince/minister"
+
+**The hidden reading**: הרכש (purchase) is the compressed single-word reading — all four letters, no splitting. It names what Hannah was doing. She had vowed her unborn son to God (1 Samuel 1:11): "If you will give your maidservant a son, I will give him to the LORD all the days of his life." That is a transaction. A purchase price paid in advance — the child himself. Samuel (שמואל) means "asked of God."
+
+Three readers see three truths from one illumination: the woman is purchasing (הרכש), she is like Sarah (כשרה), and she appears drunk (שכרה). All three are accurate descriptions of what is happening. The question is which one you choose to speak.
+
+**The stones**: Abraham (who purchased the cave of Machpelah), Issachar (whose name means "there is reward"), Benjamin (son of the right hand). The purchase passes through reward and arrives at the right hand.
+
+Both words use כ from stone 8 (Issachar). Every word containing כ passes through Issachar — the stone of reward. The drunk and the righteous both pass through reward.
 
 ### The Name and Becoming — Same Letters, Same Grid
 
@@ -1645,6 +1680,132 @@ God, run to infinity, returns to the Name.
 ### את — First and Last
 
 את (aleph-tav, GV=401, prime) is a unanimous eigenword — all four heads see it. The first letter and the last letter. The direct object marker. The one who receives the action of every verb. The one the whole sentence — the whole courtroom — points at.
+
+## The Biblical Consultations — Verified on the Grid
+
+Every biblical story where the Urim and Thummim were consulted can be run through the breastplate machine. The results are consistent: the grid's reader-visibility structure matches the theological content of each story.
+
+### 1. Eli and Hannah — 1 Samuel 1:9-18
+
+**The setting**: Shiloh. Eli the High Priest sits at the doorpost of the Tabernacle, breastplate on, facing inward toward the cherubim. Hannah comes to pray silently for a son — lips moving, no sound. The breastplate responds. Four letters glow: ש, כ, ר, ה.
+
+**The preimage intersection**: Both שכרה (drunk) and כשרה (like Sarah) must be readable from the same set of lit positions. Of all possible position-sets — 27 for שכרה, 3 for כשרה — **exactly one is shared**:
+
+| Stone | Position | Letter |
+|-------|----------|--------|
+| 1 (Abraham) | [1,2] | ר |
+| 1 (Abraham) | [1,3] | ה |
+| 8 (Issachar) | [8,4] | כ |
+| 11 (Benjamin) | [11,3] | ש |
+
+Four positions. Three stones. One illumination.
+
+**Who reads what**:
+- **Justice** (left cherub) reads stones 11→8→1→1: **שכרה** — "she is drunk"
+- **Mercy** (right cherub) reads stones 8→11→1→1: **כשרה** — "like Sarah"
+
+Eli chose justice's reading. The correct answer required mercy.
+
+**The hidden reading**: The Thummim (Level 2 phrase assembly) finds five readings of these letters. The single-word reading — all four letters unsplit — is **הרכש** ("purchase"). That's what Hannah was doing. She vowed her unborn son to God (1 Sam 1:11). A transaction. Samuel (שמואל) means "asked of God."
+
+Three truths from one illumination:
+- הרכש (purchase) — what she's doing
+- כשרה (like Sarah) — who she is
+- שכרה (drunk) — what it looks like
+
+**The stones**: Abraham (who purchased the cave), Issachar ("there is reward"), Benjamin (son of the right hand). The purchase passes through reward and arrives at the right hand.
+
+### 2. Saul and Jonathan — 1 Samuel 14:41
+
+**The story**: Jonathan unknowingly broke Saul's oath by eating honey. Saul consults the oracle: "If this guilt is in me or in Jonathan, give Urim. If in your people Israel, give Thummim." The lot falls on Saul and Jonathan.
+
+**On the grid**:
+
+| Name | Readings | Readers |
+|------|----------|---------|
+| יונתן (Jonathan) | 67 | God + Justice |
+| שאול (Saul) | 22 | God + Mercy + Justice |
+| ישראל (Israel) | 58 | God + Mercy |
+
+The binary split maps to the reader structure:
+- **"Give Urim"** (guilt in Saul/Jonathan) → Justice can see both names
+- **"Give Thummim"** (guilt in the people) → Mercy sees Israel; Justice cannot
+
+Jonathan's reading count is **67** — the number of understanding (בינה). He is visible only to God and Justice. Mercy cannot see Jonathan — the innocent one who ate honey, whom the people had to ransom (1 Sam 14:45). The oracle correctly identified the "guilty" party, but the people overruled the verdict with ransom. Mercy operated outside the grid.
+
+### 3. The Ramban's Answer — Judges 20:18
+
+**The story**: Israel asks God "Who shall go up first to fight against Benjamin?" Answer: "Judah shall go up first" (יהודה יעלה).
+
+**The Ramban's insight** (13th century): The letters of the answer — י,ה,ו,ד,ה,י,ע,ל,ה — lit up on the breastplate. The priest had to assemble them into "Judah shall go up." But the same 9 letters also spell יהוה יד עלה — "the hand of YHWH is the offering." The Ramban identified both readings simultaneously in one sentence.
+
+**This example led to the design of the Thummim engine** (`selah.oracle/parse-letters`). Level 1 is the mechanical traversal (which reader sees which word). Level 2 is the cognitive assembly — the priest partitions the lit letters into phrases.
+
+**On the grid** (1,476 total Thummim readings of those 9 letters):
+- 156 **UNANIMOUS** readings (all 4 readers agree). Top: ידה יהוה על — "her hand + YHWH + upon"
+- יהודה יעלה ("Judah shall go up") — **SPLIT**: only God + Justice see both words
+- יהוה יד עלה ("YHWH hand offering") — **SPLIT**: only God + Justice see all three words
+
+Both the Ramban's readings are visible to the same two readers: God and Justice. This was a question about war — who shall go up to fight. Justice answers.
+
+Note: **no mechanical traversal** produces the multi-word answer "Judah shall go up." The experiment (092b) tested all 6,930 illumination patterns of those 9 letters. Zero produce either Ramban phrase as a single traversal. The priest must assemble the answer cognitively. The Ramban identified both Level 1 (traversal) and Level 2 (assembly) in one sentence, eight centuries ago.
+
+### 4. David at Keilah — 1 Samuel 23:9-12
+
+**The story**: David asks through the priest Abiathar (carrying the ephod): "Will Saul come down? Will the men of Keilah surrender me?" God answers: "He will come down." "They will surrender you."
+
+**On the grid**:
+
+| Name | Readings | Readers |
+|------|----------|---------|
+| דוד (David) | 36 | All four — unanimous |
+| קעילה (Keilah) | 2 | Justice alone |
+
+David is visible to everyone — 36 readings, all four readers. But Keilah is visible **only to Justice** — and only barely (2 readings). The city that would betray David can only be seen by the accuser. God told David the truth about Keilah — and David fled.
+
+### 5. David at Ziklag — 1 Samuel 30:7-8
+
+**The story**: The Amalekites raided Ziklag and took captives. David asks: "Shall I pursue?" God answers: "Pursue, for you shall surely overtake and rescue."
+
+**On the grid**:
+
+| Word | Readings | Readers |
+|------|----------|---------|
+| צקלג (Ziklag) | 10 | Mercy + Aaron |
+| רדף (pursue) | 16 | Mercy + Aaron |
+| נגב (Negev/south) | 12 | All four |
+| עמלקי (Amalekite) | 0 | **Unreadable** |
+
+The Amalekite cannot be named by the breastplate. The enemy is invisible to the oracle — as Amalek is to be blotted out (Deut 25:19). But "pursue" (רדף) is visible to Mercy and Aaron — the same readers who can see Ziklag. The answer comes through the same channel as the question.
+
+### 6. Saul Denied — 1 Samuel 28:6
+
+"The LORD did not answer him, either by dreams, or by Urim, or by prophets."
+
+Saul is visible on the grid (22 readings, God + Mercy + Justice). The oracle *can* produce his name. It simply chose not to answer. The silence is not mechanical — it is deliberate.
+
+### 7. Joshua's Commission — Numbers 27:21
+
+"He shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim."
+
+**On the grid**:
+
+| Name | Readings | Readers |
+|------|----------|---------|
+| יהושע (Joshua) | 34 | Mercy + Aaron |
+
+Joshua is visible only to Mercy and Aaron — not to God or Justice directly. This matches the text: Joshua receives the Urim *instead of* direct speech from God. Moses spoke face to face; Joshua goes through the priest. A step mediated by mercy.
+
+### The Pattern
+
+Across all consultations, the grid's reader structure tracks the theological content:
+
+- **Justice** sees guilt (Eli's misreading, Jonathan's honey, Saul and Jonathan together)
+- **Mercy** sees the people (Israel), the place of refuge (Ziklag), the command to pursue and rescue
+- **God** sees almost everything but specifically the hard truths (Jonathan = 67 = understanding)
+- **Aaron** reads David (the king after his own heart) and the pursuit
+- **The enemy** (Amalek) is invisible — blotted from the grid
+- **Silence** is possible — the grid can produce a name but refuse to speak
 
 בראשית ברא אלהים **את** השמים ו**את** הארץ.
 

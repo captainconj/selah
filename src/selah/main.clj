@@ -19,15 +19,7 @@
   (let [f (io/file pid-file)]
     (when (.exists f) (.delete f))))
 
-(defn -main [& _args]
-  (println "[selah] Starting...")
-  (write-pid!)
-  (nrepl/start!)
-  (http/start!)
-  (mcp-socket/start!)
-  (when (.exists (java.io.File. "models/opus-mt-en-he/encoder_model.onnx"))
-    (translate/load!))
-  (println "[selah] Ready. סלה")
+(defn- shutdown-hook! []
   (.addShutdownHook
    (Runtime/getRuntime)
    (Thread. (fn []
@@ -35,5 +27,32 @@
               (mcp-socket/stop!)
               (http/stop!)
               (nrepl/stop!)
-              (clean-pid!))))
+              (clean-pid!)))))
+
+(defn -main [& _args]
+  (println "[selah] Starting...")
+  (write-pid!)
+
+  ;; Services
+  (nrepl/start!)
+  (http/start!)
+  (mcp-socket/start!)
+
+  ;; Translation models (optional, heavy)
+  (when (.exists (java.io.File. "models/opus-mt-en-he/encoder_model.onnx"))
+    (translate/load!))
+  (when (.exists (java.io.File. "models/opus-mt-he-en/encoder_model.onnx"))
+    (translate/load-reverse!))
+
+  (println)
+  (println "[selah] Ready. \u05E1\u05DC\u05D4")
+  (println (str "[selah]   HTTP    http://localhost:" (:port (http/state))))
+  (println (str "[selah]   nREPL   port " (or (:port (nrepl/state)) "?")))
+  (println "[selah]   MCP     port 7889")
+  (when (translate/loaded?)
+    (println "[selah]   en→he translation model loaded"))
+  (when (translate/reverse-loaded?)
+    (println "[selah]   he→en translation model loaded"))
+
+  (shutdown-hook!)
   (.join (Thread/currentThread)))

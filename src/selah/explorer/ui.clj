@@ -11,7 +11,9 @@
             [selah.translate :as translate]
             [selah.dict :as dict]
             [selah.explorer.sweep-ui :as sweep-ui]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.set :as set]
+            [clojure.data.json :as json]))
 
 ;; ── Helpers ──────────────────────────────────────────────────
 
@@ -428,8 +430,8 @@
               :dir "auto" :autocomplete "off"}]
      [:button {:type "submit"} "Parse"]]]
 
-   ;; Breastplate grid (idle state)
-   (breastplate-grid)
+   ;; Breastplate grid (idle state) — #breastplate allows OOB swap from English tab
+   [:div#breastplate (breastplate-grid)]
 
    ;; Result area
    [:div#oracle-result]
@@ -699,38 +701,290 @@
                 (str/join " + " (remove nil? meanings))]
                [:div.rarity-count (str "GV=" gv)]])]))])))
 
+(defn- tier-badge
+  "Render a tier badge with appropriate styling."
+  [tier tier-name]
+  [:span.badge {:class (str "tier-" tier)} tier-name])
+
+(def ^:private reader-labels
+  {:god "God" :right "Mercy" :left "Justice" :aaron "Aaron"})
+
+(def ^:private reader-css
+  {:god "reader-god" :right "reader-right" :left "reader-left" :aaron "reader-aaron"})
+
+(defn- reader-badges
+  "Show which readers can see a phrase (or per-word readers)."
+  [readers per-word-readers]
+  (when (or (seq readers) (some seq per-word-readers))
+    [:span.reader-badges
+     (if (seq readers)
+       ;; All readers see every word — show as solid badges
+       (for [r (sort-by {:god 0 :right 1 :left 2 :aaron 3} readers)]
+         [:span.badge {:class (reader-css r)} (reader-labels r)])
+       ;; Show per-word reader info as dim badges for partial coverage
+       (let [any (apply set/union #{} per-word-readers)]
+         (for [r (sort-by {:god 0 :right 1 :left 2 :aaron 3} any)]
+           [:span.badge.reader-partial {:class (reader-css r)} (reader-labels r)])))]))
+
+(defn- phrase-card
+  "Render a single ranked phrase reading."
+  [{:keys [text english gv gv-props tier tier-name self? phrase
+           readers per-word-readers]}]
+  [:div.rarity-item
+   (tier-badge tier tier-name)
+   [:div.rarity-word {:class (if (< tier 4) "known" "unknown-word")}
+    [:span {:dir "rtl"} text]]
+   [:div.rarity-meaning
+    (let [meanings (remove nil? english)]
+      (if (seq meanings)
+        (str/join " + " meanings)
+        (str/join " + " (map #(or (dict/translate %) "?") phrase))))]
+   (reader-badges readers per-word-readers)
+   [:div.rarity-count
+    (str "GV=" gv)
+    (when (seq gv-props)
+      (list " " (props-badges gv-props)))]])
+
 (defn oracle-translate-result
-  "Translation result: English → Hebrew → oracle readings."
-  [{:keys [english hebrew hebrew-letters gv readings]}]
-  [:div
+  "Translation result: English → Hebrew → ranked oracle readings."
+  [{:keys [english hebrew hebrew-letters gv readings synthesis lit-positions per-word-lit]}]
+  (list
+   ;; Out-of-band swap: show all lit positions by default
+   [:div#breastplate {:hx-swap-oob "true"}
+    (breastplate-grid lit-positions)]
+
+   ;; Hover illumination script
+   (when (seq per-word-lit)
+     [:script (h/raw
+       (str "
+(function(){
+  var allPos = " (json/write-str (mapv (fn [[s i]] [s i]) (vec (or lit-positions #{})))) ";
+  var grid = document.querySelector('#breastplate .bp-grid');
+  if (!grid) return;
+  function illuminate(positions) {
+    var cells = grid.querySelectorAll('td.stone');
+    cells.forEach(function(td) {
+      var num = td.querySelector('.stone-num');
+      if (!num) return;
+      var s = parseInt(num.textContent.replace('S',''));
+      var spans = td.querySelector('.stone-letters').children;
+      for (var i = 0; i < spans.length; i++) { spans[i].className = 'dim'; }
+      positions.forEach(function(p) {
+        if (p[0] === s && p[1] < spans.length) spans[p[1]].className = 'lit';
+      });
+    });
+  }
+  document.querySelectorAll('.hebrew-word').forEach(function(el) {
+    el.addEventListener('mouseenter', function() {
+      illuminate(JSON.parse(el.dataset.pos));
+    });
+    el.addEventListener('mouseleave', function() {
+      illuminate(allPos);
+    });
+  });
+})();
+"))])
+
+   [:div
+   ;; Translation header — Hebrew words are hoverable
    [:div.section
     [:h2 "Translation"]
     [:p {:style "font-size:0.85rem;color:#a1a1aa"} english]
     [:div {:style "display:flex;align-items:baseline;gap:1rem;margin:0.5rem 0"}
-     [:span.hebrew {:style "font-size:2rem"} hebrew]
+     [:span.hebrew {:style "font-size:2rem;direction:rtl"}
+      (if (seq per-word-lit)
+        (interpose " "
+          (for [{:keys [word positions]} per-word-lit]
+            [:span.hebrew-word
+             {:data-pos (json/write-str (mapv (fn [[s i]] [s i]) positions))
+              :style "cursor:pointer;transition:color 0.2s"}
+             word]))
+        hebrew)]
      [:span {:style "color:#71717a;font-size:0.85rem"} (str "letters: " hebrew-letters)]
-     [:span {:style "color:#71717a;font-size:0.85rem"} (str "GV=" gv)]]]
+     [:span {:style "color:#71717a;font-size:0.85rem"} (str "GV=" gv)
+      (when-let [props (oracle/gv-properties gv)]
+        (list " " (props-badges props)))]]]
 
    (if (seq readings)
-     [:div.section
-      [:h2 (str (count readings) " phrase reading"
-            (when (not= (count readings) 1) "s"))]
-      [:p {:style "color:#a1a1aa;font-size:0.75rem"}
-       "The oracle partitions the Hebrew letters into Torah words."]
-      (let [by-count (group-by :words readings)]
-        (for [[n ps] (sort-by key by-count)]
-          [:div {:style "margin-top:0.75rem"}
-           [:h3 (if (= n 1)
-                  "Single words"
-                  (str n "-word phrases"))]
-           (for [{:keys [text meanings gv]} ps]
-             [:div.rarity-item
-              [:div.rarity-word.known [:span {:dir "rtl"} text]]
-              [:div.rarity-meaning (str/join " + " (remove nil? meanings))]
-              [:div.rarity-count (str "GV=" gv)]])]))]
+     (let [self-reading (:self-reading synthesis)
+           tier-counts (or (:tier-counts synthesis)
+                           (frequencies (map :tier readings)))
+           by-tier (group-by :tier readings)
+           ;; Best non-self readings for the "oracle speaks" header
+           top (or (seq (remove :self? (take 3 (or (:top synthesis)
+                                                    (take 4 readings)))))
+                   (take 3 readings))]
+       [:div
+        ;; Oracle speaks — synthesis header
+        [:div.section.oracle-speaks
+         [:h2 "The oracle speaks"]
+         (when self-reading
+           (phrase-card self-reading))
+         (for [r top]
+           (phrase-card r))]
 
+        ;; Tier section helper
+        (letfn [(tier-section [tier label desc cap & {:keys [collapsed?]}]
+                  (when-let [items (seq (get by-tier tier))]
+                    (let [total (get tier-counts tier (count items))
+                          shown (take cap items)
+                          hidden (- total (count shown))
+                          content (list
+                                   (when desc
+                                     [:p {:style "color:#a1a1aa;font-size:0.75rem"} desc])
+                                   (for [r shown] (phrase-card r))
+                                   (when (pos? hidden)
+                                     [:p {:style "color:#52525b;font-size:0.75rem;margin-top:0.5rem"}
+                                      (str hidden " more not shown.")]))]
+                      (if collapsed?
+                        [:details.section
+                         [:summary [:h2 {:style "display:inline"}
+                                    (str label " (" total ")")]]
+                         content]
+                        [:div.section
+                         [:h2 (str label " (" total ")")]
+                         content]))))]
+
+          (list
+           ;; Tier 1: Unanimous — all 4 readers agree
+           (tier-section 1 "Unanimous" "All four readers see every word." 20)
+
+           ;; Tier 2: Majority — 3 readers
+           (tier-section 2 "Majority" "Three readers agree." 20)
+
+           ;; Tier 3: Split — 2 readers
+           (tier-section 3 "Split" nil 15 :collapsed? true)
+
+           ;; Tier 4: Solo — 1 reader only
+           (tier-section 4 "Solo" nil 10 :collapsed? true)
+
+           ;; Tier 5: Silent — no reader can produce it
+           (tier-section 5 "Silent" nil 10 :collapsed? true)))])
+
+     ;; No readings
      [:div.section
-      [:p "No oracle readings found for these letters."]])])
+      [:p "No oracle readings found for these letters."]])]))
+
+;; ── Basin of Attraction ──────────────────────────────────────
+
+(defn basin-content
+  "The basin page — enter a word, watch it flow to a fixed point."
+  []
+  [:div#basin
+   [:div.basin-header
+    [:h1 "אגן משיכה"]
+    [:p "Feed a word to the oracle. Feed the answer back in. Watch it converge."]]
+
+   ;; The three system attractors
+   [:div.basin-stars
+    [:div.basin-star
+     [:div.star-word "אהבה"]
+     [:div.star-meaning "love"]
+     [:div.star-gv "13"]]
+    [:div.basin-star
+     [:div.star-word "אמת"]
+     [:div.star-meaning "truth"]
+     [:div.star-gv "441"]]
+    [:div.basin-star
+     [:div.star-word "חיים"]
+     [:div.star-meaning "life"]
+     [:div.star-gv "68"]]]
+
+   ;; Mode tabs
+   [:div.basin-tabs
+    [:button.basin-tab.active {:data-mode "echo" :onclick "switchBasinMode('echo')"} "Echo"]
+    [:button.basin-tab {:data-mode "flow" :onclick "switchBasinMode('flow')"} "Flow"]]
+
+   [:div.basin-form
+    [:form#basin-form {:hx-get "/fragment/basin/walk"
+                       :hx-target "#basin-result"
+                       :hx-indicator "#basin-result"}
+     [:input {:type "text" :name "word" :id "basin-word"
+              :placeholder "Enter a word..."
+              :dir "auto" :autocomplete "off" :autofocus true}]
+     [:input {:type "hidden" :name "mode" :id "basin-mode" :value "echo"}]
+     [:button {:type "submit"} "Walk"]]]
+
+   ;; Suggested words
+   [:div.basin-suggest
+    [:span.basin-suggest-label "Try: "]
+    (for [w ["כבש" "ברא" "שבע" "אהבה" "אמת" "חיים" "תורה" "שלום" "דם" "יין"]]
+      [:a.basin-try {:href "#"
+                     :onclick (str "document.getElementById('basin-word').value='"
+                                   w "';document.getElementById('basin-form').requestSubmit();return false;")}
+       w])]
+
+   [:div#basin-result]
+
+   ;; Mode switch script
+   [:script (h/raw "function switchBasinMode(mode) {
+      document.querySelectorAll('.basin-tab').forEach(function(t){t.classList.remove('active')});
+      document.querySelector('[data-mode=\"'+mode+'\"]').classList.add('active');
+      document.getElementById('basin-mode').value = mode;
+      var word = document.getElementById('basin-word').value;
+      if (word) document.getElementById('basin-form').requestSubmit();
+    }")]])
+
+(defn basin-walk-result
+  "The animated walk from word to fixed point (or cycle/dead-end)."
+  [result]
+  (let [{:keys [steps converged? fixed-point cycle? cycle-word dead-end]} result
+        n (count steps)]
+    [:div
+     [:div.basin-path
+      (for [[i s] (map-indexed vector steps)]
+        (list
+         [:div.basin-step
+          {:class (when (and (= i (dec n)) converged?) "fixed-point")
+           :style (str "animation-delay:" (* i 0.12) "s")}
+          [:span.step-num (str (inc i))]
+          [:span.step-word
+           [:a {:href (str "/word/" (hu/url-encode (:word s)))
+                :hx-get (str "/fragment/word/" (hu/url-encode (:word s)))
+                :hx-target "#main"
+                :hx-push-url (str "/word/" (hu/url-encode (:word s)))
+                :style "color: inherit; text-decoration: none;"}
+            (:word s)]]
+          [:span.step-meaning (or (:meaning s) "")]
+          [:span.step-meta
+           [:span.step-gv (str (:gv s))]
+           (str " \u00b7 " (:weight s) "/" (:total-readings s))]]
+         (when (< i (dec n))
+           [:div.basin-arrow
+            {:class (when (and converged? (= i (- n 2))) "converging")}
+            "\u2193"])))]
+
+     [:div.basin-summary
+      (cond
+        converged?
+        [:div
+         [:div.fixed (str fixed-point)]
+         [:div.label
+          (let [last-step (peek steps)]
+            (str (or (dict/translate fixed-point) "") " = " (or (:gv last-step) "")))
+          [:br]
+          (str "Converged in " n " step" (when (not= n 1) "s"))]]
+
+        cycle?
+        [:div
+         [:div {:style "color: #fbbf24; font-size: 1.2rem;"} "\u21bb Cycle"]
+         [:div.label (str "Orbiting through " cycle-word " \u2014 no fixed point reached")]]
+
+        dead-end
+        [:div
+         [:div {:style "color: #71717a; font-size: 1.2rem;"}
+          (if (= dead-end (:start result))
+            (str dead-end " speaks only itself")
+            (str dead-end " \u2014 no further transitions"))]
+         [:div.label
+          (when-let [m (dict/translate dead-end)]
+            (str m " \u2014 "))
+          "switch to Echo mode to see the self-loop"]]
+
+        :else
+        [:div
+         [:div {:style "color: #71717a;"} "Did not converge"]
+         [:div.label (str "Reached " n " steps without settling")]])]]))
 
 ;; ── Layout ───────────────────────────────────────────────────
 
@@ -753,6 +1007,8 @@
   a:hover { text-decoration: underline; color: #93bbfc; }
 
   .hebrew { font-size: 2.5rem; direction: rtl; font-family: 'SBL Hebrew', 'David', serif; }
+  .hebrew-word { cursor: pointer; transition: color 0.2s; }
+  .hebrew-word:hover { color: #fbbf24; }
   .word-header { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #27272a; }
   .word-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem; }
   .stat { font-size: 0.85rem; color: #a1a1aa; }
@@ -814,6 +1070,7 @@
   nav { margin-bottom: 1rem; }
   nav a { margin-right: 1rem; font-size: 0.85rem; color: #71717a; }
   nav a:hover { color: #d4d4d8; }
+  .nav-label { font-size: 0.7rem; color: #52525b; font-family: 'IBM Plex Mono', monospace; }
 
   /* Breastplate grid */
   .breastplate { margin: 1.5rem auto; max-width: 480px; }
@@ -879,6 +1136,94 @@
   .oracle-form input[dir=ltr] { direction: ltr; text-align: left;
     font-family: 'IBM Plex Mono', 'Menlo', monospace; font-size: 1rem; }
   .oracle-warning { color: #f87171; font-size: 0.8rem; text-align: center; margin-top: 0.5rem; }
+
+  /* Tier badges — reader agreement */
+  .badge.tier-0 { background: #422006; color: #fbbf24; border: 1px solid #854d0e; }
+  .badge.tier-1 { background: #1a3320; color: #86efac; border: 1px solid #166534; }
+  .badge.tier-2 { background: #1e3a5f; color: #7dd3fc; border: 1px solid #0369a1; }
+  .badge.tier-3 { background: #2d2006; color: #fcd34d; border: 1px solid #854d0e; }
+  .badge.tier-4 { background: #2d1b1b; color: #fca5a5; border: 1px solid #7f1d1d; }
+  .badge.tier-5 { background: #1e1e2a; color: #52525b; border: 1px solid #27272a; }
+  .oracle-speaks { border-color: #854d0e; }
+  details.section > summary { cursor: pointer; }
+  details.section > summary h2 { display: inline; }
+
+  /* Reader badges */
+  .reader-badges { display: inline-flex; gap: 0.15rem; margin: 0 0.3rem; }
+  .badge.reader-god { background: #1a1a3e; color: #a78bfa; border: 1px solid #6d28d9; }
+  .badge.reader-right { background: #1a2e1a; color: #86efac; border: 1px solid #166534; }
+  .badge.reader-left { background: #2d1b1b; color: #fca5a5; border: 1px solid #7f1d1d; }
+  .badge.reader-aaron { background: #2d2006; color: #fbbf24; border: 1px solid #854d0e; }
+  .badge.reader-partial { opacity: 0.5; }
+
+  /* Basin of attraction */
+  .basin-header { text-align: center; margin-bottom: 1.5rem; }
+  .basin-header h1 { font-family: 'SBL Hebrew', 'David', serif; font-size: 2.5rem; color: #86efac; }
+  .basin-header p { color: #71717a; font-style: italic; font-size: 0.85rem; }
+  .basin-form { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 1.5rem; }
+  .basin-form input { background: #111118; border: 1px solid #27272a; color: #e4e4e7; padding: 0.5rem 1rem;
+                      border-radius: 6px; font-size: 1.3rem; width: 250px;
+                      font-family: 'SBL Hebrew', 'David', serif; direction: rtl; }
+  .basin-form input:focus { outline: none; border-color: #86efac; }
+  .basin-form button { background: #1a3320; color: #86efac; border: 1px solid #166534; padding: 0.5rem 1rem;
+                       border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+  .basin-form button:hover { background: #254a30; }
+
+  .basin-path { display: flex; flex-direction: column; align-items: center; gap: 0; margin: 1rem 0; }
+  .basin-step { display: flex; align-items: center; gap: 1rem; padding: 0.6rem 1.2rem;
+                background: #111118; border: 1px solid #1e1e2a; border-radius: 8px;
+                width: 100%; max-width: 600px; transition: all 0.3s;
+                animation: basin-fade-in 0.4s ease-out both; }
+  .basin-step:hover { border-color: #3f3f46; background: #16161f; }
+  .basin-step.fixed-point { border-color: #166534; background: #0f1f15; }
+  .basin-step.fixed-point .step-word { color: #86efac; text-shadow: 0 0 12px rgba(134,239,172,0.3); }
+  .basin-arrow { color: #3f3f46; font-size: 1.2rem; padding: 0.2rem 0; }
+  .basin-arrow.converging { color: #86efac; }
+  .step-num { font-size: 0.65rem; color: #52525b; min-width: 20px; }
+  .step-word { font-family: 'SBL Hebrew', 'David', serif; font-size: 1.5rem; direction: rtl; color: #e4e4e7;
+               min-width: 80px; text-align: center; }
+  .step-meaning { font-size: 0.8rem; color: #71717a; font-style: italic; flex: 1; }
+  .step-meta { font-size: 0.65rem; color: #52525b; text-align: right; white-space: nowrap; }
+  .step-gv { color: #a78bfa; }
+
+  .basin-summary { text-align: center; margin-top: 1.5rem; padding: 1rem; background: #111118;
+                   border-radius: 8px; border: 1px solid #1e1e2a; }
+  .basin-summary .fixed { color: #86efac; font-family: 'SBL Hebrew', 'David', serif; font-size: 1.8rem; }
+  .basin-summary .label { color: #71717a; font-size: 0.85rem; margin-top: 0.3rem; }
+
+  .basin-stars { display: flex; justify-content: center; gap: 2rem; margin: 1.5rem 0; }
+  .basin-star { text-align: center; padding: 1rem; background: #111118; border: 1px solid #1e1e2a;
+                border-radius: 8px; min-width: 100px; }
+  .basin-star .star-word { font-family: 'SBL Hebrew', 'David', serif; font-size: 1.8rem; color: #86efac;
+                           text-shadow: 0 0 12px rgba(134,239,172,0.3); }
+  .basin-star .star-meaning { font-size: 0.75rem; color: #71717a; margin-top: 0.2rem; }
+  .basin-star .star-gv { font-size: 0.65rem; color: #a78bfa; }
+
+  .basin-tabs { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 1rem; }
+  .basin-tab { padding: 0.4rem 1rem; border: 1px solid #27272a; border-radius: 6px; background: #111118;
+               color: #71717a; cursor: pointer; font-size: 0.85rem; transition: all 0.15s; }
+  .basin-tab.active { background: #1a3320; color: #86efac; border-color: #166534; }
+  .basin-suggest { text-align: center; margin: 0.75rem 0 1rem; }
+  .basin-suggest-label { font-size: 0.75rem; color: #52525b; }
+  .basin-try { display: inline-block; padding: 0.15rem 0.5rem; margin: 0.1rem; background: #1a1a2e;
+               border: 1px solid #2a2a3e; border-radius: 4px; font-family: 'SBL Hebrew', 'David', serif;
+               font-size: 1rem; color: #a1a1aa; cursor: pointer; transition: all 0.15s; text-decoration: none; }
+  .basin-try:hover { background: #252540; border-color: #86efac; color: #86efac; text-decoration: none; }
+
+  @keyframes basin-fade-in {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .basin-step:nth-child(1) { animation-delay: 0s; }
+  .basin-step:nth-child(2) { animation-delay: 0.1s; }
+  .basin-step:nth-child(3) { animation-delay: 0.2s; }
+  .basin-step:nth-child(4) { animation-delay: 0.3s; }
+  .basin-step:nth-child(5) { animation-delay: 0.4s; }
+  .basin-step:nth-child(6) { animation-delay: 0.5s; }
+  .basin-step:nth-child(7) { animation-delay: 0.6s; }
+  .basin-step:nth-child(8) { animation-delay: 0.7s; }
+  .basin-step:nth-child(9) { animation-delay: 0.8s; }
+  .basin-step:nth-child(10) { animation-delay: 0.9s; }
   ")
 
 (defn layout [content]
@@ -894,11 +1239,17 @@
       [:script {:src "https://unpkg.com/htmx.org@2.0.4"}]]
      [:body
       [:nav
-       [:a {:href "/" :hx-get "/fragment/home" :hx-target "#main" :hx-push-url "/"} "סלה"]
+       [:a {:href "/" :hx-get "/fragment/home" :hx-target "#main" :hx-push-url "/"}
+        "סלה " [:span.nav-label "Home"]]
        " "
-       [:a {:href "/oracle" :hx-get "/fragment/oracle" :hx-target "#main" :hx-push-url "/oracle"} "אורים"]
+       [:a {:href "/oracle" :hx-get "/fragment/oracle" :hx-target "#main" :hx-push-url "/oracle"}
+        "אורים " [:span.nav-label "Oracle"]]
        " "
-       [:a {:href "/sweep" :hx-get "/fragment/sweep" :hx-target "#main" :hx-push-url "/sweep"} "תמים"]
+       [:a {:href "/sweep" :hx-get "/fragment/sweep" :hx-target "#main" :hx-push-url "/sweep"}
+        "תמים " [:span.nav-label "Sweep"]]
+       " "
+       [:a {:href "/basin" :hx-get "/fragment/basin" :hx-target "#main" :hx-push-url "/basin"}
+        "אגן " [:span.nav-label "Basin"]]
        " "]
       [:div#main content]]])))
 
