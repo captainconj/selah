@@ -139,13 +139,13 @@ In Hebrew, this repeat produces **היו** (there were / they were) 132 times. T
 | Protein | 4-win | Total | Top 4-letter word |
 |---------|-------|-------|-------------------|
 | p53 (Guardian) | 87 | 390 | ממנה (from her) ×3 |
-| Serpent toxin | 14 | 92 | (each unique) |
+| BRCA1 | 394 | 1,860 | הציל (saved) ×5 |
 | Hemoglobin-α | 16 | 139 | נודע (known) ×2 |
 | Hemoglobin-β | 25 | 144 | נגשי (approach) ×2 |
 | Myoglobin | 27 | 151 | למתי (when) ×2 |
 | Insulin | 10 | 107 | נכבד (honourable) ×2 |
 | Collagen I | 310 | 1,461 | **וקדש (and sanctify) ×19** |
-| Laminin | 265 | 1,606 | חרנה ×3 |
+| Laminin | 265 | 1,606 | הנחש (THE serpent) ×3 |
 | Histone H3 | 22 | 133 | וקדר (and gloom) ×2 |
 | Histone H4 | 15 | 100 | משני (secondary) ×2 |
 | Ubiquitin | 171 | 682 | **ומשל (and proverb) ×9** |
@@ -154,10 +154,10 @@ In Hebrew, this repeat produces **היו** (there were / they were) 132 times. T
 | ATP synthase | 108 | 526 | ומשל (and proverb) ×3 |
 | RNA Pol II | 487 | 1,967 | **יהיו (they shall be) ×61** |
 | Ribosomal S3 | 45 | 240 | ולשת ×2 |
-| Ferredoxin | 30 | 181 | שריד (remnant) ×4 |
+| Ferredoxin | 30 | 181 | **שריד (remnant) ×4** |
 | Calmodulin | 29 | 146 | דלקת ×3 |
 | Immunoglobulin | 66 | 396 | ולקט ×3 |
-| Serpent toxin | 14 | 92 | (all unique) |
+| Serpent toxin | 14 | 92 | (all unique — 10 carry weight) |
 | FOXP2 | 120 | 712 | ינצו ×6 |
 
 ### Highlights
@@ -173,6 +173,18 @@ In Hebrew, this repeat produces **היו** (there were / they were) 132 times. T
 **Calmodulin: הנחש (THE serpent).** At 3 letters, multiple proteins say נחש (serpent). At 4 letters, calmodulin says הנחש — with the definite article. Not "a serpent" but "THE serpent."
 
 **Ferredoxin: שריד (remnant) ×4.** The most ancient protein says "remnant" — the survivor.
+
+**BRCA1: הציל (saved) ×5.** The DNA repair guardian says "saved" five times. It also says מבול (flood) at 528, והבל (and Abel) at 527, and לילה (night) twice. The guardian who repairs the scroll remembers the flood and the first murder.
+
+### Cross-Protein 4-Letter Patterns
+
+**Birth.** Hemoglobin-α says ותלד→הלדת (she gave birth → the birth) at its end. BRCA1 says תלדי (give birth) twice. Calmodulin says תלדי once. The blood and the guardians carry birth.
+
+**The cry.** Myoglobin: יצעק (he will cry out). Genesis 4:10 — the blood cries from the ground. The blood protein cries.
+
+**Snow.** Myoglobin: כשלג (like snow). The oxygen carrier — the one that makes blood red — says "like snow." White.
+
+**The guardian saves.** p53 says הציל (saved) once. BRCA1 says it five times. The backup guardian saves more than the primary. When BRCA1 is lost, cancer follows — the saving stops.
 
 ---
 
