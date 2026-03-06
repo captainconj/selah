@@ -1,0 +1,48 @@
+;; Base composition comparison: Torah genome vs real genomes
+
+{
+  :torah {
+    :A 0.372261
+    :C 0.336435
+    :G 0.174935
+    :T 0.116370
+    :gc 0.511369
+    :entropy 1.860542
+    :chargaff-AT 3.198942
+    :chargaff-GC 0.519967
+    :length 305474
+  }
+  :ecoli_306k {
+    :A 0.237667
+    :C 0.250989
+    :G 0.269482
+    :T 0.241863
+    :gc 0.520471
+    :entropy 1.998290
+    :chargaff-AT 0.982653
+    :chargaff-GC 1.073683
+    :length 306269
+  }
+  :human_chr1_306k {
+    :A 0.188530
+    :C 0.311477
+    :G 0.303856
+    :T 0.196137
+    :gc 0.615333
+    :entropy 1.961095
+    :chargaff-AT 0.961213
+    :chargaff-GC 0.975534
+    :length 306270
+  }
+  :human_mitochondria {
+    :A 0.309271
+    :C 0.312711
+    :G 0.130915
+    :T 0.247103
+    :gc 0.443626
+    :entropy 1.930434
+    :chargaff-AT 1.251588
+    :chargaff-GC 0.418645
+    :length 16568
+  }
+}

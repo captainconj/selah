@@ -1,0 +1,150 @@
+{
+  :experiment "097/spy3"
+  :title "Sefer Yetzirah x Genetic Code"
+  :total_letters 304804
+  :sefer_yetzirah {
+    :mothers "אמש (3)"
+    :doubles "בגדכפרת (7)"
+    :simples "הוזחטילנסעצק (12)"
+    :mother_pct 22.230000
+    :double_pct 25.700000
+    :simple_pct 52.070000
+  }
+  :approaches {
+    :A {
+      :description "Elemental mothers + at-bash pairing"
+      :base_frequencies {
+        :A 14.766200
+        :C 18.576200
+        :G 10.479200
+        :T 56.178400
+      }
+      :gc_content 29.060000
+      :chargaff_AT_ratio 0.262800
+      :chargaff_GC_ratio 0.564100
+      :chargaff_satisfied false
+      :groups {
+        :A "את"
+        :C "ימ"
+        :G "בש"
+        :T "גדהוזחטכלנסעפצקר"
+      }
+      :genome_scores {
+        :human_mitochondria {
+          :freq_distance 37.674900
+          :gc_diff 15.310000
+        }
+        :ecoli_306k {
+          :freq_distance 37.660000
+          :gc_diff 22.990000
+        }
+        :human_chr1_306k {
+          :freq_distance 43.680500
+          :gc_diff 32.480000
+        }
+      }
+    }
+    :B {
+      :description "Hydrogen bond analogy: mothers→G/C, doubles→A/T, simples distributed"
+      :base_frequencies {
+        :A 27.735900
+        :C 17.328500
+        :G 22.527300
+        :T 32.408400
+      }
+      :gc_content 39.860000
+      :chargaff_AT_ratio 0.855800
+      :chargaff_GC_ratio 1.300000
+      :chargaff_satisfied false
+      :groups {
+        :A "הטכספרת"
+        :C "זלמצ"
+        :G "אחנקש"
+        :T "בגדויע"
+      }
+      :genome_scores {
+        :human_mitochondria {
+          :freq_distance 18.785000
+          :gc_diff 4.510000
+        }
+        :ecoli_306k {
+          :freq_distance 12.778100
+          :gc_diff 12.190000
+        }
+        :human_chr1_306k {
+          :freq_distance 22.256000
+          :gc_diff 21.680000
+        }
+      }
+    }
+    :C {
+      :description "Direct SY: each mother anchors a group of 4, doubles+3 simples→T"
+      :base_frequencies {
+        :A 28.813600
+        :C 21.527300
+        :G 17.428200
+        :T 32.230900
+      }
+      :gc_content 38.960000
+      :chargaff_AT_ratio 0.894000
+      :chargaff_GC_ratio 0.809600
+      :chargaff_satisfied false
+      :groups {
+        :A "אהוז"
+        :C "חטימ"
+        :G "לנסש"
+        :T "בגדכעפצקרת"
+      }
+      :genome_scores {
+        :human_mitochondria {
+          :freq_distance 13.220300
+          :gc_diff 5.410000
+        }
+        :ecoli_306k {
+          :freq_distance 13.913000
+          :gc_diff 13.090000
+        }
+        :human_chr1_306k {
+          :freq_distance 22.778300
+          :gc_diff 22.580000
+        }
+      }
+    }
+    :D_best {
+      :description "Mothers: א→A מ→C ש→G. Score=1451570"
+      :base_frequencies {
+        :A 25.035800
+        :C 25.079700
+        :G 24.675900
+        :T 25.208700
+      }
+      :gc_content 49.760000
+      :chargaff_AT_ratio 0.993100
+      :chargaff_GC_ratio 0.983900
+      :chargaff_satisfied true
+      :groups {
+        :A "אבגדזל"
+        :C "הכמספק"
+        :G "וחצשת"
+        :T "טינער"
+      }
+      :genome_scores {
+        :human_mitochondria {
+          :freq_distance 14.404400
+          :gc_diff 5.390000
+        }
+        :ecoli_306k {
+          :freq_distance 2.796400
+          :gc_diff 2.290000
+        }
+        :human_chr1_306k {
+          :freq_distance 11.787800
+          :gc_diff 11.780000
+        }
+      }
+    }
+  }
+  :best_approach "D_best"
+  :best_genome "ecoli_306k"
+  :best_freq_distance 2.796400
+}

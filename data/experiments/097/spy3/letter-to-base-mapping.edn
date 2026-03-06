@@ -1,0 +1,27 @@
+;; Breastplate letter-to-DNA-base mapping
+;; Row 1 -> A, Row 2 -> C, Row 3 -> G, Row 4 -> T
+
+{
+  "א" {:letter "א" :primary-row 1 :primary-base "A" :all-rows {1: 2, 3: 1} :multi-row true}
+  "ב" {:letter "ב" :primary-row 1 :primary-base "A" :all-rows {1: 3, 3: 1, 4: 2} :multi-row true}
+  "ג" {:letter "ג" :primary-row 3 :primary-base "G" :all-rows {3: 1} :multi-row false}
+  "ד" {:letter "ד" :primary-row 2 :primary-base "C" :all-rows {2: 2, 3: 1} :multi-row true}
+  "ה" {:letter "ה" :primary-row 2 :primary-base "C" :all-rows {1: 1, 2: 2} :multi-row true}
+  "ו" {:letter "ו" :primary-row 2 :primary-base "C" :all-rows {1: 1, 2: 3, 3: 1, 4: 2} :multi-row true}
+  "ז" {:letter "ז" :primary-row 3 :primary-base "G" :all-rows {3: 1} :multi-row false}
+  "ח" {:letter "ח" :primary-row 1 :primary-base "A" :all-rows {1: 1} :multi-row false}
+  "ט" {:letter "ט" :primary-row 4 :primary-base "T" :all-rows {4: 1} :multi-row false}
+  "י" {:letter "י" :primary-row 4 :primary-base "T" :all-rows {1: 2, 2: 2, 3: 3, 4: 4} :multi-row true}
+  "כ" {:letter "כ" :primary-row 3 :primary-base "G" :all-rows {3: 1} :multi-row false}
+  "ל" {:letter "ל" :primary-row 3 :primary-base "G" :all-rows {2: 1, 3: 2} :multi-row true}
+  "מ" {:letter "מ" :primary-row 1 :primary-base "A" :all-rows {1: 1, 2: 1, 4: 1} :multi-row true}
+  "נ" {:letter "נ" :primary-row 2 :primary-base "C" :all-rows {1: 1, 2: 3, 3: 1, 4: 3} :multi-row true}
+  "ס" {:letter "ס" :primary-row 4 :primary-base "T" :all-rows {4: 1} :multi-row false}
+  "ע" {:letter "ע" :primary-row 1 :primary-base "A" :all-rows {1: 1, 2: 1} :multi-row true}
+  "פ" {:letter "פ" :primary-row 2 :primary-base "C" :all-rows {2: 1, 4: 1} :multi-row true}
+  "צ" {:letter "צ" :primary-row 1 :primary-base "A" :all-rows {1: 1} :multi-row false}
+  "ק" {:letter "ק" :primary-row 1 :primary-base "A" :all-rows {1: 2} :multi-row false}
+  "ר" {:letter "ר" :primary-row 1 :primary-base "A" :all-rows {1: 2, 3: 2, 4: 1} :multi-row true}
+  "ש" {:letter "ש" :primary-row 3 :primary-base "G" :all-rows {2: 1, 3: 3, 4: 2} :multi-row true}
+  "ת" {:letter "ת" :primary-row 2 :primary-base "C" :all-rows {2: 1} :multi-row false}
+}

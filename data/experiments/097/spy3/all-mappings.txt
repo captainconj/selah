@@ -1,0 +1,32 @@
+=== A: Elemental mothers + at-bash pairing ===
+  A: א ת (2 letters)
+  C: י מ (2 letters)
+  G: ב ש (2 letters)
+  T: ג ד ה ו ז ח ט כ ל נ ס ע פ צ ק ר (16 letters)
+Freqs: A=14.77%, C=18.58%, G=10.48%, T=56.18%
+GC: 29.1%
+
+=== B: Hydrogen bond analogy: mothers→G/C, doubles→A/T, simples distributed ===
+  A: ה ט כ ס פ ר ת (7 letters)
+  C: ז ל מ צ (4 letters)
+  G: א ח נ ק ש (5 letters)
+  T: ב ג ד ו י ע (6 letters)
+Freqs: A=27.74%, C=17.33%, G=22.53%, T=32.41%
+GC: 39.9%
+
+=== C: Direct SY: each mother anchors a group of 4, doubles+3 simples→T ===
+  A: א ה ו ז (4 letters)
+  C: ח ט י מ (4 letters)
+  G: ל נ ס ש (4 letters)
+  T: ב ג ד כ ע פ צ ק ר ת (10 letters)
+Freqs: A=28.81%, C=21.53%, G=17.43%, T=32.23%
+GC: 39.0%
+
+=== D_best: Mothers: א→A מ→C ש→G. Score=1451570 ===
+  A: א ב ג ד ז ל (6 letters)
+  C: ה כ מ ס פ ק (6 letters)
+  G: ו ח צ ש ת (5 letters)
+  T: ט י נ ע ר (5 letters)
+Freqs: A=25.04%, C=25.08%, G=24.68%, T=25.21%
+GC: 49.8%
+

@@ -1,0 +1,110 @@
+;; Spy4: Codon Alignment Analysis — Torah Triplet Structure
+;; Hypothesis: Torah read in triplets encodes codon-like structure
+;; Date: 2026-03-04
+
+{:torah-letter-count 306269
+ :frame-0-triplet-count 102089
+ :possible-triplets 10648      ;; 22^3
+ :distinct-triplets 8152
+ :coverage-pct 76.6
+
+ ;; Entropy analysis
+ :shannon-entropy-bits 11.5187
+ :max-entropy-bits 12.9929
+ :single-letter-entropy 4.2516
+ :expected-triplet-entropy 12.7547  ;; 3 * single-letter
+ :mutual-information-bits 1.2360   ;; deviation from letter independence
+ :equivalent-uniform-types 2934.2
+ :shuffled-entropy-bits 12.6229    ;; shuffled Torah = HIGHER entropy
+
+ ;; GV-based grouping
+ :distinct-gv-values 546
+ :anagram-classes 2555
+
+ ;; Coverage thresholds
+ :pct-80-rank 2169    ;; 80% of triplet mass in top 2,169 types
+ :pct-90-rank 3500
+ :pct-95-rank 4805
+ :pct-99-rank 7132
+
+ ;; Cross-beam (d-axis at center 3,25,6,*)
+ :crossbeam-location {:a 3 :b 25 :c 6 :d "0..66"}
+ :crossbeam-verse-start "Leviticus 8:24"
+ :crossbeam-verse-end "Leviticus 8:25"
+ :crossbeam-letters "הןרגלםהימניתויזרקמשהאתהדםעלהמזבחסביבויקחאתהחלבואתהאליהואתכלהחלבאשרע"
+ :crossbeam-triplets ["הןר" "גלם" "הימ" "נית" "ויז" "רקמ" "שהא" "תהד"
+                       "םעל" "המז" "בחס" "ביב" "ויק" "חאת" "החל" "בוא"
+                       "תהא" "ליה" "ואת" "כלה" "חלב" "אשר"]
+ :crossbeam-remainder "ע"
+ :crossbeam-gvs [255 73 55 460 23 340 306 409 140 52 70 14 116 409 43 9 406 45 407 55 40 501]
+ :crossbeam-gvs-sorted [9 14 23 40 43 45 52 55 55 70 73 116 140 255 306 340 406 407 409 409 460 501]
+ :crossbeam-gv-sum 4228
+ :crossbeam-total-gv 4298  ;; including remainder
+ :crossbeam-unique-gvs 20  ;; 22 triplets but GV=55 and GV=409 repeat
+ :crossbeam-absent-from-torah ["גלם" "רקמ"]  ;; golem, embroidery/tissue
+
+ ;; Rank-order protein translation
+ :crossbeam-protein "EDIUSHMYKCNAQWVGFTRLPO"
+ :crossbeam-protein-standard "EDISHMYKCNAQWVGFTRLP"  ;; 20 standard AAs
+
+ ;; BLAST results (NCBI nr database, 2026-03-04)
+ :blast-results
+ {:rid "UHWWJD4G016"
+  :database "nr"
+  :database-size 386226727090
+  :hits
+  [{:accession "HET6324224.1"
+    :description "ergothioneine biosynthesis protein EgtB [Planctomycetaceae bacterium]"
+    :score-bits 31.2
+    :e-value 87
+    :identity-pct 58
+    :alignment {:query "DISHMYKCNAQWVGFTRLP"
+                :match "DI HMY CN  W  + RLP"
+                :sbjct "DIKHMYSCNPLWPAYRRLP"
+                :sbjct-range [152 170]}}
+   {:accession "KAF4612918.1"
+    :description "hypothetical protein D9613_010727 [Agrocybe pediades]"
+    :score-bits 29.6
+    :e-value 306
+    :identity-pct 53
+    :alignment {:query "DISHMYKCNAQWVGFTRLP"
+                :match "D+S+ Y C+ QW GF R P"
+                :sbjct "DLSYPYPCSLQWKGFARFP"
+                :sbjct-range [324 342]}}
+   {:accession "HEV3300470.1"
+    :description "ergothioneine biosynthesis protein EgtB [Planctomycetaceae bacterium]"
+    :score-bits 29.3
+    :e-value 421
+    :identity-pct 53}
+   {:accession "HEV8002018.1"
+    :description "ergothioneine biosynthesis protein EgtB [Planctomycetaceae bacterium]"
+    :score-bits 28.5
+    :e-value 790
+    :identity-pct 53}]
+  :note "All E-values >> 1. No statistically significant hits."}
+
+ ;; Local genome matches
+ :genome-matches
+ {:mitochondria {:match "FTRL" :length 4 :frame "-0" :position 215}
+  :ecoli-306k {:match "GFTRL" :length 5 :frame "+0" :position 64942}
+  :human-chr1 {:matches ["ISHM" "QWVG" "TRLP"] :max-length 4}}
+
+ ;; Key frequency ranks
+ :frequency-at-ranks
+ {1 728 10 352 20 262 50 160 61 146 64 141 65 140 100 112 200 77 500 43 1000 24}
+ :rank-64-gap 1  ;; no natural break
+
+ ;; Top triplets
+ :top-triplets
+ [{:triplet "יהו" :gv 21 :count 728}
+  {:triplet "הוה" :gv 16 :count 677}
+  {:triplet "אשר" :gv 501 :count 659}
+  {:triplet "אלה" :gv 36 :count 506}
+  {:triplet "ואת" :gv 407 :count 497}
+  {:triplet "אתה" :gv 406 :count 473}
+  {:triplet "אמר" :gv 241 :count 472}]
+
+ ;; Word-boundary analysis
+ :distinct-3letter-words 1160
+ :total-3letter-words 13417
+ :word-boundary-overlap-with-triplets 1105}

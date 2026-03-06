@@ -1,0 +1,52 @@
+{
+  :experiment "097-spy2-breastplate-genome"
+  :date "2026-03-04"
+  :method "Map Hebrew letters to DNA bases via breastplate row assignment"
+  :mapping {:row-1 "A" :row-2 "C" :row-3 "G" :row-4 "T"}
+
+  :torah {
+    :total-letters 305474
+    :mapped-to-dna 305474
+    :unmapped 0
+    :absent-letters []
+  }
+
+  :composition {
+    :A 0.372261
+    :C 0.336435
+    :G 0.174935
+    :T 0.116370
+    :gc-content 0.511369
+    :entropy 1.860542
+  }
+
+  :chargaff {
+    :A-over-T 3.198942
+    :G-over-C 0.519967
+    :note "Torah is single-stranded text. Chargaff ratios not expected to hold."
+  }
+
+  :multi-row-letters 13
+  :letters-per-base {
+    :A 8
+    :C 6
+    :G 5
+    :T 3
+  }
+
+  :orfs {
+    :min-100bp 414
+    :min-300bp 39
+    :min-500bp 5
+    :min-1000bp 0
+  }
+
+  :findings [
+    "Torah genome has extreme A/T skew — most letters map to Row 1 (A) and Row 4 (T)"
+    "Chargaff second parity rule does NOT hold — expected since Torah is text not DNA"
+    "K-mer overlap with real genomes drops rapidly with k — no significant local alignment"
+    "ORFs exist but their density/length needs comparison with random sequence"
+    "The mapping is dominated by a few high-frequency letters (yod, vav, he)"
+    "Absent letters create gaps — the ghost zone persists into the genetic mapping"
+  ]
+}

@@ -1,0 +1,1 @@
+{:n-trials 100000, :count-3plus 3, :p-3plus 3.0E-5, :count-506-bridge 1, :p-506-bridge 1.0E-5, :count-506-flanked-676 0, :p-506-flanked-676 0.0, :run-distribution {1 98532, 2 1465, 3 3}}
