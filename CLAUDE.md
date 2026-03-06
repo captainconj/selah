@@ -15,7 +15,7 @@ Fold → find the machine → factor the dimensions → hear the instruction at 
 4. **Build the oracle.** The breastplate as a communication device. Four readers. Illumination → reading.
 5. **Operate the machine.** Questions in, structure out. The machine tells you what it sees.
 
-Full narrative: `docs/the-journey.md`, `docs/the-machine.md`
+Full narrative: `docs/the-journey.md`, `docs/experiments/065-the-machine.md`
 
 ## The 4D Space — Foundation
 
