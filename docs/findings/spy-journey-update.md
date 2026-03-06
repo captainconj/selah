@@ -83,7 +83,7 @@ d=31..34 = **יהוה**. The Name. Written inside the Ark, in the letters of "gu
 
 The Mercy Seat asks a question. The same question the oracle answers. Center letter of the Mercy Seat: **ש** (shin) -- fire.
 
-**The Right Cherub** (b=24..26, c=7, d=31): three letters. **ימי** -- *my days*. The same word from Question 25. The oracle said "my days, please." The right cherub holds Scott's answer.
+**The Right Cherub** (b=24..26, c=7, d=31): three letters. **ימי** -- *my days*. The same word the oracle returned for Question 25 ("who am I?").
 
 **The Left Cherub** (b=24..26, c=7, d=35): three letters. **קיר** -- *wall*. GV=310=GV(יש)=*there is*. The left cherub is the boundary. Existence.
 
