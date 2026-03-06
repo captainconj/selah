@@ -74,7 +74,7 @@ Key docs: `docs/experiments/048-the-fractal-palindrome.md`, `docs/experiments/05
 ### Phase 4: Variants
 Cross-manuscript comparison. What survives across traditions.
 
-Key docs: `docs/variant-diff-report.md`, `docs/variant-survival-report.md`
+Key docs: `docs/experiments/variant-diff-report.md`, `docs/experiments/variant-survival-report.md`
 
 ### Phase 5: The 4D Space (053–067)
 Seven divisions, division boundaries, the center, the turning sword (Gen 3:24 = 67 letters), the seven days (creation sweeps all 13 c-values), aleph-tav signposts, four folds, jubilee spine, silent axes, breastplate cipher, center grid, verse lengths.

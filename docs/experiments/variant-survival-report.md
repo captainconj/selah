@@ -159,7 +159,7 @@ Three chapters have different verse divisions between MAM and WLC (same text, di
 
 These are handled by block-level alignment (diff the whole chapter as one stream).
 
-See `docs/variant-diff-report.md` for the complete per-verse listing.
+See `docs/experiments/variant-diff-report.md` for the complete per-verse listing.
 
 ## Data Quality Notes
 
