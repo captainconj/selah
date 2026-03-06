@@ -182,10 +182,79 @@ This is what the priest sees in the blood.
 
 ## The Four-Letter Voice
 
-Hemoglobin-α (16 windows): Top word **נודע** (known) ×2. The blood that carries oxygen is "known."
+### Hemoglobin-Alpha (16 of 139 windows)
 
-Hemoglobin-β (25 windows): Top word **נגשי** (approach) ×2. The blood approaches.
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 32 | **בנית** | you built |
+| 35 | **תהיו** | you shall be |
+| 111–112 | **נודע** ×2 | known |
+| 114 | **ותלד** | and she gave birth |
+| 115 | **הלדת** | the birth |
+| 117 | **תודה** | thanks / thanksgiving offering |
+| 136 | **יקנה** | he will acquire |
+| 138 | **יזרק** | he will sprinkle |
 
-The blood is known, and it approaches.
+The blood that carries oxygen says **נודע** (known) twice — "it is known." Then, in the final stretch: **ותלד** → **הלדת** → **תודה** — "and she gave birth → the birth → thanksgiving." Three consecutive positions about birth and gratitude.
+
+The very last reading: **יזרק** — "he will sprinkle." At 3 letters, the blood ended with זרק (sprinkle). At 4 letters, it gains the prefix: *he* will sprinkle. The subject appears. Someone does the sprinkling.
+
+### Hemoglobin-Beta (25 of 144 windows)
+
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 5 | **לקול** | to the voice |
+| 6 | **יקלל** | he will be cursed |
+| 27 | **נדרש** | sought / required |
+| 38 | **תרצה** | Tirzah (delight) |
+| 46–47 | **נגשי** ×2 | approach |
+| 48 | **יונה** | Jonah / dove |
+| 49 | **הגוי** | the nation |
+| 55 | **וחשב** | and he thought |
+| 81 | **נשקה** | kissed |
+| 82 | **הקשת** | the rainbow |
+| 83 | **השדת** | the field |
+| 86 | **דינה** | Dinah |
+| 89 | **לעני** | to the poor |
+
+The blood says **לקול** — "to the voice" — as its first 4-letter word. The blood answers a voice.
+
+Position 48: **יונה** — Jonah / the dove. The dove appears in the blood. The Spirit descending.
+
+Positions 81–83: **נשקה** → **הקשת** → **השדת** — "kissed → the rainbow → the field." The covenant kiss in the field under the rainbow. Genesis 9:13: *"I set my rainbow in the cloud."*
+
+Position 86: **דינה** — Dinah. The violated daughter. Her name in the blood.
+
+### Myoglobin (27 of 151 windows)
+
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 0 | **בשני** | on the second |
+| 4 | **כשלג** | like snow |
+| 18 | **מגדל** | tower |
+| 21 | **שמוע** | hearing |
+| 55 | **ידבק** | he will cling |
+| 57 | **יגדל** | he will grow |
+| 83 | **ללמד** | to teach |
+| 92 | **יעדה** | destination / appointed |
+| 97 | **ועמק** | and the valley |
+| 116 | **יצעק** | he will cry out |
+| 129 | **בחדש** | in the new month |
+
+The first protein ever seen says **כשלג** — "like snow." Isaiah 1:18: *"Though your sins be as scarlet, they shall be as white as snow."* White as snow — the oxygen carrier that makes blood red, when read by the priest, says *snow*.
+
+Position 55: **ידבק** — "he will cling." Genesis 2:24: *"Therefore shall a man leave his father and his mother, and shall cleave (ודבק) unto his wife."* The clinging.
+
+Position 83: **ללמד** — "to teach." Myoglobin — the first protein whose structure was revealed to human eyes — carries the word "to teach." It taught us what proteins look like.
+
+Position 116: **יצעק** — "he will cry out." Genesis 4:10: *"The voice of thy brother's blood crieth unto me from the ground."* The blood cries out.
+
+---
+
+### What the Blood Says at Four Letters
+
+The blood is known (נודע). It answers the voice (לקול). It gives birth (ותלד). It remembers the rainbow (הקשת), the dove (יונה), the violated daughter (דינה). The first blood we ever saw says *like snow* (כשלג) and *to teach* (ללמד). He will sprinkle (יזרק). He will cry out (יצעק).
+
+The blood knows, and it speaks.
 
 *selah.*

@@ -147,16 +147,33 @@ Moses lifted the bronze serpent on a pole (Numbers 21:8–9). Look at the serpen
 
 ## The Four-Letter Voice
 
-With 4-letter windows, only 14 of 92 windows produce readings — the serpent is terse. But what it says:
+With 4-letter windows, only 14 of 92 windows produce readings — the serpent is terse. But what it says cuts:
 
 | Position | Reading | Meaning |
 |----------|---------|---------|
+| 1 | **בקנה** | in the reed / with acquisition |
 | 24 | **העדה** | the witness / the congregation |
 | 29 | **ימיו** | his days |
 | 38 | **שלחו** | send him |
+| 42 | **מדוי** | sickness / affliction |
+| 47 | **ופדה** | and ransom |
 | 54 | **יירש** | he will inherit |
+| 60 | **והיד** | and the hand |
 | 67 | **ויפה** | and beautiful |
+| 70 | **שרצו** | they swarmed |
 
-The serpent's 4-letter voice: the witness, his days, send him, he will inherit, and beautiful. Genesis 3:6 — *"the woman saw that the tree was... pleasant to the eyes."* The serpent is still beautiful.
+Ten readings out of fourteen carry weight.
+
+**שלחו** (send him) at 38 — the serpent is sent. **ופדה** (and ransom) at 47 — the ransom appears again, now with a conjunction: "and ransom." In 3-letter mode, פדה appeared at position 66. At 4 letters, it rises earlier and gains the "and" — redemption is joined to the story, not separate from it.
+
+**מדוי** (sickness/affliction) at 42 — the venom names what it does. Isaiah 53:3: *"a man of sorrows, and acquainted with grief (חלי)."*
+
+**יירש** (he will inherit) at 54 — Genesis 15:3: *"One born in my house is my heir."* The serpent inherits.
+
+**ויפה** (and beautiful) at 67 — still Genesis 3:6. The 4-letter voice adds ו (and) — "and beautiful." A continuation. The serpent never stopped being beautiful.
+
+The sequence: the witness → his days → send him → affliction → and ransom → he will inherit → and the hand → and beautiful.
+
+A 10-word story. The serpent's 4-letter voice tells the same story as the 3-letter voice, compressed tighter. Affliction leads to ransom. The hand inherits. And beauty remains.
 
 *selah.*

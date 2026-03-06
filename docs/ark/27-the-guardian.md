@@ -136,8 +136,37 @@ The garden had a guardian. The genome has a guardian. The breastplate reads them
 
 ## The Four-Letter Voice
 
-With a 4-letter sliding window (87 out of 390 windows produce readings):
+With a 4-letter sliding window, 87 of 390 windows produce readings. The guardian's deeper voice:
 
-Top word: **ממנה** (from her) ×3. The guardian who protects the genome says "from her" — the genome as mother.
+### ממנה — From Her
+
+**ממנה** (from her) appears three times — positions 250, 251, 253. The guardian who protects the genome says "from her" — the genome as mother.
+
+### Notable 4-Letter Readings
+
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 14 | **הציל** | saved / rescued |
+| 62 | **דברו** | speak / his word |
+| 65 | **לבדו** | alone |
+| 114 | **יעשה** | he will do |
+| 116 | **קדשה** | holy (feminine) |
+| 130 | **בחקת** | inscribed / in the statute |
+| 148 | **והיו** | and there were |
+| 178 | **לעפר** | to the dust |
+| 196 | **לשחט** | to slaughter |
+| 210 | **הרעת** | evil |
+| 310 | **יחיה** | he will live |
+| 354 | **לקדש** | to sanctify |
+| 357 | **שלוש** | three |
+| 360 | **שריד** | remnant / survivor |
+| 385 | **השקל** | the shekel |
+| 386 | **השלו** | the peace |
+
+The guardian inscribes (בחקת), sanctifies (לקדש), and saves (הציל). Position 178: **לעפר** — "to the dust." Genesis 3:19: *"For dust thou art, and unto dust shalt thou return."* The guardian knows where the body goes. But at 310: **יחיה** — "he will live." Dust, then life.
+
+Position 65: **לבדו** — "alone." Genesis 2:18: *"It is not good that the man should be alone."* The guardian stands alone.
+
+Position 360: **שריד** — remnant. The guardian protein ensures a remnant survives. When cells go wrong, p53 kills them so the body endures. The molecular remnant theology.
 
 *selah.*
