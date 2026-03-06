@@ -256,4 +256,89 @@ Where each letter becomes its one-letter amino acid code:
 
 The 72 letters of the breastplate. Translated.
 
+---
+
+## Finding 10: The Protein
+
+Read continuously from stone 1 to stone 12, the breastplate encodes a protein:
+
+```
+·MRTISQNKSHKMR·PMLGIHPLEPSSTPATALLCFESDA·GRSGGWRYMPELSP*CMLSISLGMVSSGRPL
+```
+
+### The Reading Frame
+
+| Region | Positions | Content |
+|--------|-----------|---------|
+| **· (silence)** | 1 | Aleph on Abraham. Before the beginning. |
+| **THE PROTEIN** | 2–54 | **53 amino acids** (51 residues + 2 aleph gaps) |
+| **\* (stop)** | 55 | Samekh on Joseph. The end. |
+| **3' UTR** | 56–72 | 17 residues. Untranslated. Regulatory. |
+
+**The open reading frame is 53 amino acids long.**
+
+- 53 weekly Torah portions (parashot)
+- 53 = the garden sum (experiment 078, Fibonacci staircase)
+- 53 = F(9), the 9th Fibonacci number
+- 53-EDO tunes the garden (spy report: music)
+- 53 is prime
+
+The Torah is read in 53 portions. The protein is 53 amino acids. The garden is tuned to 53. The code, the reading, and the tuning share the same number.
+
+### The First Two Positions
+
+Position 1: **·** (aleph, silence, God)
+Position 2: **M** (bet, Met, beginning)
+
+**In the beginning, God.** Genesis 1:1. The aleph before the bet. The silence before the word.
+
+### The Three Alephs
+
+Three gaps in the protein — positions where aleph (the uncoded) interrupts the sequence:
+
+| Position | Stone | Tribe | Note |
+|----------|-------|-------|------|
+| 1 | 1 | Abraham | Before the start. The silence before the word. |
+| 15 | 3 | Reuben | The firstborn who lost his place. |
+| 41 | 7 | Gad | The guard. 41 = Judah's stone GV. |
+
+The gaps between alephs: **14** and **26**. David and YHWH.
+
+14 = דוד (David) = ואהב ("and he loved"). 26 = יהוה (YHWH). The silence in the protein is spaced by the beloved and the Name.
+
+### The Protein by Stone
+
+| Stone | Tribe | Sequence | Amino Acids | Character |
+|-------|-------|----------|-------------|-----------|
+| 1 | Abraham | ·MRTIS | ·-Met-Arg-Thr-Ile-Ser | Origin. Start after silence. |
+| 2 | Isaac/Jacob | QNKSHK | Gln-Asn-Lys-Ser-His-Lys | Charged, polar. The sacrifice. |
+| 3 | Reuben | MR·PML | Met-Arg-·-Pro-Met-Leu | Restart after gap. Lost firstborn. |
+| 4 | Simeon | GIHPLE | Gly-Ile-His-Pro-Leu-Glu | Mixed. Flexible. |
+| 5 | **Judah** | **PSSTPA** | **Pro-Ser-Ser-Thr-Pro-Ala** | **ALL small. The king is the hinge.** |
+| 6 | Dan | TALLCF | Thr-Ala-Leu-Leu-Cys-Phe | Hydrophobic core. Judgment buried deep. |
+| 7 | Gad | ESDA·G | Glu-Ser-Asp-Ala-·-Gly | Charged, interrupted by silence. The guard. |
+| 8 | Issachar | RSGGWR | Arg-Ser-Gly-Gly-Trp-Arg | Contains Trp — the rarest. Reward. |
+| 9 | Zebulun | YMPELS | Tyr-Met-Pro-Glu-Leu-Ser | Diverse. The dwelling. |
+| 10 | Joseph | P\* | Pro-Stop | A bend, then silence. Cast into the pit. |
+| 11 | Benjamin | ISLGMV | Ile-Ser-Leu-Gly-Met-Val | Untranslated. Right-hand son. |
+| 12 | Yeshurun | SSGRPL | Ser-Ser-Gly-Arg-Pro-Leu | Untranslated. The upright. |
+
+**Judah (PSSTPA)** — every amino acid is small. Pro, Ser, Ser, Thr, Pro, Ala. Stone 5 had the lowest GV (41), built entirely from backbone letters (ו, י, ה, ד). Now translated: pure flexibility. The king is not heavy — the king is the joint, the hinge, the place where the chain can turn. The structure bends at Judah.
+
+**Joseph (P\*)** — only two positions before the stop: a bend (Pro), then silence. The son who was sold contributes one turn to the protein and then ends translation. But the end is necessary — without the stop, the protein never folds, never functions, never lives. Joseph's death completes the chain.
+
+### After the Stop
+
+Positions 56–72: **CMLSISLGMVSSGRPL**
+
+| Stone | Tribe | Sequence |
+|-------|-------|----------|
+| 10 (rest) | Joseph | CMLS |
+| 11 | Benjamin | ISLGMV |
+| 12 | Yeshurun | SSGRPL |
+
+Rachel's sons + the closing. In biology, the 3' UTR (untranslated region) after the stop codon is **regulatory** — it controls stability, localization, and translation efficiency. It shapes the protein's fate without being part of the protein itself.
+
+Rachel was the beloved wife. Her sons are beyond the reading frame. Like grace — present, shaping, but never itself translated. The breastplate cannot name grace (חסד = unanimous dead end). And Rachel's children are not part of the protein. They regulate from beyond.
+
 *selah.*
