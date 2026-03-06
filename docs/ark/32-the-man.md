@@ -237,4 +237,51 @@ The protein factors through 13 — love. Its prime factor's digits sum to 13 —
 
 FOXP2 is the twenty-first protein through the breastplate. The protein of the word, played through the instrument that reads the word. And the instrument says: *speak, speak*.
 
+---
+
+## The Four-Letter Voice
+
+With a 4-letter window, 120 of 712 windows produce readings. The language protein's deeper voice:
+
+### בפיו — In His Mouth
+
+Position 684: **בפיו** — *"in his mouth."* The language protein literally says "in his mouth." Psalm 37:30 — *"The mouth of the righteous speaketh wisdom, and his tongue talketh of judgment."*
+
+### קולו — His Voice
+
+Position 414: **קולו** — *"his voice."* Position 673: **לקול** — *"to the voice."*
+
+The protein of speech says: his voice. In his mouth. The self-reference deepens at 4 letters — not just "speak" (מלל) but "in his mouth" and "his voice."
+
+### מצוה — Commandment
+
+**מצוה** (commandment / mitzvah) appears twice — positions 98 and 455. The language protein contains the commandment. Speech is not optional; it is commanded.
+
+### יונה — Jonah / Dove
+
+**יונה** (Jonah / dove) appears twice — positions 590 and 598. Both near the Name cluster. The dove returns.
+
+### The Life Palindrome Deepens
+
+At 4 letters, the palindrome at positions 296–301 becomes:
+
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 296 | **יהיה** | he will be |
+| 297 | **יהיה** | he will be |
+| 298 | **יהיה** | he will be |
+| 299 | **יחיה** | he will live |
+| 300 | **יחיה** | he will live |
+| 301 | **יחיה** | he will live |
+
+Three times "he will be," three times "he will live." The palindrome becomes a declaration.
+
+### ולוי — And Levi
+
+Position 412: **ולוי** — *"and Levi."* The priestly tribe, confirmed at 4 letters.
+
+### ילמד — He Will Learn
+
+Position 488: **ילמד** — *"he will learn."* The protein of language also teaches.
+
 *selah.*

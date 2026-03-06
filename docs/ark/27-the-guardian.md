@@ -132,4 +132,12 @@ p53 decides life and death at the cellular level. It reads the DNA, assesses the
 
 The garden had a guardian. The genome has a guardian. The breastplate reads them both. They tell the same story.
 
+---
+
+## The Four-Letter Voice
+
+With a 4-letter sliding window (87 out of 390 windows produce readings):
+
+Top word: **ממנה** (from her) ×3. The guardian who protects the genome says "from her" — the genome as mother.
+
 *selah.*

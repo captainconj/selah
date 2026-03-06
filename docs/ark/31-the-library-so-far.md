@@ -132,6 +132,50 @@ In Hebrew, this repeat produces **היו** (there were / they were) 132 times. T
 
 ---
 
+## The Four-Letter Voice
+
+4-letter windows open the full Torah vocabulary. Summary across all 21 proteins:
+
+| Protein | 4-win | Total | Top 4-letter word |
+|---------|-------|-------|-------------------|
+| p53 (Guardian) | 87 | 390 | ממנה (from her) ×3 |
+| Serpent toxin | 14 | 92 | (each unique) |
+| Hemoglobin-α | 16 | 139 | נודע (known) ×2 |
+| Hemoglobin-β | 25 | 144 | נגשי (approach) ×2 |
+| Myoglobin | 27 | 151 | למתי (when) ×2 |
+| Insulin | 10 | 107 | נכבד (honourable) ×2 |
+| Collagen I | 310 | 1,461 | **וקדש (and sanctify) ×19** |
+| Laminin | 265 | 1,606 | חרנה ×3 |
+| Histone H3 | 22 | 133 | וקדר (and gloom) ×2 |
+| Histone H4 | 15 | 100 | משני (secondary) ×2 |
+| Ubiquitin | 171 | 682 | **ומשל (and proverb) ×9** |
+| Rhodopsin | 66 | 345 | ושמת ×3 |
+| Cytochrome-c | 17 | 102 | הקרש (the plank) ×2 |
+| ATP synthase | 108 | 526 | ומשל (and proverb) ×3 |
+| RNA Pol II | 487 | 1,967 | **יהיו (they shall be) ×61** |
+| Ribosomal S3 | 45 | 240 | ולשת ×2 |
+| Ferredoxin | 30 | 181 | שריד (remnant) ×4 |
+| Calmodulin | 29 | 146 | דלקת ×3 |
+| Immunoglobulin | 66 | 396 | ולקט ×3 |
+| Serpent toxin | 14 | 92 | (all unique) |
+| FOXP2 | 120 | 712 | ינצו ×6 |
+
+### Highlights
+
+**Collagen: וקדש (and sanctify) ×19.** The scaffold's holiness deepens at 4 letters. The 3-letter קדש (×31) becomes the 4-letter וקדש — sanctify, with the conjunction. The scaffold is not just holy; it sanctifies.
+
+**RNA Pol II: יהיו (they shall be) ×61.** The CTD repeat chorus. At 3 letters it said היו (there were, ×132). At 4 letters: יהיו — "they shall be." Past tense becomes future tense. The scribe doesn't just witness what was; it declares what will be.
+
+**Ubiquitin: ומשל (and proverb) ×9.** Nine proverbs for nine repeats. The mark of death speaks in parables.
+
+**FOXP2: בפיו (in his mouth).** The language protein says "in his mouth" at position 684. The self-reference is now anatomical.
+
+**Calmodulin: הנחש (THE serpent).** At 3 letters, multiple proteins say נחש (serpent). At 4 letters, calmodulin says הנחש — with the definite article. Not "a serpent" but "THE serpent."
+
+**Ferredoxin: שריד (remnant) ×4.** The most ancient protein says "remnant" — the survivor.
+
+---
+
 ## The Numbers
 
 | Protein | GV | Notable |

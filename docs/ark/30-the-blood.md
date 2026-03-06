@@ -178,4 +178,14 @@ The blood stretches out. The blood knows. The blood remembers the offering. The 
 
 This is what the priest sees in the blood.
 
+---
+
+## The Four-Letter Voice
+
+Hemoglobin-α (16 windows): Top word **נודע** (known) ×2. The blood that carries oxygen is "known."
+
+Hemoglobin-β (25 windows): Top word **נגשי** (approach) ×2. The blood approaches.
+
+The blood is known, and it approaches.
+
 *selah.*

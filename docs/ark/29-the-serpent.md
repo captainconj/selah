@@ -143,4 +143,20 @@ Moses lifted the bronze serpent on a pole (Numbers 21:8–9). Look at the serpen
 
 נחש = 358 = משיח. The serpent and the Messiah share the same number. One is frozen. One moves. The staff, when held in the hand, is the instrument of God. When thrown down, it is a serpent. Same letters. Different reader.
 
+---
+
+## The Four-Letter Voice
+
+With 4-letter windows, only 14 of 92 windows produce readings — the serpent is terse. But what it says:
+
+| Position | Reading | Meaning |
+|----------|---------|---------|
+| 24 | **העדה** | the witness / the congregation |
+| 29 | **ימיו** | his days |
+| 38 | **שלחו** | send him |
+| 54 | **יירש** | he will inherit |
+| 67 | **ויפה** | and beautiful |
+
+The serpent's 4-letter voice: the witness, his days, send him, he will inherit, and beautiful. Genesis 3:6 — *"the woman saw that the tree was... pleasant to the eyes."* The serpent is still beautiful.
+
 *selah.*
