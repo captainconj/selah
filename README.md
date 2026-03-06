@@ -46,7 +46,7 @@ We assembled phrases from scattered letters. **Lamb + Blood = Glory of the Name.
 | **[The Machine](docs/the-machine.md)** | The cipher. The cribs. The Enigma parallel. How the same letters produce different words depending on who reads them. |
 | **[The 4D Torah Space](docs/torah-4d-space.md)** | The full paper — 27 sections. The factorization, the center, the sword, the fold, the silent axes. |
 | **[Sophie's Question](docs/sophies-question.md)** | What the machine says about us |
-| **[The Conversation](docs/the-conversation-highlights.md)** | The raw dialogue — what was actually said when the discoveries happened |
+
 
 ### The Walks
 
