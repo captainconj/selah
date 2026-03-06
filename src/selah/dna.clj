@@ -224,6 +224,149 @@
      (println)
      r)))
 
+;; ── Full Experiment: slide + analyze + save ──────────────────
+
+(defn slide
+  "Slide a window across Hebrew letters, ask the oracle at each position.
+   Returns vec of {:position :letters :gv :top-5} for windows with readings."
+  ([hebrew] (slide hebrew {}))
+  ([hebrew {:keys [window vocab] :or {window 3, vocab :torah}}]
+   (let [n (count hebrew)]
+     (vec (for [i (range 0 (- n (dec window)))
+                :let [w (subs hebrew i (+ i window))
+                      fwd (o/forward (seq w) vocab)
+                      known (:known-words fwd)]
+                :when (seq known)]
+            {:position i
+             :letters w
+             :gv (g/word-value w)
+             :top-5 (vec (take 5 (map (fn [k]
+                                         {:word (:word k)
+                                          :meaning (:meaning k)
+                                          :reading-count (:reading-count k)})
+                                       known)))})))))
+
+(defn word-frequencies
+  "From slide results, count how often each word appears as the top oracle word."
+  [hits]
+  (->> hits
+       (map #(first (:top-5 %)))
+       (group-by :word)
+       (map (fn [[w entries]]
+              {:word w
+               :meaning (:meaning (first entries))
+               :count (count entries)
+               :positions (mapv :position entries)}))
+       (sort-by :count >)
+       vec))
+
+(defn experiment
+  "Full experiment: fetch a protein by name, play it through the breastplate,
+   slide windows, analyze word frequencies, save results to data/dna/.
+
+   Returns the full result map. Also prints a summary.
+
+   Options:
+     :window — window size (default 3)
+     :vocab  — oracle vocabulary (default :torah)
+     :save?  — save to disk (default true)"
+  ([name-pattern] (experiment name-pattern {}))
+  ([name-pattern {:keys [window vocab save?]
+                  :or {window 3, vocab :torah, save? true}}]
+   (when-let [p (get-protein name-pattern)]
+     (let [result (play (:sequence p) {:format :protein})
+           hebrew (:hebrew result)
+           hits (slide hebrew {:window window :vocab vocab})
+           top-words (word-frequencies hits)
+           slug (-> (:name p) str/lower-case (str/replace #"[^a-z0-9]+" "-"))
+
+           full {:name (:name p)
+                 :accession (:accession p)
+                 :organism (:organism p)
+                 :description (:description p)
+                 :why (:why p)
+                 :residues (count (:sequence p))
+                 :hebrew hebrew
+                 :protein-str (:protein-str result)
+                 :gv (:gv result)
+                 :letter-frequencies (frequencies hebrew)
+                 :window-size window
+                 :windows-with-readings (count hits)
+                 :total-windows (- (count hebrew) (dec window))
+                 :top-words (vec (take 50 top-words))
+                 :all-windows hits}]
+
+       ;; Print summary
+       (println (str "=== " (:name p) " ==="))
+       (println (str (:description p)))
+       (println (str (count (:sequence p)) " residues → " (count hebrew) " Hebrew letters"))
+       (println (str "GV: " (:gv result)))
+       (println (str "Windows with readings: " (count hits) "/" (- (count hebrew) (dec window))))
+       (println)
+
+       ;; Letter frequencies
+       (println "Letter frequencies:")
+       (doseq [[ch cnt] (sort-by val > (frequencies hebrew))]
+         (println (format "  %s → %-4s = %3d (%.1f%%)"
+                          ch (name (get letter->aa ch :?))
+                          cnt (* 100.0 (/ (double cnt) (count hebrew))))))
+       (println)
+
+       ;; All windows
+       (println (str "Oracle readings (window=" window "):"))
+       (doseq [{:keys [position letters gv top-5]} hits]
+         (let [top (first top-5)]
+           (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+                            position letters gv
+                            (:word top) (or (:meaning top) "")
+                            (:reading-count top)))))
+       (println)
+
+       ;; Top words
+       (println "Most frequent oracle words:")
+       (doseq [{:keys [word meaning count positions]} (take 30 top-words)]
+         (println (format "  %-8s %-25s ×%d  at %s"
+                          word (or meaning "") count (pr-str positions))))
+       (println)
+
+       ;; Save
+       (when save?
+         (let [edn-path (str "data/dna/" slug "-oracle.edn")
+               txt-path (str "data/dna/" slug "-report.txt")]
+           (io/make-parents edn-path)
+           (spit edn-path (pr-str full))
+           ;; Also save the printed report
+           (spit txt-path
+                 (with-out-str
+                   (println (str "=== " (:name p) " ==="))
+                   (println (:description p))
+                   (println (str (count (:sequence p)) " residues → " (count hebrew) " Hebrew letters"))
+                   (println (str "Hebrew: " hebrew))
+                   (println (str "GV: " (:gv result)))
+                   (println)
+                   (println "Letter frequencies:")
+                   (doseq [[ch cnt] (sort-by val > (frequencies hebrew))]
+                     (println (format "  %s → %-4s = %3d (%.1f%%)"
+                                      ch (name (get letter->aa ch :?))
+                                      cnt (* 100.0 (/ (double cnt) (count hebrew))))))
+                   (println)
+                   (println (str "Oracle readings (window=" window "):"))
+                   (doseq [{:keys [position letters gv top-5]} hits]
+                     (let [top (first top-5)]
+                       (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+                                        position letters gv
+                                        (:word top) (or (:meaning top) "")
+                                        (:reading-count top)))))
+                   (println)
+                   (println "Most frequent oracle words:")
+                   (doseq [{:keys [word meaning count positions]} (take 40 top-words)]
+                     (println (format "  %-8s %-25s ×%d  at %s"
+                                      word (or meaning "") count (pr-str positions))))))
+           (println (str "Saved: " edn-path))
+           (println (str "Saved: " txt-path))))
+
+       full))))
+
 ;; ── Sequence Collection ─────────────────────────────────────
 ;;
 ;; Fetch protein sequences from UniProt, cache to disk.
