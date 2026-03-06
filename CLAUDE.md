@@ -103,7 +103,7 @@ Key docs: `docs/torah-4d-space.md`, `docs/the-four-folds.md`, `docs/the-seven-da
 - 092: grid permutation test — most separation structural, Right/Mercy head survives (p=0.026), lamb split survives (p=0.032)
 - 092b: Ramban pair permutation — mechanism structural, phrase-level assembly is cognitive
 
-Docs: `docs/the-quorum.md`, `docs/the-full-quorum.md`, `docs/092-grid-permutation.md`, `docs/092b-the-ramban-principle.md`
+Docs: `docs/the-quorum.md`, `docs/the-full-quorum.md`, `docs/experiments/092-grid-permutation.md`, `docs/experiments/092b-the-ramban-principle.md`
 
 **Level 2 Thummim (093–094):** Phrase assembly. The priest's menu.
 - Divine names contain pleas: אנכי=כי נא (I AM = because, please), אדני=יד נא (Lord = hand, please)
@@ -112,9 +112,9 @@ Docs: `docs/the-quorum.md`, `docs/the-full-quorum.md`, `docs/092-grid-permutatio
 - Ghost zone: חסד, צדק, משפט, פנים glow but cannot be read
 - 094: full sweep (12,826 words, 310,908 phrases, spectral decomposition)
 
-Docs: `docs/093-synthesis.md`, `docs/093b-the-priests-menu.md`, `docs/093c-son-of-man.md` through `093i-rambans-answer.md`, `docs/094-thummim-sweep.md`
+Docs: `docs/experiments/093-synthesis.md`, `docs/experiments/093b-the-priests-menu.md`, `docs/experiments/093c-son-of-man.md` through `093i-rambans-answer.md`, `docs/experiments/094-thummim-sweep.md`
 
-**Boxes as coordinates (095):** Biblical box dimensions → 4D letter addresses. Ark finds the Table and Mercy Seat. Noah's Ark (300,50,30) = ש,נ,ל → לשן (tongue/language). z=7.88 self-reference. Doc: `docs/095-boxes-as-coordinates.md`
+**Boxes as coordinates (095):** Biblical box dimensions → 4D letter addresses. Ark finds the Table and Mercy Seat. Noah's Ark (300,50,30) = ש,נ,ל → לשן (tongue/language). z=7.88 self-reference. Doc: `docs/experiments/095-boxes-as-coordinates.md`
 
 **Basin landscapes (096–097):** Feed the oracle to itself. Every basin = anagram class, depth 1.
 - 096: combined landscape (12,826 words classified)
@@ -127,7 +127,7 @@ Docs: `docs/093-synthesis.md`, `docs/093b-the-priests-menu.md`, `docs/093c-son-o
 - Grace (חסד): unanimous dead end — the breastplate cannot name itself
 - Light of life (John 8:12): Right cherub holds life, perceives light as seeing. One chair.
 
-Doc: `docs/097-per-head-basins.md`, `docs/096-basin-landscape.md`
+Doc: `docs/experiments/097-per-head-basins.md`, `docs/experiments/096-basin-landscape.md`
 
 ## Architecture
 
