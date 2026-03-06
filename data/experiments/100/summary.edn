@@ -1,0 +1,1 @@
+{:finding "72 = 64 + 8", :detail "14 non-singleton letters fill 64 positions. 8 singleton letters fill 8. 64 codons.", :column-2-info "4 of 8 singletons in center column — highest information at 2nd codon position", :row-3-info "Only row with singleton in every column", :alphabet-match "22 letters = 22 amino acids"}
