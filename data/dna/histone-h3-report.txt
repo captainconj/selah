@@ -1,0 +1,121 @@
+=== Histone-H3 ===
+Histone H3.1 OS=Homo sapiens OX=9606 GN=H3C1 PE=1 SV=2
+136 residues → 136 Hebrew letters
+Hebrew: בדרהקצהדרקיהששקדורקצנדהקדדרקידודהששטקקוערזרושהטדנרלמררזצקיהלננמרקנותצרנטרלמדצגתקהגנרתציידטבדנצלדפלדזנטשנתלגהחנפדמעדקרטהמבוקגמצנדררמרשלרד
+GV: 11019
+
+Letter frequencies:
+  ר → Arg  =  18 (13.2%)
+  ד → Ala  =  18 (13.2%)
+  ק → Lys  =  13 (9.6%)
+  נ → Leu  =  12 (8.8%)
+  ה → Thr  =  10 (7.4%)
+  צ → Gln  =   8 (5.9%)
+  ש → Gly  =   7 (5.1%)
+  ל → Glu  =   7 (5.1%)
+  מ → Ile  =   7 (5.1%)
+  ו → Pro  =   6 (4.4%)
+  ט → Val  =   6 (4.4%)
+  י → Ser  =   5 (3.7%)
+  ת → Phe  =   4 (2.9%)
+  ג → Asp  =   4 (2.9%)
+  ב → Met  =   3 (2.2%)
+  ז → Tyr  =   3 (2.2%)
+  ע → His  =   2 (1.5%)
+  פ → Cys  =   2 (1.5%)
+  ח → Asn  =   1 (0.7%)
+
+Oracle readings (window=3):
+  [  0] בדר (gv=206) → רבד RBD (×33)
+  [  1] דרה (gv=209) → רדה rule (×21)
+  [  2] רהק (gv=305) → הרק Herc (×10)
+  [  5] צהד (gv=99) → צדה Hunting (×2)
+  [  6] הדר (gv=209) → רדה rule (×21)
+  [  8] רקי (gv=310) → קרי Kerry (×72)
+  [ 10] יהש (gv=315) → היש Hish (×161)
+  [ 11] השש (gv=605) → השש The Six (×77)
+  [ 13] שקד (gv=404) → קדש be holy (×42)
+  [ 15] דור (gv=210) → דור Generation (×52)
+  [ 16] ורק (gv=306) → וקר And cold (×54)
+  [ 20] נדה (gv=59) → נדה Neda (×11)
+  [ 21] דהק (gv=109) → דקה Minute (×8)
+  [ 22] הקד (gv=109) → דקה Minute (×8)
+  [ 26] רקי (gv=310) → קרי Kerry (×72)
+  [ 28] ידו (gv=20) → ידו His hand (×151)
+  [ 29] דוד (gv=14) → דדו Dedo (×20)
+  [ 30] ודה (gv=15) → דוה Dove (×29)
+  [ 31] דהש (gv=309) → שדה Field (×30)
+  [ 32] השש (gv=605) → השש The Six (×77)
+  [ 38] וער (gv=276) → ורע and bad (×42)
+  [ 39] ערז (gv=277) → זרע seed (×6)
+  [ 41] זרו (gv=213) → וזר WALK (×25)
+  [ 42] רוש (gv=506) → שור ox (×111)
+  [ 43] ושה (gv=311) → ושה And Sha (×74)
+  [ 47] דנר (gv=254) → נרד Nardo (×21)
+  [ 55] צקי (gv=200) → יצק Icing (×40)
+  [ 64] קנו (gv=156) → קנו Buy (×14)
+  [ 67] תצר (gv=690) → צרת Narrow (×2)
+  [ 68] צרנ (gv=340) → נצר Nazareth (×7)
+  [ 74] מדצ (gv=134) → מצד Side (×2)
+  [ 78] תקה (gv=505) → קהת Kohath (×6)
+  [ 80] הגנ (gv=58) → נהג Driver (×3)
+  [ 82] נרת (gv=650) → נרת Nerth (×7)
+  [ 83] רתצ (gv=690) → צרת Narrow (×2)
+  [ 86] ייד (gv=24) → ידי Hands (×226)
+  [ 90] בדנ (gv=56) → נדב Nadav (×29)
+  [102] שנת (gv=750) → שנת Year (×12)
+  [105] לגה (gv=38) → גלה Find out (×10)
+  [107] החנ (gv=63) → חנה Hannah (×1)
+  [108] חנפ (gv=138) → נפח Volume (×3)
+  [111] דמע (gv=114) → עמד stand (×5)
+  [112] מעד (gv=114) → עמד stand (×5)
+  [113] עדק (gv=174) → עקד AKED (×8)
+  [117] טהמ (gv=54) → מטה staff/tribe (×8)
+  [118] המב (gv=47) → במה In what (×22)
+  [126] נדר (gv=254) → נרד Nardo (×21)
+  [130] מרש (gv=540) → שמר guard/keep (×36)
+  [131] רשל (gv=530) → לשר To Minister (×71)
+  [132] שלר (gv=530) → לשר To Minister (×71)
+  [133] לרד (gv=234) → לדר To Der (×34)
+
+Most frequent oracle words:
+  נרד      Nardo                     ×2  at [nil nil]
+  עמד      stand                     ×2  at [nil nil]
+  השש      The Six                   ×2  at [nil nil]
+  צרת      Narrow                    ×2  at [nil nil]
+  דקה      Minute                    ×2  at [nil nil]
+  קרי      Kerry                     ×2  at [nil nil]
+  לשר      To Minister               ×2  at [nil nil]
+  רדה      rule                      ×2  at [nil nil]
+  קנו      Buy                       ×1  at [nil]
+  היש      Hish                      ×1  at [nil]
+  ידי      Hands                     ×1  at [nil]
+  קהת      Kohath                    ×1  at [nil]
+  מצד      Side                      ×1  at [nil]
+  דור      Generation                ×1  at [nil]
+  וקר      And cold                  ×1  at [nil]
+  נרת      Nerth                     ×1  at [nil]
+  צדה      Hunting                   ×1  at [nil]
+  מטה      staff/tribe               ×1  at [nil]
+  נדה      Neda                      ×1  at [nil]
+  קדש      be holy                   ×1  at [nil]
+  נהג      Driver                    ×1  at [nil]
+  רבד      RBD                       ×1  at [nil]
+  עקד      AKED                      ×1  at [nil]
+  ידו      His hand                  ×1  at [nil]
+  יצק      Icing                     ×1  at [nil]
+  נדב      Nadav                     ×1  at [nil]
+  שמר      guard/keep                ×1  at [nil]
+  שדה      Field                     ×1  at [nil]
+  לדר      To Der                    ×1  at [nil]
+  דוה      Dove                      ×1  at [nil]
+  ושה      And Sha                   ×1  at [nil]
+  וזר      WALK                      ×1  at [nil]
+  שור      ox                        ×1  at [nil]
+  נצר      Nazareth                  ×1  at [nil]
+  הרק      Herc                      ×1  at [nil]
+  במה      In what                   ×1  at [nil]
+  שנת      Year                      ×1  at [nil]
+  דדו      Dedo                      ×1  at [nil]
+  ורע      and bad                   ×1  at [nil]
+  חנה      Hannah                    ×1  at [nil]
