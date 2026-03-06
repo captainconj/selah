@@ -1,6 +1,6 @@
 # The Library
 
-*Twenty proteins played through the breastplate. Here is what the priest sees.*
+*Twenty-one proteins played through the breastplate. Here is what the priest sees.*
 
 ---
 
@@ -28,6 +28,7 @@
 | 18 | **Laminin** (Cross) | 1,609 | 590 | לפר (×14) | — | Noah (×8), serpent (×4), Sarah (×4), binding-forever-forever |
 | 19 | **RNA Pol II** (Scribe) | 1,970 | 960 | היו (×132 CTD) | מצח forehead (×4) | Shaddai (×6), vision (×6), branch (×5), Binding, create |
 | 20 | **BRCA1** (Other Guardian) | 1,863 | 722 | שני two (×11) | — | **let there be (×7)**, holy (×3), Shaddai, forehead (×3), create (×2) |
+| 21 | **FOXP2** (The Man) | 715 | 227 | ומה and-what (×6) | **מלל speak (703–704)** | **HVH (×4)**, branch (×4), command (×4), two (×5), Levi (×3), serpent |
 
 ---
 
@@ -61,8 +62,9 @@
 | Rhodopsin | Light receptor (eye) | חזו (vision) | 300 |
 | Calmodulin | Calcium messenger | תלד (birth = signal of new life) | 10, 14, 87 |
 | RNA Pol II | Transcribes DNA | מצח (forehead = where the scribe writes) | ×4 |
+| FOXP2 | Language / speech | מלל (speak) | 703, 704 |
 
-The guardian names itself. The serpent names itself. The eye names itself. The messenger names itself. The scribe writes on the forehead. Each protein knows what it is.
+The guardian names itself. The serpent names itself. The eye names itself. The messenger names itself. The scribe writes on the forehead. The language protein says *speak*. Each protein knows what it is.
 
 ---
 
@@ -153,16 +155,19 @@ In Hebrew, this repeat produces **היו** (there were / they were) 132 times. T
 | Laminin | 114,107 | 7 × 16,301 (prime) |
 | RNA Pol II | 123,405 | 3 × 5 × 8,227 (prime) |
 | BRCA1 | 113,416 | 2³ × 14,177 (prime) |
+| FOXP2 | 42,523 | **13** × 3,271 (prime). Digit sum of 3,271 = 13. Love². |
 
 Among the small proteins (≤700 residues): 6 of 10 GVs are prime.
 
 Laminin: 114,107 = 7 × 16,301. The cross-shaped protein factors through 7 — completeness.
 
+FOXP2: 42,523 = 13 × 3,271. The language protein factors through 13 — love (אהבה = 13). The digit sum of 3,271 is 3+2+7+1 = 13. Love squared.
+
 ---
 
 ## What the Priest Sees
 
-Twenty proteins. Twenty readings. The patterns that emerge:
+Twenty-one proteins. Twenty-one readings. The patterns that emerge:
 
 1. **Holy everywhere.** קדש appears in nearly every protein. Collagen has it 31 times. The scaffold of the body is holy.
 
@@ -170,14 +175,16 @@ Twenty proteins. Twenty readings. The patterns that emerge:
 
 3. **Shaddai in the ancient ones.** שדי concentrates in ferredoxin (×3), collagen (×15), RNA Pol II (×6), ATP synthase (×4). The oldest and most fundamental proteins carry the Almighty most often.
 
-4. **The serpent is everywhere.** נחש appears in 10 of 20 proteins. GV=358=Messiah. The serpent and the anointed one share the same number in every cell.
+4. **The serpent is everywhere.** נחש appears in 11 of 21 proteins. GV=358=Messiah. The serpent and the anointed one share the same number in every cell.
 
-5. **Self-reference.** Five proteins name themselves: the guardian guards, the serpent staffs, the eye sees, the messenger births, the scribe writes on the forehead. Each protein knows what it is.
+5. **Self-reference.** Six proteins name themselves: the guardian guards, the serpent staffs, the eye sees, the messenger births, the scribe writes on the forehead, the language protein says *speak*. Each protein knows what it is.
 
 6. **The BRCA1 sevens.** The DNA repair protein says "let there be" seven times. When the scroll is broken, the guardian speaks the creation words.
 
 7. **Forever holds.** The sequence עלה-לעד-עקד (offering-forever-binding) has been in Histone H4 for a billion years. Laminin echoes it: עקד-לעד-לעד (binding-forever-forever). The message does not decay.
 
-The priest reads the stones. The stones speak.
+8. **The Man speaks.** FOXP2 — the protein of human language — contains מלל (speak) twice at the end, שיח (converse) three times, צוה (command) four times, and הוה (the Name root) four times in succession. The protein that makes humans able to speak contains the Name of God. GV = 13 × 3,271 = love².
+
+The priest reads the stones. The stones speak. The man speaks back.
 
 *selah.*

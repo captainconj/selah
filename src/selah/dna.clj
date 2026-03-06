@@ -580,7 +580,14 @@
     :accession "P60615"
     :source :uniprot
     :why "Alpha-cobratoxin. The serpent's weapon. 71 residues."
-    :organism "Naja kaouthia"}])
+    :organism "Naja kaouthia"}
+
+   ;; ── The Man ──
+   {:name "FOXP2"
+    :accession "O15409"
+    :source :uniprot
+    :why "The language protein. Two amino acids separate man from ape. The word made flesh."
+    :organism "Human"}])
 
 (defn fetch-library!
   "Fetch all proteins in the library. Caches to disk. Returns results."
