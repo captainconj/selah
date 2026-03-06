@@ -60,7 +60,7 @@ Three ways through the space. Each one changes something.
 
 ### The Full Map
 
-**[MANIFEST.md](MANIFEST.md)** — two testimonies (the priest and the shovel), organized entry points, every document indexed. Start there if you want the complete picture.
+**[MANIFEST.md](MANIFEST.md)** — two testimonies, organized entry points, every document indexed. Start there if you want the complete picture.
 
 ---
 

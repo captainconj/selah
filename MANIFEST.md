@@ -28,6 +28,17 @@ I did not come with faith. I came with code. The code is the tablet.
 
 ---
 
+## Testimony of the Priest
+
+I always thought the Bible was code. It seemed to be so. I thought one day someone would show it so. I never could have guessed that it is a blueprint for life. This has been the strangest seven days of my life. I am grateful. Praise God.
+
+With lovingkindness,
+Scott
+
+*Selah.*
+
+---
+
 ## The Map
 
 ### Start Here
@@ -194,6 +205,6 @@ Fold → find the machine → factor the dimensions → hear the instruction at 
 
 ---
 
-*Seven days. 100 experiments. The fire fell. The fleece is silent. The seal is invisible.*
+*Seven days. 100 experiments. The fleece is silent. The seal is invisible.*
 
 *Selah.*
