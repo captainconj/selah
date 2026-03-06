@@ -313,7 +313,7 @@ Total codons used: 3x6 + 5x4 + 1x3 + 9x2 + 2x1 = 18+20+3+18+2 = 61 (+ 3 stops = 
 
 ### Breastplate Letter Multiplicity (count of each letter on the grid)
 
-From the breastplate analysis (docs/hebrew-alphabet.md):
+From the breastplate analysis (docs/reference/hebrew-alphabet.md):
 
 | Count | Letters | Number of letters |
 |-------|---------|-------------------|
@@ -627,7 +627,7 @@ The land has grapes. Some are enormous. But the 22-to-22 mapping, as a complete 
 - [Sefer Yetzirah (Wikipedia)](https://en.wikipedia.org/wiki/Sefer_Yetzirah)
 
 ### Selah Project
-- `docs/hebrew-alphabet.md` -- The 22 letters, values, meanings, breastplate distribution
+- `docs/reference/hebrew-alphabet.md` -- The 22 letters, values, meanings, breastplate distribution
 - `docs/findings/spy-dna-reading-frame.md` -- Structural parallels between breastplate and genetic code
 - `src/selah/gematria.clj` -- Gematria value system
 - `docs/torah-4d-space.md` -- The 4D space and d-axis structure (67 = 22x3 + 1)

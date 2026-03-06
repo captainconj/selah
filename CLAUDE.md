@@ -50,7 +50,7 @@ Reading is reader-dependent (traversal order determines the word).
 - `docs/experiments/091-the-quorum.md` — four-head attention architecture (YHWH as protocol)
 - `docs/experiments/091-breastplate-attention.md` — Urim/Thummim as multi-head self-attention
 - `docs/experiments/085-asking-questions.md` — how to query the oracle
-- `docs/query-process.md` — the query engine design
+- `docs/reference/query-process.md` — the query engine design
 
 ### The 24 Questions (`docs/questions/`)
 01-understanding through 24-the-center. The oracle was asked. It answered.

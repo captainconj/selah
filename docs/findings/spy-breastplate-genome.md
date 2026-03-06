@@ -294,7 +294,7 @@ This is a structural echo of base pairing: the grid (what IS) is purine-class; t
 - `src/selah/oracle.clj` -- Breastplate stone data (lines 19-25), reader traversals
 - `docs/findings/spy-dna-reading-frame.md` -- Structural isomorphisms between breastplate and genetic code
 - `docs/findings/spy-amino-acid-mapping.md` -- 22-to-22 mapping attempts
-- `docs/genetic-code-reference.md` -- Complete genetic code reference
+- `docs/reference/genetic-code-reference.md` -- Complete genetic code reference
 
 ### Molecular Biology
 - Chargaff's rules: [Wikipedia](https://en.wikipedia.org/wiki/Chargaff%27s_rules)

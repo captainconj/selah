@@ -428,6 +428,6 @@ This spy report does not adjudicate between these options. It lays out what the 
 - `docs/experiments/091-breastplate-attention.md` -- the Urim/Thummim as multi-head self-attention
 - `docs/experiments/091-the-quorum.md` -- YHWH as four-head attention architecture
 - `docs/experiments/093h-the-ghost-zone.md` -- words the oracle cannot speak
-- `docs/hebrew-alphabet.md` -- the 22 letters, their values and distributions on the breastplate
+- `docs/reference/hebrew-alphabet.md` -- the 22 letters, their values and distributions on the breastplate
 - `docs/experiments/093-synthesis.md` -- Level 2 Thummim findings
 - `src/selah/oracle.clj` -- the oracle engine implementation
