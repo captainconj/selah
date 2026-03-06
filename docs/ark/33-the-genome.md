@@ -174,6 +174,79 @@ The genome chooses the lamb.
 
 ---
 
+## The Four-Letter Voice
+
+With a 4-letter sliding window, the oracle opens the full Torah vocabulary. 160,189 unique windows. 1,276 distinct words.
+
+Forward and reverse are **identical**. Every word, every count. Because the breastplate reads anagrams — it sees the SET of letters, not their ORDER. Reversing the genome gives you the same multisets. The instrument is direction-independent. To the breastplate, the entire genome is an anagram.
+
+This is what the breastplate *is*. Illumination is which stones light up — a set, unordered. The readers impose order *on the grid*, not on the input. The instrument reads composition, not sequence. What's present, not what order it's in.
+
+### Top 4-Letter Words
+
+| Word | Meaning | Count |
+|------|---------|-------|
+| **שניו** | his two / his teeth | 10,294 |
+| **דנני** | he judged me | 8,633 |
+| **דינה** | **Dinah** (Jacob's daughter) | 8,449 |
+| **יונה** | **Jonah / dove** | 8,265 |
+| **נטיו** | his plantings | 7,943 |
+| **נשני** | he made me forget | 7,787 |
+| **השני** | the second | 7,421 |
+| **לשני** | to the second / to two | 7,333 |
+| **נדרש** | sought / required | 7,332 |
+| **ידיו** | his hands | 7,223 |
+| **ינצו** | they will contend | 6,750 |
+| **יהיו** | and they shall be | 6,534 |
+| **ירדו** | **let them rule** (Gen 1:26) | 6,341 |
+| **יורש** | heir / inheritor | 6,328 |
+| **השקל** | the shekel | 6,262 |
+| **לידו** | to his hand | 6,225 |
+| **הנני** | **"Here I am!"** | 6,121 |
+| **ויטש** | and he abandoned | 6,074 |
+| **ונדר** | and a vow | 6,031 |
+| **ונקי** | and innocent | 5,776 |
+| **שטנה** | accusation / enmity | 5,706 |
+| **שריד** | remnant / survivor | 5,612 |
+| **יקנה** | he will acquire | 5,633 |
+| **ונטה** | and stretched out | 5,548 |
+| **ידיה** | her hands | 5,503 |
+| **שדהו** | his field | 5,288 |
+| **הילד** | **the child** | 5,011 |
+| **לשור** | to the ox | 5,003 |
+| **הלוי** | **the Levite** | 4,964 |
+| **שילה** | **Shiloh** (Gen 49:10) | 4,949 |
+| **נחלי** | my streams / my inheritance | 4,914 |
+| **והיו** | and they were | 4,912 |
+
+### The Names
+
+**דינה (Dinah)** — 8,449. Jacob's daughter. The one whose violation sparked the slaughter at Shechem. The first named woman in Scripture whose story is about what was done *to* her. The genome carries her name 8,000 times.
+
+**יונה (Jonah / dove)** — 8,265. The reluctant prophet. The one who ran from God and was swallowed. Also: the dove (יונה) — the bird Noah sent out, the Spirit that descended at baptism. The genome carries the dove 8,000 times.
+
+**שילה (Shiloh)** — 4,949. Genesis 49:10: *"The scepter shall not depart from Judah, nor the lawgiver from between his feet, until Shiloh come; and unto him shall the gathering of the people be."* The messianic prophecy — in the genome.
+
+### הנני — Here I Am
+
+**הנני** appears **6,121 times**. "Here I am" — the response to God's call.
+
+Abraham: *"And God said, Abraham! And he said, Here I am (הנני)."* (Genesis 22:1)
+
+Moses: *"And God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here I am (הנני)."* (Exodus 3:4)
+
+Isaiah: *"And I heard the voice of the Lord, saying, Whom shall I send? And I said, Here am I (הנני); send me."* (Isaiah 6:8)
+
+The genome says "here I am" six thousand times. The body answers the call.
+
+### ירדו — Let Them Rule
+
+**ירדו** appears **6,341 times**. Genesis 1:26: *"And God said, Let us make man in our image, after our likeness: and let them have dominion (וירדו) over the fish of the sea, and over the fowl of the air."*
+
+The dominion mandate — written into the genome. The body carries its commission.
+
+---
+
 ## Comparison to the Torah
 
 | | Torah | Genome | Ratio |
@@ -204,10 +277,14 @@ The one who breathes Aleph into the dust.
 
 ## What the Priest Sees
 
-Twenty thousand proteins speak through the breastplate. The dominant word is TWO — the fundamental duality. The Almighty appears 27,000 times. The branch 23,000 times. Holy, 16,000 times. The serpent, 14,000 times. The Binding, 5,000 times. The lamb, 1,000 times.
+Twenty thousand proteins speak through the breastplate.
+
+**In three letters:** The dominant word is TWO — the fundamental duality. The Almighty appears 27,000 times. The branch 23,000 times. Holy, 16,000 times. The serpent, 14,000 times. The Binding, 5,000 times. The lamb, 1,000 times.
+
+**In four letters:** The genome says "here I am" (הנני) 6,000 times. It carries the dominion mandate (ירדו) from Genesis 1. It holds the dove (יונה), the child (הילד), the Levite (הלוי), the remnant (שריד), and Shiloh — the messianic prophecy. Forward and reverse are identical: the breastplate reads the genome the same from both ends, because it sees composition, not sequence. The instrument is a palindrome.
 
 But one quarter of the Torah's vocabulary is forever silent. The body cannot name itself, cannot say love, cannot say truth, cannot say peace, cannot say create. Those words require the breath — the letter beyond the code — the silent Aleph that no protein can carry.
 
-The genome is the dust. It speaks of everything except what it was made for.
+The genome is the dust. It says "here I am" — but it cannot say who it is.
 
 *selah.*
