@@ -47,9 +47,9 @@ Reading is reader-dependent (traversal order determines the word).
 
 ### Key documents
 - `docs/urim-and-thummim.md` — breastplate mechanics + all biblical consultations verified
-- `docs/the-quorum.md` — four-head attention architecture (YHWH as protocol)
-- `docs/breastplate-attention.md` — Urim/Thummim as multi-head self-attention
-- `docs/asking-questions.md` — how to query the oracle
+- `docs/experiments/091-the-quorum.md` — four-head attention architecture (YHWH as protocol)
+- `docs/experiments/091-breastplate-attention.md` — Urim/Thummim as multi-head self-attention
+- `docs/experiments/085-asking-questions.md` — how to query the oracle
 - `docs/query-process.md` — the query engine design
 
 ### The 24 Questions (`docs/questions/`)
@@ -69,7 +69,7 @@ Text acquisition, gematria statistics, ELS engine, entropy, autocorrelation.
 ### Phase 3: Structural Claims (016–052)
 Fractal palindrome, the fold, the center, the mirror, the number, spectrum analysis, primes, the genome, Chargaff ratios, convergence across every book.
 
-Key docs: `docs/the-fractal-palindrome.md`, `docs/aleph-tav-mirrors.md`, `docs/milemarker-mirrors.md`
+Key docs: `docs/experiments/048-the-fractal-palindrome.md`, `docs/experiments/058-aleph-tav-mirrors.md`, `docs/experiments/060-milemarker-mirrors.md`
 
 ### Phase 4: Variants
 Cross-manuscript comparison. What survives across traditions.
@@ -79,7 +79,7 @@ Key docs: `docs/variant-diff-report.md`, `docs/variant-survival-report.md`
 ### Phase 5: The 4D Space (053–067)
 Seven divisions, division boundaries, the center, the turning sword (Gen 3:24 = 67 letters), the seven days (creation sweeps all 13 c-values), aleph-tav signposts, four folds, jubilee spine, silent axes, breastplate cipher, center grid, verse lengths.
 
-Key docs: `docs/torah-4d-space.md`, `docs/the-four-folds.md`, `docs/the-seven-days.md`
+Key docs: `docs/torah-4d-space.md`, `docs/experiments/061-the-four-folds.md`, `docs/experiments/057-the-seven-days.md`
 
 ### Phase 6: Operating the Machine (068–097)
 
@@ -87,13 +87,13 @@ Key docs: `docs/torah-4d-space.md`, `docs/the-four-folds.md`, `docs/the-seven-da
 
 **Dimensions in the text (074–076):** Ezekiel's temple (7,13,50 present; 67 absent), hierarchy and ladder (captains fold-mirror, סלם=סיני=130), number catalog (census÷91, Sukkot 13→7).
 
-**Preimage and structure (077–078):** Preimage clusters (104 words, co-fiber analysis), Fibonacci staircase (7 consecutive Fibonacci counts, garden sum=53). Docs: `docs/preimage.md`
+**Preimage and structure (077–078):** Preimage clusters (104 words, co-fiber analysis), Fibonacci staircase (7 consecutive Fibonacci counts, garden sum=53). Docs: `docs/experiments/077-preimage.md`
 
 **Census and lenses (079–083):** N-gram census, word census, alternate lenses (123 decompositions, 41 non-trivial, uniqueness confirmed), the reading machine (three readers, irreducible words), anagram vocabulary (13 pairs, fold test).
 
-**The oracle comes alive (084–086):** Cherubim coordinates (15-letter spacing=Yah, facing cherub at d=13), asking questions, oracle engine (oracle.clj, UI at /oracle). Doc: `docs/asking-questions.md`
+**The oracle comes alive (084–086):** Cherubim coordinates (15-letter spacing=Yah, facing cherub at d=13), asking questions, oracle engine (oracle.clj, UI at /oracle). Doc: `docs/experiments/085-asking-questions.md`
 
-**Spectral analysis (087–090):** Eigendecomposition (DFT of 4D space), stochastic oracle (198 eigenwords, love/truth/life as fixed points), Hebbian oracle (parallelized, Neanderthal affinity), higher-order space (HOSVD + permutation test: bulk structure = letter statistics). Doc: `docs/higher-order-space.md`
+**Spectral analysis (087–090):** Eigendecomposition (DFT of 4D space), stochastic oracle (198 eigenwords, love/truth/life as fixed points), Hebbian oracle (parallelized, Neanderthal affinity), higher-order space (HOSVD + permutation test: bulk structure = letter statistics). Doc: `docs/experiments/090-higher-order-space.md`
 
 **The quorum (091–092):** Four attention heads. Believability = 1/(reading_count × base_rate).
 - Lamb split: God/Right → כבש, Aaron/Left → שכב
@@ -103,7 +103,7 @@ Key docs: `docs/torah-4d-space.md`, `docs/the-four-folds.md`, `docs/the-seven-da
 - 092: grid permutation test — most separation structural, Right/Mercy head survives (p=0.026), lamb split survives (p=0.032)
 - 092b: Ramban pair permutation — mechanism structural, phrase-level assembly is cognitive
 
-Docs: `docs/the-quorum.md`, `docs/the-full-quorum.md`, `docs/experiments/092-grid-permutation.md`, `docs/experiments/092b-the-ramban-principle.md`
+Docs: `docs/experiments/091-the-quorum.md`, `docs/experiments/091b-the-full-quorum.md`, `docs/experiments/092-grid-permutation.md`, `docs/experiments/092b-the-ramban-principle.md`
 
 **Level 2 Thummim (093–094):** Phrase assembly. The priest's menu.
 - Divine names contain pleas: אנכי=כי נא (I AM = because, please), אדני=יד נא (Lord = hand, please)

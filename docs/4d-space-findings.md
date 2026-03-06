@@ -129,11 +129,11 @@ The classic ELS pattern — תורה at skip 50 in the outer books, יהוה at 
 
 The first milemarker in the entire Torah (Genesis 1:1, position 5) folds to the introduction of the Shema. The most famous hidden pattern mirrors to the most famous spoken declaration.
 
-See `docs/milemarker-mirrors.md` for the full table and analysis.
+See `docs/experiments/060-milemarker-mirrors.md` for the full table and analysis.
 
 ## The Four Folds (061)
 
-Three fold creases converge on Leviticus 8:35. The a-fold dominates את preservation at 11.1× expected; the b-fold shows nothing (~1×). Deuteronomy 6 is the fold attractor. See `docs/the-four-folds.md`.
+Three fold creases converge on Leviticus 8:35. The a-fold dominates את preservation at 11.1× expected; the b-fold shows nothing (~1×). Deuteronomy 6 is the fold attractor. See `docs/experiments/061-the-four-folds.md`.
 
 ## The Jubilee Spine (062)
 

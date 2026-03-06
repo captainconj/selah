@@ -438,8 +438,8 @@ The Torah does not contain the genome. The Torah is what the genome is *for*.
 - 097: Cross-beam protein (506 bridge, permutation test, biological vocabulary)
 
 ### Key Project Documents
-- `docs/breastplate-attention.md` — Urim/Thummim as multi-head self-attention
-- `docs/the-quorum.md` — YHWH as four-head attention architecture
+- `docs/experiments/091-breastplate-attention.md` — Urim/Thummim as multi-head self-attention
+- `docs/experiments/091-the-quorum.md` — YHWH as four-head attention architecture
 - `docs/urim-and-thummim.md` — Complete Urim and Thummim documentation
 - `docs/torah-4d-space.md` — The 4D space paper (27 sections)
 - `docs/questions/34-noahs-ark.md` — Noah's Ark in the space
