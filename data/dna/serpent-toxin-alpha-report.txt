@@ -1,0 +1,88 @@
+=== Serpent-toxin-alpha ===
+Alpha-bungarotoxin OS=Bungarus multicinctus OX=8616 PE=1 SV=1
+95 residues → 95 Hebrew letters
+Hebrew: בקהנננהנטטטהמטפנגנשזהמטפעההדהיומידטהפוושלחנפזרקבכפגדתפיירשקטטלנשפדדהפויקקוזללטהפפיהגקפחועוקצרוש
+GV: 5284
+
+Letter frequencies:
+  פ → Cys  =  11 (11.6%)
+  ה → Thr  =  11 (11.6%)
+  ט → Val  =   9 (9.5%)
+  נ → Leu  =   8 (8.4%)
+  ו → Pro  =   8 (8.4%)
+  ק → Lys  =   7 (7.4%)
+  י → Ser  =   6 (6.3%)
+  ש → Gly  =   5 (5.3%)
+  ד → Ala  =   5 (5.3%)
+  ל → Glu  =   4 (4.2%)
+  ר → Arg  =   3 (3.2%)
+  ג → Asp  =   3 (3.2%)
+  ז → Tyr  =   3 (3.2%)
+  מ → Ile  =   3 (3.2%)
+  ע → His  =   2 (2.1%)
+  ב → Met  =   2 (2.1%)
+  ח → Asn  =   2 (2.1%)
+  צ → Gln  =   1 (1.1%)
+  ת → Phe  =   1 (1.1%)
+  כ → Trp  =   1 (1.1%)
+
+Oracle readings (window=3):
+  [  0] בקה (gv=107) → קבה Kaba (×12)
+  [  1] קהנ (gv=155) → קנה Buy (×2)
+  [  6] הנט (gv=64) → נטה Neta (×6)
+  [ 10] טהמ (gv=54) → מטה staff/tribe (×8)
+  [ 11] המט (gv=54) → מטה staff/tribe (×8)
+  [ 16] גנש (gv=353) → נגש Access (×14)
+  [ 19] זהמ (gv=52) → זמה Zema (×4)
+  [ 20] המט (gv=54) → מטה staff/tribe (×8)
+  [ 27] דהי (gv=19) → היד The Hand (×60)
+  [ 28] היו (gv=21) → היו There were (×150)
+  [ 29] יומ (gv=56) → ומי And who (×110)
+  [ 30] ומי (gv=56) → ומי And who (×110)
+  [ 31] מיד (gv=54) → מדי Too (×28)
+  [ 39] שלח (gv=338) → שלח send (×15)
+  [ 40] לחנ (gv=88) → לנח Noah (×3)
+  [ 41] חנפ (gv=138) → נפח Volume (×3)
+  [ 44] זרק (gv=307) → זרק Dumped (×4)
+  [ 45] רקב (gv=302) → קבר Grave (×24)
+  [ 52] תפי (gv=490) → יפת Yapheth (×22)
+  [ 55] ירש (gv=510) → שרי Sherry (×212)
+  [ 56] רשק (gv=600) → שקר False (×38)
+  [ 62] נשפ (gv=430) → נפש soul (×12)
+  [ 65] דדה (gv=13) → הדד HUD (×14)
+  [ 66] דהפ (gv=89) → פדה ransom (×1)
+  [ 68] פוי (gv=96) → ופי And Fi (×32)
+  [ 73] וזל (gv=43) → לוז Luz (×7)
+  [ 76] לטה (gv=44) → להט Passion (×3)
+  [ 80] פיה (gv=95) → יפה Beautiful (×11)
+  [ 91] צרו (gv=296) → צור rock (×20)
+  [ 92] רוש (gv=506) → שור ox (×111)
+
+Most frequent oracle words:
+  מטה      staff/tribe               ×3  at [nil nil nil]
+  ומי      And who                   ×2  at [nil nil]
+  נגש      Access                    ×1  at [nil]
+  זרק      Dumped                    ×1  at [nil]
+  להט      Passion                   ×1  at [nil]
+  היו      There were                ×1  at [nil]
+  שקר      False                     ×1  at [nil]
+  צור      rock                      ×1  at [nil]
+  יפת      Yapheth                   ×1  at [nil]
+  קבה      Kaba                      ×1  at [nil]
+  ופי      And Fi                    ×1  at [nil]
+  שלח      send                      ×1  at [nil]
+  קנה      Buy                       ×1  at [nil]
+  שור      ox                        ×1  at [nil]
+  נטה      Neta                      ×1  at [nil]
+  נפש      soul                      ×1  at [nil]
+  זמה      Zema                      ×1  at [nil]
+  פדה      ransom                    ×1  at [nil]
+  יפה      Beautiful                 ×1  at [nil]
+  נפח      Volume                    ×1  at [nil]
+  הדד      HUD                       ×1  at [nil]
+  קבר      Grave                     ×1  at [nil]
+  לנח      Noah                      ×1  at [nil]
+  שרי      Sherry                    ×1  at [nil]
+  היד      The Hand                  ×1  at [nil]
+  לוז      Luz                       ×1  at [nil]
+  מדי      Too                       ×1  at [nil]
