@@ -8,3 +8,4 @@ target/
 models/
 .clj-kondo/
 *.iml
+docs/archive/
