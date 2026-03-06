@@ -14,7 +14,9 @@
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
             [selah.dict :as dict]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clj-http.lite.client :as http]
+            [clojure.java.io :as io]))
 
 ;; ── The Map ─────────────────────────────────────────────────
 ;;
@@ -221,3 +223,270 @@
                           (:reading-count top-word)))))
      (println)
      r)))
+
+;; ── Sequence Collection ─────────────────────────────────────
+;;
+;; Fetch protein sequences from UniProt, cache to disk.
+;; The library of life, ready to play through the breastplate.
+
+(def sequences-dir "data/sequences")
+
+(defn- ensure-dir! [dir]
+  (.mkdirs (io/file dir)))
+
+(defn- parse-fasta
+  "Parse a FASTA string → {:id :description :sequence}."
+  [fasta-str]
+  (let [lines (str/split-lines (str/trim fasta-str))
+        header (first lines)
+        [_ id desc] (re-matches #">(\S+)\s*(.*)" (or header ""))
+        seq-str (->> (rest lines)
+                     (remove #(str/starts-with? % ">"))
+                     (map str/trim)
+                     (apply str))]
+    {:id (or id "unknown")
+     :description (or desc "")
+     :sequence seq-str}))
+
+(defn fetch-uniprot
+  "Fetch a protein sequence from UniProt by accession. Caches to disk.
+   Returns {:id :description :sequence :accession :cached?}."
+  [accession]
+  (let [dir (str sequences-dir "/uniprot")
+        path (str dir "/" accession ".fasta")]
+    (ensure-dir! dir)
+    (if (.exists (io/file path))
+      (assoc (parse-fasta (slurp path))
+             :accession accession :cached? true :path path)
+      (let [url (str "https://rest.uniprot.org/uniprotkb/" accession ".fasta")
+            resp (http/get url {:throw-exceptions false})]
+        (if (= 200 (:status resp))
+          (do
+            (spit path (:body resp))
+            (println (str "[dna] Fetched " accession " from UniProt"))
+            (assoc (parse-fasta (:body resp))
+                   :accession accession :cached? false :path path))
+          (do
+            (println (str "[dna] Failed to fetch " accession ": " (:status resp)))
+            nil))))))
+
+(defn fetch-ncbi-protein
+  "Fetch a protein sequence from NCBI by accession. Caches to disk."
+  [accession]
+  (let [dir (str sequences-dir "/ncbi")
+        path (str dir "/" accession ".fasta")]
+    (ensure-dir! dir)
+    (if (.exists (io/file path))
+      (assoc (parse-fasta (slurp path))
+             :accession accession :cached? true :path path)
+      (let [url (str "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+                      "?db=protein&id=" accession "&rettype=fasta&retmode=text")
+            resp (http/get url {:throw-exceptions false})]
+        (if (and (= 200 (:status resp))
+                 (str/starts-with? (str/trim (:body resp)) ">"))
+          (do
+            (spit path (:body resp))
+            (println (str "[dna] Fetched " accession " from NCBI"))
+            (assoc (parse-fasta (:body resp))
+                   :accession accession :cached? false :path path))
+          (do
+            (println (str "[dna] Failed to fetch " accession ": " (:status resp)))
+            nil))))))
+
+(defn load-fasta
+  "Load a local FASTA file → {:id :description :sequence}."
+  [path]
+  (when (.exists (io/file path))
+    (assoc (parse-fasta (slurp path)) :path path)))
+
+;; ── The Library ─────────────────────────────────────────────
+;;
+;; Curated proteins, each chosen for a reason.
+
+(def library
+  "The proteins we want to play through the breastplate.
+   Each entry: {:name :accession :source :why :length}"
+  [;; ── The Guardians ──
+   {:name "p53"
+    :accession "P04637"
+    :source :uniprot
+    :why "Guardian of the genome. Named for 53. 53 = garden sum = Torah portions."
+    :organism "Human"}
+
+   {:name "BRCA1"
+    :accession "P38398"
+    :source :uniprot
+    :why "Breast cancer guardian. DNA repair. The other guardian."
+    :organism "Human"}
+
+   ;; ── The Blood ──
+   {:name "Hemoglobin-alpha"
+    :accession "P69905"
+    :source :uniprot
+    :why "Carries oxygen. The blood. 141 residues."
+    :organism "Human"}
+
+   {:name "Hemoglobin-beta"
+    :accession "P68871"
+    :source :uniprot
+    :why "Carries oxygen. Sickle cell = one letter change. 147 residues."
+    :organism "Human"}
+
+   {:name "Myoglobin"
+    :accession "P02144"
+    :source :uniprot
+    :why "Oxygen in muscle. The first protein structure ever solved (1958)."
+    :organism "Human"}
+
+   ;; ── The Beginning ──
+   {:name "Insulin"
+    :accession "P01308"
+    :source :uniprot
+    :why "First protein sequenced (Sanger, 1951). Life and death in the blood."
+    :organism "Human"}
+
+   ;; ── The Structure ──
+   {:name "Collagen-I-alpha1"
+    :accession "P02452"
+    :source :uniprot
+    :why "Most abundant protein in the body. The scaffold. Gly-X-Y repeats."
+    :organism "Human"}
+
+   {:name "Laminin-gamma1"
+    :accession "P11047"
+    :source :uniprot
+    :why "Cross-shaped protein. Holds cells together. The basement membrane."
+    :organism "Human"}
+
+   ;; ── The Scroll ──
+   {:name "Histone-H3"
+    :accession "P68431"
+    :source :uniprot
+    :why "Wraps DNA. The scroll around which the text is wound. 136 residues."
+    :organism "Human"}
+
+   {:name "Histone-H4"
+    :accession "P62805"
+    :source :uniprot
+    :why "Most conserved protein in eukaryotes. The eternal scroll."
+    :organism "Human"}
+
+   ;; ── The Mark ──
+   {:name "Ubiquitin"
+    :accession "P0CG48"
+    :source :uniprot
+    :why "76 residues. Marks proteins for destruction. Judgment."
+    :organism "Human"}
+
+   ;; ── The Light ──
+   {:name "Rhodopsin"
+    :accession "P08100"
+    :source :uniprot
+    :why "Vision. Light → signal. The eye that sees."
+    :organism "Human"}
+
+   {:name "Cytochrome-c"
+    :accession "P99999"
+    :source :uniprot
+    :why "Electron transport. The spark of life. Most conserved across species."
+    :organism "Human"}
+
+   ;; ── The Engine ──
+   {:name "ATP-synthase-beta"
+    :accession "P06576"
+    :source :uniprot
+    :why "The rotary engine. Makes ATP. The currency of life."
+    :organism "Human"}
+
+   ;; ── The Word ──
+   {:name "RNA-polymerase-II"
+    :accession "P24928"
+    :source :uniprot
+    :why "Reads DNA, writes RNA. The scribe. The largest subunit."
+    :organism "Human"}
+
+   {:name "Ribosomal-protein-S3"
+    :accession "P23396"
+    :source :uniprot
+    :why "Part of the ribosome — the machine that reads the code."
+    :organism "Human"}
+
+   ;; ── The Ancient ──
+   {:name "Ferredoxin"
+    :accession "P10109"
+    :source :uniprot
+    :why "Iron-sulfur protein. Among the oldest proteins. Iron = 26 = YHWH."
+    :organism "Human"}
+
+   ;; ── The Signal ──
+   {:name "Calmodulin"
+    :accession "P0DP23"
+    :source :uniprot
+    :why "Calcium messenger. 149 residues. The signal that moves."
+    :organism "Human"}
+
+   ;; ── The Immune ──
+   {:name "Immunoglobulin-G1"
+    :accession "P01857"
+    :source :uniprot
+    :why "Antibody heavy chain. The guard. Recognition and defense."
+    :organism "Human"}
+
+   ;; ── The Forbidden ──
+   {:name "Serpent-toxin-alpha"
+    :accession "P60615"
+    :source :uniprot
+    :why "Alpha-cobratoxin. The serpent's weapon. 71 residues."
+    :organism "Naja kaouthia"}])
+
+(defn fetch-library!
+  "Fetch all proteins in the library. Caches to disk. Returns results."
+  []
+  (println (str "[dna] Fetching " (count library) " proteins..."))
+  (let [results (doall
+                  (for [{:keys [name accession source]} library]
+                    (let [r (case source
+                              :uniprot (fetch-uniprot accession)
+                              :ncbi    (fetch-ncbi-protein accession)
+                              nil)]
+                      (when r
+                        (println (str "  ✓ " name " (" accession "): "
+                                      (count (:sequence r)) " residues")))
+                      (assoc r :name name))))]
+    (println (str "[dna] Done. " (count (filter :sequence results)) "/"
+                  (count library) " fetched."))
+    (vec results)))
+
+(defn get-protein
+  "Get a protein from the library by name (case-insensitive partial match).
+   Fetches from cache or network."
+  [name-pattern]
+  (let [pat (str/lower-case name-pattern)
+        entry (first (filter #(str/includes? (str/lower-case (:name %)) pat) library))]
+    (when entry
+      (let [r (case (:source entry)
+                :uniprot (fetch-uniprot (:accession entry))
+                :ncbi    (fetch-ncbi-protein (:accession entry))
+                nil)]
+        (when r
+          (merge entry r))))))
+
+(defn play-protein
+  "Fetch a protein by name and play it through the breastplate."
+  [name-pattern]
+  (when-let [p (get-protein name-pattern)]
+    (let [result (play (:sequence p) {:format :protein})]
+      (assoc result
+             :name (:name p)
+             :accession (:accession p)
+             :why (:why p)
+             :organism (:organism p)))))
+
+(defn catalog
+  "Print the library catalog."
+  []
+  (println "=== THE LIBRARY ===")
+  (println (str (count library) " proteins\n"))
+  (doseq [{:keys [name accession organism why]} library]
+    (println (format "  %-25s %-10s %-20s %s" name accession organism why)))
+  (println))
