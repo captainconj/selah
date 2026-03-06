@@ -1,0 +1,95 @@
+=== Insulin ===
+Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 SV=1
+110 residues → 110 Hebrew letters
+Hebrew: בדנכברננוננדננדנכשוגודדדתטחצענפשיענטלדנזנטפשלרשתתזהוקהררלדלגנצטשצטלנשששושדשינצונדנלשינצקרשמטלצפפהימפינזצנלחזפח
+GV: 8867
+
+Letter frequencies:
+  נ → Leu  =  20 (18.2%)
+  ש → Gly  =  12 (10.9%)
+  ד → Ala  =  10 (9.1%)
+  ל → Glu  =   8 (7.3%)
+  צ → Gln  =   7 (6.4%)
+  פ → Cys  =   6 (5.5%)
+  ו → Pro  =   6 (5.5%)
+  ט → Val  =   6 (5.5%)
+  ר → Arg  =   5 (4.5%)
+  י → Ser  =   5 (4.5%)
+  ז → Tyr  =   4 (3.6%)
+  ת → Phe  =   3 (2.7%)
+  ה → Thr  =   3 (2.7%)
+  ח → Asn  =   3 (2.7%)
+  ע → His  =   2 (1.8%)
+  ק → Lys  =   2 (1.8%)
+  ב → Met  =   2 (1.8%)
+  ג → Asp  =   2 (1.8%)
+  כ → Trp  =   2 (1.8%)
+  מ → Ile  =   2 (1.8%)
+
+Oracle readings (window=3):
+  [  0] בדנ (gv=56) → נדב Nadav (×29)
+  [  3] כבר (gv=222) → רכב Vehicle (×29)
+  [ 16] כשו (gv=326) → כוש Kush (×5)
+  [ 17] שוג (gv=309) → גשו Come on. (×55)
+  [ 20] ודד (gv=14) → דדו Dedo (×20)
+  [ 29] נפש (gv=430) → נפש soul (×12)
+  [ 30] פשי (gv=390) → שפי Shefi (×12)
+  [ 31] שיע (gv=380) → עשי Do (×77)
+  [ 32] יענ (gv=130) → עני Answer (×15)
+  [ 33] ענט (gv=129) → נטע Neta (×4)
+  [ 43] שלר (gv=530) → לשר To Minister (×71)
+  [ 44] לרש (gv=530) → לשר To Minister (×71)
+  [ 45] רשת (gv=900) → רשת Network (×16)
+  [ 49] זהו (gv=18) → וזה And this (×13)
+  [ 52] קהר (gv=305) → הרק Herc (×10)
+  [ 55] רלד (gv=234) → לדר To Der (×34)
+  [ 57] דלג (gv=37) → גדל Growing (×5)
+  [ 69] ששו (gv=606) → ושש And six (×167)
+  [ 70] שוש (gv=606) → ושש And six (×167)
+  [ 73] דשי (gv=314) → שדי Demon (×78)
+  [ 74] שינ (gv=360) → שני two/second (×24)
+  [ 78] ונד (gv=60) → ונד Vand (×10)
+  [ 82] לשי (gv=340) → ישל Yesh (×183)
+  [ 83] שינ (gv=360) → שני two/second (×24)
+  [ 87] קרש (gv=600) → שקר False (×38)
+  [ 88] רשמ (gv=540) → שמר guard/keep (×36)
+  [ 90] מטל (gv=79) → מטל Metal (×7)
+  [ 92] לצפ (gv=200) → פצל Split (×2)
+  [ 95] פהי (gv=95) → יפה Beautiful (×11)
+  [ 96] הימ (gv=55) → ימה Yama (×43)
+  [ 97] ימפ (gv=130) → מפי From (×4)
+  [ 98] מפי (gv=130) → מפי From (×4)
+  [ 99] פינ (gv=140) → פני face of (×2)
+  [104] נלח (gv=88) → לנח Noah (×3)
+
+Most frequent oracle words:
+  שני      two/second                ×2  at [nil nil]
+  מפי      From                      ×2  at [nil nil]
+  ושש      And six                   ×2  at [nil nil]
+  לשר      To Minister               ×2  at [nil nil]
+  רכב      Vehicle                   ×1  at [nil]
+  וזה      And this                  ×1  at [nil]
+  שקר      False                     ×1  at [nil]
+  מטל      Metal                     ×1  at [nil]
+  עני      Answer                    ×1  at [nil]
+  גשו      Come on.                  ×1  at [nil]
+  נדב      Nadav                     ×1  at [nil]
+  שמר      guard/keep                ×1  at [nil]
+  לדר      To Der                    ×1  at [nil]
+  גדל      Growing                   ×1  at [nil]
+  שדי      Demon                     ×1  at [nil]
+  ישל      Yesh                      ×1  at [nil]
+  ונד      Vand                      ×1  at [nil]
+  שפי      Shefi                     ×1  at [nil]
+  נפש      soul                      ×1  at [nil]
+  עשי      Do                        ×1  at [nil]
+  הרק      Herc                      ×1  at [nil]
+  רשת      Network                   ×1  at [nil]
+  דדו      Dedo                      ×1  at [nil]
+  פני      face of                   ×1  at [nil]
+  יפה      Beautiful                 ×1  at [nil]
+  כוש      Kush                      ×1  at [nil]
+  ימה      Yama                      ×1  at [nil]
+  פצל      Split                     ×1  at [nil]
+  נטע      Neta                      ×1  at [nil]
+  לנח      Noah                      ×1  at [nil]

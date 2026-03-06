@@ -1,0 +1,96 @@
+=== Histone-H4 ===
+Histone H4 OS=Homo sapiens OX=9606 GN=H4C1 PE=1 SV=2
+103 residues → 103 Hebrew letters
+Hebrew: בישרשקששקשנשקששדקרערקטנרגחמצשמהקודמררנדררששטקרמישנמזללהרשטנקטתנלחטמרגדטהזהלעדקרקהטהדבגטטזדנקרצשרהנזשתשש
+GV: 11107
+
+Letter frequencies:
+  ש → Gly  =  17 (16.5%)
+  ר → Arg  =  14 (13.6%)
+  ק → Lys  =  11 (10.7%)
+  ט → Val  =   9 (8.7%)
+  נ → Leu  =   8 (7.8%)
+  ד → Ala  =   7 (6.8%)
+  ה → Thr  =   7 (6.8%)
+  מ → Ile  =   6 (5.8%)
+  ז → Tyr  =   4 (3.9%)
+  ל → Glu  =   4 (3.9%)
+  ג → Asp  =   3 (2.9%)
+  ע → His  =   2 (1.9%)
+  צ → Gln  =   2 (1.9%)
+  ת → Phe  =   2 (1.9%)
+  ב → Met  =   2 (1.9%)
+  ח → Asn  =   2 (1.9%)
+  י → Ser  =   2 (1.9%)
+  ו → Pro  =   1 (1.0%)
+
+Oracle readings (window=3):
+  [  0] ביש (gv=312) → שבי Sit down (×140)
+  [  1] ישר (gv=510) → שרי Sherry (×212)
+  [  2] שרש (gv=800) → שרש Shersh (×90)
+  [  3] רשק (gv=600) → שקר False (×38)
+  [ 14] שדק (gv=404) → קדש be holy (×42)
+  [ 16] קרע (gv=370) → עקר Infertile (×16)
+  [ 18] ערק (gv=370) → עקר Infertile (×16)
+  [ 25] חמצ (gv=138) → מצח forehead (×4)
+  [ 28] שמה (gv=345) → שמה Her name (×31)
+  [ 29] מהק (gv=145) → קמה Cama (×2)
+  [ 32] ודמ (gv=50) → מדו Meadow (×21)
+  [ 33] דמר (gv=244) → מדר Madr (×19)
+  [ 36] רנד (gv=254) → נרד Nardo (×21)
+  [ 37] נדר (gv=254) → נרד Nardo (×21)
+  [ 40] רשש (gv=800) → שרש Shersh (×90)
+  [ 45] רמי (gv=250) → מרי Mary (×75)
+  [ 46] מיש (gv=350) → שמי My name (×97)
+  [ 47] ישנ (gv=360) → שני two/second (×24)
+  [ 54] הרש (gv=505) → שרה Sarah (×74)
+  [ 62] נלח (gv=88) → לנח Noah (×3)
+  [ 65] טמר (gv=249) → מטר Meter (×14)
+  [ 66] מרג (gv=243) → גמר Final (×11)
+  [ 67] רגד (gv=207) → גדר Fence (×17)
+  [ 71] הזה (gv=17) → הזה This (×4)
+  [ 73] הלע (gv=105) → עלה go up/offering (×8)
+  [ 74] לעד (gv=104) → לעד Forever (×11)
+  [ 75] עדק (gv=174) → עקד AKED (×8)
+  [ 78] רקה (gv=305) → הרק Herc (×10)
+  [ 82] הדב (gv=11) → הבד The fabric (×13)
+  [ 83] דבג (gv=9) → בגד Clothing (×18)
+  [ 89] דנק (gv=154) → נקד Nokd (×6)
+  [ 94] שרה (gv=505) → שרה Sarah (×74)
+  [ 95] רהנ (gv=255) → נהר river (×19)
+  [ 96] הנז (gv=62) → זנה Zena (×1)
+  [ 99] שתש (gv=1000) → ששת Friday (×30)
+  [100] תשש (gv=1000) → ששת Friday (×30)
+
+Most frequent oracle words:
+  שרש      Shersh                    ×2  at [nil nil]
+  נרד      Nardo                     ×2  at [nil nil]
+  שרה      Sarah                     ×2  at [nil nil]
+  ששת      Friday                    ×2  at [nil nil]
+  עקר      Infertile                 ×2  at [nil nil]
+  שני      two/second                ×1  at [nil]
+  עלה      go up/offering            ×1  at [nil]
+  קמה      Cama                      ×1  at [nil]
+  נהר      river                     ×1  at [nil]
+  מדו      Meadow                    ×1  at [nil]
+  מצח      forehead                  ×1  at [nil]
+  שבי      Sit down                  ×1  at [nil]
+  שקר      False                     ×1  at [nil]
+  נקד      Nokd                      ×1  at [nil]
+  לעד      Forever                   ×1  at [nil]
+  מדר      Madr                      ×1  at [nil]
+  קדש      be holy                   ×1  at [nil]
+  עקד      AKED                      ×1  at [nil]
+  זנה      Zena                      ×1  at [nil]
+  גדר      Fence                     ×1  at [nil]
+  שמי      My name                   ×1  at [nil]
+  גמר      Final                     ×1  at [nil]
+  הבד      The fabric                ×1  at [nil]
+  הרק      Herc                      ×1  at [nil]
+  מטר      Meter                     ×1  at [nil]
+  שמה      Her name                  ×1  at [nil]
+  הזה      This                      ×1  at [nil]
+  מרי      Mary                      ×1  at [nil]
+  לנח      Noah                      ×1  at [nil]
+  שרי      Sherry                    ×1  at [nil]
+  בגד      Clothing                  ×1  at [nil]

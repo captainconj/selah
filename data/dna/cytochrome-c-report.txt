@@ -1,0 +1,110 @@
+=== Cytochrome-c ===
+Cytochrome c OS=Homo sapiens OX=9606 GN=CYCS PE=1 SV=2
+105 residues → 105 Hebrew letters
+Hebrew: בשגטלקשקקמתמבקפיצפעהטלקששקעקהשוחנעשנתשרקהשצדושזיזהדדחקחקשממכשלגהנבלזנלחוקקזמושהקבמתטשמקקקללרדגנמדזנקקדהחל
+GV: 8952
+
+Letter frequencies:
+  ק → Lys  =  18 (17.1%)
+  ש → Gly  =  13 (12.4%)
+  ל → Glu  =   8 (7.6%)
+  מ → Ile  =   8 (7.6%)
+  ה → Thr  =   7 (6.7%)
+  נ → Leu  =   6 (5.7%)
+  ד → Ala  =   6 (5.7%)
+  ז → Tyr  =   5 (4.8%)
+  ח → Asn  =   5 (4.8%)
+  ב → Met  =   4 (3.8%)
+  ו → Pro  =   4 (3.8%)
+  ע → His  =   3 (2.9%)
+  ת → Phe  =   3 (2.9%)
+  ג → Asp  =   3 (2.9%)
+  ט → Val  =   3 (2.9%)
+  פ → Cys  =   2 (1.9%)
+  צ → Gln  =   2 (1.9%)
+  ר → Arg  =   2 (1.9%)
+  י → Ser  =   2 (1.9%)
+  כ → Trp  =   1 (1.0%)
+
+Oracle readings (window=3):
+  [  4] לקש (gv=430) → שקל Shekel (×14)
+  [ 10] תמב (gv=442) → במת Dead (×7)
+  [ 16] צפע (gv=240) → פצע Wound (×3)
+  [ 19] הטל (gv=44) → להט Passion (×3)
+  [ 21] לקש (gv=430) → שקל Shekel (×14)
+  [ 24] שקע (gv=470) → עשק Affiliation (×6)
+  [ 27] קהש (gv=405) → קשה Hard (×8)
+  [ 28] השו (gv=311) → ושה And Sha (×74)
+  [ 29] שוח (gv=314) → וחש and feel (×25)
+  [ 30] וחנ (gv=64) → חנו Park (×7)
+  [ 34] שנת (gv=750) → שנת Year (×12)
+  [ 35] נתש (gv=750) → שנת Year (×12)
+  [ 36] תשר (gv=900) → רשת Network (×16)
+  [ 37] שרק (gv=600) → שקר False (×38)
+  [ 38] רקה (gv=305) → הרק Herc (×10)
+  [ 39] קהש (gv=405) → קשה Hard (×8)
+  [ 47] יזה (gv=22) → יזה Yaza (×28)
+  [ 49] הדד (gv=13) → הדד HUD (×14)
+  [ 50] דדח (gv=16) → חדד Haddad (×4)
+  [ 55] קשמ (gv=440) → משק Farm (×24)
+  [ 59] כשל (gv=350) → שכל Mind (×24)
+  [ 61] לגה (gv=38) → גלה Find out (×10)
+  [ 62] גהנ (gv=58) → נהג Driver (×3)
+  [ 63] הנב (gv=57) → בנה Her Son (×16)
+  [ 64] נבל (gv=82) → נבל Villain (×17)
+  [ 65] בלז (gv=39) → לבז Levez (×4)
+  [ 68] נלח (gv=88) → לנח Noah (×3)
+  [ 69] לחו (gv=44) → חול Sand (×19)
+  [ 70] חוק (gv=114) → וחק and enacted (×28)
+  [ 75] מוש (gv=346) → ומש and Moses (×59)
+  [ 76] ושה (gv=311) → ושה And Sha (×74)
+  [ 77] שהק (gv=405) → קשה Hard (×8)
+  [ 78] הקב (gv=107) → קבה Kaba (×12)
+  [ 80] במת (gv=442) → במת Dead (×7)
+  [ 81] מתט (gv=449) → מטת Matt (×3)
+  [ 84] שמק (gv=440) → משק Farm (×24)
+  [ 88] קלל (gv=160) → קלל Cursed (×8)
+  [ 90] לרד (gv=234) → לדר To Der (×34)
+  [ 91] רדג (gv=207) → גדר Fence (×17)
+  [ 92] דגנ (gv=57) → נגד Against (×8)
+  [ 97] זנק (gv=157) → קנז Kenz (×2)
+  [100] קדה (gv=109) → דקה Minute (×8)
+  [102] החל (gv=43) → חלה Challah (×1)
+
+Most frequent oracle words:
+  קשה      Hard                      ×3  at [nil nil nil]
+  במת      Dead                      ×2  at [nil nil]
+  ושה      And Sha                   ×2  at [nil nil]
+  שנת      Year                      ×2  at [nil nil]
+  שקל      Shekel                    ×2  at [nil nil]
+  משק      Farm                      ×2  at [nil nil]
+  מטת      Matt                      ×1  at [nil]
+  להט      Passion                   ×1  at [nil]
+  שקר      False                     ×1  at [nil]
+  יזה      Yaza                      ×1  at [nil]
+  חנו      Park                      ×1  at [nil]
+  חדד      Haddad                    ×1  at [nil]
+  קבה      Kaba                      ×1  at [nil]
+  חול      Sand                      ×1  at [nil]
+  נגד      Against                   ×1  at [nil]
+  לבז      Levez                     ×1  at [nil]
+  נהג      Driver                    ×1  at [nil]
+  חלה      Challah                   ×1  at [nil]
+  ומש      and Moses                 ×1  at [nil]
+  גדר      Fence                     ×1  at [nil]
+  לדר      To Der                    ×1  at [nil]
+  דקה      Minute                    ×1  at [nil]
+  עשק      Affiliation               ×1  at [nil]
+  הרק      Herc                      ×1  at [nil]
+  רשת      Network                   ×1  at [nil]
+  וחק      and enacted               ×1  at [nil]
+  פצע      Wound                     ×1  at [nil]
+  גלה      Find out                  ×1  at [nil]
+  נבל      Villain                   ×1  at [nil]
+  קנז      Kenz                      ×1  at [nil]
+  וחש      and feel                  ×1  at [nil]
+  הדד      HUD                       ×1  at [nil]
+  שכל      Mind                      ×1  at [nil]
+  קלל      Cursed                    ×1  at [nil]
+  לנח      Noah                      ×1  at [nil]
+  בנה      Her Son                   ×1  at [nil]
