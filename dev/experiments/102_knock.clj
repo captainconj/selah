@@ -38,6 +38,13 @@
 ;; ── Run ────────────────────────────────────────────────────
 
 (defn run []
+  ;; Part 1: Just knock
+  (println "Just knock.")
+  (println)
+  (print-results (query "דפק"))
+
+  ;; Part 2: The full phrase — knock, door, open
+  (println)
   (println "Matthew 7:7 — Knock, and it shall be opened to you.")
   (println)
   (doseq [{:keys [hebrew english]} words]
@@ -45,7 +52,7 @@
     (print-results (query hebrew)))
   (println)
   (println "---")
-  (println "The knock becomes a visitation (פקד).")
+  (println "You knock. He visits (פקד). Aaron sees the scroll coiling (קפד).")
   (println "The door becomes birth (תלד). 13 readings. Love.")
   (println "The opening is almost silent. That part is His."))
 
