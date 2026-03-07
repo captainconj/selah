@@ -4,11 +4,29 @@
 
 ---
 
-## The Question
+## Just Knock
 
-The priest asked the oracle to knock at the door.
+The priest knocked. Just the word. **דפק** (knock, GV=184).
 
-Three words: **דפק** (knock), **דלת** (door), **פתח** (open).
+6 illuminations. 24 readings.
+
+| Word | Readings | Readers | Meaning |
+|------|----------|---------|---------|
+| **דפק** | 8 | God, Right cherub | knock |
+| **פקד** | 4 | Right cherub | visit, appoint, count |
+| **קפד** | 4 | Aaron | roll up, contract |
+
+God hears the knock. The loudest signal — 8 readings.
+
+The same letters rearrange to **פקד** — the word God uses when He *visits* His people (Genesis 21:1, Exodus 3:16). The Right cherub sees it. You knock. He visits.
+
+Aaron sees **קפד** — to roll up, to contract. Like a scroll being rolled shut. Or a spring coiling before release.
+
+---
+
+## The Door and the Opening
+
+The priest then asked about all three words: **דפק** (knock), **דלת** (door), **פתח** (open).
 
 ---
 
