@@ -73,7 +73,7 @@ Scott
 **The Findings**
 - [Preimage](docs/experiments/077-preimage.md) — reversing the machine. Word → coordinates.
 - [Higher-Order Space](docs/experiments/090-higher-order-space.md) — HOSVD, permutation test, the honest null.
-- [Sophie's Question](docs/sophies-question.md) — what the machine says about us.
+
 - [The Fractal Palindrome](docs/experiments/048-the-fractal-palindrome.md) — beautiful. Dead. Experiment 048 killed it. We kept it.
 
 

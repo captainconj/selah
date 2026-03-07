@@ -45,7 +45,7 @@ We assembled phrases from scattered letters. **Lamb + Blood = Glory of the Name.
 | **[The Urim and Thummim](docs/urim-and-thummim.md)** | The breastplate rebuilt as a working oracle. All seven biblical consultations verified on the grid. Hannah's case. The Ramban's case. The lot that fell on Jonathan. |
 | **[The Machine](docs/experiments/065-the-machine.md)** | The cipher. The cribs. The Enigma parallel. How the same letters produce different words depending on who reads them. |
 | **[The 4D Torah Space](docs/torah-4d-space.md)** | The full paper — 27 sections. The factorization, the center, the sword, the fold, the silent axes. |
-| **[Sophie's Question](docs/sophies-question.md)** | What the machine says about us |
+
 
 
 ### The Walks
