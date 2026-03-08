@@ -260,11 +260,14 @@ void main() {
         fb   (float-array 16)]
     (if ortho?
       ;; Auto-fit: lookAt already centers [0,1] data at origin in view space.
-      ;; Data lives in [-0.5, 0.5] after view transform.
-      ;; Fit to viewport: shrink the visible range so data fills the width.
+      ;; Grid mode: height-constrained (uniform spacing, data centered)
+      ;; Read mode: width-constrained (data fills viewport width)
       (let [[px py] pan
-            half-h (/ 0.55 zoom)
-            half-w (* half-h aspect)]
+            display (get (scene/state) :display :grid)
+            [half-w half-h]
+            (if (= display :read)
+              (let [hw (/ 0.70 zoom)] [hw (/ hw aspect)])
+              (let [hh (/ 0.55 zoom)] [(* hh aspect) hh]))]
         (.ortho proj
                 (float (- px half-w)) (float (+ px half-w))
                 (float (- py half-h)) (float (+ py half-h))
@@ -480,8 +483,8 @@ void main() {
     (.setColor g (Color. 110 110 110))
     (.setFont g (Font. "SansSerif" Font/PLAIN 12))
     (let [controls ["Tab: view" "1-4: axis" "+/-: step"
-                    "\u2191\u2193\u2190\u2192: slice" "O: 3D" "P: palette"
-                    "R: reset" "Scroll: zoom"]]
+                    "\u2191\u2193\u2190\u2192: slice" "G: grid/read"
+                    "O: 3D" "P: palette" "R: reset" "Scroll: zoom"]]
       (doseq [[i c] (map-indexed vector controls)]
         (.drawString g c 12 (- h (* (- (count controls) i) 17) 6))))
     (.dispose g)
@@ -640,7 +643,12 @@ void main() {
         time-s (/ (double (- (System/nanoTime) start-time)) 1e9)
         mvp-fb (compute-mvp cam data-w data-h)
         ;; Point size: in ortho, constant pixels that scale with zoom
-        base-size (if ortho? (max 4.0 (min 80.0 (* 18.0 zoom))) 8.0)]
+        display (get (scene/state) :display :grid)
+        base-size (if ortho?
+                    (if (= display :read)
+                      (max 6.0 (min 100.0 (* 26.0 zoom)))   ;; read: bigger letters
+                      (max 4.0 (min 80.0 (* 16.0 zoom))))   ;; grid: uniform dots
+                    8.0)]
     ;; Clear (full viewport)
     (GL11/glViewport 0 0 width height)
     (GL11/glClear (bit-or GL11/GL_COLOR_BUFFER_BIT GL11/GL_DEPTH_BUFFER_BIT))

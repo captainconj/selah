@@ -29,6 +29,7 @@
          :slice     {:a 3 :b 0 :c nil :d nil}
          :highlight #{}
          :boxes     []
+         :display   :grid          ;; :grid (uniform) or :read (fill width)
          :palette   :letter
          :dirty?    true
          :running?  false
@@ -56,13 +57,14 @@
   []
   (let [s @*state*
         mode (if (get-in s [:camera :ortho?]) "Ortho" "3D")
+        disp (name (get s :display :grid))
         pal (name (:palette s))
         fa (free-axes)
         fx (fixed-axes)
         free-strs (map (fn [k] (str (name k) " (0-" (dec (get axis-dims k)) ")")) fa)
         fixed-strs (map (fn [[k v]] (str (name k) "=" v)) (sort-by key fx))]
     (concat
-     [(str mode "  " pal)
+     [(str mode "  " disp "  " pal)
       ""
       "Free:"]
      (map (fn [s] (str "  " s)) free-strs)
@@ -111,18 +113,6 @@
            :fly-from  (get-in @*state* [:camera :eye])
            :fly-to    [(+ tx 0.0) (+ ty 0.0) (+ tz 0.5)])))
 
-(defn toggle-ortho
-  "Switch between perspective and orthographic projection."
-  []
-  (let [going-ortho? (not (get-in @*state* [:camera :ortho?]))]
-    (swap! *state* update-in [:camera :ortho?] not)
-    (when going-ortho?
-      (reset-ortho-camera!))))
-
-(defn set-ortho [on?]
-  (swap! *state* assoc-in [:camera :ortho?] (boolean on?))
-  (when on? (reset-ortho-camera!)))
-
 ;; ── Axes ───────────────────────────────────────────────────
 
 (defn set-axes
@@ -153,6 +143,38 @@
       (let [dim (get axis-dims axis)]
         (fix-axis axis (mod (+ current delta) dim))))))
 
+;; ── Ortho/3D toggle ──────────────────────────────────────
+
+(defn toggle-ortho
+  "Switch between perspective and orthographic projection.
+   Ortho: 2 free axes (2D slice). 3D: 3 free axes (one fixed)."
+  []
+  (let [going-ortho? (not (get-in @*state* [:camera :ortho?]))]
+    (swap! *state* update-in [:camera :ortho?] not)
+    (if going-ortho?
+      ;; Going to ortho: fix a second axis for 2D view
+      (let [fa (vec (keep (fn [[k v]] (when (nil? v) k))
+                          (:slice @*state*)))]
+        (when (> (count fa) 2)
+          (let [axis (first (sort fa))
+                mid (quot (get axis-dims axis) 2)]
+            (fix-axis axis mid)))
+        (reset-ortho-camera!))
+      ;; Going to 3D: free one axis for 3 dimensions
+      (let [fx (into {} (filter (fn [[_ v]] (some? v)) (:slice @*state*)))]
+        (when (> (count fx) 1)
+          (let [axis (last (sort (keys fx)))]
+            (free-axis axis)))
+        (let [fa (vec (sort (keep (fn [[k v]] (when (nil? v) k))
+                                  (:slice @*state*))))]
+          (when (>= (count fa) 3)
+            (set-axes (nth fa 2) (nth fa 1) (nth fa 0))))
+        (look-at [0.5 0.5 2.5] [0.5 0.5 0.0])))))
+
+(defn set-ortho [on?]
+  (swap! *state* assoc-in [:camera :ortho?] (boolean on?))
+  (when on? (reset-ortho-camera!)))
+
 (defn cycle-slice-view!
   "Cycle through common 2D views:
    c×d (a=3,b=0) → b×d (a=3,c=6) → b×c (a=3,d=33) → a×d (b=25,c=6) → ..."
@@ -182,6 +204,11 @@
 
 (defn set-palette [p]
   (swap! *state* assoc :palette p :dirty? true))
+
+(defn toggle-display
+  "Toggle between :grid (uniform spacing) and :read (fill width) modes."
+  []
+  (swap! *state* update :display #(if (= % :grid) :read :grid)))
 
 ;; ── Highlighting ───────────────────────────────────────────
 

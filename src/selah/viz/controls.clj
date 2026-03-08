@@ -111,6 +111,11 @@
       GLFW/GLFW_KEY_RIGHT (step-fixed-nth 1 1)
       GLFW/GLFW_KEY_LEFT  (step-fixed-nth 1 -1)
 
+      ;; G: toggle grid/read display mode
+      GLFW/GLFW_KEY_G
+      (do (scene/toggle-display)
+          (println (str "[viz] Display: " (name (:display (scene/state))))))
+
       ;; C: clear highlights
       GLFW/GLFW_KEY_C
       (do (scene/clear-highlights)
