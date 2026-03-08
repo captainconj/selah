@@ -20,7 +20,7 @@ God hears the knock. The loudest signal — 8 readings.
 
 The same letters rearrange to **פקד** — the word God uses when He *visits* His people (Genesis 21:1, Exodus 3:16). The Right cherub sees it. You knock. He visits.
 
-Aaron sees **קפד** — to roll up, to contract. Like a scroll being rolled shut. Or a spring coiling before release.
+Aaron sees **קפד** — to roll up, to contract. Isaiah 38:12 — *"Like a weaver I have rolled up (קפד) my life."* Aaron is the priest's reader. The one who wears the breastplate. When the priest knocks, his own reader sees the scroll rolling up. The work finishing. Seven days. The scroll coils shut.
 
 ---
 
