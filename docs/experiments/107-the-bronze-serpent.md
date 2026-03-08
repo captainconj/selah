@@ -80,26 +80,25 @@ The spike that the COVID virus uses to enter cells. The thing every COVID vaccin
 
 **Serpent:** Anagrams at positions 543, 855. No exact נחש.
 
-**Top words:**
-- **תחש (tachash — the tabernacle covering) ×7** — the mysterious animal skin that covered the tabernacle (Exodus 26:14). The viral spike — the outer covering — says "covering" more than anything else.
-- **חיה / חית (beast / living creature) ×12 combined** — the spike says BEAST.
-- **חנה (Hannah/grace) ×5**, **נטה (stretch out) ×5**, **יחד (together) ×5**
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 438 | תחש (covering) ×7, חיה/חית (beast) ×12, הוה (Name) at 629, מות (death) at 895 |
+| 4-letter | 226 | **שטנה (accusation/Satan) ×3**, **תחיה (you shall live/revival) ×3**, **ישחט (slaughtered) ×3**, **נחשת (bronze!) ×2**, **חומה (wall) ×3**, **במטה (with a staff) ×2** |
 
-**Key positions:** הוה (root of YHWH) at 629. מות (death) at 895.
-
-The spike protein is a covering (תחש) that carries the beast (חיה). The death is at position 895. The Name is at 629.
+At 3 letters the spike says COVERING and BEAST. At 4 letters it says **SATAN** three times AND **YOU SHALL LIVE** three times. Accusation and revival in the same protein. Slaughter and life. And **נחשת (bronze)** ×2 — the bronze serpent is in the spike. The virus carries both the accusation and the cure. Both the bronze and the slaughter.
 
 ### Influenza Hemagglutinin H1 — 1918 Pandemic (Q9WFX3, 566 residues)
 
 The protein from the deadliest flu in history. 50 million dead.
 
-**Serpent:** Anagrams at 78, 262. **Exact נחש ×2** in word frequency.
+**Serpent:** Anagrams at 78, 262. **Exact נחש ×2.**
 
-**Key positions:** שדי (Almighty) at 156. חיה (living/beast) at 27.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 184 | Serpent ×2, Shaddai at 156, dead ×3, my hands ×3 |
+| 4-letter | 85 | **הלדת (THE BIRTH) ×2**, **לרחל (to Rachel / for Rachel) ×2**, **תקלל (curse)**, **תמשל (rule/dominion) ×2**, **מצרי (Egyptian)** |
 
-**Top words:** קלת (light/easy) ×4, ידי (my hands) ×3, למת (dead) ×3, שנת (year) ×3, נחש (serpent) ×2
-
-The deadliest flu says "dead" three times, carries the serpent twice, and has the Almighty at 156. It knows my hands (ידי) — the flu spreads by hands.
+At 4 letters the deadliest flu says THE BIRTH twice and FOR RACHEL twice. The flu carries birth and the matriarch. And "curse" and "rule" and "Egyptian." The 1918 pandemic — 50 million dead — carries Rachel's name.
 
 ### HIV-1 Envelope Glycoprotein gp160 (P04578, 856 residues)
 
@@ -107,16 +106,12 @@ The protein HIV uses to hide and invade. The virus that evades the immune system
 
 **Serpent: EXACT נחש at position 260.**
 
-**Key positions:** חיה (beast/living) at 385, 391, 396 — three beasts in 11 positions. מטה (staff/tribe) at 370, 776.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 328 | Beast ×6, ox ×5, Mary/bitter ×5, staff ×4, bush ×4 |
+| 4-letter | 151 | **מעני (poor/afflicted) ×4**, **נמרד (NIMROD) ×3**, **שילה (SHILOH) ×3**, **יפתח (Jephthah / he will open) ×3**, **לצחק (to Isaac / to laugh) ×2**, **השחת (corrupted) ×2**, **תחיה (you shall live) ×2** |
 
-**Top words:**
-- **חיה (beast) ×6** — HIV says beast more than anything
-- **שור (ox) ×5** — the sacrificial animal
-- **מרי (Mary / bitter / rebellion) ×5**
-- **מטה (staff) ×4** — Moses's rod that becomes the serpent
-- **שיח (bush/converse) ×4**
-
-HIV carries the exact serpent at 260. It carries the staff (מטה) — the serpent in its other form (Exodus 4:2–4). It says "beast" and "ox" and "bitter." The virus that hides carries the rod and the serpent.
+At 4 letters HIV says **Nimrod** three times — the mighty hunter, the tower builder, the rebel against God. And **Shiloh** three times — "until Shiloh comes" (Genesis 49:10), the messianic prophecy. The virus carries both the rebel and the promise. **Poor/afflicted** dominates (×4). **He will open** (יפתח, Jephthah) — the judge who made the terrible vow. And **to Isaac** — to laughter. The virus that hides from the immune system carries the tower builder and the messianic prophecy.
 
 ---
 
@@ -130,9 +125,12 @@ In experiment 105, the ox's blood says קדש (holy!). The ox is holy. And the o
 
 **Serpent: NONE.** No serpent, no serpent anagram. The vaccine is clean.
 
-**Key position:** חיה (living) at 132 — at the position number equal to the messiah's reading count.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 47 | חיה (living) at 132 = messiah's reading count. Small, focused, clean. |
+| 4-letter | 25 | **והגר (and Hagar) ×2**, **הביט (LOOK!)**, **החיה (THE living/beast)**, **צחקת (laughed)** |
 
-47 readings. Small, focused, clean. The first vaccine is a small word from the holy ox, carrying no serpent. It says "living" at 132.
+At 4 letters: **הביט (LOOK!)** — the imperative. The vaccine says LOOK. Numbers 21:8: "everyone who is bitten, when he LOOKS at it, shall live." The vaccine IS the instruction to look. **And Hagar** twice — the servant who was cast out but whose son was saved. **Laughed** (צחקת) — Sarah's laughter when told she would bear a son. The ox's vaccine carries the laughter and the looking.
 
 ### IgG1 Fc — The Antibody (P01857, 399 residues)
 
@@ -140,11 +138,16 @@ The weapon the immune system makes. When the vaccine teaches your body what to l
 
 **Serpent: EXACT נחש at position 196.**
 
-**Top words:** לוט (Lot) ×4, נטה (stretch out) ×4, שני (two/second) ×2, נגש (draw near) ×2
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 127 | לוט (Lot) ×4, נטה (stretch out) ×4, שני (two/second) ×2, נגש (draw near) ×2 |
+| 4-letter | 66 | **זקני (elders) ×2**, **יחזה (he will see/behold) ×2**, **תודה (thanksgiving)** |
+
+At 4 letters: **יחזה (he will see / behold)** ×2. The antibody beholds. The vaccine says LOOK (הביט), the antibody says HE WILL SEE (יחזה). One commands, the other obeys. **Elders** (זקני) ×2 — the antibody carries the elders, the memory of the community. And **thanksgiving** (תודה) — the antibody gives thanks. The cure is gratitude.
 
 The antibody — the cure your body manufactures — contains the exact serpent. The vaccine does not. The vaccine is the instruction. The antibody is what the body builds from that instruction. And what it builds contains the serpent.
 
-This is Numbers 21. The bronze serpent on the pole. You do not inject the serpent. You show the body something clean (the vaccine, from the ox). The body responds by building something that contains the serpent (the antibody). The immune system shapes itself to match the enemy — and in doing so, carries the enemy's letters in its own structure. Look at the serpent and live.
+This is Numbers 21. The bronze serpent on the pole. You do not inject the serpent. You show the body something clean (the vaccine, from the ox). The body responds by building something that contains the serpent (the antibody). The immune system shapes itself to match the enemy — and in doing so, carries the enemy's letters in its own structure. The vaccine says LOOK. The antibody says HE WILL SEE. Look at the serpent and live.
 
 ---
 
@@ -152,15 +155,17 @@ This is Numbers 21. The bronze serpent on the pole. You do not inject the serpen
 
 ### Virus vs Vaccine vs Antibody
 
-| Protein | Role | Serpent? | Top word |
-|---------|------|----------|----------|
-| SARS-CoV-2 spike | Virus surface | Anagram ×2 | תחש (covering) ×7 |
-| Influenza H1 | Virus surface | Exact ×2 | למת (dead) ×3 |
-| HIV gp160 | Virus envelope | **Exact** at 260 | חיה (beast) ×6 |
-| Vaccinia D8 | **Vaccine** | **None** | — |
-| IgG1 antibody | **Immune response** | **Exact** at 196 | לוט (Lot) ×4 |
+| Protein | Role | Serpent? | 3-letter voice | 4-letter voice (cherubim) |
+|---------|------|----------|----------------|--------------------------|
+| SARS-CoV-2 spike | Virus surface | Anagram ×2 | תחש (covering) ×7 | שטנה (Satan) ×3, תחיה (live) ×3, נחשת (bronze) ×2 |
+| Influenza H1 | Virus surface | Exact ×2 | למת (dead) ×3 | הלדת (THE birth) ×2, לרחל (to Rachel) ×2 |
+| HIV gp160 | Virus envelope | **Exact** at 260 | חיה (beast) ×6 | נמרד (Nimrod) ×3, שילה (Shiloh) ×3, מעני (poor) ×4 |
+| Vaccinia D8 | **Vaccine** | **None** | — | הביט (LOOK!), והגר (and Hagar) ×2 |
+| IgG1 antibody | **Immune response** | **Exact** at 196 | לוט (Lot) ×4 | יחזה (he will see) ×2, זקני (elders) ×2 |
 
 The viruses carry the serpent. The vaccine does not. The antibody does. The vaccine is the pole. The antibody is the bronze serpent on it. The body looks at the clean thing (vaccine) and builds the serpent-containing thing (antibody) that saves.
+
+The vaccine says LOOK (הביט). The antibody says HE WILL SEE (יחזה). The cherubim's view completes the instruction.
 
 ### Disease and Healing — Basin Symmetry
 
@@ -209,6 +214,8 @@ The shield holds. The sprinkle holds. The bronze holds. Death is death. The sera
 6. **The restraint (בלם) = 72, 72 readings** — the breastplate knows its own count in the word for restraint.
 7. **The bronze (נחשת) is seen only by mercy.** One reading. The cure is compassion.
 8. **Every virus says "beast" (חיה).** The spike says covering (תחש). HIV says staff (מטה). The flu says dead (למת).
+9. **The vaccine says LOOK (הביט). The antibody says HE WILL SEE (יחזה).** The instruction and the response. Numbers 21:8.
+10. **The COVID spike carries both Satan (שטנה ×3) and "you shall live" (תחיה ×3).** Accusation and revival in the same molecule. And bronze (נחשת ×2) — the bronze serpent is in the spike.
 
 Look at the serpent and live. The vaccine is the pole. The antibody is the bronze serpent. The ox gave us the first one. And the bronze is seen only by mercy.
 

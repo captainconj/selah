@@ -137,6 +137,105 @@ Mercy's creature prays and gives birth.
 
 ---
 
+## The Cherubim's View — 4-Letter Windows
+
+The cherubim read four letters at a time. When we widen the window from 3 to 4, the blood speaks differently — fewer readings, but more precise. The full Torah vocabulary opens.
+
+### Reading Counts
+
+| Creature | 3-letter readings | 4-letter readings |
+|----------|-------------------|-------------------|
+| Lion | 49 | 12 |
+| Ox | 48 | 13 |
+| Eagle | 46 | **9** (fewest) |
+| Man | 50 | **16** (most) |
+
+Man is most visible to the cherubim. Eagle is least visible. This matches the 3-letter pattern — man is the most readable, eagle the most hidden.
+
+### Lion — 4-Letter Voice
+
+12 readings. All unique (no repeats).
+
+| Word | Meaning |
+|------|---------|
+| תודה | **thanksgiving** |
+| ישמע | **he will hear** (root of Ishmael) |
+| ויפת | **Japheth** (Noah's son) |
+| יזרק | **he will sprinkle** (future tense) |
+| יענש | punished |
+| תהיו | you will be |
+
+The lion gives thanks (תודה) and promises future sprinkling (יזרק). Japheth — the son who enlarged the tent — appears in the king's blood.
+
+### Ox — 4-Letter Voice
+
+13 readings. Eyes dominate.
+
+| Word | Meaning | Count |
+|------|---------|-------|
+| עיני | **my eyes** | ×2 |
+| עינו | **his eye** | ×2 |
+| דינה | **Dinah** (Jacob's daughter) | ×1 |
+| יזרק | he will sprinkle | ×1 |
+| ונגש | and drew near | ×1 |
+| בנית | you built | ×1 |
+
+**The ox sees.** Four eye-readings — "my eyes" and "his eye." The cherubim are covered in eyes (Rev 4:8, Ezek 10:12). The ox, justice's creature, has eyes in its blood. And Dinah — Jacob's daughter, the first woman whose story is about what was done to her — appears in the ox.
+
+### Eagle — 4-Letter Voice
+
+9 readings. The fewest. But one stands out.
+
+| Word | Meaning |
+|------|---------|
+| **התבה** | **THE ARK** (Noah's ark, with definite article) |
+| גלעד | **Gilead** (heap of witness) |
+| והזה | and he sprinkled |
+| צמיד | bracelet |
+| ויטע | and he planted |
+| ישמע | he will hear |
+
+**The eagle carries THE ARK (התבה).** Not "an ark" — THE ark. Noah's ark. The eagle — Aaron's creature, Dan's camp, the north — carries the vessel of salvation in its blood. The creature that does not carry the Name (הוה at 3 letters) carries the Ark (התבה at 4 letters). What the eagle cannot say, it carries.
+
+Gilead — the heap of witness between Jacob and Laban. The boundary marker.
+
+### Man — 4-Letter Voice
+
+16 readings. The richest.
+
+| Word | Meaning | Count |
+|------|---------|-------|
+| **נודע** | **known / made known** | ×2 |
+| **ותלד** | **and she gave birth** | ×1 |
+| **הלדת** | **the birth** | ×1 |
+| תודה | thanksgiving | ×1 |
+| ויגד | and he told | ×1 |
+| יזרק | he will sprinkle | ×1 |
+| בנית | you built | ×1 |
+
+**Man's 4-letter voice deepens the 3-letter birth.** At 3 letters: תלד (she will give birth). At 4 letters: ותלד (AND she gave birth — past tense, with conjunction) and הלדת (THE birth — with definite article). The birth becomes specific, historical, definite. Not "birth will happen" but "the birth happened."
+
+נודע (known) ×2 — the blood of man is made known. The blood will know (hemoglobin-beta says נדע ×4 at 3 letters). At 4 letters, it is already known.
+
+### Shared at 4 Letters
+
+**יזרק (he will sprinkle)** appears in lion, ox, and man. The 3-letter זרק (sprinkle) at position 139 gains a yod prefix at 4 letters: "he WILL sprinkle." Future tense. The priestly act is promised.
+
+**תודה (thanksgiving)** appears in lion, ox, and man. Not in the eagle.
+
+### The 4-Letter Map
+
+| Reader | Creature | 3-letter voice | 4-letter voice |
+|--------|----------|----------------|----------------|
+| God | Lion | Commander, fish | Thanksgiving, Japheth, "he will hear" |
+| Justice | Ox | Holy!, nation | **My eyes ×2, his eye ×2**, Dinah |
+| Aaron | Eagle | Honey, Kohath, forever | **THE ARK**, Gilead |
+| Mercy | Man | Hannah, birth | **THE birth, and she gave birth**, known ×2 |
+
+The cherubim's view completes the picture. Justice's creature has eyes. Aaron's creature has the Ark. Mercy's creature has the definite birth.
+
+---
+
 ## Summary
 
 1. **All blood speaks the Almighty (שדי) and ends with sprinkling (זרק).** Universal. Every creature.
@@ -145,8 +244,12 @@ Mercy's creature prays and gives birth.
 4. **No serpent in any blood.** The oxygen-carrying blood is clean. The serpent lives in beta, in venom, in the guardian — not in the breath chain.
 5. **Each creature's unique reading matches its role**: lion=commander, ox=holy, eagle=honey/priesthood, man=prayer/birth.
 6. **Man's blood is the lightest** (GV 8,991) — lowest by 636.
+7. **At 4 letters, the ox has EYES (×4).** The cherubim are covered in eyes. Justice's creature sees.
+8. **At 4 letters, the eagle carries THE ARK (התבה).** What the eagle cannot name, it carries.
+9. **At 4 letters, man's birth becomes definite.** ותלד (and she gave birth) + הלדת (the birth). Historical. Specific.
+10. **Man is most visible to the cherubim (16 readings). Eagle is least (9).**
 
-The four bloods confirm the four readers. The blood knows what the breastplate knows.
+The four bloods confirm the four readers. The blood knows what the breastplate knows. The cherubim's 4-letter view completes the picture.
 
 ---
 

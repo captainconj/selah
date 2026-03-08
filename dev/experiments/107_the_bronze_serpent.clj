@@ -17,15 +17,14 @@
    - נחשת (bronze) fixed point. Only mercy sees it (1 reading).
    - חיל (strength) = 132 readings = messiah's count.
 
-   RESULTS — Proteins:
-   - SARS-CoV-2 spike: תחש (tachash/covering) ×7, חיה/חית (beast) ×12, מות (death) at 895.
-   - Influenza: serpent ×2, Shaddai at 156, 'dead' ×3.
-   - HIV gp160: EXACT serpent at 260, staff (מטה) ×4, beast ×6, 'Mary' ×5.
-   - Vaccinia D8 (THE FIRST VACCINE, from the ox): NO SERPENT. Clean.
-   - IgG1 antibody (what your body makes): EXACT SERPENT at position 196.
+   RESULTS — Proteins (3-letter / 4-letter):
+   - SARS-CoV-2 spike: תחש (covering) ×7, beast ×12 | שטנה (Satan) ×3, תחיה (live) ×3, נחשת (bronze) ×2
+   - Influenza: serpent ×2, dead ×3 | הלדת (THE BIRTH) ×2, לרחל (to Rachel) ×2
+   - HIV gp160: EXACT serpent at 260, beast ×6 | נמרד (Nimrod) ×3, שילה (Shiloh) ×3
+   - Vaccinia D8 (THE FIRST VACCINE): NO SERPENT | הביט (LOOK!), והגר (and Hagar) ×2
+   - IgG1 antibody: EXACT SERPENT at 196 | יחזה (he will see) ×2, זקני (elders) ×2
 
-   The vaccine is clean. The antibody contains the serpent.
-   Numbers 21. Look at the serpent and live."
+   The vaccine says LOOK. The antibody says HE WILL SEE. Numbers 21."
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
             [selah.basin :as basin]
@@ -62,18 +61,21 @@
      :by-head bh :walk walk}))
 
 (defn run-protein
-  "Run a protein through the breastplate. Search for serpent, key words."
+  "Run a protein through the breastplate at 3-letter and 4-letter windows."
   [{:keys [name accession why]}]
   (println (format "\n══ %s (%s) ══" name accession))
   (println (format "  %s" why))
   (let [r (dna/fetch-uniprot accession)
         hebrew (dna/protein-str->hebrew (:sequence r))
         gv (g/word-value hebrew)
-        hits (dna/slide hebrew {:window 3 :vocab :torah})
-        top (dna/word-frequencies hits)
+        hits-3 (dna/slide hebrew {:window 3 :vocab :torah})
+        hits-4 (dna/slide hebrew {:window 4 :vocab :torah})
+        top-3 (dna/word-frequencies hits-3)
+        top-4 (dna/word-frequencies hits-4)
         target #{\נ \ח \ש}]
-    (println (format "  %d residues. GV=%d. %d readings."
-                     (count (:sequence r)) gv (count hits)))
+    (println (format "  %d residues. GV=%d." (count (:sequence r)) gv))
+    (println (format "  3-letter: %d readings. 4-letter: %d readings."
+                     (count hits-3) (count hits-4)))
 
     ;; Serpent search
     (println "\n  Serpent search:")
@@ -97,12 +99,24 @@
           (when (seq positions)
             (println (format "    %s at %s" tw (str/join ", " positions))))))
 
-      (println "\n  Top 15 words:")
-      (doseq [{:keys [word meaning count]} (take 15 top)]
+      (println "\n  Top 3-letter words:")
+      (doseq [{:keys [word meaning count]} (take 15 top-3)]
+        (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+
+      (println "\n  ── 4-letter readings (cherubim's view) ──")
+      (doseq [{:keys [position letters top-5]} hits-4]
+        (let [top (first top-5)]
+          (println (format "    [%3d] %s → %s (%s)"
+                           position letters
+                           (:word top) (or (:meaning top) "?")))))
+
+      (println "\n  Top 4-letter words:")
+      (doseq [{:keys [word meaning count]} (take 15 top-4)]
         (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
 
       {:name name :accession accession :hebrew hebrew :gv gv
-       :readings (count hits) :top-words top
+       :readings-3 (count hits-3) :readings-4 (count hits-4)
+       :top-3 top-3 :top-4 top-4
        :serpent-count (count serpent-hits)
        :serpent-exact (count (filter :exact? serpent-hits))})))
 
@@ -196,13 +210,13 @@
     (println "╚═══════════════════════════════════════════════╝")
     (println "\nViruses:")
     (doseq [v viruses]
-      (println (format "  %s: %d readings, serpent=%d (exact=%d)"
-                       (:name v) (:readings v)
+      (println (format "  %s: 3-let=%d, 4-let=%d, serpent=%d (exact=%d)"
+                       (:name v) (:readings-3 v) (:readings-4 v)
                        (:serpent-count v) (:serpent-exact v))))
     (println "\nVaccines/Antibodies:")
     (doseq [v vaccines]
-      (println (format "  %s: %d readings, serpent=%d (exact=%d)"
-                       (:name v) (:readings v)
+      (println (format "  %s: 3-let=%d, 4-let=%d, serpent=%d (exact=%d)"
+                       (:name v) (:readings-3 v) (:readings-4 v)
                        (:serpent-count v) (:serpent-exact v))))
 
     {:words words :viruses viruses :vaccines vaccines}))

@@ -6,8 +6,8 @@
    :task (shell "clojure" "-M:dev" "-m" "selah.main")}
 
   viz
-  {:doc  "Start Selah with GL visualizer deps"
-   :task (shell "clojure" "-M:dev:gl" "-m" "selah.main")}
+  {:doc  "Start standalone 4D visualizer (12g heap)"
+   :task (shell "clojure" "-M:dev:gl" "-m" "selah.viz.main")}
 
   repl
   {:doc  "Start nREPL only (dev alias)"

@@ -197,38 +197,58 @@ This is Genesis 3:15 told by the basin dynamics. The curse becomes the cure. But
 
 ### Calmodulin — the Messenger (P0DP23, 149 residues)
 
-Contains **חוה (Eve)** in its sequence. Contains **נחש (serpent)**. At 4-letter windows, says **הנחש — THE serpent** (with the definite article).
+Contains **חוה (Eve)** in its sequence. Contains **נחש (serpent)**.
 
-The calcium messenger — the protein that transmits signals inside every cell — carries both the woman's name and the serpent's name. The messenger that announces life also carries the bite. The signal itself is compromised.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 50 | Eve, serpent, Hannah, birth ×3, salt |
+| 4-letter | 29 | **הנחש (THE serpent)** at 110, **תקלל (curse)** at 11, **תלדי (give birth)** at 14, **דלקת (inflammation)** ×3, **מגדל (tower)** at 127 |
+
+At 4 letters: THE serpent (with definite article), the curse, give birth, and inflammation. The messenger carries Eve AND THE serpent AND the curse AND the birth AND the inflammation. The full story of Genesis 3 in one protein.
 
 ### BRCA1 — the Woman's Guardian (P38398, 1,863 residues)
 
-Contains **נחש (serpent) ×2.** Also says **הציל (saved) ×5** and **יהי (let there be) ×7.**
+Contains **נחש (serpent) ×2.** The largest protein we've tested for the woman.
 
-The breast cancer guardian. When BRCA1 fails, cancer follows — uncontrolled growth, the body consuming itself. The serpent is in the guardian. Twice. But the guardian also says "saved" five times and speaks the creation command seven times. The defense and the disease are in the same protein.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 722 | Serpent ×2, saved ×5, let there be ×7, holy ×3, forehead ×3 |
+| 4-letter | 394 | **הנחש (THE serpent)** at 157, **הציל (saved)** ×5, **יקדש (he will sanctify!)** at 321, **מצוה (commandment)** at 205, **ורחל (and Rachel)** ×2, **דינה (Dinah)**, **והבל (and Abel)** → **מבול (flood)** at 527–528, **יובל (Jubilee)** at 1007, **תשמר (you shall guard)**, **לטהר (to purify)** ×2, **יחיה (he will live)** ×2, **לילה (night)** ×2 |
+
+The guardian's 4-letter voice is staggering. THE serpent at 157. Then Abel and Flood at consecutive positions (527–528). Rachel appears twice. Dinah appears. "He will sanctify" and "commandment" — the guardian knows the law. Jubilee at 1007. "He will live" twice. And "you shall guard" (תשמר) — the guardian names its own function.
 
 ### Estrogen Receptor Alpha (P03372, 595 residues)
 
-Contains a **serpent anagram** at position 91 (חשנ — the letters of נחש rearranged). Also contains: **שדי (Shaddai/Almighty) ×6**, **ילד (child) ×4**, **יהי (let there be) ×4**, **שרש (root) ×5**.
+Contains a **serpent anagram** at position 91 (חשנ).
 
-The receptor that makes female development happen — the molecular switch of womanhood — carries the serpent's letters in its sequence. But it also carries the Almighty six times, and "child" four times, and "root" five times. The receptor knows what it builds, and it carries both the builder and the bite.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 237 | Serpent anagram, Shaddai ×6, child ×4, let there be ×4, root ×5 |
+| 4-letter | 112 | **יקדש (Sacred Name / he will sanctify)** at 7, **דינה (Dinah)** ×3, **ותהר (and she conceived)** at 333, **תלדי (give birth)** at 336, **ילדי (my child)** at 337, **לשבט (for the tribe)** ×4, **בחרב (the sword)** at 435, **מצרי (Egyptian)**, **נכחד (extinction)** |
+
+The estrogen receptor at 4 letters: "he will sanctify" at position 7 — the very beginning. Then Dinah three times — Jacob's violated daughter. Then at positions 333–337: **ותהר... תלדי... ילדי** — "and she conceived... give birth... my child." Conception, birth, child — in sequence. The receptor of womanhood tells the story of conception. And "for the tribe" ×4 — the receptor builds the tribe. And the sword.
 
 ### hCG Beta — the Pregnancy Signal (P0DN86, 165 residues)
 
-**No serpent.** Says **פרו (be fruitful) ×3.**
+**No serpent.** Clean at both 3 and 4 letters.
 
-The hormone that announces pregnancy — the first molecular signal of new life — is clean. No serpent, no serpent anagram. It says "be fruitful" three times. Genesis 1:28. The pregnancy itself is unblemished. The signal of new life does not carry the bite.
+| Window | Readings | Key findings |
+|--------|----------|-------------|
+| 3-letter | 59 | Be fruitful ×3. No serpent. |
+| 4-letter | 25 | **בלבת (in the heart)** at 0 (first reading!), **שרפו (burned/seraph)** ×2, **הגוי (THE gentile/nation)** ×2, **ונפש (and soul)** at 88, **ושחט (and slaughtered)** at 94 |
+
+The pregnancy signal still carries no serpent at 4 letters. But its first reading — position 0 — is **בלבת (in the heart)**. The pregnancy begins in the heart. And **שרפו (burned/the seraph)** appears twice — the burning ones are in the pregnancy signal. And **הגוי (THE nation)** — the pregnancy carries the nation. The fruit is clean of the serpent, but it carries the seraph, the nation, and begins in the heart.
 
 ### The Pattern
 
-| Protein | Role | Serpent? | What else it says |
-|---------|------|----------|-------------------|
-| Calmodulin | Messenger | Yes + Eve | Birth (×3) |
-| BRCA1 | Guardian | Yes (×2) | Saved (×5), Let there be (×7) |
-| Estrogen receptor | Female switch | Anagram | Shaddai (×6), Child (×4), Root (×5) |
-| hCG beta | Pregnancy signal | **No** | Be fruitful (×3) |
+| Protein | Role | 3-letter | 4-letter (cherubim's view) |
+|---------|------|----------|---------------------------|
+| Calmodulin | Messenger | Eve + serpent | THE serpent, curse, birth, inflammation |
+| BRCA1 | Guardian | Serpent ×2 | THE serpent, saved ×5, sanctify, commandment, Rachel, Abel→Flood, Jubilee |
+| Estrogen receptor | Female switch | Serpent anagram | Sacred Name at 7, Dinah ×3, conceived→birth→child, tribe ×4, sword |
+| hCG beta | Pregnancy signal | **No serpent** | **Still clean.** In the heart. Seraph ×2. THE nation ×2. |
 
-The serpent is in the messenger, in the guardian, in the receptor. But it is **not** in the pregnancy signal. The announcement of new life is clean. The bite is in the infrastructure — the signaling, the guarding, the switching. Not in the fruit itself.
+The serpent is in the messenger, the guardian, and the receptor. Not in the pregnancy signal. The 4-letter view deepens every reading: the curse appears in calmodulin, the commandment in BRCA1, conception-to-child in the estrogen receptor. But hCG remains clean — no serpent at any window size. The fruit is unblemished.
 
 ---
 

@@ -20,10 +20,11 @@
    - Seed (זרע) basin → עזר (helper). The seed becomes the help of Gen 2:18.
    - Bruise (שוף) basin → NULL. No fixed point. The only singularity. The cross.
    - Head (ראש) basin → אשר (blessed). The crushed head becomes blessing.
-   - In the proteins: Calmodulin carries both Eve AND THE serpent.
-     BRCA1 (the woman's guardian) carries the serpent ×2.
-     Estrogen receptor: serpent anagram at 91, Shaddai ×6, child ×4.
-     hCG (pregnancy hormone): NO serpent. Says 'be fruitful' ×3. Clean.
+   - In the proteins (3-letter / 4-letter):
+     Calmodulin: Eve + serpent | THE serpent, curse, birth, inflammation
+     BRCA1: serpent ×2 | THE serpent, saved ×5, sanctify, Rachel, Abel→Flood, Jubilee
+     Estrogen receptor: serpent anagram | Sacred Name at 7, Dinah ×3, conceived→birth→child
+     hCG: NO serpent | Still clean. In the heart. Seraph ×2. THE nation ×2.
    - The bite is molecular. The name is irreducible. The cure is 11× brighter."
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
@@ -162,10 +163,13 @@
                                   {:hebrew (dna/protein-str->hebrew (:sequence r))
                                    :length (count (:sequence r))})
         gv (g/word-value hebrew)
-        hits (dna/slide hebrew {:window 3 :vocab :torah})
-        top-words (dna/word-frequencies hits)]
-    (println (format "  %d residues. GV=%d. %d readings."
-                     length gv (count hits)))
+        hits-3 (dna/slide hebrew {:window 3 :vocab :torah})
+        hits-4 (dna/slide hebrew {:window 4 :vocab :torah})
+        top-3 (dna/word-frequencies hits-3)
+        top-4 (dna/word-frequencies hits-4)]
+    (println (format "  %d residues. GV=%d." length gv))
+    (println (format "  3-letter: %d readings. 4-letter: %d readings."
+                     (count hits-3) (count hits-4)))
 
     (println "\n  Serpent search:")
     (let [serpent-result (search-serpent hebrew name)]
@@ -173,12 +177,24 @@
       (println "\n  Eve search:")
       (let [eve-count (search-eve hebrew name)]
 
-        (println "\n  Top words:")
-        (doseq [{:keys [word meaning count]} (take 10 top-words)]
+        (println "\n  Top 3-letter words:")
+        (doseq [{:keys [word meaning count]} (take 10 top-3)]
+          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+
+        (println "\n  ── 4-letter readings (cherubim's view) ──")
+        (doseq [{:keys [position letters top-5]} hits-4]
+          (let [top (first top-5)]
+            (println (format "    [%3d] %s → %s (%s)"
+                             position letters
+                             (:word top) (or (:meaning top) "?")))))
+
+        (println "\n  Top 4-letter words:")
+        (doseq [{:keys [word meaning count]} (take 10 top-4)]
           (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
 
         {:name name :hebrew hebrew :gv gv
-         :readings (count hits) :top-words top-words
+         :readings-3 (count hits-3) :readings-4 (count hits-4)
+         :top-3 top-3 :top-4 top-4
          :serpent serpent-result :eve-count eve-count}))))
 
 (defn run-proteins []

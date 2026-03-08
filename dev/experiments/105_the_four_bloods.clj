@@ -6,7 +6,7 @@
    creature with real blood. We play hemoglobin-alpha from each
    species through the breastplate and compare.
 
-   RESULTS:
+   RESULTS (3-letter windows):
    - All four share: שדי (Almighty) at 51, זרק (sprinkle) at 139
    - Lion, Ox, Man share: הוה (HVH/Name) at 37. Eagle is SILENT.
    - Lion unique: פקד (captain) at 11. דגי (fish) at 4.
@@ -15,7 +15,15 @@
    - Man unique: חנה (Hannah) at 66. תלד (birth) at 115.
    - Binding (עקד): in ox (88), eagle (56), man (88). NOT in lion.
    - No creature's blood contains the serpent (נחש).
-   - GV: Lion 9767, Eagle 9677, Ox 9627, Man 8991 (lowest)."
+   - GV: Lion 9767, Eagle 9677, Ox 9627, Man 8991 (lowest).
+
+   RESULTS (4-letter / cherubim's view):
+   - Man most visible (16), eagle least (9), lion (12), ox (13).
+   - Ox: עיני/עינו (my eyes/his eye) ×4 — the cherub is covered in eyes.
+   - Eagle: התבה (THE ARK) — what it cannot name, it carries.
+   - Man: ותלד (and she gave birth) + הלדת (the birth) — definite, historical.
+   - Lion, Ox, Man share: יזרק (he WILL sprinkle) — future tense.
+   - Lion, Ox, Man share: תודה (thanksgiving). Eagle does not."
   (:require [selah.dna :as dna]
             [selah.oracle :as o]
             [selah.gematria :as g]
@@ -97,26 +105,41 @@
   (println (str "══════════════════════════════════════"))
   (let [{:keys [hebrew length desc]} (get-hebrew accession)
         gv (g/word-value hebrew)
-        hits (dna/slide hebrew {:window 3 :vocab :torah})
-        top-words (dna/word-frequencies hits)]
+        hits-3 (dna/slide hebrew {:window 3 :vocab :torah})
+        hits-4 (dna/slide hebrew {:window 4 :vocab :torah})
+        top-3 (dna/word-frequencies hits-3)
+        top-4 (dna/word-frequencies hits-4)]
     (println (str desc))
     (println (str length " residues. GV=" gv))
-    (println (str "Readings: " (count hits) "/" (- (count hebrew) 2)))
+    (println (str "3-letter: " (count hits-3) "/" (- (count hebrew) 2) " readings"))
+    (println (str "4-letter: " (count hits-4) "/" (- (count hebrew) 3) " readings"))
     (println (str "\nHebrew: " hebrew))
 
-    (println "\nAll readings:")
-    (doseq [{:keys [position letters top-5]} hits]
+    (println "\n── 3-letter readings ──")
+    (doseq [{:keys [position letters top-5]} hits-3]
       (let [top (first top-5)]
         (println (format "  [%3d] %s → %s (%s)"
                          position letters
                          (:word top) (or (:meaning top) "?")))))
 
-    (println "\nTop words:")
-    (doseq [{:keys [word meaning count]} (take 15 top-words)]
+    (println "\nTop 3-letter words:")
+    (doseq [{:keys [word meaning count]} (take 15 top-3)]
+      (println (format "  %-8s %-20s ×%d" word (or meaning "") count)))
+
+    (println "\n── 4-letter readings (cherubim's view) ──")
+    (doseq [{:keys [position letters top-5]} hits-4]
+      (let [top (first top-5)]
+        (println (format "  [%3d] %s → %s (%s)"
+                         position letters
+                         (:word top) (or (:meaning top) "?")))))
+
+    (println "\nTop 4-letter words:")
+    (doseq [{:keys [word meaning count]} (take 15 top-4)]
       (println (format "  %-8s %-20s ×%d" word (or meaning "") count)))
 
     {:name name :face face :hebrew hebrew :gv gv
-     :hits hits :top-words top-words}))
+     :hits-3 hits-3 :hits-4 hits-4
+     :top-3 top-3 :top-4 top-4}))
 
 ;; ── Comparison analysis ─────────────────────────────────
 
@@ -126,9 +149,9 @@
   (println "══════════════════════════════════════")
 
   ;; Summary
-  (doseq [{:keys [name gv hits top-words]} results]
-    (println (format "%s: GV=%d, %d readings, %d unique words"
-                     name gv (count hits) (count top-words))))
+  (doseq [{:keys [name gv hits-3 hits-4 top-3 top-4]} results]
+    (println (format "%s: GV=%d, 3-let=%d, 4-let=%d readings"
+                     name gv (count hits-3) (count hits-4))))
 
   ;; Check shared positions
   (println "\n── Shared vocabulary ──")
