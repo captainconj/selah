@@ -33,6 +33,20 @@
     (scene/set-palette next-pal)
     (println (str "[viz] Palette: " (name next-pal)))))
 
+;; ── Helpers ───────────────────────────────────────────────
+
+(defn- ortho? [] (get-in (scene/state) [:camera :ortho?]))
+
+;; ── 3D axis mapping ───────────────────────────────────────
+
+(defn- update-3d-axes!
+  "In 3D mode, remap x/y/z to the current free axes."
+  []
+  (when-not (ortho?)
+    (let [fa (vec (sort (scene/free-axes)))]
+      (when (>= (count fa) 3)
+        (scene/set-axes (nth fa 2) (nth fa 1) (nth fa 0))))))
+
 ;; ── Slice stepping ─────────────────────────────────────────
 
 (defn- step-fixed
@@ -56,8 +70,6 @@
 
 ;; ── Key callback ───────────────────────────────────────────
 
-(defn- ortho? [] (get-in (scene/state) [:camera :ortho?]))
-
 (defn- on-key [_window key _scancode action _mods]
   (when (= action GLFW/GLFW_PRESS)
     (condp = key
@@ -78,25 +90,25 @@
       GLFW/GLFW_KEY_1
       (let [v (get-in (scene/state) [:slice :a])]
         (if v (scene/free-axis :a) (scene/fix-axis :a 3))
-        (when (ortho?) (scene/reset-ortho-camera!))
+        (if (ortho?) (scene/reset-ortho-camera!) (update-3d-axes!))
         (println (str "[viz] a: " (if v "free" "=3"))))
 
       GLFW/GLFW_KEY_2
       (let [v (get-in (scene/state) [:slice :b])]
         (if v (scene/free-axis :b) (scene/fix-axis :b 0))
-        (when (ortho?) (scene/reset-ortho-camera!))
+        (if (ortho?) (scene/reset-ortho-camera!) (update-3d-axes!))
         (println (str "[viz] b: " (if v "free" "=0"))))
 
       GLFW/GLFW_KEY_3
       (let [v (get-in (scene/state) [:slice :c])]
         (if v (scene/free-axis :c) (scene/fix-axis :c 6))
-        (when (ortho?) (scene/reset-ortho-camera!))
+        (if (ortho?) (scene/reset-ortho-camera!) (update-3d-axes!))
         (println (str "[viz] c: " (if v "free" "=6"))))
 
       GLFW/GLFW_KEY_4
       (let [v (get-in (scene/state) [:slice :d])]
         (if v (scene/free-axis :d) (scene/fix-axis :d 33))
-        (when (ortho?) (scene/reset-ortho-camera!))
+        (if (ortho?) (scene/reset-ortho-camera!) (update-3d-axes!))
         (println (str "[viz] d: " (if v "free" "=33"))))
 
       ;; +/- or ]/[: step through FIRST fixed axis
@@ -184,13 +196,21 @@
 ;; ── Mouse callbacks ────────────────────────────────────────
 
 (defn- on-mouse-button [_window button action _mods]
-  (when (= button GLFW/GLFW_MOUSE_BUTTON_RIGHT)
+  (cond
+    ;; Right mouse: drag for pan/rotate
+    (= button GLFW/GLFW_MOUSE_BUTTON_RIGHT)
     (cond
       (= action GLFW/GLFW_PRESS)
       (swap! mouse-state assoc :dragging? true)
 
       (= action GLFW/GLFW_RELEASE)
-      (swap! mouse-state assoc :dragging? false))))
+      (swap! mouse-state assoc :dragging? false))
+
+    ;; Left click: pick/select a point
+    (and (= button GLFW/GLFW_MOUSE_BUTTON_LEFT)
+         (= action GLFW/GLFW_PRESS))
+    (let [{:keys [last-x last-y]} @mouse-state]
+      (scene/request-pick! last-x last-y))))
 
 (defn- on-cursor-pos [_window x y]
   (let [{:keys [dragging? last-x last-y]} @mouse-state]

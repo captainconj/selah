@@ -5,7 +5,8 @@
    Watches the scene atom for dirty state, rebuilds VBOs as needed."
   (:require [selah.viz.scene :as scene]
             [selah.viz.controls :as controls]
-            [selah.space.coords :as c])
+            [selah.space.coords :as c]
+            [selah.space.project :as proj])
   (:import [org.lwjgl.glfw GLFW GLFWErrorCallback GLFWKeyCallbackI
             GLFWMouseButtonCallbackI GLFWCursorPosCallbackI
             GLFWScrollCallbackI GLFWFramebufferSizeCallbackI]
@@ -565,10 +566,250 @@ void main() {
           (GL30/glBindVertexArray 0)
           (GL11/glEnable GL11/GL_DEPTH_TEST))))))
 
+;; ── Splash screen ────────────────────────────────────────
+
+(defn- generate-splash-image
+  "Render a centered splash screen from load-progress state."
+  ^BufferedImage [w h {:keys [phase detail pct]}]
+  (let [w (int w) h (int h)
+        pct (double (or pct 0.0))
+        ^String phase (str (or phase ""))
+        ^String detail (str (or detail ""))
+        img (BufferedImage. w h BufferedImage/TYPE_4BYTE_ABGR)
+        ^Graphics2D g (.createGraphics img)]
+    (.setRenderingHint g RenderingHints/KEY_TEXT_ANTIALIASING
+                       RenderingHints/VALUE_TEXT_ANTIALIAS_ON)
+    (.setRenderingHint g RenderingHints/KEY_ANTIALIASING
+                       RenderingHints/VALUE_ANTIALIAS_ON)
+    ;; Background
+    (.setColor g (Color. (int 13) (int 13) (int 20)))
+    (.fillRect g 0 0 w h)
+    (let [cx (quot w 2)
+          cy (quot h 2)]
+      ;; Title
+      (.setFont g (Font. "SansSerif" Font/BOLD (int 36)))
+      (.setColor g (Color. (int 200) (int 180) (int 255)))
+      (let [title "Selah \u00B7 \u05E1\u05DC\u05D4"
+            fm (.getFontMetrics g)
+            tw (.stringWidth fm title)]
+        (.drawString g ^String title (int (- cx (quot tw 2))) (int (- cy 70))))
+      ;; Subtitle
+      (.setFont g (Font. "SansSerif" Font/PLAIN (int 18)))
+      (.setColor g (Color. (int 140) (int 140) (int 160)))
+      (let [sub "Torah 4D Space Visualizer"
+            fm (.getFontMetrics g)
+            tw (.stringWidth fm sub)]
+        (.drawString g ^String sub (int (- cx (quot tw 2))) (int (- cy 38))))
+      ;; Progress bar
+      (let [bar-w (int 300) bar-h (int 6)
+            bar-x (int (- cx (quot bar-w 2)))
+            bar-y (int (+ cy 2))]
+        ;; Track
+        (.setColor g (Color. (int 40) (int 40) (int 55)))
+        (.fillRoundRect g bar-x bar-y bar-w bar-h (int 3) (int 3))
+        ;; Fill
+        (.setColor g (Color. (int 160) (int 140) (int 220)))
+        (.fillRoundRect g bar-x bar-y (int (* bar-w (min pct 1.0))) bar-h (int 3) (int 3)))
+      ;; Phase name
+      (.setFont g (Font. "SansSerif" Font/PLAIN (int 16)))
+      (.setColor g (Color. (int 180) (int 180) (int 200)))
+      (let [fm (.getFontMetrics g)
+            tw (.stringWidth fm phase)]
+        (.drawString g phase (int (- cx (quot tw 2))) (int (+ cy 30))))
+      ;; Detail (counts)
+      (when (seq detail)
+        (.setFont g (Font. "SansSerif" Font/PLAIN (int 14)))
+        (.setColor g (Color. (int 110) (int 110) (int 130)))
+        (let [fm (.getFontMetrics g)
+              tw (.stringWidth fm detail)]
+          (.drawString g ^String detail (int (- cx (quot tw 2))) (int (+ cy 52)))))
+      ;; Percentage
+      (.setFont g (Font. "SansSerif" Font/PLAIN (int 13)))
+      (.setColor g (Color. (int 80) (int 80) (int 100)))
+      (let [pct-str (str (int (* pct 100)) "%")
+            fm (.getFontMetrics g)
+            tw (.stringWidth fm pct-str)]
+        (.drawString g ^String pct-str (int (- cx (quot tw 2))) (int (+ cy 70)))))
+    (.dispose g)
+    img))
+
+(defonce ^:private splash-state (atom {:tex nil :vao nil :vbo nil}))
+
+;; ── Loading progress ─────────────────────────────────────
+;;
+;; Loading runs on a background thread so the GL thread stays
+;; responsive (no "unresponsive" popup). Progress is posted to
+;; an atom that the splash loop polls each frame.
+
+(defonce ^:private load-progress
+  (atom {:phase ""        ;; current phase name
+         :detail ""       ;; e.g. "150,000 / 304,850"
+         :pct 0.0         ;; 0.0 to 1.0
+         :done? false
+         :error nil}))
+
+(defn- post-phase! [pct phase]
+  (swap! load-progress assoc :phase phase :detail "" :pct (double pct))
+  (println (str "[viz] " phase)))
+
+(defn- post-detail! [detail]
+  (swap! load-progress assoc :detail (str detail)))
+
+(defn- fmt-count [n] (format "%,d" (int n)))
+
+(defn- render-splash!
+  "Render a splash frame from load-progress and swap buffers."
+  [window]
+  (let [{:keys [width height]} @gl-state
+        progress @load-progress]
+    ;; Generate and upload splash texture
+    (let [img (generate-splash-image width height progress)
+          w (.getWidth img) h (.getHeight img)
+          raster (.getRaster img)
+          pixels (byte-array (* w h 4))
+          _ (.getDataElements raster 0 0 w h pixels)
+          rgba (byte-array (* w h 4))]
+      ;; Convert ABGR → RGBA
+      (dotimes [i (* w h)]
+        (let [j (* i 4)]
+          (aset rgba (+ j 0) (aget pixels (+ j 3)))
+          (aset rgba (+ j 1) (aget pixels (+ j 2)))
+          (aset rgba (+ j 2) (aget pixels (+ j 1)))
+          (aset rgba (+ j 3) (aget pixels (+ j 0)))))
+      (let [buf (MemoryUtil/memAlloc (alength rgba))
+            tex (or (:tex @splash-state) (GL11/glGenTextures))]
+        (try
+          (.put buf rgba) (.flip buf)
+          (GL11/glBindTexture GL11/GL_TEXTURE_2D tex)
+          (GL11/glTexParameteri GL11/GL_TEXTURE_2D GL11/GL_TEXTURE_MIN_FILTER GL11/GL_LINEAR)
+          (GL11/glTexParameteri GL11/GL_TEXTURE_2D GL11/GL_TEXTURE_MAG_FILTER GL11/GL_LINEAR)
+          (GL11/glTexImage2D GL11/GL_TEXTURE_2D 0 GL11/GL_RGBA
+                             w h 0 GL11/GL_RGBA GL11/GL_UNSIGNED_BYTE ^ByteBuffer buf)
+          (GL11/glBindTexture GL11/GL_TEXTURE_2D 0)
+          (swap! splash-state assoc :tex tex)
+          (finally
+            (MemoryUtil/memFree buf)))))
+    ;; Ensure full-screen quad
+    (let [verts (float-array [-1 -1  0 1
+                               1 -1  1 1
+                              -1  1  0 0
+                               1  1  1 0])
+          vbo (or (:vbo @splash-state) (upload-float-buffer verts))
+          vao (or (:vao @splash-state) (GL30/glGenVertexArrays))]
+      (upload-float-buffer vbo verts)
+      (GL30/glBindVertexArray vao)
+      (GL15/glBindBuffer GL15/GL_ARRAY_BUFFER vbo)
+      (GL20/glVertexAttribPointer 0 2 GL11/GL_FLOAT false (* 4 4) 0)
+      (GL20/glEnableVertexAttribArray 0)
+      (GL20/glVertexAttribPointer 1 2 GL11/GL_FLOAT false (* 4 4) (* 2 4))
+      (GL20/glEnableVertexAttribArray 1)
+      (GL30/glBindVertexArray 0)
+      (swap! splash-state assoc :vao vao :vbo vbo))
+    ;; Render
+    (GL11/glViewport 0 0 width height)
+    (GL11/glClear (bit-or GL11/GL_COLOR_BUFFER_BIT GL11/GL_DEPTH_BUFFER_BIT))
+    (GL11/glDisable GL11/GL_DEPTH_TEST)
+    (when-let [program (:hud-program @gl-state)]
+      (when-let [tex (:tex @splash-state)]
+        (when-let [vao (:vao @splash-state)]
+          (GL20/glUseProgram program)
+          (GL13/glActiveTexture GL13/GL_TEXTURE0)
+          (GL11/glBindTexture GL11/GL_TEXTURE_2D tex)
+          (GL20/glUniform1i (GL20/glGetUniformLocation program "uHudTex") 0)
+          (GL30/glBindVertexArray vao)
+          (GL11/glDrawArrays GL11/GL_TRIANGLE_STRIP 0 4)
+          (GL30/glBindVertexArray 0))))
+    (GL11/glEnable GL11/GL_DEPTH_TEST)
+    (GLFW/glfwSwapBuffers window)
+    (GLFW/glfwPollEvents)))
+
+(defn- cleanup-splash! []
+  (when-let [tex (:tex @splash-state)]
+    (GL11/glDeleteTextures (int tex)))
+  (when-let [vao (:vao @splash-state)]
+    (GL30/glDeleteVertexArrays vao))
+  (when-let [vbo (:vbo @splash-state)]
+    (GL15/glDeleteBuffers (int vbo)))
+  (reset! splash-state {:tex nil :vao nil :vbo nil}))
+
+(defn- load-data!
+  "Heavy loading work — runs on background thread.
+   Posts fine-grained progress updates via load-progress atom."
+  []
+  (try
+    ;; Phase 1: Torah text (0% → 15%)
+    (post-phase! 0.0 "Loading Torah text")
+    (c/space)
+    (post-phase! 0.15 "Torah loaded")
+
+    ;; Phase 2: Coordinates (15% → 50%)
+    (post-phase! 0.15 "Computing coordinates")
+    (let [s (c/space)
+          n (int c/total-letters)
+          coords (int-array (* n 4))
+          report-interval (int 50000)]
+      (dotimes [i n]
+        (let [c4 (c/idx->coord i)
+              j (* i 4)]
+          (aset coords j       (int (aget c4 0)))
+          (aset coords (+ j 1) (int (aget c4 1)))
+          (aset coords (+ j 2) (int (aget c4 2)))
+          (aset coords (+ j 3) (int (aget c4 3))))
+        (when (zero? (rem i report-interval))
+          (let [frac (/ (double i) (double n))]
+            (swap! load-progress assoc
+                   :detail (str (fmt-count i) " / " (fmt-count n))
+                   :pct (+ 0.15 (* 0.35 frac))))))
+      (swap! load-progress assoc :pct 0.50)
+
+      ;; Phase 3: Palettes (50% → 85%)
+      (let [all-pos (int-array n)
+            _ (dotimes [i n] (aset all-pos i i))]
+
+        (post-phase! 0.50 "Letter palette")
+        (let [pal-letter (proj/color-by-letter s all-pos)]
+          (swap! load-progress assoc :pct 0.58)
+
+          (post-phase! 0.58 "Gematria palette")
+          (let [pal-gematria (proj/color-by-gematria s all-pos)]
+            (swap! load-progress assoc :pct 0.66)
+
+            (post-phase! 0.66 "Book palette")
+            (let [pal-book (proj/color-by-book s all-pos)]
+              (swap! load-progress assoc :pct 0.74)
+
+              (post-phase! 0.74 "Day palette")
+              (let [pal-day (proj/color-by-day all-pos)]
+                (swap! load-progress assoc :pct 0.82)
+
+                ;; Phase 4: Letter indices + store (85% → 100%)
+                (post-phase! 0.82 "Letter indices")
+                (let [stream ^bytes (:stream s)
+                      let-idx (float-array n)]
+                  (dotimes [i n]
+                    (aset let-idx i (float (aget stream i))))
+
+                  (post-phase! 0.92 "Storing precomputed data")
+                  (scene/set-precomputed!
+                   {:coords   coords
+                    :palettes {:letter   pal-letter
+                               :gematria pal-gematria
+                               :book     pal-book
+                               :day      pal-day}
+                    :letters  let-idx})
+
+                  (post-phase! 1.0 "Ready")
+                  (swap! load-progress assoc :done? true))))))))
+    (catch Throwable e
+      (println "[viz] Load error:" (.getMessage e))
+      (.printStackTrace e)
+      (swap! load-progress assoc :error e))))
+
 ;; ── Init / Render / Shutdown ──────────────────────────────
 
 (defn- init-gl!
-  "Create window, shaders, initial VBOs."
+  "Create window and shaders (fast). Heavy loading runs on a
+   background thread while the GL thread renders the splash."
   []
   (.set (GLFWErrorCallback/createPrint System/err))
   (when-not (GLFW/glfwInit)
@@ -620,13 +861,32 @@ void main() {
     (let [pw (int-array 1) ph (int-array 1)]
       (GLFW/glfwGetFramebufferSize window pw ph)
       (swap! gl-state assoc :width (aget pw 0) :height (aget ph 0)))
-    ;; Store window handle, build initial VBOs
+    ;; Show window immediately
     (swap! scene/*state* assoc :window window :running? true)
-    (println "[viz] Loading Torah data and building VBOs...")
+    (GLFW/glfwShowWindow window)
+    ;; Start loader on background thread
+    (reset! load-progress {:phase "Initializing..." :detail "" :pct 0.0
+                           :done? false :error nil})
+    (let [loader (Thread. ^Runnable load-data! "selah-loader")]
+      (.start loader)
+      ;; Splash loop — render progress while loading, keep window responsive
+      (loop []
+        (GLFW/glfwPollEvents)
+        (let [{:keys [done? error]} @load-progress]
+          (render-splash! window)
+          (when (and (not done?) (nil? error)
+                     (not (GLFW/glfwWindowShouldClose window)))
+            (recur))))
+      ;; Wait for loader to finish
+      (.join loader 1000))
+    ;; Check for errors
+    (when-let [e (:error @load-progress)]
+      (throw (RuntimeException. "Loading failed" e)))
+    ;; Build VBOs (must be on GL thread)
+    (println "[viz] Building VBOs...")
     (rebuild-vbos!)
     (println (str "[viz] " (:point-count @gl-state) " points loaded"))
-    ;; Show
-    (GLFW/glfwShowWindow window)
+    (cleanup-splash!)
     window))
 
 (defn- render-frame! []
@@ -688,6 +948,63 @@ void main() {
     ;; Swap
     (GLFW/glfwSwapBuffers (:window (scene/state)))))
 
+;; ── Mouse picking ─────────────────────────────────────────
+
+(defn- process-pick!
+  "Process a pending pick request. Projects all visible points to
+   screen space via manual MVP multiply, finds nearest to click.
+   Works in both ortho and perspective modes."
+  []
+  (when-let [[mx my] (:pick-request (scene/state))]
+    (scene/clear-pick-request!)
+    (let [{:keys [width height]} @gl-state
+          cam (:camera (scene/state))
+          ortho? (:ortho? cam)
+          margin-y 30
+          data-x sidebar-width
+          data-w (- width sidebar-width)
+          data-h (- height (* 2 margin-y))
+          vx (- mx data-x)
+          vy (- my margin-y)]
+      (when (and (>= vx 0) (< vx data-w)
+                 (>= vy 0) (< vy data-h))
+        (let [m ^floats (compute-mvp cam data-w data-h)
+              {:keys [positions indices count]} (scene/position-data)
+              ;; Mouse in NDC (data viewport)
+              ndc-x (double (- (* 2.0 (/ (double vx) (double (max data-w 1)))) 1.0))
+              ndc-y (double (- 1.0 (* 2.0 (/ (double vy) (double (max data-h 1))))))
+              ;; Pick radius in NDC² — generous enough for perspective
+              ;; Ortho: tight (points are evenly spaced)
+              ;; Perspective: looser (points vary in screen size with depth)
+              max-dist (if ortho? 0.005 0.02)
+              best-dist (volatile! Double/MAX_VALUE)
+              best-idx (volatile! -1)]
+          ;; Manual MVP multiply — no object allocation in hot loop
+          ;; Column-major: m[col*4+row]
+          (dotimes [i count]
+            (let [j (* 3 i)
+                  px (double (aget ^floats positions j))
+                  py (double (aget ^floats positions (+ j 1)))
+                  pz (double (aget ^floats positions (+ j 2)))
+                  ;; clip = M * [px py pz 1]
+                  cw (+ (* (aget m 3)  px) (* (aget m 7)  py)
+                        (* (aget m 11) pz)    (aget m 15))]
+              (when (> cw 0.001)
+                (let [cx (+ (* (aget m 0)  px) (* (aget m 4)  py)
+                            (* (aget m 8)  pz)    (aget m 12))
+                      cy (+ (* (aget m 1)  px) (* (aget m 5)  py)
+                            (* (aget m 9)  pz)    (aget m 13))
+                      sx (/ cx cw)
+                      sy (/ cy cw)
+                      dx (- sx ndc-x)
+                      dy (- sy ndc-y)
+                      dist (+ (* dx dx) (* dy dy))]
+                  (when (< dist @best-dist)
+                    (vreset! best-dist dist)
+                    (vreset! best-idx i))))))
+          (when (and (>= @best-idx 0) (< @best-dist max-dist))
+            (scene/select! (aget ^ints indices @best-idx))))))))
+
 (defn- render-loop!
   "Main render loop. Runs until window close or running? false."
   []
@@ -701,7 +1018,9 @@ void main() {
         ;; Rebuild VBOs if state changed
         (when (scene/dirty?)
           (rebuild-vbos!))
-        ;; Also rebuild if highlights changed (separate dirty check)
+        ;; Process mouse pick requests
+        (process-pick!)
+        ;; Render
         (render-frame!))
       (catch Exception e
         (println "[viz] Render error:" (.getMessage e))

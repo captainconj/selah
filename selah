@@ -154,6 +154,15 @@
 (defn start-foreground [_]
   (tasks/shell "clojure -M:dev -m selah.main"))
 
+(defn viz-cmd [_]
+  (if (engine-running?)
+    (do
+      (println "Engine running — opening visualizer via nREPL...")
+      (nrepl-eval "(require 'selah.viz) (selah.viz/open!)"))
+    (do
+      (println "Starting standalone visualizer...")
+      (tasks/shell "clojure -M:dev:gl -m selah.viz.main"))))
+
 (defn test-cmd [_]
   (tasks/shell "clojure -X:dev:test"))
 
@@ -194,6 +203,7 @@
               ""
               "Development:"
               "  selah start           Start Selah in foreground (blocking)"
+              "  selah viz             Open 4D visualizer (12g heap, GL)"
               "  selah test            Run the test suite"
               "  selah eval <expr>     Evaluate Clojure via nREPL"
               "  selah repl            Connect an nREPL client"
@@ -217,6 +227,7 @@
 (def table
   [{:cmds ["engine"]  :fn engine        :spec {}}
    {:cmds ["start"]   :fn start-foreground :spec {}}
+   {:cmds ["viz"]     :fn viz-cmd      :spec {}}
    {:cmds ["mcp"]     :fn mcp           :spec {}}
    {:cmds ["status"]  :fn engine-status :spec {}}
    {:cmds ["test"]    :fn test-cmd      :spec {}}

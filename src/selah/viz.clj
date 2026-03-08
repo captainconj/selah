@@ -85,6 +85,15 @@
     (println (str "[viz] Highlighted \"" word "\" — " n " fiber hits"))
     n))
 
+(defn highlight-letter
+  "Highlight all positions containing a specific Hebrew letter.
+   (viz/highlight-letter \\א)"
+  [letter]
+  (let [n (scene/highlight-letter letter)]
+    (gl/request-rebuild!)
+    (println (str "[viz] Highlighted " n " positions of " letter))
+    n))
+
 (defn highlight-fiber
   "Highlight all positions on a given hyperplane."
   [axis val]

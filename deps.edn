@@ -39,7 +39,7 @@
          :exec-fn cognitect.test-runner.api/test
          :exec-args {:dirs ["test"]}}
 
-  :gl {:jvm-opts ["-Xmx4g" "-Xms4g"]
+  :gl {:jvm-opts ["-Xmx12g" "-Xms12g"]
        :extra-deps
        {org.lwjgl/lwjgl                       {:mvn/version "3.3.4"}
         org.lwjgl/lwjgl-glfw                   {:mvn/version "3.3.4"}

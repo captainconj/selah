@@ -33,7 +33,9 @@
          :palette   :letter
          :dirty?    true
          :running?  false
-         :window    nil}))
+         :window    nil
+         :pick-request nil   ;; [screen-x screen-y] from mouse click
+         :selection  nil}))
 
 (defn state  [] @*state*)
 (defn state-atom [] *state*)
@@ -228,6 +230,22 @@
         (highlight-positions positions)))
     (count hits)))
 
+(defn highlight-letter
+  "Highlight all positions containing a specific Hebrew letter.
+   Returns the number of positions highlighted."
+  [letter]
+  (let [s (c/space)
+        stream ^bytes (:stream s)
+        idx (get c/char->idx letter)]
+    (when idx
+      (let [byte-idx (byte idx)
+            positions (java.util.ArrayList.)]
+        (dotimes [i c/total-letters]
+          (when (== (aget stream i) byte-idx)
+            (.add positions (int i))))
+        (swap! *state* update :highlight into positions)
+        (.size positions)))))
+
 (defn clear-highlights []
   (swap! *state* assoc :highlight #{}))
 
@@ -243,6 +261,59 @@
 (defn clear-boxes []
   (swap! *state* assoc :boxes []))
 
+;; ── Precomputed data ──────────────────────────────────────
+;;
+;; All coordinates, palettes, and letter indices are computed once
+;; at startup. Any state change (axis toggle, slice step, palette
+;; cycle) becomes pure array indexing — no division, no allocation.
+
+(defonce ^:private precomputed (atom nil))
+(defonce ^:private slab-cache (atom {}))
+
+(defn set-precomputed!
+  "Store precomputed data from the loader thread."
+  [data]
+  (reset! precomputed data)
+  (reset! slab-cache {}))
+(def ^:const ^:private max-slab-cache 64)
+
+(defn precompute!
+  "Precompute all coordinates and color palettes for all 304,850 positions.
+   Called once at startup. ~27 MB total."
+  []
+  (let [s (c/space)
+        n (int c/total-letters)
+        ;; All coordinates as flat int array [a b c d a b c d ...]
+        coords (int-array (* n 4))
+        _ (dotimes [i n]
+            (let [c4 (c/idx->coord i)
+                  j (* i 4)]
+              (aset coords j       (int (aget c4 0)))
+              (aset coords (+ j 1) (int (aget c4 1)))
+              (aset coords (+ j 2) (int (aget c4 2)))
+              (aset coords (+ j 3) (int (aget c4 3)))))
+        ;; All palette colors (each position, all 4 palettes)
+        all-pos (int-array n)
+        _ (dotimes [i n] (aset all-pos i i))
+        pal-letter   (proj/color-by-letter s all-pos)
+        pal-gematria (proj/color-by-gematria s all-pos)
+        pal-book     (proj/color-by-book s all-pos)
+        pal-day      (proj/color-by-day all-pos)
+        ;; Letter indices for texture atlas
+        stream ^bytes (:stream s)
+        let-idx (float-array n)
+        _ (dotimes [i n]
+            (aset let-idx i (float (aget stream i))))]
+    (reset! precomputed
+            {:coords   coords
+             :palettes {:letter   pal-letter
+                        :gematria pal-gematria
+                        :book     pal-book
+                        :day      pal-day}
+             :letters  let-idx})
+    (reset! slab-cache {})
+    (println (str "[viz] Precomputed " n " positions"))))
+
 ;; ── Position computation ───────────────────────────────────
 
 (defonce ^:private all-positions
@@ -252,39 +323,109 @@
 
 (defn visible-positions
   "Compute the int[] of positions visible under current slice.
-   If no axis is fixed, returns all 304,850 (cached)."
+   If no axis is fixed, returns all 304,850 (cached).
+   Slabs are cached (up to 64 entries) for instant revisits."
   []
   (let [slice (:slice @*state*)
         fixed (into {} (filter (fn [[_ v]] (some? v)) slice))]
     (if (empty? fixed)
       @all-positions
-      (c/slab fixed))))
+      (or (get @slab-cache fixed)
+          (let [s (c/slab fixed)]
+            (swap! slab-cache
+                   (fn [cache]
+                     (let [c (if (>= (count cache) max-slab-cache)
+                               {} cache)]
+                       (assoc c fixed s))))
+            s)))))
 
 (defn position-data
   "Compute positions float[] and colors float[] for current state.
+   Uses precomputed arrays when available — pure array indexing, no division.
    Returns {:positions float[] :colors float[] :count int :letters float[]}."
   []
-  (let [s (c/space)
+  (let [pre @precomputed
         pos (visible-positions)
-        n (alength pos)
-        {:keys [x y z]} (:axes @*state*)
-        pts (proj/project-3d pos [x y z])
-        palette (:palette @*state*)
-        cols (case palette
-               :letter   (proj/color-by-letter s pos)
-               :gematria (proj/color-by-gematria s pos)
-               :book     (proj/color-by-book s pos)
-               :day      (proj/color-by-day pos))
-        ;; Letter indices for texture atlas lookup
-        stream ^bytes (:stream s)
-        letter-idx (float-array n)]
-    (dotimes [i n]
-      (aset letter-idx i (float (aget stream (aget pos i)))))
-    {:positions pts
-     :colors    cols
-     :letters   letter-idx
-     :count     n
-     :indices   pos}))
+        n (alength pos)]
+    (if pre
+      ;; Fast path: precomputed arrays
+      (let [{:keys [x y z]} (:axes @*state*)
+            coords ^ints (:coords pre)
+            mx (double (case x :a 6.0 :b 49.0 :c 12.0 :d 66.0))
+            my (double (case y :a 6.0 :b 49.0 :c 12.0 :d 66.0))
+            mz (double (case z :a 6.0 :b 49.0 :c 12.0 :d 66.0))
+            ax-idx (int (case x :a 0 :b 1 :c 2 :d 3))
+            ay-idx (int (case y :a 0 :b 1 :c 2 :d 3))
+            az-idx (int (case z :a 0 :b 1 :c 2 :d 3))
+            pts (float-array (* 3 n))
+            _ (dotimes [i n]
+                (let [p (aget pos i)
+                      base (* p 4)
+                      j (* 3 i)]
+                  (aset pts j       (float (/ (double (aget coords (+ base ax-idx))) mx)))
+                  (aset pts (+ j 1) (float (/ (double (aget coords (+ base ay-idx))) my)))
+                  (aset pts (+ j 2) (float (/ (double (aget coords (+ base az-idx))) mz)))))
+            ;; Colors from cached palette
+            palette (:palette @*state*)
+            src-colors ^floats (get-in pre [:palettes palette])
+            cols (float-array (* 3 n))
+            _ (dotimes [i n]
+                (let [p (aget pos i)
+                      src-base (* p 3)
+                      dst-base (* i 3)]
+                  (aset cols dst-base       (aget src-colors src-base))
+                  (aset cols (+ dst-base 1) (aget src-colors (+ src-base 1)))
+                  (aset cols (+ dst-base 2) (aget src-colors (+ src-base 2)))))
+            ;; Letters from cache
+            src-letters ^floats (:letters pre)
+            letter-idx (float-array n)
+            _ (dotimes [i n]
+                (aset letter-idx i (aget src-letters (aget pos i))))]
+        {:positions pts
+         :colors    cols
+         :letters   letter-idx
+         :count     n
+         :indices   pos})
+      ;; Fallback: compute from scratch (before precompute! runs)
+      (let [s (c/space)
+            {:keys [x y z]} (:axes @*state*)
+            pts (proj/project-3d pos [x y z])
+            palette (:palette @*state*)
+            cols (case palette
+                   :letter   (proj/color-by-letter s pos)
+                   :gematria (proj/color-by-gematria s pos)
+                   :book     (proj/color-by-book s pos)
+                   :day      (proj/color-by-day pos))
+            stream ^bytes (:stream s)
+            letter-idx (float-array n)]
+        (dotimes [i n]
+          (aset letter-idx i (float (aget stream (aget pos i)))))
+        {:positions pts
+         :colors    cols
+         :letters   letter-idx
+         :count     n
+         :indices   pos}))))
+
+(defn request-pick!
+  "Request a pick at screen coordinates. Processed by the render loop."
+  [screen-x screen-y]
+  (swap! *state* assoc :pick-request [(double screen-x) (double screen-y)]))
+
+(defn select!
+  "Set the selected position index and highlight it."
+  [pos-idx]
+  (swap! *state* assoc :selection pos-idx)
+  (when pos-idx
+    (swap! *state* update :highlight conj pos-idx)
+    (swap! *state* assoc :dirty? true)
+    (let [info (c/describe pos-idx)]
+      (println (str "[viz] Selected: " (:letter info)
+                    " " (:verse info)
+                    " coord=" (:coord info)
+                    " gv=" (:gematria info))))))
+
+(defn clear-pick-request! []
+  (swap! *state* assoc :pick-request nil))
 
 (defn mark-clean []
   (swap! *state* assoc :dirty? false))
