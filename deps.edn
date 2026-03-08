@@ -37,4 +37,16 @@
                       {:git/tag "v0.5.1"
                        :git/sha "dfb30dd"}}
          :exec-fn cognitect.test-runner.api/test
-         :exec-args {:dirs ["test"]}}}}
+         :exec-args {:dirs ["test"]}}
+
+  :gl {:jvm-opts ["-Xmx1g" "-Xms256m"]
+       :extra-deps
+       {org.lwjgl/lwjgl                       {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-glfw                   {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-opengl                 {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-stb                    {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl$natives-linux          {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-glfw$natives-linux     {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-opengl$natives-linux   {:mvn/version "3.3.4"}
+        org.lwjgl/lwjgl-stb$natives-linux      {:mvn/version "3.3.4"}
+        org.joml/joml                          {:mvn/version "1.10.5"}}}}}

@@ -1,0 +1,38 @@
+{:tasks
+ {:requires ([babashka.fs :as fs])
+
+  dev
+  {:doc  "Start Selah (nREPL + HTTP + MCP)"
+   :task (shell "clojure" "-M:dev" "-m" "selah.main")}
+
+  viz
+  {:doc  "Start Selah with GL visualizer deps"
+   :task (shell "clojure" "-M:dev:gl" "-m" "selah.main")}
+
+  repl
+  {:doc  "Start nREPL only (dev alias)"
+   :task (shell "clojure" "-M:dev" "-m" "nrepl.cmdline" "--interactive")}
+
+  repl-gl
+  {:doc  "Start nREPL with GL deps"
+   :task (shell "clojure" "-M:dev:gl" "-m" "nrepl.cmdline" "--interactive")}
+
+  test
+  {:doc  "Run all tests"
+   :task (shell "clojure" "-X:dev:test")}
+
+  clean
+  {:doc  "Clean compiled classes"
+   :task (do (fs/delete-tree "target")
+             (println "Cleaned target/"))}
+
+  deps
+  {:doc  "Download all dependencies"
+   :task (do (shell "clojure" "-P" "-M:dev:gl:test")
+             (println "All deps downloaded."))}
+
+  loc
+  {:doc  "Count lines of Clojure source"
+   :task (let [files (fs/glob "src" "**/*.clj")
+               lines (reduce + (map (fn [f] (count (clojure.string/split-lines (slurp (str f))))) files))]
+           (println (str lines " lines across " (count files) " files")))}}}
