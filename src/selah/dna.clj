@@ -224,6 +224,8 @@
      (println)
      r)))
 
+(declare get-protein)
+
 ;; ── Full Experiment: slide + analyze + save ──────────────────
 
 (defn slide
