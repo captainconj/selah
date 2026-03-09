@@ -15,7 +15,9 @@
    "Deuteronomy" 34
    "Isaiah"      66
    "Ezekiel"     48
-   "Daniel"      12})
+   "Daniel"      12
+   "Psalms"      150
+   "Zechariah"   14})
 
 (def cache-dir "data/cache/sefaria")
 
