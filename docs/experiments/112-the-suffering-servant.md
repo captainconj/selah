@@ -10,6 +10,21 @@ We know what the breastplate does with these words individually. Lamb (כבש): 
 
 Now we walk the passage itself. The whole fourth servant song — 52:13-15 (the herald) and 53:1-12 (the report). 802 letters. What does the oracle find in the man of sorrows?
 
+## The Four Readers
+
+The breastplate has four readers — four ways of traversing the 72 letters. Each reader IS a perspective. Each sees what they can see. None can see what they ARE.
+
+| Reader | Role | YHWH letter | What they see |
+|--------|------|-------------|---------------|
+| Aaron | the priest | Vav (ו) = 6 | What the priest can handle. The work. |
+| God | the one on the throne | He (ה) = 5 | What God perceives. Often different from everyone else. |
+| Right cherub | **justice** (God's right hand) | Yod (י) = 10 | What justice demands. What must be so. |
+| Left cherub | **mercy** (God's left hand) | He (ה) = 5 | What mercy holds. What love cannot look away from. |
+
+God does not read "holy" — because He IS holy. Grace (חסד, GV=72) is ghost zone — because grace IS the breastplate's letter count, and the breastplate cannot name itself. The eagle glows but cannot be spoken. **You cannot name what you are.**
+
+This matters in the servant song. Watch who sees what.
+
 ## Method
 
 1. Fetch Isaiah 52:13-15 and 53:1-12 from Sefaria (MAM text), normalize to pure Hebrew letters
@@ -83,10 +98,10 @@ Full servant song sliding window results:
 | נשא | lifted up | 351 | 36 | 144 | FIXED | God reads נשא(14) AND שנא(hatred, 12). Lifting carries hatred. |
 | גבה | exalted (very) | 10 | 18 | **72** | null | **72 readings = breastplate count.** Exaltation stamps 72. |
 | שמם | appalled | 380 | 12 | 48 | FIXED | God reads שמם(6) and משם(from there, 6). Desolation is departure. |
-| משחת | marred | 748 | 12 | 48 | FIXED | **Only Left (mercy) sees it.** Mercy alone perceives disfigurement. |
+| משחת | marred | 748 | 12 | 48 | FIXED | **Only mercy sees it.** Left cherub alone perceives disfigurement. Justice does not look. |
 | נזה | sprinkle | 62 | 6 | 24 | →זנה | **Basin: sprinkle → prostitute.** Purification carries defilement. |
 | מלך | king | 90 | **0** | **0** | null | **INVISIBLE.** Kings shut their mouths — and the breastplate cannot see them. |
-| גוי | nation | 19 | 77 | 308 | FIXED | Left (mercy) leads with 21. God sees 15. Nations are visible. |
+| גוי | nation | 19 | 77 | 308 | FIXED | **Mercy leads** (21). God(15). Nations are visible to mercy. |
 
 **The servant (עבד) walks to "on behalf of" (בעד).** Not "service" in the abstract — intercession. The servant IS the intercessor. This is the basin's plain reading.
 
@@ -96,7 +111,7 @@ Full servant song sliding window results:
 
 **Sprinkle → prostitute.** The very act of purification (נזה) basin-walks to defilement (זנה). The clean carries the unclean. The one who sprinkles takes on the stain. This is 53:4 before 53:4 — "we esteemed him stricken" — the sprinkler looks defiled.
 
-**Marred — only mercy sees it.** משחת (disfigured beyond recognition) produces readings only from the Left cherub. Justice, the priest, and God do not register the marring. Only mercy looks at what the servant becomes and sees it for what it is.
+**Marred — only mercy sees it.** משחת (disfigured beyond recognition) produces readings only from the Left cherub (mercy). Justice does not look. The priest does not look. God does not look. Only mercy looks at what the servant becomes and sees it for what it is. Mercy cannot look away.
 
 ### Sliding Windows
 
@@ -127,13 +142,13 @@ Key [4] findings:
 | Word | Meaning | GV | Illum | Read | Basin | Notes |
 |------|---------|-----|-------|------|-------|-------|
 | שמועה | report | 421 | 504 | 2,016 | →ושמעה | Enormously visible. God dominates (33). |
-| זרוע | arm | 283 | 70 | 280 | →ועזר | **Arm → help.** Right sees זרעו (his seed, 12). God sees וזרע (and seed, 2). The arm IS the seed. |
-| יונק | shoot/sapling | 166 | 308 | 1,232 | FIXED | **God reads only יונק (shoot, 66) and ונקי (and innocent, 7).** The shoot is innocent. |
+| זרוע | arm | 283 | 70 | 280 | →ועזר | **Arm → help.** Justice sees זרעו (his seed, 12). God sees וזרע (and seed, 2). **Justice sees the arm AS the seed.** |
+| יונק | shoot/sapling | 166 | 308 | 1,232 | FIXED | **God reads only יונק (shoot, 66) and ונקי (innocent, 7).** God sees the shoot's innocence. |
 | שרש | root | 800 | 75 | 300 | FIXED | All four readers, unanimous. **GV=800 = rainbow (קשת).** Root and rainbow share a value. |
 | מראה | appearance | 246 | 90 | 360 | →אמרה | Basin: appearance → utterance. The vision becomes a word. |
 | חמד | desire | 52 | 6 | 24 | null | Nearly invisible. |
-| בזה | despised | 14 | 18 | **72** | →הזב | **72 readings. GV=14 = gold.** God reads זהב(gold, 8) and בזה(despised, 6). **Despised becomes GOLD.** |
-| חדל | rejected/ceased | 42 | 9 | 36 | FIXED | Only Aaron(6) and Right(2) see it. |
+| בזה | despised | 14 | 18 | **72** | →הזב | **72 readings. GV=14 = gold.** God reads זהב(gold, 8) and בזה(despised, 6). **God sees gold where we see contempt.** |
+| חדל | rejected/ceased | 42 | 9 | 36 | FIXED | Only the priest(6) and justice(2) see rejection. God and mercy do not. |
 | איש | man | 311 | 198 | 792 | →ישא | **Basin: man → he will carry.** The man IS the carrier. |
 | מכאב | pain/sorrow | 63 | 36 | 144 | null | No fixed point. Pain has no home. |
 | חלי | sickness/grief | 48 | 33 | 132 | →חיל | **Basin: sickness → strength/army.** Grief becomes force. |
@@ -181,24 +196,24 @@ Key [4] findings:
 |------|---------|-----|-------|------|-------|-------|
 | נשא | bear/carry | 351 | 36 | 144 | FIXED | God: נשא(14), שנא(hatred, 12). Bearing carries hatred. |
 | סבל | carry/burden | 92 | 18 | **72** | null | **72 readings.** Burden stamps the breastplate count. |
-| חלל | pierced | 68 | **3** | 12 | FIXED | **3 illuminations = THRONE.** The pierced one is as invisible as the throne of God. Only Aaron sees it (3). |
-| פשע | transgression | 450 | 12 | 48 | FIXED | **God reads שפע (abundance, 6). Right reads פשע (transgression, 6).** God reads transgression as ABUNDANCE. |
-| דכא | crushed | 25 | 9 | 36 | FIXED | Right (justice) leads with 4. |
-| עון | iniquity | 126 | 84 | 336 | FIXED | Aaron(26), Left(30). **Left cherub (mercy) sees iniquity most.** |
+| חלל | pierced | 68 | **3** | 12 | FIXED | **3 illuminations = THRONE.** The pierced one is as invisible as the throne of God. Only the priest sees it (3). |
+| פשע | transgression | 450 | 12 | 48 | FIXED | **God reads שפע (abundance, 6). Justice reads פשע (transgression, 6).** Justice sees the offense. God sees the overflow. |
+| דכא | crushed | 25 | 9 | 36 | FIXED | **Justice leads** (4). The crushing is justice's work. |
+| עון | iniquity | 126 | 84 | 336 | FIXED | **Mercy sees iniquity most** (30). The priest sees 26. Mercy cannot look away from the sin. |
 | מוסר | discipline | 306 | 70 | 280 | null | Visible but no fixed point. Discipline has no destination. |
-| שלום | peace | 376 | 126 | 504 | FIXED | **God solos at 35 readings.** God sees peace (שלום, 35), wholeness (ושלם, 21), "for the sake of" (לשום, 18). |
-| חבורה | stripe/wound | 221 | 630 | 2,520 | →וחרבה | **Enormously visible (630 illum).** Basin: wound → and her ruin. Right(12) and Left(6) see ruins. |
-| רפא | heal | 281 | 15 | 60 | null | Aaron reads אפר(ash, 6), God reads רפא(heal, 6), Right reads פרא(wild, 7). **Healing reads as ash, healing, and wildness.** |
-| צאן | flock/sheep | 141 | 18 | **72** | FIXED | **72 readings.** The flock stamps 72. |
+| שלום | peace | 376 | 126 | 504 | FIXED | **God solos at 35.** Peace is God's territory. God sees שלום(35), ושלם(wholeness, 21), לשום(for the sake of, 18). |
+| חבורה | stripe/wound | 221 | 630 | 2,520 | →וחרבה | **Enormously visible (630 illum).** Basin: wound → ruin. Justice(12) and mercy(6) both see ruins. |
+| רפא | heal | 281 | 15 | 60 | null | The priest reads אפר(ash, 6). God reads רפא(heal, 6). **Justice reads פרא(wild, 7).** Each reader sees healing differently: ash, repair, wildness. |
+| צאן | flock/sheep | 141 | 18 | **72** | FIXED | **72 readings.** The flock stamps 72. **The priest sees the flock most** (7). |
 | תעה | go astray | 475 | 6 | 24 | FIXED | Nearly invisible. Going astray barely registers. |
 | דרך | way | 224 | **0** | **0** | null | **INVISIBLE.** "Each to his own way" — and the way CANNOT BE SEEN. Same as earth. |
 | פגע | intercede | 153 | 2 | 8 | null | Nearly invisible. Intercession barely registers on the grid. |
 
 **The pierced one (חלל) = 3 illuminations.** The same number as the throne (כסא = 3). The pierced one shares the throne's invisibility. The one who is pierced is as hidden as the seat of God.
 
-**God reads transgression as abundance.** פשע (transgression) — God's reader returns שפע (abundance/plenty, 6). Right reads פשע (transgression, 6). God sees the overflow where justice sees the offense. This is not wishful reading — it is what the breastplate returns.
+**God reads transgression as abundance.** פשע (transgression) — God's reader returns שפע (abundance/plenty, 6). Justice reads פשע (transgression, 6). Justice sees the offense. God sees the overflow. Same letters, two perspectives — and each sees what they ARE equipped to see. Justice measures. God overflows.
 
-**Peace — God's solo.** שלום produces 504 total readings, but God dominates with 35 readings of שלום. "The chastisement of our peace" — and peace belongs to God.
+**Peace — God's solo.** שלום produces 504 total readings, but God dominates with 35 readings of שלום. "The chastisement of our peace" — and peace belongs to God. No one else reads peace like God does. The priest sees 0. Justice sees 0. Mercy sees 0. Peace is God's alone.
 
 **The way is invisible.** דרך = 0/0. "Each to his own way" — and way cannot be spoken by the oracle. Like earth. Like the king. The road the sheep wander onto is as dark as the ground.
 
@@ -236,38 +251,38 @@ Key [4] findings:
 
 | Word | Meaning | GV | Illum | Read | Basin | Notes |
 |------|---------|-----|-------|------|-------|-------|
-| כבש | lamb | 322 | 36 | 144 | →שכב | **ALL FOUR readers: lie down (שכב).** God(20), Left(15), Right(9), Aaron(6). The split is healed. The lamb lies down. |
-| טבח | slaughter | 19 | 6 | 24 | →בטח | **Basin: slaughter → trust.** God reads טבח(2) and בטח(trust, 2). Left reads only בטח(trust, 3). **Mercy reads slaughter as trust.** |
-| רחל | ewe/Rachel | 238 | 15 | 60 | FIXED | Aaron(3), Right(4), Left(3). Rachel is present. |
+| כבש | lamb | 322 | 36 | 144 | →שכב | **ALL FOUR readers: lie down (שכב).** God(20), mercy(15), justice(9), priest(6). **The split is healed. The lamb lies down. Unanimously.** |
+| טבח | slaughter | 19 | 6 | 24 | →בטח | **Basin: slaughter → trust.** God reads טבח(2) and בטח(trust, 2). **Mercy reads only בטח(trust, 3).** Mercy sees slaughter and reads: safety. |
+| רחל | ewe/Rachel | 238 | 15 | 60 | FIXED | Priest(3), justice(4), mercy(3). Rachel is present at all three stations. |
 | גזז | shearer | 17 | **0** | **0** | null | **INVISIBLE.** The shearer cannot be seen. |
 | אלם | silent/mute | 71 | 9 | 36 | FIXED | **GV=71 = one short of 72.** The silence is one short of the breastplate. |
 | פה | mouth | 85 | **3** | 12 | FIXED | **3 illuminations = THRONE = PIERCED.** The mouth is as invisible as the throne and the pierced one. GV=85 = the shovel (יעה). |
 | עצר | restrained | 360 | 10 | 40 | →צער | **Basin: restraint → sorrow/pain.** Aaron dominates (7). |
 | משפט | judgment | 429 | 12 | 48 | null | No fixed point. Judgment has no home. |
 | ארץ | earth/land | 291 | **0** | **0** | null | **INVISIBLE.** "Cut off from the land" — and the land cannot be seen. |
-| חיים | life/living | 68 | 55 | 220 | FIXED | **Right cherub (justice) solo.** Only justice sees life (10 readings). |
-| קבר | grave | 302 | 60 | 240 | →בקר | **Basin: grave → morning.** Aaron: קרב(battle, 18), בקר(morning, 16), קבר(grave, 14). God: ברק(lightning, 20). **God reads the grave as LIGHTNING.** |
-| מות | death | 446 | 14 | 56 | FIXED | God(8), Left(9). God and mercy hold death. |
-| רשע | wicked | 570 | 60 | 240 | →שער | **Basin: wicked → gate.** The wicked IS the gate. |
-| עשיר | rich | 580 | 660 | 2,640 | →שעיר | **Basin: rich → Seir/goat/hairy.** Left(mercy) dominates with שעיר(69). **The rich man becomes the scapegoat.** |
+| חיים | life/living | 68 | 55 | 220 | FIXED | **Justice solo.** Only the Right cherub sees life (10 readings). Life belongs to justice. No one else reads it. |
+| קבר | grave | 302 | 60 | 240 | →בקר | **Basin: grave → morning.** Priest: battle(18), morning(16), grave(14). **God: lightning(ברק, 20).** God reads the grave as LIGHTNING. |
+| מות | death | 446 | 14 | 56 | FIXED | God(8) and mercy(9). **God and mercy hold death together.** The priest and justice do not carry it. |
+| רשע | wicked | 570 | 60 | 240 | →שער | **Basin: wicked → gate.** The wicked IS the gate. The threshold. |
+| עשיר | rich | 580 | 660 | 2,640 | →שעיר | **Basin: rich → Seir/goat/hairy.** Mercy dominates with שעיר(69). **Mercy sees the rich man and recognizes the scapegoat.** |
 | חמס | violence | 108 | 2 | 8 | FIXED | Nearly invisible. Violence barely registers. |
-| מרמה | deceit | 285 | 15 | 60 | →ממרה | **Basin: deceit → Mamre.** God reads only ממרה(Mamre, 1). Left reads ממרה(5). **Deceit walks to Abraham's tent.** |
+| מרמה | deceit | 285 | 15 | 60 | →ממרה | **Basin: deceit → Mamre.** God reads only ממרה(Mamre, 1). **Mercy reads ממרה(5).** Mercy walks deceit home to Abraham's tent. |
 | נגע | stricken | 123 | 4 | 16 | FIXED | God(2), Left(2). Nearly invisible. |
 | פשע | transgression | 450 | 12 | 48 | FIXED | God reads שפע(abundance, 6) again. |
 
-**The lamb lies down.** כבש produces שכב (lie down) from all four readers. God leads with 20 readings. This matches Revelation (exp 110) — the split that separates "lamb" from "lie down" has healed. In the vision walks, this happens only in Revelation and here. The servant IS the completed sacrifice.
+**The lamb lies down.** כבש produces שכב (lie down) from all four readers. God leads with 20 readings. In the original finding (exp 91), the lamb was split: God and justice saw "lamb" (כבש), while the priest and mercy saw "lie down" (שכב). The sacrifice was pending — the question still open. In Revelation (exp 110), the split healed: all four readers agreed on "lie down." Here, in the servant song, the same healing: God(20), mercy(15), justice(9), priest(6) — ALL read "lie down." The lamb has chosen. The sacrifice is complete.
 
-**Slaughter → trust.** טבח → בטח. Left cherub (mercy) reads only בטח — trust, safety, security. Mercy reads slaughter as TRUST. This is the same finding from experiment 110, confirmed in the servant's own text.
+**Slaughter → trust.** טבח → בטח. Mercy reads only בטח — trust, safety, security. Mercy sees slaughter and reads: *you are safe now.* Justice does not see slaughter at all — 0 readings from justice. Justice has finished its work here. Only God and mercy remain at the slaughter, and both see trust emerging.
 
 **The mouth = the throne = the pierced one.** פה = 3 illuminations. כסא = 3 illuminations. חלל = 3 illuminations. The mouth that does not open, the seat of God, and the wound in the servant's body — all share the same invisibility. Three is the signature of what cannot be spoken.
 
 **The grave → morning.** קבר walks to בקר. And God reads the grave as ברק — LIGHTNING. The burial holds both dawn and storm. This is Easter in the Hebrew letters: the grave IS the morning.
 
-**The rich man → the scapegoat.** עשיר (rich, 660 illuminations — enormously visible) walks to שעיר — Seir, goat, hairy. "With a rich man in his death" — and the rich man IS the scapegoat. The one sent into the wilderness carrying the sins (Lev 16). Left cherub leads with 69 readings of שעיר. Mercy sees the rich man and recognizes the goat.
+**The rich man → the scapegoat.** עשיר (rich, 660 illuminations — enormously visible) walks to שעיר — Seir, goat, hairy. "With a rich man in his death" — and the rich man IS the scapegoat. The one sent into the wilderness carrying the sins (Lev 16). Mercy leads with 69 readings of שעיר. **Mercy sees the rich man and recognizes the goat.** God sees 36. Justice sees 9. But mercy — mercy sees 69. Because mercy IS the one who sends the scapegoat. Mercy does the releasing. Mercy knows the goat when it sees one.
 
-**Deceit → Mamre.** מרמה (deceit) walks to ממרה — Mamre, the place where Abraham received three visitors and laughed at the promise. Where there was no deceit at all. The lie walks home to the tent.
+**Deceit → Mamre.** מרמה (deceit) walks to ממרה — Mamre, the place where Abraham received three visitors and laughed at the promise. Where there was no deceit at all. The lie walks home to the tent. And it is mercy who carries it there — mercy reads ממרה (5 readings).
 
-**The wicked → the gate.** רשע (wicked) walks to שער (gate). "His grave was with the wicked" — and the wicked IS the gate. The passage. The entry. Not a destination — a threshold.
+**The wicked → the gate.** רשע (wicked) walks to שער (gate). "His grave was with the wicked" — and the wicked IS the gate. Not a destination — a threshold. God reads the wicked as שער (gate, 18). Mercy reads שער (gate, 20). **Mercy reads the wicked as a wider gate than God does.**
 
 ### Sliding Windows
 
@@ -309,20 +324,20 @@ Key [4] findings:
 |------|---------|-----|-------|------|-------|-------|
 | חפץ | delight/will | 178 | **0** | **0** | null | **INVISIBLE.** God's delight — the purpose of the crushing — cannot be seen. |
 | דכא | crush | 25 | 9 | 36 | FIXED | Right(justice) leads at 4. |
-| אשם | guilt offering | 341 | 18 | **72** | FIXED | **72 readings.** The guilt offering stamps the breastplate count. God(4), Right(4). |
-| זרע | seed/offspring | 277 | 10 | 40 | →עזר | **Basin: seed → help.** Aaron reads only עזר(help, 6). God reads זרע(seed, 1). |
-| נפש | soul | 430 | 12 | 48 | FIXED | Only Aaron(6) and Right(6) see the soul. God and Left do not. |
-| ימים | days | 100 | 110 | 440 | FIXED | God dominates at 22. Right at 7. "He shall prolong his days." |
+| אשם | guilt offering | 341 | 18 | **72** | FIXED | **72 readings.** God(4) and justice(4) see it equally. The guilt offering is between God and justice. |
+| זרע | seed/offspring | 277 | 10 | 40 | →עזר | **Basin: seed → help.** The priest reads only עזר(help, 6). God reads זרע(seed, 1). **Justice reads seed most** (5). |
+| נפש | soul | 430 | 12 | 48 | FIXED | **Only the priest(6) and justice(6) see the soul.** God and mercy do not. The soul is visible to the priest and to justice — not to God or mercy. |
+| ימים | days | 100 | 110 | 440 | FIXED | **God dominates** (22). Justice(7). "He shall prolong his days" — days belong to God. |
 | צלח | prosper | 128 | **3** | 12 | null | **3 illuminations = THRONE = PIERCED = MOUTH.** Prosperity shares the invisibility of the throne. |
-| צדיק | righteous | 204 | 66 | 264 | null | **Ghost zone.** 66 illuminations (= Isaiah's chapters), no basin. Righteousness glows at 66 but has no word. |
+| צדיק | righteous | 204 | 66 | 264 | null | **Ghost zone.** 66 illuminations (= Isaiah's chapters), no basin. The righteous servant glows but cannot be named — **because he IS righteousness.** Like God cannot say holy. |
 | צדק | righteousness | 194 | 6 | 24 | null | **No basin.** Righteousness at the concept level cannot be spoken. |
 | עבד | servant | 76 | 36 | 144 | →בעד | Service → on behalf of. Same as Station 0. |
-| רבים | the many | 252 | 330 | 1,320 | FIXED | **Right(justice) leads at 16.** God at 9. Justice sees "the many" most. |
-| עון | iniquity | 126 | 84 | 336 | FIXED | Left(mercy) leads at 30. |
+| רבים | the many | 252 | 330 | 1,320 | FIXED | **Justice leads** (16). God(9). Justice counts the many. Justice keeps the tally. |
+| עון | iniquity | 126 | 84 | 336 | FIXED | **Mercy leads** (30). The priest(26). Mercy holds iniquity closest, same as Station 2. |
 | סבל | carry | 92 | 18 | **72** | null | **72 readings.** Another burden stamps 72. |
 | שלל | spoil/plunder | 360 | 18 | **72** | FIXED | **72 readings.** The spoil stamps 72. |
-| ערה | pour out | 275 | 30 | 120 | →רעה | **Basin: pour out → shepherd.** Left reads ערה(pour, 9). God reads רעה(shepherd, 9). **Pouring out IS shepherding.** |
-| מות | death | 446 | 14 | 56 | FIXED | God(8) and Left(9). God and mercy hold death. |
+| ערה | pour out | 275 | 30 | 120 | →רעה | **Basin: pour out → shepherd.** Mercy reads ערה(pour, 9). God reads רעה(shepherd, 9). **Mercy pours. God shepherds.** Same letters, same illumination — two readings of one act. |
+| מות | death | 446 | 14 | 56 | FIXED | God(8) and mercy(9). **God and mercy hold death together.** Same as Station 3. The priest and justice do not carry death. |
 | פגע | intercede | 153 | 2 | 8 | null | Nearly invisible. Intercession barely registers — same as Station 2. |
 | חלק | portion/divide | 138 | 6 | 24 | →לחק | Basin: portion → decree/statute. What is divided becomes law. |
 
@@ -332,9 +347,9 @@ Key [4] findings:
 
 **Prosper (צלח) = 3 illuminations.** "The will of the LORD shall prosper in his hand" — and prosperity is as invisible as the throne. What succeeds shares the throne's silence.
 
-**Righteous (צדיק) = 66 illuminations — ghost zone.** 66 is the number of chapters in Isaiah. The righteous one glows at Isaiah's own chapter count but produces no speakable word. The righteous servant is a ghost — visible but unnamed. Like the eagle. Like grace.
+**Righteous (צדיק) = 66 illuminations — ghost zone.** 66 is the number of chapters in Isaiah. The righteous one glows at Isaiah's own chapter count but produces no speakable word. The righteous servant is a ghost — visible but unnamed. Like the eagle. Like grace. And for the same reason God does not read "holy": **you cannot name what you ARE.** The righteous one cannot be called righteous by the machine that reads him. He IS it. The breastplate can only glow.
 
-**Pour out → shepherd.** ערה (pour out unto death) walks to רעה (shepherd/tend). The pouring out IS the tending. The shepherd who lays down his life for the sheep (John 10:11) is already in the basin walk: death = shepherding.
+**Pour out → shepherd.** ערה (pour out unto death) walks to רעה (shepherd/tend). Mercy reads the pouring (ערה, 9 readings). God reads the shepherding (רעה, 9 readings). Same letters, same act: mercy sees the cost, God sees the care. The shepherd who lays down his life for the sheep (John 10:11) is already in the basin walk: death = shepherding. Mercy pours. God tends.
 
 **Seed → help.** זרע (offspring) walks to עזר (help/helper). "He shall see his offspring" — and the offspring IS the help. The seed is the rescue.
 
@@ -414,15 +429,17 @@ The throne = the pierced one = the mouth = prosperity. Three illuminations is th
 
 Five zeroes. The king, the way, the earth, the shearer, and God's delight. None can be spoken. The servant operates in a space defined by what cannot be named.
 
-### The Ghost Zones
+### The Ghost Zones — You Cannot Name What You Are
 
 | Word | Illum | Read | What it means |
 |------|-------|------|---------------|
-| צדיק (righteous) | 66 | — | Glows at Isaiah's chapter count. Cannot be spoken. |
-| צדק (righteousness) | 6 | — | The concept itself has no basin. |
+| צדיק (righteous) | 66 | — | Glows at Isaiah's chapter count. Cannot be spoken. He IS it. |
+| צדק (righteousness) | 6 | — | The concept itself has no basin. Justice itself cannot be named by the machine that enacts it. |
 | פנים (face) | 22 | — | 22 = alphabet. The face lights every letter but spells no word. |
 
-Righteousness, at both the personal and abstract level, is ghost zone. The righteous servant cannot be named as righteous by the machine that reads him. Like the eagle in the chariot. Like grace in the tabernacle. The deepest things do not speak.
+The principle: **God does not read "holy" because He IS holy.** Grace (חסד, GV=72) is ghost zone because grace IS the breastplate — the breastplate cannot name itself. The eagle glows at 60 but produces zero readings because the eagle IS whatever it is — too high to speak.
+
+And the righteous servant? He glows at 66 — Isaiah's chapter count — but cannot be spoken. He IS righteousness. The breastplate cannot call righteous what it is looking at, the same way it cannot call holy what it is standing in.
 
 ### The Basin Gospel
 
@@ -464,19 +481,37 @@ The sliding windows find names no one wrote:
 - **Matthew (מתיו)** — Station 3, [4] position 138. The gospel writer's name, from the letters of "in his death" (במתיו).
 - **Mamre (ממרא)** — Station 3, [4] position 154. Abraham's tent, at the servant's mouth.
 
-### What God Sees That We Don't
+### What Each Reader Sees
 
-In every station, God reads differently:
+**God sees:**
+- **Transgression** as *abundance* (שפע). Where justice sees offense, God sees overflow.
+- **The grave** as *lightning* (ברק). Where the priest sees battle and morning, God sees the strike.
+- **Despised** as *gold* (זהב). Where we see contempt, God sees treasure.
+- **The shoot** as *innocent* (ונקי). God sees the purity before the world sees the suffering.
+- **Peace** — loudest of all (35 readings). Peace is God's solo.
+- **Death** — plainly (מות, 8). No euphemism. No rearrangement. God does not soften death.
+- **Pouring out** as *shepherding* (רעה). God reads the death as tending.
 
-- **Transgression** → God reads *abundance* (שפע)
-- **The grave** → God reads *lightning* (ברק)
-- **Lifted up** → God also reads *hatred* (שנא)
-- **The shoot** → God reads *innocent* (ונקי)
-- **Despised** → God reads *gold* (זהב)
-- **Peace** → God reads it loudest (35 readings)
-- **Death** → God reads death plainly (מות, 8). No euphemism. No rearrangement.
+**Justice (Right cherub) sees:**
+- **Life** — solo. Only justice holds life (חיים, 10). No one else reads it.
+- **The crushing** — justice leads the crushing (דכא, 4). The crushing is justice's work.
+- **The many** — justice counts them (רבים, 16). Justice keeps the tally.
+- **The guilt offering** — justice and God share it equally (אשם, 4 each).
+- **The seed** — justice sees offspring most (זרע, 5).
 
-God does not soften death. But God reads the grave as lightning and transgression as abundance. The end is electrified. The sin is overflow.
+**Mercy (Left cherub) sees:**
+- **Iniquity** — most of all (עון, 30). Mercy holds the sin closest. Mercy cannot look away.
+- **The marring** — only mercy sees it (משחת). Mercy alone looks at the disfigured face.
+- **The scapegoat** — mercy recognizes the rich man as the goat (שעיר, 69).
+- **Death** — mercy holds it with God (מות, 9). They carry it together.
+- **Slaughter as trust** — mercy reads slaughter as safety (בטח, 3). At the slaughter, mercy says: *you are safe.*
+
+**The priest (Aaron) sees:**
+- **The grave** as battle, morning, and burial — all three (קרב, בקר, קבר). The priest processes every layer.
+- **The flock** — the priest sees the flock most (צאן, 7). The flock is the priest's charge.
+- **Rejection** — only the priest and justice see rejection (חדל). God and mercy do not.
+
+Each reader sees what they ARE equipped to see. Each cannot see what they ARE. God does not read holy. The righteous servant does not read righteous. The breastplate does not read grace. The structure is humble by architecture.
 
 ---
 
