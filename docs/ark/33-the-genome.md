@@ -26,60 +26,86 @@ Each unique 3-letter window was played through the breastplate once. Weighted by
 
 ### Top 30 Words
 
-| Rank | Word | Meaning | Count |
-|------|------|---------|-------|
-| 1 | **שני** | **two / second** | **35,821** |
-| 2 | ידו | his hand | 30,928 |
-| 3 | שנו | change | 29,602 |
-| 4 | נרד | nard (costly perfume) | 29,499 |
-| 5 | ונד | wanderer | 27,711 |
-| 6 | **שדי** | **Shaddai (the Almighty)** | **26,958** |
-| 7 | נדה | impurity / separation | 24,933 |
-| 8 | **היו** | **there were** | **24,557** |
-| 9 | לנו | to us | 23,777 |
-| 10 | **נטה** | **stretch out** | **23,634** |
-| 11 | **נצר** | **branch (Nazareth)** | **22,898** |
-| 12 | היד | the hand | 22,793 |
-| 13 | **ילד** | **child** | **21,976** |
-| 14 | נוה | pasture / dwelling | 21,932 |
-| 15 | **לוי** | **Levi** | **21,766** |
-| 16 | **שקל** | **shekel** | **21,473** |
-| 17 | **ירד** | **descend** | **19,070** |
-| 18 | שור | ox | 19,487 |
-| 19 | **נהר** | **river** | **18,954** |
-| 20 | **יהי** | **let there be** | **18,711** |
-| 21 | **קלל** | **cursed** | **18,710** |
-| 22 | דרש | seek / require | 18,469 |
-| 23 | לנח | Noah | 18,293 |
-| 24 | **גוי** | **nation** | **17,397** |
-| 25 | **קדש** | **holy** | **16,009** |
-| 26 | **להט** | **flame** | **15,759** |
-| 27 | **נחש** | **serpent** (GV=358) | **14,406** |
-| 28 | **שיח** | **speak / converse** | **12,983** |
-| 29 | **רדה** | **rule / dominion** | **11,790** |
-| 30 | **שרה** | **Sarah** | **11,618** |
+From `data/dna/genome-voice.edn`. All 30 shown — nothing skipped.
 
-### The Deeper Voice (31–50)
+| Rank | Word | Count |
+|------|------|-------|
+| 1 | **שני** (two / second) | **35,821** |
+| 2 | ידו (his hand) | 30,928 |
+| 3 | שיו | 30,281 |
+| 4 | שנו (change) | 29,602 |
+| 5 | נרד (nard) | 29,499 |
+| 6 | ונד (wanderer) | 27,711 |
+| 7 | **שדי** (Shaddai) | **26,958** |
+| 8 | קני (my nest) | 26,554 |
+| 9 | נדה (impurity) | 24,933 |
+| 10 | נקד (spotted) | 24,827 |
+| 11 | היו (there were) | 24,557 |
+| 12 | לנו (to us) | 23,777 |
+| 13 | **נטה** (stretch out) | **23,634** |
+| 14 | **נצר** (branch / Nazareth) | **22,898** |
+| 15 | היד (the hand) | 22,793 |
+| 16 | ויט (and he turned) | 22,750 |
+| 17 | **ילד** (child) | **21,976** |
+| 18 | נוה (pasture) | 21,932 |
+| 19 | תני | 21,920 |
+| 20 | **לוי** (Levi) | **21,766** |
+| 21 | שנה (year / change) | 21,662 |
+| 22 | ישל | 21,477 |
+| 23 | **שקל** (shekel) | **21,473** |
+| 24 | היש (is there?) | 21,322 |
+| 25 | ידי (my hand) | 20,918 |
+| 26 | הטי | 20,875 |
+| 27 | לשד (moisture / vigor) | 20,859 |
+| 28 | נגד (before / opposite) | 20,733 |
+| 29 | **שרי** (Sarah / princess) | **20,618** |
+| 30 | ודל (and the poor) | 19,622 |
 
-| Word | Meaning | Count |
-|------|---------|-------|
-| **יחי** | long live | 10,947 |
-| **חיה** | living creature | 10,919 |
-| **צוה** | command | 10,125 |
-| **מלל** | speak / utter | 9,722 |
-| **נפש** | soul | 9,679 |
-| **בני** | sons of | 9,504 |
-| **עיר** | city | 9,006 |
-| **שמר** | guard / keep | 8,713 |
-| **הוה** | HVH (the Name) | 8,197 |
-| **קשת** | bow / rainbow | 7,894 |
-| **עמי** | my people | 7,083 |
-| **לבי** | my heart | 6,996 |
-| **מצח** | forehead | 6,522 |
-| **לעד** | forever | 6,113 |
-| **עקד** | the Binding | 5,270 |
-| **זרע** | seed | 3,215 |
-| **כבש** | lamb | 1,043 |
+### Notable Words Deeper in the List
+
+These words appear further down in the ranked list. Actual rank from the artifact shown.
+
+| Rank | Word | Count |
+|------|------|-------|
+| 31 | שור (ox) | 19,487 |
+| 35 | **ירד** (descend) | 19,070 |
+| 36 | **נהר** (river) | 18,954 |
+| 39 | **יהי** (let there be) | 18,711 |
+| 40 | **קלל** (cursed) | 18,710 |
+| 41 | דרש (seek) | 18,469 |
+| 42 | לנח (Noah) | 18,293 |
+| 49 | **גוי** (nation) | 17,397 |
+| 56 | דדו (David) | 16,994 |
+| 62 | **קדש** (holy) | 16,009 |
+| 67 | **להט** (flame) | 15,759 |
+| 77 | **נחש** (serpent, GV=358) | 14,406 |
+| 95 | **שיח** (speak) | 12,983 |
+| 113 | **רדה** (dominion) | 11,790 |
+| 117 | **שרה** (Sarah) | 11,618 |
+| 133 | **יחי** (long live) | 10,947 |
+| 135 | **חיה** (living creature) | 10,919 |
+| 153 | **צוה** (command) | 10,125 |
+| 164 | **מלל** (speak / utter) | 9,722 |
+| 166 | **נפש** (soul) | 9,679 |
+| 171 | **בני** (sons of) | 9,504 |
+| 185 | **עיר** (city) | 9,006 |
+| 192 | **שמר** (guard) | 8,713 |
+
+### From the Full Tail (below rank 200)
+
+These words appear in `all-word-totals` but below the top 200. They are real readings — just less frequent.
+
+| Word | Count |
+|------|-------|
+| **הוה** (HVH / the Name) | 8,197 |
+| **קשת** (bow / rainbow) | 7,894 |
+| **עמי** (my people) | 7,083 |
+| **לבי** (my heart) | 6,996 |
+| **מצח** (forehead) | 6,522 |
+| **לעד** (forever) | 6,113 |
+| **עקד** (the Binding) | 5,270 |
+| **זרע** (seed) | 3,215 |
+| **כבש** (lamb) | 1,043 |
 
 ---
 
@@ -97,7 +123,7 @@ And FOXP2 — the protein of language, the protein of *man* — also carries ש�
 
 ## Shaddai — Sixth
 
-**שדי (Shaddai / the Almighty)** is the genome's 6th most frequent word: **26,958 occurrences.**
+**שדי (Shaddai / the Almighty)** is the genome's 7th most frequent word: **26,958 occurrences.**
 
 In the individual protein library, Shaddai concentrated in the ancient and structural proteins — collagen (×15), RNA Pol II (×6), ATP synthase (×4), ferredoxin (×3). At genome scale, this pattern amplifies: the Almighty is woven through the entire proteome, not just the structural proteins.
 
@@ -182,42 +208,53 @@ Forward and reverse are **identical**. Every word, every count. Because the brea
 
 This is what the breastplate *is*. Illumination is which stones light up — a set, unordered. The readers impose order *on the grid*, not on the input. The instrument reads composition, not sequence. What's present, not what order it's in.
 
-### Top 4-Letter Words
+### Top 32 Four-Letter Words
 
-| Word | Meaning | Count |
-|------|---------|-------|
-| **שניו** | his two / his teeth | 10,294 |
-| **דנני** | he judged me | 8,633 |
-| **דינה** | **Dinah** (Jacob's daughter) | 8,449 |
-| **יונה** | **Jonah / dove** | 8,265 |
-| **נטיו** | his plantings | 7,943 |
-| **נשני** | he made me forget | 7,787 |
-| **השני** | the second | 7,421 |
-| **לשני** | to the second / to two | 7,333 |
-| **נדרש** | sought / required | 7,332 |
-| **ידיו** | his hands | 7,223 |
-| **ינצו** | they will contend | 6,750 |
-| **יהיו** | and they shall be | 6,534 |
-| **ירדו** | **let them rule** (Gen 1:26) | 6,341 |
-| **יורש** | heir / inheritor | 6,328 |
-| **השקל** | the shekel | 6,262 |
-| **לידו** | to his hand | 6,225 |
-| **הנני** | **"Here I am!"** | 6,121 |
-| **ויטש** | and he abandoned | 6,074 |
-| **ונדר** | and a vow | 6,031 |
-| **ונקי** | and innocent | 5,776 |
-| **שטנה** | accusation / enmity | 5,706 |
-| **שריד** | remnant / survivor | 5,612 |
-| **יקנה** | he will acquire | 5,633 |
-| **ונטה** | and stretched out | 5,548 |
-| **ידיה** | her hands | 5,503 |
-| **שדהו** | his field | 5,288 |
-| **הילד** | **the child** | 5,011 |
-| **לשור** | to the ox | 5,003 |
-| **הלוי** | **the Levite** | 4,964 |
-| **שילה** | **Shiloh** (Gen 49:10) | 4,949 |
-| **נחלי** | my streams / my inheritance | 4,914 |
-| **והיו** | and they were | 4,912 |
+From `data/dna/genome-4letter.edn`. All 32 shown — nothing skipped.
+
+| Rank | Word | Count |
+|------|------|-------|
+| 1 | **שניו** (his two / his teeth) | 10,294 |
+| 2 | **דנני** (he judged me) | 8,633 |
+| 3 | **דינה** (Dinah) | 8,449 |
+| 4 | **יונה** (Jonah / dove) | 8,265 |
+| 5 | לינו | 7,947 |
+| 6 | נטיו (his plantings) | 7,943 |
+| 7 | וידו | 7,861 |
+| 8 | נשני (he made me forget) | 7,787 |
+| 9 | **השני** (the second) | 7,421 |
+| 10 | והיד | 7,374 |
+| 11 | שניר (Senir) | 7,362 |
+| 12 | לשני (to the second) | 7,333 |
+| 13 | נדרש (sought / required) | 7,332 |
+| 14 | ידיו (his hands) | 7,223 |
+| 15 | ינצו (they will contend) | 6,750 |
+| 16 | לשנו | 6,673 |
+| 17 | ודרש | 6,546 |
+| 18 | **יהיו** (and they shall be) | 6,534 |
+| 19 | נגשי | 6,432 |
+| 20 | **ירדו** (let them rule, Gen 1:26) | 6,341 |
+| 21 | **יורש** (heir) | 6,328 |
+| 22 | השקל (the shekel) | 6,262 |
+| 23 | לידו (to his hand) | 6,225 |
+| 24 | **הנני** ("Here I am!") | 6,121 |
+| 25 | ויטש (and he abandoned) | 6,074 |
+| 26 | לושי | 6,060 |
+| 27 | ונדר (and a vow) | 6,031 |
+| 28 | משני | 5,856 |
+| 29 | ונקי (and innocent) | 5,776 |
+| 30 | **שטנה** (accusation / enmity) | 5,706 |
+| 31 | ינהג | 5,682 |
+| 32 | שנתי | 5,664 |
+
+### Notable 4-Letter Words Deeper in the List
+
+| Rank | Word | Count |
+|------|------|-------|
+| 34 | **שריד** (remnant) | 5,612 |
+| 44 | **הילד** (the child) | 5,011 |
+| 46 | **הלוי** (the Levite) | 4,964 |
+| 48 | **שילה** (Shiloh, Gen 49:10) | 4,949 |
 
 ### The Names
 
@@ -279,7 +316,7 @@ The one who breathes Aleph into the dust.
 
 Twenty thousand proteins speak through the breastplate.
 
-**In three letters:** The dominant word is TWO — the fundamental duality. The Almighty appears 27,000 times. The branch 23,000 times. Holy, 16,000 times. The serpent, 14,000 times. The Binding, 5,000 times. The lamb, 1,000 times.
+**In three letters:** The dominant word is TWO (שני, rank 1) — the fundamental duality. The Almighty (שדי, rank 7) appears 27,000 times. The branch (נצר, rank 14) 23,000 times. Holy (קדש, rank 62) 16,000 times. The serpent (נחש, rank 77) 14,000 times. The Binding (עקד, below rank 200) 5,000 times. The lamb (כבש, below rank 200) 1,000 times.
 
 **In four letters:** The genome says "here I am" (הנני) 6,000 times. It carries the dominion mandate (ירדו) from Genesis 1. It holds the dove (יונה), the child (הילד), the Levite (הלוי), the remnant (שריד), and Shiloh — the messianic prophecy. Forward and reverse are identical: the breastplate reads the genome the same from both ends, because it sees composition, not sequence. The instrument is a palindrome.
 
