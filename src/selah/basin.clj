@@ -9,7 +9,6 @@
 
    The machine has never read John 14:6."
   (:require [selah.oracle :as oracle]
-            [selah.dict :as dict]
             [selah.gematria :as g]
             [clojure.edn :as edn]
             [clojure.java.io :as io]))
@@ -18,7 +17,7 @@
 
 (defn step
   "One oracle step: word → forward query → highest-weight Torah output.
-   Uses the full Torah vocabulary (~7,300 words).
+   Uses the oracle-closed vocabulary (~7,300 words).
    When skip-self? true, excludes the input word from outputs (reveals flow)."
   ([word] (step word false))
   ([word skip-self?]
@@ -33,10 +32,8 @@
          (when top
            (let [next-word (:word top)]
              {:word word
-              :meaning (or (dict/translate word) (dict/translate-english word))
               :gv (g/word-value word)
               :next next-word
-              :next-meaning (or (dict/translate next-word) (dict/translate-english next-word))
               :next-gv (g/word-value next-word)
               :weight (:reading-count top)
               :total-readings (:total-readings fwd)
@@ -123,7 +120,6 @@
           (group-by #(:fixed-point (:walk %)))
           (map (fn [[fp entries]]
                  {:fixed-point fp
-                  :meaning (or (dict/translate fp) (dict/translate-english fp))
                   :gv (g/word-value fp)
                   :basin-size (count entries)
                   :words (mapv :word entries)}))

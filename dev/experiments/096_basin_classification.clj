@@ -5,7 +5,6 @@
    classifies every word, resolves cycle orbits, computes statistics,
    and saves structured EDN for basin.clj to load lazily."
   (:require [selah.basin :as basin]
-            [selah.dict :as dict]
             [selah.gematria :as g]
             [clojure.edn :as edn]
             [clojure.java.io :as io]))
@@ -150,8 +149,7 @@
                              ;; Dead end
                              (contains? dead-end-set w)
                              {:class :dead-end :attractor nil :steps nil
-                              :gv (g/word-value w)
-                              :meaning (or (dict/translate w) (dict/translate-english w))}
+                              :gv (g/word-value w)}
 
                              ;; Cycle member
                              (contains? orbit-members w)
@@ -162,8 +160,7 @@
                                                       (first (:orbit cyc))))
                                                   resolved-cycles))
                               :steps nil
-                              :gv (g/word-value w)
-                              :meaning (or (dict/translate w) (dict/translate-english w))}
+                              :gv (g/word-value w)}
 
                              ;; Cycle transient
                              (contains? cycle-transient-set w)
@@ -171,8 +168,7 @@
                               :attractor nil
                               :orbit (cycle-transient->orbit w)
                               :steps 1 ;; feeds directly into orbit
-                              :gv (g/word-value w)
-                              :meaning (or (dict/translate w) (dict/translate-english w))}
+                              :gv (g/word-value w)}
 
                              ;; Fixed point
                              (and (contains? fixed-point-set w)
@@ -180,8 +176,7 @@
                              {:class :fixed-point
                               :attractor w
                               :steps 0
-                              :gv (g/word-value w)
-                              :meaning (or (dict/translate w) (dict/translate-english w))}
+                              :gv (g/word-value w)}
 
                              ;; Transient (flows to a fixed point in ≥1 steps)
                              (contains? (set (keys word->attractor)) w)
@@ -197,8 +192,7 @@
                                {:class :transient
                                 :attractor attr
                                 :steps steps
-                                :gv (g/word-value w)
-                                :meaning (or (dict/translate w) (dict/translate-english w))})
+                                :gv (g/word-value w)})
 
                              :else
                              {:class :unknown :gv (g/word-value w)})]
@@ -278,9 +272,8 @@
   "Build sorted attractor list with meanings."
   [attractor-basins]
   (->> attractor-basins
-       (mapv (fn [{:keys [fixed-point meaning gv basin-size words]}]
+       (mapv (fn [{:keys [fixed-point gv basin-size words]}]
                {:word fixed-point
-                :meaning (or meaning (dict/translate fixed-point) (dict/translate-english fixed-point))
                 :gv gv
                 :basin-size basin-size
                 :basin words}))
@@ -293,13 +286,11 @@
   (mapv (fn [{:keys [orbit period transients]}]
           {:orbit (mapv (fn [w]
                           {:word w
-                           :meaning (or (dict/translate w) (dict/translate-english w))
                            :gv (g/word-value w)})
                         orbit)
            :period period
            :transients (mapv (fn [w]
                                {:word w
-                                :meaning (or (dict/translate w) (dict/translate-english w))
                                 :gv (g/word-value w)})
                              transients)})
         resolved-cycles))
@@ -337,9 +328,9 @@
     ;; 7. Print top 20 attractors
     (println)
     (println "Top 20 attractors by basin size:")
-    (doseq [{:keys [word meaning gv basin-size]} (take 20 attractors)]
-      (println (format "  %s (%s, GV=%d) — basin=%d"
-                       word (or meaning "?") gv basin-size)))
+    (doseq [{:keys [word gv basin-size]} (take 20 attractors)]
+      (println (format "  %s (GV=%d) — basin=%d"
+                       word gv basin-size)))
 
     ;; 8. Print cycles
     (println)

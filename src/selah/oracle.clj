@@ -201,7 +201,6 @@
                                  {:word w
                                   :reading-count (count rs)
                                   :readers (set (map :reader rs))
-                                  :meaning (or (dict/translate w) (dict/translate-english w))
                                   :known? (known-fn w)
                                   :gv (g/word-value w)})))
          ;; Separate known from unknown, sort by rarity
@@ -706,7 +705,7 @@
         ;; Pre-compute caches for all unique words (O(|words|) not O(|phrases|))
         all-words     (distinct (mapcat :phrase phrases))
         dict-set      (set (filter dict/known? all-words))
-        english-cache (into {} (map (fn [w] [w (dict/translate-english w)]) all-words))
+        english-cache (into {} (map (fn [w] [w (dict/translate w)]) all-words))
         reader-cache  (into {} (map (fn [w] [w (word-readers w)]) all-words))
         rank-one (fn [{:keys [phrase text meanings gv words] :as p}]
                    (let [english (mapv english-cache phrase)

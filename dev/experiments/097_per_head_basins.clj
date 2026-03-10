@@ -108,7 +108,6 @@
                       (for [[w info] agreement
                             :when (#{:split :majority :fragmented} (:agreement info))]
                         {:word w
-                         :meaning (or (dict/translate w) (dict/translate-english w))
                          :gv (g/word-value w)
                          :attractors (:attractors info)
                          :classes (:classes info)})))
@@ -183,13 +182,10 @@
               classified (into {} (for [r readers]
                                    [r (get-in per-head-classified [r w])]))]
           {:word w
-           :meaning (or (dict/translate w) (dict/translate-english w))
            :gv (g/word-value w)
            :per-head (into {}
                        (for [r readers]
                          [r {:next (get-in heads [r :next])
-                             :next-meaning (when-let [n (get-in heads [r :next])]
-                                             (or (dict/translate n) (dict/translate-english n)))
                              :weight (get-in heads [r :weight])
                              :class (:class (classified r))
                              :attractor (:attractor (classified r))}]))})))))
@@ -266,10 +262,10 @@
         ;; 4. Spotlight
         _ (println "Spotlight words:")
         spot (spotlight step-map per-head)
-        _ (doseq [{:keys [word meaning per-head]} spot]
+        _ (doseq [{:keys [word gv per-head]} spot]
             (let [nexts (into {} (for [[r info] per-head] [r (:next info)]))]
-              (println (format "  %s (%s): A→%s G→%s R→%s L→%s %s"
-                               word (or meaning "?")
+              (println (format "  %s (GV=%d): A→%s G→%s R→%s L→%s %s"
+                               word gv
                                (:aaron nexts) (:god nexts) (:right nexts) (:left nexts)
                                (if (= 1 (count (set (vals nexts)))) "UNANIMOUS" "SPLIT")))))
         _ (println)
@@ -329,9 +325,9 @@
     (when (seq (:splits structures))
       (println)
       (println (format "Top splits (%d total):" (count (:splits structures))))
-      (doseq [{:keys [word meaning attractors]} (take 20 (:splits structures))]
-        (println (format "  %s (%s): %s"
-                         word (or meaning "?")
+      (doseq [{:keys [word gv attractors]} (take 20 (:splits structures))]
+        (println (format "  %s (GV=%d): %s"
+                         word gv
                          (str/join ", " (for [[r a] attractors] (str (name r) "→" a)))))))
 
     (println)
