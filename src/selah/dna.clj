@@ -249,7 +249,10 @@
   "From slide results, count how often each word appears as the top oracle word."
   [hits]
   (->> hits
-       (map #(first (:top-5 %)))
+       (keep (fn [hit]
+               (when-let [top (first (:top-5 hit))]
+                 {:word (:word top)
+                  :position (:position hit)})))
        (group-by :word)
        (map (fn [[w entries]]
               {:word w

@@ -1,14 +1,27 @@
 # Codex Questions
 
-Questions that still matter after reading the current project.
+Questions that still matter after reading the current project, with some earlier questions now marked answered well enough for the current stage.
+
+## Answered Enough For Now
+
+- Which findings have already been falsified or materially weakened beyond experiment 048?
+  - Answered enough: the palindrome/fractal branch is dead, and the repo’s own later docs say so.
+- Which examples are considered canonical sanity checks for the oracle?
+  - Answered enough: the work now clearly leans on recurring anchors like `כבש/שכב`, `את`, `מביא`, strong fixed points, and the basin landscape.
+- Which experiment outputs are fully reproducible from committed code and saved data right now?
+  - Answered enough in part: the Ark core, `096/097`, and the tracked DNA library now have much cleaner reproducibility boundaries than before.
+- Are the ONNX translation models part of the core argument or just operator convenience?
+  - Answered enough: operator convenience, not core evidence.
+- Which findings are considered strongest by current standards: structural, statistical, theological, or experiential?
+  - Answered enough in practice: the structural/mechanical spine is the strongest layer.
+- Which claims are treated as demonstrated versus suggestive?
+  - Answered enough in broad shape: the strongest demonstrated layer is structural/mechanical; broader synthesis remains more suggestive or witness-like.
 
 ## Core Claims
 
-- Which findings are considered strongest by current standards: structural, statistical, theological, or experiential?
-- Which claims are treated as demonstrated versus suggestive?
 - What is the current null hypothesis for the main oracle and 4D-space findings?
 - Which results have survived cross-text or cross-variant comparison cleanly?
-- Which findings have already been falsified or materially weakened beyond experiment 048?
+- Which later DNA/genome readings should now be treated as core anchors rather than exploratory tails?
 
 ## Text Source and Canon
 
@@ -30,7 +43,6 @@ Questions that still matter after reading the current project.
 - Which oracle outputs are deterministic and which are ranking-dependent?
 - How sensitive are results to dictionary choice: curated, Torah-wide, or oracle-voice vocabulary?
 - What failure modes are already known in the oracle pipeline?
-- Which examples are considered canonical sanity checks for the oracle?
 
 ## Statistics and Validation
 
@@ -38,14 +50,13 @@ Questions that still matter after reading the current project.
 - Where are p-values or effect sizes likely to be overstated by search-space flexibility?
 - Which results were preregistered in practice, if any, before being tested?
 - What controls exist for phrase assembly and post hoc interpretation?
-- Which experiment outputs are fully reproducible from committed code and saved data right now?
 
 ## Data and Runtime
 
 - Which generated `data/experiments/*` artifacts are authoritative and which are disposable caches?
 - Which untracked experiment files in the current worktree are important in-progress work versus noise?
 - What is the intended contract of the HTTP API and MCP tools: exploratory only, or stable interfaces?
-- Are the ONNX translation models part of the core argument or just operator convenience?
+- Which untracked DNA/custom artifact families should be refreshed next to extend the clean boundary?
 
 ## Testing and Maintenance
 

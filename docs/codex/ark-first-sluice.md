@@ -2,6 +2,18 @@
 
 *March 10, 2026. First direct rerun of the Ark walk and nearby code/genome claims.*
 
+## Update
+
+Two of the concrete rot points found in the first pass were later fixed and rerun:
+
+- [00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj) now runs cleanly through the full column report
+- [genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj) now computes the silent-vocabulary helper correctly against live `dict/torah-words`
+
+So the earlier failure list in this note should now be read as:
+
+- accurate at the time of the first sluice
+- partially resolved by later cleanup
+
 ## What I Did
 
 I did not modify the machine.
@@ -164,19 +176,19 @@ Notable impossible forms in the live vocabulary include:
 
 ### 1. Ark Column Script Rot
 
-[00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj#L115) prints the main column facts, then crashes in its anagram helper with:
+This was real in the first sluice and is now fixed.
 
-- `ClassCastException`
-- `Character cannot be cast to clojure.lang.IFn`
-
-The column facts still printed before the crash:
+[00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj) now runs through the full report:
 
 - six Ark layers
+- three-floor total
 - door column
 - bridge column
 - first-column values
+- vertical scans
+- full layer dumps
 
-So this looks like late script rot, not a failure of the underlying space.
+The important result did not change. The script bug was rot, not a failure of the underlying space.
 
 ### 2. Notebook Files Masquerading As Experiments
 
@@ -192,12 +204,17 @@ That means:
 
 ### 3. Stale Genome Helper
 
-[genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj#L153) still calls `o/torah-words`, which no longer exists.
+This was also real in the first sluice and is now fixed.
 
-So the helper `silent-letters` is stale.
+[genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj#L153) now runs the silent-vocabulary helper against live dictionary code again.
 
-The claim survives because I recomputed it directly from `dict/torah-words`.
-But the helper itself is broken.
+The output reproduces:
+
+- total Torah forms: `12,826`
+- Aleph forms: `2,664`
+- Samekh forms: `612`
+- impossible under the map: `3,205`
+- percentage silent: `25.0%`
 
 ### 4. Old DNA Reports Are English-Contaminated
 
