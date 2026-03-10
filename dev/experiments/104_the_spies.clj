@@ -30,8 +30,8 @@
   ([hebrew english]
    (let [label (or english hebrew)
          gv (g/word-value hebrew)
-         result (o/forward hebrew {:vocab :torah})
-         by-head (o/forward-by-head hebrew {:vocab :torah})
+         result (o/forward hebrew :torah)
+         by-head (o/forward-by-head hebrew :torah)
          walk (basin/walk hebrew)]
      (println (format "\n%s (%s) GV=%d · %d illum · %d read · basin→%s"
                       hebrew label gv

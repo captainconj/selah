@@ -16,7 +16,7 @@
 ;; ── Query the oracle ───────────────────────────────────────
 
 (defn query [word]
-  (let [result (o/forward word {:vocab :torah})]
+  (let [result (o/forward word :torah)]
     (assoc result :input word :gv (g/word-value word))))
 
 (defn print-results [{:keys [input gv illumination-count total-readings

@@ -38,15 +38,15 @@
   "Run a word through the oracle. Print results. Return data."
   [hebrew english]
   (let [gv (g/word-value hebrew)
-        r (o/forward hebrew {:vocab :torah})
-        bh (o/forward-by-head hebrew {:vocab :torah})
+        r (o/forward hebrew :torah)
+        bh (o/forward-by-head hebrew :torah)
         walk (basin/walk hebrew)]
     (println (format "\n%s (%s) GV=%d · %d illum · %d read · basin→%s"
                      hebrew english gv
                      (:illumination-count r)
                      (:total-readings r)
                      (:fixed-point walk)))
-    (println (format "  basin path: %s" (mapv :word (:path walk))))
+    (println (format "  basin path: %s" (mapv :word (:steps walk))))
     (doseq [head [:aaron :god :right :left]]
       (let [words (get bh head)]
         (when (seq words)

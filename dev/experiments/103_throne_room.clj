@@ -74,8 +74,8 @@
 
 (defn query-word [{:keys [hebrew english]}]
   (let [gv (g/word-value hebrew)
-        result (o/forward hebrew {:vocab :torah})
-        by-head (o/forward-by-head hebrew {:vocab :torah})
+        result (o/forward hebrew :torah)
+        by-head (o/forward-by-head hebrew :torah)
         walk (basin/walk hebrew)]
     (println (format "\n%s (%s) GV=%d · %d illum · %d read · basin→%s"
                      hebrew english gv
@@ -108,7 +108,7 @@
     (println (format "Center %s = position %d" (str center) idx))
     (println (format "  Letter: %s" (:letter desc)))
     (println (format "  Verse:  %s" (:verse-ref desc)))
-    (let [lamb-heads (o/forward-by-head "כבש" {:vocab :torah})]
+    (let [lamb-heads (o/forward-by-head "כבש" :torah)]
       (println "\nכבש (lamb) per-head:")
       (doseq [head [:aaron :god :right :left]]
         (println (format "  %-6s: %s" (name head) (fmt-head lamb-heads head 5)))))))

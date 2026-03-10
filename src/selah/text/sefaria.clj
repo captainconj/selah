@@ -3,21 +3,55 @@
   (:require [clj-http.lite.client :as http]
             [clojure.data.json :as json]
             [clojure.java.io :as io]
-            [selah.text.normalize :as norm]))
+            [selah.text.normalize :as norm]
+            [clojure.string :as str]))
 
 (def api-base "https://www.sefaria.org/api/texts/")
 
 (def book-chapters
-  {"Genesis"     50
-   "Exodus"      40
-   "Leviticus"   27
-   "Numbers"     36
-   "Deuteronomy" 34
-   "Isaiah"      66
-   "Ezekiel"     48
-   "Daniel"      12
-   "Psalms"      150
-   "Zechariah"   14})
+  {;; Torah
+   "Genesis"       50
+   "Exodus"        40
+   "Leviticus"     27
+   "Numbers"       36
+   "Deuteronomy"   34
+   ;; Former Prophets
+   "Joshua"        24
+   "Judges"        21
+   "I Samuel"      31
+   "II Samuel"     24
+   "I Kings"       22
+   "II Kings"      25
+   ;; Latter Prophets
+   "Isaiah"        66
+   "Jeremiah"      52
+   "Ezekiel"       48
+   "Hosea"         14
+   "Joel"           4
+   "Amos"           9
+   "Obadiah"        1
+   "Jonah"          4
+   "Micah"          7
+   "Nahum"          3
+   "Habakkuk"       3
+   "Zephaniah"      3
+   "Haggai"         2
+   "Zechariah"     14
+   "Malachi"        3
+   ;; Writings
+   "Psalms"       150
+   "Proverbs"      31
+   "Job"           42
+   "Song of Songs"  8
+   "Ruth"           4
+   "Lamentations"   5
+   "Ecclesiastes"  12
+   "Esther"        10
+   "Daniel"        12
+   "Ezra"          10
+   "Nehemiah"      13
+   "I Chronicles"  29
+   "II Chronicles" 36})
 
 (def cache-dir "data/cache/sefaria")
 
@@ -40,7 +74,7 @@
       (json/read-str (slurp path) :key-fn keyword)
       (do
         (ensure-cache-dir!)
-        (let [url  (str api-base ref "?lang=he")
+        (let [url  (str api-base (str/replace ref " " "%20") "?lang=he")
               resp (http/get url {:accept :json})
               data (json/read-str (:body resp) :key-fn keyword)]
           (spit path (json/write-str data))

@@ -184,7 +184,8 @@
                     (= vocab :dict)  dict/known?
                     (= vocab :torah) #(contains? (dict/torah-words) %)
                     (set? vocab)     #(contains? vocab %)
-                    :else            dict/known?)
+                    :else            (do (println "[WARN] forward: unrecognized vocab" vocab "— falling back to :torah")
+                                        #(contains? (dict/torah-words) %)))
          ilsets (illumination-sets letters)
          ;; For each illumination, get what each reader sees
          all-readings (mapcat (fn [pset]
@@ -389,7 +390,8 @@
     (= vocab :torah) @torah-anagram-index
     (= vocab :voice) @voice-anagram-index
     (set? vocab)     (build-anagram-index vocab)
-    (map? vocab)     (build-anagram-index (voice-vocab))
+    (map? vocab)     (do (println "[WARN] resolve-index received a map — falling back to :torah")
+                        @torah-anagram-index)
     :else            @dict-anagram-index))
 
 (defn parse-illumination
