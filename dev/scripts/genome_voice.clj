@@ -10,6 +10,7 @@
 (ns scripts.genome-voice
   (:require [selah.dna :as dna]
             [selah.oracle :as o]
+            [selah.dict :as dict]
             [selah.gematria :as g]
             [clojure.string :as str]
             [clojure.java.io :as io]))
@@ -150,7 +151,7 @@
   "Analyze which Torah words are impossible for the genome.
    Aleph (א) is unmapped. Samekh (ס) is the Stop codon."
   []
-  (let [vocab (o/torah-words)
+  (let [vocab (dict/torah-words)
         has-aleph (filter #(some #{\א} (seq %)) vocab)
         has-samekh (filter #(some #{\ס} (seq %)) vocab)
         has-either (filter #(or (some #{\א} (seq %))
@@ -163,7 +164,7 @@
     (println "Notable impossible words:")
     (doseq [w ["אדם" "אהבה" "אמת" "ברא" "אלהים" "אהיה" "חסד" "סלה" "ישראל" "משה"]]
       (when (some #(= w %) has-either)
-        (println (str "  " w " — " (o/translate-word w)))))
+        (println (str "  " w " — " (or (dict/translate w) w)))))
     {:total (count vocab)
      :aleph-count (count has-aleph)
      :samekh-count (count has-samekh)

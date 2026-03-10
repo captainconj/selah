@@ -111,10 +111,13 @@
   (let [floor3 (apply str (map #(at % 0) [7 8 9]))]
     (println (format "  Three floors (c=7,8,9): %s  gv=%d"
                      floor3 (g/word-value floor3)))
-    ;; Try anagrams
-    (doseq [perm (distinct (map #(apply str %) [[(\נ \ש \מ) (\ש \מ \נ) (\מ \נ \ש) (\נ \מ \ש) (\ש \נ \מ) (\מ \ש \נ)]]))]
-      (when-let [t (dict/translate perm)]
-        (println (format "    anagram: %s = %s" perm t)))))
+    ;; Try anagrams of the three floor-zero letters
+    (let [chars (seq floor3)]
+      (doseq [perm (distinct (for [a chars b chars c chars
+                                   :when (and (not= a b) (not= b c) (not= a c))]
+                               (str a b c)))]
+        (when-let [t (dict/translate perm)]
+          (println (format "    anagram: %s = %s" perm t))))))
   (println)
 
   ;; ═══ VERTICAL SCANS AT KEY POSITIONS ═══
