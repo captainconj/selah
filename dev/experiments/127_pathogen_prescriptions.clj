@@ -175,7 +175,7 @@
     :accession "P9WNK5"
     :why "Culture filtrate protein 10 kDa. Forms complex with ESAT-6. TB diagnostic marker."}
    {:name "TB-Hsp65"
-    :accession "P9WMG9"
+    :accession "P9WPE7"
     :why "60 kDa chaperonin 2 (GroEL2). Major T-cell antigen. Compare with leprae Hsp65."}
    {:name "TB-KatG"
     :accession "P9WIE5"

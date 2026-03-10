@@ -358,19 +358,19 @@
 
 (def leprae-proteins
   [{:name "Leprae-MMP-I"
-    :accession "P09655"
+    :accession "P46841"
     :why "Major Membrane Protein I. The face of leprosy. What the immune system recognizes."}
    {:name "Leprae-Ag85B"
-    :accession "Q49854"
+    :accession "P31951"
     :why "Antigen 85B. Mycolyltransferase. Builds the waxy armor that hides the pathogen."}
    {:name "Leprae-Hsp65"
-    :accession "P0A5B4"
+    :accession "P09239"
     :why "60 kDa chaperonin 2 (GroEL2/Hsp65). Heat shock protein. The major T-cell antigen."}
    {:name "Leprae-SOD"
-    :accession "O33085"
+    :accession "P13367"
     :why "Superoxide dismutase [Fe]. Shield against the host's immune oxidative burst."}
    {:name "Leprae-Bacterioferritin"
-    :accession "P15917"
+    :accession "P43315"
     :why "Bacterioferritin (BfrB). Iron storage. Iron = element 26 = YHWH."}])
 
 (defn run-protein
