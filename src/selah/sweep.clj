@@ -77,7 +77,7 @@
                                 {:fib f
                                  :fib-index (fib-index f)
                                  :word-count (count ws)
-                                 :words (mapv #(select-keys % [:word :gv :meaning
+                                 :words (mapv #(select-keys % [:word :gv
                                                                :illumination-count
                                                                :phrase-count :len])
                                               (sort-by :word ws))}))
@@ -97,7 +97,7 @@
          :max-fib-phrase {:value max-fib-phrase
                           :fib-index (when max-fib-phrase (fib-index max-fib-phrase))
                           :words (when max-fib-phrase
-                                   (mapv #(select-keys % [:word :gv :meaning :len
+                                   (mapv #(select-keys % [:word :gv :len
                                                           :illumination-count])
                                          (filter #(= max-fib-phrase (:phrase-count %))
                                                  illuminable)))}
@@ -105,10 +105,10 @@
                          :fib-index (when max-fib-illum (fib-index max-fib-illum))}
          :staircase staircase
          :gaps (mapv (fn [f] {:fib f :fib-index (fib-index f)}) gaps)
-         :doubles (mapv #(select-keys % [:word :gv :meaning :phrase-count
+         :doubles (mapv #(select-keys % [:word :gv :phrase-count
                                          :illumination-count :len])
                         (sort-by (comp - :phrase-count) doubles))
-         :triples (mapv #(select-keys % [:word :gv :meaning :phrase-count
+         :triples (mapv #(select-keys % [:word :gv :phrase-count
                                          :illumination-count :len])
                         triples)}))))
 

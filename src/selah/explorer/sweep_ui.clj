@@ -6,23 +6,29 @@
   (:require [hiccup2.core :as h]
             [hiccup.util :as hu]
             [selah.sweep :as sweep]
-            [selah.dict :as dict]
+            [selah.for-the-human :as human]
             [selah.explorer :as exp]
             [clojure.string :as str]))
 
 ;; ── Helpers ──────────────────────────────────────────────────
 
 (defn- word-link [word]
-  (let [meaning (or (:meaning word) (dict/translate (if (string? word) word (:word word))))
-        w (if (string? word) word (:word word))]
+  (let [w (if (string? word) word (:word word))
+        gloss (human/gloss w)]
     [:a {:href (str "/word/" (hu/url-encode w))
          :hx-get (str "/fragment/word/" (hu/url-encode w))
          :hx-target "#main"
          :hx-push-url (str "/word/" (hu/url-encode w))
          :class "word-link"
-         :title (or meaning "")}
+         :title (or gloss "")}
      w
-     (when meaning [:span.meaning meaning])]))
+     (when gloss [:span.meaning gloss])]))
+
+(defn- has-gloss? [w]
+  (some? (human/gloss (if (string? w) w (:word w)))))
+
+(defn- word-gloss [w]
+  (human/gloss (if (string? w) w (:word w))))
 
 (defn- fib-badge [n]
   (when-let [fi (sweep/fib-index n)]
@@ -65,7 +71,7 @@
           [:div.staircase
            (for [step (reverse staircase)]
              (let [{:keys [fib fib-index word-count words]} step
-                   named (filter :meaning words)
+                   named (filter has-gloss? words)
                    sample (take 8 (if (seq named) named words))]
                [:a.stair-step {:href (str "/sweep/step/" fib)
                                :hx-get (str "/fragment/sweep/step/" fib)
@@ -105,7 +111,7 @@
                 (for [w triples]
                   [:tr
                    [:td (word-link w)]
-                   [:td.meaning-col (:meaning w)]
+                   [:td.meaning-col (word-gloss w)]
                    [:td (str (:phrase-count w)) " " (fib-badge (:phrase-count w))]
                    [:td (str (:illumination-count w)) " " (fib-badge (:illumination-count w))]
                    [:td (str (:gv w)) " " (fib-badge (:gv w))]])]]]))
@@ -116,7 +122,7 @@
           [:p "Phrase count AND illumination count both Fibonacci (" double-fib-words " total). "
            "Top by phrase count:"]
           (let [doubles (take 30 (:doubles analysis))
-                named (filter :meaning doubles)
+                named (filter has-gloss? doubles)
                 show (if (>= (count named) 15) named doubles)]
             [:table.word-table
              [:thead [:tr [:th "Word"] [:th ""] [:th "Phrases"] [:th "Illuminations"] [:th "GV"]]]
@@ -124,7 +130,7 @@
               (for [w (take 30 show)]
                 [:tr
                  [:td (word-link w)]
-                 [:td.meaning-col (:meaning w)]
+                 [:td.meaning-col (word-gloss w)]
                  [:td (str (:phrase-count w)) " " (fib-badge (:phrase-count w))]
                  [:td (str (:illumination-count w)) " " (fib-badge (:illumination-count w))]
                  [:td (:gv w)]])]])]
@@ -184,8 +190,8 @@
              "No words have this exact phrase count."
              (str f " is not a Fibonacci number."))]]
       (let [{:keys [fib fib-index word-count words]} level
-            named (filter :meaning words)
-            unnamed (remove :meaning words)]
+            named (filter has-gloss? words)
+            unnamed (remove has-gloss? words)]
         [:div#step-detail
          [:div.sweep-header
           [:h1 (str "F(" fib-index ") = " fib)]
@@ -201,7 +207,7 @@
               (for [w (sort-by :gv named)]
                 [:tr
                  [:td (word-link w)]
-                 [:td.meaning-col (:meaning w)]
+                 [:td.meaning-col (word-gloss w)]
                  [:td (:gv w)]
                  [:td (:illumination-count w)]
                  [:td (:len w)]])]]])
@@ -220,16 +226,16 @@
   "Words with exactly 1 phrase reading."
   []
   (let [forced (sweep/forced-readings)
-        named (filter :meaning forced)
+        named (filter has-gloss? forced)
         groups (group-by (fn [w]
                            (cond
-                             (nil? (:meaning w)) :other
-                             (re-find #"(?i)son|daughter|man|adam|eve|noah|sarah|rachel|isaac|kohath|priest|king|servant|prophet" (str (:meaning w))) :people
-                             (re-find #"(?i)say|give|hear|know|walk|sit|stand|send|call|create|guard|atone|redeem|cut|forgive|ransom|sacrifice|vow|pour|avenge|strike|flee|rule|command|return|die|sin|take|go|come|arise|write|answer|fear|love|mercy|gracious|pure|holy" (str (:meaning w))) :actions
-                             (re-find #"(?i)blood|water|sea|cloud|river|garden|stone|mountain|bull|flock|bird|serpent|fire|light|tree|seed|rock|fish|cattle|beast|well" (str (:meaning w))) :nature
-                             (re-find #"(?i)heart|mouth|face|ear|hand|eye|head|foot" (str (:meaning w))) :body
-                             (re-find #"(?i)altar|tabernacle|silver|tent|ark|oil|wine|bread|gold|bronze|veil|mercy seat" (str (:meaning w))) :sacred
-                             (re-find #"(?i)living|strong|glory|kindness|righteousness|grace|holy|good|great|wise|truth|peace|covenant|life" (str (:meaning w))) :qualities
+                             (nil? (word-gloss w)) :other
+                             (re-find #"(?i)son|daughter|man|adam|eve|noah|sarah|rachel|isaac|kohath|priest|king|servant|prophet" (str (word-gloss w))) :people
+                             (re-find #"(?i)say|give|hear|know|walk|sit|stand|send|call|create|guard|atone|redeem|cut|forgive|ransom|sacrifice|vow|pour|avenge|strike|flee|rule|command|return|die|sin|take|go|come|arise|write|answer|fear|love|mercy|gracious|pure|holy" (str (word-gloss w))) :actions
+                             (re-find #"(?i)blood|water|sea|cloud|river|garden|stone|mountain|bull|flock|bird|serpent|fire|light|tree|seed|rock|fish|cattle|beast|well" (str (word-gloss w))) :nature
+                             (re-find #"(?i)heart|mouth|face|ear|hand|eye|head|foot" (str (word-gloss w))) :body
+                             (re-find #"(?i)altar|tabernacle|silver|tent|ark|oil|wine|bread|gold|bronze|veil|mercy seat" (str (word-gloss w))) :sacred
+                             (re-find #"(?i)living|strong|glory|kindness|righteousness|grace|holy|good|great|wise|truth|peace|covenant|life" (str (word-gloss w))) :qualities
                              :else :structure))
                         named)
         group-order [:actions :sacred :nature :people :body :qualities :structure]
@@ -278,7 +284,7 @@
         [:div.extreme-item
          [:div.extreme-word
           (word-link w)
-          (when (:meaning w) [:span.meaning (:meaning w)])]
+          (when (word-gloss w) [:span.meaning (word-gloss w)])]
          [:div.extreme-bar
           [:div.extreme-bar-fill
            {:style (str "width:" (min 100 (* 100.0 (/ (:phrase-count w) max-pc))) "%")}]]

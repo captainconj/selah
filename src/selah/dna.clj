@@ -13,7 +13,6 @@
    The map reads Hebrew as protein. This namespace reads protein as Hebrew."
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
-            [selah.dict :as dict]
             [clojure.string :as str]
             [clj-http.lite.client :as http]
             [clojure.java.io :as io]))
@@ -216,10 +215,9 @@
      (println (str "=== ORACLE READINGS (window=" (:window-size r) ") ==="))
      (doseq [{:keys [position letters gv top-word]} (:windows r)]
        (when top-word
-         (println (format "  [%3d] %s (gv=%d) → %s (%s, count=%d)"
+         (println (format "  [%3d] %s (gv=%d) → %s (×%d)"
                           position letters gv
                           (:word top-word)
-                          (or (:meaning top-word) "?")
                           (:reading-count top-word)))))
      (println)
      r)))
@@ -244,7 +242,6 @@
              :gv (g/word-value w)
              :top-5 (vec (take 5 (map (fn [k]
                                          {:word (:word k)
-                                          :meaning (:meaning k)
                                           :reading-count (:reading-count k)})
                                        known)))})))))
 
@@ -256,7 +253,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)
                :positions (mapv :position entries)}))
        (sort-by :count >)
@@ -318,17 +314,17 @@
        (println (str "Oracle readings (window=" window "):"))
        (doseq [{:keys [position letters gv top-5]} hits]
          (let [top (first top-5)]
-           (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+           (println (format "  [%3d] %s (gv=%d) → %s (×%d)"
                             position letters gv
-                            (:word top) (or (:meaning top) "")
+                            (:word top)
                             (:reading-count top)))))
        (println)
 
        ;; Top words
        (println "Most frequent oracle words:")
-       (doseq [{:keys [word meaning count positions]} (take 30 top-words)]
-         (println (format "  %-8s %-25s ×%d  at %s"
-                          word (or meaning "") count (pr-str positions))))
+       (doseq [{:keys [word count positions]} (take 30 top-words)]
+         (println (format "  %-8s ×%d  at %s"
+                          word count (pr-str positions))))
        (println)
 
        ;; Save
@@ -355,15 +351,15 @@
                    (println (str "Oracle readings (window=" window "):"))
                    (doseq [{:keys [position letters gv top-5]} hits]
                      (let [top (first top-5)]
-                       (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+                       (println (format "  [%3d] %s (gv=%d) → %s (×%d)"
                                         position letters gv
-                                        (:word top) (or (:meaning top) "")
+                                        (:word top)
                                         (:reading-count top)))))
                    (println)
                    (println "Most frequent oracle words:")
-                   (doseq [{:keys [word meaning count positions]} (take 40 top-words)]
-                     (println (format "  %-8s %-25s ×%d  at %s"
-                                      word (or meaning "") count (pr-str positions))))))
+                   (doseq [{:keys [word count positions]} (take 40 top-words)]
+                     (println (format "  %-8s ×%d  at %s"
+                                      word count (pr-str positions))))))
            (println (str "Saved: " edn-path))
            (println (str "Saved: " txt-path))))
 
