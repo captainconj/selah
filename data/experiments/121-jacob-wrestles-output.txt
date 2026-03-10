@@ -1,0 +1,1270 @@
+════════════════════════════════════════════════
+  EXPERIMENT 121: JACOB WRESTLES
+  Genesis 32:23-33 — The naming of Israel
+  גיד (sinew) = יגד (telling) = GV 17 = good
+  כי נא — because, please
+════════════════════════════════════════════════
+
+════════════════════════════════════════════════
+  WRESTLING VOCABULARY
+════════════════════════════════════════════════
+[dict] Loading Torah English translations...
+
+  אבק (wrestle/dust) GV=103 · 36 illum · 144 read · basin→אקב
+    basin path: []
+    aaron : אקב(8) אבק(2)
+    god   : אקב(8) אבק(6)
+    right : אקב(6) אבק(4)
+    left  : אקב(12) אבק(8)
+
+  איש (man) GV=311 · 198 illum · 792 read · basin→ישא
+    basin path: []
+    aaron : איש(83) אשי(55) ישא(16) שאי(12)
+    god   : ישא(66) שאי(24) אשי(20) איש(4)
+    right : ישא(59) איש(47) אשי(26) שאי(17)
+    left  : אשי(58) איש(32) ישא(32) שאי(18)
+
+  לילה (night) GV=75 · 99 illum · 396 read · basin→לילה
+    basin path: []
+    god   : לילה(18)
+    left  : לילה(20)
+
+  יכל (prevail) GV=60 · 33 illum · 132 read · basin→יכל
+    basin path: []
+    aaron : לכי(10) יכל(6) כלי(5)
+    god   : יכל(12) כלי(9) לכי(5)
+    right : יכל(14) לכי(4) כלי(4)
+    left  : לכי(12) יכל(5) כלי(1)
+
+  שחר (dawn) GV=508 · 30 illum · 120 read · basin→שרח
+    basin path: []
+    aaron : חרש(15)
+    god   : שרח(16) שחר(6)
+    right : חרש(10) שחר(3) שרח(1)
+    left  : שרח(10) שחר(10)
+
+  ירך (hip/thigh) GV=230 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  כף (hollow/sole) GV=100 · 1 illum · 4 read · basin→כף
+    basin path: []
+    aaron : כף(1)
+    right : כף(1)
+
+  נגע (touch/strike) GV=123 · 4 illum · 16 read · basin→נגע
+    basin path: []
+    god   : נגע(2)
+    left  : נגע(2)
+
+  יקע (dislocate) GV=180 · 44 illum · 176 read · basin→null
+    basin path: []
+
+  שם (name) GV=340 · 6 illum · 24 read · basin→שם
+    basin path: []
+    god   : שם(6)
+    right : שם(4)
+    left  : שם(2)
+
+  יעקב (Jacob) GV=182 · 264 illum · 1056 read · basin→יעקב
+    basin path: []
+    aaron : עקבי(19) יעקב(4)
+    god   : יעקב(50)
+    right : יעקב(12) עקבי(7)
+    left  : יעקב(36) עקבי(3)
+
+  ישראל (Israel) GV=541 · 2970 illum · 11880 read · basin→ישראל
+    basin path: []
+    god   : ישראל(12)
+    right : ישראל(46)
+
+  שרה (strive/prevail) GV=505 · 90 illum · 360 read · basin→שרה
+    basin path: []
+    god   : שרה(36)
+    right : שרה(10)
+    left  : שרה(28)
+
+  אלהים (God) GV=86 · 297 illum · 1188 read · basin→אליהם
+    basin path: []
+    god   : אליהם(15)
+    right : אליהם(14) אהלים(8) אלהים(2)
+
+  אנש (man/mortal) GV=351 · 36 illum · 144 read · basin→נשא
+    basin path: []
+    aaron : נשא(3)
+    god   : נשא(14) שנא(12)
+    right : נשא(9)
+    left  : נשא(8) שנא(6)
+
+  פנים (face) GV=180 · 22 illum · 88 read · basin→null
+    basin path: []
+
+  פנואל (Peniel) GV=167 · 126 illum · 504 read · basin→null
+    basin path: []
+
+  נפש (soul) GV=430 · 12 illum · 48 read · basin→נפש
+    basin path: []
+    aaron : נפש(6)
+    right : נפש(6)
+
+  ברך (bless) GV=222 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  צלע (limp/rib) GV=190 · 6 illum · 24 read · basin→null
+    basin path: []
+
+  גיד (sinew) GV=17 · 33 illum · 132 read · basin→יגד
+    basin path: []
+    aaron : דגי(8) יגד(7) גדי(4)
+    god   : יגד(15) גדי(10) גיד(8)
+    right : יגד(10) דגי(2) גדי(1)
+    left  : גיד(14) גדי(13) יגד(6)
+
+  נשה (sinew (sciatic)) GV=355 · 36 illum · 144 read · basin→נשה
+    basin path: []
+    god   : נשה(18) שנה(6)
+    right : נשה(5)
+    left  : נשה(13)
+
+  שמש (sun) GV=640 · 30 illum · 120 read · basin→שמש
+    basin path: []
+    aaron : שמש(10)
+    right : שמש(14)
+    left  : שמש(16)
+
+  עבר (cross/pass) GV=272 · 60 illum · 240 read · basin→ברע
+    basin path: []
+    aaron : בער(17) ערב(15) עבר(10) רעב(10) ברע(5)
+    god   : רעב(17) ברע(16) בער(10) רבע(9) עבר(4)
+    right : ברע(19) רבע(12) רעב(11) בער(9) ערב(7)
+    left  : ערב(18) עבר(13) בער(11) רעב(9) ברע(8)
+
+╔═══════════════════════════════════════════════╗
+║  Station 1: The Crossing                        ║
+║  Genesis 32:23-25                     ║
+╚═══════════════════════════════════════════════╝
+
+  128 letters. GV=10627.
+  Letters: ויקםבלילההואויקחאתשתינשיוואתשתישפחתיוואתאחדעשרילדיוויעבראתמעבריבקויקחםויעברםאתהנחלויעבראתאשרלוויותריעקבלבדוויאבקאישעמועד...
+
+  ── Key Words ──
+
+  לקח (take) GV=138 · 6 illum · 24 read · basin→לחק
+    basin path: []
+    god   : לחק(6)
+    right : לחק(2)
+    left  : לחק(4)
+
+  אשה (wife) GV=306 · 54 illum · 216 read · basin→אשה
+    basin path: []
+    aaron : האש(9)
+    god   : אשה(12)
+    right : האש(7) אשה(5)
+    left  : אשה(20)
+
+  שפחה (maidservant) GV=393 · 18 illum · 72 read · basin→null
+    basin path: []
+
+  בן (son) GV=52 · 36 illum · 144 read · basin→בן
+    basin path: []
+    aaron : בן(20)
+    god   : בן(18)
+    right : בן(18)
+    left  : בן(20)
+
+  עבר (cross) GV=272 · 60 illum · 240 read · basin→ברע
+    basin path: []
+    aaron : בער(17) ערב(15) עבר(10) רעב(10) ברע(5)
+    god   : רעב(17) ברע(16) בער(10) רבע(9) עבר(4)
+    right : ברע(19) רבע(12) רעב(11) בער(9) ערב(7)
+    left  : ערב(18) עבר(13) בער(11) רעב(9) ברע(8)
+
+  יבק (Jabbok) GV=112 · 132 illum · 528 read · basin→בקי
+    basin path: []
+    aaron : בקי(42) יקב(4)
+    god   : יקב(42) יבק(34) בקי(4)
+    right : בקי(45) יקב(21)
+    left  : יקב(45) בקי(21) יבק(12)
+
+  נחל (stream) GV=88 · 6 illum · 24 read · basin→לנח
+    basin path: []
+    god   : לנח(3)
+    right : נחל(2)
+    left  : נחל(1)
+
+  מעבר (ford) GV=312 · 120 illum · 480 read · basin→מערב
+    basin path: []
+    aaron : מערב(6) בעמר(6) מעבר(3)
+    god   : מעבר(8) מערב(8)
+    right : בעמר(3)
+    left  : מערב(22) מעבר(15) בעמר(4)
+
+  שלח (send) GV=338 · 18 illum · 72 read · basin→שלח
+    basin path: []
+    god   : שלח(13)
+    left  : שלח(2)
+
+  בדד (alone) GV=10 · 18 illum · 72 read · basin→בדד
+    basin path: []
+    aaron : בדד(9)
+    god   : בדד(7)
+    right : בדד(7)
+    left  : בדד(5)
+
+  איש (man) GV=311 · 198 illum · 792 read · basin→ישא
+    basin path: []
+    aaron : איש(83) אשי(55) ישא(16) שאי(12)
+    god   : ישא(66) שאי(24) אשי(20) איש(4)
+    right : ישא(59) איש(47) אשי(26) שאי(17)
+    left  : אשי(58) איש(32) ישא(32) שאי(18)
+
+  אבק (wrestle) GV=103 · 36 illum · 144 read · basin→אקב
+    basin path: []
+    aaron : אקב(8) אבק(2)
+    god   : אקב(8) אבק(6)
+    right : אקב(6) אבק(4)
+    left  : אקב(12) אבק(8)
+
+  עלה (dawn/ascend) GV=105 · 18 illum · 72 read · basin→העל
+    basin path: []
+    aaron : העל(9)
+    god   : עלה(3)
+    right : העל(8)
+    left  : עלה(5) העל(2)
+
+  שחר (dawn) GV=508 · 30 illum · 120 read · basin→שרח
+    basin path: []
+    aaron : חרש(15)
+    god   : שרח(16) שחר(6)
+    right : חרש(10) שחר(3) שרח(1)
+    left  : שרח(10) שחר(10)
+
+  ── 3-letter sliding window ──
+  87/126 windows produced readings.
+    [  1] יקם → יקם (YMCA)
+    [  3] םבל → לבם (Levam)
+    [  4] בלי → לבי (My Heart)
+    [  5] ליל → ילל (Howl)
+    [  7] להה → הלה (Hela)
+    [  8] ההו → הוה (Ooh.)
+    [  9] הוא → הוא (he/it)
+    [ 11] אוי → אוי (Oh, boy.)
+    [ 13] יקח → חקי (Haqqi)
+    [ 15] חאת → אחת (One)
+    [ 16] אתש → שאת (That you)
+    [ 18] שתי → שתי (Two.)
+    [ 19] תינ → תני (Give)
+    [ 20] ינש → שני (two/second)
+    [ 21] נשי → שני (two/second)
+    [ 22] שיו → שיו (Shio)
+    [ 23] יוו → ווי (Wei)
+    [ 25] ואת → ואת (and-(obj))
+    [ 26] אתש → שאת (That you)
+    [ 28] שתי → שתי (Two.)
+    [ 29] תיש → שתי (Two.)
+    [ 30] ישפ → שפי (Shefi)
+    [ 32] פחת → פתח (Open)
+    [ 33] חתי → חית (Beast)
+    [ 35] יוו → ווי (Wei)
+    [ 37] ואת → ואת (and-(obj))
+    [ 39] תאח → אחת (One)
+    [ 40] אחד → אחד (one)
+    [ 43] עשר → עשר (ten)
+    [ 44] שרי → שרי (Sherry)
+    [ 46] ילד → ילד (Boy)
+    [ 47] לדי → ילד (Boy)
+    [ 48] דיו → ידו (His hand)
+    [ 49] יוו → ווי (Wei)
+    [ 50] ווי → ווי (Wei)
+    [ 53] עבר → רבע (Quarter)
+    [ 54] ברא → באר (well)
+    [ 55] ראת → תאר (Describe)
+    [ 56] אתמ → מאת (by)
+    [ 59] עבר → רבע (Quarter)
+    [ 60] ברי → ריב (Reeve)
+    [ 61] ריב → ריב (Reeve)
+    [ 62] יבק → יבק (Yevk)
+    [ 66] יקח → חקי (Haqqi)
+    [ 67] קחם → חקם (Haqqm)
+    [ 68] חםו → חום (Heat)
+    [ 69] םוי → יום (day)
+    [ 72] עבר → רבע (Quarter)
+    [ 74] רםא → ראם (Ram)
+    [ 75] םאת → אתם (you (pl))
+    [ 76] אתה → אתה (you)
+    [ 78] הנח → חנה (Hannah)
+    [ 79] נחל → לנח (Noah)
+    [ 80] חלו → חול (Sand)
+    [ 81] לוי → לוי (Levi)
+    [ 84] עבר → רבע (Quarter)
+    [ 85] ברא → באר (well)
+    [ 86] ראת → תאר (Describe)
+    [ 88] תאש → שאת (That you)
+    [ 89] אשר → שאר (Rest)
+    [ 90] שרל → לשר (To Minister)
+    [ 92] לוו → ולו (And him)
+    [ 93] ווי → ווי (Wei)
+    [ 94] ויו → ווי (Wei)
+    [ 96] ותר → תרו (Taro)
+    [ 97] תרי → יתר (Over)
+    [ 98] ריע → עיר (city)
+    [100] עקב → בקע (Bough)
+    [101] קבל → בלק (Black)
+    [102] בלב → לבב (Lev)
+    [103] לבד → לבד (Alone)
+    [106] ווי → ווי (Wei)
+    [107] ויא → אוי (Oh, boy.)
+    [108] יאב → יבא (Import)
+    [109] אבק → אבק (Dust)
+    [110] בקא → אבק (Dust)
+    [112] איש → שאי (Shay)
+    [113] ישע → עשי (Do)
+    [114] שעמ → שמע (hear)
+    [115] עמו → עמו (With him)
+    [116] מוע → עמו (With him)
+    [117] ועד → ועד (and)
+    [119] דעל → לעד (Forever)
+    [120] עלו → עלו (Rise)
+    [122] ותה → תהו (Tah<unk>)
+    [123] תהש → תשה (Drink)
+    [125] שחר → שחר (Dawn)
+
+  Top 3-letter words:
+    ווי      Wei                  ×7
+    רבע      Quarter              ×4
+    שתי      Two.                 ×3
+    שאת      That you             ×3
+    שני      two/second           ×2
+    ילד      Boy                  ×2
+    חקי      Haqqi                ×2
+    באר      well                 ×2
+    אחת      One                  ×2
+    ואת      and-(obj)            ×2
+    תאר      Describe             ×2
+    עמו      With him             ×2
+    אוי      Oh, boy.             ×2
+    אבק      Dust                 ×2
+    ריב      Reeve                ×2
+
+  ── 4-letter sliding window (cherubim's view) ──
+  61/125 windows produced readings.
+    [  0] ויקם → יקום (Universe)
+    [  5] לילה → לילה (night)
+    [  8] ההוא → ההוא (That)
+    [  9] הואו → והוא (And he)
+    [ 10] ואוי → ואיו (And Ew)
+    [ 12] ויקח → חיקו (Hike)
+    [ 18] שתינ → שנתי (Annually)
+    [ 19] תינש → שנתי (Annually)
+    [ 21] נשיו → שניו (Shanio)
+    [ 23] יווא → ואיו (And Ew)
+    [ 24] וואת → ואתו (And him)
+    [ 25] ואתש → שאתו (With him)
+    [ 30] ישפח → חפשי (Search)
+    [ 32] פחתי → יפתח (Open)
+    [ 33] חתיו → חיות (Animals)
+    [ 35] יווא → ואיו (And Ew)
+    [ 36] וואת → ואתו (And him)
+    [ 43] עשרי → שעיר (Hairy)
+    [ 46] ילדי → ילדי (My child)
+    [ 47] לדיו → לידו (Next to him)
+    [ 48] דיוו → וידו (Vido)
+    [ 52] יעבר → יבער (Burn)
+    [ 53] עברא → ארבע (four)
+    [ 54] בראת → בארת (Barth)
+    [ 55] ראתמ → מראת (Mirror)
+    [ 58] מעבר → בעמר (Ba'amar)
+    [ 59] עברי → יבער (Burn)
+    [ 61] ריבק → יבקר (Visit)
+    [ 62] יבקו → ויקב (Vic.)
+    [ 63] בקוי → ויקב (Vic.)
+    [ 65] ויקח → חיקו (Hike)
+    [ 66] יקחם → חקים (Hakim)
+    [ 71] יעבר → יבער (Burn)
+    [ 73] ברםא → אברם (Avram)
+    [ 75] םאתה → אתהם (You guys)
+    [ 78] הנחל → נחלה (Nachla)
+    [ 80] חלוי → ויחל (and applied)
+    [ 81] לויע → יעלו (Upload)
+    [ 83] יעבר → יבער (Burn)
+    [ 84] עברא → ארבע (four)
+    [ 85] בראת → בארת (Barth)
+    [ 88] תאשר → תארש (T<unk>r<unk>sh)
+    [ 89] אשרל → לראש (Head)
+    [ 90] שרלו → לשור (To Bull)
+    [ 92] לווי → ולוי (And Levi)
+    [ 95] יותר → יתרו (Yitro)
+    [ 96] ותרי → יתרו (Yitro)
+    [ 98] ריעק → יקרע (Tear)
+    [ 99] יעקב → עקבי (Consistent)
+    [103] לבדו → לבדו (Alone)
+    [105] דווי → וידו (Vido)
+    [106] וויא → ואיו (And Ew)
+    [107] ויאב → ובאי (And island)
+    [113] ישעמ → ישמע (Listen)
+    [114] שעמו → שמוע (Hearing)
+    [116] מועד → מדוע (Why)
+    [120] עלות → תולע (Worm)
+    [121] לותה → ותלה (and hanging)
+    [122] ותהש → ושתה (And drank)
+    [123] תהשח → השחת (Defaced)
+    [124] השחר → השחר (The Dawn)
+
+  Top 4-letter words:
+    יבער     Burn                 ×4
+    ואיו     And Ew               ×4
+    בארת     Barth                ×2
+    ויקב     Vic.                 ×2
+    ואתו     And him              ×2
+    חיקו     Hike                 ×2
+    שנתי     Annually             ×2
+    ארבע     four                 ×2
+    יתרו     Yitro                ×2
+    וידו     Vido                 ×2
+    ההוא     That                 ×1
+    חיות     Animals              ×1
+    יקום     Universe             ×1
+    ישמע     Listen               ×1
+    אברם     Avram                ×1
+
+╔═══════════════════════════════════════════════╗
+║  Station 2: The Wounding                        ║
+║  Genesis 32:26-27                     ║
+╚═══════════════════════════════════════════════╝
+
+  87 letters. GV=4824.
+  Letters: ויראכילאיכללוויגעבכףירכוותקעכףירךיעקבבהאבקועמוויאמרשלחניכיעלההשחרויאמרלאאשלחךכיאםברכתני
+
+  ── Key Words ──
+
+  ראה (see) GV=206 · 45 illum · 180 read · basin→ארה
+    basin path: []
+    aaron : ארה(6) ראה(6)
+    god   : ארה(8) ראה(6)
+    right : ראה(7) ארה(6)
+    left  : ארה(16)
+
+  יכל (prevail) GV=60 · 33 illum · 132 read · basin→יכל
+    basin path: []
+    aaron : לכי(10) יכל(6) כלי(5)
+    god   : יכל(12) כלי(9) לכי(5)
+    right : יכל(14) לכי(4) כלי(4)
+    left  : לכי(12) יכל(5) כלי(1)
+
+  נגע (touch/strike) GV=123 · 4 illum · 16 read · basin→נגע
+    basin path: []
+    god   : נגע(2)
+    left  : נגע(2)
+
+  כף (hollow/sole) GV=100 · 1 illum · 4 read · basin→כף
+    basin path: []
+    aaron : כף(1)
+    right : כף(1)
+
+  ירך (hip) GV=230 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  יקע (dislocate) GV=180 · 44 illum · 176 read · basin→null
+    basin path: []
+
+  שלח (let go) GV=338 · 18 illum · 72 read · basin→שלח
+    basin path: []
+    god   : שלח(13)
+    left  : שלח(2)
+
+  עלה (dawn) GV=105 · 18 illum · 72 read · basin→העל
+    basin path: []
+    aaron : העל(9)
+    god   : עלה(3)
+    right : העל(8)
+    left  : עלה(5) העל(2)
+
+  שחר (dawn) GV=508 · 30 illum · 120 read · basin→שרח
+    basin path: []
+    aaron : חרש(15)
+    god   : שרח(16) שחר(6)
+    right : חרש(10) שחר(3) שרח(1)
+    left  : שרח(10) שחר(10)
+
+  ברך (bless) GV=222 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  ── 3-letter sliding window ──
+  43/85 windows produced readings.
+    [  1] ירא → ראי (Mirror)
+    [  4] כיל → כלי (Tool)
+    [  5] ילא → איל (Eyal)
+    [  6] לאי → איל (Eyal)
+    [  8] יכל → כלי (Tool)
+    [  9] כלל → לכל (For All)
+    [ 11] לוו → ולו (And him)
+    [ 12] ווי → ווי (Wei)
+    [ 13] ויג → גוי (Goy)
+    [ 14] יגע → יגע (Touching)
+    [ 17] בכף → בכף (In Cape)
+    [ 25] תקע → תקע (Plug)
+    [ 34] עקב → בקע (Bough)
+    [ 37] בהא → הבא (Next)
+    [ 38] האב → הבא (Next)
+    [ 39] אבק → אבק (Dust)
+    [ 42] ועמ → עמו (With him)
+    [ 43] עמו → עמו (With him)
+    [ 45] ווי → ווי (Wei)
+    [ 46] ויא → אוי (Oh, boy.)
+    [ 47] יאמ → אמי (Amy)
+    [ 48] אמר → אמר (say)
+    [ 49] מרש → שמר (guard/keep)
+    [ 50] רשל → לשר (To Minister)
+    [ 51] שלח → שלח (send)
+    [ 52] לחנ → לנח (Noah)
+    [ 54] ניכ → כני (Yes.)
+    [ 57] יעל → יעל (Yael)
+    [ 58] עלה → עלה (go up/offering)
+    [ 59] להה → הלה (Hela)
+    [ 60] ההש → השה (The Lamb)
+    [ 62] שחר → שחר (Dawn)
+    [ 63] חרו → חור (Hole)
+    [ 65] ויא → אוי (Oh, boy.)
+    [ 66] יאמ → אמי (Amy)
+    [ 67] אמר → אמר (say)
+    [ 71] אאש → אשא (Asha)
+    [ 72] אשל → שאל (Ask)
+    [ 73] שלח → שלח (send)
+    [ 79] אםב → באם (Bam)
+    [ 81] ברכ → רכב (Vehicle)
+    [ 82] רכת → כרת (cut (covenant))
+    [ 84] תני → תני (Give)
+
+  Top 3-letter words:
+    כלי      Tool                 ×2
+    ווי      Wei                  ×2
+    הבא      Next                 ×2
+    שלח      send                 ×2
+    איל      Eyal                 ×2
+    עמו      With him             ×2
+    אוי      Oh, boy.             ×2
+    אמי      Amy                  ×2
+    אמר      say                  ×2
+    הלה      Hela                 ×1
+    רכב      Vehicle              ×1
+    עלה      go up/offering       ×1
+    בקע      Bough                ×1
+    שאל      Ask                  ×1
+    שחר      Dawn                 ×1
+
+  ── 4-letter sliding window (cherubim's view) ──
+  41/84 windows produced readings.
+    [  0] וירא → יואר (J<unk>r)
+    [  1] יראכ → כארי (Kari)
+    [  2] ראכי → כארי (Kari)
+    [  3] אכיל → יאכל (Eat)
+    [  4] כילא → יאכל (Eat)
+    [  5] ילאי → אילי (Ely)
+    [  6] לאיכ → יאכל (Eat)
+    [  7] איכל → יאכל (Eat)
+    [  8] יכלל → כליל (Total)
+    [  9] כללו → ולכל (For all)
+    [ 11] לווי → ולוי (And Levi)
+    [ 12] וויג → וגוי (And goy)
+    [ 13] ויגע → ויגע (and touching)
+    [ 14] יגעב → גביע (Cup)
+    [ 20] ירכו → כיור (Sink)
+    [ 22] כוות → תוכו (Subtitles)
+    [ 24] ותקע → ותקע (And plug)
+    [ 33] יעקב → עקבי (Consistent)
+    [ 34] עקבב → בעקב (In Heel)
+    [ 41] קועמ → ועמק (Valley)
+    [ 42] ועמו → ועמו (And with him)
+    [ 43] עמוו → ועמו (And with him)
+    [ 45] וויא → ואיו (And Ew)
+    [ 47] יאמר → יאמר (Yamar)
+    [ 48] אמרש → מראש (Pre)
+    [ 49] מרשל → לשמר (Preserve)
+    [ 52] לחני → נחלי (Nahali)
+    [ 57] יעלה → עליה (About)
+    [ 58] עלהה → העלה (Upload)
+    [ 61] השחר → השחר (The Dawn)
+    [ 62] שחרו → ושרח (And smell)
+    [ 63] חרוי → וירח (and Moon)
+    [ 64] רויא → יואר (J<unk>r)
+    [ 66] יאמר → יאמר (Yamar)
+    [ 67] אמרל → למאר (Lamar)
+    [ 68] מרלא → למאר (Lamar)
+    [ 72] אשלח → אשלח (Send)
+    [ 78] יאםב → באים (Coming)
+    [ 79] אםבר → אברם (Avram)
+    [ 80] םברכ → בכרם (In the vineyard)
+    [ 81] ברכת → רכבת (Train)
+
+  Top 4-letter words:
+    יאכל     Eat                  ×4
+    ועמו     And with him         ×2
+    כארי     Kari                 ×2
+    למאר     Lamar                ×2
+    יואר     J<unk>r              ×2
+    יאמר     Yamar                ×2
+    אברם     Avram                ×1
+    וירח     and Moon             ×1
+    עקבי     Consistent           ×1
+    כיור     Sink                 ×1
+    וגוי     And goy              ×1
+    מראש     Pre                  ×1
+    אילי     Ely                  ×1
+    ולכל     For all              ×1
+    בכרם     In the vineyard      ×1
+
+╔═══════════════════════════════════════════════╗
+║  Station 3: The Naming                          ║
+║  Genesis 32:28-30                     ║
+╚═══════════════════════════════════════════════╝
+
+  131 letters. GV=8700.
+  Letters: ויאמראליומהשמךויאמריעקבויאמרלאיעקביאמרעודשמךכיאםישראלכישריתעםאלהיםועםאנשיםותוכלוישאליעקבויאמרהגידהנאשמךויאמרלמהזהתשאללשמ...
+
+  ── Key Words ──
+
+  שם (name) GV=340 · 6 illum · 24 read · basin→שם
+    basin path: []
+    god   : שם(6)
+    right : שם(4)
+    left  : שם(2)
+
+  יעקב (Jacob) GV=182 · 264 illum · 1056 read · basin→יעקב
+    basin path: []
+    aaron : עקבי(19) יעקב(4)
+    god   : יעקב(50)
+    right : יעקב(12) עקבי(7)
+    left  : יעקב(36) עקבי(3)
+
+  ישראל (Israel) GV=541 · 2970 illum · 11880 read · basin→ישראל
+    basin path: []
+    god   : ישראל(12)
+    right : ישראל(46)
+
+  שרה (strive) GV=505 · 90 illum · 360 read · basin→שרה
+    basin path: []
+    god   : שרה(36)
+    right : שרה(10)
+    left  : שרה(28)
+
+  אלהים (God) GV=86 · 297 illum · 1188 read · basin→אליהם
+    basin path: []
+    god   : אליהם(15)
+    right : אליהם(14) אהלים(8) אלהים(2)
+
+  אנש (man/mortal) GV=351 · 36 illum · 144 read · basin→נשא
+    basin path: []
+    aaron : נשא(3)
+    god   : נשא(14) שנא(12)
+    right : נשא(9)
+    left  : נשא(8) שנא(6)
+
+  יכל (prevail) GV=60 · 33 illum · 132 read · basin→יכל
+    basin path: []
+    aaron : לכי(10) יכל(6) כלי(5)
+    god   : יכל(12) כלי(9) לכי(5)
+    right : יכל(14) לכי(4) כלי(4)
+    left  : לכי(12) יכל(5) כלי(1)
+
+  שאל (ask) GV=331 · 54 illum · 216 read · basin→אשל
+    basin path: []
+    aaron : אשל(10)
+    god   : אשל(7) שאל(4)
+    right : אשל(12) שאל(8)
+    left  : אשל(12) שאל(2)
+
+  נגד (tell) GV=57 · 6 illum · 24 read · basin→נגד
+    basin path: []
+    aaron : נגד(1)
+    god   : נגד(3)
+    right : נגד(1)
+    left  : נגד(3)
+
+  ברך (bless) GV=222 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  קרא (call) GV=301 · 30 illum · 120 read · basin→קרא
+    basin path: []
+    aaron : קרא(6)
+    god   : קרא(2)
+    right : קרא(10)
+    left  : קרא(4)
+
+  מקום (place) GV=186 · 28 illum · 112 read · basin→null
+    basin path: []
+
+  פנואל (Peniel) GV=167 · 126 illum · 504 read · basin→null
+    basin path: []
+
+  פנים (face) GV=180 · 22 illum · 88 read · basin→null
+    basin path: []
+
+  ראה (see) GV=206 · 45 illum · 180 read · basin→ארה
+    basin path: []
+    aaron : ארה(6) ראה(6)
+    god   : ארה(8) ראה(6)
+    right : ראה(7) ארה(6)
+    left  : ארה(16)
+
+  נפש (soul) GV=430 · 12 illum · 48 read · basin→נפש
+    basin path: []
+    aaron : נפש(6)
+    right : נפש(6)
+
+  נצל (deliver/preserve) GV=170 · 6 illum · 24 read · basin→null
+    basin path: []
+
+  ── 3-letter sliding window ──
+  88/129 windows produced readings.
+    [  0] ויא → אוי (Oh, boy.)
+    [  1] יאמ → אמי (Amy)
+    [  2] אמר → אמר (say)
+    [  3] מרא → אמר (say)
+    [  5] אלי → איל (Eyal)
+    [  6] ליו → לוי (Levi)
+    [  7] יומ → ומי (And who)
+    [  8] ומה → ומה (And what)
+    [  9] מהש → שמה (Her name)
+    [ 10] השמ → שמה (Her name)
+    [ 14] ויא → אוי (Oh, boy.)
+    [ 15] יאמ → אמי (Amy)
+    [ 16] אמר → אמר (say)
+    [ 17] מרי → מרי (Mary)
+    [ 18] ריע → עיר (city)
+    [ 20] עקב → בקע (Bough)
+    [ 23] ויא → אוי (Oh, boy.)
+    [ 24] יאמ → אמי (Amy)
+    [ 25] אמר → אמר (say)
+    [ 28] לאי → איל (Eyal)
+    [ 31] עקב → בקע (Bough)
+    [ 32] קבי → יבק (Yevk)
+    [ 33] ביא → יבא (Import)
+    [ 34] יאמ → אמי (Amy)
+    [ 35] אמר → אמר (say)
+    [ 36] מרע → עמר (Amar)
+    [ 37] רעו → ורע (and bad)
+    [ 38] עוד → ועד (and)
+    [ 47] םיש → שים (set/place)
+    [ 48] ישר → שרי (Sherry)
+    [ 49] שרא → שאר (Rest)
+    [ 51] אלכ → כאל (As)
+    [ 52] לכי → כלי (Tool)
+    [ 54] ישר → שרי (Sherry)
+    [ 55] שרי → שרי (Sherry)
+    [ 56] רית → יתר (Over)
+    [ 57] יתע → עתי (Timely)
+    [ 60] םאל → אלם (Elm)
+    [ 61] אלה → האל (Hal)
+    [ 63] הים → הים (The sea)
+    [ 64] יםו → יום (day)
+    [ 65] םוע → ועם (And with)
+    [ 66] ועם → ועם (And with)
+    [ 68] םאנ → נאם (Nam)
+    [ 69] אנש → שנא (Hatred)
+    [ 70] נשי → שני (two/second)
+    [ 71] שים → שים (set/place)
+    [ 72] יםו → יום (day)
+    [ 73] םות → ותם (And Tam)
+    [ 75] תוכ → תכו (Hit)
+    [ 76] וכל → כלו (All)
+    [ 77] כלו → כלו (All)
+    [ 78] לוי → לוי (Levi)
+    [ 79] ויש → שיו (Shio)
+    [ 80] ישא → שאי (Shay)
+    [ 81] שאל → שאל (Ask)
+    [ 82] אלי → איל (Eyal)
+    [ 83] ליע → יעל (Yael)
+    [ 85] עקב → בקע (Bough)
+    [ 88] ויא → אוי (Oh, boy.)
+    [ 89] יאמ → אמי (Amy)
+    [ 90] אמר → אמר (say)
+    [ 91] מרה → המר (Convert)
+    [ 92] רהג → הגר (Hagar)
+    [ 94] גיד → דגי (Fish)
+    [ 95] ידה → היד (The Hand)
+    [ 96] דהנ → נדה (Neda)
+    [ 97] הנא → אנה (Anna)
+    [ 98] נאש → שנא (Hatred)
+    [ 99] אשמ → משא (Freight)
+    [103] ויא → אוי (Oh, boy.)
+    [104] יאמ → אמי (Amy)
+    [105] אמר → אמר (say)
+    [108] למה → למה (Why?)
+    [109] מהז → זמה (Zema)
+    [110] הזה → הזה (This)
+    [112] התש → תשה (Drink)
+    [113] תשא → שאת (That you)
+    [114] שאל → שאל (Ask)
+    [115] אלל → לאל (To God)
+    [116] ללש → שלל (Booty)
+    [117] לשמ → משל (Example)
+    [118] שמי → שמי (My name)
+    [119] מיו → ומי (And who)
+    [122] יבר → ריב (Reeve)
+    [126] אתו → ואת (and-(obj))
+    [127] תוש → שתו (Drink)
+    [128] ושם → ושם (And there)
+
+  Top 3-letter words:
+    אמר      say                  ×7
+    אמי      Amy                  ×6
+    אוי      Oh, boy.             ×5
+    בקע      Bough                ×3
+    איל      Eyal                 ×3
+    שרי      Sherry               ×3
+    כלו      All                  ×2
+    יום      day                  ×2
+    ומי      And who              ×2
+    לוי      Levi                 ×2
+    שאל      Ask                  ×2
+    שנא      Hatred               ×2
+    ועם      And with             ×2
+    שמה      Her name             ×2
+    שים      set/place            ×2
+
+  ── 4-letter sliding window (cherubim's view) ──
+  65/128 windows produced readings.
+    [  1] יאמר → יאמר (Yamar)
+    [  3] מראל → למאר (Lamar)
+    [  5] אליו → ואיל (Vail)
+    [  6] ליומ → ימול (Ymul)
+    [  7] יומה → וימה (Vima)
+    [  8] ומהש → ומשה (and Moses)
+    [  9] מהשמ → שממה (Wasteland)
+    [ 15] יאמר → יאמר (Yamar)
+    [ 16] אמרי → יאמר (Yamar)
+    [ 17] מריע → מערי (Ma'ari)
+    [ 18] ריעק → יקרע (Tear)
+    [ 19] יעקב → עקבי (Consistent)
+    [ 21] קבוי → ויקב (Vic.)
+    [ 22] בויא → ובאי (And island)
+    [ 24] יאמר → יאמר (Yamar)
+    [ 25] אמרל → למאר (Lamar)
+    [ 26] מרלא → למאר (Lamar)
+    [ 30] יעקב → עקבי (Consistent)
+    [ 31] עקבי → עקבי (Consistent)
+    [ 33] ביאמ → מביא (Bring)
+    [ 34] יאמר → יאמר (Yamar)
+    [ 36] מרעו → מעור (Leather)
+    [ 46] אםיש → אשים (Imitate)
+    [ 47] םישר → שרים (Singing)
+    [ 48] ישרא → ראשי (Main)
+    [ 49] שראל → לראש (Head)
+    [ 51] אלכי → יאכל (Eat)
+    [ 53] כישר → שכיר (Employee)
+    [ 54] ישרי → יירש (Jerash)
+    [ 55] שרית → ירשת (You inherited)
+    [ 60] םאלה → אלהם (Elham)
+    [ 61] אלהי → האיל (The ram)
+    [ 63] היםו → היום (today/the day)
+    [ 69] אנשי → שנאי (Transformer)
+    [ 70] נשים → נשים (Women)
+    [ 71] שיםו → ושים (And put)
+    [ 72] יםות → ויתם (Witham)
+    [ 74] ותוכ → תוכו (Subtitles)
+    [ 75] תוכל → ותכל (and all)
+    [ 76] וכלו → וכלו (And all)
+    [ 77] כלוי → כליו (His Tools)
+    [ 78] לויש → לושי (Lushi)
+    [ 79] וישא → ואיש (And man)
+    [ 80] ישאל → ישאל (Ismael)
+    [ 81] שאלי → ישאל (Ismael)
+    [ 84] יעקב → עקבי (Consistent)
+    [ 86] קבוי → ויקב (Vic.)
+    [ 87] בויא → ובאי (And island)
+    [ 89] יאמר → יאמר (Yamar)
+    [ 90] אמרה → מראה (Appearance)
+    [ 93] הגיד → הגדי (The Gadi)
+    [ 94] גידה → הגדי (The Gadi)
+    [ 95] ידהנ → דינה (Dina)
+    [ 97] הנאש → הנשא (The carrier)
+    [104] יאמר → יאמר (Yamar)
+    [105] אמרל → למאר (Lamar)
+    [107] רלמה → למהר (Hurry)
+    [113] תשאל → לשאת (Bear)
+    [116] ללשמ → למשל (For example)
+    [117] לשמי → שלמי (Pay)
+    [118] שמיו → שימו (Check)
+    [119] מיוי → ימיו (His days)
+    [121] ויבר → ירבו (Yerbu)
+    [126] אתוש → שאתו (With him)
+    [127] תושם → ותשם (And there)
+
+  Top 4-letter words:
+    יאמר     Yamar                ×7
+    עקבי     Consistent           ×4
+    למאר     Lamar                ×4
+    ויקב     Vic.                 ×2
+    הגדי     The Gadi             ×2
+    ישאל     Ismael               ×2
+    ובאי     And island           ×2
+    נשים     Women                ×1
+    שרים     Singing              ×1
+    שאתו     With him             ×1
+    מביא     Bring                ×1
+    ושים     And put              ×1
+    ראשי     Main                 ×1
+    ואיש     And man              ×1
+    לשאת     Bear                 ×1
+
+╔═══════════════════════════════════════════════╗
+║  Station 4: The Limp                            ║
+║  Genesis 32:31-33                     ║
+╚═══════════════════════════════════════════════╝
+
+  161 letters. GV=9945.
+  Letters: ויקראיעקבשםהמקוםפניאלכיראיתיאלהיםפניםאלפניםותנצלנפשיויזרחלוהשמשכאשרעבראתפנואלוהואצלעעלירכועלכןלאיאכלובניישראלאתגידהנשהאש...
+
+  ── Key Words ──
+
+  שמש (sun) GV=640 · 30 illum · 120 read · basin→שמש
+    basin path: []
+    aaron : שמש(10)
+    right : שמש(14)
+    left  : שמש(16)
+
+  זרח (rise) GV=215 · 5 illum · 20 read · basin→זרח
+    basin path: []
+    god   : זרח(1)
+    right : זרח(1)
+
+  עבר (pass over) GV=272 · 60 illum · 240 read · basin→ברע
+    basin path: []
+    aaron : בער(17) ערב(15) עבר(10) רעב(10) ברע(5)
+    god   : רעב(17) ברע(16) בער(10) רבע(9) עבר(4)
+    right : ברע(19) רבע(12) רעב(11) בער(9) ערב(7)
+    left  : ערב(18) עבר(13) בער(11) רעב(9) ברע(8)
+
+  פנואל (Peniel) GV=167 · 126 illum · 504 read · basin→null
+    basin path: []
+
+  צלע (limp/rib) GV=190 · 6 illum · 24 read · basin→null
+    basin path: []
+
+  ירך (hip) GV=230 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  בן (son) GV=52 · 36 illum · 144 read · basin→בן
+    basin path: []
+    aaron : בן(20)
+    god   : בן(18)
+    right : בן(18)
+    left  : בן(20)
+
+  ישראל (Israel) GV=541 · 2970 illum · 11880 read · basin→ישראל
+    basin path: []
+    god   : ישראל(12)
+    right : ישראל(46)
+
+  אכל (eat) GV=51 · 9 illum · 36 read · basin→אכל
+    basin path: []
+    aaron : אכל(2)
+    god   : אכל(2)
+    right : כאל(2) אכל(2)
+    left  : אכל(2)
+
+  גיד (sinew) GV=17 · 33 illum · 132 read · basin→יגד
+    basin path: []
+    aaron : דגי(8) יגד(7) גדי(4)
+    god   : יגד(15) גדי(10) גיד(8)
+    right : יגד(10) דגי(2) גדי(1)
+    left  : גיד(14) גדי(13) יגד(6)
+
+  נשה (sciatic) GV=355 · 36 illum · 144 read · basin→נשה
+    basin path: []
+    god   : נשה(18) שנה(6)
+    right : נשה(5)
+    left  : נשה(13)
+
+  כף (hollow) GV=100 · 1 illum · 4 read · basin→כף
+    basin path: []
+    aaron : כף(1)
+    right : כף(1)
+
+  נגע (touch) GV=123 · 4 illum · 16 read · basin→נגע
+    basin path: []
+    god   : נגע(2)
+    left  : נגע(2)
+
+  יעקב (Jacob) GV=182 · 264 illum · 1056 read · basin→יעקב
+    basin path: []
+    aaron : עקבי(19) יעקב(4)
+    god   : יעקב(50)
+    right : יעקב(12) עקבי(7)
+    left  : יעקב(36) עקבי(3)
+
+  יום (day) GV=56 · 77 illum · 308 read · basin→יום
+    basin path: []
+    god   : יום(33)
+    right : יום(13)
+    left  : יום(2)
+
+  ── 3-letter sliding window ──
+  101/159 windows produced readings.
+    [  1] יקר → קרי (Kerry)
+    [  2] קרא → קרא (call/read)
+    [  3] ראי → יאר (Yar)
+    [  6] עקב → בקע (Bough)
+    [  7] קבש → בקש (Ask)
+    [  8] בשם → בשם (Name)
+    [  9] שםה → השם (Name)
+    [ 10] םהמ → מהם (Of them)
+    [ 11] המק → קמה (Cama)
+    [ 12] מקו → קמו (Camo)
+    [ 13] קום → קום (arise)
+    [ 16] פני → פני (face of)
+    [ 17] ניא → אני (I)
+    [ 18] יאל → איל (Eyal)
+    [ 19] אלכ → כאל (As)
+    [ 20] לכי → כלי (Tool)
+    [ 22] ירא → ראי (Mirror)
+    [ 23] ראי → יאר (Yar)
+    [ 24] אית → אתי (Etti)
+    [ 26] תיא → אתי (Etti)
+    [ 27] יאל → איל (Eyal)
+    [ 28] אלה → האל (Hal)
+    [ 30] הים → הים (The sea)
+    [ 33] פני → פני (face of)
+    [ 36] םאל → אלם (Elm)
+    [ 37] אלפ → פלא (Wonder)
+    [ 38] לפנ → נפל (fall)
+    [ 39] פני → פני (face of)
+    [ 41] יםו → יום (day)
+    [ 42] םות → ותם (And Tam)
+    [ 47] לנפ → נפל (fall)
+    [ 48] נפש → נפש (soul)
+    [ 49] פשי → שפי (Shefi)
+    [ 50] שיו → שיו (Shio)
+    [ 52] ויז → ויז (Viz)
+    [ 54] זרח → זרח (Shining)
+    [ 55] רחל → רחל (Rachel)
+    [ 56] חלו → חול (Sand)
+    [ 57] לוה → ולה (Vela)
+    [ 58] והש → ושה (And Sha)
+    [ 59] השמ → שמה (Her name)
+    [ 60] שמש → שמש (Sun)
+    [ 62] שכא → כאש (Fire)
+    [ 63] כאש → כאש (Fire)
+    [ 64] אשר → שאר (Rest)
+    [ 65] שרע → עשר (ten)
+    [ 66] רעב → רבע (Quarter)
+    [ 67] עבר → רבע (Quarter)
+    [ 68] ברא → באר (well)
+    [ 69] ראת → תאר (Describe)
+    [ 73] נוא → אנו (We)
+    [ 74] ואל → ואל (Val)
+    [ 75] אלו → ואל (Val)
+    [ 76] לוה → ולה (Vela)
+    [ 78] הוא → הוא (he/it)
+    [ 79] ואצ → צאו (Get out)
+    [ 80] אצל → אצל (At)
+    [ 84] עלי → יעל (Yael)
+    [ 89] ועל → עלו (Rise)
+    [ 91] לכן → לכן (Therefore)
+    [ 92] כןל → לכן (Therefore)
+    [ 94] לאי → איל (Eyal)
+    [ 97] אכל → כאל (As)
+    [ 98] כלו → כלו (All)
+    [ 99] לוב → לבו (His Heart)
+    [100] ובנ → נבו (Nevo)
+    [101] בני → בני (sons of)
+    [104] ישר → שרי (Sherry)
+    [105] שרא → שאר (Rest)
+    [108] לאת → לאת (Lat)
+    [111] גיד → דגי (Fish)
+    [112] ידה → היד (The Hand)
+    [113] דהנ → נדה (Neda)
+    [114] הנש → שנה (Year)
+    [115] נשה → שנה (Year)
+    [116] שהא → האש (The fire)
+    [117] האש → האש (The fire)
+    [118] אשר → שאר (Rest)
+    [119] שרע → עשר (ten)
+    [120] רעל → ערל (Aral)
+    [122] לכף → לכף (Cape)
+    [123] כףה → הכף (The Cape)
+    [125] היר → הרי (Mountain)
+    [129] עדה → עדה (Ada)
+    [130] דהי → היד (The Hand)
+    [131] היו → היו (There were)
+    [132] יום → יום (day)
+    [133] וםה → והם (And they)
+    [135] הזה → הזה (This)
+    [136] זהכ → זכה (Won)
+    [137] הכי → הכי (The Best)
+    [138] כינ → כני (Yes.)
+    [140] נגע → נגע (Touch)
+    [143] בכף → בכף (In Cape)
+    [150] עקב → בקע (Bough)
+    [153] בגי → בגי (Bégi)
+    [154] גיד → דגי (Fish)
+    [155] ידה → היד (The Hand)
+    [156] דהנ → נדה (Neda)
+    [157] הנש → שנה (Year)
+    [158] נשה → שנה (Year)
+
+  Top 3-letter words:
+    שנה      Year                 ×4
+    שאר      Rest                 ×3
+    איל      Eyal                 ×3
+    פני      face of              ×3
+    היד      The Hand             ×3
+    יאר      Yar                  ×2
+    יום      day                  ×2
+    בקע      Bough                ×2
+    ולה      Vela                 ×2
+    נדה      Neda                 ×2
+    דגי      Fish                 ×2
+    נפל      fall                 ×2
+    כאש      Fire                 ×2
+    ואל      Val                  ×2
+    לכן      Therefore            ×2
+
+  ── 4-letter sliding window (cherubim's view) ──
+  64/158 windows produced readings.
+    [  0] ויקר → וירק (Verek)
+    [  1] יקרא → קראי (Read)
+    [  2] קראי → קראי (Read)
+    [  5] יעקב → עקבי (Consistent)
+    [  8] בשםה → הבשם (The Perfume)
+    [ 11] המקו → קומה (Floor)
+    [ 18] יאלכ → יאכל (Eat)
+    [ 19] אלכי → יאכל (Eat)
+    [ 20] לכיר → רכיל (Reekil)
+    [ 21] כירא → כארי (Kari)
+    [ 22] יראי → יראי (Look!)
+    [ 23] ראית → יראת (See also)
+    [ 27] יאלה → האיל (The ram)
+    [ 28] אלהי → האיל (The ram)
+    [ 30] היםפ → פיהם (Their mouths)
+    [ 35] יםאל → אילם (Mute)
+    [ 41] יםות → ויתם (Witham)
+    [ 48] נפשי → נפשי (Mental)
+    [ 52] ויזר → ויזר (Weiser)
+    [ 54] זרחל → לזרח (Shine)
+    [ 55] רחלו → ורחל (And Rachel)
+    [ 56] חלוה → הוחל (Apply)
+    [ 57] לוהש → השלו (The Peace)
+    [ 58] והשמ → ומשה (and Moses)
+    [ 59] השמש → השמש (The Sun)
+    [ 63] כאשר → כאשר (as/when)
+    [ 65] שרעב → בעשר (At ten)
+    [ 67] עברא → ארבע (four)
+    [ 68] בראת → בארת (Barth)
+    [ 75] אלוה → הלוא (Hello.)
+    [ 77] והוא → והוא (And he)
+    [ 78] הואצ → אצוה (Acehwa)
+    [ 84] עליר → לערי (To the cities)
+    [ 85] לירכ → רכיל (Reekil)
+    [ 86] ירכו → כיור (Sink)
+    [ 87] רכוע → ערכו (Value)
+    [ 93] ןלאי → אילן (Ilan)
+    [ 96] יאכל → יאכל (Eat)
+    [ 97] אכלו → ואכל (And eat)
+    [ 98] כלוב → ובכל (And all)
+    [ 99] לובנ → לבנו (Our hearts)
+    [100] ובני → בינו (Bino)
+    [101] בניי → ביני (Binney)
+    [103] יישר → יירש (Jerash)
+    [104] ישרא → ראשי (Main)
+    [105] שראל → לראש (Head)
+    [108] לאתג → גאלת (Galath)
+    [111] גידה → הגדי (The Gadi)
+    [112] ידהנ → דינה (Dina)
+    [114] הנשה → הנשה (Hensha)
+    [115] נשהא → הנשא (The carrier)
+    [117] האשר → ראשה (Head)
+    [119] שרעל → לעשר (Ten)
+    [129] עדהי → יעדה (Destination)
+    [130] דהיו → והיד (The Hand)
+    [131] היום → היום (today/the day)
+    [132] יוםה → היום (today/the day)
+    [140] נגעב → בנגע (Touch)
+    [149] יעקב → עקבי (Consistent)
+    [150] עקבב → בעקב (In Heel)
+    [153] בגיד → בגיד (Gidd)
+    [154] גידה → הגדי (The Gadi)
+    [155] ידהנ → דינה (Dina)
+    [157] הנשה → הנשה (Hensha)
+
+  Top 4-letter words:
+    יאכל     Eat                  ×3
+    עקבי     Consistent           ×2
+    רכיל     Reekil               ×2
+    הנשה     Hensha               ×2
+    הגדי     The Gadi             ×2
+    דינה     Dina                 ×2
+    היום     today/the day        ×2
+    האיל     The ram              ×2
+    קראי     Read                 ×2
+    בארת     Barth                ×1
+    הוחל     Apply                ×1
+    לבנו     Our hearts           ×1
+    ובכל     And all              ×1
+    לזרח     Shine                ×1
+    קומה     Floor                ×1
+
+════════════════════════════════════════════════
+  SUMMARY
+════════════════════════════════════════════════
+  Station 1 (The Crossing): 128 letters, GV=10627, 3-let=87, 4-let=61
+  Station 2 (The Wounding): 87 letters, GV=4824, 3-let=43, 4-let=41
+  Station 3 (The Naming): 131 letters, GV=8700, 3-let=88, 4-let=65
+  Station 4 (The Limp): 161 letters, GV=9945, 3-let=101, 4-let=64
+
+  ── Combined Wrestling Slide (Gen 32:23-33) ──
+  Wrestling scene: 507 letters.
+  3-letter: 322 readings. 4-letter: 235 readings.
+
+  Top 25 words (3-letter) across the wrestling:
+    ווי      Wei                  ×9
+    אוי      Oh, boy.             ×9
+    אמר      say                  ×9
+    איל      Eyal                 ×8
+    אמי      Amy                  ×8
+    בקע      Bough                ×7
+    יום      day                  ×6
+    רבע      Quarter              ×6
+    שאר      Rest                 ×5
+    שרי      Sherry               ×5
+    כלי      Tool                 ×4
+    שנה      Year                 ×4
+    עמו      With him             ×4
+    שאת      That you             ×4
+    היד      The Hand             ×4
+    שיו      Shio                 ×3
+    שני      two/second           ×3
+    כלו      All                  ×3
+    לוי      Levi                 ×3
+    שאל      Ask                  ×3
+    שתי      Two.                 ×3
+    נדה      Neda                 ×3
+    דגי      Fish                 ×3
+    באר      well                 ×3
+    יעל      Yael                 ×3
+
+  Top 25 words (4-letter) across the wrestling:
+    יאמר     Yamar                ×9
+    עקבי     Consistent           ×8
+    יאכל     Eat                  ×8
+    למאר     Lamar                ×6
+    ואיו     And Ew               ×5
+    ויקב     Vic.                 ×4
+    הגדי     The Gadi             ×4
+    יבער     Burn                 ×4
+    בארת     Barth                ×3
+    דינה     Dina                 ×3
+    היום     today/the day        ×3
+    האיל     The ram              ×3
+    ארבע     four                 ×3
+    לראש     Head                 ×3
+    כארי     Kari                 ×3
+    ובאי     And island           ×3
+    יקום     Universe             ×2
+    אברם     Avram                ×2
+    וירח     and Moon             ×2
+    שאתו     With him             ×2
+    ואתו     And him              ×2
+    רכיל     Reekil               ×2
+    ועמו     And with him         ×2
+    ושים     And put              ×2
+    ראשי     Main                 ×2

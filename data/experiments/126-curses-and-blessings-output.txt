@@ -1,0 +1,235 @@
+════════════════════════════════════════════════
+  EXPERIMENT 126: CURSES WALK TO BLESSINGS?
+  Every curse word. Every blessing word. Where do they go?
+  כי נא — because, please
+════════════════════════════════════════════════
+
+════════════════════════════════════════════════
+  CURSE / JUDGMENT / DESTRUCTION WORDS
+════════════════════════════════════════════════
+[dict] Loading Torah English translations...
+  ארר      curse (ארר)               GV=401  illum= 30  read= 120  → null      path=[]
+  ארור     cursed                    GV=407  illum=210  read= 840  → ארור      path=[]
+  מארה     curse (noun)              GV=246  illum= 90  read= 360  → אמרה      path=[]
+  קלל      curse/lighten             GV=160  illum=  6  read=  24  → קלל       path=[]
+  קללה     curse (noun, קלל)         GV=165  illum= 18  read=  72  → לקהל      path=[]
+  חרם      devoted destruction       GV=248  illum=  5  read=  20  → חרם       path=[]
+  שחת      destroy/pit               GV=708  illum=  6  read=  24  → תחש       path=[]
+  כרת      cut off                   GV=620  illum=  5  read=  20  → כרת       path=[]
+  אבד      perish/destroy            GV=  7  illum= 54  read= 216  → אבד       path=[]
+  שמד      annihilate                GV=344  illum= 36  read= 144  → null      path=[]
+  הרג      kill                      GV=208  illum= 15  read=  60  → גרה       path=[]
+  מות      death                     GV=446  illum= 14  read=  56  → מות       path=[]
+  מוות     death (full)              GV=452  illum= 42  read= 168  → מותו      path=[]
+  שאול     sheol/grave               GV=337  illum=378  read=1512  → לשוא      path=[]
+  קבר      grave                     GV=302  illum= 60  read= 240  → בקר       path=[]
+  שפט      judge                     GV=389  illum=  6  read=  24  → null      path=[]
+  דין      judgment/law              GV= 64  illum=198  read= 792  → דין       path=[]
+  נקם      vengeance                 GV=190  illum=  4  read=  16  → נקם       path=[]
+  עונש     punishment                GV=426  illum=168  read= 672  → נעשו      path=[]
+  אשם      guilt                     GV=341  illum= 18  read=  72  → אשם       path=[]
+  חטא      sin                       GV= 18  illum=  3  read=  12  → חטא       path=[]
+  עון      iniquity                  GV=126  illum= 84  read= 336  → עון       path=[]
+  פשע      transgression             GV=450  illum= 12  read=  48  → פשע       path=[]
+  רשע      wicked                    GV=570  illum= 60  read= 240  → שער       path=[]
+  נגף      plague/strike             GV=133  illum=  2  read=   8  → נגף       path=[]
+  נגע      plague/touch              GV=123  illum=  4  read=  16  → נגע       path=[]
+  דבר      pestilence/word           GV=206  illum= 90  read= 360  → ברד       path=[]
+  מגפה     epidemic                  GV=128  illum=  6  read=  24  → null      path=[]
+  מכה      wound/blow                GV= 65  illum=  6  read=  24  → מכה       path=[]
+  טמא      unclean                   GV= 50  illum=  6  read=  24  → טמא       path=[]
+  נדה      impurity/banishment       GV= 59  illum= 18  read=  72  → נדה       path=[]
+  חלל      profane/pierced           GV= 68  illum=  3  read=  12  → חלל       path=[]
+  נאץ      spurn/blaspheme           GV=141  illum=  0  read=   0  → null      path=[]
+  גדף      revile                    GV= 87  illum=  3  read=  12  → null      path=[]
+  תועבה    abomination               GV=483  illum=252  read=1008  → תועבה     path=[]
+  נחש      serpent                   GV=358  illum= 12  read=  48  → נחש       path=[]
+  ערום     cunning/naked             GV=316  illum= 70  read= 280  → null      path=[]
+  זעה      sweat                     GV= 82  illum=  6  read=  24  → העז       path=[]
+  עצב      pain/toil                 GV=162  illum= 12  read=  48  → בצע       path=[]
+  קוץ      thorn                     GV=196  illum=  0  read=   0  → null      path=[]
+  דרדר     thistle                   GV=408  illum= 30  read= 120  → null      path=[]
+  עפר      dust                      GV=350  illum= 10  read=  40  → עפר       path=[]
+  גלה      exile/reveal              GV= 38  illum=  9  read=  36  → גלה       path=[]
+  נדד      wander                    GV= 58  illum=  6  read=  24  → null      path=[]
+  פזר      scatter                   GV=287  illum=  5  read=  20  → null      path=[]
+  נוד      wandering                 GV= 60  illum= 42  read= 168  → נוד       path=[]
+
+════════════════════════════════════════════════
+  BLESSING / GOODNESS / LIFE WORDS
+════════════════════════════════════════════════
+  ברך      bless                     GV=222  illum=  0  read=   0  → null      path=[]
+  ברכה     blessing                  GV=227  illum= 90  read= 360  → ברכה      path=[]
+  ברוך     blessed                   GV=228  illum=  0  read=   0  → null      path=[]
+  טוב      good                      GV= 17  illum= 42  read= 168  → טוב       path=[]
+  טובה     goodness                  GV= 22  illum=126  read= 504  → הטוב      path=[]
+  ישר      upright                   GV=510  illum=330  read=1320  → שרי       path=[]
+  צדק      righteous                 GV=194  illum=  6  read=  24  → null      path=[]
+  צדקה     righteousness             GV=199  illum= 18  read=  72  → null      path=[]
+  תם       complete/innocent         GV=440  illum=  1  read=   4  → תם        path=[]
+  תמים     blameless                 GV=490  illum= 22  read=  88  → תמים      path=[]
+  אהב      love                      GV=  8  illum= 54  read= 216  → אהב       path=[]
+  אהבה     love (noun)               GV= 13  illum= 54  read= 216  → הבאה      path=[]
+  חסד      lovingkindness            GV= 72  illum=  3  read=  12  → null      path=[]
+  חן       grace/favor               GV= 58  illum=  6  read=  24  → חן        path=[]
+  רחם      mercy/womb                GV=248  illum=  5  read=  20  → חרם       path=[]
+  רחמים    compassion                GV=298  illum=110  read= 440  → רחמים     path=[]
+  חיה      live                      GV= 23  illum= 33  read= 132  → חיה       path=[]
+  חיים     life                      GV= 68  illum= 55  read= 220  → חיים      path=[]
+  נפש      soul/life                 GV=430  illum= 12  read=  48  → נפש       path=[]
+  רוח      spirit/wind               GV=214  illum= 35  read= 140  → רוח       path=[]
+  נשמה     breath                    GV=395  illum= 72  read= 288  → נשמה      path=[]
+  שלום     peace                     GV=376  illum=126  read= 504  → שלום      path=[]
+  מנוחה    rest                      GV=109  illum= 84  read= 336  → null      path=[]
+  שקט      quiet                     GV=409  illum= 12  read=  48  → null      path=[]
+  בטח      trust/security            GV= 19  illum=  6  read=  24  → בטח       path=[]
+  שמח      joy/rejoice               GV=348  illum= 12  read=  48  → משח       path=[]
+  ששון     gladness                  GV=656  illum=630  read=2520  → null      path=[]
+  ישע      save/deliver              GV=380  illum=132  read= 528  → עשי       path=[]
+  ישועה    salvation                 GV=391  illum=2772  read=11088  → ויעשה     path=[]
+  גאל      redeem                    GV= 34  illum=  9  read=  36  → גאל       path=[]
+  פדה      ransom                    GV= 89  illum=  9  read=  36  → פדה       path=[]
+  נצל      deliver/rescue            GV=170  illum=  6  read=  24  → null      path=[]
+  כפר      atone/cover               GV=300  illum=  5  read=  20  → כפר       path=[]
+  אור      light                     GV=207  illum=105  read= 420  → אור       path=[]
+  כבוד     glory                     GV= 32  illum=126  read= 504  → וכבד      path=[]
+  הדר      splendor                  GV=209  illum= 45  read= 180  → הדר       path=[]
+  תפארת    beauty/glory              GV=1081  illum=  0  read=   0  → null      path=[]
+  לחם      bread                     GV= 78  illum=  3  read=  12  → לחם       path=[]
+  מים      water                     GV= 90  illum= 22  read=  88  → מים       path=[]
+  שמן      oil                       GV=390  illum= 72  read= 288  → שמן       path=[]
+  יין      wine                      GV= 70  illum=330  read=1320  → יין       path=[]
+  רפא      heal                      GV=281  illum= 15  read=  60  → null      path=[]
+  ברית     covenant                  GV=612  illum=330  read=1320  → ברית      path=[]
+  שבועה    oath                      GV=383  illum=1512  read=6048  → ושבעה     path=[]
+  אמן      amen/faithful             GV= 91  illum= 36  read= 144  → אמן       path=[]
+  אמת      truth                     GV=441  illum=  6  read=  24  → אמת       path=[]
+  חכמה     wisdom                    GV= 73  illum=  6  read=  24  → חכמה      path=[]
+  בינה     understanding             GV= 67  illum=396  read=1584  → בניה      path=[]
+
+════════════════════════════════════════════════
+  SUMMARY
+════════════════════════════════════════════════
+
+  ── Curse Basin Destinations ──
+    Total: 46
+    Invisible (0/0): 2
+    Fixed points: 23
+    Walk to null: 11
+    Walk to other word: 12
+
+  ── Blessing Basin Destinations ──
+    Total: 48
+    Invisible (0/0): 3
+    Fixed points: 27
+    Walk to null: 11
+    Walk to other word: 10
+
+  ── Curse destinations (non-null, non-self) ──
+    מארה (curse (noun)) → אמרה  via 
+    קללה (curse (noun, קלל)) → לקהל  via 
+    שחת (destroy/pit) → תחש  via 
+    הרג (kill) → גרה  via 
+    מוות (death (full)) → מותו  via 
+    שאול (sheol/grave) → לשוא  via 
+    קבר (grave) → בקר  via 
+    עונש (punishment) → נעשו  via 
+    רשע (wicked) → שער  via 
+    דבר (pestilence/word) → ברד  via 
+    זעה (sweat) → העז  via 
+    עצב (pain/toil) → בצע  via 
+
+  ── Blessing destinations (non-null, non-self) ──
+    טובה (goodness) → הטוב  via 
+    ישר (upright) → שרי  via 
+    אהבה (love (noun)) → הבאה  via 
+    רחם (mercy/womb) → חרם  via 
+    שמח (joy/rejoice) → משח  via 
+    ישע (save/deliver) → עשי  via 
+    ישועה (salvation) → ויעשה  via 
+    כבוד (glory) → וכבד  via 
+    שבועה (oath) → ושבעה  via 
+    בינה (understanding) → בניה  via 
+
+  ── Where do curses land? ──
+    null     ×11
+    אשם      ×1
+    בקר      ×1
+    חלל      ×1
+    אבד      ×1
+    דין      ×1
+    חרם      ×1
+    אמרה     ×1
+    נחש      ×1
+    נדה      ×1
+    גרה      ×1
+    ארור     ×1
+    שער      ×1
+    העז      ×1
+    עפר      ×1
+    תחש      ×1
+    נוד      ×1
+    מכה      ×1
+    לשוא     ×1
+    עון      ×1
+    מותו     ×1
+    ברד      ×1
+    נגע      ×1
+    לקהל     ×1
+    נגף      ×1
+    בצע      ×1
+    מות      ×1
+    טמא      ×1
+    תועבה    ×1
+    נעשו     ×1
+    גלה      ×1
+    פשע      ×1
+    כרת      ×1
+    חטא      ×1
+    קלל      ×1
+    נקם      ×1
+
+  ── Where do blessings land? ──
+    null     ×11
+    אמן      ×1
+    ויעשה    ×1
+    כפר      ×1
+    מים      ×1
+    הדר      ×1
+    חרם      ×1
+    שמן      ×1
+    ושבעה    ×1
+    אמת      ×1
+    חכמה     ×1
+    יין      ×1
+    שלום     ×1
+    טוב      ×1
+    וכבד     ×1
+    חן       ×1
+    בטח      ×1
+    גאל      ×1
+    חיה      ×1
+    בניה     ×1
+    משח      ×1
+    תמים     ×1
+    אור      ×1
+    חיים     ×1
+    נפש      ×1
+    עשי      ×1
+    הבאה     ×1
+    לחם      ×1
+    פדה      ×1
+    רוח      ×1
+    תם       ×1
+    רחמים    ×1
+    ברכה     ×1
+    אהב      ×1
+    נשמה     ×1
+    ברית     ×1
+    הטוב     ×1
+    שרי      ×1
+
+  ── Do curses resolve to blessing words? ──
+
+  ── Do blessings resolve to curse words? ──
+    רחם (mercy/womb) → חרם  ← CURSE!

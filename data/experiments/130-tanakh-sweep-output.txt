@@ -1,0 +1,246 @@
+════════════════════════════════════════════════════════════════
+  EXPERIMENT 130: TANAKH SWEEP
+  39 books. The whole Hebrew Bible. Does the structure scale?
+════════════════════════════════════════════════════════════════
+
+  Scanning Genesis               78,156 letters  GV=      5,112,580  serp= 20  lamb= 43  curse= 150  bless= 235  ÷
+  Scanning Exodus                63,692 letters  GV=      4,650,247  serp= 42  lamb= 24  curse= 165  bless= 269  ÷7
+  Scanning Leviticus             44,889 letters  GV=      3,144,251  serp=  5  lamb= 59  curse= 413  bless= 281  ÷
+  Scanning Numbers               63,688 letters  GV=      4,361,609  serp= 22  lamb= 81  curse= 232  bless= 183  ÷7
+  Scanning Deuteronomy           55,049 letters  GV=      3,787,187  serp=  6  lamb= 28  curse= 127  bless= 140  ÷
+  Scanning Joshua                39,827 letters  GV=      2,594,775  serp=  3  lamb=  5  curse=  90  bless=  82  ÷
+  Scanning Judges                39,040 letters  GV=      2,495,999  serp=  1  lamb=  9  curse= 103  bless=  92  ÷
+  Scanning I Samuel              51,560 letters  GV=      3,209,805  serp=  9  lamb= 21  curse= 396  bless= 149  ÷
+  Scanning II Samuel             42,349 letters  GV=      2,576,267  serp=  8  lamb= 32  curse= 156  bless= 181  ÷
+  Scanning I Kings               50,740 letters  GV=      3,366,759  serp= 18  lamb= 30  curse= 120  bless= 181  ÷
+  Scanning II Kings              47,904 letters  GV=      3,102,298  serp= 17  lamb= 26  curse= 126  bless= 155  ÷
+  Scanning Isaiah                67,115 letters  GV=      4,245,632  serp= 11  lamb= 23  curse= 181  bless= 332  ÷
+  Scanning Jeremiah              85,163 letters  GV=      5,428,712  serp= 22  lamb= 11  curse= 180  bless= 292  ÷
+  Scanning Ezekiel               74,688 letters  GV=      5,117,714  serp= 14  lamb= 23  curse= 346  bless= 300  ÷7
+  Scanning Hosea                  9,403 letters  GV=        576,615  serp=  1  lamb=  4  curse=  39  bless=  59  ÷13
+  Scanning Joel                   3,878 letters  GV=        228,172  serp=  0  lamb=  0  curse=   4  bless=  22  ÷7
+  Scanning Amos                   8,063 letters  GV=        518,929  serp=  2  lamb=  1  curse=  31  bless=  27  ÷
+  Scanning Obadiah                1,119 letters  GV=         72,792  serp=  0  lamb=  0  curse=   0  bless=   6  ÷72
+  Scanning Jonah                  2,703 letters  GV=        149,551  serp=  0  lamb=  1  curse=   6  bless=  13  ÷
+  Scanning Micah                  5,584 letters  GV=        367,275  serp=  1  lamb=  4  curse=  26  bless=  33  ÷
+  Scanning Nahum                  2,256 letters  GV=        132,155  serp=  0  lamb=  1  curse=   3  bless=   6  ÷
+  Scanning Habakkuk               2,604 letters  GV=        163,115  serp=  0  lamb=  1  curse=  10  bless=   8  ÷
+  Scanning Zephaniah              3,001 letters  GV=        183,445  serp=  0  lamb=  0  curse=   4  bless=  11  ÷
+  Scanning Haggai                 2,344 letters  GV=        139,119  serp=  0  lamb=  2  curse=   5  bless=   8  ÷
+  Scanning Zechariah             12,464 letters  GV=        755,840  serp=  1  lamb=  2  curse=  20  bless=  84  ÷
+  Scanning Malachi                3,457 letters  GV=        225,722  serp=  0  lamb=  0  curse=  12  bless=  16  ÷7
+  Scanning Psalms                78,978 letters  GV=      4,951,061  serp=  8  lamb= 21  curse= 329  bless= 558  ÷
+  Scanning Proverbs              26,539 letters  GV=      1,870,021  serp=  4  lamb= 16  curse= 198  bless= 253  ÷
+  Scanning Job                   31,896 letters  GV=      2,021,577  serp=  5  lamb= 19  curse= 144  bless= 161  ÷
+  Scanning Song of Songs          5,159 letters  GV=        355,947  serp=  0  lamb=  1  curse=   8  bless=  35  ÷
+  Scanning Ruth                   4,950 letters  GV=        364,947  serp=  2  lamb= 10  curse=  19  bless=  33  ÷
+  Scanning Lamentations           6,113 letters  GV=        383,492  serp=  3  lamb=  2  curse=  26  bless=  42  ÷
+  Scanning Ecclesiastes          10,967 letters  GV=        724,343  serp=  2  lamb=  8  curse=  35  bless= 142  ÷
+  Scanning Esther                12,127 letters  GV=        856,920  serp=  0  lamb=  1  curse=   9  bless=  37  ÷
+  Scanning Daniel                24,252 letters  GV=      1,440,666  serp= 11  lamb= 10  curse=  54  bless=  98  ÷
+  Scanning Ezra                  15,920 letters  GV=        996,071  serp=  1  lamb=  2  curse=  29  bless= 101  ÷
+  Scanning Nehemiah              22,642 letters  GV=      1,420,852  serp=  1  lamb=  5  curse=  40  bless= 146  ÷
+  Scanning I Chronicles          44,909 letters  GV=      2,787,313  serp= 17  lamb=  4  curse= 136  bless= 177  ÷
+  Scanning II Chronicles         55,065 letters  GV=      3,447,223  serp= 16  lamb= 25  curse= 141  bless= 309  ÷13
+
+
+════════════════════════════════════════════════════════════════
+  TANAKH SWEEP — ALL 39 BOOKS
+════════════════════════════════════════════════════════════════
+
+  ── Book Profiles ──
+  #   Book                 Ch   Letters        GV              Div       Serp  Lamb  Curse Bless Serv
+  ──  ──────────────────  ───  ───────  ──────────────  ─────────  ────  ────  ───── ───── ────
+   1  Genesis               50   78,156        5,112,580               20    43    150   235  199
+   2  Exodus                40   63,692        4,650,247  7            42    24    165   269  174
+   3  Leviticus             27   44,889        3,144,251                5    59    413   281  160
+   4  Numbers               36   63,688        4,361,609  7            22    81    232   183  207
+   5  Deuteronomy           34   55,049        3,787,187                6    28    127   140  114
+   6  Joshua                24   39,827        2,594,775                3     5     90    82   58
+   7  Judges                21   39,040        2,495,999                1     9    103    92   49
+   8  I Samuel              31   51,560        3,209,805                9    21    396   149  118
+   9  II Samuel             24   42,349        2,576,267                8    32    156   181  184
+  10  I Kings               22   50,740        3,366,759               18    30    120   181  143
+  11  II Kings              25   47,904        3,102,298               17    26    126   155  190
+  12  Isaiah                66   67,115        4,245,632               11    23    181   332  201
+  13  Jeremiah              52   85,163        5,428,712               22    11    180   292  177
+  14  Ezekiel               48   74,688        5,117,714  7            14    23    346   300  105
+  15  Hosea                 14    9,403          576,615  13            1     4     39    59   11
+  16  Joel                   4    3,878          228,172  7             0     0      4    22    4
+  17  Amos                   9    8,063          518,929                2     1     31    27    7
+  18  Obadiah                1    1,119           72,792  72            0     0      0     6    1
+  19  Jonah                  4    2,703          149,551                0     1      6    13    2
+  20  Micah                  7    5,584          367,275                1     4     26    33   11
+  21  Nahum                  3    2,256          132,155                0     1      3     6    1
+  22  Habakkuk               3    2,604          163,115                0     1     10     8    4
+  23  Zephaniah              3    3,001          183,445                0     0      4    11    3
+  24  Haggai                 2    2,344          139,119                0     2      5     8    7
+  25  Zechariah             14   12,464          755,840                1     2     20    84   19
+  26  Malachi                3    3,457          225,722  7             0     0     12    16   10
+  27  Psalms               150   78,978        4,951,061                8    21    329   558  231
+  28  Proverbs              31   26,539        1,870,021                4    16    198   253   72
+  29  Job                   42   31,896        2,021,577                5    19    144   161   90
+  30  Song of Songs          8    5,159          355,947                0     1      8    35    2
+  31  Ruth                   4    4,950          364,947                2    10     19    33   11
+  32  Lamentations           5    6,113          383,492                3     2     26    42    5
+  33  Ecclesiastes          12   10,967          724,343                2     8     35   142   24
+  34  Esther                10   12,127          856,920                0     1      9    37    9
+  35  Daniel                12   24,252        1,440,666               11    10     54    98   60
+  36  Ezra                  10   15,920          996,071                1     2     29   101   38
+  37  Nehemiah              13   22,642        1,420,852                1     5     40   146   45
+  38  I Chronicles          29   44,909        2,787,313               17     4    136   177  102
+  39  II Chronicles         36   55,065        3,447,223  13           16    25    141   309  105
+
+  TOTAL: 1,200,253 letters, GV = 78,326,998
+  Factors: 2 × 211 × 313 × 593
+  Key divisors: 
+
+  ── Torah (5) vs Prophets+Writings (34) ──
+
+  Torah (1-5) (5 books, 305,474 letters):
+    GV = 21,055,874
+    Factors: 2 × 7 × 101 × 14891
+    Key: ÷7
+    Serpent: 95 (0.31/1000)  Lamb: 235 (0.77/1000)
+    Curse: 1087 (3.56/1000)  Blessing: 1108 (3.63/1000)  Servant: 854 (2.80/1000)
+
+  Prophets+Writings (6-39) (34 books, 894,779 letters):
+    GV = 57,271,124
+    Factors: 2 × 2 × 14317781
+    Key: 
+    Serpent: 178 (0.20/1000)  Lamb: 320 (0.36/1000)
+    Curse: 3026 (3.38/1000)  Blessing: 4149 (4.64/1000)  Servant: 2099 (2.35/1000)
+
+  ── First Half (1-19) vs Second Half (20-39) ──
+
+  First half (1-19): GV = 54,739,894
+    Factors: 2 × 11 × 1021 × 2437
+    Key: 
+
+  Second half (20-39): GV = 23,587,104
+    Factors: 2 × 2 × 2 × 2 × 2 × 3 × 277 × 887
+    Key: 
+
+  ── Center Book (by letter count) ──
+  Total letters: 1,200,253  Midpoint: 600,126  → Isaiah
+
+  ── Center Book (by book count) ──
+  Book 20 of 39: Micah (5,584 letters, GV=367,275)
+  Factors: 3 × 5 × 5 × 59 × 83
+  Key: 
+
+  ── Mirror Pairs with Key Divisors ──
+  (1) Genesis ↔ (39) II Chronicles  sum=8,559,803  ÷7
+  (2) Exodus ↔ (38) I Chronicles  sum=7,437,560  ÷13,26
+  (6) Joshua ↔ (34) Esther  sum=3,451,695  ÷13
+  (10) I Kings ↔ (30) Song of Songs  sum=3,722,706  ÷13,26
+  (14) Ezekiel ↔ (26) Malachi  sum=5,343,436  ÷7
+  (18) Obadiah ↔ (22) Habakkuk  sum=235,907  ÷7,67
+  (20) Micah ↔ (20) Micah  sum=734,550  ÷50
+
+  ── Most Serpent-Dense Books ──
+    Exodus                42 serpent in 63,692 letters (0.659 per 1000)
+    Lamentations           3 serpent in  6,113 letters (0.491 per 1000)
+    Daniel                11 serpent in 24,252 letters (0.454 per 1000)
+    Ruth                   2 serpent in  4,950 letters (0.404 per 1000)
+    I Chronicles          17 serpent in 44,909 letters (0.379 per 1000)
+    II Kings              17 serpent in 47,904 letters (0.355 per 1000)
+    I Kings               18 serpent in 50,740 letters (0.355 per 1000)
+    Numbers               22 serpent in 63,688 letters (0.345 per 1000)
+    II Chronicles         16 serpent in 55,065 letters (0.291 per 1000)
+    Jeremiah              22 serpent in 85,163 letters (0.258 per 1000)
+
+  ── Most Lamb-Dense Books ──
+    Ruth                  10 lamb in  4,950 letters (2.020 per 1000)
+    Leviticus             59 lamb in 44,889 letters (1.314 per 1000)
+    Numbers               81 lamb in 63,688 letters (1.272 per 1000)
+    Haggai                 2 lamb in  2,344 letters (0.853 per 1000)
+    II Samuel             32 lamb in 42,349 letters (0.756 per 1000)
+    Ecclesiastes           8 lamb in 10,967 letters (0.729 per 1000)
+    Micah                  4 lamb in  5,584 letters (0.716 per 1000)
+    Proverbs              16 lamb in 26,539 letters (0.603 per 1000)
+    Job                   19 lamb in 31,896 letters (0.596 per 1000)
+    I Kings               30 lamb in 50,740 letters (0.591 per 1000)
+
+  Saved: data/experiments/130-tanakh-sweep.edn
+[{:servants {"עבד" 114, "כבש" 5, "שכב" 22, "צדק" 5, "משח" 5, "ישע" 14, "בשר" 34}, :chapters 50, :gv 5112580, :factors [2 2 5 11 17 1367], :servant-total 199, :blessings {"כפר" 5, "רחם" 2, "אמת" 24, "קדש" 8, "טוב" 36, "גאל" 1, "חיה" 45, "אור" 16, "רוח" 16, "שלם" 5, "נחם" 6, "ברך" 31, "אהב" 28, "חכמ" 1, "חסד" 11}, :book "Genesis", :divisors [], :serpent-total 20, :curses {"הרג" 16, "שחת" 11, "נחש" 15, "רשע" 6, "שאול" 5, "עון" 20, "ארר" 4, "נגע" 6, "מות" 39, "טמא" 5, "פשע" 3, "חטא" 15, "קלל" 5}, :letters 78156, :blessing-total 235, :lamb-total 43, :curse-total 150} {:servants {"עבד" 97, "כבש" 10, "שכב" 7, "משח" 30, "ישע" 8, "פדה" 8, "בשר" 14}, :chapters 40, :gv 4650247, :factors [7 7 94903], :servant-total 174, :blessings {"כפר" 32, "רחם" 5, "אמת" 22, "קדש" 100, "טוב" 6, "גאל" 2, "חיה" 12, "אור" 13, "רוח" 22, "שלם" 18, "נחם" 4, "ברך" 5, "אהב" 9, "חכמ" 15, "חסד" 4}, :book "Exodus", :divisors [7], :serpent-total 42, :curses {"הרג" 12, "חרם" 1, "שחת" 17, "נחש" 42, "רשע" 4, "שאול" 3, "עון" 10, "נגע" 5, "נגף" 5, "מות" 38, "פשע" 4, "חטא" 21, "קלל" 3}, :letters 63692, :blessing-total 269, :lamb-total 24, :curse-total 165} {:servants {"עבד" 19, "כבש" 14, "שכב" 35, "צדק" 5, "משח" 18, "ישע" 4, "פדה" 3, "בשר" 62}, :chapters 27, :gv 3144251, :factors [11 285841], :servant-total 160, :blessings {"כפר" 59, "רחם" 1, "אמת" 2, "קדש" 136, "טוב" 6, "גאל" 31, "חיה" 23, "אור" 6, "רוח" 5, "שלם" 2, "אהב" 9, "חסד" 1}, :book "Leviticus", :divisors [], :serpent-total 5, :curses {"הרג" 3, "חרם" 7, "שחת" 5, "נחש" 3, "רשע" 4, "עון" 3, "נגע" 74, "מות" 18, "טמא" 149, "פשע" 2, "חטא" 138, "קלל" 7}, :letters 44889, :blessing-total 281, :lamb-total 59, :curse-total 413} {:servants {"עבד" 82, "כבש" 71, "שכב" 9, "משח" 10, "ישע" 7, "פדה" 11, "בשר" 17}, :chapters 36, :gv 4361609, :factors [7 433 1439], :servant-total 207, :blessings {"כפר" 21, "רחם" 4, "אמת" 3, "קדש" 86, "טוב" 9, "גאל" 9, "חיה" 5, "אור" 10, "רוח" 17, "שלם" 1, "נחם" 1, "ברך" 9, "אהב" 6, "חסד" 2}, :book "Numbers", :divisors [7], :serpent-total 22, :curses {"הרג" 11, "חרם" 2, "שחת" 1, "נחש" 18, "רשע" 2, "שאול" 2, "עון" 19, "ארר" 7, "נגע" 6, "נגף" 3, "מות" 56, "טמא" 37, "פשע" 1, "חטא" 67}, :letters 63688, :blessing-total 183, :lamb-total 81, :curse-total 232} {:servants {"עבד" 65, "כבש" 1, "שכב" 17, "צדק" 13, "ישע" 4, "בשר" 14}, :chapters 34, :gv 3787187, :factors [883 4289], :servant-total 114, :blessings {"כפר" 3, "אמת" 12, "קדש" 17, "טוב" 26, "גאל" 2, "חיה" 20, "אור" 5, "רוח" 4, "שלם" 4, "נחם" 1, "ברך" 13, "אהב" 24, "חכמ" 6, "חסד" 3}, :book "Deuteronomy", :divisors [], :serpent-total 6, :curses {"הרג" 4, "חרם" 9, "שחת" 7, "נחש" 6, "רשע" 9, "שאול" 2, "עון" 16, "נגע" 4, "נגף" 1, "מות" 28, "טמא" 10, "פשע" 2, "חטא" 17, "קלל" 12}, :letters 55049, :blessing-total 140, :lamb-total 28, :curse-total 127} {:servants {"עבד" 51, "כבש" 1, "שכב" 2, "צדק" 2, "ישע" 2}, :chapters 24, :gv 2594775, :factors [3 5 5 29 1193], :servant-total 58, :blessings {"כפר" 1, "אמת" 5, "קדש" 17, "טוב" 8, "גאל" 3, "חיה" 22, "אור" 3, "רוח" 7, "שלם" 9, "ברך" 2, "אהב" 2, "חסד" 3}, :book "Joshua", :divisors [], :serpent-total 3, :curses {"הרג" 7, "חרם" 17, "שחת" 1, "נחש" 3, "רשע" 2, "שאול" 2, "עון" 25, "ארר" 1, "נגע" 2, "נגף" 1, "מות" 20, "טמא" 1, "פשע" 1, "חטא" 3, "קלל" 4}, :letters 39827, :blessing-total 82, :lamb-total 5, :curse-total 90} {:servants {"עבד" 30, "כבש" 1, "שכב" 4, "צדק" 2, "משח" 3, "ישע" 3, "בשר" 6}, :chapters 21, :gv 2495999, :factors [11 103 2203], :servant-total 49, :blessings {"רחם" 1, "אמת" 6, "קדש" 9, "טוב" 18, "חיה" 22, "אור" 4, "רוח" 11, "שלם" 6, "נחם" 2, "ברך" 4, "אהב" 5, "חכמ" 2, "חסד" 2}, :book "Judges", :divisors [], :serpent-total 1, :curses {"הרג" 18, "שחת" 1, "נחש" 1, "רשע" 5, "עון" 45, "נגע" 2, "נגף" 1, "מות" 21, "טמא" 3, "חטא" 4, "קלל" 2}, :letters 39040, :blessing-total 92, :lamb-total 9, :curse-total 103} {:servants {"עבד" 75, "כבש" 3, "שכב" 14, "צדק" 2, "משח" 11, "ישע" 7, "בשר" 6}, :chapters 31, :gv 3209805, :factors [3 3 5 71329], :servant-total 118, :blessings {"כפר" 3, "רחם" 1, "אמת" 13, "קדש" 8, "טוב" 44, "חיה" 20, "אור" 9, "רוח" 22, "שלם" 2, "נחם" 4, "ברך" 4, "אהב" 15, "חסד" 4}, :book "I Samuel", :divisors [], :serpent-total 9, :curses {"הרג" 7, "חרם" 1, "שחת" 3, "נחש" 9, "רשע" 3, "שאול" 302, "עון" 11, "נגע" 2, "נגף" 2, "מות" 30, "פשע" 3, "חטא" 21, "קלל" 2}, :letters 51560, :blessing-total 149, :lamb-total 21, :curse-total 396} {:servants {"עבד" 117, "כבש" 4, "שכב" 25, "צדק" 5, "משח" 9, "ישע" 10, "פדה" 1, "בשר" 13}, :chapters 24, :gv 2576267, :factors [19 135593], :servant-total 184, :blessings {"כפר" 2, "אמת" 10, "קדש" 1, "טוב" 30, "גאל" 2, "חיה" 18, "אור" 27, "רוח" 5, "שלם" 47, "נחם" 3, "ברך" 8, "אהב" 10, "חכמ" 5, "חסד" 13}, :book "II Samuel", :divisors [], :serpent-total 8, :curses {"הרג" 12, "שחת" 5, "נחש" 7, "רשע" 3, "שאול" 68, "עון" 10, "ארר" 1, "נגע" 2, "נגף" 2, "מות" 31, "טמא" 1, "חטא" 5, "קלל" 9}, :letters 42349, :blessing-total 181, :lamb-total 32, :curse-total 156} {:servants {"עבד" 93, "כבש" 2, "שכב" 20, "צדק" 7, "משח" 7, "ישע" 5, "פדה" 1, "בשר" 8}, :chapters 22, :gv 3366759, :factors [3 11 102023], :servant-total 143, :blessings {"אמת" 10, "קדש" 18, "טוב" 24, "גאל" 1, "חיה" 28, "אור" 3, "רוח" 13, "שלם" 39, "נחם" 1, "ברך" 9, "אהב" 11, "חכמ" 18, "חסד" 6}, :book "I Kings", :divisors [], :serpent-total 18, :curses {"הרג" 12, "שחת" 1, "נחש" 17, "רשע" 2, "שאול" 1, "עון" 5, "נגע" 5, "נגף" 1, "מות" 35, "טמא" 1, "פשע" 3, "חטא" 34, "קלל" 3}, :letters 50740, :blessing-total 181, :lamb-total 30, :curse-total 120} {:servants {"עבד" 76, "כבש" 3, "שכב" 20, "צדק" 7, "משח" 6, "ישע" 71, "בשר" 7}, :chapters 25, :gv 3102298, :factors [2 1087 1427], :servant-total 190, :blessings {"אמת" 3, "קדש" 7, "טוב" 12, "חיה" 37, "אור" 10, "רוח" 6, "שלם" 66, "נחם" 9, "אהב" 5}, :book "II Kings", :divisors [], :serpent-total 17, :curses {"הרג" 8, "שחת" 5, "נחש" 17, "רשע" 1, "שאול" 3, "עון" 1, "ארר" 2, "נגע" 1, "נגף" 1, "מות" 50, "טמא" 4, "פשע" 7, "חטא" 22, "קלל" 4}, :letters 47904, :blessing-total 155, :lamb-total 26, :curse-total 126} {:servants {"עבד" 54, "כבש" 3, "שכב" 11, "צדק" 64, "משח" 6, "ישע" 34, "פדה" 2, "בשר" 27}, :chapters 66, :gv 4245632, :factors [2 2 2 2 2 2 2 41 809], :servant-total 201, :blessings {"כפר" 7, "רחם" 6, "אמת" 13, "קדש" 34, "טוב" 24, "גאל" 21, "חיה" 18, "אור" 46, "רוח" 57, "שלם" 55, "נחם" 7, "ברך" 6, "אהב" 19, "חכמ" 11, "חסד" 8}, :book "Isaiah", :divisors [], :serpent-total 11, :curses {"הרג" 19, "חרם" 1, "שחת" 5, "נחש" 10, "רשע" 15, "שאול" 13, "עון" 14, "ארר" 1, "נגע" 4, "נגף" 3, "מות" 42, "טמא" 8, "פשע" 20, "חטא" 24, "קלל" 2}, :letters 67115, :blessing-total 332, :lamb-total 23, :curse-total 181} {:servants {"עבד" 75, "כבש" 4, "שכב" 2, "צדק" 63, "משח" 11, "ישע" 5, "פדה" 1, "בשר" 16}, :chapters 52, :gv 5428712, :factors [2 2 2 17 179 223], :servant-total 177, :blessings {"כפר" 6, "רחם" 8, "אמת" 13, "קדש" 17, "טוב" 38, "גאל" 4, "חיה" 10, "אור" 15, "רוח" 22, "שלם" 115, "נחם" 6, "ברך" 3, "אהב" 15, "חכמ" 14, "חסד" 6}, :book "Jeremiah", :divisors [], :serpent-total 22, :curses {"הרג" 12, "חרם" 1, "שחת" 7, "נחש" 17, "רשע" 6, "שאול" 1, "עון" 13, "ארר" 1, "נגע" 5, "מות" 69, "טמא" 5, "פשע" 6, "חטא" 26, "קלל" 11}, :letters 85163, :blessing-total 292, :lamb-total 11, :curse-total 180} {:servants {"עבד" 21, "כבש" 7, "שכב" 14, "צדק" 27, "משח" 8, "ישע" 2, "פדה" 1, "בשר" 25}, :chapters 48, :gv 5117714, :factors [2 7 17 21503], :servant-total 105, :blessings {"כפר" 8, "רחם" 1, "אמת" 6, "קדש" 106, "טוב" 10, "גאל" 1, "חיה" 48, "אור" 6, "רוח" 54, "שלם" 28, "נחם" 2, "ברך" 2, "אהב" 21, "חכמ" 7}, :book "Ezekiel", :divisors [7], :serpent-total 14, :curses {"הרג" 12, "חרם" 1, "שחת" 14, "נחש" 8, "רשע" 42, "שאול" 7, "עון" 22, "מות" 140, "טמא" 44, "פשע" 12, "חטא" 41, "קלל" 3}, :letters 74688, :blessing-total 300, :lamb-total 23, :curse-total 346} {:servants {"עבד" 1, "כבש" 1, "שכב" 2, "צדק" 4, "ישע" 1, "בשר" 2}, :chapters 14, :gv 576615, :factors [3 5 13 2957], :servant-total 11, :blessings {"כפר" 1, "רחם" 5, "אמת" 1, "קדש" 1, "טוב" 8, "גאל" 1, "חיה" 5, "אור" 3, "רוח" 7, "שלם" 1, "נחם" 1, "אהב" 19, "חסד" 6}, :book "Hosea", :divisors [13], :serpent-total 1, :curses {"הרג" 2, "שחת" 3, "נחש" 1, "רשע" 3, "שאול" 2, "עון" 4, "נגע" 1, "מות" 5, "טמא" 4, "פשע" 3, "חטא" 11}, :letters 9403, :blessing-total 59, :lamb-total 4, :curse-total 39} {:servants {"עבד" 1, "צדק" 1, "בשר" 2}, :chapters 4, :gv 228172, :factors [2 2 7 29 281], :servant-total 4, :blessings {"חסד" 1, "שלם" 6, "אור" 1, "גאל" 1, "כפר" 1, "קדש" 7, "רוח" 3, "נחם" 2}, :book "Joel", :divisors [7], :serpent-total 0, :curses {"מות" 3, "רשע" 1}, :letters 3878, :blessing-total 22, :lamb-total 0, :curse-total 4} {:servants {"עבד" 1, "שכב" 1, "צדק" 3, "משח" 1, "בשר" 1}, :chapters 9, :gv 518929, :factors [317 1637], :servant-total 7, :blessings {"טוב" 4, "אהב" 3, "שלם" 3, "אור" 6, "כפר" 1, "קדש" 4, "רוח" 4, "נחם" 2}, :book "Amos", :divisors [], :serpent-total 2, :curses {"שחת" 1, "הרג" 3, "מות" 7, "חטא" 3, "פשע" 12, "טמא" 2, "נחש" 2, "שאול" 1}, :letters 8063, :blessing-total 27, :lamb-total 1, :curse-total 31} {:servants {"עבד" 1}, :chapters 1, :gv 72792, :factors [2 2 2 3 3 3 337], :servant-total 1, :blessings {"שלם" 2, "אור" 1, "קדש" 2, "חכמ" 1}, :book "Obadiah", :divisors [72], :serpent-total 0, :curses {}, :letters 1119, :blessing-total 6, :lamb-total 0, :curse-total 0} {:servants {"שכב" 1, "משח" 1}, :chapters 4, :gv 149551, :factors [149551], :servant-total 2, :blessings {"טוב" 2, "חסד" 2, "חיה" 1, "קדש" 2, "אמת" 1, "רוח" 2, "נחם" 3}, :book "Jonah", :divisors [], :serpent-total 0, :curses {"שחת" 1, "מות" 4, "שאול" 1}, :letters 2703, :blessing-total 13, :lamb-total 1, :curse-total 6} {:servants {"עבד" 1, "כבש" 2, "שכב" 2, "צדק" 2, "ישע" 2, "פדה" 1, "בשר" 1}, :chapters 7, :gv 367275, :factors [3 5 5 59 83], :servant-total 11, :blessings {"אמת" 1, "קדש" 2, "טוב" 4, "גאל" 1, "חיה" 4, "אור" 3, "רוח" 3, "שלם" 8, "אהב" 4, "חסד" 3}, :book "Micah", :divisors [], :serpent-total 1, :curses {"חרם" 1, "נחש" 1, "רשע" 3, "עון" 1, "נגע" 1, "מות" 5, "טמא" 1, "פשע" 6, "חטא" 7}, :letters 5584, :blessing-total 33, :lamb-total 4, :curse-total 26} {:servants {"בשר" 1}, :chapters 3, :gv 132155, :factors [5 26431], :servant-total 1, :blessings {"ברך" 2, "טוב" 2, "כפר" 1, "רוח" 1}, :book "Nahum", :divisors [], :serpent-total 0, :curses {"קלל" 1, "שחת" 1, "עון" 1}, :letters 2256, :blessing-total 6, :lamb-total 1, :curse-total 3} {:servants {"משח" 1, "ישע" 3}, :chapters 3, :gv 163115, :factors [5 17 19 101], :servant-total 4, :blessings {"חיה" 1, "אור" 2, "רחם" 1, "קדש" 2, "רוח" 2}, :book "Habakkuk", :divisors [], :serpent-total 0, :curses {"הרג" 1, "מות" 5, "רשע" 3, "שאול" 1}, :letters 2604, :blessing-total 8, :lamb-total 1, :curse-total 10} {:servants {"עבד" 1, "צדק" 1, "ישע" 1}, :chapters 3, :gv 183445, :factors [5 19 1931], :servant-total 3, :blessings {"אהב" 1, "חיה" 2, "שלם" 4, "אור" 1, "גאל" 1, "קדש" 2}, :book "Zephaniah", :divisors [], :serpent-total 0, :curses {"רשע" 1, "חטא" 1, "עון" 1, "פשע" 1}, :letters 3001, :blessing-total 11, :lamb-total 0, :curse-total 4} {:servants {"עבד" 1, "צדק" 5, "בשר" 1}, :chapters 2, :gv 139119, :factors [3 79 587], :servant-total 7, :blessings {"ברך" 1, "חיה" 1, "קדש" 2, "רוח" 4}, :book "Haggai", :divisors [], :serpent-total 0, :curses {"נגע" 1, "טמא" 4}, :letters 2344, :blessing-total 8, :lamb-total 2, :curse-total 5} {:servants {"עבד" 4, "כבש" 1, "שכב" 1, "צדק" 2, "משח" 2, "ישע" 3, "פדה" 2, "בשר" 4}, :chapters 14, :gv 755840, :factors [2 2 2 2 2 2 2 5 1181], :servant-total 19, :blessings {"רחם" 1, "אמת" 6, "קדש" 6, "טוב" 8, "חיה" 3, "אור" 2, "רוח" 11, "שלם" 41, "נחם" 1, "אהב" 3, "חכמ" 1, "חסד" 1}, :book "Zechariah", :divisors [], :serpent-total 1, :curses {"הרג" 3, "חרם" 1, "נחש" 1, "רשע" 1, "עון" 4, "נגע" 2, "מות" 3, "טמא" 1, "חטא" 3, "קלל" 1}, :letters 12464, :blessing-total 84, :lamb-total 2, :curse-total 20} {:servants {"עבד" 6, "צדק" 2, "משח" 1, "ישע" 1}, :chapters 3, :gv 225722, :factors [2 7 23 701], :servant-total 10, :blessings {"טוב" 1, "אהב" 4, "חיה" 1, "שלם" 2, "גאל" 3, "קדש" 1, "אמת" 1, "רוח" 3}, :book "Malachi", :divisors [7], :serpent-total 0, :curses {"ארר" 1, "חרם" 1, "שחת" 3, "רשע" 6, "עון" 1}, :letters 3457, :blessing-total 16, :lamb-total 0, :curse-total 12} {:servants {"עבד" 68, "שכב" 10, "צדק" 87, "משח" 5, "ישע" 32, "פדה" 7, "בשר" 22}, :chapters 150, :gv 4951061, :factors [1399 3539], :servant-total 231, :blessings {"כפר" 5, "רחם" 8, "אמת" 39, "קדש" 59, "טוב" 79, "גאל" 12, "חיה" 15, "אור" 28, "רוח" 45, "שלם" 29, "נחם" 11, "ברך" 42, "אהב" 49, "חכמ" 9, "חסד" 128}, :book "Psalms", :divisors [], :serpent-total 8, :curses {"הרג" 16, "שחת" 15, "נחש" 5, "רשע" 91, "שאול" 21, "עון" 18, "נגע" 6, "מות" 97, "טמא" 3, "פשע" 19, "חטא" 33, "קלל" 5}, :letters 78978, :blessing-total 558, :lamb-total 21, :curse-total 329} {:servants {"עבד" 12, "כבש" 1, "שכב" 10, "צדק" 27, "משח" 8, "ישע" 8, "בשר" 6}, :chapters 31, :gv 1870021, :factors [1870021], :servant-total 72, :blessings {"כפר" 5, "רחם" 2, "אמת" 15, "קדש" 3, "טוב" 63, "גאל" 1, "חיה" 4, "אור" 10, "רוח" 25, "שלם" 8, "נחם" 1, "ברך" 5, "אהב" 36, "חכמ" 63, "חסד" 12}, :book "Proverbs", :divisors [], :serpent-total 4, :curses {"הרג" 4, "שחת" 4, "נחש" 2, "רשע" 88, "שאול" 10, "עון" 2, "נגע" 2, "מות" 51, "טמא" 1, "פשע" 17, "חטא" 11, "קלל" 6}, :letters 26539, :blessing-total 253, :lamb-total 16, :curse-total 198} {:servants {"עבד" 17, "כבש" 1, "שכב" 13, "צדק" 27, "משח" 1, "ישע" 11, "פדה" 1, "בשר" 19}, :chapters 42, :gv 2021577, :factors [3 97 6947], :servant-total 90, :blessings {"כפר" 4, "רחם" 5, "אמת" 5, "קדש" 4, "טוב" 14, "גאל" 2, "חיה" 10, "אור" 35, "רוח" 37, "שלם" 8, "נחם" 3, "ברך" 3, "אהב" 3, "חכמ" 25, "חסד" 3}, :book "Job", :divisors [], :serpent-total 5, :curses {"הרג" 5, "שחת" 7, "נחש" 4, "רשע" 36, "שאול" 8, "עון" 5, "ארר" 1, "נגע" 1, "מות" 46, "טמא" 1, "פשע" 10, "חטא" 18, "קלל" 2}, :letters 31896, :blessing-total 161, :lamb-total 19, :curse-total 144} {:servants {"שכב" 1, "ישע" 1}, :chapters 8, :gv 355947, :factors [3 59 2011], :servant-total 2, :blessings {"ברך" 1, "טוב" 3, "אהב" 19, "שלם" 8, "כפר" 3, "רוח" 1}, :book "Song of Songs", :divisors [], :serpent-total 0, :curses {"הרג" 1, "מות" 6, "שאול" 1}, :letters 5159, :blessing-total 35, :lamb-total 1, :curse-total 8} {:servants {"עבד" 1, "כבש" 1, "שכב" 8, "ישע" 1}, :chapters 4, :gv 364947, :factors [3 11 11059], :servant-total 11, :blessings {"טוב" 3, "חסד" 3, "אהב" 2, "שלם" 1, "גאל" 22, "אמת" 2}, :book "Ruth", :divisors [], :serpent-total 2, :curses {"מות" 14, "רשע" 1, "נגע" 1, "נחש" 2, "שאול" 1}, :letters 4950, :blessing-total 33, :lamb-total 10, :curse-total 19} {:servants {"עבד" 2, "שכב" 1, "משח" 1, "בשר" 1}, :chapters 5, :gv 383492, :factors [2 2 95873], :servant-total 5, :blessings {"רחם" 1, "אמת" 3, "קדש" 4, "טוב" 7, "גאל" 2, "חיה" 5, "אור" 1, "רוח" 2, "שלם" 7, "נחם" 5, "ברך" 1, "אהב" 2, "חסד" 2}, :book "Lamentations", :divisors [], :serpent-total 3, :curses {"שחת" 2, "הרג" 4, "מות" 2, "חטא" 8, "עון" 1, "פשע" 5, "טמא" 2, "נחש" 2}, :letters 6113, :blessing-total 42, :lamb-total 2, :curse-total 26} {:servants {"עבד" 7, "שכב" 5, "צדק" 3, "משח" 1, "ישע" 3, "בשר" 5}, :chapters 12, :gv 724343, :factors [59 12277], :servant-total 24, :blessings {"אמת" 1, "טוב" 53, "חיה" 5, "אור" 3, "רוח" 24, "שלם" 7, "נחם" 2, "אהב" 11, "חכמ" 36}, :book "Ecclesiastes", :divisors [], :serpent-total 2, :curses {"קלל" 4, "מות" 11, "רשע" 12, "חטא" 4, "טמא" 1, "נחש" 2, "שאול" 1}, :letters 10967, :blessing-total 142, :lamb-total 8, :curse-total 35} {:servants {"עבד" 7, "ישע" 2}, :chapters 10, :gv 856920, :factors [2 2 2 3 5 37 193], :servant-total 9, :blessings {"טוב" 23, "חסד" 2, "אהב" 6, "חיה" 1, "אור" 1, "אמת" 1, "חכמ" 2, "רוח" 1}, :book "Esther", :divisors [], :serpent-total 0, :curses {"הרג" 7, "מות" 2}, :letters 12127, :blessing-total 37, :lamb-total 1, :curse-total 9} {:servants {"עבד" 40, "שכב" 6, "צדק" 6, "משח" 2, "ישע" 1, "בשר" 5}, :chapters 12, :gv 1440666, :factors [2 3 3 3 3 8893], :servant-total 60, :blessings {"כפר" 3, "אמת" 12, "קדש" 16, "טוב" 3, "גאל" 2, "חיה" 1, "אור" 6, "רוח" 19, "שלם" 11, "ברך" 3, "אהב" 10, "חכמ" 10, "חסד" 2}, :book "Daniel", :divisors [], :serpent-total 11, :curses {"הרג" 4, "נחש" 10, "רשע" 4, "שאול" 6, "עון" 7, "נגע" 3, "מות" 6, "פשע" 4, "חטא" 9, "קלל" 1}, :letters 24252, :blessing-total 98, :lamb-total 10, :curse-total 54} {:servants {"עבד" 29, "כבש" 1, "צדק" 4, "משח" 2, "ישע" 2}, :chapters 10, :gv 996071, :factors [47 21193], :servant-total 38, :blessings {"כפר" 1, "אמת" 6, "קדש" 7, "טוב" 9, "גאל" 1, "חיה" 9, "אור" 4, "רוח" 2, "שלם" 56, "ברך" 1, "חכמ" 2, "חסד" 3}, :book "Ezra", :divisors [], :serpent-total 1, :curses {"הרג" 1, "חרם" 5, "נחש" 1, "שאול" 2, "עון" 2, "ארר" 1, "מות" 11, "טמא" 2, "פשע" 1, "חטא" 2, "קלל" 1}, :letters 15920, :blessing-total 101, :lamb-total 2, :curse-total 29} {:servants {"עבד" 31, "כבש" 4, "צדק" 3, "ישע" 4, "בשר" 3}, :chapters 13, :gv 1420852, :factors [2 2 71 5003], :servant-total 45, :blessings {"כפר" 1, "רחם" 2, "אמת" 3, "קדש" 15, "טוב" 31, "גאל" 2, "חיה" 22, "אור" 6, "רוח" 2, "שלם" 53, "ברך" 1, "אהב" 3, "חסד" 5}, :book "Nehemiah", :divisors [], :serpent-total 1, :curses {"קלל" 3, "חרם" 6, "הרג" 4, "מות" 12, "רשע" 2, "חטא" 10, "עון" 2, "נחש" 1}, :letters 22642, :blessing-total 146, :lamb-total 5, :curse-total 40} {:servants {"עבד" 71, "כבש" 2, "צדק" 5, "משח" 7, "ישע" 13, "בשר" 4}, :chapters 29, :gv 2787313, :factors [1367 2039], :servant-total 102, :blessings {"כפר" 4, "רחם" 8, "קדש" 23, "טוב" 19, "גאל" 1, "חיה" 43, "אור" 9, "רוח" 11, "שלם" 36, "נחם" 2, "ברך" 8, "אהב" 3, "חכמ" 3, "חסד" 7}, :book "I Chronicles", :divisors [], :serpent-total 17, :curses {"הרג" 6, "חרם" 2, "שחת" 1, "נחש" 17, "רשע" 1, "שאול" 33, "עון" 18, "מות" 48, "פשע" 1, "חטא" 2, "קלל" 7}, :letters 44909, :blessing-total 177, :lamb-total 4, :curse-total 136} {:servants {"עבד" 61, "כבש" 8, "שכב" 12, "צדק" 6, "משח" 6, "ישע" 10, "בשר" 2}, :chapters 36, :gv 3447223, :factors [13 283 937], :servant-total 105, :blessings {"כפר" 3, "רחם" 1, "אמת" 7, "קדש" 55, "טוב" 27, "חיה" 26, "אור" 4, "רוח" 11, "שלם" 134, "ברך" 7, "אהב" 11, "חכמ" 13, "חסד" 10}, :book "II Chronicles", :divisors [13], :serpent-total 16, :curses {"הרג" 12, "נחש" 16, "רשע" 8, "עון" 5, "נגע" 3, "נגף" 4, "מות" 67, "טמא" 3, "פשע" 4, "חטא" 18, "קלל" 1}, :letters 55065, :blessing-total 309, :lamb-total 25, :curse-total 141}]
+#'user/results
+#'user/factorize
+#'user/key-divisors
+══════════════════════════════════════
+  STRUCTURAL ANALYSIS
+══════════════════════════════════════
+
+── Center Book (by letter count) ──
+Total letters: 1,200,253  Midpoint: 600,126
+  → Book 12: Isaiah
+    Letter 23,232 of 67,115 in this book
+    GV = 4,245,632
+    Factors: 2 × 2 × 2 × 2 × 2 × 2 × 2 × 41 × 809
+    Key: 
+
+── Center Book (by book count) ──
+Book 20 of 39: Micah
+  5,584 letters, GV = 367,275
+  Factors: 3 × 5 × 5 × 59 × 83
+  Key: 
+
+── Torah Letter Count ──
+Our Sefaria count: 305,474 letters
+Published (MAM): 304,805 (or 304,850 with spaces)
+Torah GV = 21,055,874
+Factors: 2 × 7 × 101 × 14891
+Key: ÷7
+
+── Tanakh Total ──
+Total: 1,200,253 letters, GV = 78,326,998
+Factors: 2 × 211 × 313 × 593
+Key: 
+
+── Mirror Pairs with Key Divisors ──
+  (1) Genesis          ↔ (39) II Chronicles     sum=      8,559,803  ÷7
+  (2) Exodus           ↔ (38) I Chronicles      sum=      7,437,560  ÷13,26
+  (6) Joshua           ↔ (34) Esther            sum=      3,451,695  ÷13
+  (10) I Kings          ↔ (30) Song of Songs     sum=      3,722,706  ÷13,26
+  (14) Ezekiel          ↔ (26) Malachi           sum=      5,343,436  ÷7
+  (18) Obadiah          ↔ (22) Habakkuk          sum=        235,907  ÷7,67
+
+── Traditional Divisions ──
+
+  Torah (5 books): 305,474 letters, GV = 21,055,874
+    Factors: 2 × 7 × 101 × 14891
+    Key: ÷7
+
+  Nevi/im (21 books): 555,262 letters, GV = 35,650,691
+    Factors: 59 × 604249
+    Key: 
+
+  Ketuvim (13 books): 339,517 letters, GV = 21,620,433
+    Factors: 3 × 7206811
+    Key: 
+
+── Sub-Divisions ──
+
+  Former Prophets (Josh-II Kings): 271,420 letters, GV = 17,345,903
+    Factors: 239 × 72577
+    Key: 
+
+  Major Prophets (Isa-Ezek): 226,966 letters, GV = 14,792,058
+    Factors: 2 × 3 × 3 × 3 × 3 × 91309
+    Key: 
+
+  The Twelve (Hosea-Malachi): 56,876 letters, GV = 3,512,730
+    Factors: 2 × 3 × 5 × 13 × 9007
+    Key: ÷13, ÷26
+
+── Books with Key Divisors ──
+  ÷7: Exodus, Numbers, Ezekiel, Joel, Malachi
+  ÷13: Hosea, II Chronicles
+  ÷72: Obadiah
+
+── Notable Individual Books ──
+  Jonah: GV=149,551 factors=149551 key=
+  Obadiah: GV=72,792 factors=2×2×2×3×3×3×337 key=÷72
+  Ruth: GV=364,947 factors=3×11×11059 key=
+  Hosea: GV=576,615 factors=3×5×13×2957 key=÷13
+  Proverbs: GV=1,870,021 factors=1870021 key=

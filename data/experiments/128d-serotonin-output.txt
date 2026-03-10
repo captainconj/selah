@@ -1,0 +1,96 @@
+════════════════════════════════════════════════════════
+  SEROTONIN — Tryptophan hydroxylase 2 (TPH2)
+  The enzyme that makes serotonin in the brain
+════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════╗
+║  Serotonin-TPH2                                ║
+║  Q8IWU9                                        ║
+║  Human tryptophan hydroxylase 2. Makes sero... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched Q8IWU9 from UniProt
+[dict] Loading Torah English translations...
+
+  490 residues → 490 Hebrew letters. GV=37978.
+  Factors: 2 × 17 × 1117
+
+  Hebrew: בצודבבבתייקזכדררשתינגידטוללעצננשייהנחקוחישקחגגקשחקשייקרלדדהלישקהדטטתינקחלטששנטקדנרנתצלקרטחבטעמלירקיררריילטלמתטגפלפשקהלתח...
+
+  Letter frequencies:
+    נ → Leu  =  47 (9.6%)
+    ל → Glu  =  44 (9.0%)
+    י → Ser  =  36 (7.3%)
+    ק → Lys  =  35 (7.1%)
+    ט → Val  =  31 (6.3%)
+    ר → Arg  =  28 (5.7%)
+    ש → Gly  =  28 (5.7%)
+    ת → Phe  =  28 (5.7%)
+    ד → Ala  =  27 (5.5%)
+    ה → Thr  =  27 (5.5%)
+    ג → Asp  =  25 (5.1%)
+    ו → Pro  =  23 (4.7%)
+    ז → Tyr  =  21 (4.3%)
+    צ → Gln  =  19 (3.9%)
+    ח → Asn  =  17 (3.5%)
+    מ → Ile  =  17 (3.5%)
+    פ → Cys  =  13 (2.7%)
+    ע → His  =  10 (2.0%)
+    ב → Met  =  10 (2.0%)
+    כ → Trp  =   4 (0.8%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    נזה (1×) at 308
+
+  Top 3-letter words:
+    קרי      Kerry                     ×4
+    למי      To whom                   ×4
+    וזה      And this                  ×3
+    קני      Kenny.                    ×3
+    נגד      Against                   ×3
+    טור      Column                    ×3
+    קשי      Kashi                     ×3
+    חנה      Hannah                    ×3
+    שני      two/second                ×2
+    קלה      Easy                      ×2
+    קנת      Kenneth                   ×2
+    חלת      Challah                   ×2
+    נרד      Nardo                     ×2
+    קשה      Hard                      ×2
+    שתי      Two.                      ×2
+
+  Top 4-letter words:
+    וזנה     Vezna                     ×3
+    לריק     To Rick                   ×3
+    ירשת     You inherited             ×2
+    וחלו     Vahlo                     ×2
+    צלמי     Photographer              ×2
+    המטה     Headquarters              ×2
+    נשני     Sleepy                    ×2
+    מהרי     Hurry.                    ×2
+    תשטה     Fool                      ×1
+    נטית     Nettie                    ×1
+    ימצה     YMCA                      ×1
+    ביתי     Home                      ×1
+    דנני     Denney                    ×1
+    ותשע     And nine                  ×1
+    ותשק     And shut up.              ×1
+
+  ── Basin walks (top 10 words) ──
+    קרי (Kerry) → ירק
+    למי (To whom) → למי
+    וזה (And this) → וזה
+    קני (Kenny.) → נקי
+    נגד (Against) → נגד
+    טור (Column) → טור
+    קשי (Kashi) → ישק
+    חנה (Hannah) → נחה
+    שני (two/second) → נשי
+    קלה (Easy) → קהל
+
+  Saved: data/dna/serotonin-tph2-oracle.edn

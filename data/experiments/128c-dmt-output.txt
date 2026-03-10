@@ -1,0 +1,95 @@
+════════════════════════════════════════════════════════
+  AYAHUASCA — Human INMT (endogenous DMT enzyme)
+════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════╗
+║  Human-INMT                                    ║
+║  O95050                                        ║
+║  Human indolethylamine N-methyltransferase.... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched O95050 from UniProt
+[dict] Loading Torah English translations...
+
+  263 residues → 263 Hebrew letters. GV=19555.
+  Factors: 5 × 3911
+
+  Hebrew: בקששתהששגלזצקעתנורגזנדהזזיתגשיויולדלבנקתחנלפנעקהתשוששנצשגהנמגמשישוהמזצטנדדפגיתצגמהניגתהגרחרללנלקכנקקלושדזגכהודטקתדפלנלשח...
+
+  Letter frequencies:
+    נ → Leu  =  33 (12.5%)
+    ד → Ala  =  24 (9.1%)
+    ש → Gly  =  21 (8.0%)
+    ל → Glu  =  21 (8.0%)
+    ק → Lys  =  17 (6.5%)
+    ט → Val  =  16 (6.1%)
+    ג → Asp  =  15 (5.7%)
+    ו → Pro  =  15 (5.7%)
+    י → Ser  =  14 (5.3%)
+    ה → Thr  =  13 (4.9%)
+    פ → Cys  =  11 (4.2%)
+    ת → Phe  =  11 (4.2%)
+    ר → Arg  =  10 (3.8%)
+    ז → Tyr  =   9 (3.4%)
+    ח → Asn  =   8 (3.0%)
+    צ → Gln  =   7 (2.7%)
+    מ → Ile  =   6 (2.3%)
+    ע → His  =   5 (1.9%)
+    ב → Met  =   4 (1.5%)
+    כ → Trp  =   3 (1.1%)
+
+  ── Serpent search ──
+    1 hits:
+    [144] נשח — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    קלל      Cursed                    ×6
+    תשה      Drink                     ×3
+    נפל      fall                      ×3
+    ושש      And six                   ×3
+    נגד      Against                   ×3
+    ונד      Vand                      ×3
+    נטה      Neta                      ×3
+    שיו      Shio                      ×2
+    יצו      <unk>                     ×2
+    מנה      Dose                      ×2
+    חדד      Haddad                    ×2
+    שקו      Line                      ×2
+    שיח      Bush                      ×2
+    זרד      Zerd                      ×2
+    נפח      Volume                    ×2
+
+  Top 4-letter words:
+    לקלל     Curse                     ×3
+    דנני     Denney                    ×2
+    תשיג     Get                       ×2
+    ומזה     And this                  ×1
+    וכדה     And capture               ×1
+    ועצי     And trees                 ×1
+    ישלח     Send                      ×1
+    ימנה     Yemanah                   ×1
+    הקשת     The Rainbow               ×1
+    ומשה     and Moses                 ×1
+    גזית     Gazit                     ×1
+    ונגד     and against               ×1
+    ישגו     Isga                      ×1
+    לקרש     Lash                      ×1
+    לידו     Next to him               ×1
+
+  ── Basin walks (top 10 words) ──
+    קלל (Cursed) → קלל
+    תשה (Drink) → שתה
+    נפל (fall) → נפל
+    ושש (And six) → ושש
+    נגד (Against) → נגד
+    ונד (Vand) → נוד
+    נטה (Neta) → נטה
+    שיו (Shio) → ויש
+    יצו (<unk>) → יצו
+    מנה (Dose) → מנה
+
+  Saved: data/dna/human-inmt-oracle.edn

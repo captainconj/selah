@@ -1,0 +1,785 @@
+════════════════════════════════════════════════════════
+  EXPERIMENT 128: THE SERPENT GRADIENT
+  Prion → Malaria → Toxoplasma → Candida →
+  Lactobacillus → Tardigrade → Insulin → Oxytocin
+  Does the gradient extend?
+════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════╗
+║  Prion-PrP                                     ║
+║  P04156                                        ║
+║  Human prion protein. The misfolded protein... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P04156 from UniProt
+[dict] Loading Torah English translations...
+
+  253 residues → 253 Hebrew letters. GV=23992.
+  Factors: 2 × 2 × 2 × 2999
+
+  Hebrew: בדחנשפכבנטנתטדהכיגנשנפקקרוקוששכחהששירזושצשיוששחרזווצששששכשצועשששכשצועשששכשצועשששכשצועשששכשצשששהעיצכחקויקוקהחבקעבדשדדדדשד...
+
+  Letter frequencies:
+    ש → Gly  =  45 (17.8%)
+    ו → Pro  =  17 (6.7%)
+    צ → Gln  =  15 (5.9%)
+    י → Ser  =  15 (5.9%)
+    ט → Val  =  14 (5.5%)
+    ה → Thr  =  13 (5.1%)
+    ז → Tyr  =  13 (5.1%)
+    נ → Leu  =  12 (4.7%)
+    ב → Met  =  12 (4.7%)
+    ח → Asn  =  12 (4.7%)
+    ר → Arg  =  11 (4.3%)
+    ע → His  =  10 (4.0%)
+    ק → Lys  =  10 (4.0%)
+    ד → Ala  =  10 (4.0%)
+    כ → Trp  =   9 (3.6%)
+    ל → Glu  =   9 (3.6%)
+    מ → Ile  =   9 (3.6%)
+    ת → Phe  =   7 (2.8%)
+    ג → Asp  =   6 (2.4%)
+    פ → Cys  =   4 (1.6%)
+
+  ── Serpent search ──
+    1 hits:
+    [  2] חנש — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    כשש      About                     ×11
+    שוע      Shua                      ×4
+    וזר      WALK                      ×4
+    לגז      For gas                   ×3
+    שיו      Shio                      ×2
+    בקע      Bough                     ×2
+    וקר      And cold                  ×2
+    ושש      And six                   ×2
+    השש      The Six                   ×2
+    תני      Give                      ×2
+    בדי      Bedi                      ×2
+    נפש      soul                      ×2
+    שרי      Sherry                    ×2
+    הלה      Hela                      ×1
+    כחה      Eff                       ×1
+
+  Top 4-letter words:
+    חשכה     Darkness                  ×2
+    וזרח     And shined                ×2
+    נטית     Nettie                    ×1
+    שלחת     Submit                    ×1
+    לזרח     Shine                     ×1
+    יעשה     Will do                   ×1
+    מעשת     Play                      ×1
+    בשני     On Monday                 ×1
+    וגבל     and border                ×1
+    בידי     Biddy                     ×1
+    הששי     Friday                    ×1
+    ידכה     <unk>                     ×1
+    ובגר     and Bagger                ×1
+    זרוע     Arm                       ×1
+    חיקו     Hike                      ×1
+
+  ── Basin walks (top 10 words) ──
+    כשש (About) → כשש
+    שוע (Shua) → עשו
+    וזר (WALK) → וזר
+    לגז (For gas) → גזל
+    שיו (Shio) → ויש
+    בקע (Bough) → בקע
+    וקר (And cold) → וקר
+    ושש (And six) → ושש
+    השש (The Six) → השש
+    תני (Give) → תני
+
+  Saved: data/dna/prion-prp-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Malaria-CSP                                   ║
+║  P19597                                        ║
+║  P. falciparum circumsporozoite protein. Va... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P19597 from UniProt
+
+  397 residues → 397 Hebrew letters. GV=14814.
+  Factors: 2 × 3 × 3 × 823
+
+  Hebrew: בברקנדמניטייתנתטלדנתצלזצפזשיייחהרטנחלנחזגחדשהחנזחלנלבחזזשקצלחכזינקקחירינשלחגגשחחלגחלקנרקוקעקקנקצודגשחוגוחדחוחטגוחדחוחטגו...
+
+  Letter frequencies:
+    ח → Asn  = 117 (29.5%)
+    ו → Pro  =  52 (13.1%)
+    ד → Ala  =  47 (11.8%)
+    ק → Lys  =  22 (5.5%)
+    י → Ser  =  21 (5.3%)
+    נ → Leu  =  19 (4.8%)
+    ל → Glu  =  17 (4.3%)
+    ג → Asp  =  16 (4.0%)
+    ט → Val  =  15 (3.8%)
+    ש → Gly  =  13 (3.3%)
+    ז → Tyr  =   9 (2.3%)
+    מ → Ile  =   9 (2.3%)
+    צ → Gln  =   8 (2.0%)
+    ר → Arg  =   6 (1.5%)
+    ת → Phe  =   6 (1.5%)
+    ב → Met  =   6 (1.5%)
+    פ → Cys  =   5 (1.3%)
+    ה → Thr  =   4 (1.0%)
+    ע → His  =   3 (0.8%)
+    כ → Trp  =   2 (0.5%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    חיי (1×) at 381
+
+  Top 3-letter words:
+    וחג      And holiday               ×9
+    וטח      And flat                  ×4
+    לנח      Noah                      ×4
+    יחד      Together                  ×3
+    תני      Give                      ×3
+    ופי      And Fi                    ×2
+    וחק      and enacted               ×2
+    יחי      Long live                 ×2
+    עמק      Valley                    ×2
+    מקל      Stick                     ×2
+    בלק      Black                     ×2
+    שיו      Shio                      ×1
+    שני      two/second                ×1
+    חלל      Space                     ×1
+    כלי      Tool                      ×1
+
+  Top 4-letter words:
+    כליה     Kidney                    ×2
+    מצחק     Laughs                    ×2
+    חדשה     New                       ×2
+    נטית     Nettie                    ×1
+    שניר     Snir                      ×1
+    כפיו     Coercion                  ×1
+    ויגל     Wiggle                    ×1
+    יניח     Suppose                   ×1
+    יחיה     Live                      ×1
+    וישק     Vishk                     ×1
+    כליו     His Tools                 ×1
+    ימיש     Yemish                    ×1
+    לזבח     Sacrifice                 ×1
+    לצחק     To Isaac                  ×1
+    ירחק     Far Away                  ×1
+
+  ── Basin walks (top 10 words) ──
+    וחג (And holiday) → וחג
+    וטח (And flat) → וטח
+    לנח (Noah) → לנח
+    יחד (Together) → יחד
+    תני (Give) → תני
+    ופי (And Fi) → פיו
+    וחק (and enacted) → וחק
+    יחי (Long live) → חיי
+    עמק (Valley) → עמק
+    מקל (Stick) → מקל
+
+  Saved: data/dna/malaria-csp-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Toxoplasma-SAG1                               ║
+║  P13664                                        ║
+║  T. gondii surface antigen 1. The mind-alte... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P13664 from UniProt
+
+  336 residues → 336 Hebrew letters. GV=21336.
+  Factors: 2 × 2 × 2 × 3 × 7 × 127
+  GV ÷ 7 = 3048  ← completeness
+
+  Hebrew: ביטינעעתממיישתנהיבתוקדטררדטהדשטתדדוהנביתנרפשטבדיגוונטדחצטטהפוגקקיהדדטמנהוהלחעתהנקפוקהדנהלווהנדזיוחרצמפודשההייפהיקדטהניינ...
+
+  Letter frequencies:
+    ד → Ala  =  37 (11.0%)
+    ה → Thr  =  36 (10.7%)
+    י → Ser  =  35 (10.4%)
+    ט → Val  =  29 (8.6%)
+    ש → Gly  =  25 (7.4%)
+    נ → Leu  =  22 (6.5%)
+    ק → Lys  =  22 (6.5%)
+    ו → Pro  =  21 (6.3%)
+    מ → Ile  =  16 (4.8%)
+    פ → Cys  =  14 (4.2%)
+    ת → Phe  =  12 (3.6%)
+    ג → Asp  =  12 (3.6%)
+    ל → Glu  =  12 (3.6%)
+    ח → Asn  =  10 (3.0%)
+    צ → Gln  =   8 (2.4%)
+    ב → Met  =   7 (2.1%)
+    ע → His  =   6 (1.8%)
+    ר → Arg  =   6 (1.8%)
+    ז → Tyr  =   3 (0.9%)
+    כ → Trp  =   3 (0.9%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    הוה (1×) at 71
+
+  Top 3-letter words:
+    שדה      Field                     ×6
+    נדה      Neda                      ×4
+    הנה      Here.                     ×3
+    ידי      Hands                     ×3
+    דגי      Fish                      ×3
+    קנה      Buy                       ×3
+    פשה      Pesha                     ×3
+    נוה      Nave                      ×3
+    נטה      Neta                      ×3
+    קנו      Buy                       ×2
+    ילד      Boy                       ×2
+    ודל      Weddell                   ×2
+    מנה      Dose                      ×2
+    ולה      Vela                      ×2
+    השה      The Lamb                  ×2
+
+  Top 4-letter words:
+    הוחל     Apply                     ×2
+    ותלד     and birth                 ×2
+    הנשה     Hensha                    ×2
+    גדיי     Gadi                      ×2
+    הנדה     Handa                     ×2
+    יבנה     Yavne                     ×2
+    בנית     You built                 ×2
+    ותדד     And tripping              ×2
+    גדיש     Gadish                    ×2
+    ינהג     Drive                     ×2
+    ימעט     Yats                      ×1
+    שנתה     Sleep                     ×1
+    הבית     Home                      ×1
+    וירח     and Moon                  ×1
+    נמול     Numul                     ×1
+
+  ── Basin walks (top 10 words) ──
+    שדה (Field) → שדה
+    נדה (Neda) → נדה
+    הנה (Here.) → הנה
+    ידי (Hands) → ידי
+    דגי (Fish) → יגד
+    קנה (Buy) → קנה
+    פשה (Pesha) → שפה
+    נוה (Nave) → נוה
+    נטה (Neta) → נטה
+    קנו (Buy) → קנו
+
+  Saved: data/dna/toxoplasma-sag1-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Candida-Als3                                  ║
+║  O74623                                        ║
+║  C. albicans agglutinin-like protein 3. Com... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched O74623 from UniProt
+
+  1119 residues → 1119 Hebrew letters. GV=52986.
+  Factors: 2 × 3 × 8831
+
+  Hebrew: בנצצזהנננמזניטדהדקהמהשטתחיתחינהכיחדדהזחזקשושהוהכחדטנשכינגשהידיושגהתהנחבופטתקתההיצהיטגנהדעשטקזדהפצתצדשללתבהתיהנהפהטיחהנהו...
+
+  Letter frequencies:
+    ה → Thr  = 258 (23.1%)
+    י → Ser  = 125 (11.2%)
+    ו → Pro  =  80 (7.1%)
+    ט → Val  =  80 (7.1%)
+    ש → Gly  =  64 (5.7%)
+    מ → Ile  =  62 (5.5%)
+    ח → Asn  =  56 (5.0%)
+    ל → Glu  =  56 (5.0%)
+    ד → Ala  =  53 (4.7%)
+    ז → Tyr  =  45 (4.0%)
+    ג → Asp  =  41 (3.7%)
+    נ → Leu  =  40 (3.6%)
+    צ → Gln  =  30 (2.7%)
+    ת → Phe  =  29 (2.6%)
+    ק → Lys  =  25 (2.2%)
+    כ → Trp  =  22 (2.0%)
+    ר → Arg  =  18 (1.6%)
+    ע → His  =  15 (1.3%)
+    פ → Cys  =  11 (1.0%)
+    ב → Met  =   9 (0.8%)
+
+  ── Serpent search ──
+    1 hits:
+    [236] שנח — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    הוה (1×) at 44
+    חוה (5×) at 418, 434, 506, 614, 794
+
+  Top 3-letter words:
+    היה      Was                       ×18
+    הלה      Hela                      ×15
+    המה      The what?                 ×15
+    יזה      Yaza                      ×11
+    ולו      And him                   ×10
+    דוה      Dove                      ×9
+    מטה      staff/tribe               ×8
+    השש      The Six                   ×8
+    חוה      Eve                       ×8
+    גשה      Submit                    ×8
+    ושש      And six                   ×7
+    הטי      Hetty                     ×7
+    נטה      Neta                      ×7
+    הנה      Here.                     ×6
+    יהי      May                       ×6
+
+  Top 4-letter words:
+    ההמה     The Haema                 ×12
+    וחלו     Vahlo                     ×10
+    היתה     There was                 ×7
+    וששה     And six                   ×7
+    השמה     Placement                 ×5
+    השלו     The Peace                 ×4
+    ידיה     Her hands                 ×4
+    הטוח     The Flat                  ×4
+    הקמה     Formation                 ×4
+    מדוה     Madwa                     ×4
+    תודה     Thanks.                   ×3
+    שמטה     Down                      ×3
+    הימה     Hima                      ×3
+    ממטה     From below                ×3
+    יהיו     There will be             ×3
+
+  ── Basin walks (top 10 words) ──
+    היה (Was) → היה
+    הלה (Hela) → הלה
+    המה (The what?) → המה
+    יזה (Yaza) → יזה
+    ולו (And him) → ולו
+    דוה (Dove) → דוה
+    מטה (staff/tribe) → מטה
+    השש (The Six) → השש
+    חוה (Eve) → חוה
+    גשה (Submit) → גשה
+
+  Saved: data/dna/candida-als3-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Lactobacillus-SlpA                            ║
+║  P35829                                        ║
+║  L. acidophilus S-layer protein A. Probioti... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P35829 from UniProt
+
+  444 residues → 444 Hebrew letters. GV=20580.
+  Factors: 2 × 2 × 3 × 5 × 7 × 7 × 7
+  GV ÷ 7 = 2940  ← completeness
+
+  Hebrew: בקקחנרמטידדדדדננדטדוטדדידטיהטידדההמחדייידמחהחהחדקזגטגטהויטידטדדחהדחחהודמדשחנהשהמידיזחשקהזהדחנקדגהלחדהמהדדשיההדטקודלנדדשט...
+
+  Letter frequencies:
+    ד → Ala  =  65 (14.6%)
+    ט → Val  =  55 (12.4%)
+    ה → Thr  =  54 (12.2%)
+    ח → Asn  =  52 (11.7%)
+    ק → Lys  =  38 (8.6%)
+    י → Ser  =  35 (7.9%)
+    ש → Gly  =  23 (5.2%)
+    ז → Tyr  =  23 (5.2%)
+    ג → Asp  =  20 (4.5%)
+    נ → Leu  =  16 (3.6%)
+    מ → Ile  =  16 (3.6%)
+    ת → Phe  =   9 (2.0%)
+    ו → Pro  =   9 (2.0%)
+    צ → Gln  =   8 (1.8%)
+    ר → Arg  =   8 (1.8%)
+    ל → Glu  =   8 (1.8%)
+    ע → His  =   3 (0.7%)
+    ב → Met  =   2 (0.5%)
+
+  ── Serpent search ──
+    1 hits:
+    [ 73] שחנ — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    הטי      Hetty                     ×5
+    חטה      Noach                     ×5
+    ידי      Hands                     ×4
+    קשה      Hard                      ×4
+    שדי      Demon                     ×4
+    חמה      Hot                       ×4
+    יזד      Yazd                      ×3
+    יחד      Together                  ×3
+    חדד      Haddad                    ×3
+    חלה      Challah                   ×3
+    שחד      bribe                     ×3
+    חגי      Haggai                    ×3
+    המה      The what?                 ×3
+    חיה      Animal                    ×3
+    חנה      Hannah                    ×3
+
+  Top 4-letter words:
+    יחמד     Yachad                    ×4
+    החלד     Rust                      ×3
+    מידי     Midi                      ×2
+    דינה     Dina                      ×2
+    החגי     Holiday                   ×2
+    נקרה     Nekre                     ×2
+    גדלה     Growing                   ×2
+    הנחש     The Serpent               ×2
+    קיטר     Kitter                    ×2
+    יזיד     Yazid                     ×2
+    לחדש     To renew                  ×1
+    יקנה     Buy                       ×1
+    שטנה     Tanna                     ×1
+    חמשה     Five.                     ×1
+    ועדה     Committee                 ×1
+
+  ── Basin walks (top 10 words) ──
+    הטי (Hetty) → הטי
+    חטה (Noach) → חטה
+    ידי (Hands) → ידי
+    קשה (Hard) → קשה
+    שדי (Demon) → דיש
+    חמה (Hot) → מחה
+    יזד (Yazd) → יזד
+    יחד (Together) → יחד
+    חדד (Haddad) → חדד
+    חלה (Challah) → null
+
+  Saved: data/dna/lactobacillus-slpa-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Tardigrade-Dsup                               ║
+║  P0DOW4                                        ║
+║  R. varieornatus damage suppressor. Shields... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P0DOW4 from UniProt
+
+  445 residues → 445 Hebrew letters. GV=34204.
+  Factors: 2 × 2 × 17 × 503
+
+  Hebrew: בדיהעצייהלוייהשקיללהקקגדיצשישצגיקחטהטהקשהשיידהידדמטקהששיצשקגייההדשיייהצשצקתיההוהגוקהתייגצקלקיקיודקלטויששגיקיצשגהקיציגדקי...
+
+  Letter frequencies:
+    י → Ser  =  79 (17.8%)
+    ד → Ala  =  72 (16.2%)
+    ש → Gly  =  69 (15.5%)
+    ק → Lys  =  59 (13.3%)
+    ה → Thr  =  31 (7.0%)
+    ג → Asp  =  29 (6.5%)
+    ט → Val  =  21 (4.7%)
+    ל → Glu  =  19 (4.3%)
+    צ → Gln  =  18 (4.0%)
+    ו → Pro  =  14 (3.1%)
+    ר → Arg  =  12 (2.7%)
+    ח → Asn  =   6 (1.3%)
+    ע → His  =   5 (1.1%)
+    מ → Ile  =   4 (0.9%)
+    ב → Met  =   3 (0.7%)
+    ת → Phe  =   2 (0.4%)
+    נ → Leu  =   1 (0.2%)
+    ז → Tyr  =   1 (0.2%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    קדש (2×) at 227, 437
+    הוה (1×) at 77
+
+  Top 3-letter words:
+    קדש      be holy                   ×21
+    שדי      Demon                     ×7
+    קשי      Kashi                     ×7
+    ששי      Friday                    ×6
+    יהי      May                       ×6
+    היד      The Hand                  ×6
+    ידי      Hands                     ×5
+    שרש      Shersh                    ×5
+    יגש      Yishpe                    ×5
+    דדו      Dedo                      ×5
+    הדד      HUD                       ×5
+    היש      Hish                      ×4
+    קשה      Hard                      ×4
+    דגי      Fish                      ×4
+    השש      The Six                   ×4
+
+  Top 4-letter words:
+    יקדש     Sacred Name               ×7
+    ידיד     Friend                    ×5
+    הששי     Friday                    ×3
+    ויקד     Vicked                    ×3
+    יהיו     There will be             ×3
+    הלוי     Halevi                    ×2
+    ישקל     Ishakel                   ×2
+    ילדי     My child                  ×2
+    ישיש     Yeshish                   ×2
+    ידיה     Her hands                 ×2
+    יציק     Yatzik                    ×2
+    יקהת     Yekath                    ×2
+    שילה     Sheila                    ×2
+    יקשה     Yaksha                    ×2
+    לחדש     To renew                  ×1
+
+  ── Basin walks (top 10 words) ──
+    קדש (be holy) → קדש
+    שדי (Demon) → דיש
+    קשי (Kashi) → ישק
+    ששי (Friday) → ששי
+    יהי (May) → היי
+    היד (The Hand) → ידה
+    ידי (Hands) → ידי
+    שרש (Shersh) → שרש
+    יגש (Yishpe) → יגש
+    דדו (Dedo) → דדו
+
+  Saved: data/dna/tardigrade-dsup-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Human-Insulin                                 ║
+║  P01308                                        ║
+║  Human insulin precursor. 110 residues. The... ║
+╚═══════════════════════════════════════════════╝
+
+  110 residues → 110 Hebrew letters. GV=8867.
+  Factors: 8867
+
+  Hebrew: בדנכברננוננדננדנכשוגודדדתטחצענפשיענטלדנזנטפשלרשתתזהוקהררלדלגנצטשצטלנשששושדשינצונדנלשינצקרשמטלצפפהימפינזצנלחזפח
+
+  Letter frequencies:
+    נ → Leu  =  20 (18.2%)
+    ש → Gly  =  12 (10.9%)
+    ד → Ala  =  10 (9.1%)
+    ל → Glu  =   8 (7.3%)
+    צ → Gln  =   7 (6.4%)
+    פ → Cys  =   6 (5.5%)
+    ו → Pro  =   6 (5.5%)
+    ט → Val  =   6 (5.5%)
+    ר → Arg  =   5 (4.5%)
+    י → Ser  =   5 (4.5%)
+    ז → Tyr  =   4 (3.6%)
+    ת → Phe  =   3 (2.7%)
+    ה → Thr  =   3 (2.7%)
+    ח → Asn  =   3 (2.7%)
+    ע → His  =   2 (1.8%)
+    ק → Lys  =   2 (1.8%)
+    ב → Met  =   2 (1.8%)
+    ג → Asp  =   2 (1.8%)
+    כ → Trp  =   2 (1.8%)
+    מ → Ile  =   2 (1.8%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    שני      two/second                ×2
+    מפי      From                      ×2
+    ושש      And six                   ×2
+    לשר      To Minister               ×2
+    רכב      Vehicle                   ×1
+    וזה      And this                  ×1
+    שקר      False                     ×1
+    מטל      Metal                     ×1
+    עני      Answer                    ×1
+    גשו      Come on.                  ×1
+    נדב      Nadav                     ×1
+    שמר      guard/keep                ×1
+    לדר      To Der                    ×1
+    גדל      Growing                   ×1
+    שדי      Demon                     ×1
+
+  Top 4-letter words:
+    נכבד     Honourable                ×2
+    לשני     For Two                   ×2
+    גדוד     Battalion                 ×1
+    נפשי     Mental                    ×1
+    פשעי     Crimes                    ×1
+    יענש     Punished                  ×1
+    לרשת     Network                   ×1
+    ינצו     Janzo                     ×1
+
+  ── Basin walks (top 10 words) ──
+    שני (two/second) → נשי
+    מפי (From) → מפי
+    ושש (And six) → ושש
+    לשר (To Minister) → לשר
+    רכב (Vehicle) → null
+    וזה (And this) → וזה
+    שקר (False) → קרש
+    מטל (Metal) → מטל
+    עני (Answer) → עני
+    גשו (Come on.) → גשו
+
+  Saved: data/dna/human-insulin-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Human-Oxytocin                                ║
+║  P01178                                        ║
+║  Oxytocin-neurophysin 1 precursor. 121 resi... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P01178 from UniProt
+
+  125 residues → 125 Hebrew letters. GV=11107.
+  Factors: 29 × 383
+
+  Hebrew: בדשוינדפפננשננדנהידפזמצחפונששקרדדוגנגטרקפנופשוששקשרפתשוחמפפדללנשפתטשהדלדנרפצללחזנויופצישצקדפשיששרפדטנשנפפיוגשפעדגודפגדלד...
+
+  Letter frequencies:
+    פ → Cys  =  18 (14.4%)
+    ש → Gly  =  17 (13.6%)
+    ד → Ala  =  15 (12.0%)
+    נ → Leu  =  14 (11.2%)
+    ו → Pro  =  10 (8.0%)
+    י → Ser  =   7 (5.6%)
+    ר → Arg  =   6 (4.8%)
+    ל → Glu  =   6 (4.8%)
+    צ → Gln  =   5 (4.0%)
+    ג → Asp  =   5 (4.0%)
+    ק → Lys  =   4 (3.2%)
+    ת → Phe  =   3 (2.4%)
+    ה → Thr  =   3 (2.4%)
+    ח → Asn  =   3 (2.4%)
+    ט → Val  =   3 (2.4%)
+    ז → Tyr  =   2 (1.6%)
+    מ → Ile  =   2 (1.6%)
+    ע → His  =   1 (0.8%)
+    ב → Met  =   1 (0.8%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    ששי      Friday                    ×2
+    שקר      False                     ×2
+    ופי      And Fi                    ×2
+    שפת      Language                  ×2
+    ושש      And six                   ×2
+    נפש      soul                      ×2
+    שפו      Shefu                     ×2
+    דלה      Della                     ×2
+    שפר      Shefer                    ×2
+    שיו      Shio                      ×1
+    שפע      Plenty                    ×1
+    שנו      Change                    ×1
+    צפו      Watch                     ×1
+    חלל      Space                     ×1
+    מצח      forehead                  ×1
+
+  Top 4-letter words:
+    שרפת     Burned                    ×2
+    דינה     Dina                      ×2
+    גדוד     Battalion                 ×2
+    ונפש     and soul                  ×2
+    צפוי     Predicted                 ×2
+    תשטה     Fool                      ×1
+    ודבש     And honey                 ×1
+    שפתו     His Language              ×1
+    ויפג     Vipg                      ×1
+    ושחת     And swam                  ×1
+    צרתי     I was sorry               ×1
+    ונגד     and against               ×1
+    ישגו     Isga                      ×1
+    הלדת     The Birth                 ×1
+    שניו     Shanio                    ×1
+
+  ── Basin walks (top 10 words) ──
+    ששי (Friday) → ששי
+    שקר (False) → קרש
+    ופי (And Fi) → פיו
+    שפת (Language) → שפת
+    ושש (And six) → ושש
+    נפש (soul) → נפש
+    שפו (Shefu) → שפו
+    דלה (Della) → דלה
+    שפר (Shefer) → פרש
+    שיו (Shio) → ויש
+
+  Saved: data/dna/human-oxytocin-oracle.edn
+
+
+════════════════════════════════════════════════════════
+  THE SERPENT GRADIENT — CROSS-ORGANISM SUMMARY
+════════════════════════════════════════════════════════
+
+  ── Size & GV ──
+  Prion-PrP                  253 residues  GV=23,992
+  Malaria-CSP                397 residues  GV=14,814
+  Toxoplasma-SAG1            336 residues  GV=21,336
+  Candida-Als3              1119 residues  GV=52,986
+  Lactobacillus-SlpA         444 residues  GV=20,580
+  Tardigrade-Dsup            445 residues  GV=34,204
+  Human-Insulin              110 residues  GV=8,867
+  Human-Oxytocin             125 residues  GV=11,107
+
+  ── Serpent Census ──
+  Prion-PrP                 serpent: 0 exact, 1 anagram, 1 total
+  Malaria-CSP               serpent: 0 exact, 0 anagram, 0 total
+  Toxoplasma-SAG1           serpent: 0 exact, 0 anagram, 0 total
+  Candida-Als3              serpent: 0 exact, 1 anagram, 1 total
+  Lactobacillus-SlpA        serpent: 0 exact, 1 anagram, 1 total
+  Tardigrade-Dsup           serpent: 0 exact, 0 anagram, 0 total
+  Human-Insulin             serpent: 0 exact, 0 anagram, 0 total
+  Human-Oxytocin            serpent: 0 exact, 0 anagram, 0 total
+
+  ── Lamb Census ──
+  Prion-PrP                 lamb: 0 exact, 0 anagram (שכב), 0 total
+  Malaria-CSP               lamb: 0 exact, 0 anagram (שכב), 0 total
+  Toxoplasma-SAG1           lamb: 0 exact, 0 anagram (שכב), 0 total
+  Candida-Als3              lamb: 0 exact, 0 anagram (שכב), 0 total
+  Lactobacillus-SlpA        lamb: 0 exact, 0 anagram (שכב), 0 total
+  Tardigrade-Dsup           lamb: 0 exact, 0 anagram (שכב), 0 total
+  Human-Insulin             lamb: 0 exact, 0 anagram (שכב), 0 total
+  Human-Oxytocin            lamb: 0 exact, 0 anagram (שכב), 0 total
+
+  ── Key Words Across Organisms ──
+  חוה      0   0   0   5   0   0   0   0
+  אדם      0   0   0   0   0   0   0   0
+  רפא      0   0   0   0   0   0   0   0
+  חיה      0   0   0   0   0   0   0   0
+  מות      0   0   0   0   0   0   0   0
+  קדש      0   0   0   0   0   2   0   0
+  אהב      0   0   0   0   0   0   0   0
+  אור      0   0   0   0   0   0   0   0
+  רחם      0   0   0   0   0   0   0   0
+  גאל      0   0   0   0   0   0   0   0
+  צלם      0   0   0   0   0   0   0   0
+    ──────  ──────  ──────  ──────  ──────  ──────  ──────  ──────
+  name   Pri Mal Tox Can Lac Tar Hum Hum
+
+  ── Top 3-letter Word #1 per Organism ──
+  Prion-PrP                 כשש (About) ×11
+  Malaria-CSP               וחג (And holiday) ×9
+  Toxoplasma-SAG1           שדה (Field) ×6
+  Candida-Als3              היה (Was) ×18
+  Lactobacillus-SlpA        הטי (Hetty) ×5
+  Tardigrade-Dsup           קדש (be holy) ×21
+  Human-Insulin             שני (two/second) ×2
+  Human-Oxytocin            ששי (Friday) ×2

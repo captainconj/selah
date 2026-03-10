@@ -1,0 +1,205 @@
+════════════════════════════════════════════════
+  EXPERIMENT 125: THE INVISIBLE BLESSING
+  Is ברך always 0/0? Are curses visible?
+  כי נא — because, please
+════════════════════════════════════════════════
+
+════════════════════════════════════════════════
+  ALL FORMS OF BLESSING
+════════════════════════════════════════════════
+
+  ברך (bless (verb)) GV=222 · 0 illum · 0 read · basin→null
+    basin path: []
+[dict] Loading Torah English translations...
+
+  ברכה (blessing (noun)) GV=227 · 90 illum · 360 read · basin→ברכה
+    basin path: []
+    aaron : הבכר(6) הרכב(6)
+    god   : ברכה(12) בכרה(8)
+    right : הרכב(9) ברכה(7) בכרה(6) הבכר(2)
+    left  : ברכה(10) בכרה(9) הבכר(3) הרכב(3)
+
+  ברוך (blessed) GV=228 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  מברך (one who blesses) GV=262 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  תברך (you will be blessed) GV=622 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  כרב (cherub-approach) GV=222 · 30 illum · 120 read · basin→null
+    basin path: []
+    aaron : בכר(8) רכב(6)
+    god   : רכב(8) בכר(6)
+    right : רכב(9) בכר(6)
+    left  : בכר(9) רכב(6)
+
+  רכב (chariot/ride) GV=222 · 30 illum · 120 read · basin→null
+    basin path: []
+    aaron : בכר(8) רכב(6)
+    god   : רכב(8) בכר(6)
+    right : רכב(9) בכר(6)
+    left  : בכר(9) רכב(6)
+
+  בכר (firstborn) GV=222 · 30 illum · 120 read · basin→null
+    basin path: []
+    aaron : בכר(8) רכב(6)
+    god   : רכב(8) בכר(6)
+    right : רכב(9) בכר(6)
+    left  : בכר(9) רכב(6)
+
+  ברך (knee) GV=222 · 0 illum · 0 read · basin→null
+    basin path: []
+
+════════════════════════════════════════════════
+  ALL FORMS OF CURSE
+════════════════════════════════════════════════
+
+  ארר (curse (ארר)) GV=401 · 30 illum · 120 read · basin→null
+    basin path: []
+
+  ארור (cursed) GV=407 · 210 illum · 840 read · basin→ארור
+    basin path: []
+    aaron : ארור(24)
+    god   : ארור(16)
+    right : ארור(9)
+    left  : ארור(40)
+
+  מארה (curse (noun)) GV=246 · 90 illum · 360 read · basin→אמרה
+    basin path: []
+    god   : מראה(6) אמרה(1)
+    right : אמרה(1)
+    left  : אמרה(18)
+
+  קלל (curse/lighten (קלל)) GV=160 · 6 illum · 24 read · basin→קלל
+    basin path: []
+    aaron : קלל(6)
+    right : לקל(4) קלל(2)
+    left  : לקל(4)
+
+  קללה (curse (noun, קלל)) GV=165 · 18 illum · 72 read · basin→לקהל
+    basin path: []
+    right : לקהל(8)
+
+  חרם (devoted destruction) GV=248 · 5 illum · 20 read · basin→חרם
+    basin path: []
+    aaron : חרם(1) רחם(1)
+    right : חרם(3) רחם(2)
+
+  נדה (impurity/banishment) GV=59 · 18 illum · 72 read · basin→נדה
+    basin path: []
+    god   : נדה(6)
+    right : נדה(1)
+    left  : נדה(4)
+
+  אלה (oath/curse) GV=36 · 27 illum · 108 read · basin→אהל
+    basin path: []
+    aaron : אהל(18) הלא(9)
+    god   : לאה(6) אלה(6)
+    right : אהל(9) הלא(8) האל(4) אלה(2) לאה(1)
+    left  : לאה(9) אלה(5) אהל(4) הלא(2)
+
+  נאץ (spurn/blaspheme) GV=141 · 0 illum · 0 read · basin→null
+    basin path: []
+
+  גדף (revile) GV=87 · 3 illum · 12 read · basin→null
+    basin path: []
+
+  חלל (profane/pierced) GV=68 · 3 illum · 12 read · basin→חלל
+    basin path: []
+    aaron : חלל(3)
+    right : חלל(1)
+
+  שפט (judge) GV=389 · 6 illum · 24 read · basin→null
+    basin path: []
+
+  דין (judgment/law) GV=64 · 198 illum · 792 read · basin→דין
+    basin path: []
+    aaron : דין(35)
+    god   : דין(17)
+    right : דין(25)
+    left  : דין(50)
+
+  נקם (vengeance) GV=190 · 4 illum · 16 read · basin→נקם
+    basin path: []
+    right : נקם(2)
+
+  עונש (punishment) GV=426 · 168 illum · 672 read · basin→נעשו
+    basin path: []
+    aaron : ענוש(23) נעשו(9) נושע(2)
+    god   : נושע(10)
+    right : נושע(18) נעשו(10)
+    left  : נעשו(21) עשנו(5) נושע(3)
+
+  נגף (plague/strike) GV=133 · 2 illum · 8 read · basin→נגף
+    basin path: []
+    aaron : נגף(1)
+    right : נגף(1)
+
+  נגע (plague/touch) GV=123 · 4 illum · 16 read · basin→נגע
+    basin path: []
+    god   : נגע(2)
+    left  : נגע(2)
+
+  דבר (pestilence/word) GV=206 · 90 illum · 360 read · basin→ברד
+    basin path: []
+    aaron : ברד(20) רבד(8) דבר(6)
+    god   : ברד(14) דבר(11) רבד(6)
+    right : ברד(20) רבד(13) דבר(8)
+    left  : ברד(19) דבר(14) רבד(6)
+
+  מגפה (epidemic) GV=128 · 6 illum · 24 read · basin→null
+    basin path: []
+
+  שחת (destroy/pit) GV=708 · 6 illum · 24 read · basin→תחש
+    basin path: []
+    right : תחש(5)
+    left  : שחת(5)
+
+  כרת (cut off) GV=620 · 5 illum · 20 read · basin→כרת
+    basin path: []
+    god   : כרת(1)
+    left  : כרת(2)
+
+════════════════════════════════════════════════
+  SUMMARY
+════════════════════════════════════════════════
+
+  ── Blessings ──
+    ברך      bless (verb)              GV=222  illum=  0  read=   0  basin→null
+    ברכה     blessing (noun)           GV=227  illum= 90  read= 360  basin→ברכה
+    ברוך     blessed                   GV=228  illum=  0  read=   0  basin→null
+    מברך     one who blesses           GV=262  illum=  0  read=   0  basin→null
+    תברך     you will be blessed       GV=622  illum=  0  read=   0  basin→null
+    כרב      cherub-approach           GV=222  illum= 30  read= 120  basin→null
+    רכב      chariot/ride              GV=222  illum= 30  read= 120  basin→null
+    בכר      firstborn                 GV=222  illum= 30  read= 120  basin→null
+    ברך      knee                      GV=222  illum=  0  read=   0  basin→null
+
+  ── Curses ──
+    ארר      curse (ארר)               GV=401  illum= 30  read= 120  basin→null
+    ארור     cursed                    GV=407  illum=210  read= 840  basin→ארור
+    מארה     curse (noun)              GV=246  illum= 90  read= 360  basin→אמרה
+    קלל      curse/lighten (קלל)       GV=160  illum=  6  read=  24  basin→קלל
+    קללה     curse (noun, קלל)         GV=165  illum= 18  read=  72  basin→לקהל
+    חרם      devoted destruction       GV=248  illum=  5  read=  20  basin→חרם
+    נדה      impurity/banishment       GV= 59  illum= 18  read=  72  basin→נדה
+    אלה      oath/curse                GV= 36  illum= 27  read= 108  basin→אהל
+    נאץ      spurn/blaspheme           GV=141  illum=  0  read=   0  basin→null
+    גדף      revile                    GV= 87  illum=  3  read=  12  basin→null
+    חלל      profane/pierced           GV= 68  illum=  3  read=  12  basin→חלל
+    שפט      judge                     GV=389  illum=  6  read=  24  basin→null
+    דין      judgment/law              GV= 64  illum=198  read= 792  basin→דין
+    נקם      vengeance                 GV=190  illum=  4  read=  16  basin→נקם
+    עונש     punishment                GV=426  illum=168  read= 672  basin→נעשו
+    נגף      plague/strike             GV=133  illum=  2  read=   8  basin→נגף
+    נגע      plague/touch              GV=123  illum=  4  read=  16  basin→נגע
+    דבר      pestilence/word           GV=206  illum= 90  read= 360  basin→ברד
+    מגפה     epidemic                  GV=128  illum=  6  read=  24  basin→null
+    שחת      destroy/pit               GV=708  illum=  6  read=  24  basin→תחש
+    כרת      cut off                   GV=620  illum=  5  read=  20  basin→כרת
+
+  ── The asymmetry ──
+    Blessings invisible: 5/9
+    Curses invisible:    1/21

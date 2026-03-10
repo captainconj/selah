@@ -1,0 +1,417 @@
+════════════════════════════════════════════════════════
+  THE ENTHEOGENS — Four Plants Through the Breastplate
+  Psilocybin · THC · Mescaline · Scopolamine
+════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════╗
+║  Psilocybin-PsiM                               ║
+║  P0DPA9                                        ║
+║  Psilocybe cubensis psilocybin synthase. Th... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P0DPA9 from UniProt
+[dict] Loading Torah English translations...
+
+  309 residues → 309 Hebrew letters. GV=21196.
+  Factors: 2 × 2 × 7 × 757
+  GV ÷ 7 = 3028  ← completeness
+
+  Hebrew: בעמרחוזרהומגזצדנילדתוונקותטיטחדגשהייטגנהמולדצרדתהדדננערגתשנהבהמולגרנפוהטוחרנחזטנכמלגמתחזהחקהנשניגגרומקשטגמשהשדידמזובנדפד...
+
+  Letter frequencies:
+    נ → Leu  =  29 (9.4%)
+    ד → Ala  =  25 (8.1%)
+    י → Ser  =  23 (7.4%)
+    ל → Glu  =  23 (7.4%)
+    ה → Thr  =  22 (7.1%)
+    ש → Gly  =  19 (6.1%)
+    ו → Pro  =  19 (6.1%)
+    מ → Ile  =  19 (6.1%)
+    ר → Arg  =  18 (5.8%)
+    ט → Val  =  18 (5.8%)
+    ג → Asp  =  16 (5.2%)
+    ת → Phe  =  14 (4.5%)
+    ח → Asn  =  14 (4.5%)
+    ז → Tyr  =  12 (3.9%)
+    ק → Lys  =  11 (3.6%)
+    ב → Met  =   8 (2.6%)
+    צ → Gln  =   7 (2.3%)
+    פ → Cys  =   5 (1.6%)
+    כ → Trp  =   4 (1.3%)
+    ע → His  =   3 (1.0%)
+
+  ── Serpent search ──
+    1 hits:
+    [246] חנש — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    קני      Kenny.                    ×4
+    היש      Hish                      ×3
+    ומה      And what                  ×3
+    קנו      Buy                       ×2
+    ילד      Boy                       ×2
+    תדר      Frequency                 ×2
+    מטל      Metal                     ×2
+    כדי      To                        ×2
+    לשה      Lesha                     ×2
+    שנה      Year                      ×2
+    מלג      MALAG                     ×2
+    חקה      Haqqah                    ×2
+    וחי      and live                  ×2
+    מול      Mol                       ×2
+    חזה      Breast                    ×2
+
+  Top 4-letter words:
+    ולמה     And why                   ×2
+    תלדי     Give birth                ×2
+    היבל     Hibel                     ×2
+    וזרח     And shined                ×2
+    והזר     The Stranger              ×2
+    שנתה     Sleep                     ×1
+    ותלד     and birth                 ×1
+    וירח     and Moon                  ×1
+    יעשה     Will do                   ×1
+    החקה     Imitate                   ×1
+    שמטה     Down                      ×1
+    בשנה     per year                  ×1
+    גרשת     Expiration                ×1
+    מחלי     M<unk>l<unk>              ×1
+    הנדר     Vow                       ×1
+
+  ── Basin walks (top 10 words) ──
+    קני (Kenny.) → נקי
+    היש (Hish) → ישה
+    ומה (And what) → ומה
+    קנו (Buy) → קנו
+    ילד (Boy) → ילד
+    תדר (Frequency) → רדת
+    מטל (Metal) → מטל
+    כדי (To) → כדי
+    לשה (Lesha) → שלה
+    שנה (Year) → נשה
+
+  Saved: data/dna/psilocybin-psim-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  THC-THCAS                                     ║
+║  Q8GTB6                                        ║
+║  Cannabis sativa THCA synthase. Makes THC p... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched Q8GTB6 from UniProt
+
+  545 residues → 545 Hebrew letters. GV=41449.
+  Factors: 181 × 229
+
+  Hebrew: בחפידתיתכתטפקממתתתניתעמצמימדחורלחתנקפתיקעמוחחטדחוקנטזהצעגצנזבימנחיהמצחנרתמיגההוקונטמטהויחחיעמצדהמנפיקקטשנצמרהריששעגדלשבי...
+
+  Letter frequencies:
+    ק → Lys  =  44 (8.1%)
+    מ → Ile  =  43 (7.9%)
+    ח → Asn  =  41 (7.5%)
+    ש → Gly  =  39 (7.2%)
+    נ → Leu  =  38 (7.0%)
+    ט → Val  =  38 (7.0%)
+    י → Ser  =  37 (6.8%)
+    ת → Phe  =  32 (5.9%)
+    ד → Ala  =  28 (5.1%)
+    ה → Thr  =  28 (5.1%)
+    ז → Tyr  =  25 (4.6%)
+    ל → Glu  =  25 (4.6%)
+    ג → Asp  =  24 (4.4%)
+    ו → Pro  =  24 (4.4%)
+    ע → His  =  20 (3.7%)
+    ר → Arg  =  16 (2.9%)
+    צ → Gln  =  13 (2.4%)
+    ב → Met  =  13 (2.4%)
+    כ → Trp  =  11 (2.0%)
+    פ → Cys  =   6 (1.1%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    מות (1×) at 430
+    חיה (1×) at 64
+
+  Top 3-letter words:
+    מתי      When                      ×4
+    לחק      Legislature               ×4
+    צדה      Hunting                   ×3
+    המת      The Dead                  ×3
+    חקה      Haqqah                    ×3
+    חקת      You have                  ×3
+    תני      Give                      ×3
+    ידת      Handicap                  ×3
+    קנו      Buy                       ×2
+    תרח      Tahreh                    ×2
+    קנת      Kenneth                   ×2
+    מצח      forehead                  ×2
+    חלת      Challah                   ×2
+    ששי      Friday                    ×2
+    עמי      Ami                       ×2
+
+  Top 4-letter words:
+    שלחת     Submit                    ×2
+    המית     The Myth                  ×2
+    ימית     Marine                    ×2
+    ילבש     Wear                      ×2
+    ורחל     And Rachel                ×2
+    עשית     You did                   ×2
+    ממגד     Magad                     ×1
+    הדקת     Minute                    ×1
+    ימצה     YMCA                      ×1
+    עורת     Skin                      ×1
+    נחית     Landing                   ×1
+    מעשת     Play                      ×1
+    ושתי     And two                   ×1
+    עונו     Tortured                  ×1
+    החקה     Imitate                   ×1
+
+  ── Basin walks (top 10 words) ──
+    מתי (When) → ימת
+    לחק (Legislature) → לחק
+    צדה (Hunting) → הצד
+    המת (The Dead) → מתה
+    חקה (Haqqah) → חקה
+    חקת (You have) → חקת
+    תני (Give) → תני
+    ידת (Handicap) → ידת
+    קנו (Buy) → קנו
+    תרח (Tahreh) → תרח
+
+  Saved: data/dna/thc-thcas-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Mescaline-OMT1                                ║
+║  P0DXJ9                                        ║
+║  Lophophora williamsii O-methyltransferase.... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P0DXJ9 from UniProt
+
+  364 residues → 364 Hebrew letters. GV=26688.
+  Factors: 2 × 2 × 2 × 2 × 2 × 2 × 3 × 139
+
+  Hebrew: בשידישידלרהצבשלגלדפיתדבהמהישיטוובטנקדטמלנגטנלממקרדשושדעניודלמדדצנוההחושדדדבנגרבנרננדיזגטניזינעהנוגשרטלרנזשנדוטפצתנהחחלגש...
+
+  Letter frequencies:
+    ד → Ala  =  34 (9.3%)
+    נ → Leu  =  33 (9.1%)
+    ש → Gly  =  33 (9.1%)
+    ט → Val  =  25 (6.9%)
+    ל → Glu  =  23 (6.3%)
+    ה → Thr  =  21 (5.8%)
+    י → Ser  =  21 (5.8%)
+    ק → Lys  =  20 (5.5%)
+    ג → Asp  =  19 (5.2%)
+    ו → Pro  =  18 (4.9%)
+    מ → Ile  =  18 (4.9%)
+    ת → Phe  =  16 (4.4%)
+    ב → Met  =  16 (4.4%)
+    ח → Asn  =  16 (4.4%)
+    ע → His  =  14 (3.8%)
+    ר → Arg  =  11 (3.0%)
+    ז → Tyr  =  11 (3.0%)
+    פ → Cys  =   7 (1.9%)
+    צ → Gln  =   5 (1.4%)
+    כ → Trp  =   3 (0.8%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+    מות (1×) at 150
+
+  Top 3-letter words:
+    שדי      Demon                     ×3
+    נדע      We will know              ×2
+    ודל      Weddell                   ×2
+    קנת      Kenneth                   ×2
+    וזה      And this                  ×2
+    יזד      Yazd                      ×2
+    נרת      Nerth                     ×2
+    ויט      Whit                      ×2
+    שבי      Sit down                  ×2
+    ענה      answer/afflict            ×2
+    מטל      Metal                     ×2
+    נקד      Nokd                      ×2
+    קדש      be holy                   ×2
+    עני      Answer                    ×2
+    ושש      And six                   ×2
+
+  Top 4-letter words:
+    דנני     Denney                    ×3
+    הימה     Hima                      ×2
+    שלשת     3rd                       ×2
+    בהמה     animal/beast              ×2
+    יחשב     Considered                ×2
+    למעט     Except                    ×2
+    וטוב     And good                  ×2
+    הוחל     Apply                     ×1
+    שטנה     Tanna                     ×1
+    נעבד     Processed                 ×1
+    מקשה     Hard                      ×1
+    לבנת     White                     ×1
+    עינה     Eye                       ×1
+    קומה     Floor                     ×1
+    נזיד     Fries                     ×1
+
+  ── Basin walks (top 10 words) ──
+    שדי (Demon) → דיש
+    נדע (We will know) → נדע
+    ודל (Weddell) → ולד
+    קנת (Kenneth) → נתק
+    וזה (And this) → וזה
+    יזד (Yazd) → יזד
+    נרת (Nerth) → נרת
+    ויט (Whit) → ויט
+    שבי (Sit down) → ישב
+    ענה (answer/afflict) → נעה
+
+  Saved: data/dna/mescaline-omt1-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  Scopolamine-H6H                               ║
+║  Q6EZB3                                        ║
+║  Datura metel hyoscyamine 6β-hydroxylase. M... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched Q6EZB3 from UniProt
+
+  347 residues → 347 Hebrew letters. GV=22495.
+  Factors: 5 × 11 × 409
+
+  Hebrew: בדהנטיחכיהחחטיליתמדונלקרדלקגטדנשחגטוממגנצצגעננמטצצמהקדפצגתשנתצטמחעשטולקנבטלדבלטזקלתתדנודללקלקתצוקשלודקתלנונלצקדקנזטלשלרר...
+
+  Letter frequencies:
+    נ → Leu  =  38 (11.0%)
+    ל → Glu  =  31 (8.9%)
+    ק → Lys  =  25 (7.2%)
+    ו → Pro  =  25 (7.2%)
+    מ → Ile  =  25 (7.2%)
+    ט → Val  =  22 (6.3%)
+    ש → Gly  =  19 (5.5%)
+    ג → Asp  =  18 (5.2%)
+    ד → Ala  =  18 (5.2%)
+    ז → Tyr  =  18 (5.2%)
+    צ → Gln  =  16 (4.6%)
+    ח → Asn  =  16 (4.6%)
+    י → Ser  =  16 (4.6%)
+    ה → Thr  =  15 (4.3%)
+    ת → Phe  =  13 (3.7%)
+    ר → Arg  =   9 (2.6%)
+    ע → His  =   7 (2.0%)
+    פ → Cys  =   6 (1.7%)
+    ב → Met  =   6 (1.7%)
+    כ → Trp  =   4 (1.2%)
+
+  ── Serpent search ──
+    3 hits:
+    [ 30] נשח — anagram
+    [219] שחנ — anagram
+    [255] חנש — anagram
+
+  ── Lamb search ──
+    No lamb found.
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    קלת      Easy                      ×5
+    קלו      Klu                       ×3
+    מנה      Dose                      ×3
+    נחש      serpent                   ×3
+    שמי      My name                   ×3
+    מול      Mol                       ×3
+    ונד      Vand                      ×3
+    כחי      Live                      ×3
+    לנו      To Us                     ×3
+    תלד      Birth                     ×3
+    ודל      Weddell                   ×2
+    ששי      Friday                    ×2
+    נדה      Neda                      ×2
+    ופי      And Fi                    ×2
+    שנה      Year                      ×2
+
+  Top 4-letter words:
+    שמנה     Fat                       ×3
+    וקנז     And Kenz                  ×2
+    ומלק     And Melk                  ×2
+    הכיח     The smell                 ×2
+    קולו     Voice                     ×2
+    שימה     Shima                     ×2
+    קלנו     Kelano                    ×2
+    תקלל     Curse                     ×1
+    תודה     Thanks.                   ×1
+    בקנה     In the                    ×1
+    ישמע     Listen                    ×1
+    ונעל     And Shoe                  ×1
+    ולקט     Velket                    ×1
+    הפקד     Command                   ×1
+    וזנו     Vezno                     ×1
+
+  ── Basin walks (top 10 words) ──
+    קלת (Easy) → קלת
+    קלו (Klu) → קול
+    מנה (Dose) → מנה
+    נחש (serpent) → נחש
+    שמי (My name) → שמי
+    מול (Mol) → ומל
+    ונד (Vand) → נוד
+    כחי (Live) → כחי
+    לנו (To Us) → לנו
+    תלד (Birth) → תלד
+
+  Saved: data/dna/scopolamine-h6h-oracle.edn
+
+
+════════════════════════════════════════════════════════
+  THE SERPENT GRADIENT — CROSS-ORGANISM SUMMARY
+════════════════════════════════════════════════════════
+
+  ── Size & GV ──
+  Psilocybin-PsiM            309 residues  GV=21,196
+  THC-THCAS                  545 residues  GV=41,449
+  Mescaline-OMT1             364 residues  GV=26,688
+  Scopolamine-H6H            347 residues  GV=22,495
+
+  ── Serpent Census ──
+  Psilocybin-PsiM           serpent: 0 exact, 1 anagram, 1 total
+  THC-THCAS                 serpent: 0 exact, 0 anagram, 0 total
+  Mescaline-OMT1            serpent: 0 exact, 0 anagram, 0 total
+  Scopolamine-H6H           serpent: 0 exact, 3 anagram, 3 total
+
+  ── Lamb Census ──
+  Psilocybin-PsiM           lamb: 0 exact, 0 anagram (שכב), 0 total
+  THC-THCAS                 lamb: 0 exact, 0 anagram (שכב), 0 total
+  Mescaline-OMT1            lamb: 0 exact, 0 anagram (שכב), 0 total
+  Scopolamine-H6H           lamb: 0 exact, 0 anagram (שכב), 0 total
+
+  ── Key Words Across Organisms ──
+  חוה      0   0   0   0
+  אדם      0   0   0   0
+  רפא      0   0   0   0
+  חיה      0   1   0   0
+  מות      0   1   1   0
+  קדש      0   0   0   0
+  אהב      0   0   0   0
+  אור      0   0   0   0
+  רחם      0   0   0   0
+  גאל      0   0   0   0
+  צלם      0   0   0   0
+    ──────  ──────  ──────  ──────  ──────  ──────  ──────  ──────
+  name   Psi THC Mes Sco
+
+  ── Top 3-letter Word #1 per Organism ──
+  Psilocybin-PsiM           קני (Kenny.) ×4
+  THC-THCAS                 מתי (When) ×4
+  Mescaline-OMT1            שדי (Demon) ×3
+  Scopolamine-H6H           קלת (Easy) ×5

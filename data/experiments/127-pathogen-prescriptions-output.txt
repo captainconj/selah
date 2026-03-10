@@ -1,0 +1,1632 @@
+════════════════════════════════════════════════
+  EXPERIMENT 127: THE PATHOGEN CARRIES THE PRESCRIPTION
+  TB, sickle cell, p53 — through the breastplate
+  כי נא — because, please
+════════════════════════════════════════════════
+
+
+══ PART 1: M. TUBERCULOSIS ══
+
+╔═══════════════════════════════════════════════╗
+║  TB-Ag85B                                      ║
+║  P9WQP1                                        ║
+║  Antigen 85B. Key vaccine target. Mycolic a... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P9WQP1 from UniProt
+[dict] Loading Torah English translations...
+
+  325 residues → 325 Hebrew letters. GV=24797.
+  Factors: 137 × 181
+  GV ÷ 137 = 181  ← axis sum
+
+  Hebrew: בהגטירקמרדכשררנבמשהדדדטטנושנטשנדששדדהדשדתירושנוטלזנצטויויבשרגמקטצתציששחחיודטזננגשנרדצגגזחשכגמחהודתלכזזצישנימטבוטששצייתזי...
+
+  Letter frequencies:
+    ש → Gly  =  40 (12.3%)
+    ד → Ala  =  39 (12.0%)
+    י → Ser  =  29 (8.9%)
+    נ → Leu  =  28 (8.6%)
+    ו → Pro  =  22 (6.8%)
+    ח → Asn  =  18 (5.5%)
+    צ → Gln  =  16 (4.9%)
+    ט → Val  =  15 (4.6%)
+    ג → Asp  =  14 (4.3%)
+    ז → Tyr  =  14 (4.3%)
+    ה → Thr  =  12 (3.7%)
+    ר → Arg  =  11 (3.4%)
+    ת → Phe  =  11 (3.4%)
+    כ → Trp  =  11 (3.4%)
+    מ → Ile  =  11 (3.4%)
+    ב → Met  =  10 (3.1%)
+    ק → Lys  =   9 (2.8%)
+    ל → Glu  =   9 (2.8%)
+    ע → His  =   3 (0.9%)
+    פ → Cys  =   3 (0.9%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Key word search ──
+    בשר at 57
+    קדש at 128
+
+  ── 3-letter sliding window ──
+  112/323 windows produced readings.
+    [  3] טיר → ירט (Yert)
+    [  4] ירק → קרי (Kerry)
+    [  7] מרד → מדר (Madr)
+    [  9] דכש → כשד (As a demon)
+    [ 10] כשר → רכש (Purchase)
+    [ 16] משה → שמה (Her name)
+    [ 17] שהד → שדה (Field)
+    [ 18] הדד → הדד (HUD)
+    [ 24] נוש → שנו (Change)
+    [ 25] ושנ → שנו (Change)
+    [ 34] דדה → הדד (HUD)
+    [ 35] דהד → הדד (HUD)
+    [ 36] הדש → שדה (Field)
+    [ 39] דתי → ידת (Handicap)
+    [ 40] תיר → יתר (Over)
+    [ 42] רוש → שור (ox)
+    [ 43] ושנ → שנו (Change)
+    [ 44] שנו → שנו (Change)
+    [ 46] וטל → לוט (Lot)
+    [ 52] טוי → ויט (Whit)
+    [ 53] ויו → ווי (Wei)
+    [ 56] יבש → שבי (Sit down)
+    [ 57] בשר → שבר (Fracture)
+    [ 58] שרג → שגר (Launch)
+    [ 59] רגמ → גמר (Final)
+    [ 67] ישש → ששי (Friday)
+    [ 71] חיו → וחי (and live)
+    [ 72] יוד → ידו (His hand)
+    [ 78] נגש → נגש (Access)
+    [ 79] גשנ → נגש (Access)
+    [ 81] נרד → נרד (Nardo)
+    [ 88] חשכ → שכח (Forget)
+    [ 92] מחה → חמה (Hot)
+    [ 93] חהו → חוה (Eve)
+    [ 94] הוד → דוה (Dove)
+    [ 96] דתל → תלד (Birth)
+    [103] ישנ → שני (two/second)
+    [104] שני → שני (two/second)
+    [108] טבו → טבו (Taboo)
+    [109] בוט → טבו (Taboo)
+    [110] וטש → שטו (SHOT)
+    [116] יתז → זית (Olive)
+    [117] תזי → זית (Olive)
+    [122] זיו → ויז (Viz)
+    [123] יוד → ידו (His hand)
+    [127] שקד → קדש (be holy)
+    [128] קדש → קדש (be holy)
+    [131] פצה → צפה (Watch)
+    [136] כלה → כלה (Bride)
+    [137] להת → תלה (Hang)
+    [143] לנו → לנו (To Us)
+    [147] כני → כני (Yes.)
+    [149] ידח → יחד (Together)
+    [156] והש → ושה (And Sha)
+    [157] השי → היש (Hish)
+    [158] שיד → שדי (Demon)
+    [163] שני → שני (two/second)
+    [164] ניב → בני (sons of)
+    [165] יבד → בדי (Bedi)
+    [166] בדש → דבש (Honey)
+    [167] דשי → שדי (Demon)
+    [169] ייד → ידי (Hands)
+    [170] ידב → בדי (Bedi)
+    [177] זעו → ועז (and goat)
+    [181] צתמ → מצת (Sparkling)
+    [185] דשי → שדי (Demon)
+    [186] שינ → שני (two/second)
+    [193] גוי → גוי (Goy)
+    [194] ויצ → יצו (<unk>)
+    [197] שבש → בשש (At six)
+    [198] בשו → שבו (Sit)
+    [199] שוי → שיו (Shio)
+    [205] נדב → נדב (Nadav)
+    [206] דבש → דבש (Honey)
+    [216] דגב → בגד (Clothing)
+    [218] בכש → כבש (lamb)
+    [219] כשו → כוש (Kush)
+    [220] שוי → שיו (Shio)
+    [223] יגו → גוי (Goy)
+    [225] ודכ → דכו (Deko)
+    [228] לרח → רחל (Rachel)
+    [230] חגו → וחג (And holiday)
+    [232] והצ → צוה (command)
+    [236] מוק → קמו (Camo)
+    [237] וקנ → קנו (Buy)
+    [243] חהר → חרה (Shit.)
+    [244] הרנ → נהר (river)
+    [245] רנכ → נכר (& External)
+    [253] שהו → ושה (And Sha)
+    [254] הוח → חוה (Eve)
+    [255] וחל → חול (Sand)
+    [256] חלנ → לנח (Noah)
+    [260] שדח → שחד (bribe)
+    [263] מוד → מדו (Meadow)
+    [264] ודל → ודל (Weddell)
+    [265] דלת → תלד (Birth)
+    [268] נלח → לנח (Noah)
+    [269] לחת → חלת (Challah)
+    [271] תטר → תטר (Tatter)
+    [272] טרי → ירט (Yert)
+    [274] ייח → יחי (Long live)
+    [277] נקת → קנת (Kenneth)
+    [284] חדד → חדד (Haddad)
+    [294] חתו → חות (HUT)
+    [297] וחש → וחש (and feel)
+    [299] שהע → עשה (make/do)
+    [300] העי → העי (The Eye)
+    [302] יכל → כלי (Tool)
+    [306] כשד → כשד (As a demon)
+    [313] בקש → בקש (Ask)
+    [315] שגנ → נגש (Access)
+    [320] ינש → שני (two/second)
+
+  Top 3-letter words:
+    שני      two/second                ×5
+    שנו      Change                    ×4
+    נגש      Access                    ×3
+    שדי      Demon                     ×3
+    הדד      HUD                       ×3
+    שיו      Shio                      ×2
+    כשד      As a demon                ×2
+    קדש      be holy                   ×2
+    טבו      Taboo                     ×2
+    זית      Olive                     ×2
+    ידו      His hand                  ×2
+    שדה      Field                     ×2
+    בדי      Bedi                      ×2
+    חוה      Eve                       ×2
+    ושה      And Sha                   ×2
+    דבש      Honey                     ×2
+    ירט      Yert                      ×2
+    גוי      Goy                       ×2
+    לנח      Noah                      ×2
+    תלד      Birth                     ×2
+
+  ── 4-letter sliding window ──
+  51/322 windows produced readings.
+    [  3] טירק → קיטר (Kitter)
+    [  4] ירקמ → מקיר (Makir)
+    [ 15] במשה → שבמה (In what)
+    [ 16] משהד → השמד (Exterminate)
+    [ 39] דתיר → תריד (Tarid)
+    [ 40] תירו → יתרו (Yitro)
+    [ 41] ירוש → יורש (Heir)
+    [ 55] ויבש → שובי (Returned)
+    [ 56] יבשר → ישבר (Yeshev)
+    [ 58] שרגמ → מגרש (Plot)
+    [ 71] חיוד → יחדו (Together)
+    [ 80] שנרד → נדרש (Required)
+    [ 92] מחהו → חומה (Wall)
+    [ 94] הודת → תודה (Thanks.)
+    [ 95] ודתל → ותלד (and birth)
+    [104] שנימ → משני (Secondary)
+    [106] ימטב → מיטב (Best)
+    [107] מטבו → במוט (In the pole)
+    [117] תזיג → גזית (Gazit)
+    [122] זיוד → ויזד (Wizd)
+    [137] להתנ → נהלת (You ran)
+    [142] ילנו → לינו (Lino)
+    [155] קוהש → ושקה (Vashka)
+    [159] ידדמ → מידד (Mead)
+    [162] משני → משני (Secondary)
+    [163] שניב → בשני (On Monday)
+    [164] ניבד → נדיב (Generous)
+    [165] יבדש → בשיד (In hand)
+    [166] בדשי → בשיד (In hand)
+    [169] יידב → בידי (Biddy)
+    [170] ידבמ → בדמי (Badmi)
+    [188] נידנ → דנני (Denney)
+    [189] ידננ → דנני (Denney)
+    [193] גויצ → ויצג (and represent)
+    [197] שבשו → ובשש (And at six)
+    [198] בשוי → שובי (Returned)
+    [199] שוינ → שניו (Shanio)
+    [201] ינמש → משני (Secondary)
+    [218] בכשו → וכבש (And Lamb)
+    [221] וייג → גויי (Goyey)
+    [222] ייגו → גויי (Goyey)
+    [223] יגוד → ויגד (Wigged)
+    [243] חהרנ → חרנה (Enema)
+    [244] הרנכ → הנכר (& External)
+    [254] הוחל → הוחל (Apply)
+    [264] ודלת → ותלד (and birth)
+    [267] תנלח → נחלת (Nahlat)
+    [268] נלחת → נחלת (Nahlat)
+    [274] ייחנ → יניח (Suppose)
+    [299] שהעי → יעשה (Will do)
+    [312] דבקש → בקדש (In Kadesh)
+
+  Top 4-letter words:
+    משני     Secondary                 ×3
+    דנני     Denney                    ×2
+    ותלד     and birth                 ×2
+    גויי     Goyey                     ×2
+    שובי     Returned                  ×2
+    בשיד     In hand                   ×2
+    נחלת     Nahlat                    ×2
+    הוחל     Apply                     ×1
+    ובשש     And at six                ×1
+    תודה     Thanks.                   ×1
+    מגרש     Plot                      ×1
+    יעשה     Will do                   ×1
+    בשני     On Monday                 ×1
+    ויצג     and represent             ×1
+    יניח     Suppose                   ×1
+    נהלת     You ran                   ×1
+    בידי     Biddy                     ×1
+    יורש     Heir                      ×1
+    חרנה     Enema                     ×1
+    מקיר     Makir                     ×1
+
+  ── Basin walks (top 10 words) ──
+    שני (two/second) → נשי  path: []
+    שנו (Change) → שנו  path: []
+    נגש (Access) → נגש  path: []
+    שדי (Demon) → דיש  path: []
+    הדד (HUD) → הדד  path: []
+    שיו (Shio) → ויש  path: []
+    כשד (As a demon) → כשד  path: []
+    קדש (be holy) → קדש  path: []
+    טבו (Taboo) → טוב  path: []
+    זית (Olive) → זית  path: []
+
+  Saved: data/dna/tb-ag85b-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  TB-ESAT-6                                     ║
+║  P9WNK7                                        ║
+║  ESAT-6. Early secreted antigen. Virulence ... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P9WNK7 from UniProt
+
+  95 residues → 95 Hebrew letters. GV=6242.
+  Factors: 2 × 3121
+
+  Hebrew: בהלצצכחתדשמלדדדידמצשחטהימעיננגלשקצינהקנדדדכששישילדזצשטצצקכגדהדהלנחחדנצחנדרהמילדשצדבדיהלשחטהשבתד
+
+  Letter frequencies:
+    ד → Ala  =  17 (17.9%)
+    ש → Gly  =  10 (10.5%)
+    צ → Gln  =   9 (9.5%)
+    ה → Thr  =   8 (8.4%)
+    י → Ser  =   8 (8.4%)
+    נ → Leu  =   7 (7.4%)
+    ל → Glu  =   7 (7.4%)
+    ח → Asn  =   6 (6.3%)
+    מ → Ile  =   4 (4.2%)
+    ק → Lys  =   3 (3.2%)
+    ב → Met  =   3 (3.2%)
+    ט → Val  =   3 (3.2%)
+    כ → Trp  =   3 (3.2%)
+    ת → Phe  =   2 (2.1%)
+    ג → Asp  =   2 (2.1%)
+    ע → His  =   1 (1.1%)
+    ר → Arg  =   1 (1.1%)
+    ז → Tyr  =   1 (1.1%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Key word search ──
+
+  ── 3-letter sliding window ──
+  42/93 windows produced readings.
+    [  0] בהל → הבל (Abel)
+    [  1] הלצ → צלה (Shave)
+    [  6] חתד → תחד (Ahad)
+    [  9] שמל → משל (Example)
+    [ 15] ידמ → מדי (Too)
+    [ 16] דמצ → מצד (Side)
+    [ 20] חטה → חטה (Noach)
+    [ 21] טהי → הטי (Hetty)
+    [ 22] הימ → ימה (Yama)
+    [ 23] ימע → עמי (Ami)
+    [ 24] מעי → עמי (Ami)
+    [ 25] עינ → עני (Answer)
+    [ 30] לשק → שקל (Shekel)
+    [ 32] קצי → יצק (Icing)
+    [ 35] נהק → קנה (Buy)
+    [ 36] הקנ → קנה (Buy)
+    [ 37] קנד → נקד (Nokd)
+    [ 41] דכש → כשד (As a demon)
+    [ 42] כשש → כשש (About)
+    [ 43] ששי → ששי (Friday)
+    [ 44] שיש → ששי (Friday)
+    [ 46] שיל → ישל (Yesh)
+    [ 47] ילד → ילד (Boy)
+    [ 59] דהד → הדד (HUD)
+    [ 61] דהל → דלה (Della)
+    [ 63] לנח → לנח (Noah)
+    [ 71] נדר → נרד (Nardo)
+    [ 72] דרה → רדה (rule)
+    [ 73] רהמ → המר (Convert)
+    [ 74] המי → ימה (Yama)
+    [ 75] מיל → למי (To whom)
+    [ 76] ילד → ילד (Boy)
+    [ 77] לדש → לשד (Demon)
+    [ 81] דבד → בדד (BADAD)
+    [ 82] בדי → בדי (Bedi)
+    [ 83] דיה → היד (The Hand)
+    [ 85] הלש → לשה (Lesha)
+    [ 86] לשח → שלח (send)
+    [ 88] חטה → חטה (Noach)
+    [ 90] השב → שבה (where)
+    [ 91] שבת → שבת (sabbath)
+    [ 92] בתד → דבת (Debeth)
+
+  Top 3-letter words:
+    ילד      Boy                       ×2
+    ששי      Friday                    ×2
+    עמי      Ami                       ×2
+    קנה      Buy                       ×2
+    חטה      Noach                     ×2
+    ימה      Yama                      ×2
+    מצד      Side                      ×1
+    בדד      BADAD                     ×1
+    כשד      As a demon                ×1
+    הבל      Abel                      ×1
+    שבת      sabbath                   ×1
+    המר      Convert                   ×1
+    נרד      Nardo                     ×1
+    נקד      Nokd                      ×1
+    עני      Answer                    ×1
+    לשה      Lesha                     ×1
+    שלח      send                      ×1
+    יצק      Icing                     ×1
+    הטי      Hetty                     ×1
+    בדי      Bedi                      ×1
+
+  ── 4-letter sliding window ──
+  18/92 windows produced readings.
+    [ 14] דידמ → מידד (Mead)
+    [ 15] ידמצ → צמיד (Bracelet)
+    [ 22] הימע → עמיה (Amaya)
+    [ 24] מעינ → מעני (Poor)
+    [ 34] ינהק → יקנה (Buy)
+    [ 44] שישי → ישיש (Yeshish)
+    [ 62] הלנח → נחלה (Nachla)
+    [ 71] נדרה → הנדר (Vow)
+    [ 72] דרהמ → מרדה (Marda)
+    [ 73] רהמי → מהרי (Hurry.)
+    [ 75] מילד → ילמד (Learn)
+    [ 82] בדיה → בידה (Bidda)
+    [ 83] דיהל → הילד (The boy)
+    [ 84] יהלש → שילה (Sheila)
+    [ 85] הלשח → שלחה (Send)
+    [ 86] לשחט → לשחט (Slaughter)
+    [ 89] טהשב → השבט (The Tribe)
+    [ 90] השבת → שבתה (Shabata)
+
+  Top 4-letter words:
+    יקנה     Buy                       ×1
+    ילמד     Learn                     ×1
+    הנדר     Vow                       ×1
+    לשחט     Slaughter                 ×1
+    ישיש     Yeshish                   ×1
+    מרדה     Marda                     ×1
+    שלחה     Send                      ×1
+    הילד     The boy                   ×1
+    בידה     Bidda                     ×1
+    השבט     The Tribe                 ×1
+    שילה     Sheila                    ×1
+    צמיד     Bracelet                  ×1
+    מידד     Mead                      ×1
+    שבתה     Shabata                   ×1
+    עמיה     Amaya                     ×1
+    מהרי     Hurry.                    ×1
+    נחלה     Nachla                    ×1
+    מעני     Poor                      ×1
+
+  ── Basin walks (top 10 words) ──
+    ילד (Boy) → ילד  path: []
+    ששי (Friday) → ששי  path: []
+    עמי (Ami) → עמי  path: []
+    קנה (Buy) → קנה  path: []
+    חטה (Noach) → חטה  path: []
+    ימה (Yama) → ימה  path: []
+    מצד (Side) → מצד  path: []
+    בדד (BADAD) → בדד  path: []
+    כשד (As a demon) → כשד  path: []
+    הבל (Abel) → הבל  path: []
+
+  Saved: data/dna/tb-esat-6-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  TB-CFP-10                                     ║
+║  P9WNK5                                        ║
+║  Culture filtrate protein 10 kDa. Forms com... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P9WNK5 from UniProt
+
+  100 residues → 100 Hebrew letters. GV=7306.
+  Factors: 2 × 13 × 281
+  GV ÷ 13 = 562  ← love/unity
+  GV ÷ 26 = 281  ← YHWH
+
+  Hebrew: בדלבקהגדדהנדצלדשחתלרמישגנקהצמגצטליהדשינצשצכרשדדשהדדצדדטטרתצלדדחקצקצלנגלמיהחמרצדשטצזירדגללצצצדנייצבשת
+
+  Letter frequencies:
+    ד → Ala  =  17 (17.0%)
+    צ → Gln  =  15 (15.0%)
+    ל → Glu  =   9 (9.0%)
+    ש → Gly  =   8 (8.0%)
+    י → Ser  =   7 (7.0%)
+    ה → Thr  =   6 (6.0%)
+    נ → Leu  =   5 (5.0%)
+    ר → Arg  =   5 (5.0%)
+    ג → Asp  =   5 (5.0%)
+    ק → Lys  =   4 (4.0%)
+    ט → Val  =   4 (4.0%)
+    מ → Ile  =   4 (4.0%)
+    ת → Phe  =   3 (3.0%)
+    ב → Met  =   3 (3.0%)
+    ח → Asn  =   3 (3.0%)
+    ז → Tyr  =   1 (1.0%)
+    כ → Trp  =   1 (1.0%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Key word search ──
+
+  ── 3-letter sliding window ──
+  42/98 windows produced readings.
+    [  0] בדל → לבד (Alone)
+    [  1] דלב → לבד (Alone)
+    [  2] לבק → בלק (Black)
+    [  3] בקה → קבה (Kaba)
+    [  7] דדה → הדד (HUD)
+    [  8] דהנ → נדה (Neda)
+    [  9] הנד → נדה (Neda)
+    [ 13] לדש → לשד (Demon)
+    [ 14] דשח → שחד (bribe)
+    [ 15] שחת → תחש (Scenario)
+    [ 16] חתל → חלת (Challah)
+    [ 19] רמי → מרי (Mary)
+    [ 20] מיש → שמי (My name)
+    [ 21] ישג → יגש (Yishpe)
+    [ 22] שגנ → נגש (Access)
+    [ 24] נקה → קנה (Buy)
+    [ 26] הצמ → מצה (Matzo)
+    [ 33] יהד → היד (The Hand)
+    [ 34] הדש → שדה (Field)
+    [ 35] דשי → שדי (Demon)
+    [ 36] שינ → שני (two/second)
+    [ 42] כרש → רכש (Purchase)
+    [ 43] רשד → דרש (Demand)
+    [ 46] דשה → שדה (Field)
+    [ 47] שהד → שדה (Field)
+    [ 48] הדד → הדד (HUD)
+    [ 55] טרת → תטר (Tatter)
+    [ 56] רתצ → צרת (Narrow)
+    [ 60] דדח → חדד (Haddad)
+    [ 62] חקצ → צחק (Laugh)
+    [ 69] גלמ → מלג (MALAG)
+    [ 70] למי → למי (To whom)
+    [ 71] מיה → ימה (Yama)
+    [ 72] יהח → חיה (Animal)
+    [ 73] החמ → חמה (Hot)
+    [ 74] חמר → חמר (Khmer)
+    [ 75] מרצ → צמר (Wool)
+    [ 83] ירד → ירד (Down)
+    [ 84] רדג → גדר (Fence)
+    [ 85] דגל → גדל (Growing)
+    [ 95] יצב → יצב (Yatsev)
+    [ 97] בשת → שבת (sabbath)
+
+  Top 3-letter words:
+    שדה      Field                     ×3
+    נדה      Neda                      ×2
+    לבד      Alone                     ×2
+    הדד      HUD                       ×2
+    שני      two/second                ×1
+    נגש      Access                    ×1
+    חלת      Challah                   ×1
+    יצב      Yatsev                    ×1
+    שבת      sabbath                   ×1
+    חדד      Haddad                    ×1
+    קבה      Kaba                      ×1
+    צחק      Laugh                     ×1
+    צמר      Wool                      ×1
+    חמר      Khmer                     ×1
+    מלג      MALAG                     ×1
+    תחש      Scenario                  ×1
+    שחד      bribe                     ×1
+    קנה      Buy                       ×1
+    גדר      Fence                     ×1
+    רכש      Purchase                  ×1
+
+  ── 4-letter sliding window ──
+  10/97 windows produced readings.
+    [  2] לבקה → בקלה (Cod)
+    [ 13] לדשח → לחדש (To renew)
+    [ 15] שחתל → שלחת (Submit)
+    [ 19] רמיש → שמרי (Shimri)
+    [ 21] ישגנ → נגשי (Access)
+    [ 32] ליהד → הילד (The boy)
+    [ 69] גלמי → גמלי (Camels)
+    [ 71] מיהח → חמיה (Hamiya)
+    [ 72] יהחמ → חמיה (Hamiya)
+    [ 73] החמר → החמר (Hamer)
+
+  Top 4-letter words:
+    חמיה     Hamiya                    ×2
+    לחדש     To renew                  ×1
+    שלחת     Submit                    ×1
+    שמרי     Shimri                    ×1
+    גמלי     Camels                    ×1
+    הילד     The boy                   ×1
+    בקלה     Cod                       ×1
+    החמר     Hamer                     ×1
+    נגשי     Access                    ×1
+
+  ── Basin walks (top 10 words) ──
+    שדה (Field) → שדה  path: []
+    נדה (Neda) → נדה  path: []
+    לבד (Alone) → לבד  path: []
+    הדד (HUD) → הדד  path: []
+    שני (two/second) → נשי  path: []
+    נגש (Access) → נגש  path: []
+    חלת (Challah) → תחל  path: []
+    יצב (Yatsev) → יצב  path: []
+    שבת (sabbath) → תשב  path: []
+    חדד (Haddad) → חדד  path: []
+
+  Saved: data/dna/tb-cfp-10-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  TB-Hsp65                                      ║
+║  P9WMG9                                        ║
+║  60 kDa chaperonin 2 (GroEL2). Major T-cell... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P9WMG9 from UniProt
+
+  244 residues → 244 Hebrew letters. GV=18244.
+  Factors: 2 × 2 × 4561
+
+  Hebrew: בוקקזשטקלקגצטטדעמנחנננהשקנרישגרטגרחלמדעשנשטירטומצלדנטצנלעגשמטיהרזערשדתמלרתגטדהמנלעעלנגשננחשמדידרדדדחוהורמנשצנגדטברינרחיק...
+
+  Letter frequencies:
+    ד → Ala  =  27 (11.1%)
+    ר → Arg  =  26 (10.7%)
+    נ → Leu  =  22 (9.0%)
+    ל → Glu  =  19 (7.8%)
+    ו → Pro  =  17 (7.0%)
+    ט → Val  =  17 (7.0%)
+    ש → Gly  =  16 (6.6%)
+    י → Ser  =  13 (5.3%)
+    מ → Ile  =  13 (5.3%)
+    ג → Asp  =  10 (4.1%)
+    ח → Asn  =   9 (3.7%)
+    ע → His  =   8 (3.3%)
+    צ → Gln  =   8 (3.3%)
+    ת → Phe  =   8 (3.3%)
+    ה → Thr  =   8 (3.3%)
+    ז → Tyr  =   7 (2.9%)
+    ק → Lys  =   6 (2.5%)
+    ב → Met  =   5 (2.0%)
+    פ → Cys  =   3 (1.2%)
+    כ → Trp  =   2 (0.8%)
+
+  ── Serpent search ──
+    [ 88] נחש — EXACT SERPENT
+
+  ── Key word search ──
+    נחש at 88
+
+  ── 3-letter sliding window ──
+  91/242 windows produced readings.
+    [ 14] דעמ → עמד (stand)
+    [ 15] עמנ → מנע (Prevent)
+    [ 21] נהש → שנה (Year)
+    [ 22] השק → קשה (Hard)
+    [ 26] ריש → שרי (Sherry)
+    [ 27] ישג → יגש (Yishpe)
+    [ 28] שגר → שגר (Launch)
+    [ 33] רחל → רחל (Rachel)
+    [ 34] חלמ → מלח (Salt)
+    [ 36] מדע → עמד (stand)
+    [ 42] טיר → ירט (Yert)
+    [ 43] ירט → ירט (Yert)
+    [ 44] רטו → טור (Column)
+    [ 54] נלע → נעל (Shoe)
+    [ 60] טיה → הטי (Hetty)
+    [ 61] יהר → הרי (Mountain)
+    [ 62] הרז → זרה (Foreigner)
+    [ 63] רזע → זרע (seed)
+    [ 64] זער → זרע (seed)
+    [ 65] ערש → עשר (ten)
+    [ 66] רשד → דרש (Demand)
+    [ 69] תמל → למת (Dead)
+    [ 76] דהמ → דמה (Dhamma)
+    [ 77] המנ → מנה (Dose)
+    [ 79] נלע → נעל (Shoe)
+    [ 82] עלנ → נעל (Shoe)
+    [ 84] נגש → נגש (Access)
+    [ 85] גשנ → נגש (Access)
+    [ 88] נחש → נחש (serpent)
+    [ 89] חשמ → שמח (Happy)
+    [ 91] מדי → מדי (Too)
+    [ 93] ידר → ירד (Down)
+    [ 97] דדח → חדד (Haddad)
+    [ 99] חוה → חוה (Eve)
+    [101] הור → והר (and mountain)
+    [108] נגד → נגד (Against)
+    [112] ברי → ריב (Reeve)
+    [116] רחי → ריח (Smell)
+    [117] חיק → חקי (Haqqi)
+    [121] ירד → ירד (Down)
+    [122] רדת → תדר (Frequency)
+    [124] תדל → תלד (Birth)
+    [128] טכל → כטל (Kettel)
+    [134] הטח → חטה (Noach)
+    [137] גלז → לגז (For gas)
+    [141] שור → שור (ox)
+    [143] רנע → ענר (Ener)
+    [144] נעד → נדע (We will know)
+    [145] עדה → עדה (Ada)
+    [146] דהמ → דמה (Dhamma)
+    [147] המר → המר (Convert)
+    [148] מרד → מדר (Madr)
+    [149] רדי → ירד (Down)
+    [150] דיצ → צדי (Sides)
+    [156] ורט → טור (Column)
+    [157] רטת → תטר (Tatter)
+    [159] תכב → כתב (write)
+    [160] כבה → בכה (Weeping)
+    [161] בהז → הבז (The Falcon)
+    [165] חיר → ריח (Smell)
+    [166] ירג → יגר (Jager)
+    [173] תזל → תזל (Tasle)
+    [176] ללח → חלל (Space)
+    [177] לחד → חדל (Stop)
+    [178] חדד → חדד (Haddad)
+    [180] דמע → עמד (stand)
+    [181] מער → עמר (Amar)
+    [186] ולד → ודל (Weddell)
+    [194] משר → שמר (guard/keep)
+    [195] שרי → שרי (Sherry)
+    [198] לנב → נבל (Villain)
+    [199] נבד → נדב (Nadav)
+    [201] דצה → צדה (Hunting)
+    [202] צהב → צבה (Tort)
+    [203] הבנ → בנה (Her Son)
+    [204] בנד → נדב (Nadav)
+    [208] נתר → נרת (Nerth)
+    [215] טוו → טוו (Tow)
+    [216] וול → ולו (And him)
+    [218] לשד → לשד (Demon)
+    [221] פוש → שפו (Shefu)
+    [223] שות → שתו (Drink)
+    [224] ותש → שתו (Drink)
+    [227] דומ → מדו (Meadow)
+    [229] מוש → ומש (and Moses)
+    [230] ושת → שתו (Drink)
+    [232] תדר → תדר (Frequency)
+    [233] דרי → ירד (Down)
+    [237] צוי → יצו (<unk>)
+    [240] יוט → ויט (Whit)
+    [241] וטו → טוו (Tow)
+
+  Top 3-letter words:
+    ירד      Down                      ×4
+    נעל      Shoe                      ×3
+    עמד      stand                     ×3
+    שתו      Drink                     ×3
+    תדר      Frequency                 ×2
+    נגש      Access                    ×2
+    טוו      Tow                       ×2
+    חדד      Haddad                    ×2
+    טור      Column                    ×2
+    נדב      Nadav                     ×2
+    דמה      Dhamma                    ×2
+    ירט      Yert                      ×2
+    ריח      Smell                     ×2
+    זרע      seed                      ×2
+    שרי      Sherry                    ×2
+    נדע      We will know              ×1
+    יגר      Jager                     ×1
+    חלל      Space                     ×1
+    ודל      Weddell                   ×1
+    יצו      <unk>                     ×1
+
+  ── 4-letter sliding window ──
+  50/241 windows produced readings.
+    [ 21] נהשק → נשקה (Kissed)
+    [ 22] השקנ → נשקה (Kissed)
+    [ 25] נריש → שניר (Snir)
+    [ 26] רישג → יגרש (Expelled)
+    [ 27] ישגר → יגרש (Expelled)
+    [ 33] רחלמ → לחמר (To clay)
+    [ 35] למדע → לעמד (Stand)
+    [ 41] שטיר → שטרי (Shtri)
+    [ 43] ירטו → טורי (Tori)
+    [ 44] רטומ → ומטר (and meter)
+    [ 56] עגשמ → משגע (Gorgeous)
+    [ 60] טיהר → יטהר (Purge)
+    [ 62] הרזע → זרעה (Seed)
+    [ 66] רשדת → תדרש (Require)
+    [ 68] דתמל → תלמד (Learn)
+    [ 77] המנל → למנה (LEMEN)
+    [ 91] מדיד → מידד (Mead)
+    [101] הורמ → מורה (Teacher)
+    [103] רמנש → נשמר (Saved)
+    [116] רחיק → ירחק (Far Away)
+    [119] קליר → לריק (To Rick)
+    [121] ירדת → תריד (Tarid)
+    [129] כלזר → לזכר (In Memory)
+    [140] דשור → ודרש (and demanded)
+    [142] ורנע → ונער (And boy)
+    [144] נעדה → עדנה (Edna)
+    [145] עדהמ → עמדה (Position)
+    [146] דהמר → מרדה (Marda)
+    [147] המרד → מרדה (Marda)
+    [155] מורט → ומטר (and meter)
+    [159] תכבה → תכבה (Shut down)
+    [164] צחיר → ירצח (Murdered)
+    [194] משרי → שמרי (Shimri)
+    [197] ילנב → לבני (My son)
+    [200] בדצה → בצדה (Side)
+    [201] דצהב → בצדה (Side)
+    [202] צהבנ → נצבה (Preset)
+    [203] הבנד → נדבה (alms)
+    [207] לנתר → לנתר (Nather)
+    [215] טוול → ולוט (Velut)
+    [218] לשדפ → פלדש (Feldesh)
+    [222] ושות → ושתו (And drink)
+    [223] שותש → וששת (And six)
+    [224] ותשד → ושדת (And Demon)
+    [225] תשדו → ושדת (And Demon)
+    [228] ומוש → ושמו (His Name)
+    [229] מושת → ושמת (And you)
+    [230] ושתד → ושדת (And Demon)
+    [231] שתדר → תדרש (Require)
+    [232] תדרי → תריד (Tarid)
+
+  Top 4-letter words:
+    ושדת     And Demon                 ×3
+    יגרש     Expelled                  ×2
+    מרדה     Marda                     ×2
+    תדרש     Require                   ×2
+    ומטר     and meter                 ×2
+    בצדה     Side                      ×2
+    תריד     Tarid                     ×2
+    נשקה     Kissed                    ×2
+    שניר     Snir                      ×1
+    שמרי     Shimri                    ×1
+    נצבה     Preset                    ×1
+    ושתו     And drink                 ×1
+    ונער     And boy                   ×1
+    עדנה     Edna                      ×1
+    לחמר     To clay                   ×1
+    מורה     Teacher                   ×1
+    תכבה     Shut down                 ×1
+    תלמד     Learn                     ×1
+    ירחק     Far Away                  ×1
+    יטהר     Purge                     ×1
+
+  ── Basin walks (top 10 words) ──
+    ירד (Down) → ידר  path: []
+    נעל (Shoe) → נעל  path: []
+    עמד (stand) → עמד  path: []
+    שתו (Drink) → שתו  path: []
+    תדר (Frequency) → רדת  path: []
+    נגש (Access) → נגש  path: []
+    טוו (Tow) → טוו  path: []
+    חדד (Haddad) → חדד  path: []
+    טור (Column) → טור  path: []
+    נדב (Nadav) → נדב  path: []
+
+  Saved: data/dna/tb-hsp65-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  TB-KatG                                       ║
+║  P9WIE5                                        ║
+║  Catalase-peroxidase. Activates isoniazid. ... ║
+╚═══════════════════════════════════════════════╝
+[dna] Fetched P9WIE5 from UniProt
+
+  740 residues → 740 Hebrew letters. GV=55864.
+  Factors: 2 × 2 × 2 × 6983
+
+  Hebrew: בולצעוומהלהההשדדיחשפוטטשעבקזוטלשששחצגככוחרנחנקטנעצחודטדגובשדדתגזדדלטדהמגטגדנהרגמללטבההיצוככודגזשעזשונתמרבדכעדדשהזרמעגשרש...
+
+  Letter frequencies:
+    ש → Gly  =  79 (10.7%)
+    ד → Ala  =  77 (10.4%)
+    נ → Leu  =  62 (8.4%)
+    ט → Val  =  51 (6.9%)
+    ג → Asp  =  50 (6.8%)
+    ו → Pro  =  50 (6.8%)
+    ל → Glu  =  44 (5.9%)
+    ה → Thr  =  42 (5.7%)
+    ר → Arg  =  36 (4.9%)
+    י → Ser  =  36 (4.9%)
+    ק → Lys  =  35 (4.7%)
+    ח → Asn  =  28 (3.8%)
+    ת → Phe  =  26 (3.5%)
+    מ → Ile  =  25 (3.4%)
+    כ → Trp  =  24 (3.2%)
+    צ → Gln  =  21 (2.8%)
+    ז → Tyr  =  21 (2.8%)
+    ב → Met  =  18 (2.4%)
+    ע → His  =  12 (1.6%)
+    פ → Cys  =   3 (0.4%)
+
+  ── Serpent search ──
+    No serpent found.
+
+  ── Key word search ──
+    הוה at 323
+
+  ── 3-letter sliding window ──
+  290/738 windows produced readings.
+    [  0] בול → לבו (His Heart)
+    [  6] ומה → ומה (And what)
+    [  7] מהל → למה (Why?)
+    [  8] הלה → הלה (Hela)
+    [  9] להה → הלה (Hela)
+    [ 11] ההש → השה (The Lamb)
+    [ 12] השד → שדה (Field)
+    [ 15] דיח → יחד (Together)
+    [ 16] יחש → שיח (Bush)
+    [ 18] שפו → שפו (Shefu)
+    [ 23] שעב → שבע (seven/swear)
+    [ 24] עבק → בקע (Bough)
+    [ 28] וטל → לוט (Lot)
+    [ 29] טלש → לטש (LeTash)
+    [ 30] לשש → שלש (three)
+    [ 39] וחר → חור (Hole)
+    [ 46] טנע → נטע (Neta)
+    [ 56] ובש → שבו (Sit)
+    [ 57] בשד → דבש (Honey)
+    [ 68] דהמ → דמה (Dhamma)
+    [ 73] גדנ → נגד (Against)
+    [ 74] דנה → נדה (Neda)
+    [ 75] נהר → נהר (river)
+    [ 76] הרג → הגר (Hagar)
+    [ 77] רגמ → גמר (Final)
+    [ 78] גמל → מלג (MALAG)
+    [ 79] מלל → מלל (Text)
+    [ 82] טבה → הבט (Look)
+    [ 83] בהה → הבה (Let)
+    [ 84] ההי → היה (Was)
+    [ 86] יצו → יצו (<unk>)
+    [ 90] כוד → דכו (Deko)
+    [ 98] שונ → שנו (Change)
+    [101] תמר → תמר (Tamar)
+    [102] מרב → מרב (Merv)
+    [103] רבד → רבד (RBD)
+    [104] בדכ → כבד (heavy/glory)
+    [109] דשה → שדה (Field)
+    [111] הזר → זרה (Foreigner)
+    [113] רמע → עמר (Amar)
+    [116] גשר → שגר (Launch)
+    [117] שרש → שרש (Shersh)
+    [118] רשש → שרש (Shersh)
+    [123] ששב → בשש (At six)
+    [125] בצר → בצר (Intrepid)
+    [126] צרת → צרת (Narrow)
+    [127] רתד → תדר (Frequency)
+    [129] דונ → ונד (Vand)
+    [130] ונח → חנו (Park)
+    [132] חיכ → כחי (Live)
+    [133] יכו → וכי (And that)
+    [135] וגח → וחג (And holiday)
+    [137] חדי → יחד (Together)
+    [147] נכו → כנו (Yes.)
+    [157] קני → קני (Kenny.)
+    [158] ניכ → כני (Yes.)
+    [159] יכד → כדי (To)
+    [161] דגנ → נגד (Against)
+    [164] מטת → מטת (Matt)
+    [167] דשח → שחד (bribe)
+    [173] ליב → לבי (My Heart)
+    [174] יבש → שבי (Sit down)
+    [175] בשת → שבת (sabbath)
+    [176] שתק → קשת (bow/rainbow)
+    [177] תקה → קהת (Kohath)
+    [178] קהת → קהת (Kohath)
+    [179] התש → תשה (Drink)
+    [181] שתש → ששת (Friday)
+    [183] שתש → ששת (Friday)
+    [184] תשר → רשת (Network)
+    [190] כלו → כלו (All)
+    [191] לוג → ולג (V<unk>gg)
+    [192] וגל → ולג (V<unk>gg)
+    [197] כשק → כקש (Kash)
+    [198] שקל → שקל (Shekel)
+    [200] לדה → דלה (Della)
+    [201] דהכ → כדה (Cda)
+    [202] הכנ → נכה (strike)
+    [204] נשג → נגש (Access)
+    [206] גלר → רגל (foot)
+    [210] ישק → קשי (Kashi)
+    [211] שקר → שקר (False)
+    [215] נלח → לנח (Noah)
+    [216] לחו → חול (Sand)
+    [217] חונ → חנו (Park)
+    [218] ונד → ונד (Vand)
+    [229] טחו → וטח (And flat)
+    [230] חול → חול (Sand)
+    [233] שוח → וחש (and feel)
+    [234] וחש → וחש (and feel)
+    [236] שחו → וחש (and feel)
+    [237] חוג → וחג (And holiday)
+    [241] בדד → בדד (BADAD)
+    [246] גמר → גמר (Final)
+    [249] להת → תלה (Hang)
+    [253] רבד → רבד (RBD)
+    [254] בדב → בבד (Bedtime)
+    [256] בחג → גבח (Gabbach)
+    [259] טלה → להט (Passion)
+    [260] להד → דלה (Della)
+    [261] הדד → הדד (HUD)
+    [268] שעה → עשה (make/do)
+    [269] עהת → תעה (Miscellaneous)
+    [270] התש → תשה (Drink)
+    [271] תשק → קשת (bow/rainbow)
+    [272] שקה → קשה (Hard)
+    [274] העש → עשה (make/do)
+    [280] דגנ → נגד (Against)
+    [283] טשו → שטו (SHOT)
+    [285] ולו → ולו (And him)
+    [287] ולד → ודל (Weddell)
+    [289] דדו → דדו (Dedo)
+    [290] דונ → ונד (Vand)
+    [291] ונל → לנו (To Us)
+    [293] לצב → בצל (Onion)
+    [298] שכק → כקש (Kash)
+    [304] שהש → השש (The Six)
+    [305] השה → השה (The Lamb)
+    [306] שהש → השש (The Six)
+    [307] השק → קשה (Hard)
+    [311] דמה → דמה (Dhamma)
+    [312] מהי → ימה (Yama)
+    [313] היש → היש (Hish)
+    [314] ישמ → שמי (My name)
+    [315] שמל → משל (Example)
+    [316] מלט → מטל (Metal)
+    [320] כהח → כחה (Eff)
+    [322] חהו → חוה (Eve)
+    [323] הוה → הוה (Ooh.)
+    [328] גחי → חגי (Haggai)
+    [329] חית → חית (Beast)
+    [330] יתנ → תני (Give)
+    [339] לכל → לכל (For All)
+    [342] נהק → קנה (Buy)
+    [345] יוד → ידו (His hand)
+    [348] שדכ → כשד (As a demon)
+    [353] הדק → דקה (Minute)
+    [360] דשה → שדה (Field)
+    [361] שהמ → שמה (Her name)
+    [362] המו → ומה (And what)
+    [366] ותש → שתו (Drink)
+    [367] תשש → ששת (Friday)
+    [368] ששו → ושש (And six)
+    [369] שוש → ושש (And six)
+    [370] ושר → שור (ox)
+    [371] שרי → שרי (Sherry)
+    [373] יוה → היו (There were)
+    [374] והב → הבו (Bo)
+    [375] הבנ → בנה (Her Son)
+    [376] בנד → נדב (Nadav)
+    [377] נדה → נדה (Neda)
+    [379] הגנ → נהג (Driver)
+    [391] רמה → המר (Convert)
+    [392] מהר → המר (Convert)
+    [395] רכנ → נכר (& External)
+    [397] נלע → נעל (Shoe)
+    [398] לעו → עלו (Rise)
+    [399] עול → עלו (Rise)
+    [403] נדג → נגד (Against)
+    [404] דגל → גדל (Growing)
+    [406] לתד → תלד (Birth)
+    [412] זקנ → קנז (Kenz)
+    [414] נמע → מנע (Prevent)
+    [415] מער → עמר (Amar)
+    [416] ערג → רגע (Wait.)
+    [417] רגב → גבר (Man)
+    [419] בשו → שבו (Sit)
+    [420] שוט → שטו (SHOT)
+    [423] דרז → זרד (Zerd)
+    [424] רזנ → נזר (Nazar)
+    [426] נשו → שנו (Change)
+    [427] שונ → שנו (Change)
+    [433] צהנ → צנה (Tsna)
+    [440] וטו → טוו (Tow)
+    [445] יעג → יגע (Touching)
+    [446] עגנ → נגע (Touch)
+    [449] טשל → לטש (LeTash)
+    [450] שלד → לשד (Demon)
+    [454] מדי → מדי (Too)
+    [456] ינק → קני (Kenny.)
+    [457] נקי → קני (Kenny.)
+    [458] קיצ → יצק (Icing)
+    [460] צמר → צמר (Wool)
+    [461] מרד → מדר (Madr)
+    [462] רדי → ירד (Down)
+    [463] דיש → שדי (Demon)
+    [464] ישנ → שני (two/second)
+    [465] שנה → שנה (Year)
+    [466] נהט → נטה (Neta)
+    [467] הטי → הטי (Hetty)
+    [472] טיה → הטי (Hetty)
+    [473] יהד → היד (The Hand)
+    [474] הדכ → כדה (Cda)
+    [479] דיי → ידי (Hands)
+    [481] יתר → יתר (Over)
+    [482] תרש → רשת (Network)
+    [483] רשי → שרי (Sherry)
+    [484] שיג → יגש (Yishpe)
+    [487] קרש → שקר (False)
+    [488] רשש → שרש (Shersh)
+    [490] שדח → שחד (bribe)
+    [491] דחש → שחד (bribe)
+    [493] ששר → שרש (Shersh)
+    [494] שרמ → שמר (guard/keep)
+    [497] רנצ → נצר (Nazareth)
+    [503] שכל → שכל (Mind)
+    [504] כלט → כטל (Kettel)
+    [507] חגו → וחג (And holiday)
+    [509] וגש → גשו (Come on.)
+    [511] שגנ → נגש (Access)
+    [516] טמר → מטר (Meter)
+    [517] מרה → המר (Convert)
+    [518] רהנ → נהר (river)
+    [521] ללמ → מלל (Text)
+    [524] צלי → צלי (Roast)
+    [526] יתח → חית (Beast)
+    [527] תחי → חית (Beast)
+    [528] חיד → יחד (Together)
+    [530] דדו → דדו (Dedo)
+    [532] ושח → וחש (and feel)
+    [533] שחמ → שמח (Happy)
+    [538] יתד → ידת (Handicap)
+    [540] דגנ → נגד (Against)
+    [551] מלק → מקל (Stick)
+    [561] חמה → חמה (Hot)
+    [562] מהט → מטה (staff/tribe)
+    [564] טות → ותט (Theta)
+    [565] ותה → תהו (Tah<unk>)
+    [566] תהו → תהו (Tah<unk>)
+    [567] הוש → ושה (And Sha)
+    [568] ושר → שור (ox)
+    [569] שרה → שרה (Sarah)
+    [570] רהג → הגר (Hagar)
+    [572] גדי → דגי (Fish)
+    [573] דיצ → צדי (Sides)
+    [574] יצל → צלי (Roast)
+    [576] לצה → צלה (Shave)
+    [577] צהג → הצג (Show)
+    [582] יתד → ידת (Handicap)
+    [586] נלו → לנו (To Us)
+    [587] לוק → קלו (Klu)
+    [591] גשת → תגש (Come on.)
+    [592] שתר → רשת (Network)
+    [593] תרח → תרח (Tahreh)
+    [594] רחז → זרח (Shining)
+    [600] שחו → וחש (and feel)
+    [601] חונ → חנו (Park)
+    [603] נוד → ונד (Vand)
+    [604] ודל → ודל (Weddell)
+    [606] לזב → לבז (Levez)
+    [619] ידו → ידו (His hand)
+    [620] דול → ודל (Weddell)
+    [621] ולב → לבו (His Heart)
+    [622] לבה → הבל (Abel)
+    [623] בהט → הבט (Look)
+    [624] הטנ → נטה (Neta)
+    [634] שדח → שחד (bribe)
+    [637] זקר → זרק (Dumped)
+    [641] ונש → שנו (Change)
+    [644] טתה → תטה (Theta)
+    [645] תהל → תלה (Hang)
+    [646] הלד → דלה (Della)
+    [647] לדי → ילד (Boy)
+    [648] דיל → ילד (Boy)
+    [652] נהח → חנה (Hannah)
+    [654] חגת → תחג (Celebrate)
+    [661] נגב → גנב (Thief)
+    [664] שמה → שמה (Her name)
+    [665] מהכ → כמה (How much)
+    [666] הכל → כלה (Bride)
+    [667] כלו → כלו (All)
+    [668] לוי → לוי (Levi)
+    [669] ויו → ווי (Wei)
+    [670] יוד → ידו (His hand)
+    [674] גשה → גשה (Submit)
+    [681] גשי → יגש (Yishpe)
+    [682] שיש → ששי (Friday)
+    [683] ישק → קשי (Kashi)
+    [689] השי → היש (Hish)
+    [690] שיר → שרי (Sherry)
+    [691] ירט → ירט (Yert)
+    [697] תשי → שתי (Two.)
+    [698] שיח → שיח (Bush)
+    [699] יחי → יחי (Long live)
+    [700] חיל → יחל (Apply)
+    [703] נרד → נרד (Nardo)
+    [704] רדנ → נרד (Nardo)
+    [730] טבח → טבח (Cook)
+    [731] בחנ → נבח (Barking)
+    [732] חנג → נגח (Rammed)
+
+  Top 3-letter words:
+    נגד      Against                   ×5
+    וחש      and feel                  ×5
+    שנו      Change                    ×4
+    שרש      Shersh                    ×4
+    שחד      bribe                     ×4
+    ונד      Vand                      ×4
+    ודל      Weddell                   ×3
+    המר      Convert                   ×3
+    יחד      Together                  ×3
+    חנו      Park                      ×3
+    קני      Kenny.                    ×3
+    ידו      His hand                  ×3
+    שדה      Field                     ×3
+    ששת      Friday                    ×3
+    רשת      Network                   ×3
+    וחג      And holiday               ×3
+    דלה      Della                     ×3
+    חית      Beast                     ×3
+    שרי      Sherry                    ×3
+    הלה      Hela                      ×2
+
+  ── 4-letter sliding window ──
+  126/737 windows produced readings.
+    [  4] עוומ → ועמו (And with him)
+    [  6] ומהל → ולמה (And why)
+    [ 11] ההשד → השדה (The Field)
+    [ 16] יחשפ → חפשי (Search)
+    [ 18] שפוט → ופשט (and simplify)
+    [ 39] וחרנ → נחור (snort)
+    [ 54] דגוב → ובגד (And clothing)
+    [ 56] ובשד → ודבש (And honey)
+    [ 74] דנהר → הנדר (Vow)
+    [ 75] נהרג → נהרג (Killed)
+    [ 81] לטבה → לטבה (Latva)
+    [ 82] טבהה → הטבה (Benefit)
+    [ 84] ההיצ → יהצה (Yatzah)
+    [ 85] היצו → יצוה (<unk>s<unk>)
+    [ 98] שונת → שנתו (Sleep)
+    [ 99] ונתמ → נמות (Die)
+    [102] מרבד → מדבר (wilderness/desert)
+    [103] רבדכ → כדבר (As a thing)
+    [112] זרמע → מזרע (Seed)
+    [114] מעגש → משגע (Gorgeous)
+    [125] בצרת → צרבת (Heartburn)
+    [127] רתדו → ותרד (And down)
+    [130] ונחי → יחנו (Park)
+    [146] ננכו → נכנו (Initiated)
+    [172] נליב → לבני (My son)
+    [173] ליבש → ילבש (Wear)
+    [174] יבשת → בשתי (On two)
+    [175] בשתק → תבקש (Ask)
+    [176] שתקה → הקשת (The Rainbow)
+    [178] קהתש → הקשת (The Rainbow)
+    [183] שתשר → שרשת (Network)
+    [184] תשרט → שרטת (Scratch)
+    [198] שקלד → לקדש (To sanctify)
+    [199] קלדה → דקלה (Dekela)
+    [210] ישקר → קרשי (Kershi)
+    [230] חולש → שלחו (Send)
+    [232] לשוח → שלחו (Send)
+    [239] גובד → ובגד (And clothing)
+    [247] מרלה → למהר (Hurry)
+    [253] רבדב → בדבר (About)
+    [268] שעהת → העשת (The Do)
+    [269] עהתש → העשת (The Do)
+    [270] התשק → הקשת (The Rainbow)
+    [271] תשקה → הקשת (The Rainbow)
+    [279] ודגנ → ונגד (and against)
+    [304] שהשה → הששה (Six)
+    [305] השהש → הששה (Six)
+    [311] דמהי → דמיה (Damia)
+    [312] מהיש → שימה (Shima)
+    [313] הישמ → שימה (Shima)
+    [314] ישמל → שלמי (Pay)
+    [329] חיתנ → נחית (Landing)
+    [340] כלנה → כלנה (KLENA)
+    [342] נהקי → יקנה (Buy)
+    [344] קיוד → ויקד (Vicked)
+    [360] דשהמ → השמד (Exterminate)
+    [361] שהמו → ומשה (and Moses)
+    [365] גותש → ותגש (and approach)
+    [366] ותשש → וששת (And six)
+    [367] תששו → וששת (And six)
+    [370] ושרי → יורש (Heir)
+    [371] שריו → יורש (Heir)
+    [372] ריוה → יורה (Shooter)
+    [375] הבנד → נדבה (alms)
+    [376] בנדה → נדבה (alms)
+    [379] הגני → ינהג (Drive)
+    [390] לרמה → למהר (Hurry)
+    [397] נלעו → ונעל (And Shoe)
+    [404] דגלת → גדלת (Growing up)
+    [405] גלתד → גדלת (Growing up)
+    [406] לתדק → דלקת (Inflammation)
+    [414] נמער → מנער (Shaker)
+    [451] לדלמ → ללמד (Teaching)
+    [453] למדי → ילמד (Learn)
+    [459] יצמר → מצרי (Egyptian)
+    [462] רדיש → שריד (Relic)
+    [464] ישנה → השני (The second)
+    [465] שנהט → שטנה (Tanna)
+    [473] יהדכ → ידכה (<unk>)
+    [478] דדיי → ידיד (Friend)
+    [481] יתרש → ירשת (You inherited)
+    [482] תרשי → ירשת (You inherited)
+    [483] רשיג → יגרש (Expelled)
+    [516] טמרה → המטר (The Meter)
+    [517] מרהנ → מנרה (Manara)
+    [523] מצלי → צלמי (Photographer)
+    [531] דושח → ושחד (And bribe)
+    [532] ושחמ → ושמח (And happy)
+    [562] מהטו → המוט (The rod)
+    [566] תהוש → ושתה (And drank)
+    [567] הושר → השור (The Bull)
+    [568] ושרה → השור (The Bull)
+    [571] הגדי → הגדי (The Gadi)
+    [581] ליתד → תלדי (Give birth)
+    [586] נלוק → קלנו (Kelano)
+    [591] גשתר → גרשת (Expiration)
+    [592] שתרח → תחרש (Submerge)
+    [601] חונו → וחנו (And Hanu)
+    [606] לזבנ → לזנב (The tail)
+    [608] בננג → נגנב (Stolen)
+    [616] נהני → הנני (I am)
+    [617] הניד → דינה (Dina)
+    [619] ידול → לידו (Next to him)
+    [620] דולב → לבדו (Alone)
+    [621] ולבה → והבל (And Abel)
+    [622] לבהט → לטבה (Latva)
+    [623] בהטנ → בטנה (lining)
+    [643] שטתה → תשטה (Fool)
+    [644] טתהל → להטת (Tilt)
+    [645] תהלד → הלדת (The Birth)
+    [646] הלדי → הילד (The boy)
+    [648] דילי → ילדי (My child)
+    [660] ננגב → נגנב (Stolen)
+    [663] בשמה → שבמה (In what)
+    [664] שמהכ → כמשה (Moses)
+    [665] מהכל → מלכה (Queen)
+    [666] הכלו → ולכה (Valach)
+    [667] כלוי → כליו (His Tools)
+    [668] לויו → ולוי (And Levi)
+    [669] ויוד → וידו (Vido)
+    [670] יודג → ויגד (Wigged)
+    [689] השיר → ירשה (Isher)
+    [690] שירט → שטרי (Shtri)
+    [696] טתשי → שטית (Sait)
+    [699] יחיל → לחיי (To me)
+    [700] חילנ → נחלי (Nahali)
+
+  Top 4-letter words:
+    הקשת     The Rainbow               ×4
+    הששה     Six                       ×2
+    השור     The Bull                  ×2
+    יורש     Heir                      ×2
+    לטבה     Latva                     ×2
+    העשת     The Do                    ×2
+    שלחו     Send                      ×2
+    גדלת     Growing up                ×2
+    למהר     Hurry                     ×2
+    ירשת     You inherited             ×2
+    ובגד     And clothing              ×2
+    שימה     Shima                     ×2
+    וששת     And six                   ×2
+    נדבה     alms                      ×2
+    נגנב     Stolen                    ×2
+    תשטה     Fool                      ×1
+    בדבר     About                     ×1
+    מנרה     Manara                    ×1
+    יקנה     Buy                       ×1
+    שטנה     Tanna                     ×1
+
+  ── Basin walks (top 10 words) ──
+    נגד (Against) → נגד  path: []
+    וחש (and feel) → שוח  path: []
+    שנו (Change) → שנו  path: []
+    שרש (Shersh) → שרש  path: []
+    שחד (bribe) → חדש  path: []
+    ונד (Vand) → נוד  path: []
+    ודל (Weddell) → ולד  path: []
+    המר (Convert) → מרה  path: []
+    יחד (Together) → יחד  path: []
+    חנו (Park) → ונח  path: []
+
+  Saved: data/dna/tb-katg-oracle.edn
+
+
+══ PART 2: HEMOGLOBIN — NORMAL vs SICKLE CELL ══
+
+╔═══════════════════════════════════════════════╗
+║  HBB-Normal                                    ║
+║  P68871                                        ║
+║  Hemoglobin beta chain (normal). 147 residu... ║
+╚═══════════════════════════════════════════════╝
+
+  147 residues → 147 Hebrew letters. GV=11483.
+  Factors: 11483
+
+  Hebrew: בטענהוללקידטהדנכשקטחטגלטששלדנשרננטטזוכהצרתתליתשגניהוגדטבשחוקטקדעשקקטנשדתיגשנדענגחנקשהתדהנילנעפגקנעטגולחתרננשחטנטפטנדעעתש...
+
+  ── Serpent search ──
+    [106] נשח — anagram
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    נדע      We will know              ×4
+    נגש      Access                    ×2
+    נגח      Rammed                    ×2
+    נדה      Neda                      ×2
+    עקד      AKED                      ×2
+    נטע      Neta                      ×2
+    חשב      Thought                   ×1
+    נעל      Shoe                      ×1
+    תרח      Tahreh                    ×1
+    תשה      Drink                     ×1
+    חלת      Challah                   ×1
+    נרת      Nerth                     ×1
+    קשה      Hard                      ×1
+    שתי      Two.                      ×1
+    ענה      answer/afflict            ×1
+
+  Top 4-letter words:
+    נגשי     Access                    ×2
+    תשיג     Get                       ×2
+    לקול     Voice                     ×1
+    וגלח     And shave                 ×1
+    לעני     Poor                      ×1
+    דינה     Dina                      ×1
+    תרצה     Tirzah                    ×1
+    הקשת     The Rainbow               ×1
+    וחלת     And you got               ×1
+    ותלה     and hanging               ×1
+    הגוי     The Gentile               ×1
+    יקלל     Cursed                    ×1
+    עונה     Season                    ×1
+    לשתי     For Two                   ×1
+    והגד     And Haggadah              ×1
+
+  ── Basin walks (top 10 words) ──
+    נדע (We will know) → נדע  path: []
+    נגש (Access) → נגש  path: []
+    נגח (Rammed) → נגח  path: []
+    נדה (Neda) → נדה  path: []
+    עקד (AKED) → עקד  path: []
+    נטע (Neta) → נטע  path: []
+    חשב (Thought) → חשב  path: []
+    נעל (Shoe) → נעל  path: []
+    תרח (Tahreh) → תרח  path: []
+    תשה (Drink) → שתה  path: []
+
+  Saved: data/dna/hbb-normal-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  HBB-Sickle                                    ║
+║  P68871                                        ║
+║  Hemoglobin beta chain — SICKLE MUTANT. Pos... ║
+╚═══════════════════════════════════════════════╝
+  MUTATION: position 5, E→V (actual: P)
+
+  147 residues → 147 Hebrew letters. GV=11486.
+  Factors: 2 × 5743
+
+  Hebrew: בטענהטללקידטהדנכשקטחטגלטששלדנשרננטטזוכהצרתתליתשגניהוגדטבשחוקטקדעשקקטנשדתיגשנדענגחנקשהתדהנילנעפגקנעטגולחתרננשחטנטפטנדעעתש...
+
+  ── Serpent search ──
+    [106] נשח — anagram
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    נדע      We will know              ×4
+    נגש      Access                    ×2
+    נגח      Rammed                    ×2
+    נדה      Neda                      ×2
+    עקד      AKED                      ×2
+    נטע      Neta                      ×2
+    חשב      Thought                   ×1
+    נעל      Shoe                      ×1
+    תרח      Tahreh                    ×1
+    תשה      Drink                     ×1
+    חלת      Challah                   ×1
+    נרת      Nerth                     ×1
+    קשה      Hard                      ×1
+    שתי      Two.                      ×1
+    להט      Passion                   ×1
+
+  Top 4-letter words:
+    נגשי     Access                    ×2
+    תשיג     Get                       ×2
+    וגלח     And shave                 ×1
+    לעני     Poor                      ×1
+    דינה     Dina                      ×1
+    תרצה     Tirzah                    ×1
+    הקשת     The Rainbow               ×1
+    וחלת     And you got               ×1
+    ותלה     and hanging               ×1
+    הגוי     The Gentile               ×1
+    יקלל     Cursed                    ×1
+    לשתי     For Two                   ×1
+    והגד     And Haggadah              ×1
+    השדת     The Field                 ×1
+    יונה     Jonah                     ×1
+
+  ── Basin walks (top 10 words) ──
+    נדע (We will know) → נדע  path: []
+    נגש (Access) → נגש  path: []
+    נגח (Rammed) → נגח  path: []
+    נדה (Neda) → נדה  path: []
+    עקד (AKED) → עקד  path: []
+    נטע (Neta) → נטע  path: []
+    חשב (Thought) → חשב  path: []
+    נעל (Shoe) → נעל  path: []
+    תרח (Tahreh) → תרח  path: []
+    תשה (Drink) → שתה  path: []
+
+  Saved: data/dna/hbb-sickle-oracle.edn
+
+  ── Normal vs Sickle Comparison ──
+    Normal GV=11483, Sickle GV=11486, diff=3
+    The single mutation: Glu(ל)→Val(ט)  GV change: 30→9 (diff=-21)
+
+
+══ PART 3: p53 — GUARDIAN OF THE GENOME ══
+
+╔═══════════════════════════════════════════════╗
+║  p53-Normal                                    ║
+║  P04637                                        ║
+║  Tumor protein p53. Guardian of the genome.... ║
+╚═══════════════════════════════════════════════╝
+
+  393 residues → 393 Hebrew letters. GV=25667.
+  Factors: 25667
+
+  Hebrew: בללוציגויטלווניצלהתיגנכקננולחחטניונויצדבגגנבניוגגמלצכתהלגושוגלדורבולדדווטדודודדוהודדודודויכוניייטויצקהזצשיזשתרנשתנעישהדק...
+
+  ── Serpent search ──
+    [198] שחנ — anagram
+    [261] שחנ — anagram
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    דדו      Dedo                      ×9
+    יצו      <unk>                     ×4
+    גוי      Goy                       ×4
+    ויט      Whit                      ×3
+    מנה      Dose                      ×3
+    גשו      Come on.                  ×3
+    ונד      Vand                      ×3
+    ולו      And him                   ×3
+    לנח      Noah                      ×3
+    רבו      Fight                     ×2
+    עיר      city                      ×2
+    היש      Hish                      ×2
+    וצו      and order                 ×2
+    נגש      Access                    ×2
+    ודל      Weddell                   ×2
+
+  Top 4-letter words:
+    ממנה     From her                  ×3
+    ויצג     and represent             ×2
+    עירד     Irad                      ×2
+    ינצו     Janzo                     ×2
+    יכנו     Yekhanu                   ×2
+    ולוז     Veloz                     ×2
+    ולוט     Velut                     ×2
+    וגדל     And growing               ×2
+    פגרי     Fegrey                    ×1
+    גלתה     Exiled                    ×1
+    ונעל     And Shoe                  ×1
+    קריה     <unk>Cri<unk>             ×1
+    יעשה     Will do                   ×1
+    גררה     Guerrera                  ×1
+    השור     The Bull                  ×1
+
+  ── Basin walks (top 10 words) ──
+    דדו (Dedo) → דדו  path: []
+    יצו (<unk>) → יצו  path: []
+    גוי (Goy) → גוי  path: []
+    ויט (Whit) → ויט  path: []
+    מנה (Dose) → מנה  path: []
+    גשו (Come on.) → גשו  path: []
+    ונד (Vand) → נוד  path: []
+    ולו (And him) → ולו  path: []
+    לנח (Noah) → לנח  path: []
+    רבו (Fight) → ורב  path: []
+
+  Saved: data/dna/p53-normal-oracle.edn
+
+╔═══════════════════════════════════════════════╗
+║  p53-R175H                                     ║
+║  P04637                                        ║
+║  p53 R175H — most common cancer mutation. A... ║
+╚═══════════════════════════════════════════════╝
+  MUTATION: position 174, R→H (actual: R)
+
+  393 residues → 393 Hebrew letters. GV=25537.
+  Factors: 25537
+
+  Hebrew: בללוציגויטלווניצלהתיגנכקננולחחטניונויצדבגגנבניוגגמלצכתהלגושוגלדורבולדדווטדודודדוהודדודודויכוניייטויצקהזצשיזשתרנשתנעישהדק...
+
+  ── Serpent search ──
+    [198] שחנ — anagram
+    [261] שחנ — anagram
+
+  ── Key word search ──
+
+  Top 3-letter words:
+    דדו      Dedo                      ×9
+    יצו      <unk>                     ×4
+    גוי      Goy                       ×4
+    ויט      Whit                      ×3
+    מנה      Dose                      ×3
+    גשו      Come on.                  ×3
+    ונד      Vand                      ×3
+    ולו      And him                   ×3
+    לנח      Noah                      ×3
+    רבו      Fight                     ×2
+    עיר      city                      ×2
+    היש      Hish                      ×2
+    וצו      and order                 ×2
+    נגש      Access                    ×2
+    ודל      Weddell                   ×2
+
+  Top 4-letter words:
+    ממנה     From her                  ×3
+    ויצג     and represent             ×2
+    עירד     Irad                      ×2
+    ינצו     Janzo                     ×2
+    יכנו     Yekhanu                   ×2
+    ולוז     Veloz                     ×2
+    ולוט     Velut                     ×2
+    וגדל     And growing               ×2
+    פגרי     Fegrey                    ×1
+    גלתה     Exiled                    ×1
+    ונעל     And Shoe                  ×1
+    קריה     <unk>Cri<unk>             ×1
+    יעשה     Will do                   ×1
+    גררה     Guerrera                  ×1
+    השור     The Bull                  ×1
+
+  ── Basin walks (top 10 words) ──
+    דדו (Dedo) → דדו  path: []
+    יצו (<unk>) → יצו  path: []
+    גוי (Goy) → גוי  path: []
+    ויט (Whit) → ויט  path: []
+    מנה (Dose) → מנה  path: []
+    גשו (Come on.) → גשו  path: []
+    ונד (Vand) → נוד  path: []
+    ולו (And him) → ולו  path: []
+    לנח (Noah) → לנח  path: []
+    רבו (Fight) → ורב  path: []
+
+  Saved: data/dna/p53-r175h-oracle.edn
+
+  ── Normal vs R175H Comparison ──
+    Normal GV=25667, Mutant GV=25537, diff=-130
+
+
+════════════════════════════════════════════════
+  CROSS-ORGANISM SUMMARY
+════════════════════════════════════════════════
+  TB-Ag85B                   325 residues  GV=24797  3-let=112  4-let=51
+  TB-ESAT-6                   95 residues  GV=6242  3-let=42  4-let=18
+  TB-CFP-10                  100 residues  GV=7306  3-let=42  4-let=10
+  TB-Hsp65                   244 residues  GV=18244  3-let=91  4-let=50
+  TB-KatG                    740 residues  GV=55864  3-let=290  4-let=126
+  HBB-Normal                 147 residues  GV=11483  3-let=54  4-let=25
+  HBB-Sickle                 147 residues  GV=11486  3-let=54  4-let=23
+  p53-Normal                 393 residues  GV=25667  3-let=179  4-let=87
+  p53-R175H                  393 residues  GV=25537  3-let=180  4-let=87
