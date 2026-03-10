@@ -5,7 +5,8 @@
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
             [selah.dict :as dict]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.java.io :as io]))
 
 ;; ── The Grid ──────────────────────────────────────────────────
 
@@ -253,6 +254,140 @@
      :rows (when stones (vec (sort (set (map o/stone-row stones)))))
      :cols (when stones (vec (sort (set (map o/stone-col stones)))))
      :illuminations (count ilsets)}))
+
+(def output-dir "data/experiments/100")
+
+(def key-pattern-words
+  ["חי" "כבש" "שכב" "את" "כפר" "גפר" "עץ" "יהוה" "אלהים" "למינהו" "נח" "דם"])
+
+(def sample-codon-rows
+  [[1 1 1] [2 2 2] [3 3 3] [4 4 4]
+   [1 2 3] [4 3 2] [1 3 1] [2 4 2]])
+
+(defn- ensure-output-dir! []
+  (.mkdirs (io/file output-dir)))
+
+(defn- save-edn! [filename data]
+  (spit (str output-dir "/" filename) (pr-str data)))
+
+(defn structure-summary []
+  {:the-split {:coding-positions (reduce + (map merged-freq non-singleton-letters))
+               :singleton-positions (count canonical-singletons)
+               :non-singleton-letters (count non-singleton-letters)
+               :singleton-letters (count canonical-singletons)
+               :total-unique-letters (count merged-freq)}
+   :the-backbone {:universal-letters (mapv str (sort-by g/letter-value universal-letters))
+                  :universal-gv (mapv g/letter-value (sort-by g/letter-value universal-letters))
+                  :universal-gv-sum (reduce + (map g/letter-value universal-letters))
+                  :universal-positions (reduce + (map merged-freq universal-letters))
+                  :per-row (into {}
+                                 (for [r [1 2 3 4]]
+                                   [r (count (row-non-singletons r))]))}
+   :the-pairing {:row-1-plus-4 {:coding (+ (reduce + (map merged-freq (row-non-singletons 1)))
+                                           (reduce + (map merged-freq (row-non-singletons 4))))
+                                :specific-1 (count (clojure.set/difference (row-non-singletons 1) (row-non-singletons 4)))
+                                :specific-4 (count (clojure.set/difference (row-non-singletons 4) (row-non-singletons 1)))}
+                 :row-2-plus-3 {:coding (+ (reduce + (map merged-freq (row-non-singletons 2)))
+                                           (reduce + (map merged-freq (row-non-singletons 3))))
+                                :specific-2 (count (clojure.set/difference (row-non-singletons 2) (row-non-singletons 3)))
+                                :specific-3 (count (clojure.set/difference (row-non-singletons 3) (row-non-singletons 2)))}}
+   :column-2-center {:singletons (count (filter #(= 1 (:col (grid (first (get o/letter-index %))))) canonical-singletons))
+                     :out-of (count canonical-singletons)}
+   :aleph-tav {:columns (:cols (word-pattern "את"))
+               :skips-col-2 (= [1 3] (:cols (word-pattern "את")))}
+   :row-3-guard {:singletons (count (:singletons (row-profile 3)))
+                 :one-per-column (= 3 (count (:singletons (row-profile 3))))}
+   :row-exclusive {:qof-only-row-1
+                   (= #{1}
+                      (set (map (comp :row grid first) (get o/letter-index \ק))))}
+   :singleton-words {:chi-life "חי=18"
+                     :ki-because "כי=30"
+                     :zo-this "זו=13"}})
+
+(defn findings-summary []
+  {:finding "72 = 64 + 8"
+   :detail "14 non-singleton letters fill 64 positions. 8 singleton letters fill 8. 64 codons."
+   :column-2-info "4 of 8 singletons in center column — highest information at 2nd codon position"
+   :row-3-info "Only row with singleton in every column"
+   :alphabet-match "22 letters = 22 amino acids"})
+
+(defn grid-summary []
+  {:rows (mapv row-profile [1 2 3 4])
+   :cols (mapv col-profile [1 2 3])
+   :letter-freq (into (sorted-map-by #(compare (g/letter-value %1) (g/letter-value %2))) letter-freq)
+   :merged-freq (into (sorted-map-by #(compare (g/letter-value %1) (g/letter-value %2))) merged-freq)
+   :singletons (mapv str canonical-singletons)
+   :non-singletons (mapv str non-singleton-letters)
+   :universal-letters (mapv str (sort-by g/letter-value universal-letters))
+   :letters-by-freq (into (sorted-map)
+                          (for [[freq letters] letters-by-freq]
+                            [freq (mapv str (sort-by g/letter-value letters))]))
+   :aa-by-codon-count (into (sorted-map)
+                            (for [[cnt aas] aa-by-codon-count]
+                              [cnt (mapv :name aas)]))})
+
+(defn illumination-patterns []
+  {:patterns (mapv word-pattern key-pattern-words)
+   :same-stones? {:כבש=שכב (= (:stones (word-pattern "כבש"))
+                             (:stones (word-pattern "שכב")))}
+   :sample-codon-rows sample-codon-rows})
+
+(defn summary []
+  (merge (findings-summary)
+         {:coding-positions (reduce + (map merged-freq non-singleton-letters))
+          :singleton-positions (count canonical-singletons)
+          :backbone-letters (mapv str (sort-by g/letter-value universal-letters))
+          :backbone-positions (reduce + (map merged-freq universal-letters))
+          :backbone-name-value (reduce + (map g/letter-value universal-letters))
+          :aleph-tav-columns (:cols (word-pattern "את"))
+          :lamb-lying-same-stones (= (:stones (word-pattern "כבש"))
+                                     (:stones (word-pattern "שכב")))}))
+
+(defn report-text []
+  (let [fps (all-fingerprints)
+        rows (map row-profile [1 2 3 4])
+        cols (map col-profile [1 2 3])
+        patterns (map word-pattern key-pattern-words)]
+    (with-out-str
+      (println "=== Experiment 100: The Code ===")
+      (println)
+      (println (format "coding positions: %d" (reduce + (map merged-freq non-singleton-letters))))
+      (println (format "singleton positions: %d" (count canonical-singletons)))
+      (println (format "universal letters: %s" (str/join " " (map str (sort-by g/letter-value universal-letters)))))
+      (println (format "backbone positions: %d" (reduce + (map merged-freq universal-letters))))
+      (println)
+      (println "Letter fingerprints:")
+      (doseq [fp (sort-by (juxt (comp - :positions) :gv) fps)]
+        (println (format "  %s gv=%3d pos=%2d illum=%d read=%d known=%d"
+                         (:letter fp) (:gv fp) (:positions fp)
+                         (:illuminations fp) (:total-readings fp) (:known-words fp))))
+      (println)
+      (println "Rows:")
+      (doseq [r rows]
+        (println (format "  row %d: unique=%d singletons=%s gv=%d"
+                         (:row r) (:n-unique r) (apply str (:singletons r)) (:letter-gv-sum r))))
+      (println)
+      (println "Columns:")
+      (doseq [c cols]
+        (println (format "  col %d: unique=%d singletons=%s gv=%d"
+                         (:col c) (:n-unique c) (apply str (:singletons c)) (:letter-gv-sum c))))
+      (println)
+      (println "Patterns:")
+      (doseq [p patterns]
+        (println (format "  %s → stones=%s cols=%s illum=%d"
+                         (:word p) (pr-str (:stones p)) (pr-str (:cols p)) (:illuminations p)))))))
+
+(defn run-experiment! []
+  (ensure-output-dir!)
+  (save-edn! "letters.edn" (all-fingerprints))
+  (save-edn! "grid.edn" (grid-summary))
+  (save-edn! "structure.edn" (structure-summary))
+  (save-edn! "findings.edn" (findings-summary))
+  (save-edn! "illumination-patterns.edn" (illumination-patterns))
+  (save-edn! "summary.edn" (summary))
+  (spit (str output-dir "/output.txt") (report-text))
+  {:output-dir output-dir
+   :summary (summary)})
 
 ;; ── Run ───────────────────────────────────────────────────────
 

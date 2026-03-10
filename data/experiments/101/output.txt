@@ -1,0 +1,68 @@
+=== Experiment 101: The Map ===
+
+Top row/base mappings:
+  0.3968  {1 \A, 2 \C, 3 \G, 4 \U}
+  0.3968  {1 \G, 2 \C, 3 \A, 4 \U}
+  0.2645  {1 \C, 2 \G, 3 \A, 4 \U}
+  0.2645  {1 \A, 2 \C, 3 \U, 4 \G}
+  0.2645  {1 \A, 2 \G, 3 \U, 4 \C}
+  0.2645  {1 \A, 2 \G, 3 \C, 4 \U}
+
+Chosen mapping: {1 \A, 2 \C, 3 \G, 4 \U}
+Profile correlation: 0.3968
+Assignment score: 13.888
+Permutation test: p=0.000100 (0/10000)
+
+Assignments:
+  ב (gv=  2, freq= 6) -> Met  (1 codons)
+  ג (gv=  3, freq= 1) -> Asp  (2 codons)
+  ד (gv=  4, freq= 3) -> Ala  (4 codons)
+  ה (gv=  5, freq= 3) -> Thr  (4 codons)
+  ו (gv=  6, freq= 7) -> Pro  (4 codons)
+  ז (gv=  7, freq= 1) -> Tyr  (2 codons)
+  ח (gv=  8, freq= 1) -> Asn  (2 codons)
+  ט (gv=  9, freq= 1) -> Val  (4 codons)
+  י (gv= 10, freq=11) -> Ser  (6 codons)
+  כ (gv= 20, freq= 1) -> Trp  (1 codons)
+  ל (gv= 30, freq= 3) -> Glu  (2 codons)
+  מ (gv= 40, freq= 3) -> Ile  (3 codons)
+  נ (gv= 50, freq= 8) -> Leu  (6 codons)
+  ס (gv= 60, freq= 1) -> Stop (3 codons)
+  ע (gv= 70, freq= 2) -> His  (2 codons)
+  פ (gv= 80, freq= 2) -> Cys  (2 codons)
+  צ (gv= 90, freq= 1) -> Gln  (2 codons)
+  ק (gv=100, freq= 2) -> Lys  (2 codons)
+  ר (gv=200, freq= 5) -> Arg  (6 codons)
+  ש (gv=300, freq= 6) -> Gly  (4 codons)
+  ת (gv=400, freq= 1) -> Phe  (2 codons)
+
+Aleph:
+  unmapped: #{\א}
+  Glu sim=0.548 codons=2
+  Lys sim=0.548 codons=2
+  Ile sim=0.504 codons=3
+  Ala sim=0.481 codons=4
+  Gly sim=0.481 codons=4
+
+Position-2 verification:
+  row1-A: 4/5 hits=["Asn" "Gln" "His" "Lys"] misses=["Ser"]
+  row2-C: 4/4 hits=["Ala" "Pro" "Ser" "Thr"] misses=[]
+  row3-G: 4/4 hits=["Arg" "Gly" "Ser" "Trp"] misses=[]
+  row4-U: 4/6 hits=["Ile" "Leu" "Met" "Val"] misses=["Gly" "Ser"]
+
+Translated breastplate:
+  [ 1] א ב ר ה ם י -> ·MRTIS
+  [ 2] צ ח ק י ע ק -> QNKSHK
+  [ 3] ב ר א ו ב ן -> MR·PML
+  [ 4] ש מ ע ו ן ל -> GIHPLE
+  [ 5] ו י י ה ו ד -> PSSTPA
+  [ 6] ה ד ן נ פ ת -> TALLCF
+  [ 7] ל י ג ד א ש -> ESDA·G
+  [ 8] ר י ש ש כ ר -> RSGGWR
+  [ 9] ז ב ו ל ן י -> YMPELS
+  [10] ו ס ף ב נ י -> P*CMLS
+  [11] מ י ן ש ב ט -> ISLGMV
+  [12] י י ש ר ו ן -> SSGRPL
+
+Full sequence: ·MRTISQNKSHKMR·PMLGIHPLEPSSTPATALLCFESDA·GRSGGWRYMPELSP*CMLSISLGMVSSGRPL
+

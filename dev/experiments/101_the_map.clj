@@ -6,7 +6,8 @@
             [selah.gematria :as g]
             [selah.dict :as dict]
             [clojure.set :as set]
-            [clojure.string :as str]))
+            [clojure.string :as str]
+            [clojure.java.io :as io]))
 
 ;; ── The Grid ────────────────────────────────────────────────
 ;; From experiment 100: when final forms are merged (ם→מ, ן→נ, ף→פ),
@@ -198,6 +199,279 @@
                       :aa-codons (aa-degeneracy aa)
                       :letter-freq (merged-freq letter)})]
         [letter (vec (take 5 (sort-by (comp - :similarity) scores)))]))))
+
+(def output-dir "data/experiments/101")
+
+(def aa-class
+  {:Ala :small :Arg :charged :Asn :polar :Asp :charged
+   :Cys :special :Gln :polar :Glu :charged :Gly :small
+   :His :charged :Ile :hydrophobic :Leu :hydrophobic :Lys :charged
+   :Met :special :Phe :hydrophobic :Pro :small :Ser :small
+   :Thr :small :Trp :special :Tyr :polar :Val :hydrophobic
+   :Stop :stop})
+
+(defn- ensure-output-dir! []
+  (.mkdirs (io/file output-dir)))
+
+(defn- save-edn! [filename data]
+  (spit (str output-dir "/" filename) (pr-str data)))
+
+(defn- profile-correlation* [pairs]
+  (let [xs (map first pairs)
+        ys (map second pairs)
+        n (count pairs)
+        mx (/ (reduce + xs) n)
+        my (/ (reduce + ys) n)
+        dxs (map #(- % mx) xs)
+        dys (map #(- % my) ys)
+        cov (reduce + (map * dxs dys))
+        sx (Math/sqrt (reduce + (map #(* % %) dxs)))
+        sy (Math/sqrt (reduce + (map #(* % %) dys)))]
+    (if (or (zero? sx) (zero? sy))
+      0.0
+      (/ cov (* sx sy)))))
+
+(defn mapping-scores []
+  (->> all-row-base-mappings
+       (map (fn [m] {:mapping m
+                     :correlation (profile-correlation m)}))
+       (sort-by (comp - :correlation))))
+
+(defn watson-crick-mapping? [mapping]
+  (= #{#{\A \U} #{\C \G}}
+     #{#{(mapping 1) (mapping 4)}
+       #{(mapping 2) (mapping 3)}}))
+
+(defn best-mapping []
+  (:mapping (first (filter (comp watson-crick-mapping? :mapping) (mapping-scores)))))
+
+(defn greedy-assign [mapping]
+  (let [all-letters (keys letter-cells)
+        all-targets (conj amino-acids :Stop)]
+    (loop [remaining-letters (set all-letters)
+           remaining-aas (set all-targets)
+           assigned {}]
+      (if (or (empty? remaining-letters) (empty? remaining-aas))
+        assigned
+        (let [scores (for [l remaining-letters
+                           a remaining-aas]
+                       {:letter l
+                        :aa a
+                        :sim (profile-similarity
+                              (letter-base-profile l mapping)
+                              (all-aa-profiles a))})
+              best (apply max-key :sim scores)]
+          (recur (disj remaining-letters (:letter best))
+                 (disj remaining-aas (:aa best))
+                 (assoc assigned (:letter best) (:aa best))))))))
+
+(defn assignment-score [mapping assignment]
+  (reduce + (for [[letter aa] assignment]
+              (profile-similarity
+               (letter-base-profile letter mapping)
+               (all-aa-profiles aa)))))
+
+(defn assignment->aa-code [assignment]
+  (merge
+   (into {} (for [[l aa] assignment]
+              [l (case aa
+                   :Ala "A" :Arg "R" :Asn "N" :Asp "D" :Cys "C"
+                   :Gln "Q" :Glu "E" :Gly "G" :His "H" :Ile "I"
+                   :Leu "L" :Lys "K" :Met "M" :Phe "F" :Pro "P"
+                   :Ser "S" :Thr "T" :Trp "W" :Tyr "Y" :Val "V"
+                   :Stop "*")]))
+   {\א "·"}))
+
+(defn- shuffle-with-rng [xs rng]
+  (let [al (java.util.ArrayList. xs)]
+    (java.util.Collections/shuffle al rng)
+    (vec al)))
+
+(defn permutation-test
+  ([mapping assignment] (permutation-test mapping assignment 10000 101))
+  ([mapping assignment trials seed]
+   (let [letters (vec (sort-by g/letter-value (keys assignment)))
+         aas (vec (map assignment letters))
+         observed (assignment-score mapping assignment)
+         rng (java.util.Random. (long seed))
+         exceedances (reduce
+                      (fn [n _]
+                        (let [trial-assignment (zipmap letters (shuffle-with-rng aas rng))
+                              score (assignment-score mapping trial-assignment)]
+                          (if (>= score observed) (inc n) n)))
+                      0
+                      (range trials))]
+     {:trials trials
+      :seed seed
+      :observed observed
+      :exceedances exceedances
+      :p-value (/ (double (inc exceedances)) (double (inc trials)))})))
+
+(defn position2-verification [mapping assignment]
+  (into {}
+        (for [r [1 2 3 4]]
+          (let [base (mapping r)
+                expected-aas (set (for [[codon aa] codon-table
+                                        :when (= base (nth codon 1))]
+                                    aa))
+                letters-here (distinct (map :letter (filter #(and (= r (:row %)) (= 2 (:col %)))
+                                                           grid-positions)))
+                assigned-aas (set (keep assignment letters-here))
+                hits (set/intersection assigned-aas expected-aas)]
+            [(keyword (str "row" r "-" base))
+             {:row r
+              :base base
+              :hits (count hits)
+              :assigned (count assigned-aas)
+              :hit-aas (mapv name (sort hits))
+              :miss-aas (mapv name (sort (set/difference assigned-aas expected-aas)))}]))))
+
+(defn mapping-artifact [scores chosen-mapping]
+  {:mapping chosen-mapping
+   :correlation (profile-correlation chosen-mapping)
+   :watson-crick {:outer [:A :U] :inner [:C :G]}
+   :all-scores (vec (map (fn [ms] {:mapping (:mapping ms)
+                                   :correlation (:correlation ms)})
+                         scores))})
+
+(defn assignment-artifact [assignment]
+  (into (sorted-map)
+        (for [[letter aa] assignment]
+          [(str letter) {:letter (str letter)
+                         :gv (g/letter-value letter)
+                         :freq (merged-freq letter)
+                         :amino-acid aa
+                         :codons (aa-degeneracy aa)
+                         :singleton? (contains? singletons letter)
+                         :backbone? (contains? #{\ו \י \נ} letter)
+                         :row-exclusive? (= 1 (count (set (map first (get letter-cells letter)))))}])))
+
+(defn translated-breastplate [mapping assignment]
+  (let [letter->aa-code (assignment->aa-code assignment)]
+    {:stones
+     (mapv (fn [[snum letters row col]]
+             {:stone snum
+              :row row
+              :col col
+              :letters (vec (map str (seq letters)))
+              :translation (apply str (map #(get letter->aa-code (base-letter %) "?") (seq letters)))})
+           o/stone-data)
+     :by-row
+     (mapv (fn [r]
+             (let [row-stones (filter (fn [[_ _ sr _]] (= sr r)) o/stone-data)
+                   row-seq (mapcat (fn [[_ letters _ _]]
+                                     (map #(get letter->aa-code (base-letter %) "?") (seq letters)))
+                                   row-stones)]
+               {:row r
+                :base (mapping r)
+                :translation (apply str row-seq)}))
+           [1 2 3 4])
+     :full-sequence
+     (apply str (mapcat (fn [[_ letters _ _]]
+                          (map #(get letter->aa-code (base-letter %) "?") (seq letters)))
+                        o/stone-data))}))
+
+(defn summary []
+  (let [scores (mapping-scores)
+        chosen-mapping (best-mapping)
+        matches (best-aa-matches chosen-mapping)
+        assignment (greedy-assign chosen-mapping)
+        ptest (permutation-test chosen-mapping assignment)
+        freq-corr (profile-correlation*
+                   (for [[l aa] assignment]
+                     [(merged-freq l) (aa-degeneracy aa)]))
+        inv (set/map-invert chosen-mapping)]
+    {:row-base-mapping chosen-mapping
+     :assignment-score (assignment-score chosen-mapping assignment)
+     :permutation-p (:p-value ptest)
+     :permutation-exceedances (:exceedances ptest)
+     :permutation-trials (:trials ptest)
+     :frequency-correlation freq-corr
+     :profile-correlation (profile-correlation chosen-mapping)
+     :pos2-verification (into {}
+                              (for [[k {:keys [hits assigned]}] (position2-verification chosen-mapping assignment)]
+                                [k [hits assigned]]))
+     :unmapped-letter (str (first (set/difference (set (keys letter-cells))
+                                                  (set (keys assignment)))))
+     :start-codon {:codon "AUG"
+                   :stones (vec (for [i [0 1 2]
+                                      :let [base (nth [\A \U \G] i)
+                                            row (inv base)
+                                            col (inc i)]]
+                                  (first (first (filter (fn [[_ _ r c]] (and (= r row) (= c col)))
+                                                        o/stone-data)))))
+                   :letter "ב"
+                   :aa :Met}
+     :stop-letter {:letter "ס" :stone 10 :tribe "Joseph"}
+     :backbone {:vav [:Pro 4] :yod [:Ser 6] :nun [:Leu 6] :total-positions 26}
+     :aleph-top-matches (vec (take 5 (get matches \א)))}))
+
+(defn report-text []
+  (let [scores (mapping-scores)
+        chosen-mapping (best-mapping)
+        matches (best-aa-matches chosen-mapping)
+        assignment (greedy-assign chosen-mapping)
+        letter->aa-code (assignment->aa-code assignment)
+        ptest (permutation-test chosen-mapping assignment)
+        translated (translated-breastplate chosen-mapping assignment)
+        full-seq (vec (:full-sequence translated))
+        first-met (.indexOf full-seq "M")
+        stop-offset (.indexOf (vec (drop (inc first-met) full-seq)) "*")
+        first-stop (when (>= stop-offset 0) (+ first-met stop-offset 1))]
+    (with-out-str
+      (println "=== Experiment 101: The Map ===")
+      (println)
+      (println "Top row/base mappings:")
+      (doseq [ms (take 6 scores)]
+        (println (format "  %.4f  %s" (:correlation ms) (pr-str (:mapping ms)))))
+      (println)
+      (println (format "Chosen mapping: %s" (pr-str chosen-mapping)))
+      (println (format "Profile correlation: %.4f" (profile-correlation chosen-mapping)))
+      (println (format "Assignment score: %.3f" (assignment-score chosen-mapping assignment)))
+      (println (format "Permutation test: p=%.6f (%d/%d)"
+                       (:p-value ptest) (:exceedances ptest) (:trials ptest)))
+      (println)
+      (println "Assignments:")
+      (doseq [[letter aa] (sort-by (comp g/letter-value key) assignment)]
+        (println (format "  %s (gv=%3d, freq=%2d) -> %-4s (%d codons)"
+                         letter (g/letter-value letter) (merged-freq letter)
+                         (name aa) (aa-degeneracy aa))))
+      (println)
+      (println "Aleph:")
+      (println (format "  unmapped: %s"
+                       (pr-str (set/difference (set (keys letter-cells))
+                                               (set (keys assignment))))))
+      (doseq [m (take 5 (get matches \א))]
+        (println (format "  %s sim=%.3f codons=%d"
+                         (name (:aa m)) (:similarity m) (:aa-codons m))))
+      (println)
+      (println "Position-2 verification:")
+      (doseq [[k {:keys [hits assigned hit-aas miss-aas]}] (position2-verification chosen-mapping assignment)]
+        (println (format "  %s: %d/%d hits=%s misses=%s"
+                         (name k) hits assigned (pr-str hit-aas) (pr-str miss-aas))))
+      (println)
+      (println "Translated breastplate:")
+      (doseq [{:keys [stone letters translation]} (:stones translated)]
+        (println (format "  [%2d] %s -> %s" stone (apply str (interpose " " letters)) translation)))
+      (println)
+      (when (and (>= first-met 0) (number? first-stop))
+        (println (format "ORF start: %d" (inc first-met)))
+        (println (format "ORF stop: %d" (inc first-stop))))
+      (println (format "Full sequence: %s" (:full-sequence translated)))
+      (println))))
+
+(defn run-experiment! []
+  (ensure-output-dir!)
+  (let [scores (mapping-scores)
+        chosen-mapping (best-mapping)
+        assignment (greedy-assign chosen-mapping)]
+    (save-edn! "row-base-mapping.edn" (mapping-artifact scores chosen-mapping))
+    (save-edn! "letter-aa-assignment.edn" (assignment-artifact assignment))
+    (save-edn! "summary.edn" (summary))
+    (save-edn! "translated-breastplate.edn" (translated-breastplate chosen-mapping assignment))
+    (spit (str output-dir "/output.txt") (report-text))
+    {:output-dir output-dir
+     :summary (summary)}))
 
 ;; ── Run ─────────────────────────────────────────────────────
 
