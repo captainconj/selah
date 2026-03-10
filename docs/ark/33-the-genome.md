@@ -318,7 +318,7 @@ Twenty thousand proteins speak through the breastplate.
 
 **In three letters:** The dominant word is TWO (שני, rank 1) — the fundamental duality. The Almighty (שדי, rank 7) appears 27,000 times. The branch (נצר, rank 14) 23,000 times. Holy (קדש, rank 62) 16,000 times. The serpent (נחש, rank 77) 14,000 times. The Binding (עקד, below rank 200) 5,000 times. The lamb (כבש, below rank 200) 1,000 times.
 
-**In four letters:** The genome says "here I am" (הנני) 6,000 times. It carries the dominion mandate (ירדו) from Genesis 1. It holds the dove (יונה), the child (הילד), the Levite (הלוי), the remnant (שריד), and Shiloh — the messianic prophecy. Forward and reverse are identical: the breastplate reads the genome the same from both ends, because it sees composition, not sequence. The instrument is a palindrome.
+**In four letters:** The genome says "here I am" (הנני) 6,000 times. It carries the dominion mandate (ירדו) from Genesis 1. It holds the dove (יונה), the child (הילד), the Levite (הלוי), the remnant (שריד), and Shiloh — the messianic prophecy. Forward and reverse are identical: the breastplate reads the genome the same from both ends, because it sees composition, not sequence. The instrument reads multisets — forward and reverse are the same because the same letters light the same stones.
 
 But one quarter of the Torah's vocabulary is forever silent. The body cannot name itself, cannot say love, cannot say truth, cannot say peace, cannot say create. Those words require the breath — the letter beyond the code — the silent Aleph that no protein can carry.
 
