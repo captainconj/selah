@@ -3,9 +3,10 @@
 
    Two vocabularies:
    - Curated: 239 words with English translations (entries map)
-   - Torah: ~7,300 unique word forms from the WLC text (lazy, cached)
+   - Torah lexicon: 12,826 unique word forms from the WLC text (lazy, cached)
+   - Oracle-closed vocabulary: a smaller analysis layer, roughly 7,300 forms
 
-   The curated set is for display. The Torah set is for analysis.
+   The curated set is for display. The Torah lexicon is the full text-derived set.
    Returns nil for unknown words. That's honest."
   (:require [selah.text.oshb :as oshb]
             [selah.text.normalize :as norm]
@@ -295,7 +296,7 @@
 
 (defn known?
   "Is this word known? Default checks curated dict.
-   Vocab: :dict (239), :torah (full ~7,300), or a set."
+   Vocab: :dict (239 curated display words), :torah (12,826-form Torah lexicon), or a set."
   ([word] (known? word :dict))
   ([word vocab]
    (cond
@@ -319,7 +320,7 @@
       (persistent! all-words))))
 
 (defn torah-words
-  "All unique Hebrew word forms in the Torah (~7,300 words).
+  "All unique Hebrew word forms in the Torah (12,826 forms).
    Includes every form that appears in the text — no curation.
    Lazy — first call triggers extraction from OSHB data."
   []

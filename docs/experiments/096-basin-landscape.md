@@ -511,9 +511,9 @@ The answer is in the text. The text is what it is.
 
 ## Data
 
-- Classification: `data/experiments/096/word-index.edn` — {word → class, attractor, steps, GV, meaning}
+- Classification: `data/experiments/096/word-index.edn` — {word → class, attractor, steps, GV}
 - Attractors: `data/experiments/096/attractors.edn` — sorted by basin size desc
-- Cycles: `data/experiments/096/cycles.edn` — orbit members and transients with meanings
+- Cycles: `data/experiments/096/cycles.edn` — orbit members and transients
 - Summary: `data/experiments/096/summary.edn` — all statistics
 - Raw landscape: `data/basin-landscape.edn` — the full walk data
 - Code: `dev/experiments/096_basin_classification.clj`

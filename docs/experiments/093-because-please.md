@@ -165,7 +165,7 @@ The tool provides the menu. The priest chooses. But the menu writes itself.
 
 **Base rate:** 38 of 227 readable words (16.7%) have multiple phrase readings. Most are 2-word anagram pairs (the 12 Ramban pairs from 092b). Only 8 words have 3+ phrases. Israel has 13 (by far the richest). The other 7 rich words are: Elohim (5), I-emphatic (3), peace (3), life (3), eternity (3), Pharaoh (3), four (3), great (3), Lord (3).
 
-**Vocabulary independence:** The Thummim has been tested at three vocabulary levels — a curated core set, the oracle's own natural output vocabulary (2,050 words at the knee of its limiting distribution), and the full Torah lexicon (~7,300 unique word forms). The key findings survive at every level. Single-word decompositions (חיים=חי ים, שלום=שם לו) are identical across all three.
+**Vocabulary independence:** The Thummim has been tested at three vocabulary levels — a curated core set, the oracle's own natural output vocabulary (2,050 words at the knee of its limiting distribution), and the full Torah lexicon (12,826 unique word forms). The key findings survive at every level. Single-word decompositions (חיים=חי ים, שלום=שם לו) are identical across all three.
 
 **Hebrew morphology:** Hebrew's triliteral root system means short words (2-3 letters) are abundant. Common letters make more small words. The letters in אנכי (א,נ,כ,י) and אדני (א,ד,נ,י) include some of the most frequent Hebrew consonants. That these letters form multiple small words is partly a consequence of Hebrew's structure.
 

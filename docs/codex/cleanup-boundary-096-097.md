@@ -51,24 +51,18 @@ That matters.
 
 The earlier concern was not that the whole basin layer would collapse. The concern was that garbage English had been mixed into saved evidence paths. The rebuild removed that contamination from the tracked outputs that were actually regenerated.
 
-## What Is Still Dirty
+## What Was Dirty And Was Removed
 
-Not everything under `data/experiments/096/` is now clean.
+At the time of the rebuild, there were still older untracked `096` sidecar files containing stale English fields and machine-generated gloss sludge.
 
-There are still older untracked sidecar files in that directory containing stale English fields and machine-generated gloss sludge. Examples include the extended or side-analysis files that were not touched by the rebuild run.
+Those files were not part of the tracked regeneration commit.
 
-Those files were left alone on purpose.
+They have since been removed from the working tree.
 
-Reason:
-
-- they were not rewritten by the cleaned builders
-- they are not part of the tracked regeneration commit
-- they need their own decision: regenerate, quarantine, or burn
-
-So the honest state is:
+So the current state is simpler:
 
 - tracked rebuilt artifacts: clean
-- older untracked sidecars: still suspect or dirty
+- stale `096` sidecar debris: removed
 
 ## What This Means For Docs
 
@@ -76,7 +70,6 @@ Docs that cite the rebuilt tracked `096` / `097` outputs are now on firmer groun
 
 Docs that cite:
 
-- stale sidecar files
 - old saved English meanings
 - pre-cleanup `096` / `097` output renderings
 
@@ -94,7 +87,6 @@ The basin cleanup is real, but it is not the end of the audit.
 
 Remaining work:
 
-- classify or remove the stale untracked `096` sidecar files
 - audit docs that quote `096` / `097` meanings as semantic evidence
 - continue the same cleanup pattern through `sweep`, `dna`, and later passage experiment layers
 - keep vocabulary terminology explicit: `12,826` full lexicon vs `~7,300` oracle-closed vocabulary

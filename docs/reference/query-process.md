@@ -59,7 +59,7 @@ Each reading comes with:
 
 | Level | Size | Character |
 |-------|------|-----------|
-| `:torah` | ~7,300 words | Every word form in the five books. No curation. Full lexicon. |
+| `:torah` | 12,826 forms | Every word form in the five books. No curation. Full lexicon. |
 | `:voice` | ~2,050 words | The knee of the oracle's limiting distribution. 83% of mass. |
 | `:dict` | 239 words | Curated Torah vocabulary with English translations. Tightest signal. |
 

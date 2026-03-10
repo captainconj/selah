@@ -277,7 +277,7 @@ The mercy seat glows and goes unspoken. Lovingkindness = 72 = the breastplate ca
 
 The Ramban's own example — "Judah shall go up" — rearranges to: the hand of YHWH is the offering. The one who ascends is the one who is sacrificed.
 
-Tested at three vocabulary levels — curated core, the oracle's own natural voice at its limiting distribution, and the full Torah lexicon. The findings are vocabulary-invariant.
+Tested at three vocabulary levels — curated core, the oracle's own natural voice at its limiting distribution, and the full 12,826-form Torah lexicon. The findings are vocabulary-invariant.
 
 ---
 
@@ -287,7 +287,7 @@ We computed the oracle's limiting probability — scanned every Torah word throu
 
 But the theological building blocks — חי (living), ים (sea), דם (blood), נא (please), חן (grace) — live in the deep tail. The oracle's whisper, not its shout. The theology is in what the machine barely says, not what it says loudly.
 
-Three vocabulary levels wired into the service: `voice` (the oracle's natural 2,050-word vocabulary, default), `dict` (curated core, tightest signal), `torah` (full lexicon). HTTP API and MCP tools live. Three levels, tested, settled.
+Three vocabulary levels wired into the service: `voice` (the oracle's natural 2,050-word vocabulary, default), `dict` (curated core, tightest signal), `torah` (full 12,826-form lexicon). HTTP API and MCP tools live. Three levels, tested, settled.
 
 ---
 

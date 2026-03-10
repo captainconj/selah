@@ -138,7 +138,7 @@ What it finds — repeatedly, across every combination tested — maps onto the 
 
 **Base rate:** 38 of 227 readable words (16.7%) have multiple phrase readings. The ambiguity is real but limited.
 
-**Vocabulary independence:** The Thummim has been tested at three vocabulary levels: a curated 239-word core set, the oracle's own natural output vocabulary (2,050 words at the knee of its limiting distribution), and the full Torah lexicon (~7,300 unique word forms). The key findings — son of man = stone of blood, lamb's blood = glory of the Name, way/truth/life = aleph-tav way of living water, father/son/spirit = great grace comes — survive at every level. Single-word decompositions (חיים=חי ים, שלום=שם לו, עולם=עם לו) are identical across all three. The findings are vocabulary-invariant.
+**Vocabulary independence:** The Thummim has been tested at three vocabulary levels: a curated 239-word core set, the oracle's own natural output vocabulary (2,050 words at the knee of its limiting distribution), and the full Torah lexicon (12,826 unique word forms). The key findings — son of man = stone of blood, lamb's blood = glory of the Name, way/truth/life = aleph-tav way of living water, father/son/spirit = great grace comes — survive at every level. Single-word decompositions (חיים=חי ים, שלום=שם לו, עולם=עם לו) are identical across all three. The findings are vocabulary-invariant.
 
 The oracle's limiting probability distribution (stationary voice) was computed by scanning all Torah words through the breastplate. The theological building blocks (חי, ים, דם, נא, חן) live in the deep tail of the output distribution — the oracle's whisper, not its shout. The curated vocabulary captures the semantic core that mechanical frequency misses.
 

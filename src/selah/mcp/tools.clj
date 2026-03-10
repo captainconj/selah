@@ -197,13 +197,13 @@
   "Level 2 Thummim — phrase assembly. Given a Hebrew word, finds all illumination patterns on the breastplate and partitions each into dictionary phrases. The priest's menu.
 
   Vocab options:
-  - 'torah' (default): full Torah lexicon (~7,300 unique word forms)
+  - 'torah' (default): full 12,826-form Torah lexicon
   - 'voice': oracle's natural vocabulary (~2,050 words at the output distribution knee)
   - 'dict': curated Torah core vocabulary — tightest signal/noise"
   {:type "object"
    :properties {:word {:type "string" :description "Hebrew word to illuminate (e.g. כבש, אלהים, שלום)"}
                 :vocab {:type "string" :enum ["dict" "voice" "torah"]
-                        :description "Vocabulary — 'torah' (default, ~7,300 full), 'voice' (~2,050 oracle knee), or 'dict' (curated core)"}
+                        :description "Vocabulary — 'torah' (default, full 12,826-form lexicon), 'voice' (~2,050 oracle knee), or 'dict' (curated core)"}
                 :max_words {:type "integer" :description "Max words per phrase (default 3)"}}
    :required ["word"]}
   [args]
@@ -233,13 +233,13 @@
   "Parse raw Hebrew letters into all possible dictionary phrases. No breastplate — pure letter partition. Use for combined words (e.g. letters of 'father+son+spirit').
 
   Vocab options:
-  - 'torah' (default): full Torah lexicon (~7,300 unique word forms)
+  - 'torah' (default): full 12,826-form Torah lexicon
   - 'voice': oracle's natural vocabulary (~2,050 words at the output distribution knee)
   - 'dict': curated Torah core vocabulary — tightest signal/noise"
   {:type "object"
    :properties {:letters {:type "string" :description "Hebrew letters to parse (e.g. אבבנרוח for father+son+spirit)"}
                 :vocab {:type "string" :enum ["dict" "voice" "torah"]
-                        :description "Vocabulary — 'torah' (default, ~7,300 full), 'voice' (~2,050 oracle knee), or 'dict' (curated core)"}
+                        :description "Vocabulary — 'torah' (default, full 12,826-form lexicon), 'voice' (~2,050 oracle knee), or 'dict' (curated core)"}
                 :max_words {:type "integer" :description "Max words per phrase (default 3)"}}
    :required ["letters"]}
   [args]
