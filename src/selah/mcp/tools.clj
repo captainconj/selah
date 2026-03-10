@@ -225,7 +225,7 @@
           (doseq [p (:phrases result)]
             (println (format "  [%d words] %s  →  %s  (GV=%d, ×%d)"
                              (:words p) (:text p)
-                             (pr-str (:meanings p))
+                             (or (human/phrase-line (:phrase p)) "?")
                              (:gv p) (:occurrences p)))))
         (println (format "No illuminations for \"%s\"" word))))))
 
@@ -256,5 +256,5 @@
       (doseq [p result]
         (println (format "  [%d words] %s  →  %s  (GV=%d)"
                          (:words p) (:text p)
-                         (pr-str (:meanings p))
+                         (or (human/phrase-line (:phrase p)) "?")
                          (:gv p)))))))

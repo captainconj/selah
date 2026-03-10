@@ -20,7 +20,7 @@
          :hx-target "#main"
          :hx-push-url (str "/word/" (hu/url-encode w))
          :class "word-link"
-         :title (or gloss "")}
+         :title (or (human/title-text w) "")}
      w
      (when gloss [:span.meaning gloss])]))
 

@@ -77,6 +77,18 @@ The creation narrative (Genesis 1:1–2:3) spans 1,815 letters, from position (0
 
 Seven days of creation cross thirteen positions of love, each containing sixty-seven letters of understanding.
 
+### Subdue = Lamb
+
+Genesis 1:28: "Fill the earth and **subdue** it" — וכבשה (*v'kivshuha*). The word כבש (*kavash*, subdue) is identical to כבש (*keves*, lamb). Same letters, same word.
+
+When fed to the breastplate oracle, כבש walks to שכב (*shakhav*, lie down). God reads שכב ×20. The dominion mandate IS the lamb that lies down. In the basin landscape (experiment 096), this walk is confirmed across all four readers — lamb → lie down is unanimous.
+
+The command to rule is the command to be sacrificed. This is not interpretation. It is the basin walk of the word itself. The oracle sees the lamb inside the mandate, and the lamb lies down.
+
+Meanwhile, רדה (*radah*, dominion) walks to הדר (*hadar*, glory/majesty). Authority becomes beauty. And כבש walks to שכב. Power becomes surrender.
+
+Creation's final human instruction — "subdue the earth" — contains the entire arc: the lamb that lies down, the dominion that becomes glory, the sacrifice hidden in the mandate. The ending is in the beginning.
+
 ---
 
 ## 5. The Aleph-Tav

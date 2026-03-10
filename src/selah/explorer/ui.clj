@@ -10,7 +10,6 @@
             [selah.for-the-human :as human]
             [selah.oracle :as oracle]
             [selah.translate :as translate]
-            [selah.dict :as dict]
             [selah.explorer.sweep-ui :as sweep-ui]
             [clojure.string :as str]
             [clojure.set :as set]
@@ -52,7 +51,7 @@
           :hx-target "#main"
           :hx-push-url (str "/word/" (hu/url-encode word))
           :class (str "word-link" (when extra-class (str " " extra-class)))
-          :title (or meaning "")}
+          :title (or (human/title-text word) "")}
       word
       (when meaning [:span.meaning meaning])])))
 
@@ -154,7 +153,7 @@
         (for [{:keys [word freq gv len]} words]
           [:tr
            [:td (word-link word)]
-           [:td.meaning-col (dict/translate word)]
+           [:td.meaning-col (human/gloss word)]
            [:td freq]
            [:td (num-link gv "gv" gv)]
            [:td len]])]]]]))
@@ -182,7 +181,7 @@
         (for [{:keys [word freq preimage len]} words]
           [:tr
            [:td (word-link word)]
-           [:td.meaning-col (dict/translate word)]
+           [:td.meaning-col (human/gloss word)]
            [:td freq]
            [:td (if (and preimage (pos? preimage))
                   (num-link preimage "level" preimage)
@@ -200,7 +199,7 @@
      (for [{:keys [word freq gv preimage]} results]
        [:tr
         [:td (word-link word)]
-        [:td.meaning-col (dict/translate word)]
+        [:td.meaning-col (human/gloss word)]
         [:td freq]
         [:td (num-link gv "gv" gv)]
         [:td (if (and preimage (pos? preimage))
@@ -232,7 +231,7 @@
         (for [{:keys [word freq gv preimage]} word-data]
           [:tr
            [:td (word-link word)]
-           [:td.meaning-col (dict/translate word)]
+           [:td.meaning-col (human/gloss word)]
            [:td freq]
            [:td (num-link gv "gv" gv) " " (props-badges (exp/number-properties gv))]
            [:td (when (pos? (or preimage 0))
@@ -357,7 +356,7 @@
   "Single reader card showing name, word read, known status, and reading count."
   [reader-key word count-n]
   (let [names {:aaron "Aaron (priest)" :right "God's right" :left "God's left"}
-        meaning (dict/translate word)]
+        meaning (human/gloss word)]
     [:div.reader-card
      [:div.reader-name (get names reader-key (name reader-key))]
      [:div.reader-word {:class (if meaning "known" "unknown")} word]
@@ -525,7 +524,7 @@
          [:h2 "First illumination — three readings"]
          [:div.reader-cards
           (for [[reader-key word] sample-readings]
-            (let [meaning (dict/translate word)]
+            (let [meaning (human/gloss word)]
               [:div.reader-card
                [:div.reader-name (name reader-key)]
                [:div.reader-word {:class (if meaning "known" "unknown")} word]
@@ -647,7 +646,7 @@
               :when (seq unique-readings)]
           [:div
            [:h3 [:span.oracle-word.known w]
-            (when-let [m (dict/translate w)] (str " — " m))]
+            (when-let [m (human/gloss w)] (str " — " m))]
            (for [{:keys [word meaning total-readings]} (take 10 unique-readings)]
              [:div.rarity-item
               [:div.rarity-word {:class (if meaning "known" "unknown-word")} word]
@@ -665,7 +664,7 @@
           (for [{:keys [word meaning gv sources total-readings]}
                 (take 40 all-readings)]
             [:tr {:class (when (> (count sources) 1) "coincidence-row")}
-             [:td [:span.oracle-word {:class (when (dict/known? word) "known")} word]]
+             [:td [:span.oracle-word {:class (when (human/gloss word) "known")} word]]
              [:td.meaning-col (or meaning "")]
              [:td gv]
              [:td (str/join ", " sources)]
