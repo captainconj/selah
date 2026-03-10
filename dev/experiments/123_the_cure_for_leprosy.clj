@@ -75,7 +75,6 @@
             :gv (g/word-value w)
             :top-5 (vec (take 5 (map (fn [k]
                                         {:word (:word k)
-                                         :meaning (:meaning k)
                                          :reading-count (:reading-count k)})
                                       known)))}))))
 
@@ -85,7 +84,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)}))
        (sort-by (comp - :count))
        vec))
@@ -115,12 +113,12 @@
                          (count hits-3) (- (count letters) 2)))
         (doseq [{:keys [position letters top-5]} hits-3]
           (let [top (first top-5)]
-            (println (format "    [%3d] %s → %s (%s)"
+            (println (format "    [%3d] %s → %s"
                              position letters
-                             (:word top) (or (:meaning top) "?")))))
+                             (:word top)))))
         (println "\n  Top 3-letter words:")
-        (doseq [{:keys [word meaning count]} (take 15 top-3)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 15 top-3)]
+          (println (format "    %-8s ×%d" word count)))
 
         (println "\n  ── 4-letter sliding window (cherubim's view) ──")
         (let [hits-4 (slide-text letters 4)
@@ -129,12 +127,12 @@
                            (count hits-4) (- (count letters) 3)))
           (doseq [{:keys [position letters top-5]} hits-4]
             (let [top (first top-5)]
-              (println (format "    [%3d] %s → %s (%s)"
+              (println (format "    [%3d] %s → %s"
                                position letters
-                               (:word top) (or (:meaning top) "?")))))
+                               (:word top)))))
           (println "\n  Top 4-letter words:")
-          (doseq [{:keys [word meaning count]} (take 15 top-4)]
-            (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+          (doseq [{:keys [word count]} (take 15 top-4)]
+            (println (format "    %-8s ×%d" word count)))
 
           {:station station-num :name station-name
            :letter-count (count letters) :gv gv
@@ -465,12 +463,12 @@
                        (count hits-3) (- (count hebrew) 2)))
       (doseq [{:keys [position letters top-5]} hits-3]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 20 top-3)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 20 top-3)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; 4-letter readings
       (println (format "\n  ── 4-letter sliding window ──"))
@@ -478,20 +476,20 @@
                        (count hits-4) (- (count hebrew) 3)))
       (doseq [{:keys [position letters top-5]} hits-4]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 4-letter words:")
-      (doseq [{:keys [word meaning count]} (take 20 top-4)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 20 top-4)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; Basin walks for top words
       (println "\n  ── Basin walks (top 10 words) ──")
-      (doseq [{:keys [word meaning]} (take 10 top-3)]
+      (doseq [{:keys [word]} (take 10 top-3)]
         (when word
           (let [walk (basin/walk word)]
-            (println (format "    %s (%s) → %s  path: %s"
-                             word (or meaning "")
+            (println (format "    %s → %s  path: %s"
+                             word
                              (:fixed-point walk)
                              (mapv :word (:steps walk)))))))
 
@@ -530,14 +528,14 @@
     (let [all-words (for [r results
                           w (:top-3 r)]
                       {:protein (:name r) :word (:word w)
-                       :meaning (:meaning w) :count (:count w)})
+                       :count (:count w)})
           by-word (group-by :word all-words)
           shared (->> by-word
                       (filter (fn [[_ entries]] (> (count entries) 1)))
                       (sort-by (fn [[_ entries]] (- (reduce + (map :count entries))))))]
       (doseq [[word entries] (take 20 shared)]
-        (println (format "    %-8s %-20s  in %d proteins: %s"
-                         word (or (:meaning (first entries)) "")
+        (println (format "    %-8s  in %d proteins: %s"
+                         word
                          (count entries)
                          (str/join ", " (map #(str (:protein %) "(×" (:count %) ")")
                                              entries))))))
@@ -585,11 +583,11 @@
       (println (format "  3-letter: %d readings. 4-letter: %d readings."
                        (count all-3) (count all-4)))
       (println "\n  Top 25 words (3-letter) across the leprosy ritual:")
-      (doseq [{:keys [word meaning count]} (take 25 top-3)]
-        (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 25 top-3)]
+        (println (format "    %-8s ×%d" word count)))
       (println "\n  Top 25 words (4-letter) across the leprosy ritual:")
-      (doseq [{:keys [word meaning count]} (take 25 top-4)]
-        (println (format "    %-8s %-20s ×%d" word (or meaning "") count))))
+      (doseq [{:keys [word count]} (take 25 top-4)]
+        (println (format "    %-8s ×%d" word count))))
 
     ;; Station 5: The DNA
     (let [s5 (station-5-dna)]
