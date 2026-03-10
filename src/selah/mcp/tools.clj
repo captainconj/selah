@@ -1,5 +1,6 @@
 (ns selah.mcp.tools
   (:require [clojure.pprint :as pp]
+            [selah.for-the-human :as human]
             [selah.space.coords :as coords]
             [selah.space.project :as project]
             [selah.space.export :as export]
@@ -217,7 +218,7 @@
       (if result
         (do
           (println (format "Thummim menu for \"%s\" (%s, GV=%d)"
-                           word (or (:meaning result) "?") (:gv result)))
+                           word (human/gloss! word) (:gv result)))
           (println (format "Vocab: %s | Illuminations: %d | Phrases: %d\n"
                            (if (keyword? vocab) (name vocab) "torah")
                            (:illumination-count result) (count (:phrases result))))

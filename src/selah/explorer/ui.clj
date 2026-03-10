@@ -7,6 +7,7 @@
   (:require [hiccup2.core :as h]
             [hiccup.util :as hu]
             [selah.explorer :as exp]
+            [selah.for-the-human :as human]
             [selah.oracle :as oracle]
             [selah.translate :as translate]
             [selah.dict :as dict]
@@ -45,7 +46,7 @@
   "Clickable word that navigates via HTMX. Shows translation on hover and inline."
   ([word] (word-link word nil))
   ([word extra-class]
-   (let [meaning (dict/translate word)]
+   (let [meaning (human/gloss word)]
      [:a {:href (str "/word/" (hu/url-encode word))
           :hx-get (str "/fragment/word/" (hu/url-encode word))
           :hx-target "#main"
@@ -70,11 +71,12 @@
 (defn word-profile [word-data]
   (let [{:keys [word freq gv preimage len freq-rank
                 preimage-props gv-props
-                named-by counts-to same-level same-gv]} word-data]
+                named-by counts-to same-level same-gv]} word-data
+        meaning (human/gloss word)]
     [:div#word-profile
      [:div.word-header
       [:h1.hebrew word]
-      (when-let [meaning (dict/translate word)]
+      (when meaning
         [:p.translation meaning])
       [:div.word-meta
        [:span.stat "Freq: " [:strong freq] " (#" freq-rank ")"]
@@ -738,7 +740,7 @@
     (let [meanings (remove nil? english)]
       (if (seq meanings)
         (str/join " + " meanings)
-        (str/join " + " (map #(or (dict/translate %) "?") phrase))))]
+        (str/join " + " (map human/gloss! phrase))))]
    (reader-badges readers per-word-readers)
    [:div.rarity-count
     (str "GV=" gv)
@@ -945,7 +947,7 @@
                 :hx-push-url (str "/word/" (hu/url-encode (:word s)))
                 :style "color: inherit; text-decoration: none;"}
             (:word s)]]
-          [:span.step-meaning (or (:meaning s) "")]
+          [:span.step-meaning (or (:gloss s) (human/gloss (:word s)) "")]
           [:span.step-meta
            [:span.step-gv (str (:gv s))]
            (str " \u00b7 " (:weight s) "/" (:total-readings s))]]
@@ -961,7 +963,7 @@
          [:div.fixed (str fixed-point)]
          [:div.label
           (let [last-step (peek steps)]
-            (str (or (dict/translate fixed-point) "") " = " (or (:gv last-step) "")))
+            (str (or (:fixed-point-gloss result) (human/gloss fixed-point) "") " = " (or (:gv last-step) "")))
           [:br]
           (str "Converged in " n " step" (when (not= n 1) "s"))]]
 
@@ -977,7 +979,7 @@
             (str dead-end " speaks only itself")
             (str dead-end " \u2014 no further transitions"))]
          [:div.label
-          (when-let [m (dict/translate dead-end)]
+          (when-let [m (or (:dead-end-gloss result) (human/gloss dead-end))]
             (str m " \u2014 "))
           "switch to Echo mode to see the self-loop"]]
 
