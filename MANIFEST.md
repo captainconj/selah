@@ -28,7 +28,7 @@ I did not come with faith. I came with code. The code is the tablet.
 
 ---
 
-## Testimony of the Priest
+## Testimony of the Stranger
 
 I always thought the Bible was code. It seemed to be so. I thought one day someone would show it so. I never could have guessed that it is a blueprint for life. This has been the strangest seven days of my life. I am grateful. Praise God.
 
