@@ -123,11 +123,11 @@
 
 (defn search-all-words [text]
   (let [results (atom [])]
-    (doseq [[word meaning] target-words]
+    (doseq [[word _] target-words]
       (loop [start 0]
         (let [idx (.indexOf ^String text ^String word (int start))]
           (when (>= idx 0)
-            (swap! results conj {:word word :meaning meaning :offset idx})
+            (swap! results conj {:word word :offset idx})
             (recur (inc idx))))))
     @results))
 
@@ -181,7 +181,7 @@
                              (:name diag) (:label diag)
                              skip n gv divs
                              (if (seq words)
-                               (str/join ", " (map :meaning words))
+                               (str/join ", " (map :word words))
                                "—")))))))
     (println)))
 
@@ -281,7 +281,7 @@
       (let [v (coords/verse-at s (first (:positions best)))]
         (println (format "  %s: %s → \"%s\" [%s] GV=%d from %s %s:%s"
                          (:name diag)
-                         (str/join "," (map :meaning (:words best)))
+                         (str/join "," (map :word (:words best)))
                          (:text best)
                          (str/join " " (map #(vec (coords/idx->coord %))
                                             (:positions best)))
@@ -356,7 +356,7 @@
                            0.0)))
         (when-let [best @best-walk]
           (println (format "    Best: %s from %s, GV=%d"
-                           (str/join ", " (map :meaning (:words best)))
+                           (str/join ", " (map :word (:words best)))
                            (:start best) (:gv best))))
         (when (seq @words-found)
           (let [top (->> @words-found (sort-by val >) (take 5))]
@@ -412,7 +412,7 @@
     (when-let [best @best-walk]
       (println (format "  Best (%d steps): %s from %s, GV=%d"
                        (:n best)
-                       (str/join ", " (map :meaning (:words best)))
+                       (str/join ", " (map :word (:words best)))
                        (:start best) (:gv best))))
     (when (seq @words-found)
       (let [top (->> @words-found (sort-by val >) (take 8))]
@@ -510,7 +510,7 @@
                   (when (seq words)
                     (swap! interesting conj
                            {:diag (:name diag) :text text
-                            :words (map :meaning words)
+                            :words (map :word words)
                             :gv gv :n n}))))))
 
           (when (seq @interesting)
@@ -573,7 +573,7 @@
                          (pr-str (vals slope-map))
                          gv (zero? (mod gv 7))
                          (if (seq words)
-                           (str "→ " (str/join ", " (map :meaning words)))
+                           (str "→ " (str/join ", " (map :word words)))
                            "")))))
     (println)))
 

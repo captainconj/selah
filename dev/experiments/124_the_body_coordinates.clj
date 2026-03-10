@@ -68,7 +68,6 @@
             :gv (g/word-value w)
             :top-5 (vec (take 5 (map (fn [k]
                                         {:word (:word k)
-                                         :meaning (:meaning k)
                                          :reading-count (:reading-count k)})
                                       known)))}))))
 
@@ -78,7 +77,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)}))
        (sort-by (comp - :count))
        vec))
@@ -108,12 +106,12 @@
                          (count hits-3) (- (count letters) 2)))
         (doseq [{:keys [position letters top-5]} hits-3]
           (let [top (first top-5)]
-            (println (format "    [%3d] %s → %s (%s)"
+            (println (format "    [%3d] %s → %s"
                              position letters
-                             (:word top) (or (:meaning top) "?")))))
+                             (:word top)))))
         (println "\n  Top 3-letter words:")
-        (doseq [{:keys [word meaning count]} (take 15 top-3)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 15 top-3)]
+          (println (format "    %-8s ×%d" word count)))
 
         (println "\n  ── 4-letter sliding window ──")
         (let [hits-4 (slide-text letters 4)
@@ -122,12 +120,12 @@
                            (count hits-4) (- (count letters) 3)))
           (doseq [{:keys [position letters top-5]} hits-4]
             (let [top (first top-5)]
-              (println (format "    [%3d] %s → %s (%s)"
+              (println (format "    [%3d] %s → %s"
                                position letters
-                               (:word top) (or (:meaning top) "?")))))
+                               (:word top)))))
           (println "\n  Top 4-letter words:")
-          (doseq [{:keys [word meaning count]} (take 15 top-4)]
-            (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+          (doseq [{:keys [word count]} (take 15 top-4)]
+            (println (format "    %-8s ×%d" word count)))
 
           {:station station-num :name station-name
            :letter-count (count letters) :gv gv

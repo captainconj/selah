@@ -320,7 +320,7 @@
                start (range (- n (dec len)))
                :let [sub (subs s start (+ start len))]
                :when (get known-words sub)]
-           {:word sub :meaning (get known-words sub) :start start :end (+ start len)})
+           {:word sub :start start :end (+ start len)})
          (sort-by (juxt :start (comp - :end)))
          vec)))
 
@@ -425,8 +425,8 @@
         (let [words (scan-words reading)]
           (when (seq words)
             (println (format "  Words found (%d):" (count words)))
-            (doseq [{:keys [word meaning start]} words]
-              (println (format "    pos %2d: %s  (%s)" start word meaning)))))
+            (doseq [{:keys [word start]} words]
+              (println (format "    pos %2d: %s" start word)))))
         (println))))
 
   ;; ════════════════════════════════════════════════════════

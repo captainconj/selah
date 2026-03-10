@@ -188,25 +188,25 @@
 
 (defn search-in-line
   "Search for all target words in a letter sequence.
-   Returns seq of {:word :meaning :offset}."
+   Returns seq of {:word :offset}."
   [letters]
   (let [s (apply str (map :letter letters))]
-    (for [[word meaning] target-words
+    (for [[word _] target-words
           :let [idx (.indexOf s word)]
           :when (>= idx 0)]
-      {:word word :meaning meaning :offset idx})))
+      {:word word :offset idx})))
 
 (defn search-all-subsequences
   "Search for target words in ALL contiguous subsequences of a line.
-   Returns seq of {:word :meaning :offset}."
+   Returns seq of {:word :offset}."
   [letters]
   (let [s (apply str (map :letter letters))
         results (atom [])]
-    (doseq [[word meaning] target-words]
+    (doseq [[word _] target-words]
       (loop [start 0]
         (let [idx (.indexOf s word (int start))]
           (when (>= idx 0)
-            (swap! results conj {:word word :meaning meaning :offset idx})
+            (swap! results conj {:word word :offset idx})
             (recur (inc idx))))))
     @results))
 
@@ -371,8 +371,8 @@
       (if (seq col-hits)
         (doseq [{:keys [d letters hits]} col-hits]
           (println (format "  d=%2d  %s" d letters))
-          (doseq [{:keys [word meaning offset]} hits]
-            (println (format "        found: %s (%s) at offset %d" word meaning offset))))
+          (doseq [{:keys [word offset]} hits]
+            (println (format "        found: %s at offset %d" word offset))))
         (println "  No target words found in columns."))
       (println)
 
@@ -386,7 +386,7 @@
                        {:c c :letters (grid-letters r) :hits hits})]
         (doseq [{:keys [c hits]} row-hits]
           (println (format "  c=%2d  found: %s"
-                           c (str/join ", " (map #(format "%s(%s)@%d" (:word %) (:meaning %) (:offset %)) hits)))))))
+                           c (str/join ", " (map #(format "%s@%d" (:word %) (:offset %)) hits)))))))
     (println)
 
     ;; ════════════════════════════════════════════════════════
@@ -411,8 +411,8 @@
       (if (seq hits)
         (doseq [{:keys [idx letters len hits]} hits]
           (println (format "  diag %2d (len=%2d): %s" idx len letters))
-          (doseq [{:keys [word meaning offset]} hits]
-            (println (format "        found: %s (%s) at offset %d" word meaning offset))))
+          (doseq [{:keys [word offset]} hits]
+            (println (format "        found: %s at offset %d" word offset))))
         (println "  No target words found in main diagonals."))
       ;; Also report full-length diagonals (length 13)
       (println)
@@ -441,8 +441,8 @@
       (if (seq hits)
         (doseq [{:keys [idx letters len hits]} hits]
           (println (format "  diag %2d (len=%2d): %s" idx len letters))
-          (doseq [{:keys [word meaning offset]} hits]
-            (println (format "        found: %s (%s) at offset %d" word meaning offset))))
+          (doseq [{:keys [word offset]} hits]
+            (println (format "        found: %s at offset %d" word offset))))
         (println "  No target words found in anti-diagonals."))
       ;; Full-length anti-diagonals
       (println)

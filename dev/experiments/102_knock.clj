@@ -31,9 +31,7 @@
                        (:word w)
                        (:reading-count w)
                        (pr-str (:readers w))
-                       (or (:meaning w)
-                           (dict/translate (:word w))
-                           ""))))))
+                       (or (dict/translate (:word w)) ""))))))
 
 ;; ── Run ────────────────────────────────────────────────────
 

@@ -91,13 +91,12 @@
         ;; Weight words by window frequency
         weighted (->> results
                       (mapcat (fn [{:keys [frequency known-words]}]
-                                (for [{:keys [word reading-count meaning]} known-words]
-                                  {:word word :meaning meaning
+                                (for [{:keys [word reading-count]} known-words]
+                                  {:word word
                                    :weight (* frequency reading-count)})))
                       (group-by :word)
                       (map (fn [[w entries]]
                              {:word w
-                              :meaning (:meaning (first entries))
                               :count (reduce + (map :weight entries))}))
                       (sort-by :count >)
                       vec)]
@@ -125,8 +124,8 @@
 
         ;; Print top words
         _ (println (str "\nTop 50 words (window=" window "):"))
-        _ (doseq [{:keys [word meaning count]} (take 50 weighted)]
-            (println (format "  %-8s %-25s %,d" word (or meaning "") count)))
+        _ (doseq [{:keys [word count]} (take 50 weighted)]
+            (println (format "  %-8s %,d" word count)))
 
         ;; Save
         out-path (str "data/dna/genome-voice" (when (> window 3) (str "-" window "letter")) ".edn")

@@ -130,12 +130,12 @@
   (println "══════════════════════════════════════════════\n")
 
   (let [by-gv (->> dict-words
-                   (map (fn [[w m]] {:word w :meaning m :gv (g/word-value w)}))
+                   (map (fn [[w _]] {:word w :gv (g/word-value w)}))
                    (group-by :gv)
                    (filter #(> (count (val %)) 1))
                    (sort-by key))]
     (doseq [[gv words] by-gv]
-      (let [names (str/join ", " (map #(str (:word %) " (" (:meaning %) ")") words))]
+      (let [names (str/join ", " (map :word words))]
         (printf "  %4d: %s\n" gv names)))
     (println (format "\n  %d values shared by multiple words" (count by-gv)))))
 

@@ -21,7 +21,6 @@
                           :gv (g/word-value w)
                           :top-5 (vec (take 5 (map (fn [k]
                                                       {:word (:word k)
-                                                       :meaning (:meaning k)
                                                        :reading-count (:reading-count k)})
                                                     known)))})))))
 
@@ -31,7 +30,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)}))
        (sort-by :count >)
        vec))
@@ -75,14 +73,14 @@
         (println)
         (doseq [{:keys [position letters gv top-5]} @hits]
           (let [top (first top-5)]
-            (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+            (println (format "  [%3d] %s (gv=%d) → %s (×%d)"
                              position letters gv
-                             (:word top) (or (:meaning top) "")
+                             (:word top)
                              (:reading-count top)))))
         (println)
         (println "=== MOST FREQUENT ORACLE WORDS (top word per window) ===")
-        (doseq [{:keys [word meaning count]} (take 40 top-words)]
-          (println (format "  %-8s %-30s ×%d" word (or meaning "") count)))))
+        (doseq [{:keys [word count]} (take 40 top-words)]
+          (println (format "  %-8s ×%d" word count)))))
 
 (println (str "Wrote data/dna/p53-oracle.edn (" (count @hits) " windows)"))
 (println (str "Wrote data/dna/p53-report.txt"))
@@ -94,5 +92,5 @@
 (println (str "GV: " (:gv result)))
 (println)
 (println "Top 30 oracle words:")
-(doseq [{:keys [word meaning count]} (take 30 top-words)]
-  (println (format "  %-8s %-30s ×%d" word (or meaning "") count)))
+(doseq [{:keys [word count]} (take 30 top-words)]
+  (println (format "  %-8s ×%d" word count)))

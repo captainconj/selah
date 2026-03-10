@@ -115,12 +115,12 @@
                        (count hits-3) (- (count hebrew) 2)))
       (doseq [{:keys [position letters top-5]} hits-3]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 20 top-3)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 20 top-3)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; 4-letter readings
       (println (format "\n  ── 4-letter sliding window ──"))
@@ -128,20 +128,20 @@
                        (count hits-4) (- (count hebrew) 3)))
       (doseq [{:keys [position letters top-5]} hits-4]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 4-letter words:")
-      (doseq [{:keys [word meaning count]} (take 20 top-4)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 20 top-4)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; Basin walks for top words
       (println "\n  ── Basin walks (top 10 words) ──")
-      (doseq [{:keys [word meaning]} (take 10 top-3)]
+      (doseq [{:keys [word]} (take 10 top-3)]
         (when word
           (let [walk (basin/walk word)]
-            (println (format "    %s (%s) → %s  path: %s"
-                             word (or meaning "")
+            (println (format "    %s → %s  path: %s"
+                             word
                              (:fixed-point walk)
                              (mapv :word (:steps walk)))))))
 
@@ -295,19 +295,19 @@
 
       ;; Top words
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-3)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-3)]
+        (println (format "    %-8s ×%d" word count)))
       (println "\n  Top 4-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-4)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-4)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; Basin walks for top words
       (println "\n  ── Basin walks (top 10 words) ──")
-      (doseq [{:keys [word meaning]} (take 10 top-3)]
+      (doseq [{:keys [word]} (take 10 top-3)]
         (when word
           (let [walk (basin/walk word)]
-            (println (format "    %s (%s) → %s  path: %s"
-                             word (or meaning "")
+            (println (format "    %s → %s  path: %s"
+                             word
                              (:fixed-point walk)
                              (mapv :word (:steps walk)))))))
 

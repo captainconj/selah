@@ -142,15 +142,15 @@
 
 (defn scan-words
   "Find all known Hebrew words/roots as consecutive subsequences
-   in a letter sequence. Returns [{:word :meaning :start :end}]."
+   in a letter sequence. Returns [{:word :start :end}]."
   [letters]
   (let [s (apply str letters)
         n (count s)]
     (->> (for [len (range 2 6)
                start (range (- n (dec len)))]
            (let [sub (subs s start (+ start len))]
-             (when-let [meaning (get known-roots sub)]
-               {:word sub :meaning meaning :start start :end (+ start len)})))
+             (when (get known-roots sub)
+               {:word sub :start start :end (+ start len)})))
          (remove nil?)
          (sort-by :start)
          vec)))
@@ -234,8 +234,8 @@
           (do
             (println (format "  Found %d words/roots:" (count found)))
             (println)
-            (doseq [{:keys [word meaning start end]} found]
-              (println (format "    b=%d..%d  %s  %s" start (dec end) word meaning))))
+            (doseq [{:keys [word start end]} found]
+              (println (format "    b=%d..%d  %s" start (dec end) word))))
           (println "  No known words/roots found."))
         (println))
 

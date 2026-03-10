@@ -133,19 +133,19 @@
 
       ;; Top words
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-3)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-3)]
+        (println (format "    %-8s ×%d" word count)))
       (println "\n  Top 4-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-4)]
-        (println (format "    %-8s %-25s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-4)]
+        (println (format "    %-8s ×%d" word count)))
 
       ;; Basin walks for top words
       (println "\n  ── Basin walks (top 10 words) ──")
-      (doseq [{:keys [word meaning]} (take 10 top-3)]
+      (doseq [{:keys [word]} (take 10 top-3)]
         (when word
           (let [walk (basin/walk word)]
-            (println (format "    %s (%s) → %s"
-                             word (or meaning "")
+            (println (format "    %s → %s"
+                             word
                              (or (:fixed-point walk) "null"))))))
 
       ;; Save
@@ -264,8 +264,8 @@
   (println "\n  ── Top 3-letter Word #1 per Organism ──")
   (doseq [r results]
     (let [top (first (:top-3 r))]
-      (println (format "  %-25s %s (%s) ×%d"
-                       (:name r) (:word top) (or (:meaning top) "?") (:count top)))))
+      (println (format "  %-25s %s ×%d"
+                       (:name r) (:word top) (:count top)))))
 
   results)
 

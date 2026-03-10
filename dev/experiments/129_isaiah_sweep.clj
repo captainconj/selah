@@ -29,7 +29,7 @@
 ;; ── Sliding window (lightweight — no per-window printing) ──
 
 (defn slide-words
-  "Slide a window across hebrew, return vec of {:position :letters :word :meaning}."
+  "Slide a window across hebrew, return vec of {:position :letters :word}."
   [hebrew window]
   (vec (for [i (range 0 (- (count hebrew) (dec window)))
              :let [w (subs hebrew i (+ i window))
@@ -40,7 +40,6 @@
            {:position i
             :letters w
             :word (:word top)
-            :meaning (:meaning top)
             :illuminations (:illumination-count fwd)
             :readings (:total-readings fwd)}))))
 
@@ -49,7 +48,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)}))
        (sort-by (comp - :count))
        vec))
@@ -150,9 +148,9 @@
         throne-count (count (filter #(= 3 (:illuminations %)) hits-3))
 
         ;; Basin walks of top 5 words
-        top-basins (mapv (fn [{:keys [word meaning]}]
+        top-basins (mapv (fn [{:keys [word]}]
                            (let [walk (basin/walk word)]
-                             {:word word :meaning meaning
+                             {:word word
                               :destination (:fixed-point walk)}))
                          (take 5 top-3))
 
@@ -199,15 +197,14 @@
   (println "  Ch  Letters    GV        Div    Serp  Lamb  Curse Bless Serv  72s   3s    Top Word")
   (println "  ──  ───────  ────────  ─────  ────  ────  ───── ───── ────  ───  ───  ──────────")
   (doseq [r results]
-    (println (format "  %2d  %5d  %,9d  %-5s  %3d   %3d   %4d  %4d  %3d   %2d   %2d   %s (%s)"
+    (println (format "  %2d  %5d  %,9d  %-5s  %3d   %3d   %4d  %4d  %3d   %2d   %2d   %s"
                      (:chapter r) (:letters r) (:gv r)
                      (str/join "," (map str (:divisors r)))
                      (:serpent-total r) (:lamb-total r)
                      (:curse-total r) (:blessing-total r)
                      (:servant-total r)
                      (:stamps-72 r) (:throne-count r)
-                     (:word (first (:top-3 r)))
-                     (or (:meaning (first (:top-3 r))) "?"))))
+                     (:word (first (:top-3 r))))))
 
   ;; Judgment vs comfort aggregate
   (println "\n  ── Judgment (1-39) vs Comfort (40-66) ──")
@@ -267,15 +264,14 @@
                            (group-by :word)
                            (map (fn [[w entries]]
                                   {:word w
-                                   :meaning (:meaning (first entries))
                                    :total (reduce + (map :count entries))
                                    :chapters (count entries)}))
                            (sort-by (comp - :total))
                            (take 20))]
-    (doseq [{:keys [word meaning total chapters]} all-top-words]
+    (doseq [{:keys [word total chapters]} all-top-words]
       (let [walk (basin/walk word)]
-        (println (format "    %-8s %-20s total=%-4d in %2d chapters → %s"
-                         word (or meaning "?") total chapters
+        (println (format "    %-8s total=%-4d in %2d chapters → %s"
+                         word total chapters
                          (or (:fixed-point walk) "null"))))))
 
   results)

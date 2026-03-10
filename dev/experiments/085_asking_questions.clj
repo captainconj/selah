@@ -161,7 +161,7 @@
     (for [p perms
           :let [w (apply str p)]
           :when (known-words w)]
-      {:word w :meaning (known-words w)})))
+      {:word w})))
 
 ;; ═══════════════════════════════════════════════════════════════
 ;; The ask function — the query interface
@@ -319,14 +319,14 @@
   (let [test-words ["אהבה" "תורה" "אמת" "שלום" "ברית" "כפרת" "כרוב" "משה" "אדם"]
         results (for [w test-words]
                   (let [hits (preimage w)]
-                    {:word w :meaning (known-words w) :gv (g/word-value w)
+                    {:word w :gv (g/word-value w)
                      :hits (count hits)
                      :can? (pos? (count hits))}))]
-    (printf "  %-6s %-20s %5s %6s\n" "Word" "Meaning" "GV" "Found?")
-    (printf "  %-6s %-20s %5s %6s\n" "──────" "────────────────────" "─────" "──────")
-    (doseq [{:keys [word meaning gv hits can?]} results]
-      (printf "  %-6s %-20s %5d %4d %s\n"
-              word meaning gv hits (if can? "" "  ◀ cannot be read")))))
+    (printf "  %-6s %5s %6s\n" "Word" "GV" "Found?")
+    (printf "  %-6s %5s %6s\n" "──────" "─────" "──────")
+    (doseq [{:keys [word gv hits can?]} results]
+      (printf "  %-6s %5d %4d %s\n"
+              word gv hits (if can? "" "  ◀ cannot be read")))))
 
 ;; ═══════════════════════════════════════════════════════════════
 

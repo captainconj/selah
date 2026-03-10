@@ -134,14 +134,14 @@
 
 (defn find-words-in-string
   "Find all target words that appear as substrings of s.
-   Returns seq of {:word :meaning :offset}."
+   Returns seq of {:word :offset}."
   [s]
   (let [results (transient [])]
-    (doseq [[word meaning] all-targets]
+    (doseq [[word _] all-targets]
       (loop [start 0]
         (let [idx (.indexOf ^String s ^String word (int start))]
           (when (>= idx 0)
-            (conj! results {:word word :meaning meaning :offset idx})
+            (conj! results {:word word :offset idx})
             (recur (inc idx))))))
     (persistent! results)))
 
@@ -244,14 +244,14 @@
       (let [n-c-fibers (* da db dd)  ;; 7 × 50 × 67 = 23,450
             word-expectations
             (sort-by :expected >
-                     (for [[word meaning] all-targets
+                     (for [[word _] all-targets
                            :let [e-per-fiber (expected-substring-count freq-map word dc)
                                  e-total (* e-per-fiber n-c-fibers)]]
-                       {:word word :meaning meaning
+                       {:word word
                         :e-per-fiber e-per-fiber
                         :expected e-total}))]
-        (doseq [{:keys [word meaning expected]} (take 20 word-expectations)]
-          (println (format "    %-6s %-16s  expected: %8.1f c-fibers" word meaning expected)))
+        (doseq [{:keys [word expected]} (take 20 word-expectations)]
+          (println (format "    %-6s  expected: %8.1f c-fibers" word expected)))
         (println)
 
         ;; Expected for a-fibers (7 letters, 43,550 fibers)
@@ -260,14 +260,14 @@
         (let [n-a-fibers (* db dc dd)  ;; 50 × 13 × 67 = 43,550
               a-word-expectations
               (sort-by :expected >
-                       (for [[word meaning] all-targets
+                       (for [[word _] all-targets
                              :let [e-per-fiber (expected-substring-count freq-map word da)
                                    e-total (* e-per-fiber n-a-fibers)]]
-                         {:word word :meaning meaning
+                         {:word word
                           :e-per-fiber e-per-fiber
                           :expected e-total}))]
-          (doseq [{:keys [word meaning expected]} (take 20 a-word-expectations)]
-            (println (format "    %-6s %-16s  expected: %8.1f a-fibers" word meaning expected))))
+          (doseq [{:keys [word expected]} (take 20 a-word-expectations)]
+            (println (format "    %-6s  expected: %8.1f a-fibers" word expected))))
         (println)
 
         ;; ════════════════════════════════════════════════════
@@ -320,17 +320,17 @@
 
             (let [n-c-fibers total
                   rows (sort-by :observed >
-                                (for [[word meaning] all-targets
+                                (for [[word _] all-targets
                                       :let [obs (get word-counts word 0)
                                             e-per-fiber (expected-substring-count freq-map word dc)
                                             expected (* e-per-fiber n-c-fibers)]]
-                                  {:word word :meaning meaning
+                                  {:word word
                                    :observed obs :expected expected
                                    :ratio (if (pos? expected) (/ obs expected) 0.0)}))]
-              (doseq [{:keys [word meaning observed expected ratio]} rows
+              (doseq [{:keys [word observed expected ratio]} rows
                       :when (or (pos? observed) (> expected 1.0))]
-                (println (format "  %-6s %-16s %8d %8.1f %8.2f×"
-                                 word meaning observed expected ratio))))
+                (println (format "  %-6s %8d %8.1f %8.2f×"
+                                 word observed expected ratio))))
             (println)
 
             ;; Top 30 most word-rich c-fibers
@@ -345,8 +345,8 @@
                   (println (format "      fiber: %s" fiber))
                   (println (format "      words: %s"
                                    (str/join ", "
-                                             (map #(format "%s(%s)@%d"
-                                                           (:word %) (:meaning %) (:offset %))
+                                             (map #(format "%s@%d"
+                                                           (:word %) (:offset %))
                                                   words))))
                   (println))))
 
@@ -421,17 +421,17 @@
 
             (let [n-a-fibers total
                   rows (sort-by :observed >
-                                (for [[word meaning] all-targets
+                                (for [[word _] all-targets
                                       :let [obs (get word-counts word 0)
                                             e-per-fiber (expected-substring-count freq-map word da)
                                             expected (* e-per-fiber n-a-fibers)]]
-                                  {:word word :meaning meaning
+                                  {:word word
                                    :observed obs :expected expected
                                    :ratio (if (pos? expected) (/ obs expected) 0.0)}))]
-              (doseq [{:keys [word meaning observed expected ratio]} rows
+              (doseq [{:keys [word observed expected ratio]} rows
                       :when (or (pos? observed) (> expected 0.5))]
-                (println (format "  %-6s %-16s %8d %8.1f %8.2f×"
-                                 word meaning observed expected ratio))))
+                (println (format "  %-6s %8d %8.1f %8.2f×"
+                                 word observed expected ratio))))
             (println)
 
             ;; Top 20 a-fibers
@@ -446,8 +446,8 @@
                   (println (format "      fiber: %s" fiber))
                   (println (format "      words: %s"
                                    (str/join ", "
-                                             (map #(format "%s(%s)@%d"
-                                                           (:word %) (:meaning %) (:offset %))
+                                             (map #(format "%s@%d"
+                                                           (:word %) (:offset %))
                                                   words))))
                   (println))))
 
@@ -512,17 +512,17 @@
 
             (let [n-b-fibers total
                   rows (sort-by :observed >
-                                (for [[word meaning] all-targets
+                                (for [[word _] all-targets
                                       :let [obs (get word-counts word 0)
                                             e-per-fiber (expected-substring-count freq-map word db)
                                             expected (* e-per-fiber n-b-fibers)]]
-                                  {:word word :meaning meaning
+                                  {:word word
                                    :observed obs :expected expected
                                    :ratio (if (pos? expected) (/ obs expected) 0.0)}))]
-              (doseq [{:keys [word meaning observed expected ratio]} rows
+              (doseq [{:keys [word observed expected ratio]} rows
                       :when (or (pos? observed) (> expected 0.5))]
-                (println (format "  %-6s %-16s %8d %8.1f %8.2f×"
-                                 word meaning observed expected ratio))))
+                (println (format "  %-6s %8d %8.1f %8.2f×"
+                                 word observed expected ratio))))
             (println)
 
             ;; Any b-fiber that spells a really interesting word?
@@ -541,8 +541,8 @@
                   (println (format "    (%d,*,%2d,%2d)  near %s %d:%d"
                                    a c d (:book v) (:ch v) (:vs v)))
                   (println (format "      words: %s"
-                                   (str/join ", " (map #(format "%s(%s)@%d"
-                                                                (:word %) (:meaning %) (:offset %))
+                                   (str/join ", " (map #(format "%s@%d"
+                                                                (:word %) (:offset %))
                                                        key-words))))))
               (println))))
 
@@ -563,8 +563,8 @@
           (println (format "    fiber: %s" fstr))
           (if (seq words)
             (println (format "    words: %s"
-                             (str/join ", " (map #(format "%s(%s)@%d"
-                                                          (:word %) (:meaning %) (:offset %))
+                             (str/join ", " (map #(format "%s@%d"
+                                                          (:word %) (:offset %))
                                                   words))))
             (println "    (no target words)")))
         (println)
@@ -576,8 +576,8 @@
           (println (format "    fiber: %s" fstr))
           (if (seq words)
             (println (format "    words: %s"
-                             (str/join ", " (map #(format "%s(%s)@%d"
-                                                          (:word %) (:meaning %) (:offset %))
+                             (str/join ", " (map #(format "%s@%d"
+                                                          (:word %) (:offset %))
                                                   words))))
             (println "    (no target words)")))
         (println)
@@ -589,8 +589,8 @@
           (println (format "    fiber: %s" fstr))
           (if (seq words)
             (println (format "    words: %s"
-                             (str/join ", " (map #(format "%s(%s)@%d"
-                                                          (:word %) (:meaning %) (:offset %))
+                             (str/join ", " (map #(format "%s@%d"
+                                                          (:word %) (:offset %))
                                                   words))))
             (println "    (no target words)")))
         (println)
@@ -598,7 +598,7 @@
         ;; c-fibers that spell תורה, יהוה, אהבה, or בינה
         (println "  ── SEARCH: c-fibers spelling key 4-letter words ──")
         (let [key-words {"תורה" "Torah" "יהוה" "YHWH" "אהבה" "love" "בינה" "understanding"}]
-          (doseq [[word meaning] key-words]
+          (doseq [[word _] key-words]
             (let [hits (atom 0)]
               (dotimes [a da]
                 (dotimes [b db]
@@ -609,8 +609,8 @@
                         (when (<= @hits 5)
                           (let [pos (coords/coord->idx a b 0 d)
                                 v (coords/verse-at s pos)]
-                            (println (format "    %s (%s) at (%d,%2d,*,%2d)  near %s %d:%d"
-                                             word meaning a b d
+                            (println (format "    %s at (%d,%2d,*,%2d)  near %s %d:%d"
+                                             word a b d
                                              (:book v) (:ch v) (:vs v)))
                             (println (format "      fiber: %s" (extract-c-fiber s a b d))))))))))
               (println (format "    Total c-fibers with %s: %d" word @hits))

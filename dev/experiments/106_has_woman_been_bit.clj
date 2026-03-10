@@ -178,19 +178,19 @@
       (let [eve-count (search-eve hebrew name)]
 
         (println "\n  Top 3-letter words:")
-        (doseq [{:keys [word meaning count]} (take 10 top-3)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 10 top-3)]
+          (println (format "    %-8s ×%d" word count)))
 
         (println "\n  ── 4-letter readings (cherubim's view) ──")
         (doseq [{:keys [position letters top-5]} hits-4]
           (let [top (first top-5)]
-            (println (format "    [%3d] %s → %s (%s)"
+            (println (format "    [%3d] %s → %s"
                              position letters
-                             (:word top) (or (:meaning top) "?")))))
+                             (:word top)))))
 
         (println "\n  Top 4-letter words:")
-        (doseq [{:keys [word meaning count]} (take 10 top-4)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 10 top-4)]
+          (println (format "    %-8s ×%d" word count)))
 
         {:name name :hebrew hebrew :gv gv
          :readings-3 (count hits-3) :readings-4 (count hits-4)

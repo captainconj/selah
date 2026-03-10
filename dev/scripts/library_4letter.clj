@@ -62,7 +62,7 @@
     (println (str "  New at 4-letter: " (count new-at-4)))
     (doseq [w (sort new-at-4)]
       (let [entry (first (filter #(= w (:word %)) (:top-words r4)))]
-        (println (str "    " w " — " (:meaning entry) " ×" (:count entry)))))
+        (println (str "    " w " ×" (:count entry)))))
     {:name (:name r3)
      :w3 r3 :w4 r4
      :new-at-4 new-at-4}))

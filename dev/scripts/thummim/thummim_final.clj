@@ -21,7 +21,7 @@
   (let [a (o/ask w)]
     (when (and (pos? (:illumination-count a))
                (zero? (:total-readings a)))
-      (println (str "  " w " = " (:meaning a) " GV=" (:gv a)
+      (println (str "  " w " GV=" (:gv a)
                     " illum=" (:illumination-count a))))))
 
 ;; ארבע = 3×7×13 — the only word whose GV contains BOTH axis numbers
@@ -66,7 +66,7 @@
 (doseq [[w1 w2] anagram-pairs]
   (let [a1 (o/ask w1) a2 (o/ask w2)
         r1 (:by-reader a1) r2 (:by-reader a2)]
-    (println (str "\n  " w1 "(" (:meaning a1) ") vs " w2 "(" (:meaning a2) ")  GV=" (:gv a1)))
+    (println (str "\n  " w1 " vs " w2 "  GV=" (:gv a1)))
     (println (str "    " w1 " — A:" (:aaron r1) " G:" (:god r1) " R:" (:right r1) " L:" (:left r1) " total=" (:total-readings a1)))
     (println (str "    " w2 " — A:" (:aaron r2) " G:" (:god r2) " R:" (:right r2) " L:" (:left r2) " total=" (:total-readings a2)))))
 

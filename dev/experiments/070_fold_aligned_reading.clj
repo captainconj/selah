@@ -137,18 +137,18 @@
    "זרע"  "seed"     "ברך" "bless"   "עץ"   "tree"})
 
 (defn search-words [text]
-  (for [[word meaning] target-words
+  (for [[word _] target-words
         :let [idx (.indexOf ^String text ^String word)]
         :when (>= idx 0)]
-    {:word word :meaning meaning :offset idx}))
+    {:word word :offset idx}))
 
 (defn search-all-words [text]
   (let [results (atom [])]
-    (doseq [[word meaning] target-words]
+    (doseq [[word _] target-words]
       (loop [start 0]
         (let [idx (.indexOf ^String text ^String word (int start))]
           (when (>= idx 0)
-            (swap! results conj {:word word :meaning meaning :offset idx})
+            (swap! results conj {:word word :offset idx})
             (recur (inc idx))))))
     @results))
 
@@ -285,7 +285,7 @@
                              (:marker-book r) (:marker-word r)
                              (:marker-skip r) (:fold r) (:step r)
                              (:gv r) divs
-                             (str/join ", " (map :meaning (:words r)))))))
+                             (str/join ", " (map :word (:words r)))))))
         (println)
         top))))
 
@@ -325,7 +325,7 @@
           (println (format "  %-8s %6d %5d  %5d  %-6s  %s"
                            (:fold r) (:step r) (:text-length r)
                            (:gv r) divs
-                           (str/join ", " (map :meaning (:words r)))))))
+                           (str/join ", " (map :word (:words r)))))))
       (println)
 
       ;; Deep read of best result
@@ -338,12 +338,11 @@
                          (count (:text best)) (:text best)))
         (println (format "  Words found: %s"
                          (str/join ", "
-                                   (map #(str (:word %) " (" (:meaning %) ")")
-                                        (:words best)))))
+                                   (map :word (:words best)))))
         (println (format "  Original-side words: %s"
-                         (str/join ", " (map :meaning (:orig-words best)))))
+                         (str/join ", " (map :word (:orig-words best)))))
         (println (format "  Mirror-side words: %s"
-                         (str/join ", " (map :meaning (:mirror-words best))))))
+                         (str/join ", " (map :word (:mirror-words best))))))
       (println)
       top)))
 
@@ -376,7 +375,7 @@
                      (:div-67 r) (str "67"))]
           (println (format "  %-8s %5d  %-6s  %s"
                            (:fold r) (:gv r) divs
-                           (str/join ", " (map :meaning (:words r)))))))
+                           (str/join ", " (map :word (:words r)))))))
       (println)
 
       ;; Show top result detail
@@ -391,8 +390,7 @@
           (println "  ..."))
         (println (format "  Words: %s"
                          (str/join ", "
-                                   (map #(str (:word %) " (" (:meaning %) ")")
-                                        (:words best))))))
+                                   (map :word (:words best))))))
       (println)
       sorted)))
 
@@ -463,7 +461,7 @@
                      (:div-67 r) (str "67"))]
           (println (format "  %-25s %5d  %-6s  %s"
                            (:verse r) (:gv r) divs
-                           (str/join ", " (map :meaning (:words r)))))))
+                           (str/join ", " (map :word (:words r)))))))
       (println)
       top)))
 
@@ -499,9 +497,7 @@
                                (:fold analysis)
                                (:gv analysis)
                                divs
-                               (str/join ", "
-                                         (map #(str (:word %) "(" (:meaning %) ")")
-                                              words))))))))
+                               (str/join ", " (map :word words))))))))
       (println))))
 
 ;; ── Main ─────────────────────────────────────────────────────

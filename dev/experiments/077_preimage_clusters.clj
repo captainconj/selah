@@ -237,15 +237,13 @@
   (println)
 
   (let [by-count (->> results
-                      (map (fn [[w hits]] {:word w :meaning (get vocab w "")
-                                           :count (count hits)}))
+                      (map (fn [[w hits]] {:word w :count (count hits)}))
                       (group-by :count)
                       (sort-by key >))]
 
     (doseq [[cnt group] by-count]
       (let [tag (divisibility-tag cnt)
-            word-list (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %))
-                                         group))]
+            word-list (str/join ", " (map :word group))]
         (println (format "  Count %3d %s: %s"
                          cnt
                          (if (seq tag) (format " [%s]" tag) "      ")

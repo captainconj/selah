@@ -143,12 +143,12 @@
   (println "══════════════════════════════════════════════\n")
 
   (let [all-words (->> vocabulary
-                       (map (fn [[w m]] {:word w :meaning m :gv (g/word-value w)}))
+                       (map (fn [[w _]] {:word w :gv (g/word-value w)}))
                        (sort-by :gv))
         primes    (filter #(prime? (:gv %)) all-words)]
 
-    (doseq [{:keys [word meaning gv]} primes]
-      (printf "  %4d  %-6s  %s\n" gv word meaning))
+    (doseq [{:keys [word gv]} primes]
+      (printf "  %4d  %s\n" gv word))
 
     (println (format "\n  %d irreducible words out of %d total"
                      (count primes) (count all-words)))

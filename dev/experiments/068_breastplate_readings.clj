@@ -169,20 +169,20 @@
 (defn search-words
   "Search for target words in a letter string."
   [s]
-  (for [[word meaning] target-words
+  (for [[word _] target-words
         :let [idx (.indexOf ^String s ^String word)]
         :when (>= idx 0)]
-    {:word word :meaning meaning :offset idx}))
+    {:word word :offset idx}))
 
 (defn search-all-words
   "Search for ALL occurrences of target words in a letter string."
   [s]
   (let [results (atom [])]
-    (doseq [[word meaning] target-words]
+    (doseq [[word _] target-words]
       (loop [start 0]
         (let [idx (.indexOf ^String s ^String word (int start))]
           (when (>= idx 0)
-            (swap! results conj {:word word :meaning meaning :offset idx})
+            (swap! results conj {:word word :offset idx})
             (recur (inc idx))))))
     @results))
 
@@ -333,7 +333,7 @@
                              a start-verse end-verse gv (str/join " " divs)))
             (when (seq words)
               (println (format "             words: %s"
-                               (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %)) words)))))))
+                               (str/join ", " (map :word words)))))))
 
         ;; a-fibers with words
         (let [a-with-words (filter #(seq (search-words (:letters %)))
@@ -344,7 +344,7 @@
               (let [words (search-words letters)]
                 (println (format "       d=%2d  %s  gv=%,d  words: %s"
                                  d letters gv
-                                 (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %)) words))))))))
+                                 (str/join ", " (map :word words))))))))
         (println))
 
       ;; Rank by score
@@ -538,7 +538,7 @@
               (println (format "         gv=%,d %s" gv (str/join " " divs)))
               (when (seq words)
                 (println (format "         words: %s"
-                                 (str/join ", " (map #(format "%s(%s)@%d" (:word %) (:meaning %) (:offset %)) words)))))))
+                                 (str/join ", " (map #(format "%s@%d" (:word %) (:offset %)) words)))))))
 
           ;; a-fibers with words
           (let [a-hits (filter #(seq (search-words (:letters %))) (:a-fibers slab))]
@@ -548,7 +548,7 @@
               (doseq [{:keys [d letters gv]} a-hits]
                 (println (format "    d=%2d  %s  gv=%,d  %s"
                                  d letters gv
-                                 (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %)) (search-words letters))))))))
+                                 (str/join ", " (map :word (search-words letters))))))))
           (println))))
 
     ;; ════════════════════════════════════════════════════════
@@ -578,7 +578,7 @@
           (println (format "         gv=%,d %s" gv (str/join " " divs)))
           (when (seq words)
             (println (format "         words: %s"
-                             (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %)) words)))))))
+                             (str/join ", " (map :word words)))))))
       (println)
 
       ;; a-fibers with words
@@ -587,7 +587,7 @@
         (doseq [{:keys [d letters gv]} a-hits]
           (println (format "    d=%2d  %s  gv=%,d  %s"
                            d letters gv
-                           (str/join ", " (map #(format "%s(%s)" (:word %) (:meaning %)) (search-words letters))))))))
+                           (str/join ", " (map :word (search-words letters))))))))
     (println)
 
     (println "Done.")))

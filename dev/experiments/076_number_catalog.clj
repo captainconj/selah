@@ -202,16 +202,16 @@
 
 (def adam-to-noah-names
   "Names from Adam to Noah with Hebrew spellings."
-  [{:name "Adam"       :hebrew "אדם"    :meaning "man/earth"}
-   {:name "Seth"       :hebrew "שת"     :meaning "appointed"}
-   {:name "Enosh"      :hebrew "אנוש"   :meaning "mortal/frail"}
-   {:name "Kenan"      :hebrew "קינן"   :meaning "sorrow/dirge"}
-   {:name "Mahalalel"  :hebrew "מהללאל" :meaning "praise of God"}
-   {:name "Jared"      :hebrew "ירד"    :meaning "descend"}
-   {:name "Enoch"      :hebrew "חנוך"   :meaning "teaching/dedicated"}
-   {:name "Methuselah" :hebrew "מתושלח" :meaning "his death shall bring"}
-   {:name "Lamech"     :hebrew "למך"    :meaning "despairing/powerful"}
-   {:name "Noah"       :hebrew "נח"     :meaning "rest/comfort"}])
+  [{:name "Adam"       :hebrew "אדם"}
+   {:name "Seth"       :hebrew "שת"}
+   {:name "Enosh"      :hebrew "אנוש"}
+   {:name "Kenan"      :hebrew "קינן"}
+   {:name "Mahalalel"  :hebrew "מהללאל"}
+   {:name "Jared"      :hebrew "ירד"}
+   {:name "Enoch"      :hebrew "חנוך"}
+   {:name "Methuselah" :hebrew "מתושלח"}
+   {:name "Lamech"     :hebrew "למך"}
+   {:name "Noah"       :hebrew "נח"}])
 
 ;; ── 8. Leviticus Numbers ───────────────────────────────────
 
@@ -329,8 +329,8 @@
 
   (let [values (mapv (fn [entry]
                        (let [gv (g/word-value (:hebrew entry))]
-                         (println (format "    %-12s %s = %4d  (%s)"
-                                          (:name entry) (:hebrew entry) gv (:meaning entry)))
+                         (println (format "    %-12s %s = %4d"
+                                          (:name entry) (:hebrew entry) gv))
                          gv))
                      adam-to-noah-names)
         total (reduce + values)]

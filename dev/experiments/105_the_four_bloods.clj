@@ -118,24 +118,24 @@
     (println "\n── 3-letter readings ──")
     (doseq [{:keys [position letters top-5]} hits-3]
       (let [top (first top-5)]
-        (println (format "  [%3d] %s → %s (%s)"
+        (println (format "  [%3d] %s → %s"
                          position letters
-                         (:word top) (or (:meaning top) "?")))))
+                         (:word top)))))
 
     (println "\nTop 3-letter words:")
-    (doseq [{:keys [word meaning count]} (take 15 top-3)]
-      (println (format "  %-8s %-20s ×%d" word (or meaning "") count)))
+    (doseq [{:keys [word count]} (take 15 top-3)]
+      (println (format "  %-8s ×%d" word count)))
 
     (println "\n── 4-letter readings (cherubim's view) ──")
     (doseq [{:keys [position letters top-5]} hits-4]
       (let [top (first top-5)]
-        (println (format "  [%3d] %s → %s (%s)"
+        (println (format "  [%3d] %s → %s"
                          position letters
-                         (:word top) (or (:meaning top) "?")))))
+                         (:word top)))))
 
     (println "\nTop 4-letter words:")
-    (doseq [{:keys [word meaning count]} (take 15 top-4)]
-      (println (format "  %-8s %-20s ×%d" word (or meaning "") count)))
+    (doseq [{:keys [word count]} (take 15 top-4)]
+      (println (format "  %-8s ×%d" word count)))
 
     {:name name :face face :hebrew hebrew :gv gv
      :hits-3 hits-3 :hits-4 hits-4

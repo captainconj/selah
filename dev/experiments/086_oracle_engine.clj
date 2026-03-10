@@ -55,17 +55,17 @@
         (printf "    %-12s %s %s\n" (name k) v (if m (str "← " m) ""))))
 
     (println "\n  Known words ranked by rarity (Hannah principle):")
-    (doseq [{:keys [word reading-count readers meaning]} (:known-words r)]
-      (printf "    %s  %-15s  %2d readings  [%s]\n"
-              word meaning reading-count
+    (doseq [{:keys [word reading-count readers]} (:known-words r)]
+      (printf "    %s  %2d readings  [%s]\n"
+              word reading-count
               (str/join " " (map name (sort readers))))))
 
   ;; Reverse: confirm the counts individually
   (println "\n  REVERSE — individual word analysis:")
   (doseq [w ["שכרה" "כשרה"]]
     (let [r (oracle/ask w)]
-      (printf "    %s (%s): %d illuminations, %d readings — A:%d R:%d L:%d\n"
-              w (:meaning r) (:illumination-count r) (:total-readings r)
+      (printf "    %s: %d illuminations, %d readings — A:%d R:%d L:%d\n"
+              w (:illumination-count r) (:total-readings r)
               (get-in r [:by-reader :aaron])
               (get-in r [:by-reader :right])
               (get-in r [:by-reader :left]))))
@@ -116,7 +116,7 @@
 
   (doseq [w ["יהוה" "והיה"]]
     (let [r (oracle/ask w)]
-      (printf "\n  %s (%s) = %d\n" w (:meaning r) (:gv r))
+      (printf "\n  %s = %d\n" w (:gv r))
       (printf "  Illuminations: %d, Readings: %d\n"
               (:illumination-count r) (:total-readings r))
       (printf "  Aaron: %d  Right: %d  Left: %d\n"
@@ -164,12 +164,12 @@
   (println "══════════════════════════════════════════════\n")
 
   (let [words ["אהבה" "תורה" "אמת" "שלום" "ברית" "כפרת" "כרוב" "משה" "אדם"]]
-    (printf "  %-6s %-20s %5s %6s %8s\n" "Word" "Meaning" "GV" "Read?" "Count")
-    (printf "  %-6s %-20s %5s %6s %8s\n" "──────" "────────────────────" "─────" "──────" "────────")
+    (printf "  %-6s %5s %6s %8s\n" "Word" "GV" "Read?" "Count")
+    (printf "  %-6s %5s %6s %8s\n" "──────" "─────" "──────" "────────")
     (doseq [w words]
       (let [r (oracle/ask w)]
-        (printf "  %-6s %-20s %5d %6s %8d%s\n"
-                w (or (:meaning r) "?") (:gv r)
+        (printf "  %-6s %5d %6s %8d%s\n"
+                w (:gv r)
                 (if (:readable? r) "yes" "NO")
                 (:total-readings r)
                 (cond

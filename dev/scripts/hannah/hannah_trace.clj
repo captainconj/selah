@@ -102,7 +102,7 @@
     (println)
     (println "Known words produced:")
     (doseq [w (:known-words fwd)]
-      (println (str "  " (:word w) " (" (:meaning w) ") — " (:reading-count w) " readings by " (:readers w))))
+      (println (str "  " (:word w) " — " (:reading-count w) " readings by " (:readers w))))
     (println)
     (println "Unknown words produced (top 10 by rarity):")
     (doseq [w (take 10 (:unknown-words fwd))]

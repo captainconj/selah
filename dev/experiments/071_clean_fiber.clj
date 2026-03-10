@@ -109,14 +109,14 @@
 
 (defn search-words
   "Search for all target words in a letter string.
-   Returns seq of {:word :meaning :offset}."
+   Returns seq of {:word :offset}."
   [s]
   (let [results (atom [])]
-    (doseq [[word meaning] target-words]
+    (doseq [[word _] target-words]
       (loop [start 0]
         (let [idx (.indexOf ^String s ^String word (int start))]
           (when (>= idx 0)
-            (swap! results conj {:word word :meaning meaning :offset idx})
+            (swap! results conj {:word word :offset idx})
             (recur (inc idx))))))
     (sort-by :offset @results)))
 
@@ -175,8 +175,8 @@
     (if (seq words-found)
       (do
         (println "  Words found:")
-        (doseq [{:keys [word meaning offset]} words-found]
-          (println (format "    '%s' (%s) at offset %d" word meaning offset))))
+        (doseq [{:keys [word offset]} words-found]
+          (println (format "    '%s' at offset %d" word offset))))
       (println "  No target words found."))
     (println)))
 

@@ -110,8 +110,7 @@
      :illuminations (:illumination-count f)
      :total-readings (:total-readings f)
      :known-words (count (:known-words f))
-     :top-words (vec (take 5 (map (fn [w] {:word (:word w) :count (:reading-count w)
-                                            :meaning (:meaning w)})
+     :top-words (vec (take 5 (map (fn [w] {:word (:word w) :count (:reading-count w)})
                                    (:known-words f))))}))
 
 (defn all-fingerprints []
@@ -213,8 +212,7 @@
            :top-5 (vec (take 5 (map (fn [w]
                                        {:word (:word w)
                                         :count (:reading-count w)
-                                        :readers (:readers w)
-                                        :meaning (:meaning w)})
+                                        :readers (:readers w)})
                                      (:known-words f)))))))
 
 ;; ── Test 6: Merged Form Analysis ─────────────────────────────
@@ -342,7 +340,7 @@
         (println (format "  Letters: %s  Illuminations: %d  Known: %d"
                          letters-str (:illumination-count f) (count (:known-words f))))
         (doseq [w top3]
-          (println (format "    %s (%d readings, GV=%d) — %s"
-                           (:word w) (:reading-count w) (:gv w) (:meaning w)))))))
+          (println (format "    %s (%d readings, GV=%d)"
+                           (:word w) (:reading-count w) (:gv w)))))))
 
   nil)

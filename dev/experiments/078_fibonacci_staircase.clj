@@ -103,8 +103,7 @@
         ;; Build count table
         count-table (sort-by (comp - :count)
                              (for [[w hits] results]
-                               {:word w :meaning (get vocab w "")
-                                :count (count hits)
+                               {:word w :count (count hits)
                                 :gv (gem/word-value w)
                                 :hits hits}))]
 
@@ -124,10 +123,10 @@
           (println (format "  F(%d) = %2d │ %d word(s) │ GV sum = %,d%s"
                            (fib-index f) f (count words) gv-sum
                            (if tri-root (format " = T(%d)" tri-root) "")))
-          (doseq [{:keys [word meaning gv]} (sort-by :gv words)]
+          (doseq [{:keys [word gv]} (sort-by :gv words)]
             (let [gv-fib (when (fib? gv) (format " = F(%d)" (fib-index gv)))]
-              (println (format "         │   %s (%s) GV=%d%s"
-                               word meaning gv (or gv-fib "")))))
+              (println (format "         │   %s GV=%d%s"
+                               word gv (or gv-fib "")))))
           (println)))
 
       ;; Non-Fibonacci counts in the same range
@@ -139,8 +138,8 @@
                 gv-sum (reduce + (map :gv words))]
             (println (format "  count = %2d │ %d word(s) │ GV sum = %,d"
                              n (count words) gv-sum))
-            (doseq [{:keys [word meaning gv]} (sort-by :gv words)]
-              (println (format "             │   %s (%s) GV=%d" word meaning gv))))))
+            (doseq [{:keys [word gv]} (sort-by :gv words)]
+              (println (format "             │   %s GV=%d" word gv))))))
       (println)
 
       ;; The sum of the Fibonacci staircase levels
@@ -168,13 +167,13 @@
   (let [gv-index (group-by :gv count-table)
         cnt-index (group-by :count count-table)
         ;; Find all cross-references
-        xrefs (for [{:keys [word meaning count gv]} count-table
+        xrefs (for [{:keys [word count gv]} count-table
                     :when (pos? count)
                     :let [targets (get gv-index count)]
                     target targets
                     :when (not= word (:word target))]
-                {:from word :from-meaning meaning :count count
-                 :to (:word target) :to-meaning (:meaning target)
+                {:from word :count count
+                 :to (:word target)
                  :to-gv (:gv target)})]
 
     ;; Group by count value for cleaner display
@@ -211,9 +210,9 @@
                           (and (fib? count) (fib? gv) (pos? count)))
                         count-table)]
     (if (seq doubles)
-      (doseq [{:keys [word meaning count gv]} (sort-by :count doubles)]
-        (println (format "  %s (%s): count=%d=F(%d), GV=%d=F(%d)"
-                         word meaning
+      (doseq [{:keys [word count gv]} (sort-by :count doubles)]
+        (println (format "  %s: count=%d=F(%d), GV=%d=F(%d)"
+                         word
                          count (fib-index count)
                          gv (fib-index gv))))
       (println "  None found."))
@@ -223,9 +222,9 @@
     (println "  ── ALL FIBONACCI-VALUED WORDS ──")
     (println)
     (let [fib-gv (filter #(fib? (:gv %)) count-table)]
-      (doseq [{:keys [word meaning count gv]} (sort-by :gv fib-gv)]
-        (println (format "  %s (%s) GV=%d=F(%d), count=%d%s"
-                         word meaning gv (fib-index gv) count
+      (doseq [{:keys [word count gv]} (sort-by :gv fib-gv)]
+        (println (format "  %s GV=%d=F(%d), count=%d%s"
+                         word gv (fib-index gv) count
                          (if (fib? count) (format " =F(%d) ★" (fib-index count)) "")))))
     (println)
 
@@ -233,11 +232,11 @@
     (println "  ── FIBONACCI SQUARES IN GEMATRIA ──")
     (println)
     (let [fib-sq (set (map #(* % %) (take 10 fibs)))]
-      (doseq [{:keys [word meaning gv count]} count-table
+      (doseq [{:keys [word gv count]} count-table
               :when (and (fib-sq gv) (> gv 1))]
         (let [root (int (Math/sqrt gv))]
-          (println (format "  %s (%s) GV=%d = %d² = F(%d)²"
-                           word meaning gv root (fib-index root))))))
+          (println (format "  %s GV=%d = %d² = F(%d)²"
+                           word gv root (fib-index root))))))
     (println)))
 
 ;; ── PART 4: The Triangular Sum ──────────────────────────────
@@ -306,13 +305,13 @@
       (when-let [words (get by-count n)]
         (let [gv-sum (reduce + (map :gv words))]
           (println (format "  count = %2d │ %d word(s) │ GV sum = %,d" n (count words) gv-sum))
-          (doseq [{:keys [word meaning gv]} (sort-by :gv words)]
+          (doseq [{:keys [word gv]} (sort-by :gv words)]
             (let [notable (cond
                             (= gv 67)  " ← d-axis!"
                             (= gv 26)  " ← YHWH"
                             (fib? gv)  (format " ← F(%d)" (fib-index gv))
                             :else "")]
-              (println (format "             │   %s (%s) GV=%d%s" word meaning gv notable))))
+              (println (format "             │   %s GV=%d%s" word gv notable))))
           (println)))))
 
   ;; Semantic characterization

@@ -77,7 +77,6 @@
             :gv (g/word-value w)
             :top-5 (vec (take 5 (map (fn [k]
                                         {:word (:word k)
-                                         :meaning (:meaning k)
                                          :reading-count (:reading-count k)})
                                       known)))}))))
 
@@ -87,7 +86,6 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)}))
        (sort-by (comp - :count))
        vec))
@@ -126,12 +124,12 @@
                          (count hits-3) (- (count hebrew-letters) 2)))
         (doseq [{:keys [position letters top-5]} hits-3]
           (let [top (first top-5)]
-            (println (format "    [%3d] %s → %s (%s)"
+            (println (format "    [%3d] %s → %s"
                              position letters
-                             (:word top) (or (:meaning top) "?")))))
+                             (:word top)))))
         (println "\n  Top 3-letter words:")
-        (doseq [{:keys [word meaning count]} (take 15 top-3)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 15 top-3)]
+          (println (format "    %-8s ×%d" word count)))
 
         (println "\n  ── 4-letter sliding window (cherubim's view) ──")
         (let [hits-4 (slide-text hebrew-letters 4)
@@ -140,12 +138,12 @@
                            (count hits-4) (- (count hebrew-letters) 3)))
           (doseq [{:keys [position letters top-5]} hits-4]
             (let [top (first top-5)]
-              (println (format "    [%3d] %s → %s (%s)"
+              (println (format "    [%3d] %s → %s"
                                position letters
-                               (:word top) (or (:meaning top) "?")))))
+                               (:word top)))))
           (println "\n  Top 4-letter words:")
-          (doseq [{:keys [word meaning count]} (take 15 top-4)]
-            (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+          (doseq [{:keys [word count]} (take 15 top-4)]
+            (println (format "    %-8s ×%d" word count)))
 
           {:station station-num :name station-name
            :letter-count (count hebrew-letters) :gv gv
@@ -264,12 +262,12 @@
                        (count hits-3) (- (count ps22-letters) 2)))
       (doseq [{:keys [position letters top-5]} hits-3]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-3)]
-        (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-3)]
+        (println (format "    %-8s ×%d" word count)))
 
       (println "\n  ── 4-letter sliding window on Psalm 22:1-2 ──")
       (let [hits-4 (slide-text ps22-letters 4)
@@ -278,12 +276,12 @@
                          (count hits-4) (- (count ps22-letters) 3)))
         (doseq [{:keys [position letters top-5]} hits-4]
           (let [top (first top-5)]
-            (println (format "    [%3d] %s → %s (%s)"
+            (println (format "    [%3d] %s → %s"
                              position letters
-                             (:word top) (or (:meaning top) "?")))))
+                             (:word top)))))
         (println "\n  Top 4-letter words:")
-        (doseq [{:keys [word meaning count]} (take 15 top-4)]
-          (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+        (doseq [{:keys [word count]} (take 15 top-4)]
+          (println (format "    %-8s ×%d" word count)))
 
         {:station 4 :name "The Cry"
          :words word-results
@@ -355,12 +353,12 @@
                        (count hits-3) (- (count letters) 2)))
       (doseq [{:keys [position letters top-5]} hits-3]
         (let [top (first top-5)]
-          (println (format "    [%3d] %s → %s (%s)"
+          (println (format "    [%3d] %s → %s"
                            position letters
-                           (:word top) (or (:meaning top) "?")))))
+                           (:word top)))))
       (println "\n  Top 3-letter words:")
-      (doseq [{:keys [word meaning count]} (take 15 top-3)]
-        (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+      (doseq [{:keys [word count]} (take 15 top-3)]
+        (println (format "    %-8s ×%d" word count)))
 
       (when (>= (count (beam-letters positions)) 4)
         (println "\n  ── 4-letter sliding window (cherubim's view) ──")
@@ -370,12 +368,12 @@
                            (count hits-4) (- (count (beam-letters positions)) 3)))
           (doseq [{:keys [position letters top-5]} hits-4]
             (let [top (first top-5)]
-              (println (format "    [%3d] %s → %s (%s)"
+              (println (format "    [%3d] %s → %s"
                                position letters
-                               (:word top) (or (:meaning top) "?")))))
+                               (:word top)))))
           (println "\n  Top 4-letter words:")
-          (doseq [{:keys [word meaning count]} (take 15 top-4)]
-            (println (format "    %-8s %-20s ×%d" word (or meaning "") count)))
+          (doseq [{:keys [word count]} (take 15 top-4)]
+            (println (format "    %-8s ×%d" word count)))
           {:hits-4 hits-4 :top-4 top-4}))
 
       {:beam beam-name :letter-count (count letters) :gv gv

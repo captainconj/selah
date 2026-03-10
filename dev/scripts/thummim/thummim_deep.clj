@@ -15,7 +15,7 @@
 
 (doseq [w focus-words]
   (let [a (o/ask w)]
-    (println (str "\n● " w " = " (:meaning a) " (GV=" (:gv a) ")"))
+    (println (str "\n● " w " (GV=" (:gv a) ")"))
     (println (str "  Illuminations: " (:illumination-count a) 
                   "  Total readings: " (:total-readings a)
                   "  Readable: " (:readable? a)))

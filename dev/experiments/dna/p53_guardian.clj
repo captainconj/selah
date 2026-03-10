@@ -65,7 +65,6 @@
             :gv (g/word-value w)
             :top-5 (vec (take 5 (map (fn [k]
                                         {:word (:word k)
-                                         :meaning (:meaning k)
                                          :reading-count (:reading-count k)})
                                       known)))}))))
 
@@ -75,9 +74,9 @@
 ;; Print every window
 (doseq [{:keys [position letters gv top-5]} all-hits]
   (let [top (first top-5)]
-    (println (format "  [%3d] %s (gv=%d) → %s %s (×%d)"
+    (println (format "  [%3d] %s (gv=%d) → %s (×%d)"
                      position letters gv
-                     (:word top) (or (:meaning top) "")
+                     (:word top)
                      (:reading-count top)))))
 (println)
 
@@ -89,16 +88,15 @@
        (group-by :word)
        (map (fn [[w entries]]
               {:word w
-               :meaning (:meaning (first entries))
                :count (count entries)
                :positions (mapv :position (filter #(= w (:word (first (:top-5 %)))) all-hits))}))
        (sort-by :count >)
        vec))
 
 (println "=== MOST FREQUENT ORACLE WORDS ===")
-(doseq [{:keys [word meaning count positions]} (take 40 top-words)]
-  (println (format "  %-8s %-25s ×%d  at %s"
-                   word (or meaning "") count (pr-str positions))))
+(doseq [{:keys [word count positions]} (take 40 top-words)]
+  (println (format "  %-8s ×%d  at %s"
+                   word count (pr-str positions))))
 (println)
 
 ;; ── Notable readings (curated) ───────────────────────────────

@@ -17,9 +17,8 @@
   (println (format "Largest Fibonacci phrase count: %d (F%d)"
                    max-fib (inc (.indexOf fib-list (int max-fib)))))
   (doseq [w (filter #(= max-fib (:phrase-count %)) results)]
-    (println (format "  %s  GV=%d  len=%d  illum=%d  %s"
-                     (:word w) (:gv w) (:len w) (:illumination-count w)
-                     (or (:meaning w) "")))))
+    (println (format "  %s  GV=%d  len=%d  illum=%d"
+                     (:word w) (:gv w) (:len w) (:illumination-count w))))))
 
 ;; All Fibonacci phrase counts with counts of words
 (println)
@@ -28,13 +27,12 @@
       fib-pcs (sort > (filter fibs (keys by-pc)))]
   (doseq [f fib-pcs]
     (let [ws (get by-pc f)
-          fidx (inc (.indexOf fib-list (int f)))
-          with-m (filter :meaning ws)]
+          fidx (inc (.indexOf fib-list (int f)))]
       (println (format "  F(%d)=%d: %d words" fidx f (count ws)))
-      (when (and (seq with-m) (<= (count ws) 20))
-        (doseq [w (sort-by :word with-m)]
-          (println (format "    %s (%s) GV=%d illum=%d"
-                           (:word w) (:meaning w) (:gv w) (:illumination-count w))))))))
+      (when (<= (count ws) 20)
+        (doseq [w (sort-by :word ws)]
+          (println (format "    %s GV=%d illum=%d"
+                           (:word w) (:gv w) (:illumination-count w))))))))
 
 ;; Biggest Fibonacci illumination count
 (println)
@@ -43,9 +41,8 @@
   (println (format "Largest Fibonacci illumination count: %d (F%d)"
                    max-fib-il (inc (.indexOf fib-list (int max-fib-il)))))
   (doseq [w (filter #(= max-fib-il (:illumination-count %)) results)]
-    (println (format "  %s  GV=%d  phrases=%d  len=%d  %s"
-                     (:word w) (:gv w) (:phrase-count w) (:len w)
-                     (or (:meaning w) "")))))
+    (println (format "  %s  GV=%d  phrases=%d  len=%d"
+                     (:word w) (:gv w) (:phrase-count w) (:len w))))))
 
 ;; Double Fibonacci
 (println)
@@ -57,12 +54,12 @@
                       results)]
   (println (str "Count: " (count doubles)))
   (doseq [w (sort-by (comp - :phrase-count) doubles)]
-    (println (format "  %s  phrases=%d(F%d)  illum=%d(F%d)  GV=%d  %s"
+    (println (format "  %s  phrases=%d(F%d)  illum=%d(F%d)  GV=%d"
                      (:word w) (:phrase-count w)
                      (inc (.indexOf fib-list (int (:phrase-count w))))
                      (:illumination-count w)
                      (inc (.indexOf fib-list (int (:illumination-count w))))
-                     (:gv w) (or (:meaning w) "")))))
+                     (:gv w)))))
 
 ;; Triple: phrase + illum + GV
 (println)
@@ -74,6 +71,6 @@
                       results)]
   (println (str "Count: " (count triples)))
   (doseq [w triples]
-    (println (format "  %s  phrases=%d  illum=%d  GV=%d  %s"
+    (println (format "  %s  phrases=%d  illum=%d  GV=%d"
                      (:word w) (:phrase-count w) (:illumination-count w)
-                     (:gv w) (or (:meaning w) "")))))
+                     (:gv w))))))
