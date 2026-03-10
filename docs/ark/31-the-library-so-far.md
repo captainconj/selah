@@ -6,27 +6,30 @@
 
 ## Summary Table
 
+`Dominant word` is the literal top 3-letter artifact hit from the rebuilt oracle files.
+`Self-reference` and `Key words` are highlighted motifs, not raw summary fields.
+
 | # | Protein | Residues | Windows | Dominant word | Self-reference | Key words |
 |---|---------|----------|---------|---------------|----------------|-----------|
-| 1 | **p53** (Guardian) | 393 | 179 | דוד David (×9) | שמר guard (331) | serpent, holy, fruit, sacrifice, choose |
+| 1 | **p53** (Guardian) | 393 | 179 | דדו (David, ×9) | שמר guard (331) | serpent, holy, fruit, sacrifice, choose |
 | 2 | **Serpent toxin** | 95 | 30 | מטה staff (×3) | staff=serpent | curse, false, soul, ransom, flame, rock |
 | 3 | **Hemoglobin-α** | 142 | 50 | נטה stretch out (×4) | — | Shaddai, the Binding, sprinkle |
 | 4 | **Hemoglobin-β** | 147 | 54 | נדע we will know (×4) | — | serpent, scepter, rainbow, Terah |
-| 5 | **Myoglobin** | 154 | 59 | — (dispersed) | — | sun, forever, field, trees, honey |
-| 6 | **Insulin** | 110 | 34 | — (dispersed) | — | Nadab, soul, David, guard, face |
+| 5 | **Myoglobin** | 154 | 59 | שוע cry for help (×3) | — | sun, forever, field, trees, honey |
+| 6 | **Insulin** | 110 | 34 | שני scarlet/two (×2) | — | Nadab, soul, David, guard, face |
 | 7 | **Cytochrome-c** | 105 | 43 | קשה hard (×3) | — | wound, dawn, cursed, fence |
 | 8 | **Ferredoxin** | 184 | 71 | ירד descend (×4) | — | Shaddai (×3), dawn, create, look, soul |
-| 9 | **Ubiquitin** | 685 | 260 | (×9 repeats) | — | Levi, holy, Sarah, forehead, river, branch |
+| 9 | **Ubiquitin** | 685 | 260 | קשה hard (×18) | — | Levi, holy, Sarah, forehead, river, branch |
 | 10 | **Histone H4** | 103 | 36 | שרש root (×2) | — | holy, offering-forever-binding, Sarah |
-| 11 | **Rhodopsin** (Eye) | 348 | 123 | — (diverse) | חזו vision (300) | house, was/became, laugh, flower |
+| 11 | **Rhodopsin** (Eye) | 348 | 123 | זנה stray/commit harlotry (×4) | חזו vision (300) | house, was/became, laugh, flower |
 | 12 | **Calmodulin** (Messenger) | 149 | 50 | תלד birth (×3) | birth=messenger | Eve, serpent, Hannah, salt |
-| 13 | **ATP synthase** (Engine) | 529 | 185 | נטה stretch (×5) | — | Shaddai (×4), David (×4), guard (×3), holy (×2), my heart |
-| 14 | **Histone H3** (Scroll) | 136 | 52 | רדה rule (×2) | — | holy, seed, Binding, branch, Kohath, David, guard |
-| 15 | **Ribosomal S3** (Reader) | 243 | 80 | הוה HVH (×3) | — | holy (×2), Shaddai, Jabbok (×2), Sarah, my heart |
-| 16 | **Immunoglobulin** (Guard) | 399 | 140 | לוט Lot (×4) | — | let there be, soul (×2), holy, serpent, flame, Levi, sword |
-| 17 | **Collagen I** (Scaffold) | 1,464 | 666 | שור ox (×43) | — | **holy (×31)**, Shaddai (×15), sabbath, 391 shins |
+| 13 | **ATP synthase** (Engine) | 529 | 184 | נטה stretch (×5) | — | Shaddai (×4), David (×4), guard (×3), holy (×2), my heart |
+| 14 | **Histone H3** (Scroll) | 136 | 51 | נרד nard / descend (×2) | — | holy, seed, Binding, branch, Kohath, David, guard |
+| 15 | **Ribosomal S3** (Reader) | 243 | 78 | הוה HVH (×3) | — | holy (×2), Shaddai, Jabbok (×2), Sarah, my heart |
+| 16 | **Immunoglobulin** (Guard) | 399 | 139 | לוט Lot (×4) | — | let there be, soul (×2), holy, serpent, flame, Levi, sword |
+| 17 | **Collagen I** (Scaffold) | 1,464 | 666 | שיו gift/bribe (×51) | — | **holy (×31)**, Shaddai (×15), sabbath, 391 shins |
 | 18 | **Laminin** (Cross) | 1,609 | 590 | לפר (×14) | — | Noah (×8), serpent (×4), Sarah (×4), binding-forever-forever |
-| 19 | **RNA Pol II** (Scribe) | 1,970 | 960 | היו (×132 CTD) | מצח forehead (×4) | Shaddai (×6), vision (×6), branch (×5), Binding, create |
+| 19 | **RNA Pol II** (Scribe) | 1,970 | 931 | היו they were (×132 CTD) | מצח forehead (×4) | Shaddai (×6), vision (×6), branch (×5), Binding, create |
 | 20 | **BRCA1** (Other Guardian) | 1,863 | 722 | שני two (×11) | — | **let there be (×7)**, holy (×3), Shaddai, forehead (×3), create (×2) |
 | 21 | **FOXP2** (The Man) | 715 | 227 | ומה and-what (×6) | **מלל speak (703–704)** | **HVH (×4)**, branch (×4), command (×4), two (×5), Levi (×3), serpent |
 
