@@ -61,7 +61,11 @@
   [source]
   (case source
     :curated "curated"
+    :model-reviewed "model-reviewed"
+    :llm-reviewed "llm-reviewed"
+    :llm "llm"
     :machine "machine"
+    :model "model"
     "unknown"))
 
 (defn label

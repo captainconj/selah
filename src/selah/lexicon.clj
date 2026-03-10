@@ -23,11 +23,10 @@
 
 (def ^:private source-priority
   {:curated 0
-   :reviewed 1
-   :model-reviewed 2
-   :llm-reviewed 3
-   :llm 4
-   :model 5
+   :model-reviewed 1
+   :llm-reviewed 2
+   :llm 3
+   :model 4
    :unknown 99})
 
 (def ^:private quality-priority
@@ -146,7 +145,7 @@
     []))
 
 (def ^:private file-specs
-  [{:file "curated.edn" :source :reviewed}
+  [{:file "curated.edn" :source :curated}
    {:file "model-reviewed.edn" :source :model-reviewed}
    {:file "llm-reviewed.edn" :source :llm-reviewed}
    {:file "model.edn" :source :model}
@@ -176,6 +175,12 @@
   (let [f (io/file path)]
     (when (.exists f)
       (edn/read-string (slurp f)))))
+
+(defn- write-file-map!
+  [path data]
+  (io/make-parents path)
+  (spit path (pr-str data))
+  path)
 
 (defn- locale-file-data
   [locale]
@@ -227,3 +232,119 @@
       :best (first candidates)
       :candidates candidates
       :sources (source-files locale)})))
+
+(defn source-map
+  "Read a locale/source map from disk. Returns {} when absent."
+  ([source]
+   (source-map source default-locale))
+  ([source locale]
+   (or (read-file-map (get (source-files locale) source))
+       {})))
+
+(defn write-source-map!
+  "Write a locale/source map to disk and refresh caches."
+  ([source data]
+   (write-source-map! source data default-locale))
+  ([source data locale]
+   (let [path (get (source-files locale) source)]
+     (write-file-map! path data)
+     (refresh!)
+     path)))
+
+(defn materialize-model-file!
+  "Populate data/lexicon/<locale>/model.edn from the legacy machine-English
+   cache. For now only English has a source corpus."
+  ([] (materialize-model-file! default-locale))
+  ([locale]
+   (let [locale (normalize-locale locale)]
+     (when-not (= locale :en)
+       (throw (ex-info "Legacy model materialization is only available for English" {:locale locale})))
+     (let [payload (into {}
+                         (map (fn [[word text]]
+                                [word [{:text text
+                                        :quality :medium
+                                        :model "torah-english.edn"
+                                        :notes "Imported from legacy machine-English cache"}]]))
+                         @machine-english*)]
+       (write-source-map! :model payload locale)))))
+
+(defn upsert-candidate!
+  "Add or replace a candidate in a locale/source file by :text."
+  ([source word candidate]
+   (upsert-candidate! source word candidate default-locale))
+  ([source word candidate locale]
+   (let [locale (normalize-locale locale)
+         current (source-map source locale)
+         existing (vec (normalize-entry locale source word (get current word)))
+         candidate* (normalize-candidate locale source word candidate)
+         merged (->> (conj (remove #(= (:text %) (:text candidate*)) existing) candidate*)
+                     vec)]
+     (write-source-map! source (assoc current word merged) locale))))
+
+(defn remove-candidate!
+  "Remove a candidate text from a locale/source file."
+  ([source word text]
+   (remove-candidate! source word text default-locale))
+  ([source word text locale]
+   (let [locale (normalize-locale locale)
+         current (source-map source locale)
+         remaining (vec (remove #(= (:text %) text)
+                                (normalize-entry locale source word (get current word))))
+         next-map (if (seq remaining)
+                    (assoc current word remaining)
+                    (dissoc current word))]
+     (write-source-map! source next-map locale))))
+
+(defn promote-candidate!
+  "Copy a candidate text from one source layer to another, optionally removing
+   it from the source layer afterward."
+  ([from-source to-source word text]
+   (promote-candidate! from-source to-source word text default-locale {}))
+  ([from-source to-source word text locale]
+   (promote-candidate! from-source to-source word text locale {}))
+  ([from-source to-source word text locale {:keys [remove-from-source?]
+                                            :or {remove-from-source? false}}]
+   (let [locale (normalize-locale locale)
+         candidate (first (filter #(= (:text %) text)
+                                  (normalize-entry locale from-source word
+                                                   (get (source-map from-source locale) word))))]
+     (when-not candidate
+       (throw (ex-info "Candidate text not found in source layer"
+                       {:from-source from-source :to-source to-source :word word :text text :locale locale})))
+     (upsert-candidate! to-source word (assoc candidate :source to-source) locale)
+     (when remove-from-source?
+       (remove-candidate! from-source word text locale))
+     :ok)))
+
+(defn- suspicious-text?
+  [text]
+  (boolean
+   (or (str/includes? text "<unk>")
+       (re-find #"[A-Z]{2,}" text)
+       (re-find #"[.!?]{2,}|[.][A-Za-z]" text)
+       (re-find #"[A-Za-z]{5,}[aeiouy][A-Za-z]{5,}" text)
+       (re-find #"\b(Vi|Wi|Ye|Mc|Oog|Ina|Hela|Madwa)\b" text))))
+
+(defn review-queue
+  "Return suspicious model candidates for human/LLM review.
+
+   Heuristics are intentionally simple: unknown tokens, odd capitalization,
+   transliteration-like strings, and other obvious machine debris."
+  ([] (review-queue default-locale 100))
+  ([locale] (review-queue locale 100))
+  ([locale limit]
+   (let [locale (normalize-locale locale)
+         model-map (source-map :model locale)]
+     (->> model-map
+          (keep (fn [[word candidates]]
+                  (let [candidate (first (normalize-entry locale :model word candidates))]
+                    (when (and candidate
+                               (suspicious-text? (:text candidate)))
+                      {:word word
+                       :text (:text candidate)
+                       :quality (:quality candidate)
+                       :model (:model candidate)
+                       :notes (:notes candidate)}))))
+          (sort-by (juxt :text :word))
+          (take limit)
+          vec))))
