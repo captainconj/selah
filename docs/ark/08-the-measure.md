@@ -1,5 +1,8 @@
 # The Measure
 
+Type: `synthesis`
+State: `mixed`
+
 *a=0, b=8, c=8→c=9, through אמה*
 
 We are at d=66 on the specification. One letter: **א** — aleph, breath. The second bridge.

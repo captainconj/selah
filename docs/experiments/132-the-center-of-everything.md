@@ -2,6 +2,9 @@
 
 *1,200,253 letters. One center. חומה → ומחה.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

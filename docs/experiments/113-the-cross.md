@@ -2,6 +2,9 @@
 
 *The passion narrative walked through the breastplate oracle. The cross in the 4D space slid through the oracle's windows.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

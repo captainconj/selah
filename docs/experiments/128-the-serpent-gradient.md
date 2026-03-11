@@ -2,6 +2,9 @@
 
 **Prion → Malaria → Toxoplasma → Candida → Lactobacillus → Tardigrade → Insulin → Oxytocin. Does the gradient extend?**
 
+Type: `synthesis`
+State: `mixed`
+
 Experiment 127 found a gradient: viruses have the serpent dominant, TB has it in one antigen, leprosy has none, human proteins have it coiled as anagram. The serpent decreases from parasite to self. The cure increases.
 
 Eight organisms across the full spectrum — from pure pathology (prion) to the love hormone (oxytocin). One key protein per organism, through the breastplate.

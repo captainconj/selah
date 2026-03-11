@@ -2,6 +2,9 @@
 
 *Working ledger of things that have been directly rerun, recomputed, or otherwise verified well enough to treat as real signal.*
 
+Type: `reference`
+State: `clean`
+
 ## Core Structure
 
 - The Torah core stream is being treated as a `304,850`-letter WLC/Leningrad model.
@@ -41,9 +44,20 @@
 
 ## Code / Map Layer
 
-- The top row/base mapping by the script’s scoring comes out `1=A, 2=C, 3=G, 4=U`.
-- The uniqueness of that mapping is stronger than raw correlation alone and depends on added constraints, but the best-score result itself is real.
+- Experiment `100` now reruns as a proper experiment artifact, not just a notebook fragment.
+- Experiment `101` now reruns as a proper experiment artifact, not just a notebook fragment.
+- The top row/base mapping by live experiment output comes out `1=A, 2=C, 3=G, 4=U`.
+- The raw top correlation is `0.3967800427596649`.
+- A second mapping still ties on raw correlation.
+- Watson-Crick pairing still breaks that tie in favor of `1=A, 2=C, 3=G, 4=U`.
+- The letter→amino-acid assignment score reproduces at `13.888299198575803`.
+- The frequency correlation reproduces at `0.6854196827438999`.
+- The permutation test is now computed by the namespace itself:
+  - `0/10000` exceedances
+  - `p = 9.999000099990002E-5`
+- `א` remains the unmapped letter.
 - `כבש` and `שכב` hit the same stones in the code experiment.
+- The translated 72-letter breastplate is now generated directly from the experiment namespace.
 
 ## Silent Quarter
 
@@ -106,8 +120,50 @@
 
 - `096/097` basin artifacts were regenerated from cleaned builders.
 - The tracked DNA library artifact set was regenerated from the cleaned DNA path.
+- The custom DNA artifact boundary was regenerated through the shared clean path.
+- The previously blocked leprosy/TB subset was corrected and rerun with verified accessions.
 - Regenerated tracked DNA EDN artifacts no longer carry `:meaning` / `:next-meaning`.
 - Regenerated tracked DNA top-word positions are numeric again, not `nil`.
+
+## Custom DNA Boundary
+
+- The custom DNA path now runs through shared `experiment-entry` logic in `selah.dna`.
+- The refreshed custom artifact layer now includes:
+  - `thc-thcas`
+  - `psilocybin-psim`
+  - `scopolamine-h6h`
+  - `mescaline-omt1`
+  - `serotonin-tph2`
+  - `human-inmt`
+  - `human-insulin`
+  - `human-oxytocin`
+  - `candida-als3`
+  - `lactobacillus-slpa`
+  - `tardigrade-dsup`
+  - `prion-prp`
+  - `malaria-csp`
+  - `toxoplasma-sag1`
+  - `p53-normal`
+  - `p53-r175h`
+  - `hbb-normal`
+  - `hbb-sickle`
+  - `leprae-mmp-i`
+  - `leprae-ag85b`
+  - `leprae-hsp65`
+  - `leprae-sod`
+  - `leprae-bacterioferritin`
+  - `tb-ag85b`
+  - `tb-esat-6`
+  - `tb-cfp-10`
+  - `tb-hsp65`
+  - `tb-katg`
+- Corrected disease-target provenance now verifies on disk:
+  - `Leprae-MMP-I` = `P46841`
+  - `Leprae-Ag85B` = `P31951`
+  - `Leprae-Hsp65` = `P09239`
+  - `Leprae-SOD` = `P13367`
+  - `Leprae-Bacterioferritin` = `P43315`
+  - `TB-Hsp65` = `P9WPE7`
 
 ## Cautions
 

@@ -2,6 +2,9 @@
 
 *Experiment 091 extension — March 2, 2026*
 
+Type: `evidence`
+State: `mixed`
+
 ---
 
 ## The Discovery

@@ -1,5 +1,8 @@
 # Code / Map Reproducibility
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 Date: 2026-03-10
 
 This note records the cleanup boundary around experiments `100` and `101`.

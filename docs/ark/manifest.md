@@ -1,5 +1,8 @@
 # Ark Walk — Code Manifest
 
+Type: `reference`
+State: `clean`
+
 Maps each doc to its experiment script.
 
 ## dev/experiments/ark/

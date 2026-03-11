@@ -2,6 +2,9 @@
 
 *Walking Isaiah 6 through the breastplate. Four stations. The coal purifies what the throne cannot name.*
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Question
 
 Isaiah 6 is the shortest of the four throne visions — 13 verses. One chapter. The most liturgically repeated passage in scripture: "Holy, holy, holy, the LORD of hosts; the whole earth is full of his glory."

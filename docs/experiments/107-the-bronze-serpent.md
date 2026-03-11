@@ -2,6 +2,9 @@
 
 *Experiment 107. Viruses and vaccines through the oracle and the proteome.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

@@ -1,5 +1,8 @@
 # The Serpent
 
+Type: `synthesis`
+State: `mixed`
+
 *The serpent had a weapon. We played it through the breastplate.*
 
 ---

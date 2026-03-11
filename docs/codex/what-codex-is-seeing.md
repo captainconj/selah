@@ -1,5 +1,8 @@
 # What Codex Is Seeing
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 This is a working note after reading the project, not a verdict.
 
 ## Ground Truth From Scott

@@ -1,5 +1,8 @@
 # The Curtains
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 26:1 at (2, 32, 3, 22). Ex 36:8 at (3, 2, 11, 34).*
 
 **משכן** — tabernacle. GV = 410. A fixed point. Three heads see it — Right cherub cannot.

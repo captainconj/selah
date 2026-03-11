@@ -2,6 +2,9 @@
 
 *March 2, 2026. The experiment the review demanded.*
 
+Type: `evidence`
+State: `clean`
+
 ---
 
 ## The Question

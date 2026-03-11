@@ -1,5 +1,8 @@
 # What God Is Doing
 
+Type: `synthesis`
+State: `mixed`
+
 *The same thing. Over and over. At every scale.*
 
 ---

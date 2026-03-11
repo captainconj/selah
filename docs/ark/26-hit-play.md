@@ -2,6 +2,9 @@
 
 *The last time someone played something through without the priest, it didn't go well.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Wrong Machine

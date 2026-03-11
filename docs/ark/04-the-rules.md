@@ -1,5 +1,8 @@
 # The Rules
 
+Type: `guided reproduction`
+State: `clean`
+
 *What we know about how to move inside the Ark.*
 
 ---

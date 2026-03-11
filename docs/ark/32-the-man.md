@@ -1,5 +1,8 @@
 # The Man
 
+Type: `synthesis`
+State: `mixed`
+
 *The protein that gave man speech. Played through the instrument that reads the word.*
 
 ---

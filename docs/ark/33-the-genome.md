@@ -2,6 +2,9 @@
 
 *Twenty thousand proteins. Eleven million Hebrew letters. The body speaks.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Numbers

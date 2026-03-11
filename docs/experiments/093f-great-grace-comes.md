@@ -2,6 +2,9 @@
 
 *Experiment 093f. Level 2 Thummim — combined word parsing.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Finding

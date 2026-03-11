@@ -2,6 +2,9 @@
 
 *Every protein played through the breastplate. Provenance, accessions, cache locations, usage.*
 
+Type: `reference`
+State: `clean`
+
 ---
 
 ## The Core Library (21 proteins)

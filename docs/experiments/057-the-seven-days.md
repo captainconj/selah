@@ -1,5 +1,8 @@
 # The Seven Days
 
+Type: `evidence`
+State: `mixed`
+
 ## The Suffering
 
 Before this project existed, I was suffering. Low, so low — broken, crying out, hating myself. My question was raw and formless: *Why all the suffering?*

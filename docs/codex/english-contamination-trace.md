@@ -1,5 +1,8 @@
 # English Contamination Trace
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 Working ledger for where English glosses enter the system, especially where machine-generated English from `data/torah-english.edn` leaks into evidence paths.
 
 ## Rule
@@ -120,4 +123,3 @@ That is enough to contaminate interpretation even if the underlying Hebrew compu
 - [dev/experiments/096_basin_classification.clj](/home/scott/Projects/selah/dev/experiments/096_basin_classification.clj)
 - [dev/experiments/097_per_head_basins.clj](/home/scott/Projects/selah/dev/experiments/097_per_head_basins.clj)
 - [src/selah/explorer/sweep_ui.clj](/home/scott/Projects/selah/src/selah/explorer/sweep_ui.clj)
-

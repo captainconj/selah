@@ -2,6 +2,9 @@
 
 *The recursive symmetry of the Torah's five books.*
 
+Type: `retired / historical`
+State: `retired`
+
 ---
 
 ## The Shape of Five Books

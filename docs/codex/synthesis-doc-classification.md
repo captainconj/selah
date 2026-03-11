@@ -1,5 +1,8 @@
 # Synthesis Doc Classification
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 This is the narrative-layer audit.
 
 The experiment table classifies scripts and experiment writeups. This file classifies the larger synthesis documents and walk documents that speak for the project at a higher level.

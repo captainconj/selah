@@ -1,5 +1,8 @@
 # ELS (Equidistant Letter Sequence) — Algorithm Reference
 
+Type: `reference`
+State: `clean`
+
 ## Core Concept
 
 Treat a Hebrew passage as a single continuous stream of letters (no spaces,

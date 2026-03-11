@@ -2,6 +2,9 @@
 
 *March 2, 2026. Experiment 092b.*
 
+Type: `synthesis`
+State: `mixed`
+
 *Permutation test complete. The Ramban mechanism is structural.*
 
 ---

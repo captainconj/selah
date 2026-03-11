@@ -1,5 +1,8 @@
 # The Guardian
 
+Type: `synthesis`
+State: `mixed`
+
 *The garden had a guardian. We played it through the breastplate.*
 
 ---

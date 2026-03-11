@@ -1,5 +1,8 @@
 # The Rooms
 
+Type: `synthesis`
+State: `mixed`
+
 *a=0, b=8, c=7, d=28–31*
 
 **קנים** — rooms, nests, compartments. GV = **200** = resh = head = beginning.

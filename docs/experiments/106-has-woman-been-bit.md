@@ -2,6 +2,9 @@
 
 *Experiment 106. Genesis 3:15 through the oracle and the proteome.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

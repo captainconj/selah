@@ -1,5 +1,8 @@
 # The Code
 
+Type: `synthesis`
+State: `mixed`
+
 *The breastplate as codon table. The letters as amino acids. The cribs as constraints.*
 
 ---

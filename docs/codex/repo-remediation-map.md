@@ -1,5 +1,8 @@
 # Repo Remediation Map
 
+Type: `planning`
+State: `clean`
+
 Date: 2026-03-11
 
 This is the project-wide plan to bring Selah into shape without trying to rewrite everything at once.

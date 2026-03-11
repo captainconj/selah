@@ -2,6 +2,9 @@
 
 *Walking Ezekiel 1 through the breastplate. Six stations. The chariot reveals itself.*
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Question
 
 Ezekiel 1 is the original throne vision — the most architecturally detailed description of the divine chariot in scripture. Four living creatures with four faces. Wheels within wheels covered in eyes. A firmament of crystal. A sapphire throne. A man-like figure surrounded by fire and rainbow.

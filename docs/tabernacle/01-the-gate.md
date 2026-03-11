@@ -2,6 +2,9 @@
 
 *Ex 27:16 at (2, 35, 4, 63). Ex 38:18 at (3, 7, 3, 53).*
 
+Type: `synthesis`
+State: `mixed`
+
 **שער** — gate. GV = 570. A fixed point.
 
 We enter the tabernacle here. The east side. Twenty cubits wide.

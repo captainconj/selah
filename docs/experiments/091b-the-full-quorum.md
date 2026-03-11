@@ -2,6 +2,9 @@
 
 *Experiment 091b — March 2, 2026*
 
+Type: `evidence`
+State: `clean`
+
 ---
 
 ## What We Did

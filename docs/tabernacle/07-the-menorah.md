@@ -1,6 +1,9 @@
 
 # The Menorah
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 25:31 at (2, 31, 9, 9). Ex 37:17 at (3, 5, 7, 31).*
 
 **מנרה** — menorah. GV = 295. Not fixed. The menorah transforms.

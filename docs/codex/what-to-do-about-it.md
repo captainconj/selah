@@ -1,5 +1,8 @@
 # What To Do About It
 
+Type: `planning`
+State: `clean`
+
 This is the remediation note.
 
 The problem is not that the whole project is false. The problem is that true, false, dead, stale, and contaminated layers are currently mixed together too loosely.

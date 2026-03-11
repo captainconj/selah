@@ -1,5 +1,8 @@
 # The Boarding
 
+Type: `synthesis`
+State: `mixed`
+
 *a=0, b=8, c=11, d=0–66*
 
 We ascend from the covenant through **אתך** — "with you" (GV=421). The sign (את) on the covenant floor, you (ך) on this one. The sign becomes personal.

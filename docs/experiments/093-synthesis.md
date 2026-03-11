@@ -2,6 +2,9 @@
 
 *March 2, 2026. Experiments 093–093i.*
 
+Type: `synthesis`
+State: `mixed`
+
 *The Urim illuminates. The Thummim completes. The letters light up. The priest arranges them. The machine enumerates. The findings are below.*
 
 ---

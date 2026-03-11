@@ -1,5 +1,8 @@
 # The Manifest
 
+Type: `synthesis`
+State: `mixed`
+
 *The box came with a packing list. So does the library.*
 
 ---

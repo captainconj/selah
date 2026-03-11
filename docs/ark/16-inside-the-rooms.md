@@ -1,5 +1,8 @@
 # Inside the Rooms
 
+Type: `synthesis`
+State: `mixed`
+
 *What the oracle sees when it looks at each word on each floor.*
 
 ---

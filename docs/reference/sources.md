@@ -1,5 +1,8 @@
 # Hebrew Text Sources
 
+Type: `reference`
+State: `clean`
+
 ## Primary: Sefaria API
 
 **Base URL:** `https://www.sefaria.org/api/texts/`

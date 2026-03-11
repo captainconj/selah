@@ -1,5 +1,8 @@
 # The Laver
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 30:18 at (2, 42, 3, 43). Ex 38:8 at (3, 6, 9, 33).*
 
 **כיור** — laver. GV = 236. Not fixed. The laver transforms to recognition.

@@ -1,5 +1,8 @@
 # The Altar
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 27:1 at (2, 34, 7, 5). Ex 38:1 at (3, 6, 4, 31).*
 
 **מזבח** — altar. GV = 57. A fixed point. Only God sees it.

@@ -1,5 +1,8 @@
 # The Table
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 25:23 at (2, 31, 4, 11). Ex 37:10 at (3, 5, 2, 53).*
 
 **שלחן** — table. GV = 388. A fixed point. God and mercy see it.

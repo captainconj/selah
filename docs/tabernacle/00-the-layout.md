@@ -2,6 +2,9 @@ pl# The Layout
 
 *The tabernacle in 4D space. Instructions at a=2, construction at a=3.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## Two Tellings

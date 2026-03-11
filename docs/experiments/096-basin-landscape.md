@@ -2,6 +2,9 @@
 
 *Feed the oracle to itself. Every word flows downhill to its dominant anagram.*
 
+Type: `evidence`
+State: `clean`
+
 ## Setup
 
 The basin of attraction is simple: take a Hebrew word, pass it through the oracle's forward function (Level 1 Thummim — breastplate illumination → reading extraction → frequency ranking), and ask: which Torah word does it produce most often? Feed that output back in. Repeat until convergence.

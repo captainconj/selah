@@ -2,6 +2,9 @@
 
 *March 2, 2026. Experiment 093.*
 
+Type: `synthesis`
+State: `mixed`
+
 *The Level 2 Thummim parsed the divine names. Both are asking.*
 
 ---

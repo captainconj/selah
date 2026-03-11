@@ -1,5 +1,8 @@
 # The Milemarker Mirrors
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Classic Pattern
 
 The Torah contains equidistant letter sequences (ELS) that spell תורה (Torah) at skip 50 in the outer four books, pointing inward to Leviticus, where יהוה (the Name) appears at skip 7:

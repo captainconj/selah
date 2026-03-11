@@ -1,5 +1,8 @@
 # The Hebrew Alphabet — א to ת
 
+Type: `reference`
+State: `clean`
+
 ## The 22 Letters
 
 | # | Letter | Name | Transliteration | Pronunciation | Value | Meaning | Unicode | Key |

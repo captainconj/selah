@@ -1,5 +1,8 @@
 # Vocabulary Audit
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 Working ledger for places that blur:
 
 - `12,826-form full Torah lexicon`

@@ -2,6 +2,9 @@
 
 **TB, sickle cell, p53 — through the breastplate.**
 
+Type: `synthesis`
+State: `mixed`
+
 Experiment 123 showed M. leprae proteins contain NO serpent — unlike viruses (experiment 107). The bacteria carry Nazareth, the lamb, the altar, the forehead. The disease carries its cure.
 
 Is this specific to leprosy? What do other pathogens contain?

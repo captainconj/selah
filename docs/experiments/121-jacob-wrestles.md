@@ -2,6 +2,9 @@
 
 *And Jacob was left alone; and there wrestled a man with him until the breaking of the day.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when Jacob wrestles the angel at the Jabbok? Genesis 32:23–33 — the naming of Israel. Eleven verses. The hip, the sinew, the name, the face. Walk the wrestling through the oracle. What breaks? What holds?
 
 **Code:** `dev/experiments/121_jacob_wrestles.clj`

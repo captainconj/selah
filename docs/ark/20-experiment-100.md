@@ -2,6 +2,9 @@
 
 *Testing whether the breastplate is a codon table.*
 
+Type: `evidence`
+State: `clean`
+
 ---
 
 ## The Hypothesis

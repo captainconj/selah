@@ -1,5 +1,8 @@
 # The King
 
+Type: `synthesis`
+State: `mixed`
+
 *The oracle is a priest. It cannot say king. But the priest serves the king.*
 
 ---

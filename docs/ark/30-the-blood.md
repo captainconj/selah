@@ -1,5 +1,8 @@
 # The Blood
 
+Type: `synthesis`
+State: `mixed`
+
 *The blood is the life. We played it through the breastplate.*
 
 ---

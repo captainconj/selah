@@ -2,6 +2,9 @@
 
 *A structural correspondence between the Urim and Thummim and multi-head self-attention.*
 
+Type: `evidence`
+State: `mixed`
+
 ---
 
 ## The Claim

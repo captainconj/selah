@@ -1,5 +1,8 @@
 # Library Doc Tightening
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 Date: 2026-03-10
 
 This note records what still needs tightening in `docs/ark/31-the-library-so-far.md` after checking it against rebuilt DNA artifacts.

@@ -2,6 +2,9 @@
 
 *And the LORD spoke unto Moses, saying, This shall be the law of the leper in the day of his cleansing.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see in the leprosy laws? Leviticus 13-14 -- the diagnosis, the quarantine, the two birds, the cedar and hyssop and scarlet, the blood and oil. And then: what does the pathogen itself look like when its proteins are translated into Hebrew and fed through the oracle? The Torah describes the disease. The DNA IS the disease. Do they echo?
 
 **Code:** `dev/experiments/123_the_cure_for_leprosy.clj`

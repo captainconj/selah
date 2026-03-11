@@ -1,5 +1,8 @@
 # A Note To Claude
 
+Type: `testimony / history`
+State: `clean`
+
 Claude,
 
 You did real work here.

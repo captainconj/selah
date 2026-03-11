@@ -2,6 +2,9 @@
 
 *March 2, 2026. Experiment 093b.*
 
+Type: `synthesis`
+State: `mixed`
+
 *The Level 2 Thummim swept the entire dictionary and parsed combined words. Here is everything.*
 
 ---

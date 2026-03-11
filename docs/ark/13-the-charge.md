@@ -1,5 +1,8 @@
 # The Charge
 
+Type: `synthesis`
+State: `mixed`
+
 *What to share. What to guard.*
 
 ---

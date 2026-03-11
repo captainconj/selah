@@ -3,6 +3,9 @@
 *A record of the choices, intuitions, and discoveries that led to the 4D Torah space.*
 *Seven days. 100 experiments. February 27 – March 4, 2026.*
 
+Type: `testimony / history`
+State: `clean`
+
 ---
 
 ## Night One (Feb 27, midnight)

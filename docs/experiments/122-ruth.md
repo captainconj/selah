@@ -2,6 +2,9 @@
 
 *Where you go, I will go. Your people will be my people, and your God my God.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when the Moabitess arrives? Ruth is chesed incarnate — lovingkindness made flesh. The book is 4,950 letters across four chapters. Walk the whole thing. What does the oracle find in the longest text we have ever fed it?
 
 **Code:** `dev/experiments/122_ruth.clj`

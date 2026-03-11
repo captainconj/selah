@@ -1,5 +1,8 @@
 # The Four Folds
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Space
 
 304,850 = 7 × 50 × 13 × 67. Every letter has address (a, b, c, d). Four axes, four dimensions, four ways to fold.

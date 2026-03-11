@@ -1,6 +1,9 @@
 
 # Son of Man = Stone of Blood
 
+Type: `synthesis`
+State: `mixed`
+
 *Experiment 093c. Level 2 Thummim — combined word parsing.*
 
 ---

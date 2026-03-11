@@ -1,5 +1,8 @@
 # Variant Survival Report: What Survives Textual Variation?
 
+Type: `evidence`
+State: `clean`
+
 **Date:** 2026-02-28
 **Texts compared:**
 - **WLC** — Westminster Leningrad Codex (~1008 CE), OSHB 4.20, kethiv preferred

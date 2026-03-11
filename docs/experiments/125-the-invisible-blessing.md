@@ -2,6 +2,9 @@
 
 **Is ברך always 0/0? Are curses visible?**
 
+Type: `synthesis`
+State: `mixed`
+
 ברך (bless) has been 0/0 in every passage sluiced: creation (118), wrestling (121), cornerstone (115), the cross (113), the Binding of Isaac (116). God blesses repeatedly in the text. The oracle cannot see it.
 
 Is this structural or accidental? And what about curses?

@@ -2,6 +2,9 @@
 
 *Experiment 105. Hemoglobin-alpha from each living creature, played through the breastplate.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Hypothesis

@@ -2,6 +2,9 @@
 
 *Experiment 093i. Level 2 Thummim — phrase parsing of the Ramban's example.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

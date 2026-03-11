@@ -2,6 +2,9 @@
 
 *A guide for Codex. The reverse direction: protein → Hebrew → oracle.*
 
+Type: `guided reproduction`
+State: `clean`
+
 ---
 
 ## The Discovery

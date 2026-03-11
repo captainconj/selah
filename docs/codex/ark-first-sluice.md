@@ -2,6 +2,9 @@
 
 *March 10, 2026. First direct rerun of the Ark walk and nearby code/genome claims.*
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 ## Update
 
 Two of the concrete rot points found in the first pass were later fixed and rerun:

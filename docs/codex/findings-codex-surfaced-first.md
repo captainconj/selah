@@ -1,5 +1,8 @@
 # Findings Codex Surfaced First
 
+Type: `reference`
+State: `clean`
+
 *Concrete issues or distinctions that I called out before they were cleaned up or widely integrated into the repo state.*
 
 ## Experiment Plumbing

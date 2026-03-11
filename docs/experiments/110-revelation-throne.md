@@ -2,6 +2,9 @@
 
 *Walking Revelation 4-5 through the breastplate. Five stations. The Greek vision speaks Hebrew.*
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Question
 
 Revelation 4-5 is the synthesis vision — where cherubim, seraphim, and ophanim collapse into one scene. John sees the throne room from outside. The four living creatures have one face each (not four). They have six wings like Isaiah's seraphim, not four like Ezekiel's. They are "full of eyes" like the wheels. Everything merges.

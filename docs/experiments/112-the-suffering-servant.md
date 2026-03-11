@@ -2,6 +2,9 @@
 
 *Walking Isaiah 52:13 – 53:12 through the breastplate. Five stations. כי נא — because, please.*
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Question
 
 Isaiah 53 is the most contested passage in the Hebrew Bible. Twelve verses. One figure. A man who bears what others deserve, who is silent before slaughter, who is crushed — and through whose wounds others are healed.

@@ -2,6 +2,9 @@
 
 *Four independent reviews synthesized. March 2, 2026.*
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 ---
 
 ## What Was Done

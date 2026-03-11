@@ -1,5 +1,8 @@
 # The Garden
 
+Type: `synthesis`
+State: `mixed`
+
 *Where the tree of life grows.*
 
 ---

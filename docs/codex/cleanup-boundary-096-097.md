@@ -1,5 +1,8 @@
 # Cleanup Boundary: 096 / 097
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 This is the codex-side record of the cleanup and rebuild boundary around the basin artifacts.
 
 ## What Is Clean Now

@@ -2,6 +2,9 @@
 
 *Experiment 093g. Level 2 Thummim — single word decompositions.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Three Decompositions

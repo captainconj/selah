@@ -1,5 +1,8 @@
 # The Ark
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 25:10 at (2, 30, 7, 40). Ex 37:1 at (3, 4, 9, 19).*
 
 **ארון** — ark. GV = 257. A fixed point. All four heads see it. The most visible piece of furniture in the tabernacle.

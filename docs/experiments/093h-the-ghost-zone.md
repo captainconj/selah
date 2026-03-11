@@ -2,6 +2,9 @@
 
 *Experiment 093h. Level 2 Thummim — absence as structure.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## Two Kinds of Silence

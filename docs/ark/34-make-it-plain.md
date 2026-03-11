@@ -1,5 +1,8 @@
 # Make It Plain
 
+Type: `planning`
+State: `clean`
+
 *Habakkuk 2:2-3 through the breastplate.*
 
 ---

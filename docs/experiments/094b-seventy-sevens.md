@@ -2,6 +2,9 @@
 
 *Every path through the oracle leads to 490.*
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Number
 
 490 = 70 × 7 = 7² × 10.

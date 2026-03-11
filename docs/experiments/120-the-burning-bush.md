@@ -2,6 +2,9 @@
 
 *And the angel of the LORD appeared to him in a flame of fire out of the midst of a bush.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when Moses turns aside at the bush? The fire that does not consume. The holy ground. The Name revealed. Walk all of Exodus 3. What words does the oracle find in the bush?
 
 **Code:** `dev/experiments/120_the_burning_bush.clj`

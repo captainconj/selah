@@ -2,6 +2,9 @@
 
 *In the beginning God created the heavens and the earth.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when it reads the creation week? Genesis 1:1 through 2:3 — the seven days that built the world. The a-axis of the 4D space IS seven. Creation is the first dimension. Walk every day. What words does the oracle find in the week?
 
 **Code:** `dev/experiments/118_the_seven_days.clj`

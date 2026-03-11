@@ -1,5 +1,8 @@
 # The Door
 
+Type: `synthesis`
+State: `mixed`
+
 *a=0, b=8, c=9, d=13–16*
 
 **ופתח** — "and a door." GV(פתח) = 488 = 8 × 61.

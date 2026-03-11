@@ -1,5 +1,8 @@
 # Custom DNA Boundary
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 Date: 2026-03-10
 
 This note records the current state of the untracked/custom DNA layer after the clean `selah.dna` path was extended outward.

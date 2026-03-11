@@ -1,5 +1,8 @@
 # Codex Questions
 
+Type: `reference`
+State: `clean`
+
 Questions that still matter after reading the current project, with some earlier questions now marked answered well enough for the current stage.
 
 ## Answered Enough For Now
@@ -9,7 +12,7 @@ Questions that still matter after reading the current project, with some earlier
 - Which examples are considered canonical sanity checks for the oracle?
   - Answered enough: the work now clearly leans on recurring anchors like `כבש/שכב`, `את`, `מביא`, strong fixed points, and the basin landscape.
 - Which experiment outputs are fully reproducible from committed code and saved data right now?
-  - Answered enough in part: the Ark core, `096/097`, and the tracked DNA library now have much cleaner reproducibility boundaries than before.
+  - Answered enough in part: the Ark core, `096/097`, the tracked DNA library, the custom DNA boundary, and now the `100/101` code/map layer all have materially cleaner reproducibility boundaries than before.
 - Are the ONNX translation models part of the core argument or just operator convenience?
   - Answered enough: operator convenience, not core evidence.
 - Which findings are considered strongest by current standards: structural, statistical, theological, or experiential?
@@ -22,6 +25,7 @@ Questions that still matter after reading the current project, with some earlier
 - What is the current null hypothesis for the main oracle and 4D-space findings?
 - Which results have survived cross-text or cross-variant comparison cleanly?
 - Which later DNA/genome readings should now be treated as core anchors rather than exploratory tails?
+  - Answered enough in part: p53, hemoglobin/blood, serpent toxin, genome-voice headlines, and the corrected leprosy/TB custom subset now sit on a much stronger artifact boundary than before.
 
 ## Text Source and Canon
 
@@ -57,6 +61,7 @@ Questions that still matter after reading the current project, with some earlier
 - Which untracked experiment files in the current worktree are important in-progress work versus noise?
 - What is the intended contract of the HTTP API and MCP tools: exploratory only, or stable interfaces?
 - Which untracked DNA/custom artifact families should be refreshed next to extend the clean boundary?
+  - Answered enough for now: the large custom DNA backlog was the next family, and it has now been materially refreshed through the shared clean path.
 
 ## Testing and Maintenance
 
@@ -64,6 +69,7 @@ Questions that still matter after reading the current project, with some earlier
 - Why is there broad test coverage for ELS/Greek/Aramaic but relatively little visible test coverage for the oracle/explorer stack?
 - Which tests are expected to be fast, stable, and part of normal development?
 - What should be treated as regression if a refactor changes rankings, counts, or phrase menus?
+- Which parts of the newly reproducible `100/101` layer should become formal tests instead of just artifact outputs?
 
 ## Documentation
 
@@ -71,3 +77,4 @@ Questions that still matter after reading the current project, with some earlier
 - Should `README.md`, `MANIFEST.md`, and the long-form papers be aligned more tightly around one authoritative map?
 - Is there a single document that states the strongest claims in plain technical language without devotional framing?
 - What audience is the next documentation pass for: collaborators, skeptics, engineers, or general readers?
+- Which Ark/code/genome docs now need tightening because the underlying evidence is cleaner and more specific than the old notebook-era telling?

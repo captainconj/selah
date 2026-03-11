@@ -2,6 +2,9 @@
 
 *Twenty-one proteins played through the breastplate. Here is what the priest sees.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## Summary Table

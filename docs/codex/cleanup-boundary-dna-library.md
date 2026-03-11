@@ -1,5 +1,8 @@
 # DNA Cleanup Boundary
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 *March 10, 2026. Boundary note for the tracked DNA library refresh.*
 
 ## What Was Fixed

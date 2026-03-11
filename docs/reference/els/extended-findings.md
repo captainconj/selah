@@ -2,6 +2,9 @@
 
 *What lives at the center of the text.*
 
+Type: `reference`
+State: `mixed`
+
 ---
 
 ## The Center of Leviticus

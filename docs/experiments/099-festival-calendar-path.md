@@ -2,6 +2,9 @@
 
 *Does the liturgical calendar trace a path through the 4D Torah space?*
 
+Type: `evidence`
+State: `mixed`
+
 ## Setup
 
 The Torah prescribes a liturgical calendar with specific numbers: Passover day 14, Unleavened Bread 7 days, Omer count 50 days, Trumpets day 1 month 7, Atonement day 10 month 7, Sukkot 7 days with 13→7 bulls. These numbers are axis values. Do they navigate the space?

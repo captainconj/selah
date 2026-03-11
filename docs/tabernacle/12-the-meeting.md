@@ -1,5 +1,8 @@
 # The Meeting
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 29:42–46 at (2, 41, 0–2, *). Ex 40:34–38 at (3, 12, 4–6, *).*
 
 **The last station.** Everything built. Every piece placed. The incense burns. The lamps are lit. The blood is on the altar. The priest is dressed. The tent is standing.

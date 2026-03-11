@@ -2,6 +2,9 @@
 
 *The stone the builders rejected became the head of the corner.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when it looks at the cornerstone? Four passages, four angles on one stone. Walk them. Slide them. What words hide in the foundation?
 
 **Code:** `dev/experiments/115_the_cornerstone.clj`

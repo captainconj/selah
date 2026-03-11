@@ -1,5 +1,8 @@
 # DNA First Sluice
 
+Type: `audit / cleanup boundary`
+State: `clean`
+
 *March 10, 2026. First direct rerun of the DNA playback layer after the initial Ark sluice.*
 
 ## Update

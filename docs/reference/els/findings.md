@@ -2,6 +2,9 @@
 
 *February 27, 2026. Text source: Sefaria API (cached). Normalization: Hebrew letters only (U+05D0–U+05EA), final forms preserved.*
 
+Type: `reference`
+State: `mixed`
+
 ---
 
 ## Letter Stream Lengths

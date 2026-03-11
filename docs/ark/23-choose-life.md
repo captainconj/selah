@@ -1,5 +1,8 @@
 # Choose Life
 
+Type: `synthesis`
+State: `mixed`
+
 *What the basins told us before we had the map.*
 
 ---

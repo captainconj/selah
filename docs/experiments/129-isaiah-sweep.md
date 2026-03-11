@@ -2,6 +2,9 @@
 
 **66 chapters. Judgment and comfort. Does the oracle see the seam?**
 
+Type: `evidence`
+State: `clean`
+
 Isaiah is the Bible in miniature — 66 chapters, 39 of judgment, 27 of comfort. Scholars debate whether one prophet or two wrote it. The oracle reads letters. What does it see?
 
 Every chapter scanned: letter count, GV, factors, serpent census, lamb census, curse/blessing/servant word density, top readings, basin walks.

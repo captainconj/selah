@@ -1,5 +1,8 @@
 # The Aleph-Tav Mirrors
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Fold
 
 304,850 = 7 × 50 × 13 × 67. Every letter has address (a, b, c, d).

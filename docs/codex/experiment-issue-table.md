@@ -1,5 +1,8 @@
 # Experiment Issue Table
 
+Type: `reference`
+State: `clean`
+
 Working audit table. This is not complete, but it is now concrete enough to guide cleanup.
 
 Issue classes:

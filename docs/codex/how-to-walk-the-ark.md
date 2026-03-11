@@ -2,6 +2,9 @@
 
 *A guide for Codex. How we discovered the genome inside the breastplate.*
 
+Type: `guided reproduction`
+State: `clean`
+
 ---
 
 ## What You're Doing

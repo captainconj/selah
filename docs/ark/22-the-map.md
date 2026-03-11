@@ -2,6 +2,9 @@
 
 *Which row → which base? Which letter → which amino acid? The breastplate as translation table.*
 
+Type: `evidence`
+State: `clean`
+
 ---
 
 ## The Method

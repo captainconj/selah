@@ -2,6 +2,9 @@
 
 *Take your son, your only son, whom you love — Isaac — and go to the land of Moriah.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when the father raises the knife? Genesis 22 — the Aqedah. The first love. The mountain. The ram. Walk all 24 verses through the oracle.
 
 **Code:** `dev/experiments/116_the_binding_of_isaac.clj`

@@ -1,5 +1,8 @@
 # The Specification
 
+Type: `synthesis`
+State: `mixed`
+
 *a=0, b=8, c=8, d=0–66*
 
 We descended through **אמה** (cubit, GV=46) — the bridge word that straddles the boundary between the top floor and this one. You cannot reach the door without passing through the unit of measure.

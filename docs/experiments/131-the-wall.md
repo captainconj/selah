@@ -2,6 +2,9 @@
 
 *Nehemiah 3 — the wall as breastplate*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

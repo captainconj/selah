@@ -1,5 +1,8 @@
 # The Machine
 
+Type: `retired / historical`
+State: `mixed`
+
 ## The Hint
 
 The Talmud (Yoma 73b) tells a story about the Urim and Thummim. The letters ש,כ,ר,ה lit up on the breastplate. Eli the priest read them as **שכרה** — "she is drunk." The correct reading was **כשרה** — "like Sarah," a barren woman praying for a child.

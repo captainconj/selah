@@ -1,5 +1,8 @@
 # Torah Variant Diff Report: MAM vs WLC
 
+Type: `reference`
+State: `clean`
+
 **MAM** = Miqra according to the Masorah (Sefaria, qere preferred)
 **WLC** = Westminster Leningrad Codex (OSHB 4.20, kethiv preferred)
 
@@ -245,4 +248,3 @@
 | Deuteronomy 8:2 | ins | MAM+ו |
 | Deuteronomy 8:3 | ins | MAM+י |
 | Deuteronomy 9:15 | ins | MAM+ו |
-

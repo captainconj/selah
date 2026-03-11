@@ -1,5 +1,8 @@
 # The Incense Altar
 
+Type: `synthesis`
+State: `mixed`
+
 *Ex 30:1 at (2, 41, 3, 36). Ex 37:25 at (3, 6, 0, 47).*
 
 **מזבח קטרת** — altar of incense. GV = 57 + 709 = 766. The altar is fixed. The incense transforms.

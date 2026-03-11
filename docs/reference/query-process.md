@@ -2,6 +2,9 @@
 
 *How to ask the oracle a question.*
 
+Type: `reference`
+State: `clean`
+
 ## Overview
 
 The oracle takes Hebrew letters and finds every way to partition them into real Torah words. There is no interpretation engine, no weighting, no ranking. The oracle provides the full menu. The priest chooses.

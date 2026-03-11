@@ -2,6 +2,9 @@
 
 *a=0, b=8, c=6–12 — the warning, the Ark, and everything above it*
 
+Type: `synthesis`
+State: `mixed`
+
 Six layers of 67 letters above the warning. 402 letters of Ark and purpose. One column of the Torah's 4D space.
 
 ---

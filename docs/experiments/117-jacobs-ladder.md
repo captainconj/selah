@@ -2,6 +2,9 @@
 
 *And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see when Jacob lies down at the place and dreams? The stone under his head. The ladder. The angels. The gate of heaven. Walk all of Genesis 28. What words does the oracle find in the staircase?
 
 **Code:** `dev/experiments/117_jacobs_ladder.clj`

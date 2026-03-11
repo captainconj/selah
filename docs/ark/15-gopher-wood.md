@@ -1,5 +1,8 @@
 # Gopher Wood
 
+Type: `synthesis`
+State: `mixed`
+
 *The material that cannot be named.*
 
 ---

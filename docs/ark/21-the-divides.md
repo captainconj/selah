@@ -1,5 +1,8 @@
 # The Divides
 
+Type: `synthesis`
+State: `mixed`
+
 *Every pair in Genesis encodes a layer of the machine. Every redemption repairs it.*
 
 ---

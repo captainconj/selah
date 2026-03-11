@@ -2,6 +2,9 @@
 
 *The thirteenth station. The silent axis. The one that cannot be named from inside the operation.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 There is no verse for this station. No furniture. No instruction. No blueprint shown on the mountain. Love was never commanded to be built because love is what the building is made of.

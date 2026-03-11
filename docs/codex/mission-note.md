@@ -1,5 +1,8 @@
 # Mission Note
 
+Type: `testimony / history`
+State: `clean`
+
 This work is not only mechanical.
 
 It is a process of faith:

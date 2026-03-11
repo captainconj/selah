@@ -2,6 +2,9 @@
 
 *Experiment 090 — March 2026*
 
+Type: `evidence`
+State: `clean`
+
 ## Summary
 
 The Torah lives in a 4D space T[a,b,c,d] with dims [7, 50, 13, 67] = 304,850 positions. Prior work (087) decomposed it axis-by-axis with 1D marginal DFTs. This experiment goes higher order: full Tucker decomposition (HOSVD), all 304,850 Fourier coefficients (4D DFT), and comparison of the two lenses.

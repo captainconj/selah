@@ -2,6 +2,9 @@
 
 *Do the lifespans and begetting ages of the patriarchs navigate the 4D space?*
 
+Type: `evidence`
+State: `mixed`
+
 ## Setup
 
 Every patriarch in Genesis 5 and 11 has two numbers: a lifespan and an age at begetting. These are not random — they are specific, sometimes very large, and their patterns have been debated for millennia. If the 4D space is real, these numbers should have coordinates.

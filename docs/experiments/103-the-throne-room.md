@@ -2,6 +2,9 @@
 
 *Experiment 103. The four living creatures through the oracle.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Hypothesis

@@ -2,6 +2,9 @@
 
 *And the serpent was more cunning than any beast of the field.*
 
+Type: `synthesis`
+State: `mixed`
+
 **The question:** What does the breastplate see in Genesis 3 — the chapter where everything breaks? The serpent, the tree, the knowledge, the curse, the covering, the exile. Walk the entire Fall. What words does the oracle find in the wound?
 
 **Code:** `dev/experiments/119_the_fall.clj`

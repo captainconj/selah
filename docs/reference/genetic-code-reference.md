@@ -1,5 +1,8 @@
 # The Universal Genetic Code -- Reference
 
+Type: `reference`
+State: `clean`
+
 ## 1. The Key Numbers
 
 | Quantity | Value | Notes |

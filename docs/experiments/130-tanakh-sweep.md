@@ -2,6 +2,9 @@
 
 **39 books. 1,200,253 letters. Does the structure scale?**
 
+Type: `evidence`
+State: `mixed`
+
 Isaiah has 66 chapters and mirrors the Bible's 66 books. Isaiah splits 39/27. The Bible splits 39/27 (OT/NT). Experiment 129 found structure at chapter scale in Isaiah: meaningful centers, partition factors, mirror pairs. Does the same structure exist at book scale across the entire Hebrew Bible?
 
 ## The Center Is Isaiah

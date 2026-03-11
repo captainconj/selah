@@ -1,5 +1,8 @@
 # The Lamb
 
+Type: `evidence`
+State: `clean`
+
 *The sacrifice so that life can exist.*
 
 ---
