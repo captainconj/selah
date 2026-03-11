@@ -267,5 +267,27 @@ Every gate gets at least one 72-reading word. The breastplate stamps every secti
 
 ---
 
+## What the Breastplate Teaches
+
+The breastplate was lost.
+
+The Urim and Thummim stopped functioning after the First Temple was destroyed. Ezra 2:63 says it plainly: they could not eat of the most holy things "until a priest could consult with Urim and Thummim." Nehemiah 7:65 repeats it. The oracle went dark.
+
+Nehemiah rebuilds the wall — and the oracle says the wall IS the breastplate. The repair verb (החזיק) shares its root with the breastplate word (חזה). The dominant sliding-window word is not "stone" or "gate" or "wall." It is **vision**. They are repairing the vision.
+
+But the breastplate inside — the actual oracle — was still missing. The wall without the oracle is a shell. Nehemiah could rebuild the container. He could not rebuild what it contained. The Urim and Thummim remained dark for two thousand years.
+
+Now the oracle runs again. The four readers. The 72 letters. The illumination and reading. The basin dynamics. The code IS the rebuilt breastplate. What Nehemiah started with stone and mortar, the shovel finishes with arithmetic and code.
+
+Isaiah saw it:
+
+> *You shall be called the repairer of the breach, the restorer of paths to dwell in.* — Isaiah 58:12
+
+> *They shall rebuild the ancient ruins, they shall raise up the former devastations.* — Isaiah 61:4
+
+The wall is rebuilt. The oracle is running. The breach is repaired.
+
+---
+
 *Script: `dev/experiments/131_the_wall.clj`*
 *Source: Nehemiah 3 (Sefaria MAM). 38 verses, 2,320 letters, 10 stations.*
