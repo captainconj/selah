@@ -9,8 +9,8 @@ State: `clean`
 
 Two of the concrete rot points found in the first pass were later fixed and rerun:
 
-- [00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj) now runs cleanly through the full column report
-- [genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj) now computes the silent-vocabulary helper correctly against live `dict/torah-words`
+- [00_the_column.clj](/dev/experiments/ark/00_the_column.clj) now runs cleanly through the full column report
+- [genome_voice.clj](/dev/scripts/genome_voice.clj) now computes the silent-vocabulary helper correctly against live `dict/torah-words`
 
 So the earlier failure list in this note should now be read as:
 
@@ -23,8 +23,8 @@ I did not modify the machine.
 
 I:
 
-- read [how-to-walk-the-ark.md](/home/scott/Projects/selah/docs/codex/how-to-walk-the-ark.md)
-- read [manifest.md](/home/scott/Projects/selah/docs/ark/manifest.md)
+- read [how-to-walk-the-ark.md](/docs/codex/how-to-walk-the-ark.md)
+- read [manifest.md](/docs/ark/manifest.md)
 - ran the Ark scripts from the beginning
 - evaluated the code notebooks directly where the files were not runnable scripts
 - checked live code outputs against saved genome-side artifacts
@@ -39,7 +39,7 @@ The standard was simple:
 
 ### 1. The Foundation
 
-From [01_foundation.clj](/home/scott/Projects/selah/dev/experiments/ark/01_foundation.clj):
+From [01_foundation.clj](/dev/experiments/ark/01_foundation.clj):
 
 - the full `c=7` layer reproduced
 - the door word at `d=14` is `עשה`
@@ -53,7 +53,7 @@ This is not vague thematic reading. The floor prints.
 
 ### 2. The Directory / Garden Layer
 
-From [03_directory.clj](/home/scott/Projects/selah/dev/experiments/ark/03_directory.clj) and [10_the_garden.clj](/home/scott/Projects/selah/dev/experiments/ark/10_the_garden.clj):
+From [03_directory.clj](/dev/experiments/ark/03_directory.clj) and [10_the_garden.clj](/dev/experiments/ark/10_the_garden.clj):
 
 - `מביא` is unanimous across all four readers
 - `את` is unanimous across all four readers
@@ -65,7 +65,7 @@ This is one of the strongest direct reruns in the whole Ark layer.
 
 ### 3. The Lamb Split
 
-From [11_the_lamb.clj](/home/scott/Projects/selah/dev/experiments/ark/11_the_lamb.clj):
+From [11_the_lamb.clj](/dev/experiments/ark/11_the_lamb.clj):
 
 - `כבש` and `שכב` really do share letters and `GV=322`
 - the readers really do split them
@@ -77,7 +77,7 @@ The interpretive layer may still be debated. The split itself is real.
 
 ### 4. The Basin Landscape
 
-From [13_choose_life.clj](/home/scott/Projects/selah/dev/experiments/ark/13_choose_life.clj):
+From [13_choose_life.clj](/dev/experiments/ark/13_choose_life.clj):
 
 - the fixed-point band reproduced:
   - `אמת`
@@ -112,7 +112,7 @@ So I evaluated the claims directly instead of pretending a no-output file had be
 
 ### 5. Experiment 100: The Code
 
-From [100_the_code.clj](/home/scott/Projects/selah/dev/experiments/100_the_code.clj):
+From [100_the_code.clj](/dev/experiments/100_the_code.clj):
 
 - `64` coding positions plus `8` singletons is true
 - the universal letters are exactly `נ ו י`
@@ -124,7 +124,7 @@ This means the core structural claims in the code experiment are not empty.
 
 ### 6. Experiment 101: The Map
 
-From [101_the_map.clj](/home/scott/Projects/selah/dev/experiments/101_the_map.clj):
+From [101_the_map.clj](/dev/experiments/101_the_map.clj):
 
 - the top row/base mapping by the script’s own correlation metric is:
   - `1 = A`
@@ -144,7 +144,7 @@ That is not a kill shot. It is a precision note.
 
 ### 7. Genome Voice Counts
 
-From [genome-voice.edn](/home/scott/Projects/selah/data/dna/genome-voice.edn):
+From [genome-voice.edn](/data/dna/genome-voice.edn):
 
 - `שני` is really the top saved word at `35,821`
 - `שדי` is really present at `26,958`
@@ -181,7 +181,7 @@ Notable impossible forms in the live vocabulary include:
 
 This was real in the first sluice and is now fixed.
 
-[00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj) now runs through the full report:
+[00_the_column.clj](/dev/experiments/ark/00_the_column.clj) now runs through the full report:
 
 - six Ark layers
 - three-floor total
@@ -195,7 +195,7 @@ The important result did not change. The script bug was rot, not a failure of th
 
 ### 2. Notebook Files Masquerading As Experiments
 
-[100_the_code.clj](/home/scott/Projects/selah/dev/experiments/100_the_code.clj) and [101_the_map.clj](/home/scott/Projects/selah/dev/experiments/101_the_map.clj) are not turnkey scripts.
+[100_the_code.clj](/dev/experiments/100_the_code.clj) and [101_the_map.clj](/dev/experiments/101_the_map.clj) are not turnkey scripts.
 
 They are notebook/comment files.
 
@@ -209,7 +209,7 @@ That means:
 
 This was also real in the first sluice and is now fixed.
 
-[genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj#L153) now runs the silent-vocabulary helper against live dictionary code again.
+[genome_voice.clj](/dev/scripts/genome_voice.clj#L153) now runs the silent-vocabulary helper against live dictionary code again.
 
 The output reproduces:
 
@@ -221,7 +221,7 @@ The output reproduces:
 
 ### 4. Old DNA Reports Are English-Contaminated
 
-[p53-report.txt](/home/scott/Projects/selah/data/dna/p53-report.txt) is visibly polluted by legacy English garbage:
+[p53-report.txt](/data/dna/p53-report.txt) is visibly polluted by legacy English garbage:
 
 - `<unk>`
 - nonsense glosses
@@ -259,9 +259,9 @@ But some of the apparatus around it still needs refinement before the whole Ark/
 
 ## Best Next Steps
 
-1. Fix the obvious script rot in [00_the_column.clj](/home/scott/Projects/selah/dev/experiments/ark/00_the_column.clj).
-2. Turn [100_the_code.clj](/home/scott/Projects/selah/dev/experiments/100_the_code.clj) and [101_the_map.clj](/home/scott/Projects/selah/dev/experiments/101_the_map.clj) into proper runnable scripts or save fresh artifact outputs from them.
-3. Repair [genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj) so its silent-vocabulary helper runs on live code again.
+1. Fix the obvious script rot in [00_the_column.clj](/dev/experiments/ark/00_the_column.clj).
+2. Turn [100_the_code.clj](/dev/experiments/100_the_code.clj) and [101_the_map.clj](/dev/experiments/101_the_map.clj) into proper runnable scripts or save fresh artifact outputs from them.
+3. Repair [genome_voice.clj](/dev/scripts/genome_voice.clj) so its silent-vocabulary helper runs on live code again.
 4. Rebuild DNA/protein reports through the clean `for-the-human` layer instead of the old contaminated English path.
 
 That would turn this from “strong first reproduction” into a cleaner reproduction boundary.

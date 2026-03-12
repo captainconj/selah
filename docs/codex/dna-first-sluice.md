@@ -7,7 +7,7 @@ State: `clean`
 
 ## Update
 
-After the first pass, I regenerated the full tracked library artifact set through the cleaned live `dna/experiment` path and fixed one remaining live bug in [dna.clj](/home/scott/Projects/selah/src/selah/dna.clj):
+After the first pass, I regenerated the full tracked library artifact set through the cleaned live `dna/experiment` path and fixed one remaining live bug in [dna.clj](/src/selah/dna.clj):
 
 - `word-frequencies` had been dropping window position context
 - this caused saved top-word `:positions` arrays to fill with `nil`
@@ -15,27 +15,27 @@ After the first pass, I regenerated the full tracked library artifact set throug
 
 The following tracked library artifacts were regenerated cleanly:
 
-- [p53-oracle.edn](/home/scott/Projects/selah/data/dna/p53-oracle.edn)
-- [brca1-oracle.edn](/home/scott/Projects/selah/data/dna/brca1-oracle.edn)
-- [hemoglobin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-alpha-oracle.edn)
-- [hemoglobin-beta-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-beta-oracle.edn)
-- [myoglobin-oracle.edn](/home/scott/Projects/selah/data/dna/myoglobin-oracle.edn)
-- [insulin-oracle.edn](/home/scott/Projects/selah/data/dna/insulin-oracle.edn)
-- [collagen-i-alpha1-oracle.edn](/home/scott/Projects/selah/data/dna/collagen-i-alpha1-oracle.edn)
-- [laminin-gamma1-oracle.edn](/home/scott/Projects/selah/data/dna/laminin-gamma1-oracle.edn)
-- [histone-h3-oracle.edn](/home/scott/Projects/selah/data/dna/histone-h3-oracle.edn)
-- [histone-h4-oracle.edn](/home/scott/Projects/selah/data/dna/histone-h4-oracle.edn)
-- [ubiquitin-oracle.edn](/home/scott/Projects/selah/data/dna/ubiquitin-oracle.edn)
-- [rhodopsin-oracle.edn](/home/scott/Projects/selah/data/dna/rhodopsin-oracle.edn)
-- [cytochrome-c-oracle.edn](/home/scott/Projects/selah/data/dna/cytochrome-c-oracle.edn)
-- [atp-synthase-beta-oracle.edn](/home/scott/Projects/selah/data/dna/atp-synthase-beta-oracle.edn)
-- [rna-polymerase-ii-oracle.edn](/home/scott/Projects/selah/data/dna/rna-polymerase-ii-oracle.edn)
-- [ribosomal-protein-s3-oracle.edn](/home/scott/Projects/selah/data/dna/ribosomal-protein-s3-oracle.edn)
-- [ferredoxin-oracle.edn](/home/scott/Projects/selah/data/dna/ferredoxin-oracle.edn)
-- [calmodulin-oracle.edn](/home/scott/Projects/selah/data/dna/calmodulin-oracle.edn)
-- [immunoglobulin-g1-oracle.edn](/home/scott/Projects/selah/data/dna/immunoglobulin-g1-oracle.edn)
-- [serpent-toxin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/serpent-toxin-alpha-oracle.edn)
-- [foxp2-oracle.edn](/home/scott/Projects/selah/data/dna/foxp2-oracle.edn)
+- [p53-oracle.edn](/data/dna/p53-oracle.edn)
+- [brca1-oracle.edn](/data/dna/brca1-oracle.edn)
+- [hemoglobin-alpha-oracle.edn](/data/dna/hemoglobin-alpha-oracle.edn)
+- [hemoglobin-beta-oracle.edn](/data/dna/hemoglobin-beta-oracle.edn)
+- [myoglobin-oracle.edn](/data/dna/myoglobin-oracle.edn)
+- [insulin-oracle.edn](/data/dna/insulin-oracle.edn)
+- [collagen-i-alpha1-oracle.edn](/data/dna/collagen-i-alpha1-oracle.edn)
+- [laminin-gamma1-oracle.edn](/data/dna/laminin-gamma1-oracle.edn)
+- [histone-h3-oracle.edn](/data/dna/histone-h3-oracle.edn)
+- [histone-h4-oracle.edn](/data/dna/histone-h4-oracle.edn)
+- [ubiquitin-oracle.edn](/data/dna/ubiquitin-oracle.edn)
+- [rhodopsin-oracle.edn](/data/dna/rhodopsin-oracle.edn)
+- [cytochrome-c-oracle.edn](/data/dna/cytochrome-c-oracle.edn)
+- [atp-synthase-beta-oracle.edn](/data/dna/atp-synthase-beta-oracle.edn)
+- [rna-polymerase-ii-oracle.edn](/data/dna/rna-polymerase-ii-oracle.edn)
+- [ribosomal-protein-s3-oracle.edn](/data/dna/ribosomal-protein-s3-oracle.edn)
+- [ferredoxin-oracle.edn](/data/dna/ferredoxin-oracle.edn)
+- [calmodulin-oracle.edn](/data/dna/calmodulin-oracle.edn)
+- [immunoglobulin-g1-oracle.edn](/data/dna/immunoglobulin-g1-oracle.edn)
+- [serpent-toxin-alpha-oracle.edn](/data/dna/serpent-toxin-alpha-oracle.edn)
+- [foxp2-oracle.edn](/data/dna/foxp2-oracle.edn)
 
 Their paired `*-report.txt` files were also regenerated.
 
@@ -55,16 +55,16 @@ I used the same standard as the Ark pass:
 
 The main local checkpoints were:
 
-- [how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
-- [p53_guardian.clj](/home/scott/Projects/selah/dev/experiments/dna/p53_guardian.clj)
-- [genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj)
-- saved oracle artifacts in [data/dna](/home/scott/Projects/selah/data/dna)
+- [how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
+- [p53_guardian.clj](/dev/experiments/dna/p53_guardian.clj)
+- [genome_voice.clj](/dev/scripts/genome_voice.clj)
+- saved oracle artifacts in [data/dna](/data/dna)
 
 ## What Reproduced Cleanly
 
 ### 1. The Silent Quarter
 
-The repaired helper in [genome_voice.clj](/home/scott/Projects/selah/dev/scripts/genome_voice.clj) now runs again on live code.
+The repaired helper in [genome_voice.clj](/dev/scripts/genome_voice.clj) now runs again on live code.
 
 It reproduces:
 
@@ -88,7 +88,7 @@ So the “silent quarter” / “breath gap” claim survives cleanly.
 
 ### 2. p53 Playback
 
-From a fresh run of [p53_guardian.clj](/home/scott/Projects/selah/dev/experiments/dna/p53_guardian.clj):
+From a fresh run of [p53_guardian.clj](/dev/experiments/dna/p53_guardian.clj):
 
 - `393` residues -> `393` Hebrew letters
 - `GV = 25,667`
@@ -108,7 +108,7 @@ The strong local findings really appear in the fresh output:
 
 Those are not copied from prose. They came back in the live rerun.
 
-The saved [p53-oracle.edn](/home/scott/Projects/selah/data/dna/p53-oracle.edn) is also structurally clean now at the top-word/window level:
+The saved [p53-oracle.edn](/data/dna/p53-oracle.edn) is also structurally clean now at the top-word/window level:
 
 - top words no longer carry stale `:meaning`
 - `all-windows` entries are Hebrew/data only
@@ -116,7 +116,7 @@ The saved [p53-oracle.edn](/home/scott/Projects/selah/data/dna/p53-oracle.edn) i
 
 ### 3. Genome Voice Headline Counts
 
-From [genome-voice.edn](/home/scott/Projects/selah/data/dna/genome-voice.edn):
+From [genome-voice.edn](/data/dna/genome-voice.edn):
 
 - `שני` is still the top saved word at `35,821`
 - `שדי` is still present at `26,958`
@@ -127,7 +127,7 @@ So the headline genome-voice counts still hold.
 
 ### 4. The Serpent
 
-From regenerated [serpent-toxin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/serpent-toxin-alpha-oracle.edn):
+From regenerated [serpent-toxin-alpha-oracle.edn](/data/dna/serpent-toxin-alpha-oracle.edn):
 
 - `מטה` appears at positions:
   - `10`
@@ -148,20 +148,20 @@ So the broad serpent summary survives a first spot check.
 
 From regenerated local oracle artifacts:
 
-[hemoglobin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-alpha-oracle.edn)
+[hemoglobin-alpha-oracle.edn](/data/dna/hemoglobin-alpha-oracle.edn)
 
 - `נטה` is the top repeated word with count `4`
 - `זרק` appears at position `139`
 - `עקד` appears at position `88`
 - no `נחש` found in the saved top-word windows
 
-[hemoglobin-beta-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-beta-oracle.edn)
+[hemoglobin-beta-oracle.edn](/data/dna/hemoglobin-beta-oracle.edn)
 
 - `נדע` is the top repeated word with count `4`
 - `עקד` appears at positions `61` and `142`
 - `נחש` appears at position `106`
 
-[myoglobin-oracle.edn](/home/scott/Projects/selah/data/dna/myoglobin-oracle.edn)
+[myoglobin-oracle.edn](/data/dna/myoglobin-oracle.edn)
 
 - did not reproduce `זרק`, `עקד`, or `נחש` in the saved top-word windows I checked
 
@@ -175,7 +175,7 @@ The DNA layer is in a better state than it was in the first pass.
 
 The tracked library files are now structurally cleaner:
 
-- the tracked library artifact set under [data/dna](/home/scott/Projects/selah/data/dna)
+- the tracked library artifact set under [data/dna](/data/dna)
 
 But many other saved artifacts in `data/dna/` still need the same refresh pass and may still show older patterns:
 
@@ -186,7 +186,7 @@ That means the live DNA path and the tracked library boundary are now much clean
 
 ### 2. Old Text Reports Are Historical, Not Clean Evidence
 
-The old report files in [data/dna](/home/scott/Projects/selah/data/dna):
+The old report files in [data/dna](/data/dna):
 
 - contain legacy English contamination
 - often reflect earlier tool surfaces
@@ -194,8 +194,8 @@ The old report files in [data/dna](/home/scott/Projects/selah/data/dna):
 
 This includes files like:
 
-- [p53-report.txt](/home/scott/Projects/selah/data/dna/p53-report.txt)
-- [serpent-toxin-alpha-report.txt](/home/scott/Projects/selah/data/dna/serpent-toxin-alpha-report.txt)
+- [p53-report.txt](/data/dna/p53-report.txt)
+- [serpent-toxin-alpha-report.txt](/data/dna/serpent-toxin-alpha-report.txt)
 
 They are useful as history, not as purified final artifacts.
 

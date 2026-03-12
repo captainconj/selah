@@ -198,7 +198,7 @@ But the cross-beam's content -- golem and tissue at the center of the Torah, in 
 
 ## Data
 
-- Code: `/home/scott/Projects/selah/dev/scripts/spy4_codon_alignment.py`, `spy4_deep_analysis.py`
-- Results: `/home/scott/Projects/selah/data/experiments/097/spy4-codon-alignment.edn`
-- Deep analysis: `/home/scott/Projects/selah/data/experiments/097/spy4-deep-analysis.edn`
-- Full triplet frequencies: `/home/scott/Projects/selah/data/experiments/097/triplet-frequencies.tsv`
+- Code: `dev/scripts/spy4_codon_alignment.py`, `spy4_deep_analysis.py`
+- Results: `data/experiments/097/spy4-codon-alignment.edn`
+- Deep analysis: `data/experiments/097/spy4-deep-analysis.edn`
+- Full triplet frequencies: `data/experiments/097/triplet-frequencies.tsv`

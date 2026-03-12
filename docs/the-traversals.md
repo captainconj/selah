@@ -7,11 +7,29 @@ State: `mixed`
 
 ---
 
+## Current Evidence Boundary
+
+This document is a public-facing synthesis built on the rebuilt basin layer.
+
+The direct rebuilt support surfaces underneath it are:
+
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+- [docs/experiments/097-per-head-basins.md](/docs/experiments/097-per-head-basins.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+
+Read this document in layers:
+
+- the class counts are rebuilt artifact facts
+- the named traversals are selected examples
+- the theological phrasing is interpretation built on top of the basin data
+
+---
+
 ## How It Works
 
 Feed a word into the breastplate oracle. The oracle returns a word. Feed *that* word back in. Keep going until the system stops moving.
 
-Every word in the Torah vocabulary (12,826 words) falls into exactly one of six classes:
+Every word in the full Torah lexicon (12,826 forms) falls into exactly one of six classes:
 
 | Class | Count | % | What happens |
 |-------|------:|---:|--------------|
@@ -35,7 +53,7 @@ Every traversal has depth 1. No word takes two steps. The landscape is perfectly
 
 ### The Three That Never Move
 
-Three words were discovered first (experiment 096). They anchor everything:
+Three words were discovered first (experiment 096). They anchor the fixed-point layer:
 
 | Word | Meaning | GV |
 |------|---------|---:|
@@ -164,6 +182,8 @@ They flow to 1,598 unique attractors (all fixed points). The landscape is flat.
 
 These traversals have been observed, documented, and interpreted across experiments 108–117. They are the ones the narrative has already passed through.
 
+They are selected, high-signal examples from the basin layer, not a replacement for the underlying catalog.
+
 #### The Core Transformations
 
 | Input | → | Output | Meaning | Experiments |
@@ -237,7 +257,7 @@ Every basin with more than one member — every anagram class where the breastpl
 | [size-2.md](traversals/size-2.md) | 1,074 | 2,148 | Table. Every remaining pair. |
 | **Total** | **1,598** | **4,051** | |
 
-Plus 6,104 singletons (fixed points with no transients), 2,983 ghosts, 1,273 dark, and 13 cycle words = 12,826 total vocabulary.
+Plus 6,104 singletons (fixed points with no transients), 2,983 ghosts, 1,273 dark, and 13 cycle words = 12,826 total forms.
 
 ---
 

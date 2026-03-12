@@ -68,7 +68,7 @@ State: `clean`
 - The DNA artifact layer initially looked dirtier than the live DNA path.
   - That turned out to be mostly stale saved artifacts, not a still-live contamination bug.
   - One real live bug did remain: `word-frequencies` dropping position context.
-  - I fixed that in [dna.clj](/home/scott/Projects/selah/src/selah/dna.clj), then regenerated the tracked library.
+  - I fixed that in [dna.clj](/src/selah/dna.clj), then regenerated the tracked library.
 
 ## Synthesis Discipline
 

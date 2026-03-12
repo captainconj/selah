@@ -170,7 +170,7 @@ clojure -X:dev:test
 
 ### selah.main
 
-**File:** `/home/scott/Projects/selah/src/selah/main.clj`
+**File:** `src/selah/main.clj`
 
 **Purpose:** Entry point. Orchestrates startup of all services.
 
@@ -191,7 +191,7 @@ clojure -X:dev:test
 
 ### selah.http
 
-**File:** `/home/scott/Projects/selah/src/selah/http.clj`
+**File:** `src/selah/http.clj`
 
 **Purpose:** HTTP server kernel. Thin wrapper around http-kit.
 
@@ -213,7 +213,7 @@ clojure -X:dev:test
 
 ### selah.nrepl
 
-**File:** `/home/scott/Projects/selah/src/selah/nrepl.clj`
+**File:** `src/selah/nrepl.clj`
 
 **Purpose:** nREPL server for REPL-driven development.
 
@@ -233,9 +233,9 @@ clojure -X:dev:test
 ### selah.mcp.*
 
 **Files:**
-- `/home/scott/Projects/selah/src/selah/mcp/socket.clj` -- Socket server
-- `/home/scott/Projects/selah/src/selah/mcp/server.clj` -- JSON-RPC dispatch
-- `/home/scott/Projects/selah/src/selah/mcp/tools.clj` -- Tool definitions
+- `src/selah/mcp/socket.clj` -- Socket server
+- `src/selah/mcp/server.clj` -- JSON-RPC dispatch
+- `src/selah/mcp/tools.clj` -- Tool definitions
 
 **Purpose:** MCP (Model Context Protocol) integration for Claude Code. Exposes a socket server on port 7889 that speaks JSON-RPC.
 
@@ -276,7 +276,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.text.normalize
 
-**File:** `/home/scott/Projects/selah/src/selah/text/normalize.clj`
+**File:** `src/selah/text/normalize.clj`
 
 **Purpose:** The bedrock. Reduces any Hebrew text to a pure consonant stream. Everything else in the system builds on this.
 
@@ -299,7 +299,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.text.oshb
 
-**File:** `/home/scott/Projects/selah/src/selah/text/oshb.clj`
+**File:** `src/selah/text/oshb.clj`
 
 **Purpose:** Parser for OpenScriptures Hebrew Bible (Westminster Leningrad Codex) XML files. This is the gold standard text source.
 
@@ -320,7 +320,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.text.sefaria
 
-**File:** `/home/scott/Projects/selah/src/selah/text/sefaria.clj`
+**File:** `src/selah/text/sefaria.clj`
 
 **Purpose:** Sefaria API client. Fetches Hebrew text (MAM variant) and caches to disk.
 
@@ -337,7 +337,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.text.locate
 
-**File:** `/home/scott/Projects/selah/src/selah/text/locate.clj`
+**File:** `src/selah/text/locate.clj`
 
 **Purpose:** Map letter indices back to chapter/verse locations.
 
@@ -352,7 +352,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.text.variants
 
-**File:** `/home/scott/Projects/selah/src/selah/text/variants.clj`
+**File:** `src/selah/text/variants.clj`
 
 **Purpose:** Cross-manuscript comparison using edit distance (Needleman-Wunsch alignment).
 
@@ -367,7 +367,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.gematria
 
-**File:** `/home/scott/Projects/selah/src/selah/gematria.clj`
+**File:** `src/selah/gematria.clj`
 
 **Purpose:** Hebrew letter values and numerical analysis. Standard gematria: aleph=1 through tav=400. Final forms carry the same values as their non-final counterparts.
 
@@ -399,7 +399,7 @@ See [MCP Tool Reference](#mcp-tool-reference) for the complete tool list.
 
 ### selah.space.coords
 
-**File:** `/home/scott/Projects/selah/src/selah/space/coords.clj`
+**File:** `src/selah/space/coords.clj`
 
 **Purpose:** The kernel of the entire system. Maps 304,850 Torah letters into a 4D coordinate space.
 
@@ -484,7 +484,7 @@ The `*state*` atom, once built, holds:
 
 ### selah.space.project
 
-**File:** `/home/scott/Projects/selah/src/selah/space/project.clj`
+**File:** `src/selah/space/project.clj`
 
 **Purpose:** Projection from 4D coordinates to 2D/3D for visualization. Also provides color palettes and temporal frame splitting.
 
@@ -503,7 +503,7 @@ The `*state*` atom, once built, holds:
 
 ### selah.space.export
 
-**File:** `/home/scott/Projects/selah/src/selah/space/export.clj`
+**File:** `src/selah/space/export.clj`
 
 **Purpose:** Write point clouds to disk in various formats.
 
@@ -519,7 +519,7 @@ The `*state*` atom, once built, holds:
 
 ### selah.oracle
 
-**File:** `/home/scott/Projects/selah/src/selah/oracle.clj`
+**File:** `src/selah/oracle.clj`
 
 **Purpose:** The breastplate oracle engine. Models the High Priest's breastplate (Urim and Thummim) as a computational device. 12 stones, 72 letters, 4x3 grid, four readers (traversal orders).
 
@@ -597,7 +597,7 @@ YHWH = Yod(10)=right, He(5)=left, Vav(6)=Aaron, He(5)=God. 10+5+6+5=26.
 
 ### selah.basin
 
-**File:** `/home/scott/Projects/selah/src/selah/basin.clj`
+**File:** `src/selah/basin.clj`
 
 **Purpose:** Basin of attraction dynamics. Feed the oracle to itself: word -> forward query -> highest-weight output -> repeat. Reveals fixed points, cycles, and attractor landscapes.
 
@@ -659,7 +659,7 @@ summary-data ;; summary statistics
 
 ### selah.dict
 
-**File:** `/home/scott/Projects/selah/src/selah/dict.clj`
+**File:** `src/selah/dict.clj`
 
 **Purpose:** Hebrew-English dictionary. Two vocabularies: 239 curated words with English translations, and ~7,300 unique word forms from the WLC text.
 
@@ -695,7 +695,7 @@ summary-data ;; summary statistics
 
 ### selah.translate
 
-**File:** `/home/scott/Projects/selah/src/selah/translate.clj`
+**File:** `src/selah/translate.clj`
 
 **Purpose:** Bidirectional translation via MarianMT ONNX models. Forward: English -> Hebrew (77M params). Reverse: Hebrew -> English (200M params).
 
@@ -739,7 +739,7 @@ When loaded, each state contains: `{:env :encoder :decoder :tokenizer :spm :piec
 
 ### selah.sweep
 
-**File:** `/home/scott/Projects/selah/src/selah/sweep.clj`
+**File:** `src/selah/sweep.clj`
 
 **Purpose:** Thummim sweep analysis -- Fibonacci structure in phrase counts. Loads experiment 094 data lazily and computes Fibonacci analysis on first call.
 
@@ -768,7 +768,7 @@ When loaded, each state contains: `{:env :encoder :decoder :tokenizer :spm :piec
 
 ### selah.linalg
 
-**File:** `/home/scott/Projects/selah/src/selah/linalg.clj`
+**File:** `src/selah/linalg.clj`
 
 **Purpose:** Thin Neanderthal wrapper. Handles column-major conversion so callers think in row-major. Native BLAS/LAPACK via Intel MKL underneath.
 
@@ -797,7 +797,7 @@ When loaded, each state contains: `{:env :encoder :decoder :tokenizer :spm :piec
 
 ### selah.spectral
 
-**File:** `/home/scott/Projects/selah/src/selah/spectral.clj`
+**File:** `src/selah/spectral.clj`
 
 **Purpose:** Spectral analysis of the Torah 4D space. The Torah is a function f: Z_7 x Z_50 x Z_13 x Z_67 -> Z. On a product of cyclic groups, the natural eigenbasis is the Discrete Fourier Transform.
 
@@ -859,7 +859,7 @@ Metaphor: Urim = which positions (spatial filter). Thummim = which frequencies (
 
 ### selah.tensor
 
-**File:** `/home/scott/Projects/selah/src/selah/tensor.clj`
+**File:** `src/selah/tensor.clj`
 
 **Purpose:** Tensor operations on the 4D Torah space. Real and complex tensors stored as flat arrays with row-major addressing. Neanderthal for all 2D operations.
 
@@ -916,7 +916,7 @@ Metaphor: Urim = which positions (spatial filter). Thummim = which frequencies (
 
 ### selah.explorer
 
-**File:** `/home/scott/Projects/selah/src/selah/explorer.clj`
+**File:** `src/selah/explorer.clj`
 
 **Purpose:** Precomputes the full word census and provides query functions for the web explorer. Builds an index of all Torah words with frequency, gematria, preimage counts, cross-references.
 
@@ -955,7 +955,7 @@ Once built, contains:
 
 ### selah.explorer.ui
 
-**File:** `/home/scott/Projects/selah/src/selah/explorer/ui.clj` (1,259 lines)
+**File:** `src/selah/explorer/ui.clj` (1,259 lines)
 
 **Purpose:** Hiccup views for the Torah Explorer. Server-rendered HTML with HTMX for SPA-like navigation. This is the largest single source file.
 
@@ -988,7 +988,7 @@ Once built, contains:
 
 ### selah.explorer.routes
 
-**File:** `/home/scott/Projects/selah/src/selah/explorer/routes.clj`
+**File:** `src/selah/explorer/routes.clj`
 
 **Purpose:** All HTTP route definitions. Pure routing: parse params -> call domain -> build response. Single `handler` function dispatched by URI matching.
 
@@ -1000,7 +1000,7 @@ Once built, contains:
 
 ### selah.explorer.sweep-ui
 
-**File:** `/home/scott/Projects/selah/src/selah/explorer/sweep_ui.clj`
+**File:** `src/selah/explorer/sweep_ui.clj`
 
 **Purpose:** Views for the Thummim Sweep explorer. The Fibonacci staircase visualization.
 
@@ -1017,7 +1017,7 @@ Once built, contains:
 
 ## HTTP API Reference
 
-All routes are defined in `/home/scott/Projects/selah/src/selah/explorer/routes.clj`. The server listens on port 8099.
+All routes are defined in `src/selah/explorer/routes.clj`. The server listens on port 8099.
 
 ### Explorer (HTML)
 
@@ -1080,7 +1080,7 @@ Every HTML route has a `/fragment/` counterpart that returns bare HTML (no layou
 
 ## MCP Tool Reference
 
-MCP tools are defined in `/home/scott/Projects/selah/src/selah/mcp/tools.clj`. Access via the MCP socket on port 7889, or through the stdio bridge `scripts/mcp-bridge.sh`.
+MCP tools are defined in `src/selah/mcp/tools.clj`. Access via the MCP socket on port 7889, or through the stdio bridge `scripts/mcp-bridge.sh`.
 
 | Tool | Parameters | Description |
 |------|-----------|-------------|
@@ -1100,7 +1100,7 @@ MCP tools are defined in `/home/scott/Projects/selah/src/selah/mcp/tools.clj`. A
 
 ### dev/scripts/holy_of_holies.clj
 
-**File:** `/home/scott/Projects/selah/dev/scripts/holy_of_holies.clj`
+**File:** `dev/scripts/holy_of_holies.clj`
 
 **Purpose:** Spatial mapping of the Holy of Holies and its furniture in the 4D Torah coordinate space.
 
@@ -1122,7 +1122,7 @@ MCP tools are defined in `/home/scott/Projects/selah/src/selah/mcp/tools.clj`. A
 
 ### dev/scripts/the_cross.clj
 
-**File:** `/home/scott/Projects/selah/dev/scripts/the_cross.clj`
+**File:** `dev/scripts/the_cross.clj`
 
 **Purpose:** The cross at the center of the 4D Torah space. Understanding (67) x Love (13), nail (vav) at the intersection.
 
@@ -1146,7 +1146,7 @@ MCP tools are defined in `/home/scott/Projects/selah/src/selah/mcp/tools.clj`. A
 
 ### dev/scripts/bulk_translate.clj
 
-**File:** `/home/scott/Projects/selah/dev/scripts/bulk_translate.clj`
+**File:** `dev/scripts/bulk_translate.clj`
 
 **Purpose:** One-time script to translate all ~7,300 Torah words Hebrew -> English using the reverse ONNX model. Output: `data/torah-english.edn`.
 
@@ -1242,7 +1242,7 @@ Experiments live in `dev/experiments/` as numbered Clojure files: `NNN_descripti
 
 ## CLI Script
 
-**File:** `/home/scott/Projects/selah/selah` (Babashka script)
+**File:** `selah` (Babashka script)
 
 **Purpose:** Command-line interface for managing the Selah engine. Written in Babashka (`#!/usr/local/bin/bb`).
 
@@ -1272,7 +1272,7 @@ Experiments live in `dev/experiments/` as numbered Clojure files: `NNN_descripti
 
 ## Dependencies
 
-From `/home/scott/Projects/selah/deps.edn`:
+From `deps.edn`:
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|

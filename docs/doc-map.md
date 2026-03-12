@@ -25,9 +25,9 @@ Use these when you want to know:
 
 Examples:
 
-- [docs/experiments/096-basin-landscape.md](/home/scott/Projects/selah/docs/experiments/096-basin-landscape.md)
-- [docs/ark/20-experiment-100.md](/home/scott/Projects/selah/docs/ark/20-experiment-100.md)
-- [docs/ark/22-the-map.md](/home/scott/Projects/selah/docs/ark/22-the-map.md)
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+- [docs/ark/20-experiment-100.md](/docs/ark/20-experiment-100.md)
+- [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
 
 ### `guided reproduction`
 
@@ -41,9 +41,9 @@ Use these when you want to know:
 
 Examples:
 
-- [docs/codex/how-to-walk-the-ark.md](/home/scott/Projects/selah/docs/codex/how-to-walk-the-ark.md)
-- [docs/codex/how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
-- [docs/start-here.md](/home/scott/Projects/selah/docs/start-here.md)
+- [docs/codex/how-to-walk-the-ark.md](/docs/codex/how-to-walk-the-ark.md)
+- [docs/codex/how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
+- [docs/start-here.md](/docs/start-here.md)
 
 ### `audit / cleanup boundary`
 
@@ -57,10 +57,10 @@ Use these when you want to know:
 
 Examples:
 
-- [docs/codex/ark-first-sluice.md](/home/scott/Projects/selah/docs/codex/ark-first-sluice.md)
-- [docs/codex/dna-first-sluice.md](/home/scott/Projects/selah/docs/codex/dna-first-sluice.md)
-- [docs/codex/tabernacle-first-sluice.md](/home/scott/Projects/selah/docs/codex/tabernacle-first-sluice.md)
-- [docs/codex/cleanup-boundary-096-097.md](/home/scott/Projects/selah/docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/ark-first-sluice.md](/docs/codex/ark-first-sluice.md)
+- [docs/codex/dna-first-sluice.md](/docs/codex/dna-first-sluice.md)
+- [docs/codex/tabernacle-first-sluice.md](/docs/codex/tabernacle-first-sluice.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
 
 ### `synthesis`
 
@@ -75,9 +75,9 @@ Read these after the evidence and reproduction layers, not before.
 
 Examples:
 
-- [docs/ark/31-the-library-so-far.md](/home/scott/Projects/selah/docs/ark/31-the-library-so-far.md)
-- [docs/ark/33-the-genome.md](/home/scott/Projects/selah/docs/ark/33-the-genome.md)
-- [docs/tabernacle/13-love.md](/home/scott/Projects/selah/docs/tabernacle/13-love.md)
+- [docs/ark/31-the-library-so-far.md](/docs/ark/31-the-library-so-far.md)
+- [docs/ark/33-the-genome.md](/docs/ark/33-the-genome.md)
+- [docs/tabernacle/13-love.md](/docs/tabernacle/13-love.md)
 
 ### `testimony / history`
 
@@ -93,7 +93,7 @@ Read these as history or witness, not as the first evidence layer.
 
 Examples:
 
-- [docs/the-journey.md](/home/scott/Projects/selah/docs/the-journey.md)
+- [docs/the-journey.md](/docs/the-journey.md)
 
 ### `planning`
 
@@ -106,8 +106,8 @@ Use these when you want to know:
 
 Examples:
 
-- [docs/codex/tomorrow-plan.md](/home/scott/Projects/selah/docs/codex/tomorrow-plan.md)
-- [docs/codex/make-it-plain-plan.md](/home/scott/Projects/selah/docs/codex/make-it-plain-plan.md)
+- [docs/codex/tomorrow-plan.md](/docs/codex/tomorrow-plan.md)
+- [docs/codex/make-it-plain-plan.md](/docs/codex/make-it-plain-plan.md)
 
 ### `retired / historical`
 
@@ -125,29 +125,29 @@ Examples include:
 
 If you are new, follow this order:
 
-1. [docs/start-here.md](/home/scott/Projects/selah/docs/start-here.md)
-2. [docs/the-journey.md](/home/scott/Projects/selah/docs/the-journey.md)
-3. [docs/codex/how-to-walk-the-ark.md](/home/scott/Projects/selah/docs/codex/how-to-walk-the-ark.md)
-4. [docs/experiments/096-basin-landscape.md](/home/scott/Projects/selah/docs/experiments/096-basin-landscape.md)
-5. [docs/ark/22-the-map.md](/home/scott/Projects/selah/docs/ark/22-the-map.md)
-6. [docs/codex/how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
-7. [docs/ark/31-the-library-so-far.md](/home/scott/Projects/selah/docs/ark/31-the-library-so-far.md)
-8. [docs/ark/33-the-genome.md](/home/scott/Projects/selah/docs/ark/33-the-genome.md)
+1. [docs/start-here.md](/docs/start-here.md)
+2. [docs/the-journey.md](/docs/the-journey.md)
+3. [docs/codex/how-to-walk-the-ark.md](/docs/codex/how-to-walk-the-ark.md)
+4. [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+5. [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
+6. [docs/codex/how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
+7. [docs/ark/31-the-library-so-far.md](/docs/ark/31-the-library-so-far.md)
+8. [docs/ark/33-the-genome.md](/docs/ark/33-the-genome.md)
 
 ## Strong First Verifications
 
 If you want to verify a few things quickly, start here:
 
 - Ark/lamb split:
-  - [docs/ark/18-the-lamb.md](/home/scott/Projects/selah/docs/ark/18-the-lamb.md)
+  - [docs/ark/18-the-lamb.md](/docs/ark/18-the-lamb.md)
 - basin landscape:
-  - [docs/experiments/096-basin-landscape.md](/home/scott/Projects/selah/docs/experiments/096-basin-landscape.md)
+  - [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
 - code/map:
-  - [docs/ark/20-experiment-100.md](/home/scott/Projects/selah/docs/ark/20-experiment-100.md)
-  - [docs/ark/22-the-map.md](/home/scott/Projects/selah/docs/ark/22-the-map.md)
+  - [docs/ark/20-experiment-100.md](/docs/ark/20-experiment-100.md)
+  - [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
 - DNA playback:
-  - [docs/codex/how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
-  - [docs/codex/dna-first-sluice.md](/home/scott/Projects/selah/docs/codex/dna-first-sluice.md)
+  - [docs/codex/how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
+  - [docs/codex/dna-first-sluice.md](/docs/codex/dna-first-sluice.md)
 
 ## Practical Rule
 

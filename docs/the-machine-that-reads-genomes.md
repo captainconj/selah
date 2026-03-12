@@ -7,6 +7,29 @@ State: `mixed`
 
 ---
 
+## Current Evidence Boundary
+
+This document now sits above several cleaned lower layers.
+
+The strongest current support boundaries underneath it are:
+
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+  `100/101` are reproducible from experiment runners and rebuilt artifacts.
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+  the tracked DNA library artifacts were refreshed through the cleaned pipeline.
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+  the custom DNA boundary was refreshed with corrected pathogen targets.
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+  the basin landscape and per-head basin artifacts were rebuilt cleanly.
+
+Read this document in layers:
+
+- Part 1 is closest to an evidence summary
+- Parts 2–7 mix direct structural correspondences with higher synthesis
+- Part 8 and "The Specification" are the strongest interpretive compression points
+
+---
+
 ## The Question
 
 Does the Torah contain a literal genetic sequence — a genome hidden in its 304,850 Hebrew letters?
@@ -272,6 +295,12 @@ The cross-beam contains biological vocabulary that normal reading cannot access.
 
 The oracle was run on every biological word in the Torah (experiment 096). Each word either IS its own attractor, flows to its dominant anagram in exactly one step, or is mute.
 
+The basin class counts and rebuilt attractor surfaces underneath this section now live most directly in:
+
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+- [docs/experiments/097-per-head-basins.md](/docs/experiments/097-per-head-basins.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+
 ### The Forest of Life
 
 29 biological words resolve to 29 independent fixed points. No convergence between basins. No LUCA. The tree of life in the Torah is not a tree — it is a **forest** of 29 separate roots.
@@ -415,6 +444,9 @@ The charge that is guarded is the code. The seven days are the completeness axis
 
 The Torah does not contain the genome. The Torah is what the genome is *for*.
 
+This is the sharpest synthesis claim in the document.
+It should be read after the rebuilt code/map and DNA boundaries, not before them.
+
 ---
 
 ## Sources
@@ -439,6 +471,13 @@ The Torah does not contain the genome. The Torah is what the genome is *for*.
 - 094: Thummim sweep (12,826 words, 4,140 synonyms, spectral analysis)
 - 096: Basin landscape (12,826 words classified, attractor dynamics)
 - 097: Cross-beam protein (506 bridge, permutation test, biological vocabulary)
+
+### Current Clean Support Surfaces
+
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
 
 ### Key Project Documents
 - `docs/experiments/091-breastplate-attention.md` — Urim/Thummim as multi-head self-attention

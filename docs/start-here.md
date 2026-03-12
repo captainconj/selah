@@ -36,7 +36,7 @@ This path is designed to help you do three things:
 
 Read:
 
-- [docs/doc-map.md](/home/scott/Projects/selah/docs/doc-map.md)
+- [docs/doc-map.md](/docs/doc-map.md)
 
 Why:
 
@@ -48,7 +48,7 @@ Why:
 
 Read:
 
-- [docs/the-journey.md](/home/scott/Projects/selah/docs/the-journey.md)
+- [docs/the-journey.md](/docs/the-journey.md)
 
 Why:
 
@@ -60,12 +60,12 @@ Why:
 
 Read:
 
-- [docs/codex/how-to-walk-the-ark.md](/home/scott/Projects/selah/docs/codex/how-to-walk-the-ark.md)
-- [docs/codex/ark-first-sluice.md](/home/scott/Projects/selah/docs/codex/ark-first-sluice.md)
+- [docs/codex/how-to-walk-the-ark.md](/docs/codex/how-to-walk-the-ark.md)
+- [docs/codex/ark-first-sluice.md](/docs/codex/ark-first-sluice.md)
 
 Then inspect:
 
-- [docs/ark/18-the-lamb.md](/home/scott/Projects/selah/docs/ark/18-the-lamb.md)
+- [docs/ark/18-the-lamb.md](/docs/ark/18-the-lamb.md)
 
 What to look for:
 
@@ -83,11 +83,11 @@ Why:
 
 Read:
 
-- [docs/experiments/096-basin-landscape.md](/home/scott/Projects/selah/docs/experiments/096-basin-landscape.md)
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
 
 Then use:
 
-- [docs/codex/cleanup-boundary-096-097.md](/home/scott/Projects/selah/docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
 
 What to look for:
 
@@ -106,9 +106,9 @@ Why:
 
 Read:
 
-- [docs/ark/20-experiment-100.md](/home/scott/Projects/selah/docs/ark/20-experiment-100.md)
-- [docs/ark/22-the-map.md](/home/scott/Projects/selah/docs/ark/22-the-map.md)
-- [docs/codex/code-map-reproducibility.md](/home/scott/Projects/selah/docs/codex/code-map-reproducibility.md)
+- [docs/ark/20-experiment-100.md](/docs/ark/20-experiment-100.md)
+- [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
 
 What to look for:
 
@@ -126,13 +126,13 @@ Why:
 
 Read:
 
-- [docs/codex/how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
-- [docs/codex/dna-first-sluice.md](/home/scott/Projects/selah/docs/codex/dna-first-sluice.md)
+- [docs/codex/how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
+- [docs/codex/dna-first-sluice.md](/docs/codex/dna-first-sluice.md)
 
 Then inspect:
 
-- [docs/ark/31-the-library-so-far.md](/home/scott/Projects/selah/docs/ark/31-the-library-so-far.md)
-- [docs/ark/33-the-genome.md](/home/scott/Projects/selah/docs/ark/33-the-genome.md)
+- [docs/ark/31-the-library-so-far.md](/docs/ark/31-the-library-so-far.md)
+- [docs/ark/33-the-genome.md](/docs/ark/33-the-genome.md)
 
 What to look for first:
 
@@ -150,9 +150,9 @@ Why:
 
 Good next reads:
 
-- [docs/tabernacle/00-the-layout.md](/home/scott/Projects/selah/docs/tabernacle/00-the-layout.md)
-- [docs/codex/tabernacle-first-sluice.md](/home/scott/Projects/selah/docs/codex/tabernacle-first-sluice.md)
-- [docs/ark/26-hit-play.md](/home/scott/Projects/selah/docs/ark/26-hit-play.md)
+- [docs/tabernacle/00-the-layout.md](/docs/tabernacle/00-the-layout.md)
+- [docs/codex/tabernacle-first-sluice.md](/docs/codex/tabernacle-first-sluice.md)
+- [docs/ark/26-hit-play.md](/docs/ark/26-hit-play.md)
 
 Why:
 
@@ -175,10 +175,10 @@ If you keep those layers separate, the repo becomes much easier to follow.
 
 If you want the shortest honest path, read these:
 
-1. [docs/doc-map.md](/home/scott/Projects/selah/docs/doc-map.md)
-2. [docs/codex/how-to-walk-the-ark.md](/home/scott/Projects/selah/docs/codex/how-to-walk-the-ark.md)
-3. [docs/experiments/096-basin-landscape.md](/home/scott/Projects/selah/docs/experiments/096-basin-landscape.md)
-4. [docs/ark/22-the-map.md](/home/scott/Projects/selah/docs/ark/22-the-map.md)
-5. [docs/codex/how-to-play-dna.md](/home/scott/Projects/selah/docs/codex/how-to-play-dna.md)
+1. [docs/doc-map.md](/docs/doc-map.md)
+2. [docs/codex/how-to-walk-the-ark.md](/docs/codex/how-to-walk-the-ark.md)
+3. [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+4. [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
+5. [docs/codex/how-to-play-dna.md](/docs/codex/how-to-play-dna.md)
 
 That path is short enough to walk and strong enough to matter.

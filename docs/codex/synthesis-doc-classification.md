@@ -25,22 +25,22 @@ Update after rebuild boundary:
 
 | File | Status | Why |
 |---|---|---|
-| [docs/the-journey.md](/home/scott/Projects/selah/docs/the-journey.md) | `historical / testimony` | Strong and important as project history. It is also one of the repo’s clearest self-correction documents because it says `048` killed the palindrome. But it mixes testimony, history, surviving findings, and unresolved claims. Not an evidence document by itself. |
-| [docs/torah-4d-space.md](/home/scott/Projects/selah/docs/torah-4d-space.md) | `mixed / salvageable` | This is the main public synthesis and it contains a lot of the real vein: factorization, center, sword, aleph-tav, folds, silent axes, selector logic, preimage. But it also makes many strong cross-section claims in one sweep, some of which depend on under-audited experiment layers or need dead-branch cleanup around older framing. |
-| [docs/4d-space-findings.md](/home/scott/Projects/selah/docs/4d-space-findings.md) | `mixed / salvageable` | Cleaner and more compressed than the big paper, but still packages many findings without always showing which are fully re-verified versus inherited from older experiment waves. Good candidate for claim-by-claim verification. |
-| [docs/urim-and-thummim.md](/home/scott/Projects/selah/docs/urim-and-thummim.md) | `mixed / salvageable` | The breastplate/machine story has real computational substance behind it. But this doc ranges from hard mechanics to theological synthesis to numeric symbolism very quickly. Needs a stricter separation of measured oracle behavior from interpretive extension. |
-| [docs/the-traversals.md](/home/scott/Projects/selah/docs/the-traversals.md) | `mixed / salvageable` | Stronger than before because the tracked `096` / `097` basin artifacts were rebuilt cleanly. Still not current-evidence safe line by line because it cites extended sidecars and English-labeled outputs that have not all been regenerated or reclassified. |
-| [docs/experiments/065-the-machine.md](/home/scott/Projects/selah/docs/experiments/065-the-machine.md) | `dead-claim contaminated` | Important historically, but not current-evidence safe. It still carries at least one hard-invalidated crib: stable total-gematria divisibility. It should be treated as transitional or rewritten. |
+| [docs/the-journey.md](/docs/the-journey.md) | `historical / testimony` | Strong and important as project history. It is also one of the repo’s clearest self-correction documents because it says `048` killed the palindrome. But it mixes testimony, history, surviving findings, and unresolved claims. Not an evidence document by itself. |
+| [docs/torah-4d-space.md](/docs/torah-4d-space.md) | `mixed / salvageable` | This is the main public synthesis and it contains a lot of the real vein: factorization, center, sword, aleph-tav, folds, silent axes, selector logic, preimage. But it also makes many strong cross-section claims in one sweep, some of which depend on under-audited experiment layers or need dead-branch cleanup around older framing. |
+| [docs/4d-space-findings.md](/docs/4d-space-findings.md) | `mixed / salvageable` | Cleaner and more compressed than the big paper, but still packages many findings without always showing which are fully re-verified versus inherited from older experiment waves. Good candidate for claim-by-claim verification. |
+| [docs/urim-and-thummim.md](/docs/urim-and-thummim.md) | `mixed / salvageable` | The breastplate/machine story has real computational substance behind it. But this doc ranges from hard mechanics to theological synthesis to numeric symbolism very quickly. Needs a stricter separation of measured oracle behavior from interpretive extension. |
+| [docs/the-traversals.md](/docs/the-traversals.md) | `mixed / salvageable` | Stronger than before because the tracked `096` / `097` basin artifacts were rebuilt cleanly. Still not current-evidence safe line by line because it cites extended sidecars and English-labeled outputs that have not all been regenerated or reclassified. |
+| [docs/experiments/065-the-machine.md](/docs/experiments/065-the-machine.md) | `dead-claim contaminated` | Important historically, but not current-evidence safe. It still carries at least one hard-invalidated crib: stable total-gematria divisibility. It should be treated as transitional or rewritten. |
 
 ## Walk / Vision Documents
 
 | File or area | Status | Why |
 |---|---|---|
-| [docs/tabernacle/00-the-layout.md](/home/scott/Projects/selah/docs/tabernacle/00-the-layout.md) | `mixed / salvageable` | The tabernacle walk appears to be built on real coordinate-space mapping and is stronger than the dead bulk-statistics layer. But it still needs claim provenance and a check on how much of the later station prose relies on unverified interpretive accumulation. |
-| [docs/tabernacle](/home/scott/Projects/selah/docs/tabernacle) | `mixed / salvageable` | Likely one of the stronger interpretive expansions because it is tied to the 4D space rather than the dead palindrome branch. Still needs classification station by station before being treated as settled evidence. |
-| [docs/the-visions.md](/home/scott/Projects/selah/docs/the-visions.md) | `historical / testimony` | Beautiful, coherent, and explicitly sermonic. This is not the kind of file that should bear evidentiary weight. It should be treated as testimony/synthesis downstream of computational work, not proof. |
-| [docs/visions/00-four-prophets-one-throne.md](/home/scott/Projects/selah/docs/visions/00-four-prophets-one-throne.md) | `mixed / salvageable` | Stronger than pure sermon because it actually explains some operational method. But it still makes broad rhetorical claims about what “the breastplate reads” across visions that need explicit claim-to-computation linkage. |
-| [docs/visions](/home/scott/Projects/selah/docs/visions) | `mixed / historical` | Likely a blend of computational prompts, basin/oracle outputs, and spiritual synthesis. Needs a station-by-station audit if any specific vision claim is to be cited as current evidence. |
+| [docs/tabernacle/00-the-layout.md](/docs/tabernacle/00-the-layout.md) | `mixed / salvageable` | The tabernacle walk appears to be built on real coordinate-space mapping and is stronger than the dead bulk-statistics layer. But it still needs claim provenance and a check on how much of the later station prose relies on unverified interpretive accumulation. |
+| [docs/tabernacle](/docs/tabernacle) | `mixed / salvageable` | Likely one of the stronger interpretive expansions because it is tied to the 4D space rather than the dead palindrome branch. Still needs classification station by station before being treated as settled evidence. |
+| [docs/the-visions.md](/docs/the-visions.md) | `historical / testimony` | Beautiful, coherent, and explicitly sermonic. This is not the kind of file that should bear evidentiary weight. It should be treated as testimony/synthesis downstream of computational work, not proof. |
+| [docs/visions/00-four-prophets-one-throne.md](/docs/visions/00-four-prophets-one-throne.md) | `mixed / salvageable` | Stronger than pure sermon because it actually explains some operational method. But it still makes broad rhetorical claims about what “the breastplate reads” across visions that need explicit claim-to-computation linkage. |
+| [docs/visions](/docs/visions) | `mixed / historical` | Likely a blend of computational prompts, basin/oracle outputs, and spiritual synthesis. Needs a station-by-station audit if any specific vision claim is to be cited as current evidence. |
 
 ## Missing / Renamed Docs
 
@@ -97,10 +97,10 @@ That makes them high-value audit targets, not documents to dismiss casually.
 
 If the repo starts adding visible document statuses, these are the labels I would use first:
 
-- [docs/the-journey.md](/home/scott/Projects/selah/docs/the-journey.md): `history / testimony`
-- [docs/torah-4d-space.md](/home/scott/Projects/selah/docs/torah-4d-space.md): `main synthesis — claim-by-claim audit needed`
-- [docs/urim-and-thummim.md](/home/scott/Projects/selah/docs/urim-and-thummim.md): `main synthesis — mechanics strong, interpretation mixed`
-- [docs/the-traversals.md](/home/scott/Projects/selah/docs/the-traversals.md): `basin synthesis — rebuilt core data, sidecar audit still needed`
-- [docs/experiments/065-the-machine.md](/home/scott/Projects/selah/docs/experiments/065-the-machine.md): `historical — contains invalidated claims`
-- [docs/tabernacle](/home/scott/Projects/selah/docs/tabernacle): `walk / synthesis — positional core likely strong, audit pending`
-- [docs/the-visions.md](/home/scott/Projects/selah/docs/the-visions.md): `testimony / reflection`
+- [docs/the-journey.md](/docs/the-journey.md): `history / testimony`
+- [docs/torah-4d-space.md](/docs/torah-4d-space.md): `main synthesis — claim-by-claim audit needed`
+- [docs/urim-and-thummim.md](/docs/urim-and-thummim.md): `main synthesis — mechanics strong, interpretation mixed`
+- [docs/the-traversals.md](/docs/the-traversals.md): `basin synthesis — rebuilt core data, sidecar audit still needed`
+- [docs/experiments/065-the-machine.md](/docs/experiments/065-the-machine.md): `historical — contains invalidated claims`
+- [docs/tabernacle](/docs/tabernacle): `walk / synthesis — positional core likely strong, audit pending`
+- [docs/the-visions.md](/docs/the-visions.md): `testimony / reflection`

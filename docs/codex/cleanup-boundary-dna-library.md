@@ -9,7 +9,7 @@ State: `clean`
 
 ### 1. Live Code Bug
 
-[dna.clj](/home/scott/Projects/selah/src/selah/dna.clj) had one remaining live artifact bug:
+[dna.clj](/src/selah/dna.clj) had one remaining live artifact bug:
 
 - `word-frequencies` dropped window position context before grouping
 - saved top-word `:positions` arrays were therefore filled with `nil`
@@ -27,27 +27,27 @@ The full tracked protein library was regenerated through the cleaned live `dna/e
 
 That includes:
 
-- [p53-oracle.edn](/home/scott/Projects/selah/data/dna/p53-oracle.edn)
-- [brca1-oracle.edn](/home/scott/Projects/selah/data/dna/brca1-oracle.edn)
-- [hemoglobin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-alpha-oracle.edn)
-- [hemoglobin-beta-oracle.edn](/home/scott/Projects/selah/data/dna/hemoglobin-beta-oracle.edn)
-- [myoglobin-oracle.edn](/home/scott/Projects/selah/data/dna/myoglobin-oracle.edn)
-- [insulin-oracle.edn](/home/scott/Projects/selah/data/dna/insulin-oracle.edn)
-- [collagen-i-alpha1-oracle.edn](/home/scott/Projects/selah/data/dna/collagen-i-alpha1-oracle.edn)
-- [laminin-gamma1-oracle.edn](/home/scott/Projects/selah/data/dna/laminin-gamma1-oracle.edn)
-- [histone-h3-oracle.edn](/home/scott/Projects/selah/data/dna/histone-h3-oracle.edn)
-- [histone-h4-oracle.edn](/home/scott/Projects/selah/data/dna/histone-h4-oracle.edn)
-- [ubiquitin-oracle.edn](/home/scott/Projects/selah/data/dna/ubiquitin-oracle.edn)
-- [rhodopsin-oracle.edn](/home/scott/Projects/selah/data/dna/rhodopsin-oracle.edn)
-- [cytochrome-c-oracle.edn](/home/scott/Projects/selah/data/dna/cytochrome-c-oracle.edn)
-- [atp-synthase-beta-oracle.edn](/home/scott/Projects/selah/data/dna/atp-synthase-beta-oracle.edn)
-- [rna-polymerase-ii-oracle.edn](/home/scott/Projects/selah/data/dna/rna-polymerase-ii-oracle.edn)
-- [ribosomal-protein-s3-oracle.edn](/home/scott/Projects/selah/data/dna/ribosomal-protein-s3-oracle.edn)
-- [ferredoxin-oracle.edn](/home/scott/Projects/selah/data/dna/ferredoxin-oracle.edn)
-- [calmodulin-oracle.edn](/home/scott/Projects/selah/data/dna/calmodulin-oracle.edn)
-- [immunoglobulin-g1-oracle.edn](/home/scott/Projects/selah/data/dna/immunoglobulin-g1-oracle.edn)
-- [serpent-toxin-alpha-oracle.edn](/home/scott/Projects/selah/data/dna/serpent-toxin-alpha-oracle.edn)
-- [foxp2-oracle.edn](/home/scott/Projects/selah/data/dna/foxp2-oracle.edn)
+- [p53-oracle.edn](/data/dna/p53-oracle.edn)
+- [brca1-oracle.edn](/data/dna/brca1-oracle.edn)
+- [hemoglobin-alpha-oracle.edn](/data/dna/hemoglobin-alpha-oracle.edn)
+- [hemoglobin-beta-oracle.edn](/data/dna/hemoglobin-beta-oracle.edn)
+- [myoglobin-oracle.edn](/data/dna/myoglobin-oracle.edn)
+- [insulin-oracle.edn](/data/dna/insulin-oracle.edn)
+- [collagen-i-alpha1-oracle.edn](/data/dna/collagen-i-alpha1-oracle.edn)
+- [laminin-gamma1-oracle.edn](/data/dna/laminin-gamma1-oracle.edn)
+- [histone-h3-oracle.edn](/data/dna/histone-h3-oracle.edn)
+- [histone-h4-oracle.edn](/data/dna/histone-h4-oracle.edn)
+- [ubiquitin-oracle.edn](/data/dna/ubiquitin-oracle.edn)
+- [rhodopsin-oracle.edn](/data/dna/rhodopsin-oracle.edn)
+- [cytochrome-c-oracle.edn](/data/dna/cytochrome-c-oracle.edn)
+- [atp-synthase-beta-oracle.edn](/data/dna/atp-synthase-beta-oracle.edn)
+- [rna-polymerase-ii-oracle.edn](/data/dna/rna-polymerase-ii-oracle.edn)
+- [ribosomal-protein-s3-oracle.edn](/data/dna/ribosomal-protein-s3-oracle.edn)
+- [ferredoxin-oracle.edn](/data/dna/ferredoxin-oracle.edn)
+- [calmodulin-oracle.edn](/data/dna/calmodulin-oracle.edn)
+- [immunoglobulin-g1-oracle.edn](/data/dna/immunoglobulin-g1-oracle.edn)
+- [serpent-toxin-alpha-oracle.edn](/data/dna/serpent-toxin-alpha-oracle.edn)
+- [foxp2-oracle.edn](/data/dna/foxp2-oracle.edn)
 
 Their paired `*-report.txt` files were also regenerated.
 
@@ -119,7 +119,7 @@ The remaining backlog is the untracked/custom DNA layer, including things like:
 - pathogen runs
 - mutation comparisons
 - neurotransmitter / entheogen / gradient runs
-- other later one-off playbacks under [data/dna](/home/scott/Projects/selah/data/dna)
+- other later one-off playbacks under [data/dna](/data/dna)
 
 Those still need the same treatment if they are going to be promoted from exploratory residue to clean artifact boundary.
 
