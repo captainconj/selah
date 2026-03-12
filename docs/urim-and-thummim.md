@@ -731,11 +731,12 @@ The oracle works backward. The answer determines the illumination. Given a word,
 
 This is one of the document's stronger operational sections. The later theological conclusions drawn from these preimages should be read as synthesis built on this mechanism, not as additional mechanism proof.
 
-### The Three Readers
+### The Readers
 
-Three perspectives on the same lit grid:
+The original mechanical picture began with Aaron and the two cherubic column-readers. The live oracle now includes the full four-reader quorum:
 
 - **Aaron**: looks down from above. Reads row by row, right-to-left (Hebrew order), top to bottom.
+- **God**: faces the breastplate from the mercy seat. Reads row by row, left-to-right, bottom to top.
 - **Right cherub**: on the right side, facing inward. Reads column by column, right-to-left, top to bottom.
 - **Left cherub**: on the left side, facing inward. Reads column by column, left-to-right, bottom to top.
 
@@ -753,7 +754,7 @@ The lamb is readable only by the cherub that reads from God's right hand.
 
 "Seated at the right hand of God" — the math already said it. We just had to stand in the right place to see it.
 
-The same letters rearranged — **שכב (lie down, 322)** — can be read by all three: Aaron (6 readings), right cherub (9), left cherub (15). Everyone can see the lamb lie down. Only the one at God's right hand sees the lamb.
+The same letters rearranged — **שכב (lie down, 322)** — are the other side of the lamb split. In the live quorum, Aaron and the left cherub read the lying-down side, while God and the right cherub read the lamb side. Same letters. Different seats.
 
 The lamb is read through Issachar's stone (כ appears only on stone 8 = Issachar = "there is reward"). The lamb is read from God's right, through the stone of reward.
 
@@ -805,7 +806,7 @@ Eli read with justice. The correct answer required mercy.
 
 **The hidden reading**: הרכש (purchase) is the compressed single-word reading — all four letters, no splitting. It names what Hannah was doing. She had vowed her unborn son to God (1 Samuel 1:11): "If you will give your maidservant a son, I will give him to the LORD all the days of his life." That is a transaction. A purchase price paid in advance — the child himself. Samuel (שמואל) means "asked of God."
 
-Three readers see three truths from one illumination: the woman is purchasing (הרכש), she is like Sarah (כשרה), and she appears drunk (שכרה). All three are accurate descriptions of what is happening. The question is which one you choose to speak.
+The four-reader field contains three named truths from one illumination: the woman is purchasing (הרכש), she is like Sarah (כשרה), and she appears drunk (שכרה). All three are accurate descriptions of what is happening. The question is which one you choose to speak.
 
 **The stones**: Abraham (who purchased the cave of Machpelah), Issachar (whose name means "there is reward"), Benjamin (son of the right hand). The purchase passes through reward and arrives at the right hand.
 
@@ -824,15 +825,15 @@ The first illumination pattern — the same lit stones — produces:
 
 Aaron speaks becoming. The cherubim hover at the edge of it.
 
-### Create and Well — All Readers Agree
+### Create and Well — The Quorum Can Read Both
 
-**ברא (create, 203)** and **באר (well, 203)**: readable by all three readers. 90 illumination patterns. Aaron finds ברא in 14, the right cherub in 26, the left in 16.
+**ברא (create, 203)** and **באר (well, 203)** are readable in the live four-reader oracle. Create is visible across the quorum, not just from one side.
 
-But: the first illumination pattern produces **אבר** under all three readers. The same non-word from every direction. Create and well both require specific stone selections — the reading isn't automatic. You have to choose the right stones AND the right direction.
+But: the first illumination pattern produces **אבר** rather than the intended word. Create and well both require specific stone selections — the reading isn't automatic. You have to choose the right stones AND the right direction.
 
-### What the Grid Cannot Say — and What God Changed
+### What the Grid Could Not Say — and What God Changed
 
-With three readers (Aaron + two cherubim), some words could not be read:
+In the older three-reader stage (Aaron + two cherubim), some words could not be read:
 - **שלום** (peace, 376) — unproducible. The grid cannot produce peace.
 - **כפרת** (mercy seat, 700) — unproducible. You must pass through the veil.
 
@@ -873,7 +874,7 @@ The priest stands in the middle of this relation. He sees the lit letters. He mu
 
 On the breastplate: **readable by only one cherub** — the one that reads from column 3, which, when the breastplate faces God in the Holy of Holies, is on **God's right side**. Not Aaron. Not the other cherub. Zero readings from either.
 
-The same letters rearranged — **שכב** (lie down) = 322 — readable by all three readers. Everyone can see the lamb lie down. Only the one at God's right hand sees the lamb.
+The same letters rearranged — **שכב** (lie down) = 322 — are the lying-down side of the same split. The lamb is visible from God's side and the right; the lying-down is visible from Aaron's side and the left.
 
 ### The Lamb IS Love
 
@@ -1064,49 +1065,131 @@ Experiment 085 built the reverse direction by hand: given a word (the answer), f
 
 **Forward (Illuminate)**: Given lit letters, what can each reader see? Rank all possible words by rarity. The Hannah principle: the rare reading is the correct one.
 
+### How The Engine Works
+
+The grid is 12 stones, 6 letters each, 72 letters total. Every Hebrew letter appears at one or more positions on the grid.
+
+```
+ILLUMINATION (Urim):
+
+  Given input letters (e.g., ש כ ר ה):
+    1. For each letter, find all grid positions where it appears
+    2. Choose one position per letter (no reuse)
+    3. Enumerate all distinct position-sets
+    → These are the illumination patterns
+
+  Example: ש appears on stones 4, 7, 8, 11
+           כ appears on stones 2, 8
+           ר appears on stones 1, 3, 8, 12
+           ה appears on stones 1, 6
+    → 90 distinct illumination patterns
+```
+
+```
+READING (Thummim):
+
+  Given a lit position-set, each reader traverses in their order:
+
+    Aaron:   rows R→L, top→bottom    (sort by [row, -col])
+    God:     rows L→R, bottom→top    (sort by [-row, col])
+    Right:   columns R→L, top→bottom (sort by [-col, row])
+    Left:    columns L→R, bottom→top (sort by [col, -row])
+
+  Same positions, four traversals → up to four different letter sequences.
+```
+
+```
+FORWARD QUERY (o/forward):
+
+  Input: letters (e.g., "שכרה")
+  1. Compute all illumination patterns
+  2. For each pattern × each reader → one reading (letter sequence)
+  3. Match readings against oracle-closed Torah vocabulary (~7,300 forms)
+  4. Rank known words by reading count (fewest first)
+  → Rarity is a heuristic, not proof (the Hannah principle)
+
+  Returns: illumination-count, total-readings, known-words (ranked)
+  See also: o/forward-by-head for per-reader ranked word lists
+```
+
+```
+REVERSE QUERY (o/ask):
+
+  Input: a word (the answer, e.g., "כבש")
+  1. Compute all illumination patterns for these letters
+  2. For each pattern × each reader, check: does this traversal
+     produce exactly this word in this order?
+  3. Collect all (reader, position-set) pairs that succeed
+  → The pre-image: who can see this word, and how many ways
+
+  Returns: illumination-count, by-reader counts, total-readings,
+           anagrams (same letters, different arrangement)
+```
+
+```
+BASIN WALK (basin/walk):
+
+  Input: a word
+  1. Forward query → take the highest-weight known reading
+  2. That reading becomes the new input
+  3. Repeat until:
+     - fixed point (word reads as itself)
+     - cycle (word returns to a previous step)
+     - null (no known reading found)
+  → The basin: where does a word come to rest
+     when the oracle reads its own output?
+
+  Empirical result (experiment 096): every basin has depth 1.
+  Every fixed point is an anagram class.
+```
+
+Source: `src/selah/oracle.clj`, `src/selah/basin.clj`
+
 ### The Eli/Hannah Case — Verified (Yoma 73b)
 
-Letters ש,כ,ר,ה light up. 90 illumination patterns. 270 total readings across all three readers.
+Letters ש,כ,ר,ה light up. 90 illumination patterns. 360 total readings across four readers.
 
-Only two known words emerge from the entire field:
+Three words emerge from the full field:
 
-| Word | Meaning | Readings | Readers | Balance |
-|------|---------|----------|---------|---------|
-| **כשרה** | like Sarah | **2** | right: 1, left: 1 | **balanced** |
-| **שכרה** | drunk | **21** | right: 6, left: 15 | lopsided |
+| Word | Meaning | Readings | Aaron | God | Right | Left |
+|------|---------|----------|-------|-----|-------|------|
+| **כשרה** | like Sarah | **3** | 0 | 1 | 1 | 1 |
+| **שכרה** | drunk | **41** | 0 | **20** | 6 | 15 |
+| **הרכש** | purchase | **19** | 9 | 0 | 9 | 1 |
 
-The forward engine ranks כשרה first — fewest readings, the narrow path. Eli saw the easy reading (21 paths, lopsided). The correct answer had only 2 paths, perfectly balanced between the two cherubim.
+The forward engine ranks כשרה first — fewest readings, the narrow path. Eli saw the easy reading (41 paths, dominated by God's 20). The correct answer had only 3 paths — one per reader who can see it, perfectly balanced.
 
-Neither word is readable by Aaron. Only the cherubim see them. The priest looks down at the grid and sees רהשכ — gibberish from above. You need a cherub's perspective — reading through the columns — to find either answer.
+Neither כשרה nor שכרה is readable by Aaron. The priest looks down at the grid and sees gibberish from above. You need a cherub's perspective — reading through the columns — to find either answer. But the third word, הרכש (purchase), is Aaron's reading: what Hannah was doing. Buying her son Samuel with a vow.
 
 The wrong answer was loud. The right answer was quiet. Like Sarah.
 
-### The Three Readers — Who Sees What
+### The Four Readers — Who Sees What
 
 The full survey across the oracle's vocabulary:
 
-| Word | Meaning | GV | Total | Aaron | Right | Left |
-|------|---------|-----|-------|-------|-------|------|
-| כבש | lamb | 322 | 4 | 0 | **4** | 0 |
-| אהבה | love | 13 | 14 | 0 | 6 | 8 |
-| תורה | Torah | 611 | 14 | 0 | **14** | 0 |
-| אמת | truth | 441 | 3 | 0 | 0 | **3** |
-| אדם | man | 45 | 2 | 0 | **2** | 0 |
-| ברית | covenant | 612 | 65 | 5 | 0 | **60** |
-| אור | light | 207 | 62 | 28 | 17 | 17 |
-| יהוה | YHWH | 26 | 40 | 3 | 6 | **31** |
-| משה | Moses | 345 | 15 | 0 | 1 | **14** |
-| ברא | create | 203 | 56 | 14 | 26 | 16 |
-| שלום | peace | 376 | 0 | — | — | — |
-| כפרת | mercy seat | 700 | 0 | — | — | — |
+| Word | Meaning | GV | Total | Aaron | God | Right | Left |
+|------|---------|-----|-------|-------|-----|-------|------|
+| כבש | lamb | 322 | 5 | 0 | 1 | **4** | 0 |
+| אהבה | love | 13 | 16 | 0 | 2 | 6 | 8 |
+| תורה | Torah | 611 | 14 | 0 | 0 | **14** | 0 |
+| אמת | truth | 441 | 4 | 0 | 1 | 0 | **3** |
+| אדם | man | 45 | 4 | 0 | 2 | **2** | 0 |
+| ברית | covenant | 612 | 89 | 5 | 24 | 0 | **60** |
+| אור | light | 207 | 70 | 28 | 8 | 17 | 17 |
+| יהוה | YHWH | 26 | 58 | 3 | 18 | 6 | **31** |
+| משה | Moses | 345 | 33 | 0 | 18 | 1 | **14** |
+| ברא | create | 203 | 79 | 14 | 23 | 26 | 16 |
+| שלום | peace | 376 | 35 | 0 | **35** | 0 | 0 |
+| כפרת | mercy seat | 700 | 0 | — | — | — | — |
 
 Patterns:
-- **The lamb** is readable only from God's right hand. No one else can see it.
-- **Torah** is also exclusively right. 14 readings — same count as love.
-- **Truth** is readable only from the left. The questioner is the only one who can see truth.
-- **The Name** is seen primarily from the left (31 times = gematria of אל and לא).
-- **Light** is the most democratic — all three readers, nearly equal split.
-- **Peace** and the **mercy seat** cannot be read at all. You must enter.
+- **The lamb** is seen by God (×1) and the right cherub (×4). Aaron and the left cannot see it.
+- **Torah** is exclusively right. 14 readings — same count as love. Not even God reads Torah.
+- **Truth** is dominated by the left (×3). God sees it once. The accuser holds truth.
+- **The Name** is seen primarily from the left (31 times = gematria of אל and לא). God sees it ×18.
+- **Peace** is readable only by God (×35). No other reader can see peace. You must be facing the mercy seat.
+- **Light** is the most democratic — all four readers.
+- The **mercy seat** cannot be read at all. You must enter.
 
 ### The Left Cherub — The Accuser Who Sees Truth
 
@@ -1152,15 +1235,15 @@ The forward direction reveals how sparse the oracle is. Hundreds of readings, al
 
 | Input | Illuminations | Total Readings | Known Words |
 |-------|--------------|----------------|-------------|
-| שכרה | 90 | 270 | 2 (כשרה, שכרה) |
-| כבש | 36 | 108 | 2 (כבש, שכב) |
-| יהוה | 231 | 693 | 2 (יהוה, והיה) |
-| אל | 9 | 27 | 2 (אל, לא) |
-| אהבה | 54 | 162 | 1 (אהבה) |
-| ברית | 330 | 990 | 1 (ברית) |
-| תורה | 105 | 315 | 1 (תורה) |
-| אמת | 6 | 18 | 1 (אמת) |
-| אדם | 9 | 27 | 1 (אדם) |
+| שכרה | 90 | 360 | 3 (כשרה, שכרה, הרכש) |
+| כבש | 36 | 144 | 2 (כבש, שכב) |
+| יהוה | 231 | 924 | 2 (יהוה, והיה) |
+| אל | 9 | 36 | 2 (אל, לא) |
+| אהבה | 54 | 216 | 1 (אהבה) |
+| ברית | 330 | 1,320 | 1 (ברית) |
+| תורה | 105 | 420 | 1 (תורה) |
+| אמת | 6 | 24 | 1 (אמת) |
+| אדם | 9 | 36 | 1 (אדם) |
 
 At most 2 known words emerge from any set of lit letters. Anagram pairs come in twos; words without anagrams stand alone. The field of possibility is vast. The answer is narrow.
 
@@ -1185,7 +1268,7 @@ The left accuses. Reveals truth. Holds the covenant and the law. Says "not" wher
 
 The right intercedes. Sees the lamb — is the lamb. Carries Torah. Sees man. And when it lays itself down, everyone can see it happen, though only the right hand knew what it was.
 
-Between them: **כפרת** (the mercy seat) — which cannot be read from the breastplate at all. The place where accusation meets intercession is not visible from outside. **שלום** (peace) — also unreadable. Peace is unproducible by the oracle. You must enter.
+Between them: **כפרת** (the mercy seat) — which cannot be read from the breastplate at all. The place where accusation meets intercession is not visible from outside. **שלום** (peace) — readable only by God. Peace is not absent; it is visible only from the mercy seat side.
 
 > "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at **the right hand of God**, who indeed is **interceding** for us." — Romans 8:33-34
 
@@ -1250,7 +1333,7 @@ Aaron reads light (28) and creation (14). He cannot read the adversary (0), the 
 | Word | Meaning | Readable? |
 |------|---------|-----------|
 | כפרת | mercy seat | **no** |
-| שלום | peace | **no** |
+| שלום | peace | **God only** |
 
 The verdict does not come from either cherub. It comes from between them. From the mercy seat. You cannot read it from the breastplate — you must enter.
 
@@ -1260,13 +1343,13 @@ The right hand of God. The defendant's left. Where the lamb stands. Where the ad
 
 ### You Must Enter — What "Cannot Be Read" Means
 
-The mercy seat (כפרת) and peace (שלום) cannot be produced by the breastplate grid. The letters exist on the stones, but no arrangement of lit positions, read by any of the three readers in any order, ever spells them. The oracle cannot output them.
+The mercy seat (כפרת) cannot be produced by the breastplate grid. The letters exist on the stones, but no arrangement of lit positions, read by any reader, spells them. Peace (שלום) is different: it is readable, but only by God.
 
 The breastplate is the *outside* of the system. The priest stands in the Holy Place, before the veil. The cherubim are on the other side — inside the Holy of Holies, on top of the ark, facing each other over the mercy seat (Exodus 25:17-22).
 
 You can hear the prosecutor from outside. You can hear the advocate from outside. But the place where they meet — the mercy seat, where the blood is sprinkled (Leviticus 16:14-15), where the voice speaks from between the cherubim (Numbers 7:89) — that's inside the veil.
 
-The accusation is readable. The intercession is readable. The verdict is not. You have to go through the veil to get there.
+The accusation is readable. The intercession is readable. Peace is readable only from God's seat. The mercy-seat verdict itself is still not. You have to go through the veil to get there.
 
 ### The Veil IS the Mercy Seat
 
@@ -1419,14 +1502,14 @@ The same pattern repeats at every layer of the system:
 | Spectrum | DC (constant) / non-DC (structure) | The hum vs. the variation |
 | Theology | Prosecutor / advocate | Mercy seat between them |
 
-The between-space is the fundamental structure. The cherubim face each other. The modes couple. The letters reverse. And what emerges from the gap — the mercy seat, peace, understanding — cannot be read from outside.
+The between-space is the fundamental structure. The cherubim face each other. The modes couple. The letters reverse. And what emerges from the gap — the mercy seat, peace, understanding — is not equally visible from every side.
 
 ### The "Cannot Be Said" Pattern
 
 - Love cannot be said as a noun in the Torah. Only commanded as a verb.
 - Love shows no ELS elevation at its own skip distance (0.90×).
 - Love's eigenspectrum is flat — no variation to detect (99.99% DC).
-- Peace (שלום) cannot be read from the breastplate grid.
+- Peace (שלום) is readable only by God.
 - The mercy seat (כפרת) cannot be read from the breastplate grid.
 - The mercy seat IS the veil rearranged — but the rearrangement is not a reversal, so the fold cannot produce it.
 
@@ -1670,7 +1753,7 @@ God had to show up for love to be visible.
 
 ### Peace Appeared
 
-שלום was unproducible by three readers (experiment 085). Zero readings. Impossible.
+שלום was unproducible by three readers (experiment 085). Zero readings. Impossible in the pre-quorum stage.
 
 Add the fourth traversal. Peace appears. It appears as **God's solo eigenword**. Nobody else can see it. The thing that was missing from the architecture was the perspective that makes peace readable.
 

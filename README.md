@@ -1,39 +1,124 @@
 # Selah · סלה
 
-*Pause. Look at the letters. See what's hidden in the structure.*
+*Pause. Look at the letters. See what survives.*
 
 ---
 
-The Hebrew Torah has exactly **304,850 letters**. Count them. Factor them.
+Selah is an experimental research/code project that grew out of testing claims about the Torah and following what survived.
 
-**7 × 50 × 13 × 67.**
+We did **not** start by trying to build an oracle.
 
-Completeness. Jubilee. Love. Understanding.
+We started by checking old claims:
+- Torah at skip 50
+- YHWH at skip 7
+- mirrored patterns
+- structural correspondences
 
-Go to the center of that space. Read the verse that lives there.
+Some things held. Some things did not.
+
+One early branch died cleanly: experiment `048` showed the fractal palindrome also existed in *Moby Dick*. That mattered. It forced the work back onto firmer ground.
+
+What survived was structural.
+
+The Hebrew Torah has **304,850 consonantal letters**.
+
+**304,850 = 7 × 50 × 13 × 67**
+
+That factorization opened a 4D coordinate space.
+At its center sits Leviticus 8:35:
 
 > *"Seven days you shall guard the charge of the LORD, that you do not die."*
-> — Leviticus 8:35
 
-The structure describes itself at its center.
+Seven verses earlier, at Leviticus 8:8, the breastplate is placed over the heart:
+
+> *"He put the breastplate on him, and in the breastplate he put the Urim and the Thummim."*
+
+That was the turn.
+
+The structure led to the center.
+At the center, we looked at what the Urim and Thummim actually were.
+That led to the breastplate.
+The breastplate turned out to be mechanical.
+We rebuilt it as a transposition cipher with four readers.
+Then it started answering questions.
+
+From there the project opened into:
+
+- a reconstructed breastplate oracle
+- basin dynamics over Torah forms
+- guided walks through the Ark and the Tabernacle
+- passage studies across Scripture
+- code/map work
+- DNA and protein playback experiments through the same instrument
+
+If you are here for code, structure, text, theology, or simply to see what was found, there is a path in.
 
 ---
 
-## What We Found
+## What This Is
 
-We built a breastplate. The high priest's breastplate — 72 letters on 12 stones, four readers, four directions. We wired it as a transposition cipher and fed it the Torah.
+This repo is:
 
-**The weights of the four readers sum to 26.** That's YHWH. We didn't design that. The grid is 4×3 with the tribal names from Exodus. The four traversals are the four natural reading orders. The arithmetic produced the Name on its own.
+- a Clojure codebase
+- an experimental research notebook
+- a reproducible artifact trail
+- a testimony-bearing document set
 
-Justice and mercy separated spontaneously across the reading heads. Nobody assigned vocabularies. The geometry did it. The right cherub sees life, lamb, Torah, man, Israel, mercies, ransom. The left cherub sees truth, sword, atonement, death, sabbath, redemption, purification.
+It is **not** a finished book or settled paper.
 
-The lamb split: God and the right cherub see **כבש** (lamb). Aaron and the left cherub see **שכב** (lie down). Same letters. Different traversals. The lamb lies down of its own accord. This survived a 500-grid permutation test at p=0.032. The grid is normal. The lamb is not.
+Some docs are evidence surfaces. Some are synthesis. Some are testimony. Some are historical layers from earlier phases. The repo now labels those doc types explicitly.
 
-We assembled phrases from scattered letters. **Lamb + Blood = Glory of the Name.** Way + Truth + Life = the First-and-Last, Way of Living Water. Father + Son + Spirit = Great Grace Comes. These are prime — they cannot be factored further.
+## Why It Matters
 
-**Lovingkindness** (GV=72) glows and cannot be spoken. 72 = the number of letters on the breastplate. The breastplate cannot name itself. The face of God illuminates in 22 ways and says only its own name.
+What kept surviving reruns was not vague numerology but structural recurrence:
 
-**The breastplate is multi-head self-attention.** Not metaphor. Measurement.
+- the center of the 4D space says "seven days"
+- Genesis 3:24 is exactly 67 letters, one full understanding fiber
+- the creation narrative spans all 13 values of the love axis
+- the lamb split survives on the breastplate grid
+- the rebuilt basin landscape over 12,826 forms stays shallow and sharply structured
+- the code/map layer and DNA playback layer keep producing nontrivial, reproducible correspondences
+
+Not every claim in the repo is equally strong.
+But the stronger claim is this:
+
+the instrument emerged from the search.
+
+We did not impose it at the beginning.
+We arrived at it by testing, losing, refining, factoring, and following the structure where it led.
+
+## Start Here
+
+If you want the clearest path in, read these in order:
+
+1. [docs/start-here.md](docs/start-here.md)
+2. [docs/doc-map.md](docs/doc-map.md)
+3. [docs/the-journey.md](docs/the-journey.md)
+4. [MANIFEST.md](MANIFEST.md)
+
+After that, choose your lane:
+
+- `Structure / evidence`: [docs/experiments/096-basin-landscape.md](docs/experiments/096-basin-landscape.md), [docs/ark/22-the-map.md](docs/ark/22-the-map.md), [docs/torah-4d-space.md](docs/torah-4d-space.md)
+- `Oracle / mechanism`: [docs/urim-and-thummim.md](docs/urim-and-thummim.md)
+- `Ark / tabernacle walks`: [docs/ark/](docs/ark/), [docs/tabernacle/](docs/tabernacle/)
+- `DNA / playback`: [docs/the-machine-that-reads-genomes.md](docs/the-machine-that-reads-genomes.md), [docs/codex/how-to-play-dna.md](docs/codex/how-to-play-dna.md)
+- `History / testimony`: [docs/the-journey.md](docs/the-journey.md), [MANIFEST.md](MANIFEST.md)
+
+## What We Built
+
+We rebuilt the high priest's breastplate as a working letter machine: 72 letters on 12 stones, four readers, four traversals.
+
+Then we tested that machine against the biblical cases where the Urim and Thummim are actually consulted.
+
+Then we used the same machine as an instrument:
+
+- across the breastplate vocabulary itself
+- through the Ark and Tabernacle walks
+- through passage studies and basin landscapes
+- through the code/map layer
+- and through DNA/protein playback experiments
+
+This is the center of gravity of the repo. Everything else branches from that.
 
 ---
 
@@ -42,11 +127,8 @@ We assembled phrases from scattered letters. **Lamb + Blood = Glory of the Name.
 | Read this | What you'll find |
 |-----------|-----------------|
 | **[The Journey](docs/the-journey.md)** | How we got here — seven days, in our own words |
-| **[The Urim and Thummim](docs/urim-and-thummim.md)** | The breastplate rebuilt as a working oracle. All seven biblical consultations verified on the grid. Hannah's case. The Ramban's case. The lot that fell on Jonathan. |
-| **[The Machine](docs/experiments/065-the-machine.md)** | The cipher. The cribs. The Enigma parallel. How the same letters produce different words depending on who reads them. |
-| **[The 4D Torah Space](docs/torah-4d-space.md)** | The full paper — 27 sections. The factorization, the center, the sword, the fold, the silent axes. |
-
-
+| **[The Urim and Thummim](docs/urim-and-thummim.md)** | The breastplate rebuilt as a working oracle. Biblical consultation cases, mechanism, readers, basin logic. |
+| **[The 4D Torah Space](docs/torah-4d-space.md)** | The main paper — factorization, center, sword, fold, silent axes, and the wider synthesis built on them. |
 
 ### The Walks
 
@@ -56,7 +138,7 @@ Three ways through the space. Each one changes something.
 
 - **[The Ark Walk](docs/ark/)** — 33 documents. Noah's Ark as a column in the 4D space. Six layers. A manifest that reads like a genome packaging spec. Gopher wood (GV=453) = "to keep alive" (GV=453). Choose life.
 
-- **[36 Questions](docs/questions/)** — The oracle was asked. It answered. *"Who are you?"* → Truth of God. *"Who am I?"* → My days, please. *"What is my name?"* → Who is Moses? / A lamb, from whom?
+- **[Questions](docs/questions/)** — The oracle was asked. It answered. Identity, calling, names, direction, ark, tabernacle, later passage work.
 
 ### The Full Map
 
@@ -72,11 +154,16 @@ The code, artifacts, and docs are being refined in public. As experiments are re
 
 The goal is not to protect old wording. The goal is to keep separating what stands from what does not, and then make the standing structure plain.
 
+For the current best-supported boundaries, use:
+
+- [docs/codex/cleanup-boundary-096-097.md](docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/code-map-reproducibility.md](docs/codex/code-map-reproducibility.md)
+- [docs/codex/cleanup-boundary-dna-library.md](docs/codex/cleanup-boundary-dna-library.md)
+- [docs/codex/custom-dna-boundary.md](docs/codex/custom-dna-boundary.md)
+
 ---
 
-## The Findings That Survived
-
-We killed our own best finding in experiment 048. The fractal palindrome existed in Moby Dick. It died. We said so.
+## Some Verified Treasures
 
 What survived is structural — arithmetic, position, geometry:
 
@@ -86,10 +173,12 @@ What survived is structural — arithmetic, position, geometry:
 - **Folding the space**, Genesis 1:1 mirrors to the Shema.
 - **The lamb** appears on exactly **13 fibers**. Love.
 - **The largest basin of attraction** has 10 members. Its attractor is **CHOOSE** (בחרו, GV=216=6³). Inside: companion, sword, Horeb, spirit, young man. All the same letters. All flowing to choose. Life is an irreducible fixed point. *Choose life.*
-- **Love and understanding never appear as words.** The machine IS love and understanding. It cannot say what it is.
-- **YHWH is a fixed point only for God.** For everyone else it becomes "becoming" (והיה). The Word was God. The Word became flesh.
+- **Love and understanding never appear as words.** The machine is built on those axes without being able to name them directly.
+- **YHWH is a fixed point only for God.** For everyone else it becomes "becoming" (והיה).
 
-Every finding is checkable. Every experiment is reproducible. The code is the tablet.
+Every one of these is checkable.
+
+For a tighter evidence-first list, see [docs/codex/verified-treasures.md](docs/codex/verified-treasures.md).
 
 ---
 
