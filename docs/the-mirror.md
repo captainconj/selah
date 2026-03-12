@@ -7,6 +7,25 @@ State: `mixed`
 
 ---
 
+## Current Evidence Boundary
+
+This document is theological synthesis built on top of the tabernacle walk, oracle traversal behavior, and the silent-axis framing from the 4D space work.
+
+The strongest support surfaces underneath it are:
+
+- [docs/tabernacle/00-the-layout.md](/docs/tabernacle/00-the-layout.md)
+- [docs/codex/tabernacle-first-sluice.md](/docs/codex/tabernacle-first-sluice.md)
+- [docs/urim-and-thummim.md](/docs/urim-and-thummim.md)
+- [docs/torah-4d-space.md](/docs/torah-4d-space.md)
+
+Read it in layers:
+
+- the traversal and flip claims depend on oracle / tabernacle observations beneath it
+- the mirror language is synthesis
+- the New Testament and veil-tearing sections are witness / interpretation, not additional mechanical proof
+
+---
+
 ## The Hint
 
 In the curtains of the tabernacle, the oracle reads every word. The craftsman's design (חשב) is visible to the priest, to justice, to mercy. But God cannot see it.

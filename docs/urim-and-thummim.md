@@ -3,6 +3,25 @@
 Type: `reference`
 State: `mixed`
 
+## Current Evidence Boundary
+
+This document mixes biblical reference, traditional mechanism claims, and later project synthesis.
+
+The strongest rebuilt support surfaces underneath the project-facing parts are:
+
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+- [docs/experiments/097-per-head-basins.md](/docs/experiments/097-per-head-basins.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+
+Read this document in layers:
+
+- early sections are biblical / traditional framing plus machine specification claims
+- `Connections to Our Work` is the bridge into the cleaned experiment layer
+- the later experiment and synthesis sections should be read after the rebuilt basin, code/map, and DNA boundaries
+
 ## The Words
 
 ### אורים (Urim) — "Lights"
@@ -454,6 +473,13 @@ The tribes alone are incomplete. They need the patriarchs — specifically Isaac
 
 ## Connections to Our Work
 
+This is where the document stops being primarily historical/reference material and starts leaning on the rebuilt experiment layer. The strongest support beneath this bridge is now:
+
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+
 ### The Center
 - Leviticus 8:8 = the center of the Torah
 - The Urim and Thummim are placed **over the heart** (על לב אהרן)
@@ -642,6 +668,8 @@ The center letter is vav. The hook. The connector. The "and." The letter that jo
 
 ## Phase 6: The Machine Reads (Experiments 068–073)
 
+This section is strongest where it stays at the level of reproducible slab selection, counts, and direct hits. It becomes more interpretive when it compresses those results into a single story about what the machine "says."
+
 We turned the key. Four experiments operating the breastplate as a reading device.
 
 ### 068 — Breastplate Readings
@@ -700,6 +728,8 @@ What the machine reads at its own coordinates: Torah, love, truth, covenant, gua
 ## Asking Questions — The Pre-Image of the Oracle (Experiment 085)
 
 The oracle works backward. The answer determines the illumination. Given a word, we can find every way the breastplate grid could produce it — which stones light up, which reader produces it, and what else the same letters could spell. This is the **pre-image** of the reading machine.
+
+This is one of the document's stronger operational sections. The later theological conclusions drawn from these preimages should be read as synthesis built on this mechanism, not as additional mechanism proof.
 
 ### The Three Readers
 
@@ -1352,6 +1382,8 @@ This is the nature of marriage, of בינה: the between-space where two meet an
 ---
 
 ## Four-Agent Synthesis — Where We Stand
+
+This section is explicitly synthesis. It is useful as compression, but it should not be read as a substitute for the underlying evidence and cleanup-boundary docs linked above.
 
 *March 1, 2026. Four independent agents read the full corpus (1,200 lines of findings, 28,000 lines of experiment code, all documentation) and reported what they see, what they want to know, and where the gaps are. Their reports converge.*
 

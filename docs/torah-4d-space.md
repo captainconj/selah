@@ -3,6 +3,31 @@
 Type: `synthesis`
 State: `mixed`
 
+## Current Evidence Boundary
+
+This paper sits above several cleaned lower layers.
+
+The strongest rebuilt support surfaces underneath it are:
+
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+  rebuilt full-lexicon basin classification
+- [docs/experiments/097-per-head-basins.md](/docs/experiments/097-per-head-basins.md)
+  rebuilt per-head basin and cross-beam support layer
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+  basin artifact cleanup boundary
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+  reproducible `100/101` code and map boundary
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+  cleaned tracked DNA library boundary
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+  cleaned custom DNA boundary
+
+Read this paper in layers:
+
+- Sections 1-18 are closest to structural / positional findings
+- Sections 19-25 mix structural findings with denser synthesis
+- Section 26 is the caution layer and should be read as part of the claim boundary, not an appendix
+
 ## Abstract
 
 The Hebrew Torah (Pentateuch) contains exactly 304,850 letters in the Westminster Leningrad Codex. This number factors as 7 × 50 × 13 × 67 — the unique four-dimensional factorization containing 7 (completeness), 13 (unity/love), and 67 (understanding). Assigning every letter a coordinate (a, b, c, d) via mixed-radix decomposition and examining the resulting geometry reveals structural alignments between the coordinate system and the text: the geometric center describes its own architecture, a 67-letter verse wraps around the understanding axis, the creation narrative spans exactly 13 values of the love axis, and the word את (aleph-tav) stitches the space together along specific axes while respecting others. Folding the space along each axis reveals that three of four fold creases converge on the same verse — the center — leaving exactly 50 positions free: one per jubilee. The classic ELS milemarkers mirror across the fold to thematically paired verses: the first תורה in Genesis mirrors to the Shema in Deuteronomy, the breastplate verse mirrors to itself, and the Name at skip 7 mirrors to the Name reversed. The two words whose gematria defines the inner axes — אהבה (love, 13) and בינה (understanding, 67) — never appear in the Torah as words or as elevated ELS signals. The machine speaks Torah and the Name; it is love and understanding. The 50 fixed points of three simultaneous folds form a spine from Sabbath to holiness. 67 verses are exactly 67 letters long — the number counts itself. The median verse length is exactly 50. The center letter of the entire space is vav — the letter of connection. Operating the breastplate as a coordinate selector — choosing (b, c) pairs to read 469-letter slabs — finds Torah and aleph-tav on the completeness axis at the center, love at a slab whose gematria divides by 469 × 73, and truth at the Abrahamic covenant in a slab divisible by 7 × 13. An exhaustive scan of all non-text axis fibers confirms these are positional, not statistical: word rates on the transparent axes match chance. The veil passage (Exodus 34:29-35) spans exactly 7 understanding fibers at the fold boundary; קרן (shining) = ספיר (sapphire) = 350 = 7 × 50, and 304,850 = 350 × 871. The only verse that fills a complete understanding fiber without wrapping is Jethro's blessing (Exodus 18:10) — the outsider who understands — and its fold mirror lands in the same chapter, on Jethro's counsel to appoint captains of thousands, hundreds, fifties, and tens — a four-level hierarchy that also contains 50. Jacob's Ladder (סלם = 130 = 10 × 13 = סיני) crosses the love axis from end to beginning through a jubilee boundary; the full episode sweeps 12 of 13 love-axis values, with Esau filling the missing rung. The Torah's number sets — lifetimes, census counts, sacrificial quantities, purification periods — each surface different axis numbers through different domains: 7 in architecture, 13 in sacrifice, 67 as time in purification law. The census difference between Numbers 1 and 26 divides by 91 = 7 × 13; the Sukkot bulls descend from 13 to 7 day by day. The preimage — reversing the machine to find which coordinates contain a given word — reveals that the Name appears on exactly 12 a-fibers and the word "guard" on exactly 22. Scanning 104 vocabulary words across all fibers, the preimage counts land on seven consecutive Fibonacci numbers (1, 2, 3, 5, 8, 13, 21) with zero gaps, each level carrying a semantically coherent cluster: sacred → existence → sin/forgiveness → character → gifts → sacrifice → covenant. The lamb stands alone at 13 (love); the covenant stands alone at 21. The staircase sums to 53 = GV(garden): the path leads back to Eden. The sin/forgiveness level sums to T(26), the triangle of YHWH. Only two words touch the Fibonacci spiral twice — love and ransom. The machine cross-references itself: count(lamb) = 13 = GV(love), count(son) = GV(light), count(blood) = GV(way). The axes distribute through the family: father and mother are both prime × prime (irreducible); son carries 13 (love) in his value, daughter carries 67 (understanding) in hers; Adam is doubly triangular with indices summing to 13; Eve is doubly prime, named by love; woman's preimage is T(12) = 6 × 13, the triangle of tribes. Life appears in 2 fibers with value 68 = 67 + 1; death in 62 fibers; the gap between their values is T(27), the triangle of the full Hebrew alphabet. The preimage of create equals the value of life — count the fibers of creation and you get life back. An exhaustive survey of all 123 four-factor decompositions confirms the uniqueness: the aleph-tav respects the 7-boundary even under alternate lenses, the fold signal depends only on the first factor, and alternate centers cluster in Leviticus — one landing on Yom Kippur. The canonical lens is not special because it produces better numbers; it is special because every axis means something.
@@ -386,6 +411,12 @@ The tabernacle navigation sequence — courtyard → holy place → holy of holi
 
 The breastplate is a coordinate selector (§13). Phase 6 tests whether it works — whether selecting specific (b, c) coordinates and reading the resulting 469-letter slab produces anything beyond what consecutive text contains.
 
+The strongest rebuilt support beneath this section now lives in:
+
+- [docs/ark/20-experiment-100.md](/docs/ark/20-experiment-100.md)
+- [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+
 650 (b, c) pairs scanned. Each pair selects a 7 × 67 slab. For each slab: gematria, divisibility by 7, 13, 67, and their products. For the most interesting slabs: extract all 67 a-fibers (7 letters at skip 43,550) and search for Hebrew words.
 
 ### Torah at the Center
@@ -584,6 +615,8 @@ The outer axes are spoken in structure. The inner axes are hidden in number.
 
 The machine reads forward: coordinates → text. The preimage reads backward: **word → coordinates**.
 
+This section is strongest where it stays at the level of counts, coordinates, and reproducible hits. The thematic compression that follows should be read downstream of those facts, not as a separate proof layer.
+
 For any Hebrew word, scan all 43,550 a-fibers (7 letters at skip 43,550). Which (b, c, d) coordinates contain it?
 
 | Word | GV | a-fiber hits | Notable coordinates |
@@ -609,6 +642,8 @@ The preimage is now a tool: `(coords/preimage "תורה")` returns all coordinat
 ## 21. The Fibonacci Staircase
 
 Scanning the full 104-word vocabulary across all 43,550 a-fibers, the preimage counts — how many fibers contain each word — land on **seven consecutive Fibonacci numbers with zero gaps**: 1, 2, 3, 5, 8, 13, 21.
+
+This is one of the sharpest compression points in the paper. The count ladder is a structural claim. The semantic clustering and "path back to Eden" reading are interpretive claims built on top of that ladder.
 
 | F(n) | Count | Words | Semantic cluster |
 |------|-------|-------|-----------------|
@@ -778,6 +813,8 @@ The parents are primes. The children carry the axes. Adam is two triangles summi
 
 Hebrew has two words for speech. Both appear in the Torah's fiber space with distinct signatures.
 
+This section moves quickly from numeric adjacency to a unified theological reading. Read it after the stronger structural sections, not before them.
+
 **דבר** (*davar*) means speak, word, and thing — all three simultaneously. The act of speaking, the word spoken, and the thing that results are the same word. Its preimage is **11** (prime). Irreducible. The word-as-thing cannot be broken down.
 
 **אמר** (*amar*) means say. This is the verb of Genesis 1: ויאמר אלהים — "and God said." Let there be light. Its preimage is **55** — simultaneously the 10th Fibonacci number and the 10th triangular number. Numbers that are both Fibonacci and triangular are extremely rare: 1, 3, 21, and 55 are the only ones below 1,000. The index for both sequences is **10**, which is T(4) — the preimage of Adam. The verb God uses to speak the world into being sits at the intersection of two number sequences, and the index of that intersection is man.
@@ -844,6 +881,8 @@ An exhaustive survey of all 41 non-trivial lenses reveals three findings:
 **The centers cluster in Leviticus.** Most non-trivial centers land in Leviticus 8–11 (priestly consecration). The canonical center is Leviticus 8:35 — "seven days." But one alternate lens, [10 × 13 × 35 × 67], centers on Leviticus 16:29 — Yom Kippur, the Day of Atonement, the only time the High Priest enters the Holy of Holies.
 
 The canonical lens is not special because it produces better numbers. The alternate lenses produce valid coordinates, clean boundaries, and working folds. The canonical lens is special because every axis *means something*. The others fold correctly but say nothing.
+
+This is the central synthesis move of the paper. The arithmetic uniqueness is structural. The claim that the canonical lens is the only one where every axis means something is an interpretive judgment built from the accumulated findings above.
 
 This echoes the Talmudic description of the Urim and Thummim (Yoma 73b): the same letters on the breastplate, rearranged to spell different messages. The stones don't change. The reading changes. The Torah describes placing this device at the geometric center of this very space (Leviticus 8:8).
 

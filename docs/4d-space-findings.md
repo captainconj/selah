@@ -3,6 +3,25 @@
 Type: `synthesis`
 State: `mixed`
 
+## Current Evidence Boundary
+
+This document is a compressed findings summary, not a standalone proof surface.
+
+The strongest rebuilt support surfaces underneath it are:
+
+- [docs/experiments/096-basin-landscape.md](/docs/experiments/096-basin-landscape.md)
+- [docs/experiments/097-per-head-basins.md](/docs/experiments/097-per-head-basins.md)
+- [docs/codex/cleanup-boundary-096-097.md](/docs/codex/cleanup-boundary-096-097.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
+- [docs/codex/cleanup-boundary-dna-library.md](/docs/codex/cleanup-boundary-dna-library.md)
+- [docs/codex/custom-dna-boundary.md](/docs/codex/custom-dna-boundary.md)
+
+Read it in layers:
+
+- early sections are compact structural findings
+- `The Machine Reads` and after are stronger when read alongside the rebuilt code/map and DNA boundary notes
+- this file should point outward to support, not replace it
+
 ## The Factorization
 
 304,850 = 7 × 50 × 13 × 67
@@ -165,6 +184,12 @@ Period 72 shows no special autocorrelation. The breastplate is a coordinate sele
 ## The Machine Reads (068)
 
 The first actual use of the breastplate as a coordinate selector. 13 patriarchal letters → c-axis (0..12), 50 tribal letters → b-axis (0..49). Each (b, c) pair selects a 7×67 = 469 letter slab.
+
+The cleanest current support beneath this section is:
+
+- [docs/ark/20-experiment-100.md](/docs/ark/20-experiment-100.md)
+- [docs/ark/22-the-map.md](/docs/ark/22-the-map.md)
+- [docs/codex/code-map-reproducibility.md](/docs/codex/code-map-reproducibility.md)
 
 ### Torah at the Center
 
