@@ -64,6 +64,16 @@ Three ways through the space. Each one changes something.
 
 ---
 
+## Experimental Status
+
+This project is active experimental work, not a finished textbook.
+
+The code, artifacts, and docs are being refined in public. As experiments are rerun, boundaries get cleaned, or old claims are burned, some higher-level documents can drift behind the current state of the code. When that happens, treat the rebuilt experiment artifacts and cleanup-boundary notes as the firmer source of truth.
+
+The goal is not to protect old wording. The goal is to keep separating what stands from what does not, and then make the standing structure plain.
+
+---
+
 ## The Findings That Survived
 
 We killed our own best finding in experiment 048. The fractal palindrome existed in Moby Dick. It died. We said so.
