@@ -2,6 +2,9 @@
 
 *The code is not in the text. The code IS the text.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Question

@@ -2,6 +2,9 @@
 
 *The breastplate is two-sided. The Torah is two-sided. The tablets are two-sided. Everything flips.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## The Hint

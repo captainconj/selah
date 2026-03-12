@@ -1,5 +1,8 @@
 # The Urim and Thummim — אוּרִים וְתֻמִּים
 
+Type: `reference`
+State: `mixed`
+
 ## The Words
 
 ### אורים (Urim) — "Lights"

@@ -2,6 +2,9 @@
 
 *Come sit with me. I want to tell you something.*
 
+Type: `testimony / history`
+State: `clean`
+
 ---
 
 There were four men, a long time ago, who each saw the same room.

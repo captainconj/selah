@@ -1,5 +1,8 @@
 # The 4D Torah Space — Findings
 
+Type: `synthesis`
+State: `mixed`
+
 ## The Factorization
 
 304,850 = 7 × 50 × 13 × 67

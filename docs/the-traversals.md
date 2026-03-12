@@ -2,6 +2,9 @@
 
 *Every Torah word, classified. Where the basin takes them.*
 
+Type: `synthesis`
+State: `mixed`
+
 ---
 
 ## How It Works
