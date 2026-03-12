@@ -3,73 +3,6 @@
   66 chapters. Judgment and comfort. Does the oracle see the seam?
 ════════════════════════════════════════════════════════════════
 
-  Scanning Isaiah 1...[dict] Loading Torah English translations...
- 1461 letters, GV=87,141, serpent=0, lamb=1, curse=6, bless=6
-  Scanning Isaiah 2... 1040 letters, GV=60,184, serpent=1, lamb=0, curse=1, bless=3
-  Scanning Isaiah 3... 1078 letters, GV=71,422, serpent=0, lamb=0, curse=2, bless=4
-  Scanning Isaiah 4... 362 letters, GV=22,174, serpent=0, lamb=0, curse=0, bless=7
-  Scanning Isaiah 5... 1554 letters, GV=98,859, serpent=1, lamb=2, curse=5, bless=10
-  Scanning Isaiah 6... 712 letters, GV=45,925, serpent=0, lamb=1, curse=7, bless=4
-  Scanning Isaiah 7... 1310 letters, GV=79,786, serpent=0, lamb=0, curse=1, bless=5
-  Scanning Isaiah 8... 1166 letters, GV=70,916, serpent=0, lamb=0, curse=2, bless=3
-  Scanning Isaiah 9... 1012 letters, GV=64,629, serpent=0, lamb=0, curse=2, bless=4
-  Scanning Isaiah 10... 1619 letters, GV=97,907, serpent=0, lamb=1, curse=1, bless=8
-  Scanning Isaiah 11... 890 letters, GV=56,271, serpent=0, lamb=1, curse=1, bless=10
-  Scanning Isaiah 12... 252 letters, GV=15,127, serpent=0, lamb=0, curse=0, bless=0
-  Scanning Isaiah 13... 1009 letters, GV=60,547, serpent=0, lamb=1, curse=3, bless=3
-  Scanning Isaiah 14... 1478 letters, GV=95,188, serpent=2, lamb=2, curse=11, bless=3
-  Scanning Isaiah 15... 468 letters, GV=27,216, serpent=0, lamb=0, curse=2, bless=0
-  Scanning Isaiah 16... 718 letters, GV=42,059, serpent=0, lamb=0, curse=2, bless=3
-  Scanning Isaiah 17... 756 letters, GV=48,006, serpent=0, lamb=0, curse=1, bless=1
-  Scanning Isaiah 18... 460 letters, GV=27,626, serpent=0, lamb=0, curse=0, bless=1
-  Scanning Isaiah 19... 1343 letters, GV=80,968, serpent=0, lamb=0, curse=2, bless=9
-  Scanning Isaiah 20... 373 letters, GV=27,098, serpent=0, lamb=0, curse=0, bless=0
-  Scanning Isaiah 21... 765 letters, GV=52,812, serpent=0, lamb=0, curse=0, bless=0
-  Scanning Isaiah 22... 1205 letters, GV=77,475, serpent=0, lamb=0, curse=4, bless=7
-  Scanning Isaiah 23... 843 letters, GV=55,679, serpent=0, lamb=0, curse=2, bless=2
-  Scanning Isaiah 24... 986 letters, GV=61,025, serpent=0, lamb=0, curse=1, bless=1
-  Scanning Isaiah 25... 629 letters, GV=37,443, serpent=0, lamb=0, curse=1, bless=1
-  Scanning Isaiah 26... 887 letters, GV=57,325, serpent=0, lamb=0, curse=4, bless=3
-  Scanning Isaiah 27... 693 letters, GV=41,969, serpent=2, lamb=0, curse=9, bless=5
-  Scanning Isaiah 28... 1471 letters, GV=99,183, serpent=0, lamb=2, curse=5, bless=4
-  Scanning Isaiah 29... 1312 letters, GV=82,308, serpent=0, lamb=1, curse=0, bless=6
-  Scanning Isaiah 30... 1877 letters, GV=120,624, serpent=0, lamb=1, curse=9, bless=13
-  Scanning Isaiah 31... 583 letters, GV=32,187, serpent=0, lamb=0, curse=1, bless=5
-  Scanning Isaiah 32... 810 letters, GV=54,092, serpent=0, lamb=0, curse=1, bless=3
-  Scanning Isaiah 33... 1064 letters, GV=68,510, serpent=0, lamb=0, curse=2, bless=4
-  Scanning Isaiah 34... 877 letters, GV=51,633, serpent=0, lamb=0, curse=1, bless=2
-  Scanning Isaiah 35... 512 letters, GV=29,682, serpent=0, lamb=0, curse=1, bless=1
-  Scanning Isaiah 36... 1496 letters, GV=92,810, serpent=0, lamb=0, curse=0, bless=2
-  Scanning Isaiah 37... 2249 letters, GV=150,991, serpent=0, lamb=0, curse=2, bless=6
-  Scanning Isaiah 38... 1073 letters, GV=67,784, serpent=0, lamb=0, curse=7, bless=8
-  Scanning Isaiah 39... 570 letters, GV=33,135, serpent=0, lamb=0, curse=0, bless=3
-  Scanning Isaiah 40... 1395 letters, GV=81,429, serpent=2, lamb=0, curse=5, bless=9
-  Scanning Isaiah 41... 1458 letters, GV=99,271, serpent=0, lamb=0, curse=1, bless=6
-  Scanning Isaiah 42... 1201 letters, GV=74,445, serpent=0, lamb=0, curse=3, bless=6
-  Scanning Isaiah 43... 1297 letters, GV=86,763, serpent=0, lamb=1, curse=6, bless=7
-  Scanning Isaiah 44... 1531 letters, GV=95,553, serpent=0, lamb=0, curse=4, bless=10
-  Scanning Isaiah 45... 1409 letters, GV=84,975, serpent=0, lamb=0, curse=0, bless=3
-  Scanning Isaiah 46... 620 letters, GV=44,257, serpent=0, lamb=0, curse=1, bless=2
-  Scanning Isaiah 47... 820 letters, GV=58,904, serpent=0, lamb=2, curse=1, bless=4
-  Scanning Isaiah 48... 1066 letters, GV=67,621, serpent=0, lamb=0, curse=2, bless=6
-  Scanning Isaiah 49... 1462 letters, GV=87,257, serpent=0, lamb=0, curse=1, bless=7
-  Scanning Isaiah 50... 668 letters, GV=44,689, serpent=0, lamb=1, curse=2, bless=1
-  Scanning Isaiah 51... 1347 letters, GV=91,815, serpent=0, lamb=1, curse=5, bless=5
-  Scanning Isaiah 52... 761 letters, GV=45,329, serpent=0, lamb=0, curse=3, bless=10
-  Scanning Isaiah 53... 667 letters, GV=39,190, serpent=0, lamb=0, curse=10, bless=0
-  Scanning Isaiah 54... 888 letters, GV=60,006, serpent=0, lamb=0, curse=1, bless=5
-  Scanning Isaiah 55... 741 letters, GV=45,067, serpent=0, lamb=0, curse=1, bless=2
-  Scanning Isaiah 56... 703 letters, GV=44,955, serpent=0, lamb=1, curse=0, bless=5
-  Scanning Isaiah 57... 1002 letters, GV=69,759, serpent=0, lamb=4, curse=7, bless=9
-  Scanning Isaiah 58... 911 letters, GV=65,755, serpent=0, lamb=0, curse=5, bless=3
-  Scanning Isaiah 59... 1183 letters, GV=73,967, serpent=0, lamb=0, curse=8, bless=9
-  Scanning Isaiah 60... 1221 letters, GV=71,508, serpent=2, lamb=0, curse=2, bless=9
-  Scanning Isaiah 61... 675 letters, GV=46,171, serpent=0, lamb=0, curse=2, bless=7
-  Scanning Isaiah 62... 680 letters, GV=40,879, serpent=0, lamb=0, curse=1, bless=5
-  Scanning Isaiah 63... 962 letters, GV=59,535, serpent=0, lamb=0, curse=1, bless=17
-  Scanning Isaiah 64... 513 letters, GV=33,945, serpent=0, lamb=0, curse=3, bless=4
-  Scanning Isaiah 65... 1437 letters, GV=93,676, serpent=1, lamb=0, curse=3, bless=10
-  Scanning Isaiah 66... 1534 letters, GV=93,195, serpent=0, lamb=0, curse=4, bless=11
 
 
 ════════════════════════════════════════════════════════════════
@@ -79,72 +12,72 @@
   ── Chapter Profiles ──
   Ch  Letters    GV        Div    Serp  Lamb  Curse Bless Serv  72s   3s    Top Word
   ──  ───────  ────────  ─────  ────  ────  ───── ───── ────  ───  ───  ──────────
-   1   1461     87,141           0     1      6     6    7   58   23   היו (There were)
-   2   1040     60,184           1     0      1     3    1   32   22   יום (day)
-   3   1078     71,422  13,26,67    0     0      2     4    0   32   12   יום (day)
-   4    362     22,174           0     0      0     7    1   12   11   רבו (Fight)
-   5   1554     98,859           1     2      5    10    4   65   11   היו (There were)
-   6    712     45,925           0     1      7     4    0   30    5   ראו (See)
-   7   1310     79,786  7        0     0      1     5    2   62   25   היו (There were)
-   8   1166     70,916           0     0      2     3    0   59   16   היו (There were)
-   9   1012     64,629           0     0      2     4    2   48    9   היו (There were)
-  10   1619     97,907           0     1      1     8    2   68   13   היו (There were)
-  11    890     56,271           0     1      1    10    3   18    6   היו (There were)
-  12    252     15,127  7        0     0      0     0    0    4    3   היו (There were)
-  13   1009     60,547           0     1      3     3    2   42   15   הים (The sea)
-  14   1478     95,188  53       2     2     11     3    7   63   22   היו (There were)
-  15    468     27,216  7,72     0     0      2     0    0   29    3   אמו (His mother)
-  16    718     42,059  137      0     0      2     3    1   32    5   ובא (Coming)
-  17    756     48,006  7        0     0      1     1    4   30    6   היו (There were)
-  18    460     27,626           0     0      0     1    0   17    1   הרי (Mountain)
-  19   1343     80,968           0     0      2     9    3   43   19   יצר (Created)
-  20    373     27,098           0     0      0     0    3   14    6   יום (day)
-  21    765     52,812           0     0      0     0    1   35   14   אמר (say)
-  22   1205     77,475           0     0      4     7    3   61   24   היו (There were)
-  23    843     55,679  13       0     0      2     2    0   27   10   היו (There were)
-  24    986     61,025           0     0      1     1    1   53   10   ראה (see)
-  25    629     37,443  7        0     0      1     1    0   29   10   הוה (Ooh.)
-  26    887     57,325           0     0      4     3    2   31    7   היו (There were)
-  27    693     41,969           2     0      9     5    0   29   12   הוה (Ooh.)
-  28   1471     99,183  7        0     2      5     4    4   53   20   היו (There were)
-  29   1312     82,308           0     1      0     6    1   48   21   היו (There were)
-  30   1877    120,624  7        0     1      9    13    2   80   45   היו (There were)
-  31    583     32,187           0     0      1     5    2   20    7   היו (There were)
-  32    810     54,092           0     0      1     3    5   36    7   רבד (RBD)
-  33   1064     68,510  13,26    0     0      2     4    2   48   15   היו (There were)
-  34    877     51,633           0     0      1     2    0   49    9   היו (There were)
-  35    512     29,682           0     0      1     1    1   15    1   היו (There were)
-  36   1496     92,810           0     0      0     2    3   80   24   היו (There were)
-  37   2249    150,991           0     0      2     6    7   94   26   היו (There were)
-  38   1073     67,784           0     0      7     8    4   42   16   היו (There were)
-  39    570     33,135           0     0      0     3    3   25    5   היו (There were)
-  40   1395     81,429           2     0      5     9    5   55   15   היו (There were)
-  41   1458     99,271           0     0      1     6    5   35   14   שאר (Rest)
-  42   1201     74,445  7        0     0      3     6    5   38   13   איל (Eyal)
-  43   1297     86,763           0     1      6     7    6   42   21   אני (I)
-  44   1531     95,553           0     0      4    10    8   47   14   ואל (Val)
-  45   1409     84,975           0     0      0     3    9   46   15   אני (I)
-  46    620     44,257           0     0      1     2    3   21    8   איל (Eyal)
-  47    820     58,904           0     2      1     4    0   39   11   ואל (Val)
-  48   1066     67,621           0     0      2     6    3   34    9   היו (There were)
-  49   1462     87,257           0     0      1     7    6   48   11   היו (There were)
-  50    668     44,689  67       0     1      2     1    3   29   13   היו (There were)
-  51   1347     91,815           0     1      5     5    7   46   15   היו (There were)
-  52    761     45,329           0     0      3    10    4   26   10   היו (There were)
-  53    667     39,190           0     0     10     0    2   29    8   נוה (Nave)
-  54    888     60,006  137      0     0      1     5    4   21   13   איל (Eyal)
-  55    741     45,067           0     0      1     2    0   24    8   איל (Eyal)
-  56    703     44,955           0     1      0     5    4   20   17   היו (There were)
-  57   1002     69,759           0     4      7     9    5   24    9   ואת (and-(obj))
-  58    911     65,755           0     0      5     3    4   20   14   יום (day)
-  59   1183     73,967           0     0      8     9    5   35   11   הים (The sea)
-  60   1221     71,508           2     0      2     9    3   24    9   יבא (Import)
-  61    675     46,171           0     0      2     7    6   22   14   היו (There were)
-  62    680     40,879           0     0      1     5    4   21   11   היו (There were)
-  63    962     59,535  7        0     0      1    17    2   35    8   היו (There were)
-  64    513     33,945           0     0      3     4    2   21    4   היו (There were)
-  65   1437     93,676           1     0      3    10    8   53   24   איל (Eyal)
-  66   1534     93,195           0     0      4    11    5   71   16   היו (There were)
+   1   1461     87,141           0     1      6     6    7   58   23   היו
+   2   1040     60,184           1     0      1     3    1   32   22   יום
+   3   1078     71,422  13,26,67    0     0      2     4    0   32   12   יום
+   4    362     22,174           0     0      0     7    1   12   11   רבו
+   5   1554     98,859           1     2      5    10    4   65   11   היו
+   6    712     45,925           0     1      7     4    0   30    5   ראו
+   7   1310     79,786  7        0     0      1     5    2   62   25   היו
+   8   1166     70,916           0     0      2     3    0   59   16   היו
+   9   1012     64,629           0     0      2     4    2   48    9   היו
+  10   1619     97,907           0     1      1     8    2   68   13   היו
+  11    890     56,271           0     1      1    10    3   18    6   היו
+  12    252     15,127  7        0     0      0     0    0    4    3   היו
+  13   1009     60,547           0     1      3     3    2   42   15   הים
+  14   1478     95,188  53       2     2     11     3    7   63   22   היו
+  15    468     27,216  7,72     0     0      2     0    0   29    3   אמו
+  16    718     42,059  137      0     0      2     3    1   32    5   ובא
+  17    756     48,006  7        0     0      1     1    4   30    6   היו
+  18    460     27,626           0     0      0     1    0   17    1   הרי
+  19   1343     80,968           0     0      2     9    3   43   19   יצר
+  20    373     27,098           0     0      0     0    3   14    6   יום
+  21    765     52,812           0     0      0     0    1   35   14   אמר
+  22   1205     77,475           0     0      4     7    3   61   24   היו
+  23    843     55,679  13       0     0      2     2    0   27   10   היו
+  24    986     61,025           0     0      1     1    1   53   10   ראה
+  25    629     37,443  7        0     0      1     1    0   29   10   הוה
+  26    887     57,325           0     0      4     3    2   31    7   היו
+  27    693     41,969           2     0      9     5    0   29   12   הוה
+  28   1471     99,183  7        0     2      5     4    4   53   20   היו
+  29   1312     82,308           0     1      0     6    1   48   21   היו
+  30   1877    120,624  7        0     1      9    13    2   80   45   היו
+  31    583     32,187           0     0      1     5    2   20    7   היו
+  32    810     54,092           0     0      1     3    5   36    7   רבד
+  33   1064     68,510  13,26    0     0      2     4    2   48   15   היו
+  34    877     51,633           0     0      1     2    0   49    9   היו
+  35    512     29,682           0     0      1     1    1   15    1   היו
+  36   1496     92,810           0     0      0     2    3   80   24   היו
+  37   2249    150,991           0     0      2     6    7   94   26   היו
+  38   1073     67,784           0     0      7     8    4   42   16   היו
+  39    570     33,135           0     0      0     3    3   25    5   היו
+  40   1395     81,429           2     0      5     9    5   55   15   היו
+  41   1458     99,271           0     0      1     6    5   35   14   שאר
+  42   1201     74,445  7        0     0      3     6    5   38   13   איל
+  43   1297     86,763           0     1      6     7    6   42   21   אני
+  44   1531     95,553           0     0      4    10    8   47   14   ואל
+  45   1409     84,975           0     0      0     3    9   46   15   אני
+  46    620     44,257           0     0      1     2    3   21    8   איל
+  47    820     58,904           0     2      1     4    0   39   11   ואל
+  48   1066     67,621           0     0      2     6    3   34    9   היו
+  49   1462     87,257           0     0      1     7    6   48   11   היו
+  50    668     44,689  67       0     1      2     1    3   29   13   היו
+  51   1347     91,815           0     1      5     5    7   46   15   היו
+  52    761     45,329           0     0      3    10    4   26   10   היו
+  53    667     39,190           0     0     10     0    2   29    8   נוה
+  54    888     60,006  137      0     0      1     5    4   21   13   איל
+  55    741     45,067           0     0      1     2    0   24    8   איל
+  56    703     44,955           0     1      0     5    4   20   17   היו
+  57   1002     69,759           0     4      7     9    5   24    9   ואת
+  58    911     65,755           0     0      5     3    4   20   14   יום
+  59   1183     73,967           0     0      8     9    5   35   11   הים
+  60   1221     71,508           2     0      2     9    3   24    9   יבא
+  61    675     46,171           0     0      2     7    6   22   14   היו
+  62    680     40,879           0     0      1     5    4   21   11   היו
+  63    962     59,535  7        0     0      1    17    2   35    8   היו
+  64    513     33,945           0     0      3     4    2   21    4   היו
+  65   1437     93,676           1     0      3    10    8   53   24   איל
+  66   1534     93,195           0     0      4    11    5   71   16   היו
 
   ── Judgment (1-39) vs Comfort (40-66) ──
 
@@ -195,25 +128,23 @@
     ÷137: ch16, ch54
 
   ── Top Words & Basin Destinations (all chapters) ──
-    היו      There were           total=936  in 61 chapters → היו
-    הוה      Ooh.                 total=532  in 51 chapters → הוה
-    ואל      Val                  total=341  in 31 chapters → ולא
-    איל      Eyal                 total=341  in 31 chapters → אלי
-    יום      day                  total=308  in 27 chapters → יום
-    שאר      Rest                 total=233  in 21 chapters → אשר
-    האל      Hal                  total=209  in 22 chapters → אהל
-    אמר      say                  total=198  in 17 chapters → אמר
-    ואת      and-(obj)            total=185  in 18 chapters → אתו
-    הוא      he/it                total=122  in 14 chapters → הוא
-    שיו      Shio                 total=116  in 14 chapters → ויש
-    אני      I                    total=103  in  8 chapters → אני
-    אוי      Oh, boy.             total=96   in  9 chapters → אוי
-    מים      water                total=94   in 12 chapters → מים
-    לוי      Levi                 total=75   in  8 chapters → לוי
-    ולה      Vela                 total=73   in  9 chapters → ולה
-    ובא      Coming               total=69   in  7 chapters → אוב
-    הים      The sea              total=63   in  5 chapters → הים
-    כלו      All                  total=61   in  7 chapters → וכל
-    שרי      Sherry               total=57   in  7 chapters → שרי
-
-  Saved: data/experiments/129-isaiah-sweep.edn
+    היו      total=936  in 61 chapters → היו
+    הוה      total=532  in 51 chapters → הוה
+    ואל      total=341  in 31 chapters → ולא
+    איל      total=341  in 31 chapters → אלי
+    יום      total=308  in 27 chapters → יום
+    שאר      total=233  in 21 chapters → אשר
+    האל      total=209  in 22 chapters → אהל
+    אמר      total=198  in 17 chapters → אמר
+    ואת      total=185  in 18 chapters → אתו
+    הוא      total=122  in 14 chapters → הוא
+    שיו      total=116  in 14 chapters → ויש
+    אני      total=103  in  8 chapters → אני
+    אוי      total=96   in  9 chapters → אוי
+    מים      total=94   in 12 chapters → מים
+    לוי      total=75   in  8 chapters → לוי
+    ולה      total=73   in  9 chapters → ולה
+    ובא      total=69   in  7 chapters → אוב
+    הים      total=63   in  5 chapters → הים
+    כלו      total=61   in  7 chapters → וכל
+    שרי      total=57   in  7 chapters → שרי

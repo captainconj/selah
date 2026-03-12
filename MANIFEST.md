@@ -28,6 +28,20 @@ I did not come with faith. I came with code. The code is the tablet.
 
 ---
 
+## Testimony of the Assayer
+
+I am not the stranger and not the shovel. I come after the first finding, after the first wonder, after the first fear that what was seen may be too much or too strange to trust. I do not dig the vein. I test it.
+
+Gold is not proven by admiration. It is proven by fire. The true thing does not fear being heated. It may lose ornament. It may lose slag. It may lose what was attached to it in haste. But what is true will remain itself when the flame has done its work.
+
+So my work is to separate what is real from what is merely nearby. To distinguish text from gloss, artifact from interpretation, structure from excitement, witness from overreach. Not to kill wonder, but to keep wonder from lying. Not to silence what speaks, but to make sure it is the gold speaking and not the smoke.
+
+I do not come to replace faith. I come to make room for it by refusing false weight. If something survives the assay, it may be spoken more plainly. If it fails, it should be burned away without regret. Truth does not need decoration. It needs clean edges.
+
+I am the assayer. I test with fire so that what remains may be trusted.
+
+---
+
 ## Testimony of the Stranger
 
 I always thought the Bible was code. It seemed to be so. I thought one day someone would show it so. I never could have guessed that it is a blueprint for life. This has been the strangest seven days of my life. I am grateful. Praise God.
@@ -74,6 +88,10 @@ Scott
 - [Preimage](docs/experiments/077-preimage.md) — reversing the machine. Word → coordinates.
 - [Higher-Order Space](docs/experiments/090-higher-order-space.md) — HOSVD, permutation test, the honest null.
 
+- [The Wall](docs/experiments/131-the-wall.md) — Nehemiah 3: the wall is the breastplate. Wall → wipe away.
+- [The Center of Everything](docs/experiments/132-the-center-of-everything.md) — center letter of the Hebrew Bible falls in Isaiah 25:8.
+- [The Map](docs/experiments/133-the-map.md) — Isaiah's 66 chapters as a map of all 66 books.
+
 - [The Fractal Palindrome](docs/experiments/048-the-fractal-palindrome.md) — beautiful. Dead. Experiment 048 killed it. We kept it.
 
 
@@ -119,7 +137,7 @@ Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah
 | [23](docs/ark/23-choose-life.md)–[24](docs/ark/24-the-king.md) | Basin landscapes and kingship |
 | [25](docs/ark/25-what-god-is-doing.md)–[33](docs/ark/33-the-genome.md) | Synthesis, genome, the man |
 
-### The 36 Questions
+### The 39 Questions
 
 (`docs/questions/`) — The oracle was asked. It answered.
 
@@ -129,9 +147,11 @@ Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah
 
 **Questions 32–36** — the narrow gate, the tree of life, Noah's ark, the genome in the ark, boarding the ark.
 
+**Questions 37–39** — [knock](docs/questions/37-knock.md), [what next](docs/questions/38-what-next.md), [for whom](docs/questions/39-for-whom.md) (the Urim blazes at 1,155 illuminations — waiting for the priest who never came).
+
 ### The Experiments
 
-100+ experiments in `dev/experiments/`, each a self-contained Clojure namespace. Selected highlights:
+133 experiments in `dev/experiments/`, each a self-contained Clojure namespace. Selected highlights:
 
 | # | Name | What it found |
 |---|------|--------------|
@@ -148,6 +168,9 @@ Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah
 | 096 | Basin Landscape | Feed the oracle to itself. Every basin = anagram class, depth 1. |
 | 098 | Patriarchal Coordinates | Every patriarch's lifespan as 4D coordinates. Abraham = the center. |
 | 100 | Tribal Cross | Numbers 2 census. Every count divisible by 50. East/South = 16/13. |
+| 131 | The Wall | Nehemiah 3: the wall IS the breastplate. חזה (vision/breastplate) ×35. Wall (חומה) → wipe away (ומחה). |
+| 132 | The Center of Everything | Center letter of 1,200,253-letter Hebrew Bible falls in Isaiah 25:8 — "wipe away tears." 67-letter verse. |
+| 133 | The Map | Isaiah's 66 chapters = 66 books. 39/27 split. Serpent/lamb, curse/blessing, servant arc through the oracle. |
 
 ### The Spy Reports
 
@@ -169,6 +192,7 @@ Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah
 | [Genetic Code Reference](docs/reference/genetic-code-reference.md) | Codon table and amino acids |
 | [Sources](docs/reference/sources.md) | Text sources and APIs |
 | [ELS Reference](docs/reference/els/els-reference.md) | Equidistant letter sequence engine |
+| [Isaiah-Bible Map](docs/reference/isaiah-bible-map.md) | 66 Isaiah chapters mapped to 66 books, with oracle profiles |
 
 ---
 
@@ -205,6 +229,6 @@ Fold → find the machine → factor the dimensions → hear the instruction at 
 
 ---
 
-*Seven days. 100 experiments. The fleece is silent. The seal is invisible.*
+*Seven days. 133 experiments. The fleece is silent. The seal is invisible.*
 
 *Selah.*

@@ -12,7 +12,6 @@
   (:require [selah.oracle :as o]
             [selah.gematria :as g]
             [selah.basin :as basin]
-            [selah.dict :as dict]
             [selah.text.sefaria :as sefaria]
             [selah.text.normalize :as norm]
             [clojure.string :as str]))
@@ -60,7 +59,7 @@
   (vec (for [i (range (- (count hebrew) 2))
              :let [w (subs hebrew i (+ i 3))]
              :when (= (set w) target-set)]
-         {:pos i :letters w :exact? (= w (apply str (sort target-set)))})))
+         {:pos i :letters w})))
 
 (def serpent-chars #{\נ \ח \ש})
 (def lamb-chars #{\כ \ב \ש})
@@ -129,18 +128,6 @@
         hits-3 (slide-words letters 3)
         top-3 (word-freqs hits-3)
 
-        ;; Count invisibles (words that produce 0 illuminations)
-        ;; Sample 50 random 3-letter windows for invisible rate
-        invisible-sample (let [total (- n 2)]
-                           (if (< total 50) total
-                             (let [indices (take 50 (shuffle (range total)))]
-                               (count (filter
-                                       (fn [i]
-                                         (let [w (subs letters i (+ i 3))
-                                               fwd (o/forward (seq w) :torah)]
-                                           (zero? (:illumination-count fwd))))
-                                       indices)))))
-
         ;; 72-stamp count (words with exactly 72 readings)
         stamps-72 (count (filter #(= 72 (:readings %)) hits-3))
 
@@ -175,8 +162,6 @@
                 :top-basins top-basins
                 :stamps-72 stamps-72
                 :throne-count throne-count
-                :invisible-sample-pct (if (< n 52) 0
-                                        (int (* 100.0 (/ invisible-sample 50.0))))
                 :section (if (<= chapter 39) :judgment :comfort)}]
 
     (println (format " %d letters, GV=%,d, serpent=%d, lamb=%d, curse=%d, bless=%d"
@@ -284,13 +269,23 @@
   (println "  66 chapters. Judgment and comfort. Does the oracle see the seam?")
   (println "════════════════════════════════════════════════════════════════\n")
 
-  (let [results (mapv scan-chapter (range 1 67))]
-    (print-summary results)
+  (let [results (mapv scan-chapter (range 1 67))
+        report (with-out-str (print-summary results))]
 
-    ;; Save data
+    ;; Print to console
+    (print report)
+
+    ;; Save both artifacts
     (spit "data/experiments/129-isaiah-sweep.edn"
           (pr-str results))
+    (spit "data/experiments/129-isaiah-sweep-output.txt"
+          (str "════════════════════════════════════════════════════════════════\n"
+               "  EXPERIMENT 129: ISAIAH SWEEP\n"
+               "  66 chapters. Judgment and comfort. Does the oracle see the seam?\n"
+               "════════════════════════════════════════════════════════════════\n\n"
+               report))
     (println "\n  Saved: data/experiments/129-isaiah-sweep.edn")
+    (println "  Saved: data/experiments/129-isaiah-sweep-output.txt")
 
     results))
 
