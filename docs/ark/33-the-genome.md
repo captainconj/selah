@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](32-the-man.md) · [Next](34-make-it-plain.md)
+
 ---
 
 ## The Numbers

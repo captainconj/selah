@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/131_the_wall.clj`
+**Run:** `clojure -M:dev dev/experiments/131_the_wall.clj`
+
 ---
 
 ## The Question

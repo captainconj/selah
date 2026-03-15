@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/093_level2_thummim.clj`
+**Run:** `clojure -M:dev dev/experiments/093_level2_thummim.clj`
+
 *The Urim illuminates. The Thummim completes. The letters light up. The priest arranges them. The machine enumerates. The findings are below.*
 
 ---

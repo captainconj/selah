@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/099_festival_calendar_path.clj`
+**Run:** `clojure -M:dev dev/experiments/099_festival_calendar_path.clj`
+
 ## Setup
 
 The Torah prescribes a liturgical calendar with specific numbers: Passover day 14, Unleavened Bread 7 days, Omer count 50 days, Trumpets day 1 month 7, Atonement day 10 month 7, Sukkot 7 days with 13→7 bulls. These numbers are axis values. Do they navigate the space?

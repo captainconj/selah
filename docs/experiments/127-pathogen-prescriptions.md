@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/127_pathogen_prescriptions.clj`
+**Run:** `clojure -M:dev dev/experiments/127_pathogen_prescriptions.clj`
+
 Experiment 123 showed M. leprae proteins contain NO serpent — unlike viruses (experiment 107). The bacteria carry Nazareth, the lamb, the altar, the forehead. The disease carries its cure.
 
 Is this specific to leprosy? What do other pathogens contain?

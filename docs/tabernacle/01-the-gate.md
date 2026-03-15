@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Next](02-the-courtyard.md)
+
 **שער** — gate. GV = 570. A fixed point.
 
 We enter the tabernacle here. The east side. Twenty cubits wide.

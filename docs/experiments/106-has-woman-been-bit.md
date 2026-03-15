@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/106_has_woman_been_bit.clj`
+**Run:** `clojure -M:dev dev/experiments/106_has_woman_been_bit.clj`
+
 ---
 
 ## The Question

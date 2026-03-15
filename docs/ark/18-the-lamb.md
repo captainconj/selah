@@ -3,6 +3,8 @@
 Type: `evidence`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](17-the-garden.md) · [Next](19-the-code.md)
+
 *The sacrifice so that life can exist.*
 
 ---

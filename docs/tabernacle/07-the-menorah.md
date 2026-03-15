@@ -4,6 +4,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](06-the-table.md) · [Next](08-the-incense-altar.md)
+
 *Ex 25:31 at (2, 31, 9, 9). Ex 37:17 at (3, 5, 7, 31).*
 
 **מנרה** — menorah. GV = 295. Not fixed. The menorah transforms.

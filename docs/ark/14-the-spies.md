@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](13-the-charge.md) · [Next](15-gopher-wood.md)
+
 *What the Ark looks like from the outside.*
 
 Three spies were sent to look at the Ark's structure through the lens of molecular biology. They returned with hypotheses — where the parallels are strong, where they are moderate, where they are a stretch. These are observations, not claims.

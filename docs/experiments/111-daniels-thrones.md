@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/111_daniels_thrones.clj`
+**Run:** `clojure -M:dev dev/experiments/111_daniels_thrones.clj`
+
 ## The Question
 
 Daniel 7 is the fourth throne-room vision. Four beasts rise from the sea. Thrones are set up. The Ancient of Days sits. One like a son of man comes on the clouds. Dominion is given.

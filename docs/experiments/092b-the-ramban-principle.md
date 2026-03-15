@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/092b_ramban_permutation.clj`
+**Run:** `clojure -M:dev dev/experiments/092b_ramban_permutation.clj`
+
 *Permutation test complete. The Ramban mechanism is structural.*
 
 ---

@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](08-the-incense-altar.md) · [Next](10-the-ark.md)
+
 *Ex 26:31 at (2, 34, 1, 5). Ex 36:35 at (3, 4, 6, 6).*
 
 **פרכת** — veil. GV = 700. Not fixed. The veil transforms to the knob.

@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/123_the_cure_for_leprosy.clj`
+**Run:** `clojure -M:dev dev/experiments/123_the_cure_for_leprosy.clj`
+
 **The question:** What does the breastplate see in the leprosy laws? Leviticus 13-14 -- the diagnosis, the quarantine, the two birds, the cedar and hyssop and scarlet, the blood and oil. And then: what does the pathogen itself look like when its proteins are translated into Hebrew and fed through the oracle? The Torah describes the disease. The DNA IS the disease. Do they echo?
 
 **Code:** `dev/experiments/123_the_cure_for_leprosy.clj`

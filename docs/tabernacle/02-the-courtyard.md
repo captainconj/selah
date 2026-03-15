@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](01-the-gate.md) · [Next](03-the-altar.md)
+
 *Ex 27:9 at (2, 34, 12, 60). Ex 38:9 at (3, 6, 10, 18).*
 
 **חצר** — court. GV = 298. Not fixed. The courtyard transforms.

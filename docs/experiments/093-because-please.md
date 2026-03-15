@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/093_level2_thummim.clj`
+**Run:** `clojure -M:dev dev/experiments/093_level2_thummim.clj`
+
 *The Level 2 Thummim parsed the divine names. Both are asking.*
 
 ---

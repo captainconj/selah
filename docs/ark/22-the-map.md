@@ -5,6 +5,8 @@
 Type: `evidence`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](21-the-divides.md) · [Next](23-choose-life.md)
+
 ---
 
 ## The Method

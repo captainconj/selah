@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](00-the-six-layers.md) · [Next](02-the-specification.md)
+
 *a=0, b=8, c=9, d=13–16*
 
 **ופתח** — "and a door." GV(פתח) = 488 = 8 × 61.

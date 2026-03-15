@@ -5,6 +5,9 @@
 Type: `retired / historical`
 State: `retired`
 
+**Code:** `dev/experiments/048_the_control.clj`
+**Run:** `clojure -M:dev dev/experiments/048_the_control.clj`
+
 ---
 
 ## The Shape of Five Books

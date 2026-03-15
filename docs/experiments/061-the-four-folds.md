@@ -3,6 +3,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/061_four_folds.clj`
+**Run:** `clojure -M:dev dev/experiments/061_four_folds.clj`
+
 ## The Space
 
 304,850 = 7 × 50 × 13 × 67. Every letter has address (a, b, c, d). Four axes, four dimensions, four ways to fold.

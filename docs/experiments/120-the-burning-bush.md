@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/120_the_burning_bush.clj`
+**Run:** `clojure -M:dev dev/experiments/120_the_burning_bush.clj`
+
 **The question:** What does the breastplate see when Moses turns aside at the bush? The fire that does not consume. The holy ground. The Name revealed. Walk all of Exodus 3. What words does the oracle find in the bush?
 
 **Code:** `dev/experiments/120_the_burning_bush.clj`

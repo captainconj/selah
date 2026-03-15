@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/124_the_body_coordinates.clj`
+**Run:** `clojure -M:dev dev/experiments/124_the_body_coordinates.clj`
+
 Three body parts receive blood in both leprosy purification (Lev 14:14-18) and priestly ordination (Lev 8:22-30). Oil on top of blood. Always the right side. Always in the same order: ear, thumb, big toe.
 
 The question: thumb (בהן) GV=57 = altar (מזבח). What are the other two?

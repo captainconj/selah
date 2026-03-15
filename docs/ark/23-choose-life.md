@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](22-the-map.md) · [Next](24-the-king.md)
+
 *What the basins told us before we had the map.*
 
 ---

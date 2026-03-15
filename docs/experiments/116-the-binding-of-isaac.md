@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/116_the_binding_of_isaac.clj`
+**Run:** `clojure -M:dev dev/experiments/116_the_binding_of_isaac.clj`
+
 **The question:** What does the breastplate see when the father raises the knife? Genesis 22 — the Aqedah. The first love. The mountain. The ram. Walk all 24 verses through the oracle.
 
 **Code:** `dev/experiments/116_the_binding_of_isaac.clj`

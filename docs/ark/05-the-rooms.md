@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](04-the-rules.md) · [Next](06-the-covering.md)
+
 *a=0, b=8, c=7, d=28–31*
 
 **קנים** — rooms, nests, compartments. GV = **200** = resh = head = beginning.

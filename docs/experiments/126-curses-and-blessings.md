@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/126_curses_and_blessings.clj`
+**Run:** `clojure -M:dev dev/experiments/126_curses_and_blessings.clj`
+
 Experiment 119 (the Fall) showed that Genesis 3's curses resolve through basin walks: flaming→dew, skin→friend, sweat→strength, pain→profit. Is this universal?
 
 46 curse/judgment/destruction words. 48 blessing/goodness/life words. Walk them all.

@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/121_jacob_wrestles.clj`
+**Run:** `clojure -M:dev dev/experiments/121_jacob_wrestles.clj`
+
 **The question:** What does the breastplate see when Jacob wrestles the angel at the Jabbok? Genesis 32:23–33 — the naming of Israel. Eleven verses. The hip, the sinew, the name, the face. Walk the wrestling through the oracle. What breaks? What holds?
 
 **Code:** `dev/experiments/121_jacob_wrestles.clj`

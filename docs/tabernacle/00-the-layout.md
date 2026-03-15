@@ -5,6 +5,8 @@ pl# The Layout
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Next](01-the-gate.md)
+
 ---
 
 ## Two Tellings

@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](02-the-specification.md) · [Next](04-the-rules.md)
+
 *a=0, b=8, c=7, d=0–66*
 
 We descended through **אשר** (which/blessed, GV=501) — the bridge word from the specification above. You cannot reach the foundation without passing through blessing.

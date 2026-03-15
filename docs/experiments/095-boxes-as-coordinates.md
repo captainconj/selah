@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/095_boxes_as_coordinates.clj`
+**Run:** `clojure -M:dev dev/experiments/095_boxes_as_coordinates.clj`
+
 ## Setup
 
 The guard word שמר (GV=540) factors as 4 × 135 = 4 × פנה (corner). The Ark's volume in half-cubits is 5×3×3 = 45, and 540 = 12 × 45 — twelve breastplate stones times one Ark. The Hebrew word תבה means both "ark/box" and "word." If the box is a word, perhaps its dimensions are an address.

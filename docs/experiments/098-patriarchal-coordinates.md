@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/098_patriarchal_coordinates.clj`
+**Run:** `clojure -M:dev dev/experiments/098_patriarchal_coordinates.clj`
+
 ## Setup
 
 Every patriarch in Genesis 5 and 11 has two numbers: a lifespan and an age at begetting. These are not random — they are specific, sometimes very large, and their patterns have been debated for millennia. If the 4D space is real, these numbers should have coordinates.

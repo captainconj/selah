@@ -3,6 +3,8 @@
 Type: `guided reproduction`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](11-the-taxonomy.md) · [Next](13-the-charge.md)
+
 *a=0, b=8, c=6 — directly below the Ark*
 
 We walked all six layers. The Ark (c=7, 8, 9) and everything above it (c=10, 11, 12). The tree of life grows at the top. Three branches. Each after its kind.

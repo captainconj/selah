@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/103_throne_room.clj`
+**Run:** `clojure -M:dev dev/experiments/103_throne_room.clj`
+
 ---
 
 ## The Hypothesis

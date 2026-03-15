@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](27-the-guardian.md) · [Next](30-the-blood.md)
+
 *The serpent had a weapon. We played it through the breastplate.*
 
 ---

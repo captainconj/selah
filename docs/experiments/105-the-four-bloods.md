@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/105_the_four_bloods.clj`
+**Run:** `clojure -M:dev dev/experiments/105_the_four_bloods.clj`
+
 ---
 
 ## The Hypothesis

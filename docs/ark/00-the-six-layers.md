@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Next](01-the-door.md)
+
 Six layers of 67 letters above the warning. 402 letters of Ark and purpose. One column of the Torah's 4D space.
 
 ---

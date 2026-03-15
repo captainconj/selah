@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](12-the-meeting.md)
+
 ---
 
 There is no verse for this station. No furniture. No instruction. No blueprint shown on the mountain. Love was never commanded to be built because love is what the building is made of.

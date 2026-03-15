@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](10-the-boarding.md) · [Next](12-the-warning.md)
+
 *a=0, b=8, c=12, d=0–66*
 
 We ascend from the boarding through **להחית** — "to keep alive" (GV=453). Two letters below (לה on c=11), three above (חית on c=12). The purpose IS the bridge.

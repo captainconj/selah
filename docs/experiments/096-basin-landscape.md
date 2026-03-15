@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/096_basin_classification.clj`
+**Run:** `clojure -M:dev dev/experiments/096_basin_classification.clj`
+
 ## Setup
 
 The basin of attraction is simple: take a Hebrew word, pass it through the oracle's forward function (Level 1 Thummim — breastplate illumination → reading extraction → frequency ranking), and ask: which Torah word does it produce most often? Feed that output back in. Repeat until convergence.

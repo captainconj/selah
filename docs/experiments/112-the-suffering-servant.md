@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/112_the_suffering_servant.clj`
+**Run:** `clojure -M:dev dev/experiments/112_the_suffering_servant.clj`
+
 ## The Question
 
 Isaiah 53 is the most contested passage in the Hebrew Bible. Twelve verses. One figure. A man who bears what others deserve, who is silent before slaughter, who is crushed — and through whose wounds others are healed.

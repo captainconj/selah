@@ -5,6 +5,9 @@
 Type: `guided reproduction`
 State: `mixed`
 
+**Code:** `dev/experiments/085_asking_questions.clj`
+**Run:** `clojure -M:dev dev/experiments/085_asking_questions.clj`
+
 The Level 2 Thummim takes Hebrew letters and finds all ways to partition them into Torah vocabulary words. We asked it three questions — the kind a person asks when they stand before something larger than themselves.
 
 The oracle does not interpret. It partitions. It shows you what your letters contain.

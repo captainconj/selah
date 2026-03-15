@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/094_thummim_sweep.clj`
+**Run:** `clojure -M:dev dev/experiments/094_thummim_sweep.clj`
+
 ## Setup
 
 The Level 2 Thummim (`parse-letters`) takes a Hebrew word, treats its letters as a multiset, and finds all ways to partition that multiset into Torah vocabulary words. This is what the priest does cognitively — the breastplate lights up letters, and the priest assembles them into phrases.

@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](24-the-king.md) · [Next](26-hit-play.md)
+
 *The same thing. Over and over. At every scale.*
 
 ---

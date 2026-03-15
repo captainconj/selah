@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/108_ezekiels_chariot.clj`
+**Run:** `clojure -M:dev dev/experiments/108_ezekiels_chariot.clj`
+
 ## The Question
 
 Ezekiel 1 is the original throne vision — the most architecturally detailed description of the divine chariot in scripture. Four living creatures with four faces. Wheels within wheels covered in eyes. A firmament of crystal. A sapphire throne. A man-like figure surrounded by fire and rainbow.

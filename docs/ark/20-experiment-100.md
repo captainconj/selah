@@ -5,6 +5,8 @@
 Type: `evidence`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](19-the-code.md) · [Next](21-the-divides.md)
+
 ---
 
 ## The Hypothesis

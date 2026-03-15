@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](20-experiment-100.md) · [Next](22-the-map.md)
+
 *Every pair in Genesis encodes a layer of the machine. Every redemption repairs it.*
 
 ---

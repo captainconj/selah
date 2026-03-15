@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](16-inside-the-rooms.md) · [Next](18-the-lamb.md)
+
 *Where the tree of life grows.*
 
 ---

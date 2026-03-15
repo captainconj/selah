@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](05-the-rooms.md) · [Next](07-the-blessing.md)
+
 *a=0, b=8, c=7, d=32–66*
 
 Walking right from the rooms (d=28–31). The instruction continues.

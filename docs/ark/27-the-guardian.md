@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](26-hit-play.md) · [Next](29-the-serpent.md)
+
 *The garden had a guardian. We played it through the breastplate.*
 
 ---

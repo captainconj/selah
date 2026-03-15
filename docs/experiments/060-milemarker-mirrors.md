@@ -3,6 +3,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/060_milemarker_mirrors.clj`
+**Run:** `clojure -M:dev dev/experiments/060_milemarker_mirrors.clj`
+
 ## The Classic Pattern
 
 The Torah contains equidistant letter sequences (ELS) that spell תורה (Torah) at skip 50 in the outer four books, pointing inward to Leviticus, where יהוה (the Name) appears at skip 7:

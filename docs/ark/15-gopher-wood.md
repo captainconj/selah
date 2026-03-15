@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](14-the-spies.md) · [Next](16-inside-the-rooms.md)
+
 *The material that cannot be named.*
 
 ---

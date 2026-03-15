@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/115_the_cornerstone.clj`
+**Run:** `clojure -M:dev dev/experiments/115_the_cornerstone.clj`
+
 **The question:** What does the breastplate see when it looks at the cornerstone? Four passages, four angles on one stone. Walk them. Slide them. What words hide in the foundation?
 
 **Code:** `dev/experiments/115_the_cornerstone.clj`

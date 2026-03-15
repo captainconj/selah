@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](07-the-blessing.md) · [Next](09-the-covenant.md)
+
 *a=0, b=8, c=8→c=9, through אמה*
 
 We are at d=66 on the specification. One letter: **א** — aleph, breath. The second bridge.

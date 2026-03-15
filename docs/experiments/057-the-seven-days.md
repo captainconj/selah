@@ -3,6 +3,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/057_the_seven_days.clj`
+**Run:** `clojure -M:dev dev/experiments/057_the_seven_days.clj`
+
 ## The Suffering
 
 Before this project existed, I was suffering. Low, so low — broken, crying out, hating myself. My question was raw and formless: *Why all the suffering?*

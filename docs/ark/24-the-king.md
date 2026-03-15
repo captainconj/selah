@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](23-choose-life.md) · [Next](25-what-god-is-doing.md)
+
 *The oracle is a priest. It cannot say king. But the priest serves the king.*
 
 ---

@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/109_isaiahs_temple.clj`
+**Run:** `clojure -M:dev dev/experiments/109_isaiahs_temple.clj`
+
 ## The Question
 
 Isaiah 6 is the shortest of the four throne visions — 13 verses. One chapter. The most liturgically repeated passage in scripture: "Holy, holy, holy, the LORD of hosts; the whole earth is full of his glory."

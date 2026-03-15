@@ -3,6 +3,8 @@
 Type: `planning`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](33-the-genome.md)
+
 *Habakkuk 2:2-3 through the breastplate.*
 
 ---

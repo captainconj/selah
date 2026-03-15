@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](18-the-lamb.md) · [Next](20-experiment-100.md)
+
 *The breastplate as codon table. The letters as amino acids. The cribs as constraints.*
 
 ---

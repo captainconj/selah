@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](06-the-covering.md) · [Next](08-the-measure.md)
+
 *a=0, b=8, c=7→c=8, through אשר*
 
 We are at the end of the foundation. d=66. One letter: **א** — aleph, breath. The bridge.

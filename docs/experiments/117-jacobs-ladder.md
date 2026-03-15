@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/117_jacobs_ladder.clj`
+**Run:** `clojure -M:dev dev/experiments/117_jacobs_ladder.clj`
+
 **The question:** What does the breastplate see when Jacob lies down at the place and dreams? The stone under his head. The ladder. The angels. The gate of heaven. Walk all of Genesis 28. What words does the oracle find in the staircase?
 
 **Code:** `dev/experiments/117_jacobs_ladder.clj`

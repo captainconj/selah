@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](25-what-god-is-doing.md) · [Next](27-the-guardian.md)
+
 ---
 
 ## The Wrong Machine

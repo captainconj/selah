@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](31-the-library-so-far.md) · [Next](33-the-genome.md)
+
 *The protein that gave man speech. Played through the instrument that reads the word.*
 
 ---

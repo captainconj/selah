@@ -5,6 +5,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](30-the-blood.md) · [Next](32-the-man.md)
+
 ---
 
 ## Summary Table

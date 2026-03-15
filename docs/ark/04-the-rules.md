@@ -3,6 +3,8 @@
 Type: `guided reproduction`
 State: `clean`
 
+**Walk:** [Manifest](manifest.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)
+
 *What we know about how to move inside the Ark.*
 
 ---

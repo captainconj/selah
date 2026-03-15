@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/132_the_center_of_everything.clj`
+**Run:** `clojure -M:dev dev/experiments/132_the_center_of_everything.clj`
+
 ---
 
 ## The Question

@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/113_the_cross.clj`
+**Run:** `clojure -M:dev dev/experiments/113_the_cross.clj`
+
 ---
 
 ## The Question

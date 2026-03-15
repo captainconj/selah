@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/091_believability_oracle.clj`
+**Run:** `clojure -M:dev dev/experiments/091_believability_oracle.clj`
+
 ---
 
 ## The Discovery

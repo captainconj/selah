@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](08-the-measure.md) · [Next](10-the-boarding.md)
+
 *a=0, b=8, c=10, d=0–66*
 
 We stand on the door floor (c=9). Below us: the specification and the foundation. We have the blueprint. We have the blessing. We have the measure.

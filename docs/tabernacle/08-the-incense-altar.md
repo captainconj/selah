@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](07-the-menorah.md) · [Next](09-the-veil.md)
+
 *Ex 30:1 at (2, 41, 3, 36). Ex 37:25 at (3, 6, 0, 47).*
 
 **מזבח קטרת** — altar of incense. GV = 57 + 709 = 766. The altar is fixed. The incense transforms.

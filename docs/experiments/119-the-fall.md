@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/119_the_fall.clj`
+**Run:** `clojure -M:dev dev/experiments/119_the_fall.clj`
+
 **The question:** What does the breastplate see in Genesis 3 — the chapter where everything breaks? The serpent, the tree, the knowledge, the curse, the covering, the exile. Walk the entire Fall. What words does the oracle find in the wound?
 
 **Code:** `dev/experiments/119_the_fall.clj`

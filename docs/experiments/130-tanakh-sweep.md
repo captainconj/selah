@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `mixed`
 
+**Code:** `dev/experiments/130_tanakh_sweep.clj`
+**Run:** `clojure -M:dev dev/experiments/130_tanakh_sweep.clj`
+
 Isaiah has 66 chapters and mirrors the Bible's 66 books. Isaiah splits 39/27. The Bible splits 39/27 (OT/NT). Experiment 129 found structure at chapter scale in Isaiah: meaningful centers, partition factors, mirror pairs. Does the same structure exist at book scale across the entire Hebrew Bible?
 
 ## The Center Is Isaiah

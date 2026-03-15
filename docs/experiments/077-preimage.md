@@ -1,6 +1,9 @@
 Type: `notebook`
 State: `mixed`
 
+**Code:** `dev/experiments/077_preimage_clusters.clj`
+**Run:** `clojure -M:dev dev/experiments/077_preimage_clusters.clj`
+
 ● The preimage is computed. And it confirms the structure:
 
 ברית (covenant) at b=44, c=11, d=0 — the a-fiber origin is Genesis 28:9, Esau's marriage. The very verse that fills the missing c=10 rung of the

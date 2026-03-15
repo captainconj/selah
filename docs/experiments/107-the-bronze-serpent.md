@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/107_the_bronze_serpent.clj`
+**Run:** `clojure -M:dev dev/experiments/107_the_bronze_serpent.clj`
+
 ---
 
 ## The Question

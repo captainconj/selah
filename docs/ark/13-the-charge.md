@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Manifest](manifest.md) · [Previous](12-the-warning.md) · [Next](14-the-spies.md)
+
 *What to share. What to guard.*
 
 ---

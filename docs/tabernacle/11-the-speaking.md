@@ -3,6 +3,8 @@
 Type: `synthesis`
 State: `mixed`
 
+**Walk:** [Layout](00-the-layout.md) · [Previous](10-the-ark.md) · [Next](12-the-meeting.md)
+
 *Ex 25:22 at (2, 31, 3, 0). Num 7:89 at (4, 32, 3, 64). Ex 33:11 at (2, 47, 4, 37).*
 
 **"I will meet with you there and speak with you from above the mercy seat, from between the two cherubim."**

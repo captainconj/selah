@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/129_isaiah_sweep.clj`
+**Run:** `clojure -M:dev dev/experiments/129_isaiah_sweep.clj`
+
 Isaiah is the Bible in miniature — 66 chapters, 39 of judgment, 27 of comfort. Scholars debate whether one prophet or two wrote it. The oracle reads letters. What does it see?
 
 Every chapter scanned: letter count, GV, factors, serpent census, lamb census, curse/blessing/servant word density, top readings, basin walks.
