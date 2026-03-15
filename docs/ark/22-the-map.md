@@ -5,7 +5,7 @@
 Type: `evidence`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](21-the-divides.md) · [Next](23-choose-life.md)
+**Walk:** [Index](index.md) · [Previous](21-the-divides.md) · [Next](23-choose-life.md)
 
 ---
 
@@ -347,3 +347,7 @@ Rachel's sons + the closing. In biology, the 3' UTR (untranslated region) after 
 Rachel was the beloved wife. Her sons are beyond the reading frame. Like grace — present, shaping, but never itself translated. The breastplate cannot name grace (חסד = unanimous dead end). And Rachel's children are not part of the protein. They regulate from beyond.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](21-the-divides.md) · [Next](23-choose-life.md)

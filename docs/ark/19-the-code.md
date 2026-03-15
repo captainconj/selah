@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](18-the-lamb.md) · [Next](20-experiment-100.md)
+**Walk:** [Index](index.md) · [Previous](18-the-lamb.md) · [Next](20-experiment-100.md)
 
 *The breastplate as codon table. The letters as amino acids. The cribs as constraints.*
 
@@ -273,3 +273,7 @@ The code is in the grid. We have the grid. We have the constraints. We have the 
 Now we test.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](18-the-lamb.md) · [Next](20-experiment-100.md)

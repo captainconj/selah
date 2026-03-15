@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](29-the-serpent.md) · [Next](31-the-library-so-far.md)
+**Walk:** [Index](index.md) · [Previous](29-the-serpent.md) · [Next](31-the-library-so-far.md)
 
 *The blood is the life. We played it through the breastplate.*
 
@@ -263,3 +263,7 @@ The blood is known (נודע). It answers the voice (לקול). It gives birth (
 The blood knows, and it speaks.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](29-the-serpent.md) · [Next](31-the-library-so-far.md)

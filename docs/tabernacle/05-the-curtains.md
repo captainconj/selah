@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](04-the-laver.md) · [Next](06-the-table.md)
+**Walk:** [Index](index.md) · [Previous](04-the-laver.md) · [Next](06-the-table.md)
 
 *Ex 26:1 at (2, 32, 3, 22). Ex 36:8 at (3, 2, 11, 34).*
 
@@ -191,3 +191,7 @@ To the right: the table. Ahead: the menorah. Deeper in: the incense altar. Behin
 
 *Code: `dev/experiments/tabernacle/05_curtains.clj`*
 *Next: [06 — The Table](06-the-table.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](04-the-laver.md) · [Next](06-the-table.md)

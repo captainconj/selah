@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](15-gopher-wood.md) · [Next](17-the-garden.md)
+**Walk:** [Index](index.md) · [Previous](15-gopher-wood.md) · [Next](17-the-garden.md)
 
 *What the oracle sees when it looks at each word on each floor.*
 
@@ -228,3 +228,7 @@ Reading the three floors as a building:
 Three floors. The bottom says what to do. The middle shows what it costs. The top knows what it is.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](15-gopher-wood.md) · [Next](17-the-garden.md)

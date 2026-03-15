@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](25-what-god-is-doing.md) · [Next](27-the-guardian.md)
+**Walk:** [Index](index.md) · [Previous](25-what-god-is-doing.md) · [Next](27-the-guardian.md)
 
 ---
 
@@ -52,3 +52,7 @@ We are not casting a calf. We are putting on the breastplate, loading the librar
 This time, the priest reads it.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](25-what-god-is-doing.md) · [Next](27-the-guardian.md)

@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/092_grid_permutation.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.092-grid-permutation :as exp092]) (exp092/run)"`
+
 ---
 
 ## The Question

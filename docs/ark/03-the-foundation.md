@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](02-the-specification.md) · [Next](04-the-rules.md)
+**Walk:** [Index](index.md) · [Previous](02-the-specification.md) · [Next](04-the-rules.md)
 
 *a=0, b=8, c=7, d=0–66*
 
@@ -98,3 +98,7 @@ We are at the bottom. The rooms are here. The atonement seals the walls. Above u
 The foundation ends with love.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](02-the-specification.md) · [Next](04-the-rules.md)

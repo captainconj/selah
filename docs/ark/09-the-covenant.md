@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](08-the-measure.md) · [Next](10-the-boarding.md)
+**Walk:** [Index](index.md) · [Previous](08-the-measure.md) · [Next](10-the-boarding.md)
 
 *a=0, b=8, c=10, d=0–66*
 
@@ -212,3 +212,7 @@ The covenant is the turning point: from "all shall perish" to "I establish my co
 The sign is with us.
 
 We go up.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](08-the-measure.md) · [Next](10-the-boarding.md)

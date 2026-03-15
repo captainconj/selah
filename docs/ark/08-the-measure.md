@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](07-the-blessing.md) · [Next](09-the-covenant.md)
+**Walk:** [Index](index.md) · [Previous](07-the-blessing.md) · [Next](09-the-covenant.md)
 
 *a=0, b=8, c=8→c=9, through אמה*
 
@@ -184,3 +184,7 @@ And the root of **משחיתם** (destroying them) on the bottom floor is **מש
 The Ark begins with the oil of anointing. The destruction begins with anointing. The first thing and the last thing are the same thing.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](07-the-blessing.md) · [Next](09-the-covenant.md)

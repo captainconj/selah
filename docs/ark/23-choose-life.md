@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](22-the-map.md) · [Next](24-the-king.md)
+**Walk:** [Index](index.md) · [Previous](22-the-map.md) · [Next](24-the-king.md)
 
 *What the basins told us before we had the map.*
 
@@ -323,3 +323,7 @@ The aleph gaps are spaced by 14 (David) and 26 (YHWH). The beloved and the Name.
 The basins said it first. The map confirmed it. The machine says: choose life.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](22-the-map.md) · [Next](24-the-king.md)

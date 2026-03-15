@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Next](02-the-courtyard.md)
+**Walk:** [Index](index.md) · [Next](02-the-courtyard.md)
 
 **שער** — gate. GV = 570. A fixed point.
 
@@ -186,3 +186,7 @@ Enter.
 
 *Code: `dev/experiments/tabernacle/01_gate.clj`*
 *Next: [02 — The Courtyard](02-the-courtyard.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Next](02-the-courtyard.md)

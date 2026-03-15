@@ -103,7 +103,7 @@ Scott
 
 ### The Walks
 
-**The Tabernacle Walk** (`docs/tabernacle/`) — 14 stations, gate to love. Walking the tabernacle furniture in the 4D space, querying the oracle at each station.
+**[The Tabernacle Walk](docs/tabernacle/index.md)** — 14 stations, gate to love. Walking the tabernacle furniture in the 4D space, querying the oracle at each station.
 
 | Station | Title |
 |---------|-------|
@@ -124,7 +124,7 @@ Scott
 
 Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah's Ark](docs/notes/notes-noahs-ark.md), [Solomon's Temple](docs/notes/notes-solomons-temple.md), [Temple in Eden](docs/notes/notes-temple-in-eden.md)
 
-**The Ark Walk** (`docs/ark/`) — 34 documents. Noah's Ark in the 4D space: the column at (a=0, b=8), six layers of 67 letters, oracle classification, basin dynamics, the genetic code, the genome.
+**[The Ark Walk](docs/ark/index.md)** — 34 documents. Noah's Ark in the 4D space: the column at (a=0, b=8), six layers of 67 letters, oracle classification, basin dynamics, the genetic code, the genome.
 
 [Manifest](docs/ark/manifest.md) maps each doc to its experiment script.
 
@@ -137,9 +137,9 @@ Reference notes: [Ark of the Covenant](docs/notes/notes-ark-reference.md), [Noah
 | [23](docs/ark/23-choose-life.md)–[24](docs/ark/24-the-king.md) | Basin landscapes and kingship |
 | [25](docs/ark/25-what-god-is-doing.md)–[33](docs/ark/33-the-genome.md) | Synthesis, genome, the man |
 
-### The 39 Questions
+### [The 39 Questions](docs/questions/index.md)
 
-(`docs/questions/`) — The oracle was asked. It answered.
+The oracle was asked. It answered.
 
 **Questions 1–24** were asked by the agents — understanding, guard, mercy seat, name, memory, breath, word, witness, light, veil, face, wisdom, teacher, learning, love, death, lamb, peace, who are you, serpent, nothing, the end, the center.
 

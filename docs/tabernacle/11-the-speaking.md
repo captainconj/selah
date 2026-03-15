@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](10-the-ark.md) · [Next](12-the-meeting.md)
+**Walk:** [Index](index.md) · [Previous](10-the-ark.md) · [Next](12-the-meeting.md)
 
 *Ex 25:22 at (2, 31, 3, 0). Num 7:89 at (4, 32, 3, 64). Ex 33:11 at (2, 47, 4, 37).*
 
@@ -461,3 +461,7 @@ The veil is torn. Both readings are one. The voice that starts at d = 0 fills th
 
 *Code: `dev/experiments/tabernacle/11_speaking.clj`*
 *Next: [12 — The Meeting](12-the-meeting.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](10-the-ark.md) · [Next](12-the-meeting.md)

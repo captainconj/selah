@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/129_isaiah_sweep.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.129-isaiah-sweep :as exp129]) (exp129/run-all)"`
+
 ---
 
 ## The Question

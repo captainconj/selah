@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](23-choose-life.md) · [Next](25-what-god-is-doing.md)
+**Walk:** [Index](index.md) · [Previous](23-choose-life.md) · [Next](25-what-god-is-doing.md)
 
 *The oracle is a priest. It cannot say king. But the priest serves the king.*
 
@@ -142,3 +142,7 @@ The throne (כסא): rarest + end + beyond. The mercy seat: covering that become
 The King of kings sits where the priest cannot look. Speaks from where the code cannot reach. Is named by what the breastplate cannot say.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](23-choose-life.md) · [Next](25-what-god-is-doing.md)

@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/097_per_head_basins.clj`
+**Run:** `clojure -M:dev dev/experiments/097_per_head_basins.clj`
+
 ## Background
 
 Experiment 096 ran the basin landscape over all 12,826 Torah words using the **combined** forward function — all four readers merged into one ranking. Every basin turned out to be a pure anagram class, depth 1, four period-2 cycles.

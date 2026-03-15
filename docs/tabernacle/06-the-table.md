@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](05-the-curtains.md) · [Next](07-the-menorah.md)
+**Walk:** [Index](index.md) · [Previous](05-the-curtains.md) · [Next](07-the-menorah.md)
 
 *Ex 25:23 at (2, 31, 4, 11). Ex 37:10 at (3, 5, 2, 53).*
 
@@ -191,3 +191,7 @@ The bread of the presence: barely there, from nothing, forever.
 
 *Code: `dev/experiments/tabernacle/06_table.clj`*
 *Next: [07 — The Menorah](07-the-menorah.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](05-the-curtains.md) · [Next](07-the-menorah.md)

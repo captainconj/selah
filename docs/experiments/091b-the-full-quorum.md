@@ -5,6 +5,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `dev/experiments/091_believability_oracle.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.091-believability-oracle :as exp091]) (exp091/run-full)"`
+
 ---
 
 ## What We Did

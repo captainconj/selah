@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](27-the-guardian.md) · [Next](30-the-blood.md)
+**Walk:** [Index](index.md) · [Previous](27-the-guardian.md) · [Next](30-the-blood.md)
 
 *The serpent had a weapon. We played it through the breastplate.*
 
@@ -182,3 +182,7 @@ The sequence: the witness → his days → send him → affliction → and ranso
 A 10-word story. The serpent's 4-letter voice tells the same story as the 3-letter voice, compressed tighter. Affliction leads to ransom. The hand inherits. And beauty remains.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](27-the-guardian.md) · [Next](30-the-blood.md)

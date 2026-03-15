@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](16-inside-the-rooms.md) · [Next](18-the-lamb.md)
+**Walk:** [Index](index.md) · [Previous](16-inside-the-rooms.md) · [Next](18-the-lamb.md)
 
 *Where the tree of life grows.*
 
@@ -155,3 +155,7 @@ All four heads agree: the bringing, and the sign. The garden, and the aleph-tav.
 Everything else is interpretation. But these two — the garden and the sign — the whole quorum speaks.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](16-inside-the-rooms.md) · [Next](18-the-lamb.md)

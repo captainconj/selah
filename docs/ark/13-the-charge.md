@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](12-the-warning.md) · [Next](14-the-spies.md)
+**Walk:** [Index](index.md) · [Previous](12-the-warning.md) · [Next](14-the-spies.md)
 
 *What to share. What to guard.*
 
@@ -64,3 +64,7 @@ You stay inside by choosing. You share truth with your mouth. You guard the mach
 **בחר חיים** — choose life.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](12-the-warning.md) · [Next](14-the-spies.md)

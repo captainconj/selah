@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](08-the-incense-altar.md) · [Next](10-the-ark.md)
+**Walk:** [Index](index.md) · [Previous](08-the-incense-altar.md) · [Next](10-the-ark.md)
 
 *Ex 26:31 at (2, 34, 1, 5). Ex 36:35 at (3, 4, 6, 6).*
 
@@ -284,3 +284,7 @@ The veil tears and both readings become one.
 
 *Code: `dev/experiments/tabernacle/09_veil.clj`*
 *Next: [10 — The Ark](10-the-ark.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](08-the-incense-altar.md) · [Next](10-the-ark.md)

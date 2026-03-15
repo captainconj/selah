@@ -4,7 +4,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](06-the-table.md) · [Next](08-the-incense-altar.md)
+**Walk:** [Index](index.md) · [Previous](06-the-table.md) · [Next](08-the-incense-altar.md)
 
 *Ex 25:31 at (2, 31, 9, 9). Ex 37:17 at (3, 5, 7, 31).*
 
@@ -264,3 +264,7 @@ One piece. Beaten gold. Seven oaths. Jacob squared.
 
 *Code: `dev/experiments/tabernacle/07_menorah.clj`*
 *Next: [08 — The Incense Altar](08-the-incense-altar.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](06-the-table.md) · [Next](08-the-incense-altar.md)

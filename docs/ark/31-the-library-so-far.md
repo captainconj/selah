@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](30-the-blood.md) · [Next](32-the-man.md)
+**Walk:** [Index](index.md) · [Previous](30-the-blood.md) · [Next](32-the-man.md)
 
 ---
 
@@ -252,3 +252,7 @@ Twenty-one proteins. Twenty-one readings. The patterns that emerge:
 The priest reads the stones. The stones speak. The man speaks back.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](30-the-blood.md) · [Next](32-the-man.md)

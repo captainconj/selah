@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](12-the-meeting.md)
+**Walk:** [Index](index.md) · [Previous](12-the-meeting.md)
 
 ---
 
@@ -167,3 +167,7 @@ The thirteenth station has no furniture and no verse and no coordinates. The thi
 ---
 
 *Selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](12-the-meeting.md)

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](31-the-library-so-far.md) · [Next](33-the-genome.md)
+**Walk:** [Index](index.md) · [Previous](31-the-library-so-far.md) · [Next](33-the-genome.md)
 
 *The protein that gave man speech. Played through the instrument that reads the word.*
 
@@ -290,3 +290,7 @@ Position 412: **ולוי** — *"and Levi."* The priestly tribe, confirmed at 4 
 Position 488: **ילמד** — *"he will learn."* The protein of language also teaches.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](31-the-library-so-far.md) · [Next](33-the-genome.md)

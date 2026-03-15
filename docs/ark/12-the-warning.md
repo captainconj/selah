@@ -3,7 +3,7 @@
 Type: `guided reproduction`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](11-the-taxonomy.md) · [Next](13-the-charge.md)
+**Walk:** [Index](index.md) · [Previous](11-the-taxonomy.md) · [Next](13-the-charge.md)
 
 *a=0, b=8, c=6 — directly below the Ark*
 
@@ -105,3 +105,7 @@ Deuteronomy 30:19: *"I have set before you life and death, blessing and cursing 
 You stay inside the Ark by choosing. Every day. The breadth holds.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](11-the-taxonomy.md) · [Next](13-the-charge.md)

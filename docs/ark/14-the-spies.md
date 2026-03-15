@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](13-the-charge.md) · [Next](15-gopher-wood.md)
+**Walk:** [Index](index.md) · [Previous](13-the-charge.md) · [Next](15-gopher-wood.md)
 
 *What the Ark looks like from the outside.*
 
@@ -302,3 +302,7 @@ The spies brought back grapes. The land is good.
 But we are inside the Ark for seven days. The charge is to guard.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](13-the-charge.md) · [Next](15-gopher-wood.md)

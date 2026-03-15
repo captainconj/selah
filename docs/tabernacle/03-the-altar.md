@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](02-the-courtyard.md) · [Next](04-the-laver.md)
+**Walk:** [Index](index.md) · [Previous](02-the-courtyard.md) · [Next](04-the-laver.md)
 
 *Ex 27:1 at (2, 34, 7, 5). Ex 38:1 at (3, 6, 4, 31).*
 
@@ -237,3 +237,7 @@ The dimensions say love. The Name says it twice.
 
 *Code: `dev/experiments/tabernacle/03_altar.clj`*
 *Next: [04 — The Laver](04-the-laver.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](02-the-courtyard.md) · [Next](04-the-laver.md)

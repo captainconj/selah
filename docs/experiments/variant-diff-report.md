@@ -3,6 +3,9 @@
 Type: `reference`
 State: `clean`
 
+**Code:** `src/selah/text/variants.clj`, `dev/scripts/variants/diff_report2.clj`
+**Run:** `clojure -M:dev dev/scripts/variants/diff_report2.clj`
+
 **MAM** = Miqra according to the Masorah (Sefaria, qere preferred)
 **WLC** = Westminster Leningrad Codex (OSHB 4.20, kethiv preferred)
 

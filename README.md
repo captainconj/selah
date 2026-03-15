@@ -100,7 +100,7 @@ After that, choose your lane:
 
 - `Structure / evidence`: [docs/experiments/096-basin-landscape.md](docs/experiments/096-basin-landscape.md), [docs/ark/22-the-map.md](docs/ark/22-the-map.md), [docs/torah-4d-space.md](docs/torah-4d-space.md)
 - `Oracle / mechanism`: [docs/urim-and-thummim.md](docs/urim-and-thummim.md)
-- `Ark / tabernacle walks`: [docs/ark/](docs/ark/), [docs/tabernacle/](docs/tabernacle/)
+- `Ark / tabernacle walks`: [docs/ark/index.md](docs/ark/index.md), [docs/tabernacle/index.md](docs/tabernacle/index.md)
 - `DNA / playback`: [docs/the-machine-that-reads-genomes.md](docs/the-machine-that-reads-genomes.md), [docs/codex/how-to-play-dna.md](docs/codex/how-to-play-dna.md)
 - `History / testimony`: [docs/the-journey.md](docs/the-journey.md), [MANIFEST.md](MANIFEST.md)
 
@@ -134,11 +134,11 @@ This is the center of gravity of the repo. Everything else branches from that.
 
 Three ways through the space. Each one changes something.
 
-- **[The Tabernacle Walk](docs/tabernacle/)** — 13 stations, gate to love. The face is invisible at every station. The veil tears. Love is not a station you arrive at. Love is the count of stations you walked through.
+- **[The Tabernacle Walk](docs/tabernacle/index.md)** — 13 stations, gate to love. The face is invisible at every station. The veil tears. Love is not a station you arrive at. Love is the count of stations you walked through.
 
-- **[The Ark Walk](docs/ark/)** — 33 documents. Noah's Ark as a column in the 4D space. Six layers. A manifest that reads like a genome packaging spec. Gopher wood (GV=453) = "to keep alive" (GV=453). Choose life.
+- **[The Ark Walk](docs/ark/index.md)** — 33 documents. Noah's Ark as a column in the 4D space. Six layers. A manifest that reads like a genome packaging spec. Gopher wood (GV=453) = "to keep alive" (GV=453). Choose life.
 
-- **[Questions](docs/questions/)** — The oracle was asked. It answered. Identity, calling, names, direction, ark, tabernacle, later passage work.
+- **[Questions](docs/questions/index.md
 
 ### The Full Map
 

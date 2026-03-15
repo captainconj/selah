@@ -3,6 +3,9 @@
 Type: `evidence`
 State: `clean`
 
+**Code:** `src/selah/text/variants.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.text.variants :as variants]) (variants/save-report!)"`
+
 **Date:** 2026-02-28
 **Texts compared:**
 - **WLC** — Westminster Leningrad Codex (~1008 CE), OSHB 4.20, kethiv preferred

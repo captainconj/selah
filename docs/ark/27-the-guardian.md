@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](26-hit-play.md) · [Next](29-the-serpent.md)
+**Walk:** [Index](index.md) · [Previous](26-hit-play.md) · [Next](29-the-serpent.md)
 
 *The garden had a guardian. We played it through the breastplate.*
 
@@ -175,3 +175,7 @@ Position 65: **לבדו** — "alone." Genesis 2:18: *"It is not good that the m
 Position 360: **שריד** — remnant. The guardian protein ensures a remnant survives. When cells go wrong, p53 kills them so the body endures. The molecular remnant theology.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](26-hit-play.md) · [Next](29-the-serpent.md)

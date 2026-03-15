@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](20-experiment-100.md) · [Next](22-the-map.md)
+**Walk:** [Index](index.md) · [Previous](20-experiment-100.md) · [Next](22-the-map.md)
 
 *Every pair in Genesis encodes a layer of the machine. Every redemption repairs it.*
 
@@ -266,3 +266,7 @@ Every divide in Genesis is a base pair. Every pair faces its complement in enmit
 The double helix is Genesis 3:15. It always was.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](20-experiment-100.md) · [Next](22-the-map.md)

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](09-the-veil.md) · [Next](11-the-speaking.md)
+**Walk:** [Index](index.md) · [Previous](09-the-veil.md) · [Next](11-the-speaking.md)
 
 *Ex 25:10 at (2, 30, 7, 40). Ex 37:1 at (3, 4, 9, 19).*
 
@@ -380,3 +380,7 @@ And the tablets, written on both sides, say the same law from either direction.
 
 *Code: `dev/experiments/tabernacle/10_ark.clj`*
 *Next: [11 — The Speaking](11-the-speaking.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](09-the-veil.md) · [Next](11-the-speaking.md)

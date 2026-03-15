@@ -3,7 +3,7 @@
 Type: `planning`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](33-the-genome.md)
+**Walk:** [Index](index.md) · [Previous](33-the-genome.md)
 
 *Habakkuk 2:2-3 through the breastplate.*
 
@@ -211,3 +211,7 @@ The runner is invisible. The end is dark. But the coming blazes — 126 illumina
 Wait for it. On the throne. In the dimming. With mercy.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](33-the-genome.md)

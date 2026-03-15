@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](24-the-king.md) · [Next](26-hit-play.md)
+**Walk:** [Index](index.md) · [Previous](24-the-king.md) · [Next](26-hit-play.md)
 
 *The same thing. Over and over. At every scale.*
 
@@ -151,3 +151,7 @@ What is God doing?
 Building a universe-sized machine that says *choose life* — and then stepping back behind the first letter, into the silence before the beginning, so that the choosing is real.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](24-the-king.md) · [Next](26-hit-play.md)

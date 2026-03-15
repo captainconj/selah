@@ -5,7 +5,7 @@
 Type: `evidence`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](19-the-code.md) · [Next](21-the-divides.md)
+**Walk:** [Index](index.md) · [Previous](19-the-code.md) · [Next](21-the-divides.md)
 
 ---
 
@@ -255,3 +255,7 @@ The code is structural. The question now: which row maps to which base? Which le
 The cribs constrain. The oracle reads. The test continues.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](19-the-code.md) · [Next](21-the-divides.md)

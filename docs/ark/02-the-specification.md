@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](01-the-door.md) · [Next](03-the-foundation.md)
+**Walk:** [Index](index.md) · [Previous](01-the-door.md) · [Next](03-the-foundation.md)
 
 *a=0, b=8, c=8, d=0–66*
 
@@ -81,3 +81,7 @@ The word **את** appears in the door triplet as ותא (and-את). The sign is 
 The bridge word DOWN to the bottom floor is **אשר** (which/blessed, GV=501). Its last two letters (שר) are the first thing we see on this floor (d=0–1). You arrive here through "blessed."
 
 We go down again. Through **אשר**. Through blessing.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](01-the-door.md) · [Next](03-the-foundation.md)

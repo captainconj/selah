@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](10-the-boarding.md) · [Next](12-the-warning.md)
+**Walk:** [Index](index.md) · [Previous](10-the-boarding.md) · [Next](12-the-warning.md)
 
 *a=0, b=8, c=12, d=0–66*
 
@@ -222,3 +222,7 @@ The tree of life grows on the top layer. Three branches. Three kinds. Each after
 The hand of God is at the top.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](10-the-boarding.md) · [Next](12-the-warning.md)

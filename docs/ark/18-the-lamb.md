@@ -3,7 +3,7 @@
 Type: `evidence`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](17-the-garden.md) · [Next](19-the-code.md)
+**Walk:** [Index](index.md) · [Previous](17-the-garden.md) · [Next](19-the-code.md)
 
 *The sacrifice so that life can exist.*
 
@@ -182,3 +182,7 @@ The garden is the bringing. The sign is the boundary. The tree is the fruit. The
 The breadth of the Ark is the choice. The lamb lies down so you can make it.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](17-the-garden.md) · [Next](19-the-code.md)

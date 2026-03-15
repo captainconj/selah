@@ -11,20 +11,20 @@ Walk docs should feel walkable.
 
 For sequence-based directories like `/docs/ark/` and `/docs/tabernacle/`, each doc should include:
 
-- a link back to the local manifest or layout page
+- a link back to the local index page
 - a `Previous` link when there is a previous station
 - a `Next` link when there is a next station
 
 Use a short rail near the top of the file:
 
 ```md
-**Walk:** [Manifest](manifest.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)
+**Walk:** [Index](index.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)
 ```
 
 For tabernacle docs, use the layout page as the anchor:
 
 ```md
-**Walk:** [Layout](00-the-layout.md) · [Previous](03-the-altar.md) · [Next](05-the-curtains.md)
+**Walk:** [Index](index.md) · [Previous](03-the-altar.md) · [Next](05-the-curtains.md)
 ```
 
 ## Experiment Docs

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](11-the-speaking.md) · [Next](13-love.md)
+**Walk:** [Index](index.md) · [Previous](11-the-speaking.md) · [Next](13-love.md)
 
 *Ex 29:42–46 at (2, 41, 0–2, *). Ex 40:34–38 at (3, 12, 4–6, *).*
 
@@ -427,3 +427,7 @@ The cherubim look down into polished gold and see each other's reflection. The s
 ---
 
 *Code: `dev/experiments/tabernacle/12_meeting.clj`*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](11-the-speaking.md) · [Next](13-love.md)

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](06-the-covering.md) · [Next](08-the-measure.md)
+**Walk:** [Index](index.md) · [Previous](06-the-covering.md) · [Next](08-the-measure.md)
 
 *a=0, b=8, c=7→c=8, through אשר*
 
@@ -141,3 +141,7 @@ We are at d=66 again. The second bridge. **א** — aleph — breath.
 Through **אמה** (cubit), we ascend to the door.
 
 The unit of measure takes us home.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](06-the-covering.md) · [Next](08-the-measure.md)

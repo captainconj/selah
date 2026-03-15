@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](03-the-altar.md) · [Next](05-the-curtains.md)
+**Walk:** [Index](index.md) · [Previous](03-the-altar.md) · [Next](05-the-curtains.md)
 
 *Ex 30:18 at (2, 42, 3, 43). Ex 38:8 at (3, 6, 9, 33).*
 
@@ -212,3 +212,7 @@ We leave the courtyard now. Through the curtains. Into the tent.
 
 *Code: `dev/experiments/tabernacle/04_laver.clj`*
 *Next: [05 — The Curtains](05-the-curtains.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](03-the-altar.md) · [Next](05-the-curtains.md)

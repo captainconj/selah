@@ -4,6 +4,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/093_level2_thummim.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.093-level2-thummim :as exp093]) (exp093/run)"`
+
 *Experiment 093c. Level 2 Thummim — combined word parsing.*
 
 ---

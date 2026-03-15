@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](04-the-rules.md) · [Next](06-the-covering.md)
+**Walk:** [Index](index.md) · [Previous](04-the-rules.md) · [Next](06-the-covering.md)
 
 *a=0, b=8, c=7, d=28–31*
 
@@ -80,3 +80,7 @@ The rooms are nests (קנים also means nests). Where life is kept safe through
 Past the rooms to the right: the making, the sign, the ark, and then the covering — atonement inside and out. The last thing on this floor before the bridge (אשר) up to the specification.
 
 The covering is the boundary. Once sealed, the rooms are protected. Then: blessing. Then: measurement. Then: the door.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](04-the-rules.md) · [Next](06-the-covering.md)

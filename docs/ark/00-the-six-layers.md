@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Next](01-the-door.md)
+**Walk:** [Index](index.md) · [Next](01-the-door.md)
 
 Six layers of 67 letters above the warning. 402 letters of Ark and purpose. One column of the Torah's 4D space.
 
@@ -228,3 +228,7 @@ The bottom says **make**. The top says **let them live**.
 The hand of God (י) at the apex. The tree of life at the top.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Next](01-the-door.md)

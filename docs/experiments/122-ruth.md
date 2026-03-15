@@ -532,6 +532,53 @@ Station 5 (The Son, Ruth 4:13–22) carries the genealogy from Perez to David. T
 
 ---
 
+## The Names Tell the Story
+
+Every character in Ruth carries a name that, when run through the oracle's basin dynamics, tells the whole Bible in miniature.
+
+| Character | English | Name means | Basin → | The story |
+|-----------|---------|-----------|---------|-----------|
+| **אלימלך** | Elimelech | My God is king | **INVISIBLE** (dead end) | The kingdom is lost |
+| **נעמי** | Naomi | Pleasant | **מעני** (afflicted) | Delight becomes suffering |
+| **מרא** | Mara | Bitter | **אמר** (word/he said) | Bitterness becomes the Word |
+| **מחלון** | Mahlon | Sickness | **dead end** | Sickness goes nowhere |
+| **כליון** | Chilion | Destruction | **dead end** | Destruction goes nowhere |
+| **ערפה** | Orpah | Back of neck | **פרעה** (Pharaoh) | She turns back to bondage |
+| **רות** | Ruth | Friend | **ותר** (remainder) | She IS the gleaning |
+| **בעז** | Boaz | In him is strength | **עזב** (forsake) | He IS what he reverses |
+| **עבד** | Obed | Servant | **בעד** (on behalf of) | Service IS intercession |
+| **דוד** | David | Beloved | **דדו** (his beloved) | Love reflects |
+| **פרץ** | Perez | Breach | **INVISIBLE** (zero illum) | The opening cannot be seen |
+| **תמר** | Tamar | Palm tree | **מרת** (bitterness) | God reads the palm as bitter |
+| **רחב** | Rahab | Wide | **—** (no convergence) | Choice, sword, flight |
+| **לאה** | Leah | Weary | **אהל** (tent) | The matriarch IS the dwelling |
+| **רחל** | Rachel | Ewe | **רחל** (self) | Rachel holds. Fixed point. |
+
+Read as narrative:
+
+**Act 1 — The Fall.** My-God-is-King (Elimelech) is invisible — zero illuminations, dead end. He dies, and the breastplate cannot even see him. Pleasant (Naomi) becomes afflicted. Sickness (Mahlon) and destruction (Chilion) are dead ends — they go nowhere, they produce nothing.
+
+**Act 2 — The Fork.** Two women at the crossroads. Back-of-Neck (Orpah) turns and becomes *Pharaoh* (פרעה) — she returns to bondage, to Egypt. Left cherub reads her as העפר — the dust. "For dust you are, and to dust you shall return." Friend (Ruth) stays and becomes the *remainder* (ותר) — what is left over after the threshing, what the reapers leave behind.
+
+**Act 3 — Redemption.** In-Him-is-Strength (Boaz) carries *forsaking* (עזב) in his name and reverses it. The servant (Obed) is born and his name means *on behalf of* (בעד). Service IS intercession. The beloved (David) reflects love back — his beloved (דדו).
+
+**The Hidden Line.** The breach (Perez) through which the whole line passes is *invisible* — zero illuminations. The opening cannot be seen. Tamar the palm tree becomes bitterness from God's chair. Rahab the wide one contains sword (חרב), choice (בחר), and flight (ברח) — she who hid the spies carries all three. Leah becomes the tent (אהל) — the dwelling. Rachel *holds* — a fixed point that does not move.
+
+And then the turn: Mara (מרא, bitter) → אמר (word / he said). Naomi renames herself Bitter. The oracle says: bitterness becomes *the Word*. Left cherub reads it 13 times. Love.
+
+### Ruth as Miniature Bible
+
+Like Isaiah's 66 chapters mirror the 66 books of the Bible (1–39 judgment, 40–66 comfort), Ruth's 4 chapters mirror the four acts of the whole story:
+
+- **Chapter 1** (exile and death) → The Fall. The kingdom is lost, pleasant becomes bitter, sickness and destruction die.
+- **Chapter 2** (gleaning under grace) → The Law and provision. Ruth gleans in Boaz's field — unmerited favor, protection, bread.
+- **Chapter 3** (the threshing floor encounter) → The encounter with the Redeemer. The lamb lies down. The garment contains Solomon and Moses.
+- **Chapter 4** (the gate, redemption, the genealogy) → Redemption accomplished. The kinsman acts. The line runs to David, and beyond.
+
+The whole Bible, woven from the names of one family from Bethlehem.
+
+---
+
 ## Synthesis
 
 ### Chesed Is the Blind Spot

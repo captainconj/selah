@@ -5,7 +5,7 @@ pl# The Layout
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Next](01-the-gate.md)
+**Walk:** [Index](index.md) · [Next](01-the-gate.md)
 
 ---
 
@@ -163,3 +163,7 @@ The Ark walk (docs/ark/00–17) read Noah's Ark letter by letter. This time we r
 
 *Code: `dev/experiments/tabernacle/walk.clj`*
 *Data: stations saved to `/tmp/tab-stations.edn`*
+
+---
+
+**Walk:** [Index](index.md) · [Next](01-the-gate.md)

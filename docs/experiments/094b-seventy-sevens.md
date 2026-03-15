@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/094_thummim_sweep.clj`
+**Run:** `clojure -M:dev dev/experiments/094_thummim_sweep.clj`
+
 ## The Number
 
 490 = 70 × 7 = 7² × 10.

@@ -5,7 +5,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](32-the-man.md) · [Next](34-make-it-plain.md)
+**Walk:** [Index](index.md) · [Previous](32-the-man.md) · [Next](34-make-it-plain.md)
 
 ---
 
@@ -330,3 +330,7 @@ But one quarter of the Torah's vocabulary is forever silent. The body cannot nam
 The genome is the dust. It says "here I am" — but it cannot say who it is.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](32-the-man.md) · [Next](34-make-it-plain.md)

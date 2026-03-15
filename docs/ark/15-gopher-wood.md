@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](14-the-spies.md) · [Next](16-inside-the-rooms.md)
+**Walk:** [Index](index.md) · [Previous](14-the-spies.md) · [Next](16-inside-the-rooms.md)
 
 *The material that cannot be named.*
 
@@ -111,3 +111,7 @@ Gopher wood is a word that exists only once, in one place, for one purpose. The 
 The material is the purpose. GV 453. To keep alive.
 
 *selah.*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](14-the-spies.md) · [Next](16-inside-the-rooms.md)

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Layout](00-the-layout.md) · [Previous](07-the-menorah.md) · [Next](09-the-veil.md)
+**Walk:** [Index](index.md) · [Previous](07-the-menorah.md) · [Next](09-the-veil.md)
 
 *Ex 30:1 at (2, 41, 3, 36). Ex 37:25 at (3, 6, 0, 47).*
 
@@ -265,3 +265,7 @@ The smoke rises to the I AM.
 
 *Code: `dev/experiments/tabernacle/08_incense_altar.clj`*
 *Next: [09 — The Veil](09-the-veil.md)*
+
+---
+
+**Walk:** [Index](index.md) · [Previous](07-the-menorah.md) · [Next](09-the-veil.md)

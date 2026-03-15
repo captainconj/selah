@@ -5,6 +5,9 @@
 Type: `synthesis`
 State: `mixed`
 
+**Code:** `dev/experiments/100_tribal_cross.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.100-tribal-cross :as exp100x]) (exp100x/run-all)"`
+
 ## Setup
 
 Numbers 2 prescribes the camp formation: twelve tribes in four groups of three, forming a cross around the central Levite camp. Each tribe has a census count. These are large, specific numbers. We factored them, computed their mod structure, projected them as 4D coordinates, compared the two censuses (Numbers 1 vs 26), and analyzed the tribal name gematria — including Ishmael's twelve princes.

@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](00-the-six-layers.md) · [Next](02-the-specification.md)
+**Walk:** [Index](index.md) · [Previous](00-the-six-layers.md) · [Next](02-the-specification.md)
 
 *a=0, b=8, c=9, d=13–16*
 
@@ -52,3 +52,7 @@ The first letter on this floor (d=0) is **mem** — the start codon. The directi
 After the directory, the text says: *"And I (=67), behold I am, bringing the flood."* The one who speaks has the numerical value of understanding. The reason for the Ark is the last thing you see before you go down.
 
 We go down.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](00-the-six-layers.md) · [Next](02-the-specification.md)

@@ -3,7 +3,7 @@
 Type: `guided reproduction`
 State: `clean`
 
-**Walk:** [Manifest](manifest.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)
+**Walk:** [Index](index.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)
 
 *What we know about how to move inside the Ark.*
 
@@ -147,3 +147,7 @@ We have:
 - The order: make → bless → measure → door
 
 We are at the foundation. The rooms are here.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](03-the-foundation.md) · [Next](05-the-rooms.md)

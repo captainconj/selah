@@ -3,7 +3,7 @@
 Type: `synthesis`
 State: `mixed`
 
-**Walk:** [Manifest](manifest.md) · [Previous](09-the-covenant.md) · [Next](11-the-taxonomy.md)
+**Walk:** [Index](index.md) · [Previous](09-the-covenant.md) · [Next](11-the-taxonomy.md)
 
 *a=0, b=8, c=11, d=0–66*
 
@@ -177,3 +177,7 @@ The bridge from boarding to taxonomy is: **to keep alive.**
 The purpose IS the bridge.
 
 We go up.
+
+---
+
+**Walk:** [Index](index.md) · [Previous](09-the-covenant.md) · [Next](11-the-taxonomy.md)
