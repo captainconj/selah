@@ -1,0 +1,1604 @@
+Basin size 3 — 400 attractors
+Generated: 2026-03-25 (post final-form fix)
+═══════════════════════════════════════════════
+
+── געלה (GV=108)  ──
+   Basin: 3 words flow here
+   Words: געלה, העגל, עגלה
+
+── ונעלה (GV=161)  ──
+   Basin: 3 words flow here
+   Words: העלנו, ולענה, ונעלה
+
+── ולהשיב (GV=353)  ──
+   Basin: 3 words flow here
+   Words: הבשילו, ולהשיב, להשיבו
+
+── משחו (GV=354)  ──
+   Basin: 3 words flow here
+   Words: וחמש, ושמח, משחו
+
+── נמרה (GV=295)  ──
+   Basin: 3 words flow here
+   Words: מנהר, מנרה, נמרה
+
+── בהר (GV=207)  ──
+   Basin: 3 words flow here
+   Words: בהר, הרב, רבה
+
+── נדרה (GV=259)  ──
+   Basin: 3 words flow here
+   Words: הנדר, נדרה, נרדה
+
+── ופתר (GV=686)  ──
+   Basin: 3 words flow here
+   Words: ופתר, פותר, פרות
+
+── תהרס (GV=665)  ──
+   Basin: 3 words flow here
+   Words: הסתר, סתרה, תהרס
+
+── באהלו (GV=44)  ──
+   Basin: 3 words flow here
+   Words: באהלו, ובאהל, ובאלה
+
+── רחקה (GV=313)  ──
+   Basin: 3 words flow here
+   Words: הרחק, קרחה, רחקה
+
+── מערבת (GV=712)  ──
+   Basin: 3 words flow here
+   Words: במערת, מערבת, עברתם
+
+── שרח (GV=508)  ──
+   Basin: 3 words flow here
+   Words: חרש, שחר, שרח
+
+── ויראה (GV=222)  ──
+   Basin: 3 words flow here
+   Words: והאיר, ויראה, יראוה
+
+── צפון (GV=226)  ──
+   Basin: 3 words flow here
+   Words: נפוץ, נפצו, צפון
+
+── והב (GV=13)  ──
+   Basin: 3 words flow here
+   Words: הבו, ובה, והב
+
+── הפרס (GV=345)  ──
+   Basin: 3 words flow here
+   Words: הפרס, ספרה, פרסה
+
+── אנוש (GV=357)  ──
+   Basin: 3 words flow here
+   Words: אנוש, ונשא, נשאו
+
+── ברדת (GV=606)  ──
+   Basin: 3 words flow here
+   Words: ברדת, דברת, תדבר
+
+── הנפש (GV=435)  ──
+   Basin: 3 words flow here
+   Words: הנפש, השפן, נפשה
+
+── אהליהם (GV=91)  ──
+   Basin: 3 words flow here
+   Words: אהליהם, אלהיהם, האלהים
+
+── ואשה (GV=312)  ──
+   Basin: 3 words flow here
+   Words: ואשה, והאש, שאהו
+
+── רוחו (GV=220)  ──
+   Basin: 3 words flow here
+   Words: וחור, ורוח, רוחו
+
+── וגרה (GV=214)  ──
+   Basin: 3 words flow here
+   Words: הרגו, וגרה, והגר
+
+── גבול (GV=41) border/territory ──
+   Basin: 3 words flow here
+   Words: גבול, גבלו, וגבל
+
+── מעין (GV=170)  ──
+   Basin: 3 words flow here
+   Words: מעין, מעני, ענים
+
+── קומו (GV=152)  ──
+   Basin: 3 words flow here
+   Words: וקום, וקמו, קומו
+
+── בנדת (GV=456)  ──
+   Basin: 3 words flow here
+   Words: בדתן, בנדת, נדבת
+
+── שערת (GV=970)  ──
+   Basin: 3 words flow here
+   Words: עשרת, שערת, תעשר
+
+── משרת (GV=940)  ──
+   Basin: 3 words flow here
+   Words: משרת, תרמש, תשמר
+
+── גרב (GV=205)  ──
+   Basin: 3 words flow here
+   Words: בגר, גבר, גרב
+
+── תעבר (GV=672)  ──
+   Basin: 3 words flow here
+   Words: ערבת, תבער, תעבר
+
+── מעל (GV=140)  ──
+   Basin: 3 words flow here
+   Words: לעם, מעל, עמל
+
+── ישמן (GV=400)  ──
+   Basin: 3 words flow here
+   Words: ישמן, משני, שמני
+
+── והפרס (GV=351)  ──
+   Basin: 3 words flow here
+   Words: והפרס, וספרה, ופרסה
+
+── ומאשר (GV=547)  ──
+   Basin: 3 words flow here
+   Words: ומאשר, ומראש, מראשו
+
+── אמן (GV=91) amen/faithful ──
+   Basin: 3 words flow here
+   Words: אמן, מאן, נאם
+
+── ויעשה (GV=391)  ──
+   Basin: 3 words flow here
+   Words: העשוי, ויעשה, יהושע
+
+── בקרכם (GV=362)  ──
+   Basin: 3 words flow here
+   Words: בקרכם, מבקרך, מקרבך
+
+── ויהם (GV=61)  ──
+   Basin: 3 words flow here
+   Words: היום, ויהם, וימה
+
+── יבולה (GV=53)  ──
+   Basin: 3 words flow here
+   Words: היובל, ויבלה, יבולה
+
+── החדש (GV=317)  ──
+   Basin: 3 words flow here
+   Words: החדש, השחד, חדשה
+
+── ועל (GV=106)  ──
+   Basin: 3 words flow here
+   Words: ועל, עול, עלו
+
+── תחטיא (GV=428)  ──
+   Basin: 3 words flow here
+   Words: חטאתי, יתחטא, תחטיא
+
+── יכלת (GV=460)  ──
+   Basin: 3 words flow here
+   Words: יכלת, תליך, תלכי
+
+── אכל (GV=51) eat ──
+   Basin: 3 words flow here
+   Words: אכל, אלך, כאל
+
+── הקריבם (GV=357)  ──
+   Basin: 3 words flow here
+   Words: המקריב, הקרבים, הקריבם
+
+── לשוח (GV=344)  ──
+   Basin: 3 words flow here
+   Words: ושלח, לשוח, שלחו
+
+── בבוא (GV=11)  ──
+   Basin: 3 words flow here
+   Words: בבאו, בבוא, ובבא
+
+── אברהם (GV=248) Abraham ──
+   Basin: 3 words flow here
+   Words: אברהם, במראה, הבראם
+
+── תשאל (GV=731)  ──
+   Basin: 3 words flow here
+   Words: לשאת, שאלת, תשאל
+
+── נביא (GV=63) prophet ──
+   Basin: 3 words flow here
+   Words: אבני, באני, נביא
+
+── רדתה (GV=609)  ──
+   Basin: 3 words flow here
+   Words: רדתה, תהדר, תרדה
+
+── כליהם (GV=105)  ──
+   Basin: 3 words flow here
+   Words: הכלים, הלכים, כליהם
+
+── נאות (GV=457)  ──
+   Basin: 3 words flow here
+   Words: אתנו, ואתן, נאות
+
+── הדם (GV=49)  ──
+   Basin: 3 words flow here
+   Words: דמה, הדם, מדה
+
+── רקעי (GV=380)  ──
+   Basin: 3 words flow here
+   Words: יקרע, רקיע, רקעי
+
+── לאלה (GV=66)  ──
+   Basin: 3 words flow here
+   Words: לאהל, לאלה, ללאה
+
+── רדת (GV=604)  ──
+   Basin: 3 words flow here
+   Words: רדת, תדר, תרד
+
+── הנלחם (GV=133)  ──
+   Basin: 3 words flow here
+   Words: הנלחם, למחנה, למנחה
+
+── ויצמא (GV=147)  ──
+   Basin: 3 words flow here
+   Words: וימצא, ויצמא, מוצאי
+
+── השקת (GV=805)  ──
+   Basin: 3 words flow here
+   Words: הקשת, השקת, קשתה
+
+── יגלח (GV=51)  ──
+   Basin: 3 words flow here
+   Words: גחלי, יגלח, לחגי
+
+── בנתי (GV=462)  ──
+   Basin: 3 words flow here
+   Words: בנית, בנתי, נבית
+
+── וצמיד (GV=150)  ──
+   Basin: 3 words flow here
+   Words: ויצמד, וצמיד, מצידו
+
+── ויעשהו (GV=397)  ──
+   Basin: 3 words flow here
+   Words: ויהושע, ויעשהו, יהושוע
+
+── ביריעה (GV=297)  ──
+   Basin: 3 words flow here
+   Words: ביריעה, הבריעי, הרביעי
+
+── וישבו (GV=324)  ──
+   Basin: 3 words flow here
+   Words: ויושב, וישבו, ישובו
+
+── יוליד (GV=60)  ──
+   Basin: 3 words flow here
+   Words: ויליד, יוליד, ילדיו
+
+── סנה (GV=115)  ──
+   Basin: 3 words flow here
+   Words: הנס, נסה, סנה
+
+── תירא (GV=611)  ──
+   Basin: 3 words flow here
+   Words: יראת, ראית, תירא
+
+── בהית (GV=417)  ──
+   Basin: 3 words flow here
+   Words: בהית, ביתה, הבית
+
+── והניח (GV=79)  ──
+   Basin: 3 words flow here
+   Words: הניחו, והניח, ונחיה
+
+── בראתם (GV=643)  ──
+   Basin: 3 words flow here
+   Words: במראת, בראתם, מבארת
+
+── הכוס (GV=91)  ──
+   Basin: 3 words flow here
+   Words: הכוס, וכסה, כסהו
+
+── בבלי (GV=44)  ──
+   Basin: 3 words flow here
+   Words: בבלי, ביבל, לבבי
+
+── תובל (GV=438)  ──
+   Basin: 3 words flow here
+   Words: ותבל, לבתו, תובל
+
+── לטוב (GV=47)  ──
+   Basin: 3 words flow here
+   Words: בלוט, וטבל, לטוב
+
+── אשכול (GV=357)  ──
+   Basin: 3 words flow here
+   Words: אשכול, ואשלך, ושאלך
+
+── ונתון (GV=512)  ──
+   Basin: 3 words flow here
+   Words: ונתון, ונתנו, תוננו
+
+── נוציא (GV=157)  ──
+   Basin: 3 words flow here
+   Words: וינאץ, יצאנו, נוציא
+
+── ויד (GV=20)  ──
+   Basin: 3 words flow here
+   Words: ודי, ויד, ידו
+
+── אמתים (GV=491)  ──
+   Basin: 3 words flow here
+   Words: אמתים, מאתים, תאמים
+
+── שעירת (GV=980)  ──
+   Basin: 3 words flow here
+   Words: עשירת, עשרית, שעירת
+
+── מעליו (GV=156)  ──
+   Basin: 3 words flow here
+   Words: ומעיל, מעליו, עלימו
+
+── בצמא (GV=133)  ──
+   Basin: 3 words flow here
+   Words: בצמא, מצבא, צבאם
+
+── ויכבד (GV=42)  ──
+   Basin: 3 words flow here
+   Words: ויכבד, יוכבד, כבודי
+
+── מעשך (GV=430)  ──
+   Basin: 3 words flow here
+   Words: כשמע, מעשך, שמעך
+
+── טבעות (GV=487)  ──
+   Basin: 3 words flow here
+   Words: וטבעת, טבעות, טבעתו
+
+── וימתהו (GV=467)  ──
+   Basin: 3 words flow here
+   Words: והיתום, וימתהו, ויתמהו
+
+── ערך (GV=290)  ──
+   Basin: 3 words flow here
+   Words: כרע, ערך, רעך
+
+── לישועה (GV=421)  ──
+   Basin: 3 words flow here
+   Words: להושיע, ליהושע, לישועה
+
+── קדשו (GV=410)  ──
+   Basin: 3 words flow here
+   Words: וקדש, קדוש, קדשו
+
+── רעים (GV=320)  ──
+   Basin: 3 words flow here
+   Words: עירם, ערים, רעים
+
+── רעיך (GV=300)  ──
+   Basin: 3 words flow here
+   Words: יערך, עריך, רעיך
+
+── וידר (GV=220)  ──
+   Basin: 3 words flow here
+   Words: וידר, וירד, ירדו
+
+── ומרק (GV=346)  ──
+   Basin: 3 words flow here
+   Words: ומרק, ורקם, מקור
+
+── ורב (GV=208)  ──
+   Basin: 3 words flow here
+   Words: בור, ורב, רבו
+
+── אמרה (GV=246)  ──
+   Basin: 3 words flow here
+   Words: אמרה, האמר, מראה
+
+── משחת (GV=748)  ──
+   Basin: 3 words flow here
+   Words: חמשת, משחת, תמשח
+
+── לשון (GV=386)  ──
+   Basin: 3 words flow here
+   Words: ונשל, לשון, לשנו
+
+── ישאהו (GV=322)  ──
+   Basin: 3 words flow here
+   Words: ואישה, והאיש, ישאהו
+
+── בתוכו (GV=434)  ──
+   Basin: 3 words flow here
+   Words: בתוכו, ובתוך, ותבכו
+
+── לשער (GV=600)  ──
+   Basin: 3 words flow here
+   Words: לעשר, לרשע, לשער
+
+── תבצר (GV=692)  ──
+   Basin: 3 words flow here
+   Words: צרבת, רבצת, תבצר
+
+── ועמוד (GV=126)  ──
+   Basin: 3 words flow here
+   Words: ומדוע, ועמדו, ועמוד
+
+── בעדת (GV=476)  ──
+   Basin: 3 words flow here
+   Words: בעדת, עבדת, תעבד
+
+── אביכם (GV=73)  ──
+   Basin: 3 words flow here
+   Words: אביכם, כאבים, מביאך
+
+── ושמנה (GV=401)  ──
+   Basin: 3 words flow here
+   Words: ומנשה, ומשנה, ושמנה
+
+── ברשע (GV=572)  ──
+   Basin: 3 words flow here
+   Words: בעשר, ברשע, בשער
+
+── ורעות (GV=682)  ──
+   Basin: 3 words flow here
+   Words: וערות, ורעות, ערותו
+
+── ויענו (GV=142)  ──
+   Basin: 3 words flow here
+   Words: וינעו, ויענו, ועינו
+
+── נשבה (GV=357)  ──
+   Basin: 3 words flow here
+   Words: בשנה, הבשן, נשבה
+
+── בנות (GV=458)  ──
+   Basin: 3 words flow here
+   Words: בנות, בתנו, ותבן
+
+── והמן (GV=101)  ──
+   Basin: 3 words flow here
+   Words: המון, והמן, והנם
+
+── קולי (GV=146)  ──
+   Basin: 3 words flow here
+   Words: וקלי, קולי, קלוי
+
+── ופשט (GV=395)  ──
+   Basin: 3 words flow here
+   Words: ופשט, ושפט, שפוט
+
+── ונמכר (GV=316)  ──
+   Basin: 3 words flow here
+   Words: ונמכר, מכרנו, נכמרו
+
+── לבית (GV=442)  ──
+   Basin: 3 words flow here
+   Words: בלתי, יבלת, לבית
+
+── רעה (GV=275)  ──
+   Basin: 3 words flow here
+   Words: הרע, ערה, רעה
+
+── יכרת (GV=630)  ──
+   Basin: 3 words flow here
+   Words: יכרת, כרתי, תכיר
+
+── והין (GV=71)  ──
+   Basin: 3 words flow here
+   Words: והין, ונהי, יונה
+
+── אבי (GV=13)  ──
+   Basin: 3 words flow here
+   Words: אבי, באי, יבא
+
+── הביאני (GV=78)  ──
+   Basin: 3 words flow here
+   Words: הביאני, יאהבני, יביאנה
+
+── משכב (GV=362)  ──
+   Basin: 3 words flow here
+   Words: במשך, בשמך, משכב
+
+── וישמן (GV=406)  ──
+   Basin: 3 words flow here
+   Words: וישמן, ונשים, ושנים
+
+── גרה (GV=208)  ──
+   Basin: 3 words flow here
+   Words: גרה, הגר, הרג
+
+── ולארצי (GV=337)  ──
+   Basin: 3 words flow here
+   Words: אליצור, ולארצי, צוריאל
+
+── ויעל (GV=116)  ──
+   Basin: 3 words flow here
+   Words: ויעל, יעלו, עליו
+
+── תעשי (GV=780)  ──
+   Basin: 3 words flow here
+   Words: עשית, עשתי, תעשי
+
+── ושוב (GV=314)  ──
+   Basin: 3 words flow here
+   Words: ושבו, ושוב, שובו
+
+── משלח (GV=378)  ──
+   Basin: 3 words flow here
+   Words: לחמש, משלח, שלחם
+
+── מברכת (GV=662)  ──
+   Basin: 3 words flow here
+   Words: מברכת, מרבכת, מרכבת
+
+── והנשא (GV=362)  ──
+   Basin: 3 words flow here
+   Words: והנשא, ושנאה, שנואה
+
+── לאשי (GV=341)  ──
+   Basin: 3 words flow here
+   Words: ישאל, לאיש, לאשי
+
+── בקרי (GV=312)  ──
+   Basin: 3 words flow here
+   Words: בקרי, יבקר, יקרב
+
+── ימיכם (GV=120)  ──
+   Basin: 3 words flow here
+   Words: ימיכם, כימים, מימיך
+
+── בלהה (GV=42)  ──
+   Basin: 3 words flow here
+   Words: בהלה, בלהה, להבה
+
+── יעברו (GV=288)  ──
+   Basin: 3 words flow here
+   Words: ויעבר, וערבי, יעברו
+
+── המתים (GV=495)  ──
+   Basin: 3 words flow here
+   Words: המתים, התמים, תמימה
+
+── וסמך (GV=126)  ──
+   Basin: 3 words flow here
+   Words: ומסך, וסמך, כסמו
+
+── בהרי (GV=217)  ──
+   Basin: 3 words flow here
+   Words: בהרי, הריב, ירבה
+
+── ויכר (GV=236)  ──
+   Basin: 3 words flow here
+   Words: ויכר, ירכו, כיור
+
+── אשת (GV=701)  ──
+   Basin: 3 words flow here
+   Words: אשת, שאת, תשא
+
+── התלכי (GV=465)  ──
+   Basin: 3 words flow here
+   Words: הכלית, הלכתי, התלכי
+
+── ברחוב (GV=218)  ──
+   Basin: 3 words flow here
+   Words: בברחו, ברחוב, ובחרב
+
+── בשרה (GV=507)  ──
+   Basin: 3 words flow here
+   Words: בשרה, הבשר, השבר
+
+── ארצו (GV=297)  ──
+   Basin: 3 words flow here
+   Words: ארצו, ואצר, וארץ
+
+── סרה (GV=265)  ──
+   Basin: 3 words flow here
+   Words: הסר, הרס, סרה
+
+── בעליו (GV=118)  ──
+   Basin: 3 words flow here
+   Words: בעליו, ויבלע, ועיבל
+
+── ובלב (GV=40)  ──
+   Basin: 3 words flow here
+   Words: בלבו, ובלב, לבבו
+
+── מערב (GV=312)  ──
+   Basin: 3 words flow here
+   Words: בעמר, מעבר, מערב
+
+── ראתה (GV=606)  ──
+   Basin: 3 words flow here
+   Words: הראת, ראתה, תראה
+
+── ובשמו (GV=354)  ──
+   Basin: 3 words flow here
+   Words: ובשמו, ומושב, מושבו
+
+── בקרם (GV=342)  ──
+   Basin: 3 words flow here
+   Words: בקרם, מקבר, מקרב
+
+── ויקרא (GV=317)  ──
+   Basin: 3 words flow here
+   Words: ויקרא, יקראו, קרואי
+
+── הדבר (GV=211)  ──
+   Basin: 3 words flow here
+   Words: דברה, הברד, הדבר
+
+── נחלתו (GV=494)  ──
+   Basin: 3 words flow here
+   Words: ונחלת, לחתנו, נחלתו
+
+── בקרב (GV=304)  ──
+   Basin: 3 words flow here
+   Words: בבקר, בקבר, בקרב
+
+── ומקנת (GV=596)  ──
+   Basin: 3 words flow here
+   Words: ומקנת, וקנתם, מקנתו
+
+── לער (GV=300)  ──
+   Basin: 3 words flow here
+   Words: לער, לרע, ערל
+
+── נפלים (GV=210)  ──
+   Basin: 3 words flow here
+   Words: לפנים, מלפני, נפלים
+
+── טובת (GV=417)  ──
+   Basin: 3 words flow here
+   Words: וטבת, ותבט, טובת
+
+── במערה (GV=317)  ──
+   Basin: 3 words flow here
+   Words: במערה, בערמה, המבער
+
+── והזב (GV=20)  ──
+   Basin: 3 words flow here
+   Words: והזב, וזהב, זובה
+
+── מעלו (GV=146)  ──
+   Basin: 3 words flow here
+   Words: לעמו, מעלו, עולם
+
+── והיה (GV=26) and it shall be ──
+   Basin: 3 words flow here
+   Words: הויה, והיה, יהוה
+
+── שלוחה (GV=349)  ──
+   Basin: 3 words flow here
+   Words: ושלחה, חלושה, שלוחה
+
+── בדרך (GV=226)  ──
+   Basin: 3 words flow here
+   Words: בדרך, דברך, כדבר
+
+── ושכח (GV=334)  ──
+   Basin: 3 words flow here
+   Words: וחשך, וכחש, ושכח
+
+── מיין (GV=110)  ──
+   Basin: 3 words flow here
+   Words: יינם, ימין, מיין
+
+── הוליד (GV=55)  ──
+   Basin: 3 words flow here
+   Words: הוליד, הילוד, וילדה
+
+── משחית (GV=758)  ──
+   Basin: 3 words flow here
+   Words: חמשית, משחית, תחשים
+
+── עדת (GV=474)  ──
+   Basin: 3 words flow here
+   Words: דעת, עדת, תדע
+
+── ילמדו (GV=90)  ──
+   Basin: 3 words flow here
+   Words: ילמדו, לודים, מדליו
+
+── השחף (GV=393)  ──
+   Basin: 3 words flow here
+   Words: השחף, חפשה, שפחה
+
+── באהל (GV=38)  ──
+   Basin: 3 words flow here
+   Words: באהל, באלה, האבל
+
+── שאב (GV=303)  ──
+   Basin: 3 words flow here
+   Words: באש, שאב, שבא
+
+── ויכס (GV=96)  ──
+   Basin: 3 words flow here
+   Words: ויכס, ויסך, כסוי
+
+── מלכי (GV=100)  ──
+   Basin: 3 words flow here
+   Words: ימלך, כלים, מלכי
+
+── בזרעו (GV=285)  ──
+   Basin: 3 words flow here
+   Words: בזרוע, בזרעו, ובזרע
+
+── תשעים (GV=820)  ──
+   Basin: 3 words flow here
+   Words: עשיתם, שמעתי, תשעים
+
+── לקום (GV=176)  ──
+   Basin: 3 words flow here
+   Words: ומלק, לקום, קולם
+
+── ימשלו (GV=386)  ──
+   Basin: 3 words flow here
+   Words: ימשלו, שלוים, שלמיו
+
+── הנתק (GV=555)  ──
+   Basin: 3 words flow here
+   Words: הנתק, תנקה, תקנה
+
+── החרב (GV=215)  ──
+   Basin: 3 words flow here
+   Words: החרב, חרבה, רחבה
+
+── וינח (GV=74)  ──
+   Basin: 3 words flow here
+   Words: וינח, יחנו, ינוח
+
+── בקול (GV=138)  ──
+   Basin: 3 words flow here
+   Words: בקול, בקלו, ובלק
+
+── במשה (GV=347)  ──
+   Basin: 3 words flow here
+   Words: במשה, הבשם, שבמה
+
+── יגרשם (GV=553)  ──
+   Basin: 3 words flow here
+   Words: יגרשם, מגרשי, שריגם
+
+── ותראה (GV=612)  ──
+   Basin: 3 words flow here
+   Words: הראות, הראתו, ותראה
+
+── הפר (GV=285)  ──
+   Basin: 3 words flow here
+   Words: הפר, הרף, פרה
+
+── והניחם (GV=119)  ──
+   Basin: 3 words flow here
+   Words: והחנים, והניחם, ויחמנה
+
+── תשים (GV=750)  ──
+   Basin: 3 words flow here
+   Words: שמתי, שתים, תשים
+
+── משנת (GV=790)  ──
+   Basin: 3 words flow here
+   Words: משנת, נשמת, שמנת
+
+── לשבת (GV=732)  ──
+   Basin: 3 words flow here
+   Words: לשבת, תבשל, תלבש
+
+── שמעת (GV=810)  ──
+   Basin: 3 words flow here
+   Words: מעשת, שמעת, תשמע
+
+── ושב (GV=308)  ──
+   Basin: 3 words flow here
+   Words: ושב, שבו, שוב
+
+── מבכרות (GV=668)  ──
+   Basin: 3 words flow here
+   Words: וברכתם, מבכרות, מרכבתו
+
+── ודקת (GV=510)  ──
+   Basin: 3 words flow here
+   Words: דקות, ודקת, תוקד
+
+── בנים (GV=102)  ──
+   Basin: 3 words flow here
+   Words: בנים, מבין, מבני
+
+── פקודי (GV=200)  ──
+   Basin: 3 words flow here
+   Words: ויפקד, פקדיו, פקודי
+
+── נחלת (GV=488)  ──
+   Basin: 3 words flow here
+   Words: לתחן, נחלת, תנחל
+
+── בלחם (GV=80)  ──
+   Basin: 3 words flow here
+   Words: בחלם, בלחם, חלבם
+
+── תקומה (GV=551)  ──
+   Basin: 3 words flow here
+   Words: והקמת, קומתה, תקומה
+
+── רדפו (GV=290)  ──
+   Basin: 3 words flow here
+   Words: ורדף, פדרו, רדפו
+
+── העלת (GV=505)  ──
+   Basin: 3 words flow here
+   Words: העלת, עלתה, תעלה
+
+── אביהן (GV=68)  ──
+   Basin: 3 words flow here
+   Words: אביהן, אבניה, הנביא
+
+── עקרו (GV=376)  ──
+   Basin: 3 words flow here
+   Words: וקרע, עקרו, קרעו
+
+── הנעל (GV=155)  ──
+   Basin: 3 words flow here
+   Words: הנעל, נעלה, עלהן
+
+── המשחית (GV=763)  ──
+   Basin: 3 words flow here
+   Words: החמישת, המשחית, התחשים
+
+── וחרבה (GV=221)  ──
+   Basin: 3 words flow here
+   Words: וחרבה, ורחבה, חבורה
+
+── יגעו (GV=89)  ──
+   Basin: 3 words flow here
+   Words: ויגע, יגוע, יגעו
+
+── קדשיהם (GV=459)  ──
+   Basin: 3 words flow here
+   Words: המקדיש, הקדשים, קדשיהם
+
+── תלחמו (GV=484)  ──
+   Basin: 3 words flow here
+   Words: ומחלת, ותחמל, תלחמו
+
+── וישא (GV=317)  ──
+   Basin: 3 words flow here
+   Words: ואיש, וישא, ישאו
+
+── בחול (GV=46)  ──
+   Basin: 3 words flow here
+   Words: בחול, וחלב, חלבו
+
+── שבתון (GV=758)  ──
+   Basin: 3 words flow here
+   Words: נושבת, שבתון, תשובן
+
+── מלאכת (GV=491)  ──
+   Basin: 3 words flow here
+   Words: לאמתך, מלאכת, מלאתך
+
+── התהלך (GV=460)  ──
+   Basin: 3 words flow here
+   Words: ההלכת, התהלך, להכתה
+
+── וכבד (GV=32)  ──
+   Basin: 3 words flow here
+   Words: וכבד, כבדו, כבוד
+
+── ירק (GV=310)  ──
+   Basin: 3 words flow here
+   Words: ירק, קיר, קרי
+
+── ושלש (GV=636)  ──
+   Basin: 3 words flow here
+   Words: ושלש, לשוש, שלוש
+
+── וימין (GV=116)  ──
+   Basin: 3 words flow here
+   Words: וימין, ימינו, מיינו
+
+── וירדף (GV=300)  ──
+   Basin: 3 words flow here
+   Words: וירדף, יפרדו, ירדפו
+
+── והנתר (GV=661)  ──
+   Basin: 3 words flow here
+   Words: הנותר, הנרות, והנתר
+
+── תטמאו (GV=456)  ──
+   Basin: 3 words flow here
+   Words: ותטמא, טמאתו, תטמאו
+
+── הכות (GV=431)  ──
+   Basin: 3 words flow here
+   Words: הכות, הכתו, כהות
+
+── מכלות (GV=496)  ──
+   Basin: 3 words flow here
+   Words: כתמול, מכלות, מלכתו
+
+── בלחמו (GV=86)  ──
+   Basin: 3 words flow here
+   Words: בחלום, בלחמו, ובלחם
+
+── בתולי (GV=448)  ──
+   Basin: 3 words flow here
+   Words: בתולי, ולבית, לביתו
+
+── קנהו (GV=161)  ──
+   Basin: 3 words flow here
+   Words: ונקה, וקנה, קנהו
+
+── משעיר (GV=620)  ──
+   Basin: 3 words flow here
+   Words: משעיר, עשרים, שערים
+
+── לשוא (GV=337)  ──
+   Basin: 3 words flow here
+   Words: ושאל, לשוא, שאול
+
+── מיד (GV=54)  ──
+   Basin: 3 words flow here
+   Words: דמי, מדי, מיד
+
+── ובשלת (GV=738)  ──
+   Basin: 3 words flow here
+   Words: ובשלת, ותלבש, תבשלו
+
+── מלא (GV=71)  ──
+   Basin: 3 words flow here
+   Words: אלם, מאל, מלא
+
+── לאשתו (GV=737)  ──
+   Basin: 3 words flow here
+   Words: ולשאת, ושאלת, לאשתו
+
+── וירף (GV=296)  ──
+   Basin: 3 words flow here
+   Words: וירף, ופרי, פריו
+
+── השכן (GV=375)  ──
+   Basin: 3 words flow here
+   Words: הנשך, השכן, כנשה
+
+── נתון (GV=506)  ──
+   Basin: 3 words flow here
+   Words: ונתן, נתון, נתנו
+
+── בלי (GV=42)  ──
+   Basin: 3 words flow here
+   Words: בלי, יבל, לבי
+
+── שמעון (GV=466)  ──
+   Basin: 3 words flow here
+   Words: ונשמע, שמעון, שמענו
+
+── לחק (GV=138)  ──
+   Basin: 3 words flow here
+   Words: חלק, לחק, לקח
+
+── היות (GV=421)  ──
+   Basin: 3 words flow here
+   Words: היות, ותהי, תהיו
+
+── ליפת (GV=520)  ──
+   Basin: 3 words flow here
+   Words: ילפת, ליפת, פתיל
+
+── בארון (GV=259)  ──
+   Basin: 3 words flow here
+   Words: בארון, נבראו, ראובן
+
+── הכרם (GV=265)  ──
+   Basin: 3 words flow here
+   Words: הכרם, כמהר, מכרה
+
+── בשרם (GV=542)  ──
+   Basin: 3 words flow here
+   Words: בשרם, מבשר, שברם
+
+── בהמלו (GV=83)  ──
+   Basin: 3 words flow here
+   Words: בהמול, בהמלו, המבול
+
+── ונבלה (GV=93)  ──
+   Basin: 3 words flow here
+   Words: ולבנה, ונבלה, נבהלו
+
+── תחיו (GV=424)  ──
+   Basin: 3 words flow here
+   Words: ותחי, חיות, תחיו
+
+── ולמען (GV=196)  ──
+   Basin: 3 words flow here
+   Words: ולמען, ונעלם, עמלנו
+
+── שמעו (GV=416)  ──
+   Basin: 3 words flow here
+   Words: ושמע, שמוע, שמעו
+
+── בהן (GV=57)  ──
+   Basin: 3 words flow here
+   Words: בהן, בנה, הבן
+
+── אחרי (GV=219)  ──
+   Basin: 3 words flow here
+   Words: אחרי, אריח, יאחר
+
+── בקי (GV=112)  ──
+   Basin: 3 words flow here
+   Words: בקי, יבק, יקב
+
+── שתם (GV=740)  ──
+   Basin: 3 words flow here
+   Words: שמת, שתם, תשם
+
+── ואביהם (GV=64)  ──
+   Basin: 3 words flow here
+   Words: ואביהם, והבאים, והביאם
+
+── ומל (GV=76)  ──
+   Basin: 3 words flow here
+   Words: ומל, למו, מול
+
+── סרו (GV=266)  ──
+   Basin: 3 words flow here
+   Words: וסר, סור, סרו
+
+── נתח (GV=458)  ──
+   Basin: 3 words flow here
+   Words: חתן, נחת, נתח
+
+── ואהרן (GV=262)  ──
+   Basin: 3 words flow here
+   Words: הראנו, ואהרן, ונראה
+
+── וכה (GV=31)  ──
+   Basin: 3 words flow here
+   Words: הכו, והך, וכה
+
+── ברד (GV=206)  ──
+   Basin: 3 words flow here
+   Words: ברד, דבר, רבד
+
+── ויולד (GV=56)  ──
+   Basin: 3 words flow here
+   Words: ויולד, וילדו, יולדו
+
+── ואמתים (GV=497)  ──
+   Basin: 3 words flow here
+   Words: ואמתים, ומאתים, תאומים
+
+── שכם (GV=360)  ──
+   Basin: 3 words flow here
+   Words: כשם, שכם, שמך
+
+── יעזר (GV=287)  ──
+   Basin: 3 words flow here
+   Words: זרעי, יזרע, יעזר
+
+── גרו (GV=209)  ──
+   Basin: 3 words flow here
+   Words: גור, גרו, וגר
+
+── אהרן (GV=256) Aaron ──
+   Basin: 3 words flow here
+   Words: אהרן, הארן, נראה
+
+── שקדים (GV=454)  ──
+   Basin: 3 words flow here
+   Words: מקדשי, קדשים, שקדים
+
+── ולבני (GV=98)  ──
+   Basin: 3 words flow here
+   Words: וינבל, ולבני, לבניו
+
+── נפשו (GV=436)  ──
+   Basin: 3 words flow here
+   Words: ונפש, נפשו, שופן
+
+── ותרץ (GV=696)  ──
+   Basin: 3 words flow here
+   Words: וצרת, ותרץ, תצור
+
+── לדתה (GV=439)  ──
+   Basin: 3 words flow here
+   Words: הדלת, הלדת, לדתה
+
+── ישטף (GV=399)  ──
+   Basin: 3 words flow here
+   Words: ישטף, ישפט, שפטי
+
+── אתו (GV=407)  ──
+   Basin: 3 words flow here
+   Words: אות, אתו, ואת
+
+── ותרא (GV=607)  ──
+   Basin: 3 words flow here
+   Words: ותרא, ראות, תראו
+
+── וישבתה (GV=723)  ──
+   Basin: 3 words flow here
+   Words: הושבתי, והשבתי, וישבתה
+
+── רעד (GV=274)  ──
+   Basin: 3 words flow here
+   Words: עדר, ערד, רעד
+
+── קהל (GV=135)  ──
+   Basin: 3 words flow here
+   Words: הקל, קהל, קלה
+
+── ולאלה (GV=72)  ──
+   Basin: 3 words flow here
+   Words: ולאלה, וללאה, לאהלו
+
+── בשכן (GV=372)  ──
+   Basin: 3 words flow here
+   Words: בנשך, בשכן, כבשן
+
+── בארה (GV=208)  ──
+   Basin: 3 words flow here
+   Words: ארבה, בארה, הבאר
+
+── מהית (GV=455)  ──
+   Basin: 3 words flow here
+   Words: היתם, המית, מהית
+
+── ירא (GV=211) fear ──
+   Basin: 3 words flow here
+   Words: יאר, ירא, ראי
+
+── יקרא (GV=311)  ──
+   Basin: 3 words flow here
+   Words: אריק, יקרא, קראי
+
+── ועירם (GV=326)  ──
+   Basin: 3 words flow here
+   Words: ועירם, וערים, ורעים
+
+── משרתו (GV=946)  ──
+   Basin: 3 words flow here
+   Words: ושמרת, משרתו, תשמרו
+
+── לשחת (GV=738)  ──
+   Basin: 3 words flow here
+   Words: לשחת, שלחת, תשלח
+
+── שלמיהם (GV=425)  ──
+   Basin: 3 words flow here
+   Words: המשלים, השלמים, שלמיהם
+
+── יען (GV=130)  ──
+   Basin: 3 words flow here
+   Words: יען, עין, עני
+
+── הרחיב (GV=225)  ──
+   Basin: 3 words flow here
+   Words: הבריח, החברי, הרחיב
+
+── נער (GV=320) youth/lad ──
+   Basin: 3 words flow here
+   Words: נער, נרע, ענר
+
+── ישועת (GV=786)  ──
+   Basin: 3 words flow here
+   Words: ועשית, ישועת, ישעתו
+
+── מכון (GV=116)  ──
+   Basin: 3 words flow here
+   Words: ונכם, כמנו, מכון
+
+── נגבה (GV=60)  ──
+   Basin: 3 words flow here
+   Words: הגנב, הנגב, נגבה
+
+── ולא (GV=37)  ──
+   Basin: 3 words flow here
+   Words: ואל, ולא, לוא
+
+── וחק (GV=114)  ──
+   Basin: 3 words flow here
+   Words: וחק, וקח, קחו
+
+── ותירס (GV=676)  ──
+   Basin: 3 words flow here
+   Words: ויסתר, וסתרי, ותירס
+
+── ויעקב (GV=188)  ──
+   Basin: 3 words flow here
+   Words: ויבקע, ויעקב, יעקוב
+
+── אבדך (GV=27)  ──
+   Basin: 3 words flow here
+   Words: אבדך, אכבד, דבאך
+
+── מאילת (GV=481)  ──
+   Basin: 3 words flow here
+   Words: אלמתי, מאילת, מאלתי
+
+── ונעה (GV=131)  ──
+   Basin: 3 words flow here
+   Words: ונעה, וענה, עונה
+
+── נגדך (GV=77)  ──
+   Basin: 3 words flow here
+   Words: דגנך, כדגן, נגדך
+
+── הושע (GV=381)  ──
+   Basin: 3 words flow here
+   Words: הושע, ועשה, עשהו
+
+── ישרף (GV=590)  ──
+   Basin: 3 words flow here
+   Words: יפרש, ישרף, פרשי
+
+── הרעים (GV=325)  ──
+   Basin: 3 words flow here
+   Words: הערים, הרעים, עריהם
+
+── העשר (GV=575)  ──
+   Basin: 3 words flow here
+   Words: העשר, הרשע, עשרה
+
+── העוד (GV=85)  ──
+   Basin: 3 words flow here
+   Words: הודע, העוד, ועדה
+
+── בידו (GV=22)  ──
+   Basin: 3 words flow here
+   Words: בדיו, בידו, וביד
+
+── תהרגו (GV=614)  ──
+   Basin: 3 words flow here
+   Words: והרגת, והתגר, תהרגו
+
+── וחיה (GV=29)  ──
+   Basin: 3 words flow here
+   Words: החוי, החיו, וחיה
+
+── בעדי (GV=86)  ──
+   Basin: 3 words flow here
+   Words: בעדי, יעבד, עבדי
+
+── ועמדיהם (GV=175)  ──
+   Basin: 3 words flow here
+   Words: העמודים, ועמדיהם, עמודיהם
+
+── תהרג (GV=608)  ──
+   Basin: 3 words flow here
+   Words: גרתה, הרגת, תהרג
+
+── ואהבת (GV=414)  ──
+   Basin: 3 words flow here
+   Words: האבות, ואהבת, והבאת
+
+── קול (GV=136)  ──
+   Basin: 3 words flow here
+   Words: וקל, קול, קלו
+
+── ואכלת (GV=457)  ──
+   Basin: 3 words flow here
+   Words: ואכלת, ותאכל, תאכלו
+
+── חייו (GV=34)  ──
+   Basin: 3 words flow here
+   Words: ויחי, חייו, יחיו
+
+── אשמם (GV=381)  ──
+   Basin: 3 words flow here
+   Words: אשמם, ממשא, משאם
+
+── הוציא (GV=112)  ──
+   Basin: 3 words flow here
+   Words: הוציא, והיצא, ויצאה
+
+── שמות (GV=746)  ──
+   Basin: 3 words flow here
+   Words: ושמת, ותשם, שמות
+
+── ואחזת (GV=422)  ──
+   Basin: 3 words flow here
+   Words: אחזתו, ואחזת, ותאחז
+
+── ויכלו (GV=72)  ──
+   Basin: 3 words flow here
+   Words: ויולך, ויכלו, וילכו
+
+── ישכם (GV=370)  ──
+   Basin: 3 words flow here
+   Words: ישכם, ישמך, שמיך
+
+── ויקרב (GV=318)  ──
+   Basin: 3 words flow here
+   Words: ויקבר, ויקרב, יקרבו
+
+── מעדת (GV=514)  ──
+   Basin: 3 words flow here
+   Words: מעדת, עמדת, תעמד
+
+── באתי (GV=413)  ──
+   Basin: 3 words flow here
+   Words: אבתי, באתי, תביא
+
+── שעירה (GV=585)  ──
+   Basin: 3 words flow here
+   Words: העשיר, השעיר, שעירה
+
+── בלב (GV=34)  ──
+   Basin: 3 words flow here
+   Words: בבל, בלב, לבב
+
+── חקם (GV=148)  ──
+   Basin: 3 words flow here
+   Words: חקם, קחם, קמח
+
+── בעדה (GV=81)  ──
+   Basin: 3 words flow here
+   Words: בעדה, העבד, עבדה
+
+── ויכם (GV=76)  ──
+   Basin: 3 words flow here
+   Words: ויכם, ימוך, כיום
+
+── ישן (GV=360)  ──
+   Basin: 3 words flow here
+   Words: ישן, נשי, שני
+
+── תרומה (GV=651)  ──
+   Basin: 3 words flow here
+   Words: והרמת, ותמהר, תרומה
+
+── שבעות (GV=778)  ──
+   Basin: 3 words flow here
+   Words: ושבעת, שבעות, תשבעו
+
+── ירצח (GV=308)  ──
+   Basin: 3 words flow here
+   Words: יחרץ, ירחץ, ירצח
+
+── הערי (GV=285)  ──
+   Basin: 3 words flow here
+   Words: העיר, הערי, עירה
+
+── אשוב (GV=309)  ──
+   Basin: 3 words flow here
+   Words: אשוב, ואשב, ובאש
+
+── שלם (GV=370)  ──
+   Basin: 3 words flow here
+   Words: לשם, משל, שלם
+
+── ישיר (GV=520)  ──
+   Basin: 3 words flow here
+   Words: יירש, יישר, ישיר
+
+── וימהר (GV=261)  ──
+   Basin: 3 words flow here
+   Words: הרימו, והרים, וימהר
+
+── ורשו (GV=512)  ──
+   Basin: 3 words flow here
+   Words: ורשו, ושור, שורו
+
+── מיום (GV=96)  ──
+   Basin: 3 words flow here
+   Words: ומים, יומם, מיום
+
+── השעירם (GV=625)  ──
+   Basin: 3 words flow here
+   Words: העשרים, הרשעים, השעירם
+
+── לשנאי (GV=391)  ──
+   Basin: 3 words flow here
+   Words: לאנשי, לנשיא, לשנאי
+
+── תמלא (GV=471)  ──
+   Basin: 3 words flow here
+   Words: למאת, מלאת, תמלא
+
+── שכב (GV=322) lie down ──
+   Basin: 3 words flow here
+   Words: כבש, כשב, שכב
+
+── השב (GV=307)  ──
+   Basin: 3 words flow here
+   Words: בשה, השב, שבה
+
+── אמה (GV=46)  ──
+   Basin: 3 words flow here
+   Words: אמה, האם, מאה
+
+── אתהם (GV=446)  ──
+   Basin: 3 words flow here
+   Words: אמתה, אתהם, האמת
+
+── נשוב (GV=358)  ──
+   Basin: 3 words flow here
+   Words: ונשב, נשוב, שבנו
+
+── ויירא (GV=227)  ──
+   Basin: 3 words flow here
+   Words: ויאיר, ויירא, יאירו
+
+── ולאמה (GV=82)  ──
+   Basin: 3 words flow here
+   Words: ולאמה, ומאלה, ומלאה
+
+── ארכו (GV=227)  ──
+   Basin: 3 words flow here
+   Words: ארכו, וארך, וראך
+
+── שמלת (GV=770)  ──
+   Basin: 3 words flow here
+   Words: שלמת, שמלת, תמשל
+
+── אביכן (GV=83)  ──
+   Basin: 3 words flow here
+   Words: אביכן, אבינך, נביאך
+
+── וחשבי (GV=326)  ──
+   Basin: 3 words flow here
+   Words: וחשבי, ויחבש, יחשבו
+
+── בהנחל (GV=95)  ──
+   Basin: 3 words flow here
+   Words: בהנחל, בנחלה, חלבהן
+
+── אולי (GV=47)  ──
+   Basin: 3 words flow here
+   Words: אולי, אליו, ואיל
+
+── בתיכם (GV=472)  ──
+   Basin: 3 words flow here
+   Words: בכיתם, בתיכם, כתבים
+
+── עזרך (GV=297)  ──
+   Basin: 3 words flow here
+   Words: זרעך, כזרע, עזרך
+
+── אעברה (GV=278)  ──
+   Basin: 3 words flow here
+   Words: אעברה, ארבעה, הארבע
+
+── מרחיב (GV=260)  ──
+   Basin: 3 words flow here
+   Words: ברחים, בריחם, מרחיב
+
+── וטהר (GV=220)  ──
+   Basin: 3 words flow here
+   Words: הטור, וטהר, טהור
+
+── תחל (GV=438)  ──
+   Basin: 3 words flow here
+   Words: חלת, לחת, תחל
+
+── ויכתב (GV=438)  ──
+   Basin: 3 words flow here
+   Words: בכיתו, וביתך, ויכתב
+
+── בכל (GV=52)  ──
+   Basin: 3 words flow here
+   Words: בכל, כלב, לבך
+
+── אמית (GV=451)  ──
+   Basin: 3 words flow here
+   Words: אמית, אמתי, מאתי
+
+── ומלאו (GV=83)  ──
+   Basin: 3 words flow here
+   Words: ואולם, ולאמו, ומלאו
+
+── בצקה (GV=197)  ──
+   Basin: 3 words flow here
+   Words: בצקה, בקצה, הבצק
+
+── ברעב (GV=274)  ──
+   Basin: 3 words flow here
+   Words: בעבר, בערב, ברעב
+
+── וילאו (GV=53)  ──
+   Basin: 3 words flow here
+   Words: ואליו, ויואל, וילאו
+
+── ותקרא (GV=707)  ──
+   Basin: 3 words flow here
+   Words: וקראת, ותקרא, תקראו
+
+── לגד (GV=37)  ──
+   Basin: 3 words flow here
+   Words: גדל, דגל, לגד
+
+── בהרים (GV=257)  ──
+   Basin: 3 words flow here
+   Words: בהרים, הרבים, מריבה
+
+── נכה (GV=75) strike ──
+   Basin: 3 words flow here
+   Words: הנך, כהן, נכה
+
+── המלך (GV=95)  ──
+   Basin: 3 words flow here
+   Words: המלך, מהלך, מלכה
+
+── ואכת (GV=427)  ──
+   Basin: 3 words flow here
+   Words: אותך, ואכת, ואתך
+
+── אבת (GV=403)  ──
+   Basin: 3 words flow here
+   Words: אבת, באת, תבא
+
+── אשלם (GV=371)  ──
+   Basin: 3 words flow here
+   Words: אשלם, לאשם, שמאל
+
+── מחית (GV=458)  ──
+   Basin: 3 words flow here
+   Words: חיתם, חמתי, מחית
+
+── תיראי (GV=621)  ──
+   Basin: 3 words flow here
+   Words: יראתי, ראיתי, תיראי
+
+── לישוב (GV=348)  ──
+   Basin: 3 words flow here
+   Words: וילבש, ליושב, לישוב
+
+── סמל (GV=130)  ──
+   Basin: 3 words flow here
+   Words: למס, מסל, סמל
+
+── ביתו (GV=418)  ──
+   Basin: 3 words flow here
+   Words: ביתו, ובית, ובתי
+
+── בשביה (GV=319)  ──
+   Basin: 3 words flow here
+   Words: ביבשה, בשביה, בשיבה
+
+── תחטאו (GV=424)  ──
+   Basin: 3 words flow here
+   Words: וחטאת, חטאתו, תחטאו
+
+── ויפשט (GV=405)  ──
+   Basin: 3 words flow here
+   Words: ויפשט, וישפט, ישפטו
+
+── אתהן (GV=456)  ──
+   Basin: 3 words flow here
+   Words: אתהן, אתנה, תאנה
+
+── נצה (GV=145)  ──
+   Basin: 3 words flow here
+   Words: הנץ, נצה, צנה
+
+── שופר (GV=586)  ──
+   Basin: 3 words flow here
+   Words: פרשו, שופר, שרפו
+
+── לשמי (GV=380)  ──
+   Basin: 3 words flow here
+   Words: ימשל, לשמי, שלמי
+
+── מכר (GV=260)  ──
+   Basin: 3 words flow here
+   Words: כרם, מכר, מרך
+
+── יותר (GV=616)  ──
+   Basin: 3 words flow here
+   Words: ויתר, יותר, יתרו
+
+── שמותם (GV=786)  ──
+   Basin: 3 words flow here
+   Words: ושמתם, ותשמם, שמותם
+
+── לשלה (GV=365)  ──
+   Basin: 3 words flow here
+   Words: השלל, לשלה, שללה
+
+── בשכרו (GV=528)  ──
+   Basin: 3 words flow here
+   Words: בשכרו, ובשכר, כבשרו
+

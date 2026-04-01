@@ -1,0 +1,8 @@
+Basin size 9 — 1 attractors
+Generated: 2026-03-25 (post final-form fix)
+═══════════════════════════════════════════════
+
+── ברכו (GV=228)  ──
+   Basin: 9 words flow here
+   Words: בכור, בכרו, ברוך, ברכו, ובכר, וברך, ורכב, כרוב, רכבו
+

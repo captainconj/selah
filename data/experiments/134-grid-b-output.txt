@@ -1,0 +1,145 @@
+━━━ 134: The Peace Thread — Grid B ━━━
+
+Scanning 12826 words...
+  2000/12826...
+  4000/12826...
+  6000/12826...
+  8000/12826...
+  10000/12826...
+  12000/12826...
+
+Readable words:    9209
+God-exclusive:     551
+Mercy-exclusive:   965
+Truth-exclusive:   386
+Aaron-exclusive:   533
+
+━━━ GOD-EXCLUSIVE (sample) ━━━
+  אהובה        GV=19    readings=6
+  אהיה         GV=21    readings=4
+  יגח          GV=21    readings=3
+  ואהיה        GV=27    readings=12
+  יגיד         GV=27    readings=33
+  ויאהבה       GV=29    readings=56
+  בכח          GV=30    readings=4
+  יגידו        GV=33    readings=99
+  בכחו         GV=36    readings=12
+  ויגידו       GV=39    readings=264
+  חלב          GV=40    readings=2
+  אהלה         GV=41    readings=2
+  בחלב         GV=42    readings=8
+  ויגדך        GV=43    readings=8
+  לאהבה        GV=43    readings=4
+  יגאל         GV=44    readings=12
+  החלב         GV=45    readings=4
+  חלבה         GV=45    readings=2
+  וחלב         GV=46    readings=8
+  חלבו         GV=46    readings=4
+  והלאה        GV=47    readings=14
+  יגלה         GV=48    readings=3
+  אהליאב       GV=49    readings=8
+  ולאהבה       GV=49    readings=4
+  ויוכח        GV=50    readings=2
+  חלבי         GV=50    readings=2
+  כלב          GV=52    readings=2
+  יגלי         GV=53    readings=9
+  ואהליאב      GV=55    readings=24
+  מגיד         GV=57    readings=11
+
+━━━ MERCY-EXCLUSIVE (sample) ━━━
+  גבח          GV=13    readings=1
+  והבא         GV=14    readings=3
+  והובא        GV=20    readings=4
+  ואבואה       GV=21    readings=8
+  הטח          GV=22    readings=2
+  והאחד        GV=24    readings=9
+  והביא        GV=24    readings=9
+  דבאך         GV=27    readings=2
+  והאביד       GV=28    readings=24
+  והביאה       GV=29    readings=9
+  והביאו       GV=30    readings=18
+  והביט        GV=32    readings=3
+  איבך         GV=33    readings=18
+  והכה         GV=36    readings=3
+  והביטו       GV=38    readings=6
+  והכהו        GV=42    readings=3
+  איביך        GV=43    readings=54
+  ואיטיבה      GV=43    readings=24
+  והביאך       GV=44    readings=9
+  הבדלו        GV=47    readings=4
+  הדיחך        GV=47    readings=3
+  זבחיך        GV=47    readings=16
+  להביא        GV=48    readings=6
+  האדם         GV=50    readings=6
+  והיטבך       GV=52    readings=6
+  להאביד       GV=52    readings=16
+  האדמה        GV=55    readings=12
+  והאדם        GV=56    readings=9
+  והאליה       GV=57    readings=9
+  אביהם        GV=58    readings=40
+
+━━━ TRUTH-EXCLUSIVE (sample) ━━━
+  חטה          GV=22    readings=2
+  חטאה         GV=23    readings=6
+  כבא          GV=23    readings=6
+  בחטאה        GV=25    readings=12
+  וחטאה        GV=29    readings=12
+  וכבא         GV=29    readings=6
+  כבוא         GV=29    readings=14
+  כבדה         GV=31    readings=7
+  כבוד         GV=32    readings=24
+  כבאי         GV=33    readings=14
+  וכבוד        GV=38    readings=24
+  הוכח         GV=39    readings=1
+  כבודי        GV=42    readings=10
+  הכיח         GV=43    readings=2
+  ויחטאהו      GV=45    readings=45
+  המטה         GV=59    readings=4
+  לכבוד        GV=62    readings=48
+  הטנא         GV=65    readings=2
+  הנביא        GV=68    readings=39
+  חסד          GV=72    readings=2
+  הנביאה       GV=73    readings=78
+  הסובב        GV=75    readings=9
+  וילכדה       GV=75    readings=3
+  החסד         GV=77    readings=2
+  כדגן         GV=77    readings=2
+  חסדו         GV=78    readings=2
+  הכהן         GV=80    readings=2
+  כסא          GV=81    readings=2
+  כנגדו        GV=83    readings=2
+  חסיו         GV=84    readings=4
+
+━━━ AARON-EXCLUSIVE (sample) ━━━
+  אחז          GV=16    readings=2
+  דגי          GV=17    readings=6
+  האחז         GV=21    readings=2
+  חגי          GV=21    readings=3
+  הגדי         GV=22    readings=9
+  ואחז         GV=22    readings=4
+  הגוי         GV=24    readings=3
+  אביהוא       GV=25    readings=8
+  החגי         GV=26    readings=3
+  אכבד         GV=27    readings=4
+  וחגי         GV=27    readings=9
+  ואביהוא      GV=31    readings=16
+  אחיהוד       GV=34    readings=12
+  אלד          GV=35    readings=6
+  והכבד        GV=37    readings=14
+  בכבדי        GV=38    readings=12
+  ויאחזו       GV=38    readings=2
+  אלדד         GV=39    readings=6
+  יוכבד        GV=42    readings=14
+  בהכבדי       GV=43    readings=24
+  בלוז         GV=45    readings=6
+  אלידד        GV=49    readings=16
+  יולד         GV=50    readings=6
+  אלך          GV=51    readings=2
+  לחגי         GV=51    readings=6
+  אלהיו        GV=52    readings=68
+  וגוזל        GV=52    readings=8
+  לאהביו       GV=54    readings=96
+  האלך         GV=56    readings=2
+  ויולד        GV=56    readings=6
+
+Done.

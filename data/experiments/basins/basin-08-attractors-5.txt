@@ -1,0 +1,24 @@
+Basin size 8 — 5 attractors
+Generated: 2026-03-25 (post final-form fix)
+═══════════════════════════════════════════════
+
+── אויב (GV=19)  ──
+   Basin: 8 words flow here
+   Words: אביו, אויב, ואבי, ובאי, ויבא, יבאו, יבוא, יובא
+
+── מעודי (GV=130)  ──
+   Basin: 8 words flow here
+   Words: ויעמד, ועמדי, ידעום, יעמדו, מועדי, מעודי, עמדיו, עמודי
+
+── ימות (GV=456)  ──
+   Basin: 8 words flow here
+   Words: וימת, ומתי, יומת, ימות, ימתו, יתמו, מותי, מתיו
+
+── אמות (GV=447)  ──
+   Basin: 8 words flow here
+   Words: אותם, אמות, אמתו, ואמת, ואתם, ומאת, מאות, מאתו
+
+── צורי (GV=306)  ──
+   Basin: 8 words flow here
+   Words: ויצר, וירץ, וצרי, יצרו, ירצו, צורי, צריו, רצוי
+

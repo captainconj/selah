@@ -1,0 +1,301 @@
+╔═══════════════════════════════════════════════════╗
+║  Experiment 140: Grid Variant Comparison          ║
+║  Which arrangement produces the strongest court?  ║
+╚═══════════════════════════════════════════════════╝
+
+═══ A: Birth Order Continuous (current) (72 letters) ═══
+  Reader totals: A=259  G=367  R=282  L=426 
+
+  ── Key Words ──
+  אהב      GV=8     A=18  G=10  R=9   L=18   total=55
+  אהבה     GV=13    A=0   G=2   R=6   L=8    total=16
+  אור      GV=207   A=28  G=8   R=17  L=17   total=70
+  איש      GV=311   A=83  G=4   R=47  L=32   total=166
+  אמת      GV=441   A=0   G=1   R=0   L=3    total=4
+  ארץ      GV=291   A=0   G=4   R=1   L=6    total=11
+  אשה      GV=306   A=0   G=12  R=5   L=20   total=37
+  את       GV=401   A=2   G=1   R=1   L=2    total=6
+  באר      GV=203   A=16  G=14  R=8   L=10   total=48
+  ברא      GV=203   A=14  G=23  R=26  L=16   total=79
+  ברית     GV=612   A=5   G=24  R=0   L=60   total=89
+  ברך      GV=222   A=8   G=4   R=7   L=5    total=24
+  גורל     GV=239   A=0   G=0   R=0   L=6    total=6
+  דם       GV=44    A=0   G=3   R=2   L=1    total=6
+  דרך      GV=224   A=2   G=1   R=3   L=2    total=8
+  והיה     GV=26    A=6   G=0   R=22  L=40   total=68
+  חטא      GV=18    A=0   G=0   R=2   L=0    total=2
+  חיים     GV=68    A=0   G=0   R=10  L=0    total=10
+  חשך      GV=328   A=3   G=0   R=2   L=0    total=5
+  יהוה     GV=26    A=3   G=18  R=6   L=31   total=58
+  ישע      GV=380   A=4   G=60  R=37  L=22   total=123
+  כבש      GV=322   A=0   G=1   R=4   L=0    total=5
+  כהן      GV=75    A=0   G=5   R=1   L=6    total=12
+  כפר      GV=300   A=0   G=2   R=0   L=1    total=3
+  מים      GV=90    A=11  G=10  R=2   L=1    total=24
+  מלאך     GV=91    A=0   G=1   R=0   L=1    total=2
+  מלך      GV=90    A=2   G=1   R=0   L=1    total=4
+  משה      GV=345   A=0   G=18  R=1   L=14   total=33
+  נשא      GV=351   A=3   G=14  R=9   L=8    total=34
+  נתן      GV=500   A=6   G=2   R=6   L=2    total=16
+  עץ       GV=160   A=0   G=1   R=0   L=1    total=2
+  קדש      GV=404   A=30  G=0   R=12  L=0    total=42
+  רוח      GV=214   A=1   G=13  R=4   L=6    total=24
+  שכב      GV=322   A=6   G=20  R=9   L=15   total=50
+  שלום     GV=376   A=0   G=35  R=0   L=0    total=35
+  שלח      GV=338   A=0   G=13  R=0   L=2    total=15
+  שעיר     GV=580   A=8   G=36  R=9   L=69   total=122
+  שתה      GV=705   A=0   G=6   R=0   L=0    total=6
+  תורה     GV=611   A=0   G=0   R=14  L=0    total=14
+
+  ── Exclusives ──
+  God-only:   ["שלום" "שתה"]
+  Right-only: ["חיים" "חטא" "תורה"]
+  Left-only:  ["גורל"]
+  Aaron-only: []
+
+  ── Ghost Zone (illuminated, 0 readings) ──
+    חסד      illum=3
+    פנים     illum=22
+    כפרת     illum=5
+    פרכת     illum=5
+    צדק      illum=6
+    משפט     illum=12
+    מצרים    illum=110
+
+  ── Dead Zone (0 illuminations) ──
+
+  ── The Lamb Split ──
+    lamb(כבש):     A=0   G=1   R=4   L=0  
+    lie-down(שכב): A=6   G=20  R=9   L=15 
+    Lamb seen by God+Right: 5  by Aaron+Left: 0
+    Split strength: 5 vs 8
+
+  ── The Name ──
+    YHWH:     A=3   G=18  R=6   L=31 
+    והיה:     A=6   G=0   R=22  L=40 
+
+═══ B: Birth Order, Tribe Per Stone (72 letters) ═══
+  Reader totals: A=229  G=365  R=221  L=412 
+
+  ── Key Words ──
+  אהב      GV=8     A=16  G=4   R=18  L=0    total=38
+  אהבה     GV=13    A=0   G=4   R=0   L=0    total=4
+  אור      GV=207   A=18  G=8   R=10  L=24   total=60
+  איש      GV=311   A=56  G=7   R=7   L=66   total=136
+  אמת      GV=441   A=0   G=0   R=0   L=6    total=6
+  ארץ      GV=291   A=1   G=2   R=0   L=4    total=7
+  אשה      GV=306   A=0   G=15  R=2   L=15   total=32
+  את       GV=401   A=2   G=1   R=0   L=3    total=6
+  באר      GV=203   A=11  G=28  R=12  L=33   total=84
+  ברא      GV=203   A=4   G=20  R=6   L=6    total=36
+  ברית     GV=612   A=0   G=28  R=0   L=37   total=65
+  ברך      GV=222   A=1   G=4   R=0   L=7    total=12
+  גורל     GV=239   A=2   G=4   R=0   L=25   total=31
+  דם       GV=44    A=0   G=3   R=0   L=3    total=6
+  דרך      GV=224   A=0   G=1   R=0   L=4    total=5
+  והיה     GV=26    A=0   G=14  R=0   L=24   total=38
+  חטא      GV=18    A=1   G=0   R=3   L=0    total=4
+  חיים     GV=68    A=0   G=1   R=0   L=10   total=11
+  חסד      GV=72    A=0   G=0   R=2   L=0    total=2
+  חשך      GV=328   A=3   G=0   R=0   L=4    total=7
+  יהוה     GV=26    A=5   G=48  R=11  L=20   total=84
+  ישע      GV=380   A=2   G=60  R=13  L=48   total=123
+  כבש      GV=322   A=1   G=2   R=8   L=0    total=11
+  כהן      GV=75    A=0   G=6   R=2   L=0    total=8
+  כפר      GV=300   A=0   G=2   R=0   L=1    total=3
+  מים      GV=90    A=10  G=8   R=9   L=7    total=34
+  מלך      GV=90    A=1   G=0   R=0   L=0    total=1
+  מצרים    GV=380   A=4   G=0   R=0   L=0    total=4
+  משה      GV=345   A=0   G=16  R=6   L=6    total=28
+  נשא      GV=351   A=3   G=22  R=19  L=0    total=44
+  נתן      GV=500   A=7   G=6   R=5   L=0    total=18
+  עץ       GV=160   A=2   G=0   R=2   L=0    total=4
+  צדק      GV=194   A=2   G=0   R=2   L=0    total=4
+  קדש      GV=404   A=10  G=8   R=3   L=18   total=39
+  רוח      GV=214   A=4   G=6   R=3   L=8    total=21
+  שכב      GV=322   A=16  G=10  R=18  L=0    total=44
+  שלום     GV=376   A=0   G=10  R=0   L=0    total=10
+  שלח      GV=338   A=1   G=0   R=0   L=0    total=1
+  שעיר     GV=580   A=44  G=10  R=52  L=27   total=133
+  שתה      GV=705   A=2   G=5   R=0   L=6    total=13
+  תורה     GV=611   A=0   G=2   R=8   L=0    total=10
+
+  ── Exclusives ──
+  God-only:   ["שלום" "אהבה"]
+  Right-only: ["חסד"]
+  Left-only:  ["אמת"]
+  Aaron-only: ["מלך" "שלח" "מצרים"]
+
+  ── Ghost Zone (illuminated, 0 readings) ──
+    מלאך     illum=18
+    פנים     illum=33
+    כפרת     illum=5
+    פרכת     illum=5
+    משפט     illum=12
+
+  ── Dead Zone (0 illuminations) ──
+
+  ── The Lamb Split ──
+    lamb(כבש):     A=1   G=2   R=8   L=0  
+    lie-down(שכב): A=16  G=10  R=18  L=0  
+    Lamb seen by God+Right: 10  by Aaron+Left: 1
+    Split strength: 9 vs 12
+
+  ── The Name ──
+    YHWH:     A=5   G=48  R=11  L=20 
+    והיה:     A=0   G=14  R=0   L=24 
+
+═══ C: Sotah 36a Mother-Grouped (72 letters) ═══
+  Reader totals: A=271  G=347  R=301  L=356 
+
+  ── Key Words ──
+  אהב      GV=8     A=18  G=10  R=18  L=9    total=55
+  אהבה     GV=13    A=0   G=2   R=6   L=2    total=10
+  אור      GV=207   A=19  G=9   R=10  L=11   total=49
+  איש      GV=311   A=73  G=9   R=47  L=42   total=171
+  אמת      GV=441   A=2   G=0   R=0   L=1    total=3
+  ארץ      GV=291   A=0   G=4   R=5   L=1    total=10
+  אשה      GV=306   A=4   G=8   R=14  L=5    total=31
+  את       GV=401   A=3   G=0   R=2   L=1    total=6
+  באר      GV=203   A=18  G=18  R=13  L=22   total=71
+  ברא      GV=203   A=9   G=27  R=11  L=27   total=74
+  ברית     GV=612   A=33  G=0   R=37  L=6    total=76
+  ברך      GV=222   A=4   G=5   R=1   L=11   total=21
+  גורל     GV=239   A=0   G=0   R=6   L=0    total=6
+  דם       GV=44    A=0   G=3   R=2   L=1    total=6
+  דרך      GV=224   A=0   G=2   R=0   L=6    total=8
+  והיה     GV=26    A=8   G=11  R=22  L=58   total=99
+  חטא      GV=18    A=0   G=0   R=1   L=0    total=1
+  חיים     GV=68    A=0   G=0   R=10  L=0    total=10
+  חשך      GV=328   A=2   G=0   R=0   L=4    total=6
+  יהוה     GV=26    A=3   G=16  R=7   L=16   total=42
+  ישע      GV=380   A=11  G=52  R=33  L=5    total=101
+  כבש      GV=322   A=2   G=0   R=2   L=0    total=4
+  כהן      GV=75    A=5   G=1   R=6   L=0    total=12
+  כפר      GV=300   A=1   G=0   R=1   L=0    total=2
+  מים      GV=90    A=12  G=11  R=2   L=1    total=26
+  מלאך     GV=91    A=0   G=2   R=0   L=4    total=6
+  מלך      GV=90    A=0   G=4   R=0   L=3    total=7
+  משה      GV=345   A=0   G=16  R=1   L=8    total=25
+  משפט     GV=429   A=1   G=0   R=0   L=0    total=1
+  נשא      GV=351   A=0   G=22  R=1   L=15   total=38
+  נתן      GV=500   A=6   G=4   R=6   L=4    total=20
+  עץ       GV=160   A=0   G=1   R=0   L=1    total=2
+  קדש      GV=404   A=18  G=0   R=4   L=6    total=28
+  רוח      GV=214   A=1   G=8   R=5   L=2    total=16
+  שכב      GV=322   A=6   G=18  R=8   L=12   total=44
+  שלום     GV=376   A=0   G=20  R=0   L=0    total=20
+  שלח      GV=338   A=0   G=8   R=0   L=3    total=11
+  שעיר     GV=580   A=12  G=44  R=16  L=60   total=132
+  שתה      GV=705   A=0   G=6   R=4   L=4    total=14
+  תורה     GV=611   A=0   G=6   R=0   L=5    total=11
+
+  ── Exclusives ──
+  God-only:   ["שלום"]
+  Right-only: ["חיים" "חטא" "גורל"]
+  Left-only:  []
+  Aaron-only: ["משפט"]
+
+  ── Ghost Zone (illuminated, 0 readings) ──
+    חסד      illum=3
+    פנים     illum=22
+    כפרת     illum=5
+    פרכת     illum=5
+    צדק      illum=6
+    מצרים    illum=110
+
+  ── Dead Zone (0 illuminations) ──
+
+  ── The Lamb Split ──
+    lamb(כבש):     A=2   G=0   R=2   L=0  
+    lie-down(שכב): A=6   G=18  R=8   L=12 
+    Lamb seen by God+Right: 2  by Aaron+Left: 2
+    Split strength: 0 vs 8
+
+  ── The Name ──
+    YHWH:     A=3   G=16  R=7   L=16 
+    והיה:     A=8   G=11  R=22  L=58 
+
+═══ D: Grid Mirrored (R→L) (72 letters) ═══
+  Reader totals: A=280  G=371  R=340  L=313 
+
+  ── Key Words ──
+  אהב      GV=8     A=17  G=6   R=16  L=2    total=41
+  אהבה     GV=13    A=4   G=6   R=11  L=2    total=23
+  אור      GV=207   A=30  G=8   R=34  L=8    total=80
+  איש      GV=311   A=78  G=2   R=64  L=19   total=163
+  אמת      GV=441   A=2   G=0   R=3   L=0    total=5
+  ארץ      GV=291   A=1   G=1   R=1   L=2    total=5
+  אשה      GV=306   A=4   G=4   R=12  L=10   total=30
+  את       GV=401   A=2   G=1   R=3   L=0    total=6
+  באר      GV=203   A=15  G=15  R=8   L=16   total=54
+  ברא      GV=203   A=6   G=26  R=10  L=22   total=64
+  ברית     GV=612   A=8   G=9   R=14  L=0    total=31
+  ברך      GV=222   A=6   G=3   R=3   L=6    total=18
+  גורל     GV=239   A=0   G=0   R=9   L=0    total=9
+  דם       GV=44    A=0   G=3   R=0   L=3    total=6
+  דרך      GV=224   A=3   G=0   R=2   L=2    total=7
+  והיה     GV=26    A=0   G=19  R=6   L=34   total=59
+  חטא      GV=18    A=0   G=0   R=1   L=0    total=1
+  חיים     GV=68    A=0   G=0   R=0   L=3    total=3
+  חסד      GV=72    A=0   G=0   R=0   L=1    total=1
+  חשך      GV=328   A=4   G=0   R=2   L=0    total=6
+  יהוה     GV=26    A=4   G=62  R=12  L=42   total=120
+  ישע      GV=380   A=2   G=66  R=4   L=52   total=124
+  כבש      GV=322   A=5   G=0   R=4   L=2    total=11
+  כהן      GV=75    A=0   G=5   R=3   L=1    total=9
+  כפר      GV=300   A=0   G=2   R=1   L=0    total=3
+  מים      GV=90    A=10  G=9   R=8   L=7    total=34
+  מלאך     GV=91    A=2   G=0   R=2   L=0    total=4
+  מלך      GV=90    A=2   G=1   R=2   L=0    total=5
+  מצרים    GV=380   A=11  G=0   R=1   L=0    total=12
+  משה      GV=345   A=0   G=13  R=6   L=8    total=27
+  נשא      GV=351   A=0   G=12  R=3   L=10   total=25
+  נתן      GV=500   A=6   G=4   R=4   L=6    total=20
+  עץ       GV=160   A=0   G=1   R=1   L=0    total=2
+  פנים     GV=180   A=0   G=0   R=0   L=2    total=2
+  קדש      GV=404   A=30  G=0   R=10  L=4    total=44
+  רוח      GV=214   A=0   G=16  R=2   L=12   total=30
+  שכב      GV=322   A=12  G=12  R=16  L=8    total=48
+  שלום     GV=376   A=0   G=30  R=0   L=9    total=39
+  שלח      GV=338   A=0   G=12  R=2   L=1    total=15
+  שעיר     GV=580   A=16  G=6   R=60  L=8    total=90
+  שתה      GV=705   A=0   G=10  R=0   L=2    total=12
+  תורה     GV=611   A=0   G=7   R=0   L=9    total=16
+
+  ── Exclusives ──
+  God-only:   []
+  Right-only: ["חטא" "גורל"]
+  Left-only:  ["חיים" "חסד" "פנים"]
+  Aaron-only: []
+
+  ── Ghost Zone (illuminated, 0 readings) ──
+    כפרת     illum=5
+    פרכת     illum=5
+    צדק      illum=6
+    משפט     illum=12
+
+  ── Dead Zone (0 illuminations) ──
+
+  ── The Lamb Split ──
+    lamb(כבש):     A=5   G=0   R=4   L=2  
+    lie-down(שכב): A=12  G=12  R=16  L=8  
+    Lamb seen by God+Right: 4  by Aaron+Left: 7
+    Split strength: 3 vs 8
+
+  ── The Name ──
+    YHWH:     A=4   G=62  R=12  L=42 
+    והיה:     A=0   G=19  R=6   L=34 
+
+
+═══════════════════════════════════════════════
+  COMPARISON SUMMARY
+═══════════════════════════════════════════════
+
+Variant                             Aaron    God      Right    Left      Peace           Life            Lamb split
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+A: Birth Order Continuous (current) 259      367      282      426       God             Right           G1+R4 / A0+L0
+B: Birth Order, Tribe Per Stone     229      365      221      412       God             shared          G2+R8 / A1+L0
+C: Sotah 36a Mother-Grouped         271      347      301      356       God             Right           G0+R2 / A2+L0
+D: Grid Mirrored (R→L)              280      371      340      313       shared          Left            G0+R4 / A5+L2
+[{:dead [], :aaron-exclusive [], :totals {:aaron 259, :god 367, :right 282, :left 426}, :lie-down {:word "שכב", :gv 322, :illuminations 36, :total-readings 50, :aaron 6, :god 20, :right 9, :left 15}, :label "A: Birth Order Continuous (current)", :lamb {:word "כבש", :gv 322, :illuminations 36, :total-readings 5, :aaron 0, :god 1, :right 4, :left 0}, :left-exclusive [{:word "גורל", :gv 239, :illuminations 105, :total-readings 6, :aaron 0, :god 0, :right 0, :left 6}], :right-exclusive [{:word "חיים", :gv 68, :illuminations 55, :total-readings 10, :aaron 0, :god 0, :right 10, :left 0} {:word "חטא", :gv 18, :illuminations 3, :total-readings 2, :aaron 0, :god 0, :right 2, :left 0} {:word "תורה", :gv 611, :illuminations 105, :total-readings 14, :aaron 0, :god 0, :right 14, :left 0}], :ghosts [{:word "חסד", :gv 72, :illuminations 3, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פנים", :gv 180, :illuminations 22, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0}], :total-letters 72, :god-exclusive [{:word "שלום", :gv 376, :illuminations 126, :total-readings 35, :aaron 0, :god 35, :right 0, :left 0} {:word "שתה", :gv 705, :illuminations 18, :total-readings 6, :aaron 0, :god 6, :right 0, :left 0}], :results [{:word "שלום", :gv 376, :illuminations 126, :total-readings 35, :aaron 0, :god 35, :right 0, :left 0} {:word "חיים", :gv 68, :illuminations 55, :total-readings 10, :aaron 0, :god 0, :right 10, :left 0} {:word "אמת", :gv 441, :illuminations 6, :total-readings 4, :aaron 0, :god 1, :right 0, :left 3} {:word "כבש", :gv 322, :illuminations 36, :total-readings 5, :aaron 0, :god 1, :right 4, :left 0} {:word "שכב", :gv 322, :illuminations 36, :total-readings 50, :aaron 6, :god 20, :right 9, :left 15} {:word "אהבה", :gv 13, :illuminations 54, :total-readings 16, :aaron 0, :god 2, :right 6, :left 8} {:word "אהב", :gv 8, :illuminations 54, :total-readings 55, :aaron 18, :god 10, :right 9, :left 18} {:word "יהוה", :gv 26, :illuminations 231, :total-readings 58, :aaron 3, :god 18, :right 6, :left 31} {:word "והיה", :gv 26, :illuminations 231, :total-readings 68, :aaron 6, :god 0, :right 22, :left 40} {:word "מים", :gv 90, :illuminations 22, :total-readings 24, :aaron 11, :god 10, :right 2, :left 1} {:word "רוח", :gv 214, :illuminations 35, :total-readings 24, :aaron 1, :god 13, :right 4, :left 6} {:word "אור", :gv 207, :illuminations 105, :total-readings 70, :aaron 28, :god 8, :right 17, :left 17} {:word "חטא", :gv 18, :illuminations 3, :total-readings 2, :aaron 0, :god 0, :right 2, :left 0} {:word "דם", :gv 44, :illuminations 3, :total-readings 6, :aaron 0, :god 3, :right 2, :left 1} {:word "מלך", :gv 90, :illuminations 6, :total-readings 4, :aaron 2, :god 1, :right 0, :left 1} {:word "דרך", :gv 224, :illuminations 15, :total-readings 8, :aaron 2, :god 1, :right 3, :left 2} {:word "ארץ", :gv 291, :illuminations 15, :total-readings 11, :aaron 0, :god 4, :right 1, :left 6} {:word "עץ", :gv 160, :illuminations 2, :total-readings 2, :aaron 0, :god 1, :right 0, :left 1} {:word "חשך", :gv 328, :illuminations 6, :total-readings 5, :aaron 3, :god 0, :right 2, :left 0} {:word "ברך", :gv 222, :illuminations 30, :total-readings 24, :aaron 8, :god 4, :right 7, :left 5} {:word "מלאך", :gv 91, :illuminations 18, :total-readings 2, :aaron 0, :god 1, :right 0, :left 1} {:word "שתה", :gv 705, :illuminations 18, :total-readings 6, :aaron 0, :god 6, :right 0, :left 0} {:word "נתן", :gv 500, :illuminations 12, :total-readings 16, :aaron 6, :god 2, :right 6, :left 2} {:word "באר", :gv 203, :illuminations 90, :total-readings 48, :aaron 16, :god 14, :right 8, :left 10} {:word "ברא", :gv 203, :illuminations 90, :total-readings 79, :aaron 14, :god 23, :right 26, :left 16} {:word "ישע", :gv 380, :illuminations 132, :total-readings 123, :aaron 4, :god 60, :right 37, :left 22} {:word "אשה", :gv 306, :illuminations 54, :total-readings 37, :aaron 0, :god 12, :right 5, :left 20} {:word "איש", :gv 311, :illuminations 198, :total-readings 166, :aaron 83, :god 4, :right 47, :left 32} {:word "שעיר", :gv 580, :illuminations 660, :total-readings 122, :aaron 8, :god 36, :right 9, :left 69} {:word "גורל", :gv 239, :illuminations 105, :total-readings 6, :aaron 0, :god 0, :right 0, :left 6} {:word "כפר", :gv 300, :illuminations 5, :total-readings 3, :aaron 0, :god 2, :right 0, :left 1} {:word "שלח", :gv 338, :illuminations 18, :total-readings 15, :aaron 0, :god 13, :right 0, :left 2} {:word "נשא", :gv 351, :illuminations 36, :total-readings 34, :aaron 3, :god 14, :right 9, :left 8} {:word "חסד", :gv 72, :illuminations 3, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פנים", :gv 180, :illuminations 22, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "תורה", :gv 611, :illuminations 105, :total-readings 14, :aaron 0, :god 0, :right 14, :left 0} {:word "ברית", :gv 612, :illuminations 330, :total-readings 89, :aaron 5, :god 24, :right 0, :left 60} {:word "משה", :gv 345, :illuminations 36, :total-readings 33, :aaron 0, :god 18, :right 1, :left 14} {:word "קדש", :gv 404, :illuminations 36, :total-readings 42, :aaron 30, :god 0, :right 12, :left 0} {:word "כהן", :gv 75, :illuminations 18, :total-readings 12, :aaron 0, :god 5, :right 1, :left 6} {:word "את", :gv 401, :illuminations 3, :total-readings 6, :aaron 2, :god 1, :right 1, :left 2}]} {:dead [], :aaron-exclusive [{:word "מלך", :gv 90, :illuminations 6, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0} {:word "שלח", :gv 338, :illuminations 18, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 4, :aaron 4, :god 0, :right 0, :left 0}], :totals {:aaron 229, :god 365, :right 221, :left 412}, :lie-down {:word "שכב", :gv 322, :illuminations 36, :total-readings 44, :aaron 16, :god 10, :right 18, :left 0}, :label "B: Birth Order, Tribe Per Stone", :lamb {:word "כבש", :gv 322, :illuminations 36, :total-readings 11, :aaron 1, :god 2, :right 8, :left 0}, :left-exclusive [{:word "אמת", :gv 441, :illuminations 6, :total-readings 6, :aaron 0, :god 0, :right 0, :left 6}], :right-exclusive [{:word "חסד", :gv 72, :illuminations 3, :total-readings 2, :aaron 0, :god 0, :right 2, :left 0}], :ghosts [{:word "מלאך", :gv 91, :illuminations 18, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פנים", :gv 180, :illuminations 33, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0}], :total-letters 72, :god-exclusive [{:word "שלום", :gv 376, :illuminations 126, :total-readings 10, :aaron 0, :god 10, :right 0, :left 0} {:word "אהבה", :gv 13, :illuminations 54, :total-readings 4, :aaron 0, :god 4, :right 0, :left 0}], :results [{:word "שלום", :gv 376, :illuminations 126, :total-readings 10, :aaron 0, :god 10, :right 0, :left 0} {:word "חיים", :gv 68, :illuminations 55, :total-readings 11, :aaron 0, :god 1, :right 0, :left 10} {:word "אמת", :gv 441, :illuminations 6, :total-readings 6, :aaron 0, :god 0, :right 0, :left 6} {:word "כבש", :gv 322, :illuminations 36, :total-readings 11, :aaron 1, :god 2, :right 8, :left 0} {:word "שכב", :gv 322, :illuminations 36, :total-readings 44, :aaron 16, :god 10, :right 18, :left 0} {:word "אהבה", :gv 13, :illuminations 54, :total-readings 4, :aaron 0, :god 4, :right 0, :left 0} {:word "אהב", :gv 8, :illuminations 54, :total-readings 38, :aaron 16, :god 4, :right 18, :left 0} {:word "יהוה", :gv 26, :illuminations 231, :total-readings 84, :aaron 5, :god 48, :right 11, :left 20} {:word "והיה", :gv 26, :illuminations 231, :total-readings 38, :aaron 0, :god 14, :right 0, :left 24} {:word "מים", :gv 90, :illuminations 22, :total-readings 34, :aaron 10, :god 8, :right 9, :left 7} {:word "רוח", :gv 214, :illuminations 35, :total-readings 21, :aaron 4, :god 6, :right 3, :left 8} {:word "אור", :gv 207, :illuminations 105, :total-readings 60, :aaron 18, :god 8, :right 10, :left 24} {:word "חטא", :gv 18, :illuminations 3, :total-readings 4, :aaron 1, :god 0, :right 3, :left 0} {:word "דם", :gv 44, :illuminations 3, :total-readings 6, :aaron 0, :god 3, :right 0, :left 3} {:word "מלך", :gv 90, :illuminations 6, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0} {:word "דרך", :gv 224, :illuminations 15, :total-readings 5, :aaron 0, :god 1, :right 0, :left 4} {:word "ארץ", :gv 291, :illuminations 15, :total-readings 7, :aaron 1, :god 2, :right 0, :left 4} {:word "עץ", :gv 160, :illuminations 2, :total-readings 4, :aaron 2, :god 0, :right 2, :left 0} {:word "חשך", :gv 328, :illuminations 6, :total-readings 7, :aaron 3, :god 0, :right 0, :left 4} {:word "ברך", :gv 222, :illuminations 30, :total-readings 12, :aaron 1, :god 4, :right 0, :left 7} {:word "מלאך", :gv 91, :illuminations 18, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "שתה", :gv 705, :illuminations 18, :total-readings 13, :aaron 2, :god 5, :right 0, :left 6} {:word "נתן", :gv 500, :illuminations 15, :total-readings 18, :aaron 7, :god 6, :right 5, :left 0} {:word "באר", :gv 203, :illuminations 90, :total-readings 84, :aaron 11, :god 28, :right 12, :left 33} {:word "ברא", :gv 203, :illuminations 90, :total-readings 36, :aaron 4, :god 20, :right 6, :left 6} {:word "ישע", :gv 380, :illuminations 132, :total-readings 123, :aaron 2, :god 60, :right 13, :left 48} {:word "אשה", :gv 306, :illuminations 54, :total-readings 32, :aaron 0, :god 15, :right 2, :left 15} {:word "איש", :gv 311, :illuminations 198, :total-readings 136, :aaron 56, :god 7, :right 7, :left 66} {:word "שעיר", :gv 580, :illuminations 660, :total-readings 133, :aaron 44, :god 10, :right 52, :left 27} {:word "גורל", :gv 239, :illuminations 105, :total-readings 31, :aaron 2, :god 4, :right 0, :left 25} {:word "כפר", :gv 300, :illuminations 5, :total-readings 3, :aaron 0, :god 2, :right 0, :left 1} {:word "שלח", :gv 338, :illuminations 18, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0} {:word "נשא", :gv 351, :illuminations 54, :total-readings 44, :aaron 3, :god 22, :right 19, :left 0} {:word "חסד", :gv 72, :illuminations 3, :total-readings 2, :aaron 0, :god 0, :right 2, :left 0} {:word "פנים", :gv 180, :illuminations 33, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 4, :aaron 2, :god 0, :right 2, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 4, :aaron 4, :god 0, :right 0, :left 0} {:word "תורה", :gv 611, :illuminations 105, :total-readings 10, :aaron 0, :god 2, :right 8, :left 0} {:word "ברית", :gv 612, :illuminations 330, :total-readings 65, :aaron 0, :god 28, :right 0, :left 37} {:word "משה", :gv 345, :illuminations 36, :total-readings 28, :aaron 0, :god 16, :right 6, :left 6} {:word "קדש", :gv 404, :illuminations 36, :total-readings 39, :aaron 10, :god 8, :right 3, :left 18} {:word "כהן", :gv 75, :illuminations 15, :total-readings 8, :aaron 0, :god 6, :right 2, :left 0} {:word "את", :gv 401, :illuminations 3, :total-readings 6, :aaron 2, :god 1, :right 0, :left 3}]} {:dead [], :aaron-exclusive [{:word "משפט", :gv 429, :illuminations 12, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0}], :totals {:aaron 271, :god 347, :right 301, :left 356}, :lie-down {:word "שכב", :gv 322, :illuminations 36, :total-readings 44, :aaron 6, :god 18, :right 8, :left 12}, :label "C: Sotah 36a Mother-Grouped", :lamb {:word "כבש", :gv 322, :illuminations 36, :total-readings 4, :aaron 2, :god 0, :right 2, :left 0}, :left-exclusive [], :right-exclusive [{:word "חיים", :gv 68, :illuminations 55, :total-readings 10, :aaron 0, :god 0, :right 10, :left 0} {:word "חטא", :gv 18, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 1, :left 0} {:word "גורל", :gv 239, :illuminations 105, :total-readings 6, :aaron 0, :god 0, :right 6, :left 0}], :ghosts [{:word "חסד", :gv 72, :illuminations 3, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פנים", :gv 180, :illuminations 22, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0}], :total-letters 72, :god-exclusive [{:word "שלום", :gv 376, :illuminations 126, :total-readings 20, :aaron 0, :god 20, :right 0, :left 0}], :results [{:word "שלום", :gv 376, :illuminations 126, :total-readings 20, :aaron 0, :god 20, :right 0, :left 0} {:word "חיים", :gv 68, :illuminations 55, :total-readings 10, :aaron 0, :god 0, :right 10, :left 0} {:word "אמת", :gv 441, :illuminations 6, :total-readings 3, :aaron 2, :god 0, :right 0, :left 1} {:word "כבש", :gv 322, :illuminations 36, :total-readings 4, :aaron 2, :god 0, :right 2, :left 0} {:word "שכב", :gv 322, :illuminations 36, :total-readings 44, :aaron 6, :god 18, :right 8, :left 12} {:word "אהבה", :gv 13, :illuminations 54, :total-readings 10, :aaron 0, :god 2, :right 6, :left 2} {:word "אהב", :gv 8, :illuminations 54, :total-readings 55, :aaron 18, :god 10, :right 18, :left 9} {:word "יהוה", :gv 26, :illuminations 231, :total-readings 42, :aaron 3, :god 16, :right 7, :left 16} {:word "והיה", :gv 26, :illuminations 231, :total-readings 99, :aaron 8, :god 11, :right 22, :left 58} {:word "מים", :gv 90, :illuminations 22, :total-readings 26, :aaron 12, :god 11, :right 2, :left 1} {:word "רוח", :gv 214, :illuminations 35, :total-readings 16, :aaron 1, :god 8, :right 5, :left 2} {:word "אור", :gv 207, :illuminations 105, :total-readings 49, :aaron 19, :god 9, :right 10, :left 11} {:word "חטא", :gv 18, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 1, :left 0} {:word "דם", :gv 44, :illuminations 3, :total-readings 6, :aaron 0, :god 3, :right 2, :left 1} {:word "מלך", :gv 90, :illuminations 6, :total-readings 7, :aaron 0, :god 4, :right 0, :left 3} {:word "דרך", :gv 224, :illuminations 15, :total-readings 8, :aaron 0, :god 2, :right 0, :left 6} {:word "ארץ", :gv 291, :illuminations 15, :total-readings 10, :aaron 0, :god 4, :right 5, :left 1} {:word "עץ", :gv 160, :illuminations 2, :total-readings 2, :aaron 0, :god 1, :right 0, :left 1} {:word "חשך", :gv 328, :illuminations 6, :total-readings 6, :aaron 2, :god 0, :right 0, :left 4} {:word "ברך", :gv 222, :illuminations 30, :total-readings 21, :aaron 4, :god 5, :right 1, :left 11} {:word "מלאך", :gv 91, :illuminations 18, :total-readings 6, :aaron 0, :god 2, :right 0, :left 4} {:word "שתה", :gv 705, :illuminations 18, :total-readings 14, :aaron 0, :god 6, :right 4, :left 4} {:word "נתן", :gv 500, :illuminations 12, :total-readings 20, :aaron 6, :god 4, :right 6, :left 4} {:word "באר", :gv 203, :illuminations 90, :total-readings 71, :aaron 18, :god 18, :right 13, :left 22} {:word "ברא", :gv 203, :illuminations 90, :total-readings 74, :aaron 9, :god 27, :right 11, :left 27} {:word "ישע", :gv 380, :illuminations 132, :total-readings 101, :aaron 11, :god 52, :right 33, :left 5} {:word "אשה", :gv 306, :illuminations 54, :total-readings 31, :aaron 4, :god 8, :right 14, :left 5} {:word "איש", :gv 311, :illuminations 198, :total-readings 171, :aaron 73, :god 9, :right 47, :left 42} {:word "שעיר", :gv 580, :illuminations 660, :total-readings 132, :aaron 12, :god 44, :right 16, :left 60} {:word "גורל", :gv 239, :illuminations 105, :total-readings 6, :aaron 0, :god 0, :right 6, :left 0} {:word "כפר", :gv 300, :illuminations 5, :total-readings 2, :aaron 1, :god 0, :right 1, :left 0} {:word "שלח", :gv 338, :illuminations 18, :total-readings 11, :aaron 0, :god 8, :right 0, :left 3} {:word "נשא", :gv 351, :illuminations 36, :total-readings 38, :aaron 0, :god 22, :right 1, :left 15} {:word "חסד", :gv 72, :illuminations 3, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פנים", :gv 180, :illuminations 22, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 1, :aaron 1, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "תורה", :gv 611, :illuminations 105, :total-readings 11, :aaron 0, :god 6, :right 0, :left 5} {:word "ברית", :gv 612, :illuminations 330, :total-readings 76, :aaron 33, :god 0, :right 37, :left 6} {:word "משה", :gv 345, :illuminations 36, :total-readings 25, :aaron 0, :god 16, :right 1, :left 8} {:word "קדש", :gv 404, :illuminations 36, :total-readings 28, :aaron 18, :god 0, :right 4, :left 6} {:word "כהן", :gv 75, :illuminations 18, :total-readings 12, :aaron 5, :god 1, :right 6, :left 0} {:word "את", :gv 401, :illuminations 3, :total-readings 6, :aaron 3, :god 0, :right 2, :left 1}]} {:dead [], :aaron-exclusive [], :totals {:aaron 280, :god 371, :right 340, :left 313}, :lie-down {:word "שכב", :gv 322, :illuminations 36, :total-readings 48, :aaron 12, :god 12, :right 16, :left 8}, :label "D: Grid Mirrored (R→L)", :lamb {:word "כבש", :gv 322, :illuminations 36, :total-readings 11, :aaron 5, :god 0, :right 4, :left 2}, :left-exclusive [{:word "חיים", :gv 68, :illuminations 55, :total-readings 3, :aaron 0, :god 0, :right 0, :left 3} {:word "חסד", :gv 72, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 0, :left 1} {:word "פנים", :gv 180, :illuminations 22, :total-readings 2, :aaron 0, :god 0, :right 0, :left 2}], :right-exclusive [{:word "חטא", :gv 18, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 1, :left 0} {:word "גורל", :gv 239, :illuminations 105, :total-readings 9, :aaron 0, :god 0, :right 9, :left 0}], :ghosts [{:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0}], :total-letters 72, :god-exclusive [], :results [{:word "שלום", :gv 376, :illuminations 126, :total-readings 39, :aaron 0, :god 30, :right 0, :left 9} {:word "חיים", :gv 68, :illuminations 55, :total-readings 3, :aaron 0, :god 0, :right 0, :left 3} {:word "אמת", :gv 441, :illuminations 6, :total-readings 5, :aaron 2, :god 0, :right 3, :left 0} {:word "כבש", :gv 322, :illuminations 36, :total-readings 11, :aaron 5, :god 0, :right 4, :left 2} {:word "שכב", :gv 322, :illuminations 36, :total-readings 48, :aaron 12, :god 12, :right 16, :left 8} {:word "אהבה", :gv 13, :illuminations 54, :total-readings 23, :aaron 4, :god 6, :right 11, :left 2} {:word "אהב", :gv 8, :illuminations 54, :total-readings 41, :aaron 17, :god 6, :right 16, :left 2} {:word "יהוה", :gv 26, :illuminations 231, :total-readings 120, :aaron 4, :god 62, :right 12, :left 42} {:word "והיה", :gv 26, :illuminations 231, :total-readings 59, :aaron 0, :god 19, :right 6, :left 34} {:word "מים", :gv 90, :illuminations 22, :total-readings 34, :aaron 10, :god 9, :right 8, :left 7} {:word "רוח", :gv 214, :illuminations 35, :total-readings 30, :aaron 0, :god 16, :right 2, :left 12} {:word "אור", :gv 207, :illuminations 105, :total-readings 80, :aaron 30, :god 8, :right 34, :left 8} {:word "חטא", :gv 18, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 1, :left 0} {:word "דם", :gv 44, :illuminations 3, :total-readings 6, :aaron 0, :god 3, :right 0, :left 3} {:word "מלך", :gv 90, :illuminations 6, :total-readings 5, :aaron 2, :god 1, :right 2, :left 0} {:word "דרך", :gv 224, :illuminations 15, :total-readings 7, :aaron 3, :god 0, :right 2, :left 2} {:word "ארץ", :gv 291, :illuminations 15, :total-readings 5, :aaron 1, :god 1, :right 1, :left 2} {:word "עץ", :gv 160, :illuminations 2, :total-readings 2, :aaron 0, :god 1, :right 1, :left 0} {:word "חשך", :gv 328, :illuminations 6, :total-readings 6, :aaron 4, :god 0, :right 2, :left 0} {:word "ברך", :gv 222, :illuminations 30, :total-readings 18, :aaron 6, :god 3, :right 3, :left 6} {:word "מלאך", :gv 91, :illuminations 18, :total-readings 4, :aaron 2, :god 0, :right 2, :left 0} {:word "שתה", :gv 705, :illuminations 18, :total-readings 12, :aaron 0, :god 10, :right 0, :left 2} {:word "נתן", :gv 500, :illuminations 12, :total-readings 20, :aaron 6, :god 4, :right 4, :left 6} {:word "באר", :gv 203, :illuminations 90, :total-readings 54, :aaron 15, :god 15, :right 8, :left 16} {:word "ברא", :gv 203, :illuminations 90, :total-readings 64, :aaron 6, :god 26, :right 10, :left 22} {:word "ישע", :gv 380, :illuminations 132, :total-readings 124, :aaron 2, :god 66, :right 4, :left 52} {:word "אשה", :gv 306, :illuminations 54, :total-readings 30, :aaron 4, :god 4, :right 12, :left 10} {:word "איש", :gv 311, :illuminations 198, :total-readings 163, :aaron 78, :god 2, :right 64, :left 19} {:word "שעיר", :gv 580, :illuminations 660, :total-readings 90, :aaron 16, :god 6, :right 60, :left 8} {:word "גורל", :gv 239, :illuminations 105, :total-readings 9, :aaron 0, :god 0, :right 9, :left 0} {:word "כפר", :gv 300, :illuminations 5, :total-readings 3, :aaron 0, :god 2, :right 1, :left 0} {:word "שלח", :gv 338, :illuminations 18, :total-readings 15, :aaron 0, :god 12, :right 2, :left 1} {:word "נשא", :gv 351, :illuminations 36, :total-readings 25, :aaron 0, :god 12, :right 3, :left 10} {:word "חסד", :gv 72, :illuminations 3, :total-readings 1, :aaron 0, :god 0, :right 0, :left 1} {:word "פנים", :gv 180, :illuminations 22, :total-readings 2, :aaron 0, :god 0, :right 0, :left 2} {:word "כפרת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "פרכת", :gv 700, :illuminations 5, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "צדק", :gv 194, :illuminations 6, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "משפט", :gv 429, :illuminations 12, :total-readings 0, :aaron 0, :god 0, :right 0, :left 0} {:word "מצרים", :gv 380, :illuminations 110, :total-readings 12, :aaron 11, :god 0, :right 1, :left 0} {:word "תורה", :gv 611, :illuminations 105, :total-readings 16, :aaron 0, :god 7, :right 0, :left 9} {:word "ברית", :gv 612, :illuminations 330, :total-readings 31, :aaron 8, :god 9, :right 14, :left 0} {:word "משה", :gv 345, :illuminations 36, :total-readings 27, :aaron 0, :god 13, :right 6, :left 8} {:word "קדש", :gv 404, :illuminations 36, :total-readings 44, :aaron 30, :god 0, :right 10, :left 4} {:word "כהן", :gv 75, :illuminations 18, :total-readings 9, :aaron 0, :god 5, :right 3, :left 1} {:word "את", :gv 401, :illuminations 3, :total-readings 6, :aaron 2, :god 1, :right 3, :left 0}]}]

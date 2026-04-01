@@ -1,0 +1,22 @@
+━━━ 094: Full Thummim Sweep — Grid B ━━━
+All 12,826 Torah words through parse-letters.
+
+Sweeping 12826 words...
+  1000/12826... phrases so far: 39652
+  2000/12826... phrases so far: 61957
+  3000/12826... phrases so far: 107355
+  4000/12826... phrases so far: 239076
+  5000/12826... phrases so far: 284987
+  6000/12826... phrases so far: 336957
+  7000/12826... phrases so far: 356475
+  8000/12826... phrases so far: 364768
+  9000/12826... phrases so far: 399114
+  10000/12826... phrases so far: 440197
+  11000/12826... phrases so far: 454850
+  12000/12826... phrases so far: 464355
+
+Total words:    12826
+Total phrases:  475483
+Multi-reading:  10453 (81.5%)
+
+Done.

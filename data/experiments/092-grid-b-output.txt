@@ -1,0 +1,310 @@
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+━━━ 092: Grid Permutation Test on Grid B ━━━
+100 random grids vs the real breastplate.
+
+
+═══════════════════════════════════════════════════
+  EXPERIMENT 092 — GRID PERMUTATION TEST
+  100 random grids. Same 72 letters. Different arrangement.
+  Vocabulary: dict
+═══════════════════════════════════════════════════
+
+── Phase 1: Baseline (real grid) ──
+  Vocabulary: dict
+  Done in 358ms.
+  Universe: 215 words
+  Eigenwords: aaron=140 god=174 right=135 left=154
+  Agreement: 4/4=81 3/4=41 2/4=68 1/4=20
+  Dict solos: 20 (A=3 G=4 T=5 M=8)
+  Mean Jaccard: 1.0000
+  Lamb self: A=0.9412 G=0.8333 T=0.6923 M=0.0000
+
+── Phase 2-3: Running 100 permutations ──
+  10/100 (0.0s each, ~0s remaining)
+  20/100 (0.0s each, ~0s remaining)
+  30/100 (0.0s each, ~0s remaining)
+  40/100 (0.0s each, ~2s remaining)
+  50/100 (0.0s each, ~2s remaining)
+  60/100 (0.0s each, ~1s remaining)
+  70/100 (0.0s each, ~1s remaining)
+  80/100 (0.0s each, ~1s remaining)
+  90/100 (0.0s each, ~0s remaining)
+  100/100 (0.0s each, ~0s remaining)
+
+  Done. 100 permutations in 4.6s (0.05s each)
+
+═══════════════════════════════════════════════════
+  Phase 4: COMPARISON — Real vs Null Distribution
+═══════════════════════════════════════════════════
+
+── Eigenword Counts ──
+  Aaron eigenwords           real=140       null=140.84 +/- 14.56  z=-0.06  p=0.5743  pctl=43.0%
+  God eigenwords             real=174       null=139.15 +/- 15.48  z=+2.25  p=0.0198  pctl=99.0%
+  Right eigenwords           real=135       null=141.48 +/- 15.82  z=-0.41  p=0.7129  pctl=29.0%
+  Left eigenwords            real=154       null=144.81 +/- 15.41  z=+0.60  p=0.3465  pctl=66.0%
+  Total eigenwords           real=210       null=208.55 +/- 5.09  z=+0.28  p=0.4653  pctl=54.0%
+
+── Agreement Distribution ──
+  Unanimous (4/4)            real=81        null=64.90 +/- 10.68  z=+1.51  p=0.0594  pctl=95.0%
+  Supermajority (3/4)        real=41        null=45.79 +/- 7.86  z=-0.61  p=0.7426  pctl=26.0%
+  Majority (2/4)             real=68        null=71.45 +/- 10.36  z=-0.33  p=0.6238  pctl=38.0%
+  Solo (1/4)                 real=20        null=26.41 +/- 5.59  z=-1.15  p=0.1386  pctl=12.0%
+
+── Dictionary Solo Overlap (theological coherence) ──
+  Dict solos total           real=20        null=26.41 +/- 5.59  z=-1.15  p=0.8812  pctl=12.0%
+  Dict solos Aaron           real=3         null=6.76 +/- 3.58  z=-1.05  p=0.9010  pctl=10.0%
+  Dict solos God             real=4         null=5.84 +/- 2.93  z=-0.63  p=0.8119  pctl=19.0%
+  Dict solos Truth           real=5         null=6.38 +/- 3.37  z=-0.41  p=0.7030  pctl=30.0%
+  Dict solos Mercy           real=8         null=7.43 +/- 4.11  z=+0.14  p=0.4554  pctl=55.0%
+
+── Head Separation (mean Jaccard distance) ──
+  Mean Jaccard               real=1.0       null=1.00 +/- 0.00  z=+0.00  p=1.0000  pctl=0.0%
+
+── The Lamb Test ──
+  Lamb readable: real=yes  null=100/100 (100.0%)
+  Lamb self-weights (among readable grids):
+    Lamb Aaron               real=0.9411764705882353  null=0.53 +/- 0.35  z=+1.16  p=0.1584  pctl=85.0%
+    Lamb God                 real=0.8333333333333334  null=0.44 +/- 0.36  z=+1.07  p=0.2376  pctl=77.0%
+    Lamb Right               real=0.6923076923076923  null=0.48 +/- 0.41  z=+0.51  p=0.4554  pctl=55.0%
+    Lamb Left                real=0.0       null=0.46 +/- 0.37  z=-1.24  p=1.0000  pctl=0.0%
+  Real lamb reads from: #{:god :truth :aaron}
+  Same reader split in null: 11/100 (11.0%)
+
+── Sanity Check ──
+  Real universe: 215
+  Null universe: mean=211.0 min=197 max=221
+  Real transitions: 9498
+  Null transitions: mean=8751
+
+═══════════════════════════════════════════════════
+  DONE. The grid has been tested.
+═══════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════
+  SINGLETON-LETTER CONTROL
+  Is the lamb's reader split unique to כבש,
+  or shared by all words with singleton letters?
+═══════════════════════════════════════════════════
+
+  Grid letter frequencies:
+    י  ×11
+    ו  ×7
+    ש  ×6
+    ב  ×6
+    ר  ×5
+    ן  ×5
+    נ  ×3
+    א  ×3
+    ד  ×3
+    ה  ×3
+    ל  ×3
+    ע  ×2
+    ק  ×2
+    מ  ×2
+    ס  ×1  ← SINGLETON
+    ף  ×1  ← SINGLETON
+    פ  ×1  ← SINGLETON
+    צ  ×1  ← SINGLETON
+    ת  ×1  ← SINGLETON
+    ג  ×1  ← SINGLETON
+    ז  ×1  ← SINGLETON
+    ח  ×1  ← SINGLETON
+    ט  ×1  ← SINGLETON
+    כ  ×1  ← SINGLETON
+    ם  ×1  ← SINGLETON
+
+  Singletons: גזחטכםסףפצת (11 letters)
+
+  Lamb (כבש) distribution: {:aaron 1, :god 2, :truth 8, :mercy 0, :total 11}
+  Lamb reader split: #{:god :truth :aaron}
+
+── Per-Singleton Analysis ──
+
+  ג (stone 7, pos 4, 8 dict words, 8 readable):
+    #{:mercy :god :truth :aaron}         5 words  
+    #{:mercy :god}                       2 words  
+    #{:truth :aaron}                     1 words  
+  Notable words:
+    גדול      A=3 G=8 T=1 M=20  #{:mercy :god :truth :aaron}  great
+    גבול      A=4 G=2 T=1 M=8  #{:mercy :god :truth :aaron}  border/territory
+    רגל       A=4 G=2 T=4 M=2  #{:mercy :god :truth :aaron}  foot
+    גר        A=1 G=4 T=1 M=4  #{:mercy :god :truth :aaron}  sojourner
+    גן        A=2 G=3 T=1 M=4  #{:mercy :god :truth :aaron}  garden
+    גאל       A=0 G=4 T=0 M=6  #{:mercy :god}  redeem
+    דג        A=2 G=0 T=2 M=0  #{:truth :aaron}  fish
+    גם        A=0 G=1 T=0 M=1  #{:mercy :god}  also
+
+  ז (stone 10, pos 1, 8 dict words, 6 readable):
+    #{:mercy :god}                       4 words  
+    #{:truth :aaron}                     2 words  
+  Notable words:
+    זהב       A=0 G=4 T=0 M=6  #{:mercy :god}  gold
+    זרע       A=0 G=5 T=0 M=5  #{:mercy :god}  seed
+    זבח       A=0 G=4 T=0 M=4  #{:mercy :god}  sacrifice
+    זה        A=0 G=3 T=0 M=3  #{:mercy :god}  this
+    אזן       A=3 G=0 T=3 M=0  #{:truth :aaron}  ear
+    עז        A=2 G=0 T=2 M=0  #{:truth :aaron}  strong/goat
+
+  ח (stone 5, pos 1, 33 dict words, 28 readable):
+    #{:mercy :god :truth :aaron}         10 words  
+    #{:mercy :god}                       5 words  
+    #{:mercy}                            4 words  
+    #{:mercy :god :aaron}                3 words  
+    #{:truth :aaron}                     2 words  
+    #{:aaron}                            1 words  
+    #{:god :truth :aaron}                1 words   ← LAMB PATTERN
+    #{:truth}                            1 words  
+    #{:mercy :aaron}                     1 words  
+  Notable words:
+    יצחק      A=4 G=8 T=10 M=5  #{:mercy :god :truth :aaron}  Isaac
+    חי        A=9 G=3 T=6 M=6  #{:mercy :god :truth :aaron}  living
+    רוח       A=4 G=6 T=3 M=8  #{:mercy :god :truth :aaron}  spirit/wind
+    רחמים     A=0 G=0 T=0 M=21  #{:mercy}  mercies
+    חרב       A=9 G=2 T=9 M=0  #{:god :truth :aaron}  sword
+    חדש       A=10 G=1 T=3 M=4  #{:mercy :god :truth :aaron}  new
+    חנן       A=6 G=3 T=3 M=6  #{:mercy :god :truth :aaron}  be gracious
+    ברח       A=1 G=8 T=0 M=7  #{:mercy :god :aaron}  flee
+
+  ט (stone 8, pos 0, 6 dict words, 5 readable):
+    #{:god :truth}                       2 words  
+    #{:mercy :god :truth :aaron}         2 words  
+    #{:truth :aaron}                     1 words  
+  Notable words:
+    טוב       A=2 G=4 T=15 M=1  #{:mercy :god :truth :aaron}  good
+    קטן       A=2 G=3 T=2 M=3  #{:mercy :god :truth :aaron}  small
+    מטה       A=0 G=3 T=4 M=0  #{:god :truth}  staff/tribe
+    טהר       A=0 G=4 T=2 M=0  #{:god :truth}  be pure
+    חטא       A=1 G=0 T=3 M=0  #{:truth :aaron}  sin
+
+  כ (stone 9, pos 4, 26 dict words, 23 readable):
+    #{:god :truth :aaron}                5 words   ← LAMB PATTERN
+    #{:god :truth}                       3 words  
+    #{:mercy :god :truth :aaron}         2 words  
+    #{:mercy :god :truth}                2 words  
+    #{:truth :aaron}                     2 words  
+    #{:truth}                            2 words  
+    #{:mercy :god}                       2 words  
+    #{:mercy :god :aaron}                1 words  
+    #{:god}                              1 words  
+    #{:god :aaron}                       1 words  
+    #{:mercy :aaron}                     1 words  
+    #{:mercy}                            1 words  
+  Notable words:
+    שכרה      A=0 G=25 T=18 M=12  #{:mercy :god :truth}  drunk
+    כרוב      A=4 G=6 T=41 M=0  #{:god :truth :aaron}  cherub
+    שכינה     A=0 G=15 T=30 M=0  #{:god :truth}  dwelling/presence
+    שכב       A=16 G=10 T=18 M=0  #{:god :truth :aaron}  lie down
+    כבוד      A=0 G=0 T=24 M=0  #{:truth}  glory
+    משכן      A=6 G=15 T=0 M=0  #{:god :aaron}  tabernacle
+    אנכי      A=10 G=0 T=0 M=10  #{:mercy :aaron}  I (emphatic)
+    כי        A=5 G=5 T=8 M=2  #{:mercy :god :truth :aaron}  for/because/when
+
+  ם (stone 3, pos 2, 28 dict words, 25 readable):
+    #{:mercy :god}                       18 words  
+    #{:mercy}                            4 words  
+    #{:mercy :god :truth :aaron}         1 words  
+    #{:aaron}                            1 words  
+    #{:god}                              1 words  
+  Notable words:
+    שים       A=0 G=25 T=0 M=23  #{:mercy :god}  set/place
+    יום       A=0 G=29 T=0 M=15  #{:mercy :god}  day
+    מים       A=10 G=8 T=9 M=7  #{:mercy :god :truth :aaron}  water
+    אברהם     A=0 G=6 T=0 M=18  #{:mercy :god}  Abraham
+    שמים      A=0 G=0 T=0 M=21  #{:mercy}  heaven
+    רחמים     A=0 G=0 T=0 M=21  #{:mercy}  mercies
+    ים        A=0 G=10 T=0 M=10  #{:mercy :god}  sea
+    היום      A=0 G=8 T=0 M=10  #{:mercy :god}  today/the day
+
+  ס (stone 11, pos 4, 5 dict words, 4 readable):
+    #{:mercy :god :truth :aaron}         1 words  
+    #{:truth :aaron}                     1 words  
+    #{:truth}                            1 words  
+    #{:god :truth}                       1 words  
+  Notable words:
+    יוסף      A=28 G=1 T=22 M=9  #{:mercy :god :truth :aaron}  Joseph
+    סביב      A=0 G=50 T=6 M=0  #{:god :truth}  around
+    כסף       A=1 G=0 T=1 M=0  #{:truth :aaron}  silver
+    חסד       A=0 G=0 T=2 M=0  #{:truth}  lovingkindness
+
+  ף (stone 11, pos 5, 4 dict words, 4 readable):
+    #{:truth :aaron}                     2 words  
+    #{:mercy :god :truth :aaron}         1 words  
+    #{:aaron}                            1 words  
+  Notable words:
+    יוסף      A=28 G=1 T=22 M=9  #{:mercy :god :truth :aaron}  Joseph
+    עוף       A=8 G=0 T=6 M=0  #{:truth :aaron}  bird
+    כסף       A=1 G=0 T=1 M=0  #{:truth :aaron}  silver
+    אלף       A=2 G=0 T=0 M=0  #{:aaron}  thousand
+
+  פ (stone 6, pos 2, 14 dict words, 10 readable):
+    #{:mercy :god :truth :aaron}         4 words  
+    #{:truth :aaron}                     2 words  
+    #{:mercy :god}                       1 words  
+    #{:aaron}                            1 words  
+    #{:god :truth}                       1 words  
+    #{:god :truth :aaron}                1 words   ← LAMB PATTERN
+  Notable words:
+    פרי       A=8 G=2 T=13 M=1  #{:mercy :god :truth :aaron}  fruit
+    נפל       A=2 G=6 T=2 M=6  #{:mercy :god :truth :aaron}  fall
+    פני       A=4 G=0 T=11 M=0  #{:truth :aaron}  face of
+    נפש       A=5 G=3 T=6 M=0  #{:god :truth :aaron}  soul
+    פר        A=3 G=2 T=4 M=1  #{:mercy :god :truth :aaron}  bull
+    פה        A=2 G=1 T=2 M=1  #{:mercy :god :truth :aaron}  mouth
+    פדה       A=3 G=0 T=3 M=0  #{:truth :aaron}  ransom
+    כפר       A=0 G=2 T=0 M=1  #{:mercy :god}  atone/cover
+
+  צ (stone 5, pos 0, 8 dict words, 7 readable):
+    #{:mercy :god :truth :aaron}         3 words  
+    #{:god :truth :aaron}                2 words   ← LAMB PATTERN
+    #{:aaron}                            1 words  
+    #{:truth :aaron}                     1 words  
+  Notable words:
+    יצא       A=2 G=16 T=15 M=0  #{:god :truth :aaron}  go out
+    יצחק      A=4 G=8 T=10 M=5  #{:mercy :god :truth :aaron}  Isaac
+    צור       A=5 G=2 T=6 M=2  #{:mercy :god :truth :aaron}  rock
+    צאן       A=2 G=4 T=6 M=0  #{:god :truth :aaron}  flock
+    צוה       A=1 G=2 T=7 M=1  #{:mercy :god :truth :aaron}  command
+    מצרים     A=4 G=0 T=0 M=0  #{:aaron}  Egypt
+    צדק       A=2 G=0 T=2 M=0  #{:truth :aaron}  righteousness
+
+  ת (stone 6, pos 3, 22 dict words, 19 readable):
+    #{:mercy :god :aaron}                7 words  
+    #{:mercy :god}                       7 words  
+    #{:mercy}                            2 words  
+    #{:god :truth :aaron}                1 words   ← LAMB PATTERN
+    #{:god}                              1 words  
+    #{:god :truth}                       1 words  
+  Notable words:
+    בית       A=0 G=29 T=0 M=40  #{:mercy :god}  house
+    ברית      A=0 G=28 T=0 M=37  #{:mercy :god}  covenant
+    נתן       A=7 G=6 T=5 M=0  #{:god :truth :aaron}  give
+    ואת       A=4 G=3 T=0 M=9  #{:mercy :god :aaron}  and-(obj)
+    קשת       A=0 G=5 T=0 M=10  #{:mercy :god}  bow/rainbow
+    שתה       A=2 G=5 T=0 M=6  #{:mercy :god :aaron}  drink
+    בת        A=2 G=4 T=0 M=6  #{:mercy :god :aaron}  daughter
+    תורה      A=0 G=2 T=8 M=0  #{:god :truth}  Torah/teaching
+
+═══════════════════════════════════════════════════
+  SINGLETON CONTROL SUMMARY
+═══════════════════════════════════════════════════
+  Letter  Stone     Readable    Lamb-patt   % match
+  ג       7         8           0           0.0%
+  ז       10        6           0           0.0%
+  ח       5         28          1           3.6%
+  ט       8         5           0           0.0%
+  כ       9         23          5           21.7%
+  ם       3         25          0           0.0%
+  ס       11        4           0           0.0%
+  ף       11        4           0           0.0%
+  פ       6         10          1           10.0%
+  צ       5         7           2           28.6%
+  ת       6         19          1           5.3%
+
+  כ (kaf) is on stone 8 (Issachar = 'there is reward').
+  Lamb's split #{:god :truth :aaron} appears in 5/23 כ-words (21.7%).
+  If the split is typical of ALL כ-words → letter position drives it.
+  If the split is specific to כבש → something deeper.
+  Saved to data/experiments/092/
+{:permutation {:baseline {:universe-size 215, :transition-count 9498, :supermajority 41, :readable-count 215, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 210, :ew-truth 135, :grid :real, :solo-count 20, :lamb-readable? true, :ew-aaron 140, :dict-solos-mercy 8, :majority 68, :vocab-mode :dict, :lamb-self {:aaron 0.9411764705882353, :god 0.8333333333333334, :truth 0.6923076923076923, :mercy 0.0}, :dict-solos-total 20, :unanimous 81, :dict-solos-god 4, :dict-solos-truth 5, :elapsed-ms 358, :ew-god 174, :ew-mercy 154}, :null [{:universe-size 208, :transition-count 8975, :supermajority 56, :readable-count 208, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 203, :ew-truth 131, :solo-count 14, :lamb-readable? true, :ew-aaron 156, :dict-solos-mercy 2, :majority 81, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 14, :unanimous 52, :dict-solos-god 3, :dict-solos-truth 2, :ew-god 150, :ew-mercy 115} {:universe-size 215, :transition-count 9073, :supermajority 44, :readable-count 215, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 210, :ew-truth 146, :solo-count 24, :lamb-readable? true, :ew-aaron 144, :dict-solos-mercy 4, :majority 66, :lamb-self {:aaron 0.9090909090909091, :god 0.21052631578947367, :truth 0.9230769230769231, :mercy 0.0}, :dict-solos-total 24, :unanimous 76, :dict-solos-god 8, :dict-solos-truth 7, :ew-god 148, :ew-mercy 154} {:universe-size 213, :transition-count 8413, :supermajority 43, :readable-count 213, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 210, :ew-truth 134, :solo-count 28, :lamb-readable? true, :ew-aaron 140, :dict-solos-mercy 13, :majority 74, :lamb-self {:aaron 0.380952380952381, :god 0.8333333333333334, :truth 0.0, :mercy 0.6818181818181819}, :dict-solos-total 28, :unanimous 65, :dict-solos-god 4, :dict-solos-truth 7, :ew-god 141, :ew-mercy 150} {:universe-size 213, :transition-count 8738, :supermajority 39, :readable-count 213, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 207, :ew-truth 144, :solo-count 22, :lamb-readable? true, :ew-aaron 160, :dict-solos-mercy 9, :majority 68, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 22, :unanimous 78, :dict-solos-god 3, :dict-solos-truth 6, :ew-god 136, :ew-mercy 147} {:universe-size 213, :transition-count 8366, :supermajority 52, :readable-count 213, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 209, :ew-truth 150, :solo-count 26, :lamb-readable? true, :ew-aaron 155, :dict-solos-mercy 7, :majority 78, :lamb-self {:aaron 0.75, :god 0.0, :truth 0.5454545454545454, :mercy 0.0}, :dict-solos-total 26, :unanimous 53, :dict-solos-god 6, :dict-solos-truth 8, :ew-god 126, :ew-mercy 119} {:universe-size 197, :transition-count 8682, :supermajority 37, :readable-count 197, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 194, :ew-truth 117, :solo-count 27, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 13, :majority 74, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 27, :unanimous 56, :dict-solos-god 5, :dict-solos-truth 4, :ew-god 119, :ew-mercy 138} {:universe-size 217, :transition-count 9224, :supermajority 55, :readable-count 217, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 215, :ew-truth 141, :solo-count 28, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 7, :majority 62, :lamb-self {:aaron 0.8928571428571429, :god 0.1818181818181818, :truth 0.0, :mercy 1.0}, :dict-solos-total 28, :unanimous 70, :dict-solos-god 8, :dict-solos-truth 5, :ew-god 150, :ew-mercy 164} {:universe-size 210, :transition-count 8725, :supermajority 47, :readable-count 210, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 209, :ew-truth 165, :solo-count 24, :lamb-readable? true, :ew-aaron 148, :dict-solos-mercy 7, :majority 56, :lamb-self {:aaron 0.8333333333333334, :god 0.28571428571428575, :truth 0.7272727272727273, :mercy 0.4615384615384615}, :dict-solos-total 24, :unanimous 82, :dict-solos-god 5, :dict-solos-truth 10, :ew-god 151, :ew-mercy 141} {:universe-size 209, :transition-count 8816, :supermajority 46, :readable-count 209, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 207, :ew-truth 159, :solo-count 18, :lamb-readable? true, :ew-aaron 141, :dict-solos-mercy 3, :majority 84, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 18, :unanimous 59, :dict-solos-god 4, :dict-solos-truth 8, :ew-god 126, :ew-mercy 134} {:universe-size 216, :transition-count 9110, :supermajority 49, :readable-count 216, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 214, :ew-truth 130, :solo-count 17, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 1, :majority 75, :lamb-self {:aaron 0.8888888888888888, :god 0.6000000000000001, :truth 0.0, :mercy 0.5}, :dict-solos-total 17, :unanimous 73, :dict-solos-god 6, :dict-solos-truth 2, :ew-god 163, :ew-mercy 166} {:universe-size 202, :transition-count 8592, :supermajority 47, :readable-count 202, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 200, :ew-truth 154, :solo-count 25, :lamb-readable? true, :ew-aaron 146, :dict-solos-mercy 9, :majority 49, :lamb-self {:aaron 0.75, :god 0.47058823529411764, :truth 0.75, :mercy 0.5333333333333333}, :dict-solos-total 25, :unanimous 79, :dict-solos-god 4, :dict-solos-truth 5, :ew-god 137, :ew-mercy 143} {:universe-size 202, :transition-count 7988, :supermajority 49, :readable-count 202, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 199, :ew-truth 134, :solo-count 28, :lamb-readable? true, :ew-aaron 130, :dict-solos-mercy 13, :majority 78, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 28, :unanimous 44, :dict-solos-god 1, :dict-solos-truth 9, :ew-god 101, :ew-mercy 142} {:universe-size 209, :transition-count 9187, :supermajority 34, :readable-count 209, :dict-solos-aaron 1, :mean-jaccard 1.0, :ew-total 208, :ew-truth 112, :solo-count 22, :lamb-readable? true, :ew-aaron 111, :dict-solos-mercy 8, :majority 89, :lamb-self {:aaron 0.8333333333333334, :god 0.2, :truth 0.7272727272727273, :mercy 0.3333333333333333}, :dict-solos-total 22, :unanimous 63, :dict-solos-god 8, :dict-solos-truth 5, :ew-god 169, :ew-mercy 162} {:universe-size 203, :transition-count 8847, :supermajority 53, :readable-count 203, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 200, :ew-truth 144, :solo-count 22, :lamb-readable? true, :ew-aaron 125, :dict-solos-mercy 8, :majority 67, :lamb-self {:aaron 0.8571428571428571, :god 0.0, :truth 0.9090909090909091, :mercy 0.3636363636363636}, :dict-solos-total 22, :unanimous 58, :dict-solos-god 3, :dict-solos-truth 6, :ew-god 126, :ew-mercy 152} {:universe-size 212, :transition-count 8657, :supermajority 54, :readable-count 212, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 210, :ew-truth 144, :solo-count 26, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 9, :majority 55, :lamb-self {:aaron 1.0, :god 0.0, :truth 0.8333333333333334, :mercy 0.3333333333333333}, :dict-solos-total 26, :unanimous 75, :dict-solos-god 4, :dict-solos-truth 7, :ew-god 151, :ew-mercy 161} {:universe-size 214, :transition-count 8699, :supermajority 41, :readable-count 214, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 214, :ew-truth 168, :solo-count 26, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 5, :majority 86, :lamb-self {:aaron 0.0, :god 0.0, :truth 0.0, :mercy 0.9090909090909091}, :dict-solos-total 26, :unanimous 61, :dict-solos-god 4, :dict-solos-truth 7, :ew-god 114, :ew-mercy 136} {:universe-size 213, :transition-count 8535, :supermajority 47, :readable-count 213, :dict-solos-aaron 14, :mean-jaccard 1.0, :ew-total 210, :ew-truth 129, :solo-count 40, :lamb-readable? true, :ew-aaron 134, :dict-solos-mercy 9, :majority 66, :lamb-self {:aaron 0.5882352941176471, :god 0.6666666666666666, :truth 0.0, :mercy 0.4}, :dict-solos-total 40, :unanimous 57, :dict-solos-god 11, :dict-solos-truth 6, :ew-god 128, :ew-mercy 150} {:universe-size 213, :transition-count 8580, :supermajority 47, :readable-count 213, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 211, :ew-truth 148, :solo-count 23, :lamb-readable? true, :ew-aaron 140, :dict-solos-mercy 3, :majority 58, :lamb-self {:aaron 0.5454545454545454, :god 0.6666666666666666, :truth 1.0, :mercy 0.0}, :dict-solos-total 23, :unanimous 83, :dict-solos-god 9, :dict-solos-truth 4, :ew-god 171, :ew-mercy 153} {:universe-size 213, :transition-count 8216, :supermajority 48, :readable-count 213, :dict-solos-aaron 12, :mean-jaccard 1.0, :ew-total 209, :ew-truth 137, :solo-count 31, :lamb-readable? true, :ew-aaron 152, :dict-solos-mercy 2, :majority 75, :lamb-self {:aaron 0.28571428571428575, :god 0.9375, :truth 0.6000000000000001, :mercy 0.7058823529411765}, :dict-solos-total 31, :unanimous 55, :dict-solos-god 12, :dict-solos-truth 5, :ew-god 136, :ew-mercy 120} {:universe-size 213, :transition-count 9247, :supermajority 47, :readable-count 213, :dict-solos-aaron 13, :mean-jaccard 1.0, :ew-total 210, :ew-truth 127, :solo-count 36, :lamb-readable? true, :ew-aaron 137, :dict-solos-mercy 11, :majority 80, :lamb-self {:aaron 0.8, :god 0.9090909090909091, :truth 0.0, :mercy 0.0}, :dict-solos-total 36, :unanimous 47, :dict-solos-god 7, :dict-solos-truth 5, :ew-god 123, :ew-mercy 138} {:universe-size 217, :transition-count 9373, :supermajority 36, :readable-count 217, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 215, :ew-truth 124, :solo-count 19, :lamb-readable? true, :ew-aaron 130, :dict-solos-mercy 6, :majority 91, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 19, :unanimous 69, :dict-solos-god 8, :dict-solos-truth 2, :ew-god 177, :ew-mercy 154} {:universe-size 214, :transition-count 8934, :supermajority 40, :readable-count 214, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 211, :ew-truth 148, :solo-count 22, :lamb-readable? true, :ew-aaron 141, :dict-solos-mercy 10, :majority 77, :lamb-self {:aaron 0.9375, :god 0.28571428571428575, :truth 0.5454545454545454, :mercy 0.6666666666666666}, :dict-solos-total 22, :unanimous 72, :dict-solos-god 4, :dict-solos-truth 4, :ew-god 140, :ew-mercy 155} {:universe-size 208, :transition-count 8408, :supermajority 51, :readable-count 208, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 206, :ew-truth 156, :solo-count 22, :lamb-readable? true, :ew-aaron 156, :dict-solos-mercy 5, :majority 57, :lamb-self {:aaron 0.8, :god 1.0, :truth 0.8, :mercy 1.0}, :dict-solos-total 22, :unanimous 76, :dict-solos-god 5, :dict-solos-truth 3, :ew-god 136, :ew-mercy 145} {:universe-size 221, :transition-count 8909, :supermajority 51, :readable-count 221, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 220, :ew-truth 168, :solo-count 26, :lamb-readable? true, :ew-aaron 176, :dict-solos-mercy 6, :majority 68, :lamb-self {:aaron 0.8, :god 0.47058823529411764, :truth 0.26666666666666666, :mercy 0.8823529411764706}, :dict-solos-total 26, :unanimous 75, :dict-solos-god 2, :dict-solos-truth 8, :ew-god 126, :ew-mercy 145} {:universe-size 210, :transition-count 8659, :supermajority 56, :readable-count 210, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 207, :ew-truth 151, :solo-count 22, :lamb-readable? true, :ew-aaron 129, :dict-solos-mercy 6, :majority 68, :lamb-self {:aaron 0.5, :god 0.0, :truth 0.8888888888888888, :mercy 0.7272727272727273}, :dict-solos-total 22, :unanimous 61, :dict-solos-god 7, :dict-solos-truth 4, :ew-god 129, :ew-mercy 161} {:universe-size 210, :transition-count 8863, :supermajority 49, :readable-count 210, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 206, :ew-truth 145, :solo-count 32, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 16, :majority 61, :lamb-self {:aaron 1.0, :god 0.0, :truth 0.6666666666666666, :mercy 0.625}, :dict-solos-total 32, :unanimous 64, :dict-solos-god 6, :dict-solos-truth 8, :ew-god 118, :ew-mercy 158} {:universe-size 207, :transition-count 9092, :supermajority 43, :readable-count 207, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 203, :ew-truth 143, :solo-count 17, :lamb-readable? true, :ew-aaron 138, :dict-solos-mercy 8, :majority 66, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 17, :unanimous 77, :dict-solos-god 3, :dict-solos-truth 2, :ew-god 134, :ew-mercy 171} {:universe-size 209, :transition-count 8320, :supermajority 30, :readable-count 209, :dict-solos-aaron 11, :mean-jaccard 1.0, :ew-total 206, :ew-truth 130, :solo-count 25, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 6, :majority 79, :lamb-self {:aaron 0.4444444444444445, :god 0.6000000000000001, :truth 0.9090909090909091, :mercy 1.0}, :dict-solos-total 25, :unanimous 72, :dict-solos-god 4, :dict-solos-truth 4, :ew-god 142, :ew-mercy 147} {:universe-size 217, :transition-count 8702, :supermajority 51, :readable-count 217, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 213, :ew-truth 152, :solo-count 21, :lamb-readable? true, :ew-aaron 141, :dict-solos-mercy 6, :majority 76, :lamb-self {:aaron 0.6666666666666666, :god 0.4, :truth 0.5263157894736842, :mercy 0.75}, :dict-solos-total 21, :unanimous 65, :dict-solos-god 2, :dict-solos-truth 8, :ew-god 136, :ew-mercy 157} {:universe-size 214, :transition-count 8739, :supermajority 39, :readable-count 214, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 209, :ew-truth 135, :solo-count 31, :lamb-readable? true, :ew-aaron 131, :dict-solos-mercy 10, :majority 59, :lamb-self {:aaron 0.0, :god 0.2, :truth 0.0, :mercy 0.25}, :dict-solos-total 31, :unanimous 80, :dict-solos-god 8, :dict-solos-truth 6, :ew-god 158, :ew-mercy 162} {:universe-size 218, :transition-count 8566, :supermajority 50, :readable-count 218, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 215, :ew-truth 153, :solo-count 20, :lamb-readable? true, :ew-aaron 131, :dict-solos-mercy 6, :majority 75, :lamb-self {:aaron 0.4444444444444445, :god 0.8571428571428571, :truth 1.0, :mercy 0.0}, :dict-solos-total 20, :unanimous 70, :dict-solos-god 5, :dict-solos-truth 5, :ew-god 153, :ew-mercy 163} {:universe-size 212, :transition-count 9164, :supermajority 54, :readable-count 212, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 210, :ew-truth 153, :solo-count 30, :lamb-readable? true, :ew-aaron 145, :dict-solos-mercy 3, :majority 57, :lamb-self {:aaron 0.5, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 30, :unanimous 69, :dict-solos-god 10, :dict-solos-truth 11, :ew-god 135, :ew-mercy 149} {:universe-size 221, :transition-count 9472, :supermajority 39, :readable-count 221, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 219, :ew-truth 163, :solo-count 21, :lamb-readable? true, :ew-aaron 158, :dict-solos-mercy 10, :majority 80, :lamb-self {:aaron 0.4444444444444445, :god 0.9230769230769231, :truth 0.8, :mercy 0.5217391304347826}, :dict-solos-total 21, :unanimous 79, :dict-solos-god 1, :dict-solos-truth 3, :ew-god 141, :ew-mercy 152} {:universe-size 216, :transition-count 8523, :supermajority 45, :readable-count 216, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 213, :ew-truth 131, :solo-count 21, :lamb-readable? true, :ew-aaron 127, :dict-solos-mercy 7, :majority 78, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.8, :mercy 0.4615384615384615}, :dict-solos-total 21, :unanimous 69, :dict-solos-god 7, :dict-solos-truth 3, :ew-god 171, :ew-mercy 159} {:universe-size 205, :transition-count 8432, :supermajority 29, :readable-count 205, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 204, :ew-truth 105, :solo-count 33, :lamb-readable? true, :ew-aaron 100, :dict-solos-mercy 17, :majority 97, :lamb-self {:aaron 0.27272727272727276, :god 0.8333333333333334, :truth 0.23529411764705882, :mercy 0.8333333333333334}, :dict-solos-total 33, :unanimous 45, :dict-solos-god 4, :dict-solos-truth 8, :ew-god 134, :ew-mercy 155} {:universe-size 207, :transition-count 8294, :supermajority 46, :readable-count 207, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 203, :ew-truth 144, :solo-count 25, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 2, :majority 91, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 25, :unanimous 41, :dict-solos-god 4, :dict-solos-truth 12, :ew-god 116, :ew-mercy 113} {:universe-size 210, :transition-count 8715, :supermajority 53, :readable-count 210, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 207, :ew-truth 141, :solo-count 29, :lamb-readable? true, :ew-aaron 155, :dict-solos-mercy 6, :majority 55, :lamb-self {:aaron 0.0, :god 0.3333333333333333, :truth 0.0, :mercy 1.0}, :dict-solos-total 29, :unanimous 70, :dict-solos-god 14, :dict-solos-truth 1, :ew-god 141, :ew-mercy 141} {:universe-size 206, :transition-count 8295, :supermajority 44, :readable-count 206, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 205, :ew-truth 119, :solo-count 26, :lamb-readable? true, :ew-aaron 113, :dict-solos-mercy 16, :majority 76, :lamb-self {:aaron 0.0, :god 0.2608695652173913, :truth 0.0, :mercy 0.35294117647058826}, :dict-solos-total 26, :unanimous 59, :dict-solos-god 6, :dict-solos-truth 2, :ew-god 140, :ew-mercy 174} {:universe-size 208, :transition-count 9205, :supermajority 53, :readable-count 208, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 204, :ew-truth 143, :solo-count 23, :lamb-readable? true, :ew-aaron 129, :dict-solos-mercy 5, :majority 68, :lamb-self {:aaron 0.7058823529411765, :god 0.6000000000000001, :truth 0.75, :mercy 0.5}, :dict-solos-total 23, :unanimous 60, :dict-solos-god 5, :dict-solos-truth 8, :ew-god 140, :ew-mercy 146} {:universe-size 218, :transition-count 8553, :supermajority 36, :readable-count 218, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 214, :ew-truth 123, :solo-count 24, :lamb-readable? true, :ew-aaron 109, :dict-solos-mercy 10, :majority 92, :lamb-self {:aaron 0.35714285714285715, :god 0.0, :truth 0.5454545454545454, :mercy 0.6666666666666666}, :dict-solos-total 24, :unanimous 62, :dict-solos-god 2, :dict-solos-truth 7, :ew-god 153, :ew-mercy 179} {:universe-size 220, :transition-count 8578, :supermajority 60, :readable-count 220, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 216, :ew-truth 163, :solo-count 33, :lamb-readable? true, :ew-aaron 107, :dict-solos-mercy 11, :majority 68, :lamb-self {:aaron 0.0, :god 1.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 33, :unanimous 55, :dict-solos-god 8, :dict-solos-truth 11, :ew-god 142, :ew-mercy 157} {:universe-size 211, :transition-count 8693, :supermajority 33, :readable-count 211, :dict-solos-aaron 1, :mean-jaccard 1.0, :ew-total 208, :ew-truth 152, :solo-count 19, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 6, :majority 77, :lamb-self {:aaron 0.0, :god 0.2857142857142857, :truth 0.0, :mercy 0.23076923076923075}, :dict-solos-total 19, :unanimous 79, :dict-solos-god 4, :dict-solos-truth 8, :ew-god 152, :ew-mercy 142} {:universe-size 221, :transition-count 8582, :supermajority 57, :readable-count 221, :dict-solos-aaron 12, :mean-jaccard 1.0, :ew-total 218, :ew-truth 144, :solo-count 33, :lamb-readable? true, :ew-aaron 170, :dict-solos-mercy 15, :majority 65, :lamb-self {:aaron 0.5294117647058824, :god 0.5999999999999999, :truth 0.0, :mercy 0.23076923076923075}, :dict-solos-total 33, :unanimous 63, :dict-solos-god 1, :dict-solos-truth 5, :ew-god 117, :ew-mercy 155} {:universe-size 209, :transition-count 9413, :supermajority 50, :readable-count 209, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 208, :ew-truth 127, :solo-count 32, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 17, :majority 54, :lamb-self {:aaron 0.8571428571428571, :god 0.8181818181818181, :truth 0.0, :mercy 0.3333333333333333}, :dict-solos-total 32, :unanimous 72, :dict-solos-god 5, :dict-solos-truth 1, :ew-god 146, :ew-mercy 158} {:universe-size 215, :transition-count 8706, :supermajority 40, :readable-count 215, :dict-solos-aaron 16, :mean-jaccard 1.0, :ew-total 213, :ew-truth 135, :solo-count 28, :lamb-readable? true, :ew-aaron 164, :dict-solos-mercy 10, :majority 79, :lamb-self {:aaron 0.7058823529411765, :god 0.4615384615384615, :truth 0.0, :mercy 1.0}, :dict-solos-total 28, :unanimous 66, :dict-solos-god 1, :dict-solos-truth 1, :ew-god 127, :ew-mercy 144} {:universe-size 214, :transition-count 8752, :supermajority 51, :readable-count 214, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 210, :ew-truth 166, :solo-count 18, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 0, :majority 69, :lamb-self {:aaron 0.8, :god 0.26315789473684204, :truth 0.0, :mercy 0.5}, :dict-solos-total 18, :unanimous 72, :dict-solos-god 8, :dict-solos-truth 5, :ew-god 166, :ew-mercy 118} {:universe-size 213, :transition-count 9118, :supermajority 46, :readable-count 213, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 210, :ew-truth 135, :solo-count 23, :lamb-readable? true, :ew-aaron 153, :dict-solos-mercy 3, :majority 65, :lamb-self {:aaron 0.2777777777777778, :god 0.9090909090909091, :truth 0.5, :mercy 0.7142857142857143}, :dict-solos-total 23, :unanimous 76, :dict-solos-god 11, :dict-solos-truth 3, :ew-god 160, :ew-mercy 147} {:universe-size 205, :transition-count 9615, :supermajority 48, :readable-count 205, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 201, :ew-truth 127, :solo-count 17, :lamb-readable? true, :ew-aaron 135, :dict-solos-mercy 8, :majority 71, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 17, :unanimous 65, :dict-solos-god 2, :dict-solos-truth 4, :ew-god 146, :ew-mercy 155} {:universe-size 209, :transition-count 8786, :supermajority 69, :readable-count 209, :dict-solos-aaron 13, :mean-jaccard 1.0, :ew-total 208, :ew-truth 129, :solo-count 29, :lamb-readable? true, :ew-aaron 163, :dict-solos-mercy 4, :majority 63, :lamb-self {:aaron 0.9090909090909091, :god 0.25, :truth 0.9090909090909091, :mercy 0.16666666666666666}, :dict-solos-total 29, :unanimous 47, :dict-solos-god 9, :dict-solos-truth 3, :ew-god 153, :ew-mercy 105} {:universe-size 214, :transition-count 8928, :supermajority 33, :readable-count 214, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 211, :ew-truth 156, :solo-count 38, :lamb-readable? true, :ew-aaron 152, :dict-solos-mercy 3, :majority 71, :lamb-self {:aaron 0.5999999999999999, :god 0.8, :truth 0.25, :mercy 0.0}, :dict-solos-total 38, :unanimous 69, :dict-solos-god 12, :dict-solos-truth 17, :ew-god 141, :ew-mercy 106} {:universe-size 209, :transition-count 8835, :supermajority 53, :readable-count 209, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 205, :ew-truth 148, :solo-count 28, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 12, :majority 62, :lamb-self {:aaron 0.0, :god 0.27272727272727276, :truth 0.3636363636363636, :mercy 0.7619047619047619}, :dict-solos-total 28, :unanimous 62, :dict-solos-god 4, :dict-solos-truth 6, :ew-god 138, :ew-mercy 137} {:universe-size 209, :transition-count 9037, :supermajority 55, :readable-count 209, :dict-solos-aaron 16, :mean-jaccard 1.0, :ew-total 208, :ew-truth 111, :solo-count 41, :lamb-readable? true, :ew-aaron 134, :dict-solos-mercy 8, :majority 69, :lamb-self {:aaron 0.5, :god 0.0, :truth 0.0, :mercy 0.6428571428571429}, :dict-solos-total 41, :unanimous 43, :dict-solos-god 7, :dict-solos-truth 10, :ew-god 126, :ew-mercy 145} {:universe-size 217, :transition-count 8833, :supermajority 42, :readable-count 217, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 213, :ew-truth 138, :solo-count 27, :lamb-readable? true, :ew-aaron 144, :dict-solos-mercy 10, :majority 67, :lamb-self {:aaron 0.0, :god 0.3, :truth 0.0, :mercy 0.27272727272727276}, :dict-solos-total 27, :unanimous 77, :dict-solos-god 8, :dict-solos-truth 5, :ew-god 156, :ew-mercy 157} {:universe-size 210, :transition-count 8757, :supermajority 38, :readable-count 210, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 207, :ew-truth 149, :solo-count 26, :lamb-readable? true, :ew-aaron 137, :dict-solos-mercy 7, :majority 63, :lamb-self {:aaron 0.7272727272727273, :god 0.75, :truth 0.8333333333333334, :mercy 0.0}, :dict-solos-total 26, :unanimous 80, :dict-solos-god 5, :dict-solos-truth 5, :ew-god 151, :ew-mercy 149} {:universe-size 209, :transition-count 9023, :supermajority 41, :readable-count 209, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 207, :ew-truth 117, :solo-count 19, :lamb-readable? true, :ew-aaron 115, :dict-solos-mercy 5, :majority 91, :lamb-self {:aaron 0.5, :god 0.8571428571428571, :truth 0.8181818181818181, :mercy 0.0}, :dict-solos-total 19, :unanimous 56, :dict-solos-god 7, :dict-solos-truth 3, :ew-god 157, :ew-mercy 159} {:universe-size 214, :transition-count 8840, :supermajority 52, :readable-count 214, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 211, :ew-truth 138, :solo-count 32, :lamb-readable? true, :ew-aaron 107, :dict-solos-mercy 4, :majority 71, :lamb-self {:aaron 0.0, :god 0.3703703703703704, :truth 0.6666666666666666, :mercy 0.35294117647058826}, :dict-solos-total 32, :unanimous 56, :dict-solos-god 10, :dict-solos-truth 13, :ew-god 159, :ew-mercy 150} {:universe-size 205, :transition-count 9082, :supermajority 49, :readable-count 205, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 203, :ew-truth 146, :solo-count 17, :lamb-readable? true, :ew-aaron 124, :dict-solos-mercy 2, :majority 66, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 17, :unanimous 71, :dict-solos-god 8, :dict-solos-truth 5, :ew-god 156, :ew-mercy 154} {:universe-size 204, :transition-count 8895, :supermajority 44, :readable-count 204, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 200, :ew-truth 98, :solo-count 32, :lamb-readable? true, :ew-aaron 111, :dict-solos-mercy 24, :majority 79, :lamb-self {:aaron 0.0, :god 0.6000000000000001, :truth 0.8333333333333334, :mercy 0.5714285714285714}, :dict-solos-total 32, :unanimous 45, :dict-solos-god 2, :dict-solos-truth 1, :ew-god 129, :ew-mercy 164} {:universe-size 204, :transition-count 7880, :supermajority 35, :readable-count 204, :dict-solos-aaron 17, :mean-jaccard 1.0, :ew-total 202, :ew-truth 143, :solo-count 39, :lamb-readable? true, :ew-aaron 151, :dict-solos-mercy 7, :majority 79, :lamb-self {:aaron 0.0, :god 0.2, :truth 0.9090909090909091, :mercy 0.380952380952381}, :dict-solos-total 39, :unanimous 49, :dict-solos-god 6, :dict-solos-truth 9, :ew-god 101, :ew-mercy 103} {:universe-size 213, :transition-count 8626, :supermajority 60, :readable-count 213, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 212, :ew-truth 153, :solo-count 29, :lamb-readable? true, :ew-aaron 135, :dict-solos-mercy 3, :majority 69, :lamb-self {:aaron 0.8333333333333334, :god 0.23809523809523808, :truth 0.0, :mercy 1.0}, :dict-solos-total 29, :unanimous 54, :dict-solos-god 8, :dict-solos-truth 14, :ew-god 146, :ew-mercy 129} {:universe-size 215, :transition-count 8358, :supermajority 41, :readable-count 215, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 213, :ew-truth 157, :solo-count 30, :lamb-readable? true, :ew-aaron 163, :dict-solos-mercy 4, :majority 61, :lamb-self {:aaron 0.3, :god 0.8333333333333333, :truth 0.0, :mercy 0.8571428571428571}, :dict-solos-total 30, :unanimous 81, :dict-solos-god 8, :dict-solos-truth 8, :ew-god 142, :ew-mercy 137} {:universe-size 202, :transition-count 9069, :supermajority 31, :readable-count 202, :dict-solos-aaron 12, :mean-jaccard 1.0, :ew-total 202, :ew-truth 98, :solo-count 31, :lamb-readable? true, :ew-aaron 134, :dict-solos-mercy 11, :majority 88, :lamb-self {:aaron 0.30769230769230765, :god 0.8888888888888888, :truth 0.0, :mercy 0.5555555555555556}, :dict-solos-total 31, :unanimous 52, :dict-solos-god 5, :dict-solos-truth 3, :ew-god 132, :ew-mercy 144} {:universe-size 217, :transition-count 8474, :supermajority 50, :readable-count 217, :dict-solos-aaron 17, :mean-jaccard 1.0, :ew-total 215, :ew-truth 139, :solo-count 30, :lamb-readable? true, :ew-aaron 168, :dict-solos-mercy 8, :majority 75, :lamb-self {:aaron 0.5217391304347826, :god 0.0, :truth 0.8333333333333334, :mercy 0.4}, :dict-solos-total 30, :unanimous 60, :dict-solos-god 4, :dict-solos-truth 1, :ew-god 124, :ew-mercy 139} {:universe-size 204, :transition-count 9006, :supermajority 44, :readable-count 204, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 203, :ew-truth 136, :solo-count 31, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 4, :majority 75, :lamb-self {:aaron 0.3636363636363636, :god 0.8333333333333334, :truth 0.75, :mercy 0.75}, :dict-solos-total 31, :unanimous 53, :dict-solos-god 9, :dict-solos-truth 10, :ew-god 134, :ew-mercy 113} {:universe-size 204, :transition-count 8448, :supermajority 46, :readable-count 204, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 202, :ew-truth 144, :solo-count 34, :lamb-readable? true, :ew-aaron 128, :dict-solos-mercy 10, :majority 63, :lamb-self {:aaron 0.2777777777777778, :god 0.0, :truth 0.23809523809523808, :mercy 0.0}, :dict-solos-total 34, :unanimous 59, :dict-solos-god 8, :dict-solos-truth 8, :ew-god 121, :ew-mercy 141} {:universe-size 209, :transition-count 9428, :supermajority 35, :readable-count 209, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 207, :ew-truth 146, :solo-count 22, :lamb-readable? true, :ew-aaron 152, :dict-solos-mercy 11, :majority 78, :lamb-self {:aaron 0.25, :god 0.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 22, :unanimous 72, :dict-solos-god 4, :dict-solos-truth 3, :ew-god 134, :ew-mercy 139} {:universe-size 220, :transition-count 8085, :supermajority 57, :readable-count 220, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 217, :ew-truth 161, :solo-count 37, :lamb-readable? true, :ew-aaron 130, :dict-solos-mercy 13, :majority 65, :lamb-self {:aaron 0.47058823529411764, :god 0.6666666666666666, :truth 0.5454545454545454, :mercy 0.6666666666666666}, :dict-solos-total 37, :unanimous 58, :dict-solos-god 2, :dict-solos-truth 14, :ew-god 125, :ew-mercy 154} {:universe-size 217, :transition-count 8661, :supermajority 63, :readable-count 217, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 213, :ew-truth 149, :solo-count 25, :lamb-readable? true, :ew-aaron 168, :dict-solos-mercy 5, :majority 64, :lamb-self {:aaron 0.8, :god 0.4285714285714286, :truth 0.75, :mercy 0.75}, :dict-solos-total 25, :unanimous 61, :dict-solos-god 7, :dict-solos-truth 3, :ew-god 132, :ew-mercy 137} {:universe-size 212, :transition-count 8642, :supermajority 38, :readable-count 212, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 211, :ew-truth 154, :solo-count 24, :lamb-readable? true, :ew-aaron 143, :dict-solos-mercy 2, :majority 55, :lamb-self {:aaron 0.7058823529411765, :god 0.8571428571428571, :truth 0.2173913043478261, :mercy 0.0}, :dict-solos-total 24, :unanimous 94, :dict-solos-god 11, :dict-solos-truth 5, :ew-god 164, :ew-mercy 163} {:universe-size 212, :transition-count 8565, :supermajority 60, :readable-count 212, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 210, :ew-truth 140, :solo-count 33, :lamb-readable? true, :ew-aaron 149, :dict-solos-mercy 11, :majority 50, :lamb-self {:aaron 1.0, :god 0.0, :truth 0.8333333333333334, :mercy 0.21052631578947367}, :dict-solos-total 33, :unanimous 67, :dict-solos-god 7, :dict-solos-truth 6, :ew-god 149, :ew-mercy 143} {:universe-size 209, :transition-count 8618, :supermajority 44, :readable-count 209, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 206, :ew-truth 141, :solo-count 33, :lamb-readable? true, :ew-aaron 141, :dict-solos-mercy 9, :majority 69, :lamb-self {:aaron 0.0, :god 0.25, :truth 0.0, :mercy 0.35294117647058826}, :dict-solos-total 33, :unanimous 60, :dict-solos-god 3, :dict-solos-truth 11, :ew-god 117, :ew-mercy 144} {:universe-size 207, :transition-count 8207, :supermajority 45, :readable-count 207, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 205, :ew-truth 147, :solo-count 25, :lamb-readable? true, :ew-aaron 138, :dict-solos-mercy 6, :majority 64, :lamb-self {:aaron 0.7272727272727273, :god 0.3333333333333333, :truth 0.9090909090909091, :mercy 0.2173913043478261}, :dict-solos-total 25, :unanimous 71, :dict-solos-god 5, :dict-solos-truth 5, :ew-god 139, :ew-mercy 148} {:universe-size 214, :transition-count 8527, :supermajority 40, :readable-count 214, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 209, :ew-truth 134, :solo-count 27, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 1, :majority 82, :lamb-self {:aaron 0.6666666666666666, :god 0.3999999999999999, :truth 0.2608695652173913, :mercy 0.0}, :dict-solos-total 27, :unanimous 60, :dict-solos-god 13, :dict-solos-truth 8, :ew-god 161, :ew-mercy 120} {:universe-size 214, :transition-count 8892, :supermajority 48, :readable-count 214, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 213, :ew-truth 131, :solo-count 29, :lamb-readable? true, :ew-aaron 140, :dict-solos-mercy 10, :majority 68, :lamb-self {:aaron 0.3333333333333333, :god 0.0, :truth 0.8, :mercy 0.2941176470588235}, :dict-solos-total 29, :unanimous 68, :dict-solos-god 4, :dict-solos-truth 6, :ew-god 146, :ew-mercy 164} {:universe-size 202, :transition-count 8511, :supermajority 41, :readable-count 202, :dict-solos-aaron 11, :mean-jaccard 1.0, :ew-total 200, :ew-truth 138, :solo-count 28, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 4, :majority 63, :lamb-self {:aaron 0.3333333333333333, :god 0.7272727272727273, :truth 0.0, :mercy 0.6000000000000001}, :dict-solos-total 28, :unanimous 68, :dict-solos-god 7, :dict-solos-truth 6, :ew-god 132, :ew-mercy 132} {:universe-size 206, :transition-count 9034, :supermajority 42, :readable-count 206, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 205, :ew-truth 135, :solo-count 13, :lamb-readable? true, :ew-aaron 123, :dict-solos-mercy 5, :majority 81, :lamb-self {:aaron 0.9523809523809523, :god 0.22222222222222224, :truth 0.0, :mercy 1.0}, :dict-solos-total 13, :unanimous 69, :dict-solos-god 3, :dict-solos-truth 1, :ew-god 153, :ew-mercy 166} {:universe-size 203, :transition-count 8017, :supermajority 42, :readable-count 203, :dict-solos-aaron 5, :mean-jaccard 1.0, :ew-total 200, :ew-truth 156, :solo-count 21, :lamb-readable? true, :ew-aaron 147, :dict-solos-mercy 8, :majority 82, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 21, :unanimous 55, :dict-solos-god 0, :dict-solos-truth 8, :ew-god 103, :ew-mercy 125} {:universe-size 220, :transition-count 8630, :supermajority 49, :readable-count 220, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 219, :ew-truth 147, :solo-count 31, :lamb-readable? true, :ew-aaron 142, :dict-solos-mercy 6, :majority 61, :lamb-self {:aaron 0.8, :god 0.6000000000000001, :truth 0.1724137931034483, :mercy 0.8333333333333334}, :dict-solos-total 31, :unanimous 78, :dict-solos-god 10, :dict-solos-truth 6, :ew-god 163, :ew-mercy 160} {:universe-size 216, :transition-count 8816, :supermajority 48, :readable-count 216, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 214, :ew-truth 152, :solo-count 26, :lamb-readable? true, :ew-aaron 161, :dict-solos-mercy 5, :majority 63, :lamb-self {:aaron 0.31578947368421056, :god 0.0, :truth 0.9259259259259258, :mercy 0.4}, :dict-solos-total 26, :unanimous 77, :dict-solos-god 9, :dict-solos-truth 10, :ew-god 147, :ew-mercy 144} {:universe-size 215, :transition-count 8801, :supermajority 51, :readable-count 215, :dict-solos-aaron 1, :mean-jaccard 1.0, :ew-total 211, :ew-truth 164, :solo-count 23, :lamb-readable? true, :ew-aaron 131, :dict-solos-mercy 3, :majority 77, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 23, :unanimous 60, :dict-solos-god 9, :dict-solos-truth 10, :ew-god 143, :ew-mercy 132} {:universe-size 201, :transition-count 8728, :supermajority 44, :readable-count 201, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 199, :ew-truth 123, :solo-count 17, :lamb-readable? true, :ew-aaron 129, :dict-solos-mercy 4, :majority 93, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 17, :unanimous 45, :dict-solos-god 7, :dict-solos-truth 2, :ew-god 126, :ew-mercy 137} {:universe-size 214, :transition-count 9061, :supermajority 53, :readable-count 214, :dict-solos-aaron 1, :mean-jaccard 1.0, :ew-total 211, :ew-truth 168, :solo-count 25, :lamb-readable? true, :ew-aaron 131, :dict-solos-mercy 6, :majority 77, :lamb-self {:aaron 0.8333333333333334, :god 1.0, :truth 0.7619047619047619, :mercy 0.23076923076923075}, :dict-solos-total 25, :unanimous 56, :dict-solos-god 4, :dict-solos-truth 14, :ew-god 122, :ew-mercy 141} {:universe-size 209, :transition-count 8116, :supermajority 53, :readable-count 209, :dict-solos-aaron 10, :mean-jaccard 1.0, :ew-total 208, :ew-truth 128, :solo-count 27, :lamb-readable? true, :ew-aaron 144, :dict-solos-mercy 6, :majority 70, :lamb-self {:aaron 0.75, :god 0.5714285714285714, :truth 1.0, :mercy 0.0}, :dict-solos-total 27, :unanimous 58, :dict-solos-god 7, :dict-solos-truth 4, :ew-god 138, :ew-mercy 148} {:universe-size 214, :transition-count 9008, :supermajority 49, :readable-count 214, :dict-solos-aaron 3, :mean-jaccard 1.0, :ew-total 212, :ew-truth 170, :solo-count 23, :lamb-readable? true, :ew-aaron 150, :dict-solos-mercy 10, :majority 69, :lamb-self {:aaron 1.0, :god 0.0, :truth 0.5, :mercy 0.0}, :dict-solos-total 23, :unanimous 71, :dict-solos-god 1, :dict-solos-truth 9, :ew-god 118, :ew-mercy 154} {:universe-size 210, :transition-count 8903, :supermajority 34, :readable-count 210, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 209, :ew-truth 101, :solo-count 32, :lamb-readable? true, :ew-aaron 127, :dict-solos-mercy 14, :majority 84, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 32, :unanimous 59, :dict-solos-god 5, :dict-solos-truth 7, :ew-god 144, :ew-mercy 166} {:universe-size 205, :transition-count 8731, :supermajority 38, :readable-count 205, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 203, :ew-truth 138, :solo-count 27, :lamb-readable? true, :ew-aaron 134, :dict-solos-mercy 9, :majority 80, :lamb-self {:aaron 0.0, :god 1.0, :truth 0.0, :mercy 1.0}, :dict-solos-total 27, :unanimous 58, :dict-solos-god 4, :dict-solos-truth 8, :ew-god 130, :ew-mercy 131} {:universe-size 216, :transition-count 8962, :supermajority 37, :readable-count 216, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 212, :ew-truth 152, :solo-count 25, :lamb-readable? true, :ew-aaron 154, :dict-solos-mercy 4, :majority 80, :lamb-self {:aaron 0.0, :god 0.4444444444444445, :truth 0.0, :mercy 0.20833333333333331}, :dict-solos-total 25, :unanimous 70, :dict-solos-god 8, :dict-solos-truth 4, :ew-god 138, :ew-mercy 132} {:universe-size 212, :transition-count 8924, :supermajority 53, :readable-count 212, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 211, :ew-truth 143, :solo-count 30, :lamb-readable? true, :ew-aaron 136, :dict-solos-mercy 6, :majority 63, :lamb-self {:aaron 0.1875, :god 0.8333333333333334, :truth 0.6923076923076923, :mercy 0.75}, :dict-solos-total 30, :unanimous 65, :dict-solos-god 6, :dict-solos-truth 11, :ew-god 158, :ew-mercy 138} {:universe-size 215, :transition-count 8256, :supermajority 35, :readable-count 215, :dict-solos-aaron 4, :mean-jaccard 1.0, :ew-total 214, :ew-truth 170, :solo-count 31, :lamb-readable? true, :ew-aaron 135, :dict-solos-mercy 8, :majority 64, :lamb-self {:aaron 0.6315789473684211, :god 0.0, :truth 0.2857142857142857, :mercy 0.0}, :dict-solos-total 31, :unanimous 84, :dict-solos-god 6, :dict-solos-truth 13, :ew-god 146, :ew-mercy 149} {:universe-size 213, :transition-count 9573, :supermajority 35, :readable-count 213, :dict-solos-aaron 2, :mean-jaccard 1.0, :ew-total 213, :ew-truth 143, :solo-count 25, :lamb-readable? true, :ew-aaron 144, :dict-solos-mercy 6, :majority 88, :lamb-self {:aaron 0.4, :god 0.6666666666666666, :truth 1.0, :mercy 0.0}, :dict-solos-total 25, :unanimous 65, :dict-solos-god 9, :dict-solos-truth 8, :ew-god 147, :ew-mercy 132} {:universe-size 212, :transition-count 8135, :supermajority 32, :readable-count 212, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 210, :ew-truth 154, :solo-count 30, :lamb-readable? true, :ew-aaron 141, :dict-solos-mercy 9, :majority 90, :lamb-self {:aaron 0.380952380952381, :god 0.7058823529411765, :truth 1.0, :mercy 0.0}, :dict-solos-total 30, :unanimous 58, :dict-solos-god 4, :dict-solos-truth 11, :ew-god 120, :ew-mercy 123} {:universe-size 218, :transition-count 9067, :supermajority 56, :readable-count 218, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 212, :ew-truth 166, :solo-count 23, :lamb-readable? true, :ew-aaron 149, :dict-solos-mercy 3, :majority 59, :lamb-self {:aaron 0.4545454545454545, :god 0.8, :truth 0.0, :mercy 1.0}, :dict-solos-total 23, :unanimous 74, :dict-solos-god 5, :dict-solos-truth 8, :ew-god 134, :ew-mercy 156} {:universe-size 210, :transition-count 9198, :supermajority 36, :readable-count 210, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 207, :ew-truth 165, :solo-count 26, :lamb-readable? true, :ew-aaron 160, :dict-solos-mercy 4, :majority 65, :lamb-self {:aaron 1.0, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 26, :unanimous 80, :dict-solos-god 6, :dict-solos-truth 10, :ew-god 133, :ew-mercy 126} {:universe-size 210, :transition-count 7841, :supermajority 42, :readable-count 210, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 209, :ew-truth 138, :solo-count 28, :lamb-readable? true, :ew-aaron 139, :dict-solos-mercy 10, :majority 75, :lamb-self {:aaron 0.6, :god 0.7272727272727273, :truth 0.47058823529411764, :mercy 0.8333333333333333}, :dict-solos-total 28, :unanimous 64, :dict-solos-god 0, :dict-solos-truth 9, :ew-god 122, :ew-mercy 161} {:universe-size 208, :transition-count 8650, :supermajority 44, :readable-count 208, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 208, :ew-truth 132, :solo-count 31, :lamb-readable? true, :ew-aaron 146, :dict-solos-mercy 9, :majority 69, :lamb-self {:aaron 0.8275862068965518, :god 0.3333333333333333, :truth 0.7272727272727273, :mercy 0.5}, :dict-solos-total 31, :unanimous 64, :dict-solos-god 8, :dict-solos-truth 6, :ew-god 139, :ew-mercy 140} {:universe-size 209, :transition-count 9033, :supermajority 50, :readable-count 209, :dict-solos-aaron 7, :mean-jaccard 1.0, :ew-total 209, :ew-truth 121, :solo-count 33, :lamb-readable? true, :ew-aaron 146, :dict-solos-mercy 14, :majority 78, :lamb-self {:aaron 0.8888888888888888, :god 0.5, :truth 0.0, :mercy 0.8333333333333334}, :dict-solos-total 33, :unanimous 48, :dict-solos-god 6, :dict-solos-truth 6, :ew-god 137, :ew-mercy 127} {:universe-size 198, :transition-count 8495, :supermajority 42, :readable-count 198, :dict-solos-aaron 8, :mean-jaccard 1.0, :ew-total 196, :ew-truth 132, :solo-count 25, :lamb-readable? true, :ew-aaron 131, :dict-solos-mercy 6, :majority 69, :lamb-self {:aaron 0.5, :god 0.0, :truth 1.0, :mercy 0.0}, :dict-solos-total 25, :unanimous 60, :dict-solos-god 7, :dict-solos-truth 4, :ew-god 128, :ew-mercy 138} {:universe-size 213, :transition-count 8815, :supermajority 52, :readable-count 213, :dict-solos-aaron 9, :mean-jaccard 1.0, :ew-total 211, :ew-truth 146, :solo-count 24, :lamb-readable? true, :ew-aaron 166, :dict-solos-mercy 4, :majority 66, :lamb-self {:aaron 0.5714285714285714, :god 0.6923076923076923, :truth 0.0, :mercy 1.0}, :dict-solos-total 24, :unanimous 69, :dict-solos-god 6, :dict-solos-truth 5, :ew-god 134, :ew-mercy 142} {:universe-size 207, :transition-count 9111, :supermajority 49, :readable-count 207, :dict-solos-aaron 6, :mean-jaccard 1.0, :ew-total 207, :ew-truth 138, :solo-count 24, :lamb-readable? true, :ew-aaron 151, :dict-solos-mercy 8, :majority 60, :lamb-self {:aaron 1.0, :god 0.0, :truth 0.9375, :mercy 0.25}, :dict-solos-total 24, :unanimous 74, :dict-solos-god 4, :dict-solos-truth 6, :ew-god 153, :ew-mercy 145} {:universe-size 211, :transition-count 8884, :supermajority 44, :readable-count 211, :dict-solos-aaron 12, :mean-jaccard 1.0, :ew-total 209, :ew-truth 135, :solo-count 26, :lamb-readable? true, :ew-aaron 158, :dict-solos-mercy 4, :majority 72, :lamb-self {:aaron 0.8333333333333334, :god 0.35714285714285715, :truth 0.0, :mercy 1.0}, :dict-solos-total 26, :unanimous 67, :dict-solos-god 5, :dict-solos-truth 5, :ew-god 132, :ew-mercy 145}], :n 100, :vocab-mode :dict}, :singleton {:singletons [{:letter \ג, :stone 7, :words-containing 8, :readable 8, :split-freq {#{:mercy :god :truth :aaron} 5, #{:mercy :god} 2, #{:truth :aaron} 1}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \ז, :stone 10, :words-containing 8, :readable 6, :split-freq {#{:mercy :god} 4, #{:truth :aaron} 2}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \ח, :stone 5, :words-containing 33, :readable 28, :split-freq {#{:mercy :god :aaron} 3, #{:mercy :god :truth :aaron} 10, #{:aaron} 1, #{:truth :aaron} 2, #{:god :truth :aaron} 1, #{:truth} 1, #{:mercy :god} 5, #{:mercy :aaron} 1, #{:mercy} 4}, :lamb-pattern-count 1, :lamb-pattern-pct 3.571428571428571} {:letter \ט, :stone 8, :words-containing 6, :readable 5, :split-freq {#{:god :truth} 2, #{:mercy :god :truth :aaron} 2, #{:truth :aaron} 1}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \כ, :stone 9, :words-containing 26, :readable 23, :split-freq {#{:mercy :god :aaron} 1, #{:god :truth} 3, #{:mercy :god :truth :aaron} 2, #{:god} 1, #{:god :aaron} 1, #{:mercy :god :truth} 2, #{:truth :aaron} 2, #{:god :truth :aaron} 5, #{:truth} 2, #{:mercy :god} 2, #{:mercy :aaron} 1, #{:mercy} 1}, :lamb-pattern-count 5, :lamb-pattern-pct 21.73913043478261} {:letter \ם, :stone 3, :words-containing 28, :readable 25, :split-freq {#{:mercy} 4, #{:mercy :god} 18, #{:mercy :god :truth :aaron} 1, #{:aaron} 1, #{:god} 1}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \ס, :stone 11, :words-containing 5, :readable 4, :split-freq {#{:mercy :god :truth :aaron} 1, #{:truth :aaron} 1, #{:truth} 1, #{:god :truth} 1}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \ף, :stone 11, :words-containing 4, :readable 4, :split-freq {#{:mercy :god :truth :aaron} 1, #{:truth :aaron} 2, #{:aaron} 1}, :lamb-pattern-count 0, :lamb-pattern-pct 0.0} {:letter \פ, :stone 6, :words-containing 14, :readable 10, :split-freq {#{:mercy :god} 1, #{:aaron} 1, #{:mercy :god :truth :aaron} 4, #{:god :truth} 1, #{:god :truth :aaron} 1, #{:truth :aaron} 2}, :lamb-pattern-count 1, :lamb-pattern-pct 10.0} {:letter \צ, :stone 5, :words-containing 8, :readable 7, :split-freq {#{:god :truth :aaron} 2, #{:mercy :god :truth :aaron} 3, #{:aaron} 1, #{:truth :aaron} 1}, :lamb-pattern-count 2, :lamb-pattern-pct 28.57142857142857} {:letter \ת, :stone 6, :words-containing 22, :readable 19, :split-freq {#{:mercy :god :aaron} 7, #{:mercy :god} 7, #{:god :truth :aaron} 1, #{:mercy} 2, #{:god} 1, #{:god :truth} 1}, :lamb-pattern-count 1, :lamb-pattern-pct 5.263157894736842}], :lamb-split #{:god :truth :aaron}, :lamb-dist {:aaron 1, :god 2, :truth 8, :mercy 0, :total 11}}}

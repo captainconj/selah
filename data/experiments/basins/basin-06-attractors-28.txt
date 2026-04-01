@@ -1,0 +1,116 @@
+Basin size 6 — 28 attractors
+Generated: 2026-03-25 (post final-form fix)
+═══════════════════════════════════════════════
+
+── דמיו (GV=60)  ──
+   Basin: 6 words flow here
+   Words: דמיו, ומדי, ומיד, ידמו, מדוי, מידו
+
+── הורם (GV=251)  ──
+   Basin: 6 words flow here
+   Words: הורם, הרמו, ומרה, ורמה, מהרו, מורה
+
+── תוכל (GV=456)  ──
+   Basin: 6 words flow here
+   Words: ותכל, ותלך, כלות, כלתו, תוכל, תלכו
+
+── מרוח (GV=254)  ──
+   Basin: 6 words flow here
+   Words: ומחר, ורחם, חמור, חמרו, מרוח, רחום
+
+── ישוב (GV=318)  ──
+   Basin: 6 words flow here
+   Words: וישב, יושב, ישבו, ישוב, שביו, שובי
+
+── וברקת (GV=708)  ──
+   Basin: 6 words flow here
+   Words: וברקת, וקרבת, ותקבר, קברות, קברתו, תקרבו
+
+── אליהם (GV=86)  ──
+   Basin: 6 words flow here
+   Words: אהלים, אילמה, אלהים, אליהם, האילם, מאלהי
+
+── ולחם (GV=84)  ──
+   Basin: 6 words flow here
+   Words: ולחם, ומלח, חולם, חלום, חלמו, לחמו
+
+── ויכלא (GV=67)  ──
+   Basin: 6 words flow here
+   Words: אכליו, ואליך, ויאכל, ויכלא, וכאיל, יאכלו
+
+── קומי (GV=156)  ──
+   Basin: 6 words flow here
+   Words: ויקם, ימקו, יקום, יקמו, קומי, קמיו
+
+── וישר (GV=516)  ──
+   Basin: 6 words flow here
+   Words: וירש, וישר, ושרי, יורש, ירשו, שירו
+
+── בריחו (GV=226)  ──
+   Basin: 6 words flow here
+   Words: בריחו, ובריח, וחרבי, ויבחר, ויברח, ויחבר
+
+── אמרו (GV=247)  ──
+   Basin: 6 words flow here
+   Words: אומר, אמור, אמרו, ואמר, וארם, מאור
+
+── ואמרה (GV=252)  ──
+   Basin: 6 words flow here
+   Words: המאור, המורא, ואמרה, ומראה, מראהו, ראומה
+
+── תושב (GV=708)  ──
+   Basin: 6 words flow here
+   Words: ושבת, ותשב, שבתו, תושב, תשבו, תשוב
+
+── לשוב (GV=338)  ──
+   Basin: 6 words flow here
+   Words: בשלו, ובשל, ולבש, לבשו, לשוב, שובל
+
+── ועפר (GV=356)  ──
+   Basin: 6 words flow here
+   Words: ועפר, ופרע, עפרו, ערפו, פעור, פרוע
+
+── ברעתי (GV=682)  ──
+   Basin: 6 words flow here
+   Words: בערתי, ברעתי, עברתי, רביעת, רבעית, תרביע
+
+── תוקש (GV=806)  ──
+   Basin: 6 words flow here
+   Words: ותקש, ותשק, קשות, קשתו, תוקש, תקשו
+
+── קרוב (GV=308) near ──
+   Basin: 6 words flow here
+   Words: ובקר, וקבר, קבור, קברו, קרבו, קרוב
+
+── ברע (GV=272)  ──
+   Basin: 6 words flow here
+   Words: בער, ברע, עבר, ערב, רבע, רעב
+
+── ושכחת (GV=734)  ──
+   Basin: 6 words flow here
+   Words: ושכחת, ותחשך, ותכחש, ותשכח, תכחשו, תשכחו
+
+── ביער (GV=282)  ──
+   Basin: 6 words flow here
+   Words: ביער, בעיר, בערי, יבער, יעבר, עברי
+
+── בשרו (GV=508)  ──
+   Basin: 6 words flow here
+   Words: בשור, בשרו, ובשר, ושבר, שבור, שברו
+
+── ישעו (GV=386)  ──
+   Basin: 6 words flow here
+   Words: ויעש, וישע, ועשי, יעוש, יעשו, ישעו
+
+── הישב (GV=317)  ──
+   Basin: 6 words flow here
+   Words: הישב, השבי, השיב, יבשה, שביה, שיבה
+
+── משור (GV=546)  ──
+   Basin: 6 words flow here
+   Words: ורמש, ושמר, משור, רומש, שמור, שמרו
+
+── עמוד (GV=120)  ──
+   Basin: 6 words flow here
+   Words: ועמד, מדוע, מועד, עומד, עמדו, עמוד
+

@@ -1,0 +1,595 @@
+═══ FINAL-FORM DIFF MANIFEST ═══
+Generated: 2026-03-25
+Oracle change: ך→כ, ץ→צ, ף→פ unioning
+
+Scanning 1024 words with final forms...
+  100/1024...
+  200/1024...
+  300/1024...
+  400/1024...
+  500/1024...
+  600/1024...
+  700/1024...
+  800/1024...
+  900/1024...
+  1000/1024...
+
+━━━ SUMMARY ━━━
+Total words with finals: 1024
+Now readable:            556
+Illuminated but mute:    383
+Still dark (0 illum):    85
+
+By final type:
+  kaf     total=766    readable=384    (50.1%)
+  pe      total=167    readable=132    (79.0%)
+  tsade   total=91     readable=40     (44.0%)
+
+━━━ NEWLY READABLE — SHORT ROOTS (≤4 letters) ━━━
+(These are the theologically significant ones)
+
+  אך       GV=21    illum=3     read=6    A=2   G=1   R=1   L=2    kaf
+  בך       GV=22    illum=6     read=12   A=4   G=2   R=3   L=3    kaf
+  באך      GV=23    illum=18    read=8    A=3   G=2   R=1   L=2    kaf
+  בבאך     GV=25    illum=45    read=2    A=1   G=1   R=0   L=0    kaf
+  אבדך     GV=27    illum=54    read=9    A=6   G=0   R=3   L=0    kaf
+  ואך      GV=27    illum=21    read=6    A=1   G=2   R=0   L=3    kaf
+  זך       GV=27    illum=1     read=2    A=1   G=0   R=1   L=0    kaf
+  אהבך     GV=28    illum=54    read=9    A=6   G=0   R=1   L=2    kaf
+  ובך      GV=28    illum=42    read=15   A=6   G=2   R=2   L=5    kaf
+  איך      GV=31    illum=33    read=25   A=11  G=1   R=7   L=6    kaf
+  והך      GV=31    illum=21    read=11   A=4   G=0   R=5   L=2    kaf
+  אביך     GV=33    illum=198   read=42   A=20  G=0   R=14  L=8    kaf
+  איבך     GV=33    illum=198   read=12   A=8   G=0   R=0   L=4    kaf
+  יבאך     GV=33    illum=198   read=2    A=0   G=2   R=0   L=0    kaf
+  ידך      GV=34    illum=33    read=19   A=6   G=5   R=6   L=2    kaf
+  בידך     GV=36    illum=198   read=44   A=16  G=8   R=18  L=2    kaf
+  ויך      GV=36    illum=77    read=54   A=16  G=8   R=22  L=8    kaf
+  ואיך     GV=37    illum=231   read=16   A=5   G=2   R=0   L=9    kaf
+  ויבך     GV=38    illum=462   read=17   A=7   G=2   R=0   L=8    kaf
+  אחיך     GV=39    illum=33    read=10   A=6   G=0   R=4   L=0    kaf
+  ידיך     GV=44    illum=165   read=33   A=16  G=5   R=6   L=6    kaf
+  חייך     GV=48    illum=55    read=21   A=15  G=0   R=6   L=0    kaf
+  לך       GV=50    illum=3     read=6    A=2   G=1   R=1   L=2    kaf
+  אלך      GV=51    illum=9     read=6    A=4   G=0   R=1   L=1    kaf
+  לבך      GV=52    illum=18    read=5    A=1   G=0   R=0   L=4    kaf
+  לבבך     GV=54    illum=45    read=2    A=0   G=0   R=0   L=2    kaf
+  הלך      GV=55    illum=9     read=7    A=6   G=0   R=1   L=0    kaf
+  ולך      GV=56    illum=21    read=16   A=9   G=2   R=2   L=3    kaf
+  גדלך     GV=57    illum=9     read=1    A=0   G=0   R=0   L=1    kaf
+  ההלך     GV=60    illum=9     read=6    A=6   G=0   R=0   L=0    kaf
+  ילך      GV=60    illum=33    read=15   A=8   G=4   R=0   L=3    kaf
+  מך       GV=60    illum=2     read=4    A=1   G=1   R=0   L=2    kaf
+  אליך     GV=61    illum=99    read=18   A=8   G=0   R=7   L=3    kaf
+  אמך      GV=61    illum=6     read=5    A=2   G=0   R=0   L=3    kaf
+  הולך     GV=61    illum=63    read=20   A=19  G=0   R=1   L=0    kaf
+  הלוך     GV=61    illum=63    read=6    A=3   G=0   R=3   L=0    kaf
+  ילדך     GV=64    illum=99    read=5    A=0   G=4   R=0   L=1    kaf
+  הילך     GV=65    illum=99    read=10   A=10  G=0   R=0   L=0    kaf
+  וילך     GV=66    illum=231   read=19   A=12  G=4   R=0   L=3    kaf
+  ומך      GV=66    illum=14    read=7    A=3   G=1   R=0   L=3    kaf
+  יולך     GV=66    illum=231   read=30   A=24  G=4   R=0   L=2    kaf
+  ילוך     GV=66    illum=231   read=5    A=4   G=0   R=0   L=1    kaf
+  ואמך     GV=67    illum=42    read=5    A=1   G=0   R=0   L=4    kaf
+  מטך      GV=69    illum=2     read=3    A=0   G=1   R=0   L=2    kaf
+  במטך     GV=71    illum=12    read=4    A=0   G=1   R=0   L=3    kaf
+  בנך      GV=72    illum=12    read=7    A=3   G=1   R=2   L=1    kaf
+  מידך     GV=74    illum=66    read=4    A=0   G=4   R=0   L=0    kaf
+  הנך      GV=75    illum=6     read=3    A=2   G=0   R=1   L=0    kaf
+  ומטך     GV=75    illum=14    read=4    A=0   G=1   R=0   L=3    kaf
+  ונך      GV=76    illum=14    read=4    A=1   G=1   R=1   L=1    kaf
+  ימוך     GV=76    illum=154   read=11   A=8   G=1   R=0   L=2    kaf
+  נגדך     GV=77    illum=6     read=2    A=0   G=1   R=0   L=1    kaf
+  ובנך     GV=78    illum=84    read=5    A=2   G=1   R=1   L=1    kaf
+  חמיך     GV=78    illum=22    read=2    A=2   G=0   R=0   L=0    kaf
+  ימיך     GV=80    illum=110   read=25   A=8   G=5   R=0   L=12   kaf
+  אינך     GV=81    illum=66    read=3    A=3   G=0   R=0   L=0    kaf
+  בינך     GV=82    illum=132   read=5    A=5   G=0   R=0   L=0    kaf
+  בניך     GV=82    illum=132   read=37   A=12  G=6   R=14  L=5    kaf
+  וחנך     GV=84    illum=14    read=1    A=1   G=0   R=0   L=0    kaf
+  חנוך     GV=84    illum=14    read=4    A=4   G=0   R=0   L=0    kaf
+  למך      GV=90    illum=6     read=3    A=0   G=0   R=0   L=3    kaf
+  מלך      GV=90    illum=6     read=4    A=2   G=1   R=0   L=1    kaf
+  מלאך     GV=91    illum=18    read=2    A=0   G=1   R=0   L=1    kaf
+  במלך     GV=92    illum=36    read=8    A=6   G=1   R=0   L=1    kaf
+  המלך     GV=95    illum=18    read=6    A=6   G=0   R=0   L=0    kaf
+  בעדך     GV=96    illum=36    read=7    A=4   G=0   R=3   L=0    kaf
+  ולמך     GV=96    illum=42    read=4    A=0   G=0   R=0   L=4    kaf
+  ומלך     GV=96    illum=42    read=8    A=6   G=1   R=0   L=1    kaf
+  עבדך     GV=96    illum=36    read=2    A=2   G=0   R=0   L=0    kaf
+  בעזך     GV=99    illum=12    read=5    A=5   G=0   R=0   L=0    kaf
+  ימלך     GV=100   illum=66    read=11   A=8   G=1   R=0   L=2    kaf
+  ממך      GV=100   illum=1     read=1    A=0   G=0   R=0   L=1    kaf
+  נלך      GV=100   illum=6     read=6    A=2   G=1   R=1   L=2    kaf
+  עודך     GV=100   illum=42    read=4    A=2   G=0   R=2   L=0    kaf
+  אפך      GV=101   illum=3     read=3    A=2   G=0   R=1   L=0    kaf
+  באפך     GV=103   illum=18    read=4    A=3   G=0   R=1   L=0    kaf
+  עדיך     GV=104   illum=66    read=7    A=6   G=0   R=1   L=0    kaf
+  הפך      GV=105   illum=3     read=3    A=2   G=0   R=1   L=0    kaf
+  ונלך     GV=106   illum=42    read=6    A=2   G=1   R=1   L=2    kaf
+  בהפך     GV=107   illum=18    read=8    A=6   G=0   R=2   L=0    kaf
+  פיך      GV=110   illum=11    read=11   A=4   G=0   R=7   L=0    kaf
+  אפיך     GV=111   illum=33    read=15   A=8   G=0   R=7   L=0    kaf
+  בפיך     GV=112   illum=66    read=26   A=12  G=0   R=14  L=0    kaf
+  פחדך     GV=112   illum=3     read=1    A=0   G=0   R=1   L=0    kaf
+  צוך      GV=116   illum=7     read=6    A=4   G=0   R=2   L=0    kaf
+  אצוך     GV=117   illum=21    read=6    A=4   G=0   R=2   L=0    kaf
+  למלך     GV=120   illum=6     read=1    A=0   G=0   R=0   L=1    kaf
+  סמך      GV=120   illum=2     read=3    A=0   G=1   R=0   L=2    kaf
+  אעלך     GV=121   illum=18    read=7    A=6   G=0   R=0   L=1    kaf
+  וצוך     GV=122   illum=21    read=10   A=4   G=0   R=6   L=0    kaf
+  וסמך     GV=126   illum=14    read=3    A=0   G=1   R=0   L=2    kaf
+  חקך      GV=128   illum=2     read=4    A=2   G=0   R=2   L=0    kaf
+  עליך     GV=130   illum=66    read=11   A=8   G=0   R=0   L=3    kaf
+  עמך      GV=130   illum=4     read=2    A=1   G=0   R=0   L=1    kaf
+  בעמך     GV=132   illum=24    read=3    A=2   G=0   R=0   L=1    kaf
+  ועמך     GV=136   illum=28    read=2    A=1   G=0   R=0   L=1    kaf
+  חיקך     GV=138   illum=22    read=2    A=1   G=0   R=1   L=0    kaf
+  עמיך     GV=140   illum=44    read=4    A=2   G=0   R=0   L=2    kaf
+  נפך      GV=150   illum=2     read=2    A=1   G=0   R=1   L=0    kaf
+  עינך     GV=150   illum=44    read=1    A=1   G=0   R=0   L=0    kaf
+  עניך     GV=150   illum=44    read=4    A=4   G=0   R=0   L=0    kaf
+  קלך      GV=150   illum=6     read=4    A=4   G=0   R=0   L=0    kaf
+  לעמך     GV=160   illum=12    read=1    A=0   G=0   R=0   L=1    kaf
+  צאנך     GV=161   illum=6     read=1    A=1   G=0   R=0   L=0    kaf
+  מעמך     GV=170   illum=2     read=1    A=0   G=0   R=0   L=1    kaf
+  קמיך     GV=170   illum=44    read=4    A=4   G=0   R=0   L=0    kaf
+  קנך      GV=170   illum=4     read=2    A=2   G=0   R=0   L=0    kaf
+  רך       GV=220   illum=5     read=10   A=3   G=2   R=3   L=2    kaf
+  ארך      GV=221   illum=15    read=11   A=4   G=1   R=2   L=4    kaf
+  ברך      GV=222   illum=30    read=24   A=8   G=4   R=7   L=5    kaf
+  אברך     GV=223   illum=90    read=18   A=8   G=0   R=4   L=6    kaf
+  בארך     GV=223   illum=90    read=14   A=6   G=2   R=2   L=4    kaf
+  דרך      GV=224   illum=15    read=8    A=2   G=1   R=3   L=2    kaf
+  הרך      GV=225   illum=15    read=7    A=3   G=0   R=3   L=1    kaf
+  בדרך     GV=226   illum=90    read=17   A=6   G=2   R=7   L=2    kaf
+  דברך     GV=226   illum=90    read=7    A=2   G=0   R=2   L=3    kaf
+  ורך      GV=226   illum=35    read=20   A=6   G=3   R=7   L=4    kaf
+  וארך     GV=227   illum=105   read=10   A=2   G=2   R=0   L=6    kaf
+  וראך     GV=227   illum=105   read=1    A=0   G=1   R=0   L=0    kaf
+  ברוך     GV=228   illum=210   read=33   A=17  G=2   R=14  L=0    kaf
+  וברך     GV=228   illum=210   read=24   A=8   G=4   R=4   L=8    kaf
+  הדרך     GV=229   illum=45    read=9    A=5   G=0   R=4   L=0    kaf
+  וגרך     GV=229   illum=35    read=4    A=0   G=2   R=0   L=2    kaf
+  חרבך     GV=230   illum=30    read=1    A=1   G=0   R=0   L=0    kaf
+  ירך      GV=230   illum=55    read=30   A=6   G=9   R=9   L=6    kaf
+  יברך     GV=232   illum=330   read=18   A=6   G=4   R=0   L=8    kaf
+  הירך     GV=235   illum=165   read=19   A=8   G=0   R=9   L=2    kaf
+  לברך     GV=252   illum=90    read=7    A=1   G=0   R=0   L=6    kaf
+  לדרך     GV=254   illum=45    read=4    A=0   G=1   R=1   L=2    kaf
+  מרך      GV=260   illum=10    read=6    A=1   G=2   R=0   L=3    kaf
+  מברך     GV=262   illum=60    read=7    A=1   G=2   R=0   L=4    kaf
+  מגרך     GV=263   illum=10    read=1    A=0   G=1   R=0   L=0    kaf
+  מדרך     GV=264   illum=30    read=1    A=0   G=1   R=0   L=0    kaf
+  ומרך     GV=266   illum=70    read=9    A=3   G=2   R=0   L=4    kaf
+  חמרך     GV=268   illum=10    read=1    A=1   G=0   R=0   L=0    kaf
+  מריך     GV=270   illum=110   read=9    A=1   G=3   R=0   L=5    kaf
+  חרנך     GV=278   illum=10    read=1    A=1   G=0   R=0   L=0    kaf
+  ערך      GV=290   illum=10    read=6    A=3   G=0   R=1   L=2    kaf
+  רעך      GV=290   illum=10    read=5    A=3   G=0   R=2   L=0    kaf
+  ברעך     GV=292   illum=60    read=9    A=5   G=0   R=4   L=0    kaf
+  וערך     GV=296   illum=70    read=10   A=5   G=0   R=3   L=2    kaf
+  זרעך     GV=297   illum=10    read=1    A=0   G=0   R=1   L=0    kaf
+  עזרך     GV=297   illum=10    read=2    A=2   G=0   R=0   L=0    kaf
+  יערך     GV=300   illum=110   read=14   A=6   G=0   R=4   L=4    kaf
+  עריך     GV=300   illum=110   read=12   A=7   G=0   R=1   L=4    kaf
+  רעיך     GV=300   illum=110   read=15   A=9   G=0   R=6   L=0    kaf
+  בפרך     GV=302   illum=30    read=7    A=3   G=0   R=4   L=0    kaf
+  ירפך     GV=310   illum=55    read=1    A=1   G=0   R=0   L=0    kaf
+  ארצך     GV=311   illum=15    read=1    A=0   G=0   R=1   L=0    kaf
+  לרעך     GV=320   illum=30    read=1    A=0   G=0   R=1   L=0    kaf
+  צריך     GV=320   illum=55    read=7    A=6   G=0   R=1   L=0    kaf
+  קרך      GV=320   illum=10    read=6    A=4   G=0   R=2   L=0    kaf
+  אשך      GV=321   illum=18    read=20   A=6   G=3   R=3   L=8    kaf
+  בקרך     GV=322   illum=60    read=14   A=8   G=0   R=6   L=0    kaf
+  שדך      GV=324   illum=18    read=3    A=0   G=2   R=1   L=0    kaf
+  בשדך     GV=326   illum=108   read=6    A=0   G=3   R=3   L=0    kaf
+  חשך      GV=328   illum=6     read=5    A=3   G=0   R=2   L=0    kaf
+  שובך     GV=328   illum=252   read=5    A=1   G=0   R=0   L=4    kaf
+  ישך      GV=330   illum=66    read=74   A=16  G=23  R=17  L=18   kaf
+  אישך     GV=331   illum=198   read=64   A=29  G=2   R=17  L=16   kaf
+  החשך     GV=333   illum=18    read=2    A=0   G=0   R=2   L=0    kaf
+  וחשך     GV=334   illum=42    read=9    A=3   G=0   R=6   L=0    kaf
+  השלך     GV=355   illum=54    read=6    A=6   G=0   R=0   L=0    kaf
+  שמך      GV=360   illum=12    read=5    A=1   G=0   R=0   L=4    kaf
+  במשך     GV=362   illum=72    read=20   A=6   G=5   R=0   L=9    kaf
+  בשמך     GV=362   illum=72    read=7    A=3   G=0   R=0   L=4    kaf
+  ומשך     GV=366   illum=84    read=20   A=6   G=5   R=0   L=9    kaf
+  ישמך     GV=370   illum=132   read=12   A=4   G=0   R=0   L=8    kaf
+  נשך      GV=370   illum=12    read=16   A=3   G=5   R=3   L=5    kaf
+  ערפך     GV=370   illum=10    read=1    A=1   G=0   R=0   L=0    kaf
+  שמיך     GV=370   illum=132   read=12   A=2   G=0   R=0   L=10   kaf
+  נשאך     GV=371   illum=36    read=4    A=0   G=2   R=0   L=2    kaf
+  בנשך     GV=372   illum=72    read=25   A=9   G=5   R=6   L=5    kaf
+  הנשך     GV=375   illum=36    read=9    A=6   G=0   R=3   L=0    kaf
+  עשך      GV=390   illum=12    read=10   A=5   G=0   R=2   L=3    kaf
+  אתך      GV=421   illum=3     read=3    A=2   G=0   R=1   L=0    kaf
+  בתך      GV=422   illum=6     read=5    A=3   G=0   R=2   L=0    kaf
+  קדשך     GV=424   illum=36    read=16   A=12  G=0   R=4   L=0    kaf
+  תוך      GV=426   illum=7     read=8    A=4   G=0   R=4   L=0    kaf
+  אותך     GV=427   illum=21    read=2    A=1   G=0   R=1   L=0    kaf
+  ואתך     GV=427   illum=21    read=1    A=1   G=0   R=0   L=0    kaf
+  בתוך     GV=428   illum=42    read=20   A=12  G=0   R=8   L=0    kaf
+  ובתך     GV=428   illum=42    read=3    A=2   G=0   R=1   L=0    kaf
+  ותבך     GV=428   illum=42    read=2    A=1   G=0   R=1   L=0    kaf
+  מעשך     GV=430   illum=24    read=5    A=2   G=0   R=0   L=3    kaf
+  שמעך     GV=430   illum=24    read=3    A=1   G=0   R=0   L=2    kaf
+  ביתך     GV=432   illum=66    read=5    A=5   G=0   R=0   L=0    kaf
+  בתיך     GV=432   illum=66    read=26   A=12  G=0   R=14  L=0    kaf
+  נפשך     GV=450   illum=12    read=6    A=3   G=0   R=3   L=0    kaf
+  תלך      GV=450   illum=3     read=3    A=2   G=0   R=1   L=0    kaf
+  ותלך     GV=456   illum=21    read=3    A=2   G=0   R=1   L=0    kaf
+  תליך     GV=460   illum=33    read=11   A=4   G=0   R=7   L=0    kaf
+  חתמך     GV=468   illum=2     read=1    A=1   G=0   R=0   L=0    kaf
+  נתך      GV=470   illum=2     read=2    A=1   G=0   R=1   L=0    kaf
+  תמיך     GV=470   illum=22    read=2    A=2   G=0   R=0   L=0    kaf
+  תמלך     GV=490   illum=6     read=2    A=2   G=0   R=0   L=0    kaf
+  עדתך     GV=494   illum=6     read=1    A=1   G=0   R=0   L=0    kaf
+  צאתך     GV=511   illum=3     read=1    A=1   G=0   R=0   L=0    kaf
+  ראשך     GV=521   illum=90    read=12   A=6   G=3   R=3   L=0    kaf
+  בשרך     GV=522   illum=180   read=23   A=3   G=8   R=6   L=6    kaf
+  שורך     GV=526   illum=210   read=11   A=2   G=2   R=3   L=4    kaf
+  שרוך     GV=526   illum=210   read=5    A=0   G=2   R=3   L=0    kaf
+  ענתך     GV=540   illum=4     read=1    A=1   G=0   R=0   L=0    kaf
+  לשרך     GV=550   illum=90    read=9    A=0   G=1   R=2   L=6    kaf
+  ראתך     GV=621   illum=15    read=3    A=2   G=0   R=1   L=0    kaf
+  תברך     GV=622   illum=30    read=3    A=1   G=0   R=2   L=0    kaf
+  תדרך     GV=624   illum=15    read=2    A=1   G=0   R=1   L=0    kaf
+  תשבך     GV=722   illum=36    read=1    A=1   G=0   R=0   L=0    kaf
+  תשיך     GV=730   illum=66    read=6    A=2   G=0   R=4   L=0    kaf
+  אף       GV=81    illum=3     read=6    A=3   G=0   R=3   L=0    pe
+  באף      GV=83    illum=18    read=17   A=7   G=0   R=10  L=0    pe
+  האף      GV=86    illum=9     read=8    A=3   G=0   R=5   L=0    pe
+  ואף      GV=87    illum=21    read=17   A=6   G=0   R=11  L=0    pe
+  בהדף     GV=91    illum=54    read=41   A=24  G=0   R=17  L=0    pe
+  בטף      GV=91    illum=6     read=9    A=5   G=0   R=4   L=0    pe
+  יגף      GV=93    illum=11    read=17   A=7   G=0   R=10  L=0    pe
+  הטף      GV=94    illum=3     read=5    A=3   G=0   R=2   L=0    pe
+  ויגף     GV=99    illum=77    read=59   A=21  G=0   R=38  L=0    pe
+  והטף     GV=100   illum=21    read=9    A=4   G=0   R=5   L=0    pe
+  כף       GV=100   illum=1     read=2    A=1   G=0   R=1   L=0    pe
+  בכף      GV=102   illum=6     read=7    A=4   G=0   R=3   L=0    pe
+  הכף      GV=105   illum=3     read=5    A=3   G=0   R=2   L=0    pe
+  אלף      GV=111   illum=9     read=11   A=6   G=0   R=5   L=0    pe
+  האלף     GV=116   illum=27    read=4    A=0   G=0   R=4   L=0    pe
+  אלוף     GV=117   illum=63    read=23   A=14  G=0   R=9   L=0    pe
+  ואלף     GV=117   illum=63    read=13   A=3   G=0   R=10  L=0    pe
+  חלף      GV=118   illum=3     read=5    A=3   G=0   R=2   L=0    pe
+  להדף     GV=119   illum=27    read=3    A=0   G=0   R=3   L=0    pe
+  ידלף     GV=124   illum=99    read=30   A=18  G=0   R=12  L=0    pe
+  לחוף     GV=124   illum=21    read=4    A=0   G=0   R=4   L=0    pe
+  מגדף     GV=127   illum=6     read=3    A=1   G=0   R=2   L=0    pe
+  מטף      GV=129   illum=2     read=3    A=2   G=0   R=1   L=0    pe
+  לכף      GV=130   illum=3     read=3    A=2   G=0   R=1   L=0    pe
+  נגף      GV=133   illum=2     read=2    A=1   G=0   R=1   L=0    pe
+  נדף      GV=134   illum=6     read=4    A=2   G=0   R=2   L=0    pe
+  הנאף     GV=136   illum=18    read=4    A=2   G=0   R=2   L=0    pe
+  הנגף     GV=138   illum=6     read=3    A=2   G=0   R=1   L=0    pe
+  נטף      GV=139   illum=2     read=2    A=1   G=0   R=1   L=0    pe
+  מכף      GV=140   illum=2     read=1    A=1   G=0   R=0   L=0    pe
+  אסף      GV=141   illum=3     read=6    A=3   G=0   R=3   L=0    pe
+  ינאף     GV=141   illum=66    read=2    A=2   G=0   R=0   L=0    pe
+  לאלף     GV=141   illum=9     read=2    A=0   G=0   R=2   L=0    pe
+  בסף      GV=142   illum=6     read=10   A=5   G=0   R=5   L=0    pe
+  הניף     GV=145   illum=66    read=26   A=16  G=0   R=10  L=0    pe
+  האסף     GV=146   illum=9     read=8    A=3   G=0   R=5   L=0    pe
+  וינף     GV=146   illum=154   read=2    A=2   G=0   R=0   L=0    pe
+  ואסף     GV=147   illum=21    read=17   A=6   G=0   R=11  L=0    pe
+  יסף      GV=150   illum=11    read=20   A=10  G=0   R=10  L=0    pe
+  יאסף     GV=151   illum=33    read=26   A=8   G=0   R=18  L=0    pe
+  בעדף     GV=156   illum=36    read=20   A=9   G=0   R=11  L=0    pe
+  ויסף     GV=156   illum=77    read=75   A=37  G=0   R=38  L=0    pe
+  יוסף     GV=156   illum=77    read=65   A=33  G=0   R=32  L=0    pe
+  עוף      GV=156   illum=14    read=16   A=10  G=0   R=6   L=0    pe
+  בעוף     GV=158   illum=84    read=46   A=24  G=0   R=22  L=0    pe
+  העדף     GV=159   illum=18    read=8    A=3   G=0   R=5   L=0    pe
+  כסף      GV=160   illum=1     read=2    A=1   G=0   R=1   L=0    pe
+  עיף      GV=160   illum=22    read=22   A=15  G=0   R=7   L=0    pe
+  העוף     GV=161   illum=42    read=22   A=12  G=0   R=10  L=0    pe
+  בכסף     GV=162   illum=6     read=7    A=4   G=0   R=3   L=0    pe
+  ועוף     GV=162   illum=42    read=40   A=18  G=0   R=22  L=0    pe
+  הכסף     GV=165   illum=3     read=5    A=3   G=0   R=2   L=0    pe
+  וכסף     GV=166   illum=7     read=10   A=5   G=0   R=5   L=0    pe
+  חפף      GV=168   illum=1     read=1    A=1   G=0   R=0   L=0    pe
+  יצף      GV=180   illum=11    read=3    A=0   G=0   R=3   L=0    pe
+  מאסף     GV=181   illum=6     read=4    A=1   G=0   R=3   L=0    pe
+  הציף     GV=185   illum=33    read=7    A=0   G=0   R=7   L=0    pe
+  ויצף     GV=186   illum=77    read=6    A=0   G=0   R=6   L=0    pe
+  לעוף     GV=186   illum=42    read=6    A=0   G=0   R=6   L=0    pe
+  נאסף     GV=191   illum=6     read=3    A=1   G=0   R=2   L=0    pe
+  מעוף     GV=196   illum=28    read=8    A=4   G=0   R=4   L=0    pe
+  מכסף     GV=200   illum=2     read=1    A=1   G=0   R=0   L=0    pe
+  וענף     GV=206   illum=28    read=1    A=1   G=0   R=0   L=0    pe
+  נכסף     GV=210   illum=2     read=2    A=1   G=0   R=1   L=0    pe
+  רדף      GV=284   illum=15    read=16   A=8   G=0   R=8   L=0    pe
+  ארדף     GV=285   illum=45    read=16   A=10  G=0   R=6   L=0    pe
+  הרף      GV=285   illum=15    read=16   A=9   G=0   R=7   L=0    pe
+  טרף      GV=289   illum=5     read=1    A=0   G=0   R=1   L=0    pe
+  ורדף     GV=290   illum=105   read=32   A=13  G=0   R=19  L=0    pe
+  וחרף     GV=294   illum=35    read=13   A=4   G=0   R=9   L=0    pe
+  ירדף     GV=294   illum=165   read=41   A=14  G=0   R=27  L=0    pe
+  וטרף     GV=295   illum=35    read=5    A=0   G=0   R=5   L=0    pe
+  וירף     GV=296   illum=385   read=131  A=59  G=0   R=72  L=0    pe
+  ירחף     GV=298   illum=55    read=3    A=0   G=0   R=3   L=0    pe
+  יטרף     GV=299   illum=55    read=8    A=0   G=0   R=8   L=0    pe
+  מטרף     GV=329   illum=10    read=1    A=0   G=0   R=1   L=0    pe
+  ערף      GV=350   illum=10    read=10   A=7   G=0   R=3   L=0    pe
+  בערף     GV=352   illum=60    read=26   A=17  G=0   R=9   L=0    pe
+  יערף     GV=360   illum=110   read=28   A=16  G=0   R=12  L=0    pe
+  שטף      GV=389   illum=6     read=10   A=6   G=0   R=4   L=0    pe
+  השחף     GV=393   illum=18    read=1    A=0   G=0   R=1   L=0    pe
+  ושטף     GV=395   illum=42    read=46   A=29  G=0   R=17  L=0    pe
+  ישטף     GV=399   illum=66    read=67   A=42  G=0   R=25  L=0    pe
+  שלף      GV=410   illum=18    read=15   A=5   G=0   R=10  L=0    pe
+  בתף      GV=482   illum=6     read=5    A=3   G=0   R=2   L=0    pe
+  התף      GV=485   illum=3     read=3    A=2   G=0   R=1   L=0    pe
+  תסף      GV=540   illum=1     read=2    A=1   G=0   R=1   L=0    pe
+  תאסף     GV=541   illum=3     read=3    A=1   G=0   R=2   L=0    pe
+  ותסף     GV=546   illum=7     read=2    A=1   G=0   R=1   L=0    pe
+  תוסף     GV=546   illum=7     read=12   A=6   G=0   R=6   L=0    pe
+  תעוף     GV=556   illum=14    read=10   A=4   G=0   R=6   L=0    pe
+  רשף      GV=580   illum=30    read=42   A=21  G=0   R=21  L=0    pe
+  שרף      GV=580   illum=30    read=18   A=9   G=0   R=9   L=0    pe
+  ושרף     GV=586   illum=210   read=72   A=39  G=0   R=33  L=0    pe
+  ישרף     GV=590   illum=330   read=100  A=52  G=0   R=48  L=0    pe
+  תרדף     GV=684   illum=15    read=7    A=2   G=0   R=5   L=0    pe
+  תשרף     GV=980   illum=30    read=18   A=9   G=0   R=9   L=0    pe
+  ואמץ     GV=137   illum=42    read=6    A=0   G=2   R=0   L=4    tsade
+  יאמץ     GV=141   illum=66    read=11   A=0   G=5   R=0   L=6    tsade
+  הנץ      GV=145   illum=6     read=3    A=0   G=2   R=1   L=0    tsade
+  עץ       GV=160   illum=2     read=2    A=0   G=1   R=0   L=1    tsade
+  בעץ      GV=162   illum=12    read=4    A=0   G=3   R=0   L=1    tsade
+  ועץ      GV=166   illum=14    read=4    A=0   G=3   R=0   L=1    tsade
+  עוץ      GV=166   illum=14    read=6    A=0   G=3   R=0   L=3    tsade
+  ובעץ     GV=168   illum=84    read=5    A=0   G=4   R=0   L=1    tsade
+  ויפץ     GV=186   illum=77    read=21   A=0   G=21  R=0   L=0    tsade
+  מעץ      GV=200   illum=4     read=3    A=0   G=2   R=0   L=1    tsade
+  ומעץ     GV=206   illum=28    read=5    A=0   G=4   R=0   L=1    tsade
+  נפוץ     GV=226   illum=14    read=2    A=0   G=0   R=2   L=0    tsade
+  רץ       GV=290   illum=5     read=10   A=1   G=4   R=2   L=3    tsade
+  ארץ      GV=291   illum=15    read=11   A=0   G=4   R=1   L=6    tsade
+  רבץ      GV=292   illum=30    read=10   A=1   G=6   R=2   L=1    tsade
+  בארץ     GV=293   illum=90    read=16   A=0   G=9   R=1   L=6    tsade
+  הארץ     GV=296   illum=45    read=2    A=0   G=2   R=0   L=0    tsade
+  וארץ     GV=297   illum=105   read=21   A=0   G=12  R=0   L=9    tsade
+  וירץ     GV=306   illum=385   read=61   A=0   G=39  R=6   L=16   tsade
+  כארץ     GV=311   illum=15    read=1    A=0   G=1   R=0   L=0    tsade
+  לארץ     GV=321   illum=45    read=15   A=0   G=6   R=0   L=9    tsade
+  מארץ     GV=331   illum=30    read=8    A=0   G=5   R=0   L=3    tsade
+  פרץ      GV=370   illum=5     read=2    A=0   G=1   R=1   L=0    tsade
+  ופרץ     GV=376   illum=35    read=7    A=0   G=6   R=1   L=0    tsade
+  יפרץ     GV=380   illum=55    read=9    A=0   G=9   R=0   L=0    tsade
+  לפרץ     GV=400   illum=15    read=3    A=0   G=3   R=0   L=0    tsade
+  יתץ      GV=500   illum=11    read=9    A=0   G=9   R=0   L=0    tsade
+  ונתץ     GV=546   illum=14    read=8    A=0   G=7   R=1   L=0    tsade
+  שרץ      GV=590   illum=30    read=27   A=0   G=16  R=1   L=10   tsade
+  בשרץ     GV=592   illum=180   read=48   A=0   G=29  R=3   L=16   tsade
+  השרץ     GV=595   illum=90    read=5    A=0   G=0   R=1   L=4    tsade
+  ושרץ     GV=596   illum=210   read=41   A=0   G=25  R=2   L=14   tsade
+  ותרץ     GV=696   illum=35    read=7    A=0   G=6   R=1   L=0    tsade
+
+━━━ STILL MUTE (illuminated but 0 readings, ≤4 letters) ━━━
+
+  דבאך     GV=27    illum=54    kaf
+  בחגך     GV=33    illum=6     kaf
+  גבלך     GV=55    illum=18    kaf
+  האלך     GV=56    illum=27    kaf
+  לבדך     GV=56    illum=54    kaf
+  מאדך     GV=65    illum=18    kaf
+  דגנך     GV=77    illum=6     kaf
+  אזנך     GV=78    illum=6     kaf
+  טנאך     GV=80    illum=6     kaf
+  בטנך     GV=81    illum=12    kaf
+  גחנך     GV=81    illum=2     kaf
+  נדחך     GV=82    illum=6     kaf
+  בסבך     GV=84    illum=15    kaf
+  הסך      GV=85    illum=3     kaf
+  להלך     GV=85    illum=9     kaf
+  יחנך     GV=88    illum=22    kaf
+  יסך      GV=90    illum=11    kaf
+  חסדך     GV=92    illum=3     kaf
+  מהלך     GV=95    illum=18    kaf
+  ויסך     GV=96    illum=77    kaf
+  לחמך     GV=98    illum=6     kaf
+  ייסך     GV=100   illum=55    kaf
+  לבנך     GV=102   illum=36    kaf
+  מחנך     GV=118   illum=4     kaf
+  מסך      GV=120   illum=2     kaf
+  המסך     GV=125   illum=6     kaf
+  ומסך     GV=126   illum=14    kaf
+  אקחך     GV=129   illum=6     kaf
+  נסך      GV=130   illum=2     kaf
+  הנסך     GV=135   illum=6     kaf
+  ונסך     GV=136   illum=14    kaf
+  יקחך     GV=138   illum=22    kaf
+  למסך     GV=150   illum=6     kaf
+  נהפך     GV=155   illum=6     kaf
+  מצוך     GV=156   illum=14    kaf
+  חלקך     GV=158   illum=6     kaf
+  לנסך     GV=160   illum=6     kaf
+  פניך     GV=160   illum=22    kaf
+  זקנך     GV=177   illum=4     kaf
+  לקלך     GV=180   illum=6     kaf
+  מנעך     GV=180   illum=8     kaf
+  עצך      GV=180   illum=2     kaf
+  עציך     GV=190   illum=22    kaf
+  מקנך     GV=210   illum=8     kaf
+  אראך     GV=222   illum=15    kaf
+  הראך     GV=226   illum=45    kaf
+  רגלך     GV=253   illum=15    kaf
+  רפאך     GV=301   illum=15    kaf
+  מפרך     GV=340   illum=10    kaf
+  פרנך     GV=350   illum=10    kaf
+  שלחך     GV=358   illum=18    kaf
+  שנאך     GV=371   illum=36    kaf
+  שבעך     GV=392   illum=72    kaf
+  שפך      GV=400   illum=6     kaf
+  ושפך     GV=406   illum=42    kaf
+  ישפך     GV=410   illum=66    kaf
+  דדתך     GV=428   illum=3     kaf
+  זיתך     GV=437   illum=11    kaf
+  לבתך     GV=452   illum=18    kaf
+  מתך      GV=460   illum=2     kaf
+  אמתך     GV=461   illum=6     kaf
+  מתוך     GV=466   illum=14    kaf
+  מטתך     GV=469   illum=2     kaf
+  אתנך     GV=471   illum=6     kaf
+  תנוך     GV=476   illum=14    kaf
+  חתנך     GV=478   illum=2     kaf
+  יתנך     GV=480   illum=22    kaf
+  תסוך     GV=486   illum=7     kaf
+  עלתך     GV=520   illum=6     kaf
+  קחתך     GV=528   illum=2     kaf
+  נסתך     GV=530   illum=2     kaf
+  תענך     GV=540   illum=4     kaf
+  אשתך     GV=721   illum=18    kaf
+  תשפך     GV=800   illum=6     kaf
+  הונף     GV=141   illum=42    pe
+  סוף      GV=146   illum=7     pe
+  בסוף     GV=148   illum=42    pe
+  כנף      GV=150   illum=2     pe
+  הסוף     GV=151   illum=21    pe
+  הכנף     GV=155   illum=6     pe
+  יסיף     GV=160   illum=55    pe
+  לנגף     GV=163   illum=6     pe
+  יצנף     GV=230   illum=22    pe
+  קצף      GV=270   illum=2     pe
+  הקצף     GV=275   illum=6     pe
+  יקצף     GV=280   illum=22    pe
+  מחשף     GV=428   illum=12    pe
+  כתף      GV=500   illum=1     pe
+  בכתף     GV=502   illum=6     pe
+  הכתף     GV=505   illum=3     pe
+  לכתף     GV=530   illum=3     pe
+  תנאף     GV=531   illum=6     pe
+  תניף     GV=540   illum=22    pe
+  תסיף     GV=550   illum=11    pe
+  תקצף     GV=670   illum=2     pe
+  חוץ      GV=104   illum=7     tsade
+  בחוץ     GV=106   illum=42    tsade
+  ויחץ     GV=114   illum=77    tsade
+  חלץ      GV=128   illum=3     tsade
+  הלחץ     GV=133   illum=9     tsade
+  חלוץ     GV=134   illum=21    tsade
+  חמץ      GV=138   illum=2     tsade
+  מחץ      GV=138   illum=2     tsade
+  וחמץ     GV=144   illum=14    tsade
+  ומחץ     GV=144   illum=14    tsade
+  מחוץ     GV=144   illum=14    tsade
+  יחמץ     GV=148   illum=22    tsade
+  ימחץ     GV=148   illum=22    tsade
+  העץ      GV=165   illum=6     tsade
+  חפץ      GV=178   illum=1     tsade
+  נחלץ     GV=178   illum=6     tsade
+  יחפץ     GV=188   illum=11    tsade
+  קץ       GV=190   illum=2     tsade
+  ואקץ     GV=197   illum=42    tsade
+  וקוץ     GV=202   illum=42    tsade
+  ויקץ     GV=206   illum=154   tsade
+  וקיץ     GV=206   illum=154   tsade
+  מקץ      GV=230   illum=4     tsade
+  וקמץ     GV=236   illum=28    tsade
+  רחץ      GV=298   illum=5     tsade
+  ורחץ     GV=304   illum=35    tsade
+  חרוץ     GV=304   illum=35    tsade
+  יחרץ     GV=308   illum=55    tsade
+  ירחץ     GV=308   illum=55    tsade
+  לרחץ     GV=328   illum=15    tsade
+  שקץ      GV=490   illum=12    tsade
+  ושקץ     GV=496   illum=84    tsade
+  תלחץ     GV=528   illum=3     tsade
+  תאמץ     GV=531   illum=6     tsade
+  תקבץ     GV=592   illum=12    tsade
+  תקפץ     GV=670   illum=2     tsade
+  תערץ     GV=760   illum=10    tsade
+  תרעץ     GV=760   illum=10    tsade
+  תשבץ     GV=792   illum=36    tsade
+
+━━━ READER PROFILE OF NEWLY READABLE ━━━
+
+  Total readings across all short roots: A=1631 G=467 R=1296 L=518
+
+  God-exclusive (only God reads):
+    הארץ     GV=296   readings=2
+    ויפץ     GV=186   readings=21
+    וראך     GV=227   readings=1
+    יבאך     GV=33    readings=2
+    יפרץ     GV=380   readings=9
+    יתץ      GV=500   readings=9
+    כארץ     GV=311   readings=1
+    לפרץ     GV=400   readings=3
+    מגרך     GV=263   readings=1
+    מדרך     GV=264   readings=1
+    מידך     GV=74    readings=4
+
+  Right-exclusive (only Lamb reads):
+    ארצך     GV=311   readings=1
+    האלף     GV=116   readings=4
+    החשך     GV=333   readings=2
+    הציף     GV=185   readings=7
+    השחף     GV=393   readings=1
+    וטרף     GV=295   readings=5
+    ויצף     GV=186   readings=6
+    זרעך     GV=297   readings=1
+    טרף      GV=289   readings=1
+    יטרף     GV=299   readings=8
+    יצף      GV=180   readings=3
+    ירחף     GV=298   readings=3
+    לאלף     GV=141   readings=2
+    להדף     GV=119   readings=3
+    לחוף     GV=124   readings=4
+    לעוף     GV=186   readings=6
+    לרעך     GV=320   readings=1
+    מטרף     GV=329   readings=1
+    נפוץ     GV=226   readings=2
+    פחדך     GV=112   readings=1
+
+  Left-exclusive (only Truth reads):
+    גדלך     GV=57    readings=1
+    ולמך     GV=96    readings=4
+    לבבך     GV=54    readings=2
+    למך      GV=90    readings=3
+    למלך     GV=120   readings=1
+    לעמך     GV=160   readings=1
+    ממך      GV=100   readings=1
+    מעמך     GV=170   readings=1
+
+  Aaron-exclusive (only priest reads):
+    אינך     GV=81    readings=3
+    בינך     GV=82    readings=5
+    ביתך     GV=432   readings=5
+    בעזך     GV=99    readings=5
+    ההלך     GV=60    readings=6
+    הילך     GV=65    readings=10
+    המלך     GV=95    readings=6
+    השלך     GV=355   readings=6
+    ואתך     GV=427   readings=1
+    וחנך     GV=84    readings=1
+    וינף     GV=146   readings=2
+    וענף     GV=206   readings=1
+    חמיך     GV=78    readings=2
+    חמרך     GV=268   readings=1
+    חנוך     GV=84    readings=4
+    חפף      GV=168   readings=1
+    חרבך     GV=230   readings=1
+    חרנך     GV=278   readings=1
+    חתמך     GV=468   readings=1
+    ינאף     GV=141   readings=2
+    ירפך     GV=310   readings=1
+    מכסף     GV=200   readings=1
+    מכף      GV=140   readings=1
+    עבדך     GV=96    readings=2
+    עדתך     GV=494   readings=1
+    עזרך     GV=297   readings=2
+    עינך     GV=150   readings=1
+    עניך     GV=150   readings=4
+    ענתך     GV=540   readings=1
+    ערפך     GV=370   readings=1
+    צאנך     GV=161   readings=1
+    צאתך     GV=511   readings=1
+    קלך      GV=150   readings=4
+    קמיך     GV=170   readings=4
+    קנך      GV=170   readings=2
+    תמיך     GV=470   readings=2
+    תמלך     GV=490   readings=2
+    תשבך     GV=722   readings=1

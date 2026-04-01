@@ -1,0 +1,64 @@
+Basin size 7 — 15 attractors
+Generated: 2026-03-25 (post final-form fix)
+═══════════════════════════════════════════════
+
+── סכות (GV=486)  ──
+   Basin: 7 words flow here
+   Words: וסכת, ותכס, כסות, סכות, תכסו, תסוך, תסכו
+
+── ערות (GV=676)  ──
+   Basin: 7 words flow here
+   Words: וערת, ותער, עורת, ערות, רעות, רעתו, תרעו
+
+── ירעו (GV=286)  ──
+   Basin: 7 words flow here
+   Words: וירע, ועיר, וערי, יעור, ירעו, עירו, עריו
+
+── רשעו (GV=576)  ──
+   Basin: 7 words flow here
+   Words: ועשר, ושער, ערשו, עשור, רשעו, שערו, שרוע
+
+── תירשו (GV=916)  ──
+   Basin: 7 words flow here
+   Words: וירשת, וישרת, ותירש, ירשתו, ישרתו, תירוש, תירשו
+
+── בתוך (GV=428)  ──
+   Basin: 7 words flow here
+   Words: בכות, בתוך, ובתך, וכתב, ותבך, כתבו, כתוב
+
+── תעלו (GV=506)  ──
+   Basin: 7 words flow here
+   Words: ועלת, ותעל, עולת, עלות, עלתו, תולע, תעלו
+
+── ישום (GV=356)  ──
+   Basin: 7 words flow here
+   Words: וימש, וישם, ושים, ושמי, ישום, שימו, שמיו
+
+── שלום (GV=376) peace/wholeness ──
+   Basin: 7 words flow here
+   Words: ולשם, ומשל, ושלם, לשום, משול, משלו, שלום
+
+── וישן (GV=366)  ──
+   Basin: 7 words flow here
+   Words: וישן, ונשי, ושני, ישנו, נשיו, שוני, שניו
+
+── ותבא (GV=409)  ──
+   Basin: 7 words flow here
+   Words: אבות, באות, ובאת, ותבא, תאבו, תבאו, תבוא
+
+── ברעתו (GV=678)  ──
+   Basin: 7 words flow here
+   Words: ברעתו, ובערת, ותבער, ותעבר, ותרעב, תבערו, תעברו
+
+── מעלי (GV=150)  ──
+   Basin: 7 words flow here
+   Words: יעלם, לעמי, מעיל, מעלי, עילם, עלים, עמלי
+
+── ויאהב (GV=24)  ──
+   Basin: 7 words flow here
+   Words: הביאו, ואביה, ואיבה, והביא, ויאהב, ויבאה, יבאהו
+
+── בערו (GV=278)  ──
+   Basin: 7 words flow here
+   Words: בעור, בערו, ובער, ועבר, עבור, עברו, רבוע
+
