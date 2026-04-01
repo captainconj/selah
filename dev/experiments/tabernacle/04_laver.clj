@@ -64,7 +64,7 @@
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
       (when (and by-head (some seq (vals by-head)))
-        (doseq [reader [:aaron :god :right :left]]
+        (doseq [reader [:aaron :god :truth :mercy]]
           (let [words (get by-head reader)]
             (doseq [rw (take 2 words)]
               (println (format "    %-6s: %-8s count=%-3d  %s"
@@ -75,7 +75,7 @@
   (println)
   (println "=== כיור PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "כיור")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -86,7 +86,7 @@
   (println)
   (println "=== רחץ PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "רחץ")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -97,7 +97,7 @@
   (println)
   (println "=== מים PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "מים")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -108,7 +108,7 @@
   (println)
   (println "=== מראה PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "מראה")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -119,7 +119,7 @@
   (println)
   (println "=== מות PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "מות")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"

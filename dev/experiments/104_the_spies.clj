@@ -38,7 +38,7 @@
                       (:illumination-count result)
                       (:total-readings result)
                       (:fixed-point walk)))
-     (doseq [head [:aaron :god :right :left]]
+     (doseq [head [:aaron :god :truth :mercy]]
        (let [s (fmt-head by-head head 5)]
          (when (not= s "—")
            (println (format "  %-6s: %s" (name head) s)))))

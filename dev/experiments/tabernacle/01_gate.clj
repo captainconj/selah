@@ -78,7 +78,7 @@
                        (or (dict/translate (:word w)) ""))))
     (println)
     (println "--- Per-head top 5 ---")
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (take 5 (get by-head reader))]
         (println (format "    %-6s  count=%-3d  gv=%-4d  %s"
@@ -103,7 +103,7 @@
                        (or (dict/translate (:word w)) ""))))
     (println)
     (println "--- Per-head top 5 ---")
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (take 5 (get by-head reader))]
         (println (format "    %-6s  count=%-3d  gv=%-4d  %s"

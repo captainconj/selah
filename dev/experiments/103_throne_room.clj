@@ -82,7 +82,7 @@
                      (:illumination-count result)
                      (:total-readings result)
                      (:fixed-point walk)))
-    (doseq [head [:aaron :god :right :left]]
+    (doseq [head [:aaron :god :truth :mercy]]
       (let [s (fmt-head by-head head 4)]
         (when (not= s "—")
           (println (format "  %-6s: %s" (name head) s)))))
@@ -110,7 +110,7 @@
     (println (format "  Verse:  %s" (:verse-ref desc)))
     (let [lamb-heads (o/forward-by-head "כבש" :torah)]
       (println "\nכבש (lamb) per-head:")
-      (doseq [head [:aaron :god :right :left]]
+      (doseq [head [:aaron :god :truth :mercy]]
         (println (format "  %-6s: %s" (name head) (fmt-head lamb-heads head 5)))))))
 
 (defn run-all []

@@ -91,13 +91,13 @@
           balance (loop [i 0 running 0]
                     (let [new-sum (+ running (long (nth gem-vals i)))]
                       (if (>= new-sum half-gem)
-                        {:idx i :left-sum running :right-sum (- total-gem new-sum)
+                        {:idx i :mercy-sum running :truth-sum (- total-gem new-sum)
                          :diff (Math/abs (- (double running) (- (double total-gem) new-sum)))}
                         (recur (inc i) new-sum))))
           center (where (:idx balance))]
       (println (format "  Balance point: letter %,d" (:idx balance)))
-      (println (format "  Left sum:  %,d" (:left-sum balance)))
-      (println (format "  Right sum: %,d" (+ (:right-sum balance) (long (nth gem-vals (:idx balance))))))
+      (println (format "  Left sum:  %,d" (:mercy-sum balance)))
+      (println (format "  Right sum: %,d" (+ (:truth-sum balance) (long (nth gem-vals (:idx balance))))))
       (println (format "  Imbalance: %,d (%.4f%%)"
                        (long (:diff balance))
                        (* 100 (/ (:diff balance) (double total-gem)))))

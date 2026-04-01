@@ -63,8 +63,8 @@
   (let [r (stone-row s) c (stone-col s)]
     (case reader
       :aaron  [r (- c) i]
-      :right  [(- c) r i]
-      :left   [c (- r) i])))
+      :truth  [(- c) r i]
+      :mercy   [c (- r) i])))
 
 (defn read-positions [reader positions]
   (->> positions (sort-by #(read-key reader %)) (map letter-at) (apply str)))
@@ -108,7 +108,7 @@
       (letfn [(go [i chosen used]
                 (if (= i n)
                   (let [pset (set chosen)]
-                    (doseq [reader [:aaron :right :left]]
+                    (doseq [reader [:aaron :truth :mercy]]
                       (let [k [reader pset]]
                         (when (and (not (@seen k))
                                    (= word (read-positions reader pset)))
@@ -198,8 +198,8 @@
     (printf "  │  Illumination patterns: %d\n" (count ilsets))
     (printf "  │  Readable by Aaron: %d  Right: %d  Left: %d\n"
             (count (filter #(= :aaron (:reader %)) hits))
-            (count (filter #(= :right (:reader %)) hits))
-            (count (filter #(= :left (:reader %)) hits)))
+            (count (filter #(= :truth (:reader %)) hits))
+            (count (filter #(= :mercy (:reader %)) hits)))
     (println "  │")
 
     ;; Show a few representative patterns
@@ -217,7 +217,7 @@
       (let [il (first ilsets)]
         (println "  │")
         (println "  │  First illumination — three readings:")
-        (doseq [reader [:aaron :right :left]]
+        (doseq [reader [:aaron :truth :mercy]]
           (let [w (read-positions reader il)]
             (printf "  │    %-8s  %s  %s\n"
                     (name reader) w

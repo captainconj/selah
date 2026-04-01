@@ -102,8 +102,8 @@
                      (case reader
                        :aaron [r (- c) i]
                        :god   [(- r) c i]
-                       :right [(- c) r i]
-                       :left  [c (- r) i])))
+                       :truth [(- c) r i]
+                       :mercy  [c (- r) i])))
 
         read-positions (fn [reader positions]
                          (->> positions
@@ -135,7 +135,7 @@
         (fn [input-word]
           (let [ilsets (illumination-sets input-word)]
             (for [pset ilsets
-                  reader [:aaron :god :right :left]]
+                  reader [:aaron :god :truth :mercy]]
               {:output (read-positions reader pset)
                :reader reader
                :positions pset})))]
@@ -296,25 +296,25 @@
         ;; Build four head matrices
         m-aaron (build-head-matrix disc stats :aaron)
         m-god   (build-head-matrix disc stats :god)
-        m-right (build-head-matrix disc stats :right)
-        m-left  (build-head-matrix disc stats :left)
+        m-truth (build-head-matrix disc stats :truth)
+        m-mercy  (build-head-matrix disc stats :mercy)
 
         ;; Eigenwords per head
         ew-aaron (find-eigenwords m-aaron vocab)
         ew-god   (find-eigenwords m-god vocab)
-        ew-right (find-eigenwords m-right vocab)
-        ew-left  (find-eigenwords m-left vocab)
+        ew-truth (find-eigenwords m-truth vocab)
+        ew-mercy  (find-eigenwords m-mercy vocab)
 
         ew-sets {:aaron (set (map :word ew-aaron))
                  :god   (set (map :word ew-god))
-                 :right (set (map :word ew-right))
-                 :left  (set (map :word ew-left))}
+                 :truth (set (map :word ew-truth))
+                 :mercy  (set (map :word ew-mercy))}
 
         ;; Agreement distribution
         all-ew-words (apply cset/union (vals ew-sets))
         agreement-fn (fn [w]
                        (count (filter #(contains? (ew-sets %) w)
-                                      [:aaron :god :right :left])))
+                                      [:aaron :god :truth :mercy])))
         agreement-dist (frequencies (map agreement-fn all-ew-words))
 
         ;; Solo eigenwords per head
@@ -324,7 +324,7 @@
                                       (= 1 (agreement-fn w))))
                                all-ew-words)))
         solos {:aaron (solo-fn :aaron) :god (solo-fn :god)
-               :right (solo-fn :right) :left (solo-fn :left)}
+               :truth (solo-fn :truth) :mercy (solo-fn :mercy)}
 
         ;; Dict overlap: how many solo eigenwords are in the dictionary?
         dict-words (dict/words)
@@ -339,8 +339,8 @@
         lamb-self (when lamb-idx
                     {:aaron (la/entry m-aaron lamb-idx lamb-idx)
                      :god   (la/entry m-god lamb-idx lamb-idx)
-                     :right (la/entry m-right lamb-idx lamb-idx)
-                     :left  (la/entry m-left lamb-idx lamb-idx)})
+                     :truth (la/entry m-truth lamb-idx lamb-idx)
+                     :mercy  (la/entry m-mercy lamb-idx lamb-idx)})
 
         ;; Head separation: how different are the solo sets?
         ;; Jaccard distance between all pairs of solo eigenword sets
@@ -349,8 +349,8 @@
                         i (cset/intersection a b)]
                     (if (empty? u) 0.0
                         (- 1.0 (/ (double (count i)) (count u))))))
-        pair-jaccards (for [h1 [:aaron :god :right :left]
-                            h2 [:aaron :god :right :left]
+        pair-jaccards (for [h1 [:aaron :god :truth :mercy]
+                            h2 [:aaron :god :truth :mercy]
                             :when (pos? (compare (name h1) (name h2)))]
                         [h1 h2 (jaccard (solos h1) (solos h2))])
         mean-jaccard (if (seq pair-jaccards)
@@ -364,8 +364,8 @@
      ;; Eigenword counts per head
      :ew-aaron (count ew-aaron)
      :ew-god   (count ew-god)
-     :ew-right (count ew-right)
-     :ew-left  (count ew-left)
+     :ew-truth (count ew-truth)
+     :ew-mercy  (count ew-mercy)
      :ew-total (count all-ew-words)
      ;; Agreement distribution
      :unanimous (get agreement-dist 4 0)
@@ -375,8 +375,8 @@
      ;; Dict overlap
      :dict-solos-aaron (:aaron dict-solos)
      :dict-solos-god   (:god dict-solos)
-     :dict-solos-right (:right dict-solos)
-     :dict-solos-left  (:left dict-solos)
+     :dict-solos-truth (:truth dict-solos)
+     :dict-solos-mercy  (:mercy dict-solos)
      :dict-solos-total dict-solos-total
      ;; Head separation
      :mean-jaccard mean-jaccard
@@ -407,8 +407,8 @@
      (println (str "  Universe: " (:universe-size metrics) " words"))
      (println (str "  Eigenwords: aaron=" (:ew-aaron metrics)
                     " god=" (:ew-god metrics)
-                    " right=" (:ew-right metrics)
-                    " left=" (:ew-left metrics)))
+                    " right=" (:ew-truth metrics)
+                    " left=" (:ew-mercy metrics)))
      (println (str "  Agreement: 4/4=" (:unanimous metrics)
                     " 3/4=" (:supermajority metrics)
                     " 2/4=" (:majority metrics)
@@ -416,15 +416,15 @@
      (println (str "  Dict solos: " (:dict-solos-total metrics)
                     " (A=" (:dict-solos-aaron metrics)
                     " G=" (:dict-solos-god metrics)
-                    " R=" (:dict-solos-right metrics)
-                    " L=" (:dict-solos-left metrics) ")"))
+                    " T=" (:dict-solos-truth metrics)
+                    " M=" (:dict-solos-mercy metrics) ")"))
      (println (str "  Mean Jaccard: " (format "%.4f" (:mean-jaccard metrics))))
      (when (:lamb-self metrics)
        (let [ls (:lamb-self metrics)]
          (println (str "  Lamb self: A=" (format "%.4f" (:aaron ls))
                         " G=" (format "%.4f" (:god ls))
-                        " R=" (format "%.4f" (:right ls))
-                        " L=" (format "%.4f" (:left ls))))))
+                        " T=" (format "%.4f" (:truth ls))
+                        " M=" (format "%.4f" (:mercy ls))))))
      (assoc metrics :vocab-mode vocab-mode :grid :real :elapsed-ms dt))))
 
 ;; ══════════════════════════════════════════════════════════════
@@ -513,8 +513,8 @@
        (println "\n── Eigenword Counts ──")
        (report "Aaron eigenwords"  (:ew-aaron baseline)  (map :ew-aaron results) true)
        (report "God eigenwords"    (:ew-god baseline)    (map :ew-god results) true)
-       (report "Right eigenwords"  (:ew-right baseline)  (map :ew-right results) true)
-       (report "Left eigenwords"   (:ew-left baseline)   (map :ew-left results) true)
+       (report "Right eigenwords"  (:ew-truth baseline)  (map :ew-truth results) true)
+       (report "Left eigenwords"   (:ew-mercy baseline)   (map :ew-mercy results) true)
        (report "Total eigenwords"  (:ew-total baseline)  (map :ew-total results) true)
 
        ;; Agreement distribution
@@ -529,8 +529,8 @@
        (report "Dict solos total" (:dict-solos-total baseline) (map :dict-solos-total results) true)
        (report "Dict solos Aaron" (:dict-solos-aaron baseline) (map :dict-solos-aaron results) true)
        (report "Dict solos God"   (:dict-solos-god baseline)   (map :dict-solos-god results) true)
-       (report "Dict solos Right" (:dict-solos-right baseline) (map :dict-solos-right results) true)
-       (report "Dict solos Left"  (:dict-solos-left baseline)  (map :dict-solos-left results) true)
+       (report "Dict solos Truth" (:dict-solos-truth baseline) (map :dict-solos-truth results) true)
+       (report "Dict solos Mercy"  (:dict-solos-mercy baseline)  (map :dict-solos-mercy results) true)
 
        ;; Head separation
        (println "\n── Head Separation (mean Jaccard distance) ──")
@@ -552,10 +552,10 @@
                      (keep #(get-in % [:lamb-self :aaron]) lamb-results) true)
              (report "  Lamb God" (:god real-ls)
                      (keep #(get-in % [:lamb-self :god]) lamb-results) true)
-             (report "  Lamb Right" (:right real-ls)
-                     (keep #(get-in % [:lamb-self :right]) lamb-results) true)
-             (report "  Lamb Left" (:left real-ls)
-                     (keep #(get-in % [:lamb-self :left]) lamb-results) true))
+             (report "  Lamb Right" (:truth real-ls)
+                     (keep #(get-in % [:lamb-self :truth]) lamb-results) true)
+             (report "  Lamb Left" (:mercy real-ls)
+                     (keep #(get-in % [:lamb-self :mercy]) lamb-results) true))
            ;; The split: does the real grid show a unique reader partition?
            (let [real-split (set (keys (filter #(pos? (val %)) real-ls)))
                  null-splits (map (fn [r]
@@ -611,15 +611,15 @@
 
 (defn word-reader-distribution
   "For a word, return the reader distribution using the REAL oracle.
-   {:aaron n :god n :right n :left n :total n}"
+   {:aaron n :god n :truth n :mercy n :total n}"
   [word]
   (let [hits (oracle/preimage word)]
     (when (seq hits)
       (let [by-reader (frequencies (map :reader hits))]
         {:aaron (get by-reader :aaron 0)
          :god   (get by-reader :god 0)
-         :right (get by-reader :right 0)
-         :left  (get by-reader :left 0)
+         :truth (get by-reader :truth 0)
+         :mercy  (get by-reader :mercy 0)
          :total (count hits)}))))
 
 (defn reader-split
@@ -628,7 +628,7 @@
   [dist]
   (when dist
     (set (keep (fn [k] (when (pos? (get dist k 0)) k))
-               [:aaron :god :right :left]))))
+               [:aaron :god :truth :mercy]))))
 
 (defn run-singleton-control
   "For every singleton letter, scan all dict words containing it.
@@ -689,8 +689,8 @@
                      (println "  Notable words:")
                      (doseq [{:keys [word meaning] :as d}
                              (take 8 (sort-by :total > dists))]
-                       (println (format "    %-8s  A=%d G=%d R=%d L=%d  %-5s  %s"
-                                        word (:aaron d) (:god d) (:right d) (:left d)
+                       (println (format "    %-8s  A=%d G=%d T=%d M=%d  %-5s  %s"
+                                        word (:aaron d) (:god d) (:truth d) (:mercy d)
                                         (str (reader-split d))
                                         (or meaning "")))))
                    {:letter ch
@@ -751,7 +751,7 @@
     (let [summary {:n n
                    :vocab-mode vocab-mode
                    :baseline (select-keys baseline
-                               [:ew-aaron :ew-god :ew-right :ew-left :ew-total
+                               [:ew-aaron :ew-god :ew-truth :ew-mercy :ew-total
                                 :unanimous :supermajority :majority :solo-count
                                 :dict-solos-total :mean-jaccard :lamb-self
                                 :universe-size :transition-count])
@@ -759,7 +759,7 @@
                                  (map (fn [k]
                                         [k (/ (reduce + (map (comp double k) null))
                                               (double n))])
-                                      [:ew-aaron :ew-god :ew-right :ew-left :ew-total
+                                      [:ew-aaron :ew-god :ew-truth :ew-mercy :ew-total
                                        :unanimous :supermajority :majority :solo-count
                                        :dict-solos-total :mean-jaccard
                                        :universe-size :transition-count]))}]

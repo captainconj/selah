@@ -12,8 +12,8 @@
    If uncomfortable words appear in the wrong list, we name them.
 
    Head mapping (from 091b):
-     :right = yod=10 (hand)  — 'mercy' hypothesis
-     :left  = he=5  (regard) — 'justice' hypothesis
+     :truth = yod=10 (hand)  — 'mercy' hypothesis
+     :mercy  = he=5  (regard) — 'justice' hypothesis
      :aaron = vav=6 (nail)   — 'priestly' hypothesis
      :god   = he=5  (regard) — 'divine' hypothesis"
   (:require [selah.dict :as dict]
@@ -338,7 +338,7 @@
   (edn/read-string (slurp "data/experiments/091b/agreement.edn")))
 
 (defn solo-words-by-head
-  "Returns {:right #{words...} :left #{...} :aaron #{...} :god #{...}}.
+  "Returns {:truth #{words...} :mercy #{...} :aaron #{...} :god #{...}}.
    agreement.edn is a flat vector of {:word :gv :meaning :agreement :heads}."
   [agreement]
   (let [solos (filter #(= 1 (:agreement %)) agreement)]
@@ -376,7 +376,7 @@
    Each cell = count of words in that category that are solos for that head."
   [dict-by-head]
   (let [cats [:mercy :justice :priestly :divine]
-        heads [:right :left :aaron :god]]
+        heads [:truth :mercy :aaron :god]]
     {:cats cats
      :heads heads
      :cells
@@ -590,8 +590,8 @@
 ;; theological label? Name them. Don't hide them.
 
 (def head-hypothesis
-  {:right  :mercy
-   :left   :justice
+  {:truth  :mercy
+   :mercy   :justice
    :aaron  :priestly
    :god    :divine})
 
@@ -625,7 +625,7 @@
   [table chi-result]
   (let [{:keys [cats heads cells]} table
         {:keys [col-totals row-totals detail]} chi-result
-        head-labels {:right "mercy/yod" :left "justice/he"
+        head-labels {:truth "mercy/yod" :mercy "justice/he"
                      :aaron "aaron/vav" :god "god/he"}]
     (println "\n  ┌─────────────┬───────────┬───────────┬───────────┬───────────┬───────┐")
     (println (format "  │ %-11s │ %-9s │ %-9s │ %-9s │ %-9s │ TOTAL │"
@@ -685,9 +685,9 @@
         dict-by-head (dict-solos solos-by-head)]
 
     (println "  Solos per head (all / dict-known):")
-    (doseq [h [:right :left :aaron :god]]
-      (let [label (case h :right "yod=10 (hand/mercy)"
-                          :left  "he=5  (justice)"
+    (doseq [h [:truth :mercy :aaron :god]]
+      (let [label (case h :truth "yod=10 (hand/mercy)"
+                          :mercy  "he=5  (justice)"
                           :aaron "vav=6 (nail/priestly)"
                           :god   "he=5  (God/divine)")]
         (println (format "    %-24s  %4d solos  %3d in dict"
@@ -697,7 +697,7 @@
 
     ;; Phase 2b: List every dict word found per head
     (println "\n  Dict words found in each head's solos:")
-    (doseq [h [:right :left :aaron :god]]
+    (doseq [h [:truth :mercy :aaron :god]]
       (let [words (sort (get dict-by-head h #{}))]
         (println (str "\n    " (name h) " (" (count words) "):"))
         (doseq [w words]
@@ -715,7 +715,7 @@
       ;; Phase 3b: Enrichment ratios
       (println "\n── Phase 3b: Enrichment Ratios ──")
       (println "  (observed/expected for the 'correct' head vs average of other three)")
-      (let [mapping {:mercy :right :justice :left :priestly :aaron :divine :god}]
+      (let [mapping {:mercy :truth :justice :mercy :priestly :aaron :divine :god}]
         (doseq [[cat head] mapping]
           (let [er (enrichment-ratio (:detail chi) cat head)]
             (println (format "  %-10s in %-10s:  O/E=%.2f  avg-other=%.2f  enrichment=%.2fx"
@@ -725,7 +725,7 @@
       ;; Phase 4: Fisher's exact test
       (println "\n── Phase 4: Fisher's Exact Test ──")
       (println "  (Is the 'correct' head significantly enriched for its category?)")
-      (let [mapping [[:mercy :right] [:justice :left] [:priestly :aaron] [:divine :god]]
+      (let [mapping [[:mercy :truth] [:justice :mercy] [:priestly :aaron] [:divine :god]]
             results (per-category-fisher table mapping)]
         (doseq [{:keys [category head a b c d p-value]} results]
           (println (format "  %-10s × %-10s:  a=%2d b=%2d c=%2d d=%2d  p=%.4f  %s"
@@ -749,7 +749,7 @@
       (println "\n\n── Phase 5: Root Analysis ──")
       (println "  (How many DISTINCT concepts vs inflected forms?)")
       (let [roots (root-analysis solos-by-head)]
-        (doseq [h [:right :left :aaron :god]]
+        (doseq [h [:truth :mercy :aaron :god]]
           (let [{:keys [total-solos dict-exact dict-root distinct-roots root-detail]}
                 (get roots h)]
             (println (format "\n  %s: %d solos → %d exact dict matches, %d root matches → %d distinct roots"
@@ -765,8 +765,8 @@
       (println "\n\n── Phase 6: Uncomfortable Words ──")
       (println "  (Dict words in the 'wrong' head — not neutral, not matching hypothesis)")
       (let [uw (uncomfortable-words dict-by-head)]
-        (doseq [h [:right :left :aaron :god]]
-          (let [label (case h :right "mercy" :left "justice" :aaron "priestly" :god "divine")
+        (doseq [h [:truth :mercy :aaron :god]]
+          (let [label (case h :truth "mercy" :mercy "justice" :aaron "priestly" :god "divine")
                 words (get uw h [])]
             (println (format "\n  %s head (expected: %s) — %d uncomfortable words:"
                              (name h) label (count words)))
@@ -781,10 +781,10 @@
       ;; Phase 7: Density comparison
       (println "\n\n── Phase 7: Density Comparison ──")
       (println "  (What fraction of each head's dict words belong to each category?)")
-      (doseq [h [:right :left :aaron :god]]
+      (doseq [h [:truth :mercy :aaron :god]]
         (let [words (get dict-by-head h #{})
               total (count words)
-              label (case h :right "mercy/yod" :left "justice/he"
+              label (case h :truth "mercy/yod" :mercy "justice/he"
                             :aaron "aaron/vav" :god "god/he")]
           (println (format "\n  %s (%d dict words):" label total))
           (doseq [cat [:mercy :justice :priestly :divine :neutral]]
@@ -798,7 +798,7 @@
       (println "  VERDICT")
       (println "═══════════════════════════════════════════════════════════")
       (let [chi2 (:chi2 chi)
-            mapping [[:mercy :right] [:justice :left] [:priestly :aaron] [:divine :god]]
+            mapping [[:mercy :truth] [:justice :mercy] [:priestly :aaron] [:divine :god]]
             fishers (per-category-fisher table mapping)
             sig-count (count (filter #(< (:p-value %) 0.05) fishers))]
         (println (format "  χ² = %.3f (df=9). %s."

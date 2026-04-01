@@ -67,8 +67,8 @@
       (printf "    %s: %d illuminations, %d readings — A:%d R:%d L:%d\n"
               w (:illumination-count r) (:total-readings r)
               (get-in r [:by-reader :aaron])
-              (get-in r [:by-reader :right])
-              (get-in r [:by-reader :left]))))
+              (get-in r [:by-reader :truth])
+              (get-in r [:by-reader :mercy]))))
 
   (println "\n  The wrong answer was loud (21 paths, lopsided 15:6).")
   (println "  The correct answer was quiet (2 paths, balanced 1:1)."))
@@ -87,8 +87,8 @@
     (printf "  Illumination patterns: %d\n" (:illumination-count r))
     (printf "  Readings — Aaron: %d  Right: %d  Left: %d\n"
             (get-in r [:by-reader :aaron])
-            (get-in r [:by-reader :right])
-            (get-in r [:by-reader :left]))
+            (get-in r [:by-reader :truth])
+            (get-in r [:by-reader :mercy]))
     (println "  → Readable ONLY from God's right hand.")
 
     (when (seq (:anagrams r))
@@ -98,9 +98,9 @@
           (printf "    %s (%s): A:%d R:%d L:%d — %s\n"
                   word meaning
                   (get-in r2 [:by-reader :aaron])
-                  (get-in r2 [:by-reader :right])
-                  (get-in r2 [:by-reader :left])
-                  (if (= #{:aaron :right :left}
+                  (get-in r2 [:by-reader :truth])
+                  (get-in r2 [:by-reader :mercy])
+                  (if (= #{:aaron :truth :mercy}
                          (set (for [[k v] (:by-reader r2) :when (pos? v)] k)))
                     "all three see it"
                     "partial")))))))
@@ -121,8 +121,8 @@
               (:illumination-count r) (:total-readings r))
       (printf "  Aaron: %d  Right: %d  Left: %d\n"
               (get-in r [:by-reader :aaron])
-              (get-in r [:by-reader :right])
-              (get-in r [:by-reader :left]))))
+              (get-in r [:by-reader :truth])
+              (get-in r [:by-reader :mercy]))))
 
   (println "\n  Forward — letters יהוה light up:")
   (let [r (oracle/forward "יהוה")]
@@ -217,8 +217,8 @@
     (printf "  Readings: %d — Aaron: %d  Right: %d  Left: %d\n"
             (:total-readings r)
             (get-in r [:by-reader :aaron])
-            (get-in r [:by-reader :right])
-            (get-in r [:by-reader :left]))
+            (get-in r [:by-reader :truth])
+            (get-in r [:by-reader :mercy]))
     (println "  Aaron never sees the accuser. The left reads it 75%."))
 
   (println "\n  Every reading passes through stone 11 (Benjamin).")
@@ -230,9 +230,9 @@
   (let [ilsets (oracle/illumination-sets "שטן")
         seen (atom #{})]
     (doseq [pset ilsets]
-      (let [left-w (oracle/read-positions :left pset)]
+      (let [left-w (oracle/read-positions :mercy pset)]
         (when (= left-w "שטן")
-          (let [right-w (oracle/read-positions :right pset)]
+          (let [right-w (oracle/read-positions :truth pset)]
             (when-not (@seen right-w)
               (swap! seen conj right-w)
               (printf "    %s %s\n" right-w
@@ -245,8 +245,8 @@
     (printf "  Readings: %d — Aaron: %d  Right: %d  Left: %d\n"
             (:total-readings r)
             (get-in r [:by-reader :aaron])
-            (get-in r [:by-reader :right])
-            (get-in r [:by-reader :left]))
+            (get-in r [:by-reader :truth])
+            (get-in r [:by-reader :mercy]))
     (println "  With the article — the formal office — it shifts to the right."))
 
   ;; Lamb vs adversary
@@ -277,14 +277,14 @@
                      ["ברית" "covenant — what I broke"]
                      ["משה" "Moses — the law"]]]
     (let [r (oracle/ask w)]
-      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :left]))))
+      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :mercy]))))
 
   (println "\n  ─── AT MY LEFT — THE ADVOCATE (God's right) ───\n")
   (doseq [[w role] [["כבש" "the lamb"]
                      ["תורה" "Torah — fulfilled"]
                      ["אדם" "man — stands for me"]]]
     (let [r (oracle/ask w)]
-      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :right]))))
+      (printf "    %-5s  %-30s  %d readings\n" w role (get-in r [:by-reader :truth]))))
 
   (println "\n  ─── ABOVE — THE PRIEST (Aaron) ───\n")
   (doseq [[w role] [["אור" "light — the illumination"]

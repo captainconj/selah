@@ -9,7 +9,7 @@
 ;; Check חצר per-head more carefully, plus key oracle sub-readings
 (let [by-head (o/forward-by-head "חצר")]
   (println "=== חצר per-head (all words) ===")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (println (str "\n  " (name reader) ":"))
     (doseq [w (get by-head reader)]
       (println (format "    %-6s count=%-3d gv=%-4d %s"
@@ -20,7 +20,7 @@
 (println)
 (let [by-head (o/forward-by-head "עמוד")]
   (println "=== עמוד per-head (all words) ===")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (println (str "\n  " (name reader) ":"))
     (doseq [w (get by-head reader)]
       (println (format "    %-6s count=%-3d gv=%-4d %s"
@@ -31,7 +31,7 @@
 (println)
 (let [by-head (o/forward-by-head "זהב")]
   (println "=== זהב per-head (all words) ===")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (println (str "\n  " (name reader) ":"))
     (doseq [w (get by-head reader)]
       (println (format "    %-6s count=%-3d gv=%-4d %s"
@@ -55,7 +55,7 @@
                      (:word w) (:reading-count w) (:gv w)
                      (or (dict/translate (:word w)) ""))))
   (println "\n  Per-head top 3:")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (println (str "    " (name reader) ":"))
     (doseq [w (take 3 (get by-head reader))]
       (println (format "      %-8s count=%-3d %s"
@@ -73,7 +73,7 @@
 (println)
 (println "=== קנה (acquire/reed) oracle ===")
 (let [by-head (o/forward-by-head "קנה")]
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (let [top (first (get by-head reader))]
       (when top
         (println (format "  %-6s: %-6s count=%-3d %s"

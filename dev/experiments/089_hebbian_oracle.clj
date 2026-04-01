@@ -58,12 +58,12 @@
 
 (defn reader-vec
   "3-dimensional reader count vector [aaron right left].
-   by-reader maps :aaron/:right/:left → count (integer)."
+   by-reader maps :aaron/:truth/:mercy → count (integer)."
   [ask-result]
   (let [by-r (:by-reader ask-result)]
     [(int (or (get by-r :aaron) 0))
-     (int (or (get by-r :right) 0))
-     (int (or (get by-r :left) 0))]))
+     (int (or (get by-r :truth) 0))
+     (int (or (get by-r :mercy) 0))]))
 
 (defn word-features
   "Complete feature set for a word."

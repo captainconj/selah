@@ -99,7 +99,7 @@
   (doseq [w ["חיים" "רוח" "בשר"]]
     (println (format "\n  %s (gv=%d):" w (g/word-value w)))
     (let [by-head (o/forward-by-head w)]
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [words (get by-head reader)]
           (doseq [rw (take 3 words)]
             (println (format "    %-6s: %-8s count=%-3d  %s"

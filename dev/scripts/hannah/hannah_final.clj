@@ -38,7 +38,7 @@
   (doseq [[stone pos] (get o/letter-index \ש)]
     (let [r (o/stone-row stone) c (o/stone-col stone)]
       (println (str "ש at stone " stone " (row=" r " col=" c ") — " (get o/stone-tribe stone)))
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [shin-key (o/read-key reader [stone pos])
               kaf-key  (o/read-key reader [kaf-stone 4])]
           (println (str "  " (name reader) ": ש-key=" shin-key " כ-key=" kaf-key 
@@ -51,7 +51,7 @@
 ;; For each ש position × each reader, is the configuration שכרה-favorable or כשרה-favorable?
 (let [kaf-stone 8 kaf-pos 4
       results (for [[stone pos] (get o/letter-index \ש)
-                    reader [:aaron :god :right :left]]
+                    reader [:aaron :god :truth :mercy]]
                 (let [shin-key (o/read-key reader [stone pos])
                       kaf-key  (o/read-key reader [kaf-stone kaf-pos])
                       order (compare (vec shin-key) (vec kaf-key))]

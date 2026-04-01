@@ -47,14 +47,14 @@
   ;; Break down שכרה by reader more carefully
   (println)
   (println "שכרה readings by reader and distinct illumination set:")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (let [reader-hits (filter #(= reader (:reader %)) shkrh-hits)
           reader-psets (set (map :positions reader-hits))]
       (println (str "  " (name reader) ": " (count reader-hits) " readings from " (count reader-psets) " illumination patterns"))))
   
   (println)
   (println "כשרה readings by reader and distinct illumination set:")
-  (doseq [reader [:aaron :god :right :left]]
+  (doseq [reader [:aaron :god :truth :mercy]]
     (let [reader-hits (filter #(= reader (:reader %)) kshrh-hits)
           reader-psets (set (map :positions reader-hits))]
       (println (str "  " (name reader) ": " (count reader-hits) " readings from " (count reader-psets) " illumination patterns")))))

@@ -73,16 +73,16 @@
         left  (reduce + (for [d (range 33)]    (c/gv-at s (c/coord->idx 3 25 6 d))))
         nail  (c/gv-at s (c/coord->idx 3 25 6 33))
         right (reduce + (for [d (range 34 67)] (c/gv-at s (c/coord->idx 3 25 6 d))))]
-    {:left left :nail nail :right right
+    {:mercy left :nail nail :truth right
      :total (+ left nail right)}))
 
 (defn endpoints
   "The four endpoints of the cross."
   []
   (let [s (c/space)]
-    {:left   {:letter (c/letter-at s (c/coord->idx 3 25 6 0))
+    {:mercy   {:letter (c/letter-at s (c/coord->idx 3 25 6 0))
               :verse  (:verse (c/describe (c/coord->idx 3 25 6 0)))}
-     :right  {:letter (c/letter-at s (c/coord->idx 3 25 6 66))
+     :truth  {:letter (c/letter-at s (c/coord->idx 3 25 6 66))
               :verse  (:verse (c/describe (c/coord->idx 3 25 6 66)))}
      :bottom {:letter (c/letter-at s (c/coord->idx 3 25 0 33))
               :verse  (:verse (c/describe (c/coord->idx 3 25 0 33)))}
@@ -124,7 +124,7 @@
 
   ;; Arms
   (arm-gvs)
-  ;; {:left 3437 :nail 6 :right 2627 :total 6070}
+  ;; {:mercy 3437 :nail 6 :truth 2627 :total 6070}
   ;; 33 + 1 + 33 symmetric
 
   ;; === VERTICAL BEAM (love, 13) ===

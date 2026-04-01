@@ -36,7 +36,7 @@
   (let [dict-set (set dict-words)
         illumination-sets-fn (:illumination-sets orc)
         read-positions-fn (:read-positions orc)
-        readers [:aaron :god :right :left]
+        readers [:aaron :god :truth :mercy]
         ;; Deduplicate illumination sets across words
         ;; (anagram inputs produce the same position sets)
         seen (atom #{})
@@ -76,7 +76,7 @@
   (let [dict-set (set dict-words)
         illumination-sets-fn (:illumination-sets orc)
         read-positions-fn (:read-positions orc)
-        readers [:aaron :god :right :left]
+        readers [:aaron :god :truth :mercy]
         seen (atom #{})
         cases (atom [])]
     (doseq [word dict-words]
@@ -135,7 +135,7 @@
           (doseq [[reader word] dict-readings]
             (swap! reader-map update reader (fnil (fn [m] (update m word (fnil inc 0))) {}))))
         (println (format "\n  %s / %s  (%d illuminations):" w1 w2 (count relevant)))
-        (doseq [r [:aaron :god :right :left]]
+        (doseq [r [:aaron :god :truth :mercy]]
           (let [counts (get @reader-map r {})]
             (when (seq counts)
               (println (format "    %-8s  %s"

@@ -46,8 +46,8 @@
   (let [n (count gvs)]
     (mapv (fn [i]
             {:pair [(inc i) (- n i)]
-             :left (nth gvs i)
-             :right (nth gvs (- n 1 i))
+             :mercy (nth gvs i)
+             :truth (nth gvs (- n 1 i))
              :sum (+ (nth gvs i) (nth gvs (- n 1 i)))})
           (range (quot n 2)))))
 
@@ -195,7 +195,7 @@
   (doseq [p pairs]
     (println (format "Pair %2d <-> %2d: %3d + %3d = %4d"
                      (first (:pair p)) (second (:pair p))
-                     (:left p) (:right p) (:sum p))))
+                     (:mercy p) (:truth p) (:sum p))))
 
   ;; The bridge
   (find-bridges pairs)

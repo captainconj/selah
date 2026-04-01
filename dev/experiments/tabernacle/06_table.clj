@@ -74,7 +74,7 @@
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
       (when (and by-head (some seq (vals by-head)))
-        (doseq [reader [:aaron :god :right :left]]
+        (doseq [reader [:aaron :god :truth :mercy]]
           (let [words (get by-head reader)]
             (doseq [rw (take 2 words)]
               (println (format "    %-6s: %-8s count=%-3d  %s"
@@ -85,7 +85,7 @@
   (println)
   (println "=== שלחן PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "שלחן")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -96,7 +96,7 @@
   (println)
   (println "=== לחם PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "לחם")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -107,7 +107,7 @@
   (println)
   (println "=== פנים PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "פנים")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -118,7 +118,7 @@
   (println)
   (println "=== טהור PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "טהור")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -136,7 +136,7 @@
                       :else (str "→ " (:next bstep)))]
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [words (get by-head reader)]
           (doseq [rw (take 2 words)]
             (println (format "    %-6s: %-8s count=%-3d  %s"

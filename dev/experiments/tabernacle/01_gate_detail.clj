@@ -31,7 +31,7 @@
   (doseq [w ["שער" "אמה" "שני" "רחב" "חמש" "מסך" "קומה" "עשרים"]]
     (let [by-head (o/forward-by-head w)]
       (println (format "\n  %s (gv=%d, %s):" w (g/word-value w) (or (dict/translate w) "?")))
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [words (get by-head reader)
               top (first words)]
           (when top

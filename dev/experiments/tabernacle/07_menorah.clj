@@ -78,7 +78,7 @@
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
       (when (and by-head (some seq (vals by-head)))
-        (doseq [reader [:aaron :god :right :left]]
+        (doseq [reader [:aaron :god :truth :mercy]]
           (let [words (get by-head reader)]
             (doseq [rw (take 2 words)]
               (println (format "    %-6s: %-8s count=%-3d  %s"
@@ -89,7 +89,7 @@
   (println)
   (println "=== מנרה PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "מנרה")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -100,7 +100,7 @@
   (println)
   (println "=== קנה PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "קנה")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -111,7 +111,7 @@
   (println)
   (println "=== גביע PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "גביע")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -122,7 +122,7 @@
   (println)
   (println "=== כפתר PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "כפתר")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -133,7 +133,7 @@
   (println)
   (println "=== פרח PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "פרח")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -144,7 +144,7 @@
   (println)
   (println "=== שקד PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "שקד")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -155,7 +155,7 @@
   (println)
   (println "=== אור PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "אור")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -166,7 +166,7 @@
   (println)
   (println "=== מקשה PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "מקשה")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"
@@ -177,7 +177,7 @@
   (println)
   (println "=== שבעה PER-HEAD (all) ===")
   (let [by-head (o/forward-by-head "שבעה")]
-    (doseq [reader [:aaron :god :right :left]]
+    (doseq [reader [:aaron :god :truth :mercy]]
       (println (str "  " (name reader) ":"))
       (doseq [w (get by-head reader)]
         (println (format "    %-8s count=%-3d gv=%-4d %s"

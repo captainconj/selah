@@ -21,8 +21,8 @@
                   "  Readable: " (:readable? a)))
     (println (str "  Aaron: " (get-in a [:by-reader :aaron])
                   "  God: " (get-in a [:by-reader :god])
-                  "  Right: " (get-in a [:by-reader :right])
-                  "  Left: " (get-in a [:by-reader :left])))
+                  "  Right: " (get-in a [:by-reader :truth])
+                  "  Left: " (get-in a [:by-reader :mercy])))
     (when (seq (:anagrams a))
       (println (str "  Anagrams: " (pr-str (:anagrams a)))))))
 

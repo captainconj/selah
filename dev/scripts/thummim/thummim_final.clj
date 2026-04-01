@@ -35,8 +35,8 @@
   (println (str "  Reader distribution:"))
   (println (str "    Aaron: " (get-in a [:by-reader :aaron])))
   (println (str "    God: " (get-in a [:by-reader :god])))
-  (println (str "    Right cherub: " (get-in a [:by-reader :right])))
-  (println (str "    Left cherub: " (get-in a [:by-reader :left]))))
+  (println (str "    Right cherub: " (get-in a [:by-reader :truth])))
+  (println (str "    Left cherub: " (get-in a [:by-reader :mercy]))))
 
 ;; Adonai = 65 = 5×13 — Lord contains love
 (println "\n═══════════════════════════════════════════════════")
@@ -49,8 +49,8 @@
   (println (str "  Reader distribution:"))
   (println (str "    Aaron: " (get-in a [:by-reader :aaron])))
   (println (str "    God: " (get-in a [:by-reader :god])))
-  (println (str "    Right cherub: " (get-in a [:by-reader :right])))
-  (println (str "    Left cherub: " (get-in a [:by-reader :left]))))
+  (println (str "    Right cherub: " (get-in a [:by-reader :truth])))
+  (println (str "    Left cherub: " (get-in a [:by-reader :mercy]))))
 
 ;; Anagram pair symmetry analysis
 (println "\n═══════════════════════════════════════════════════")
@@ -67,8 +67,8 @@
   (let [a1 (o/ask w1) a2 (o/ask w2)
         r1 (:by-reader a1) r2 (:by-reader a2)]
     (println (str "\n  " w1 " vs " w2 "  GV=" (:gv a1)))
-    (println (str "    " w1 " — A:" (:aaron r1) " G:" (:god r1) " R:" (:right r1) " L:" (:left r1) " total=" (:total-readings a1)))
-    (println (str "    " w2 " — A:" (:aaron r2) " G:" (:god r2) " R:" (:right r2) " L:" (:left r2) " total=" (:total-readings a2)))))
+    (println (str "    " w1 " — A:" (:aaron r1) " G:" (:god r1) " R:" (:truth r1) " L:" (:mercy r1) " total=" (:total-readings a1)))
+    (println (str "    " w2 " — A:" (:aaron r2) " G:" (:god r2) " R:" (:truth r2) " L:" (:mercy r2) " total=" (:total-readings a2)))))
 
 ;; Check YHWH reader distribution more carefully
 (println "\n\n═══════════════════════════════════════════════════")
@@ -77,14 +77,14 @@
 (let [a (o/ask "יהוה")]
   (println (str "  YHWH reads: A:" (get-in a [:by-reader :aaron])
                 " G:" (get-in a [:by-reader :god])
-                " R:" (get-in a [:by-reader :right])
-                " L:" (get-in a [:by-reader :left])))
+                " R:" (get-in a [:by-reader :truth])
+                " L:" (get-in a [:by-reader :mercy])))
   (println (str "  Total: " (:total-readings a) " of " (:illumination-count a) " illuminations")))
 (let [a (o/ask "והיה")]
   (println (str "  והיה reads: A:" (get-in a [:by-reader :aaron])
                 " G:" (get-in a [:by-reader :god])
-                " R:" (get-in a [:by-reader :right])
-                " L:" (get-in a [:by-reader :left])))
+                " R:" (get-in a [:by-reader :truth])
+                " L:" (get-in a [:by-reader :mercy])))
   (println (str "  Total: " (:total-readings a) " of " (:illumination-count a) " illuminations"))
   (println (str "  Combined YHWH+והיה = " (+ 58 68) " readings from 231 illuminations")))
 

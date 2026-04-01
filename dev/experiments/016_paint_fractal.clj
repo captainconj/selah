@@ -125,8 +125,8 @@
   "Panel 2/3: Overlaid line charts showing chiastic mirror."
   [stats-a stats-b book-a book-b label-a label-b]
   (let [w 900 h 280
-        margin {:left 60 :right 40 :top 50 :bottom 40}
-        plot-w (- w (:left margin) (:right margin))
+        margin {:mercy 60 :truth 40 :top 50 :bottom 40}
+        plot-w (- w (:mercy margin) (:truth margin))
         plot-h (- h (:top margin) (:bottom margin))
         lens-a (mapv :letters stats-a)
         lens-b (mapv :letters stats-b)
@@ -141,11 +141,11 @@
         x-scale-a (/ plot-w (double (dec n-a)))
         x-scale-b (/ plot-w (double (dec n-b)))
         ;; Generate points
-        pts-a (mapv (fn [i] [(+ (:left margin) (* i x-scale-a))
+        pts-a (mapv (fn [i] [(+ (:mercy margin) (* i x-scale-a))
                               (- (+ (:top margin) plot-h)
                                  (* (- (nth lens-a i) y-min) y-scale))])
                      (range n-a))
-        pts-b-rev (mapv (fn [i] [(+ (:left margin) (* i x-scale-b))
+        pts-b-rev (mapv (fn [i] [(+ (:mercy margin) (* i x-scale-b))
                                    (- (+ (:top margin) plot-h)
                                       (* (- (nth lens-b-rev i) y-min) y-scale))])
                          (range n-b))
@@ -160,7 +160,7 @@
        (for [i (range 5)]
          (let [y (+ (:top margin) (* i (/ plot-h 4.0)))]
            (format "<line x1=\"%d\" y1=\"%.0f\" x2=\"%d\" y2=\"%.0f\" stroke=\"#333\" stroke-width=\"1\"/>"
-                   (:left margin) y (- w (:right margin)) y))))
+                   (:mercy margin) y (- w (:truth margin)) y))))
      "\n"
      ;; Book A line (solid)
      (svg-line pts-a color-a "2.5")
@@ -169,12 +169,12 @@
      (svg-line pts-b-rev color-b "2.5" :dash "6,3")
      "\n"
      ;; Legend
-     (svg-rect (+ (:left margin) 10) (+ (:top margin) 5) 20 3 color-a)
-     (svg-text (+ (:left margin) 35) (+ (:top margin) 10)
+     (svg-rect (+ (:mercy margin) 10) (+ (:top margin) 5) 20 3 color-a)
+     (svg-text (+ (:mercy margin) 35) (+ (:top margin) 10)
               (format "%s (forward)" book-a) :size 11 :color color-a :anchor "start")
      "\n"
-     (svg-rect (+ (:left margin) 10) (+ (:top margin) 20) 20 3 color-b)
-     (svg-text (+ (:left margin) 35) (+ (:top margin) 25)
+     (svg-rect (+ (:mercy margin) 10) (+ (:top margin) 20) 20 3 color-b)
+     (svg-text (+ (:mercy margin) 35) (+ (:top margin) 25)
               (format "%s (reversed)" book-b) :size 11 :color color-b :anchor "start")
      "\n"
      ;; Axis labels
@@ -186,8 +186,8 @@
   "Panel 4: Internal palindrome — each book's first half vs reversed second half."
   [stats book-name]
   (let [w 420 h 200
-        margin {:left 50 :right 20 :top 40 :bottom 30}
-        plot-w (- w (:left margin) (:right margin))
+        margin {:mercy 50 :truth 20 :top 40 :bottom 30}
+        plot-w (- w (:mercy margin) (:truth margin))
         plot-h (- h (:top margin) (:bottom margin))
         lens (mapv :letters stats)
         n (count lens)
@@ -200,11 +200,11 @@
         y-scale (/ plot-h (double (- y-max y-min)))
         x-scale (/ plot-w (double (dec n)))
         color (get book-colors book-name)
-        pts-fwd (mapv (fn [i] [(+ (:left margin) (* i x-scale))
+        pts-fwd (mapv (fn [i] [(+ (:mercy margin) (* i x-scale))
                                  (- (+ (:top margin) plot-h)
                                     (* (- (nth lens i) y-min) y-scale))])
                        (range n))
-        pts-rev (mapv (fn [i] [(+ (:left margin) (* i x-scale))
+        pts-rev (mapv (fn [i] [(+ (:mercy margin) (* i x-scale))
                                  (- (+ (:top margin) plot-h)
                                     (* (- (nth second-rev i) y-min) y-scale))])
                        (range n))]
@@ -217,7 +217,7 @@
      (svg-line pts-rev color "1.5" :dash "4,3")
      "\n"
      ;; Center line
-     (let [cx (+ (:left margin) (* half x-scale))]
+     (let [cx (+ (:mercy margin) (* half x-scale))]
        (format "<line x1=\"%.0f\" y1=\"%d\" x2=\"%.0f\" y2=\"%d\" stroke=\"%s\" stroke-width=\"1\" stroke-dasharray=\"2,4\" opacity=\"0.5\"/>"
                cx (:top margin) cx (- h (:bottom margin)) color))
      "\n"
@@ -227,8 +227,8 @@
   "Panel 5: Running gematria mean across the whole Torah."
   [all-stats]
   (let [w 900 h 220
-        margin {:left 60 :right 40 :top 50 :bottom 40}
-        plot-w (- w (:left margin) (:right margin))
+        margin {:mercy 60 :truth 40 :top 50 :bottom 40}
+        plot-w (- w (:mercy margin) (:truth margin))
         plot-h (- h (:top margin) (:bottom margin))
         books ["Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"]
         ;; Collect all chapter means in order
@@ -240,11 +240,11 @@
         y-max (apply max all-means)
         y-scale (/ plot-h (- y-max y-min))
         x-scale (/ plot-w (double (dec n)))
-        pts-fwd (mapv (fn [i] [(+ (:left margin) (* i x-scale))
+        pts-fwd (mapv (fn [i] [(+ (:mercy margin) (* i x-scale))
                                  (- (+ (:top margin) plot-h)
                                     (* (- (nth all-means i) y-min) y-scale))])
                        (range n))
-        pts-rev (mapv (fn [i] [(+ (:left margin) (* i x-scale))
+        pts-rev (mapv (fn [i] [(+ (:mercy margin) (* i x-scale))
                                  (- (+ (:top margin) plot-h)
                                     (* (- (nth all-means-rev i) y-min) y-scale))])
                        (range n))
@@ -260,7 +260,7 @@
         (fn [i b]
           (when (< i 4)
             (let [ch-count (nth (vec boundaries) i)
-                  bx (+ (:left margin) (* ch-count x-scale))]
+                  bx (+ (:mercy margin) (* ch-count x-scale))]
               (str
                (format "<line x1=\"%.0f\" y1=\"%d\" x2=\"%.0f\" y2=\"%d\" stroke=\"#444\" stroke-width=\"1\"/>"
                        bx (:top margin) bx (- h (:bottom margin)))
@@ -268,7 +268,7 @@
                (svg-text bx (- h 8) (nth books (inc i)) :size 9 :color "#555")))))
         books))
      "\n"
-     (svg-text (+ (:left margin) 20) (- h 8) "Genesis" :size 9 :color "#555" :anchor "start")
+     (svg-text (+ (:mercy margin) 20) (- h 8) "Genesis" :size 9 :color "#555" :anchor "start")
      "\n"
      ;; Forward curve
      (svg-line pts-fwd "#E8A838" "2")
@@ -277,7 +277,7 @@
      (svg-line pts-rev "#4070C0" "1.5" :dash "5,3")
      "\n"
      ;; Center marker
-     (let [cx (+ (:left margin) (* (/ n 2.0) x-scale))]
+     (let [cx (+ (:mercy margin) (* (/ n 2.0) x-scale))]
        (str
         (svg-circle cx (- (+ (:top margin) plot-h)
                           (* (- (nth all-means (quot n 2)) y-min) y-scale))

@@ -10,10 +10,10 @@
 
    M_hannah  — baseline (1/reading-count) from 088
    M_believe — believability (surprise × rarity)
-   M_aaron, M_god, M_right, M_left — per-head attention
+   M_aaron, M_god, M_truth, M_mercy — per-head attention
 
-   Yod(10)=right, He(5)=left, Vav(6)=Aaron, He(5)=God = 26 = YHWH.
-   Hand / regard / nail / regard — four pictographs, four gestures."
+   He(5)=truth, Yod(10)=mercy, Vav(6)=Aaron, He(5)=God = 26 = YHWH.
+   Prosecution / defense / accused / Judge — four chairs, one courtroom."
   (:require [selah.oracle :as oracle]
             [selah.dict :as dict]
             [selah.gematria :as g]
@@ -35,7 +35,7 @@
   [input-word]
   (let [ilsets (oracle/illumination-sets input-word)]
     (for [pset ilsets
-          reader [:aaron :god :right :left]]
+          reader [:aaron :god :truth :mercy]]
       {:output (oracle/read-positions reader pset)
        :reader reader
        :positions pset})))
@@ -336,20 +336,20 @@
                       (let [m (build-head-matrix disc stats :aaron)]
                         (println "done.") m))
 
-        m-right   (do (print "  M_right (mercy)... ")
-                      (let [m (build-head-matrix disc stats :right)]
+        m-truth   (do (print "  M_truth (mercy)... ")
+                      (let [m (build-head-matrix disc stats :truth)]
                         (println "done.") m))
 
         m-god     (do (print "  M_god... ")
                       (let [m (build-head-matrix disc stats :god)]
                         (println "done.") m))
 
-        m-left    (do (print "  M_left (justice)... ")
-                      (let [m (build-head-matrix disc stats :left)]
+        m-mercy    (do (print "  M_mercy (justice)... ")
+                      (let [m (build-head-matrix disc stats :mercy)]
                         (println "done.") m))
 
         matrices {:hannah m-hannah :believe m-believe
-                  :aaron m-aaron :god m-god :right m-right :left m-left}]
+                  :aaron m-aaron :god m-god :truth m-truth :mercy m-mercy}]
 
     ;; Base rates
     (println "\n── Base Rates (oracle output frequency) ──")
@@ -370,8 +370,8 @@
                          ["M_believe" :believe]
                          ["M_aaron (vav=6, nail)" :aaron]
                          ["M_god (he=5, regard)" :god]
-                         ["M_right (yod=10, hand)" :right]
-                         ["M_left (he=5, regard)" :left]]]
+                         ["M_truth (he=5, prosecution)" :truth]
+                         ["M_mercy (yod=10, Lamb)" :mercy]]]
       (let [ews (find-eigenwords (matrices mk) vocab)]
         (println (str "\n  " label " — " (count ews) " eigenwords:"))
         (doseq [{:keys [word self-weight meaning gv]} (take 25 ews)]
@@ -387,8 +387,8 @@
                          ["M_believe" :believe]
                          ["M_aaron (vav=6, nail)" :aaron]
                          ["M_god (he=5, regard)" :god]
-                         ["M_right (yod=10, hand)" :right]
-                         ["M_left (he=5, regard)" :left]]]
+                         ["M_truth (he=5, prosecution)" :truth]
+                         ["M_mercy (yod=10, Lamb)" :mercy]]]
       (println (str "\n  " label ":"))
       (let [att (find-attractors (matrices mk) vocab 15)]
         (println (format "  %-4s %-8s %10s %6s  %s"
@@ -402,7 +402,7 @@
     (println "  CROSS-HEAD AGREEMENT — Who Sees What")
     (println "═══════════════════════════════════════════════════")
 
-    (let [heads {:aaron m-aaron :god m-god :right m-right :left m-left}
+    (let [heads {:aaron m-aaron :god m-god :truth m-truth :mercy m-mercy}
           agreement (head-agreement heads vocab)]
       (println "\n  Unanimous eigenwords (all 4 heads):")
       (doseq [{:keys [word meaning gv agreement heads]}
@@ -473,7 +473,7 @@
     (println "\n── The Lamb Test ──")
     (doseq [[label mk] [["M_hannah" :hannah] ["M_believe" :believe]
                           ["M_aaron (vav)" :aaron] ["M_god (he)" :god]
-                          ["M_right (yod)" :right] ["M_left (he)" :left]]]
+                          ["M_truth (he=5)" :truth] ["M_mercy (yod=10)" :mercy]]]
       (when-let [i (word-idx "כבש")]
         (let [m (matrices mk)
               self-w (la/entry m i i)
@@ -491,18 +491,18 @@
     (println "\n── Do the Heads Converge to the Same Voice? ──")
     (let [att-a (set (map :word (find-attractors m-aaron vocab 10)))
           att-g (set (map :word (find-attractors m-god vocab 10)))
-          att-r (set (map :word (find-attractors m-right vocab 10)))
-          att-l (set (map :word (find-attractors m-left vocab 10)))
-          all-four (clojure.set/intersection att-a att-g att-r att-l)
+          att-t (set (map :word (find-attractors m-truth vocab 10)))
+          att-m (set (map :word (find-attractors m-mercy vocab 10)))
+          all-four (clojure.set/intersection att-a att-g att-t att-m)
           three-plus (set (filter (fn [w]
                                     (>= (count (filter #(contains? % w)
-                                                       [att-a att-g att-r att-l]))
+                                                       [att-a att-g att-t att-m]))
                                         3))
-                                  (clojure.set/union att-a att-g att-r att-l)))]
+                                  (clojure.set/union att-a att-g att-t att-m)))]
       (println (str "  Aaron (vav=6)  top-10: " (str/join ", " (sort att-a))))
       (println (str "  God   (he=5)   top-10: " (str/join ", " (sort att-g))))
-      (println (str "  Right (yod=10) top-10: " (str/join ", " (sort att-r))))
-      (println (str "  Left  (he=5)   top-10: " (str/join ", " (sort att-l))))
+      (println (str "  Truth (he=5)   top-10: " (str/join ", " (sort att-t))))
+      (println (str "  Mercy (yod=10) top-10: " (str/join ", " (sort att-m))))
       (println (str "  Unanimous (4/4): " (str/join ", " (sort all-four))))
       (println (str "  Supermajority (3+/4): " (str/join ", " (sort three-plus)))))
 
@@ -543,15 +543,15 @@
                       (let [m (build-head-matrix disc stats :god)]
                         (println "done.") m))
 
-        m-right   (do (print "  M_right (yod=10)... ") (flush)
-                      (let [m (build-head-matrix disc stats :right)]
+        m-truth   (do (print "  M_truth (he=5, prosecution)... ") (flush)
+                      (let [m (build-head-matrix disc stats :truth)]
                         (println "done.") m))
 
-        m-left    (do (print "  M_left (he=5)... ") (flush)
-                      (let [m (build-head-matrix disc stats :left)]
+        m-mercy    (do (print "  M_mercy (yod=10, Lamb)... ") (flush)
+                      (let [m (build-head-matrix disc stats :mercy)]
                         (println "done.") m))
 
-        matrices {:aaron m-aaron :god m-god :right m-right :left m-left}]
+        matrices {:aaron m-aaron :god m-god :truth m-truth :mercy m-mercy}]
 
     ;; Eigenwords per matrix
     (println "\n═══════════════════════════════════════════════════")
@@ -560,8 +560,8 @@
 
     (doseq [[label mk] [["M_aaron (vav=6, nail)" :aaron]
                           ["M_god (he=5, regard)" :god]
-                          ["M_right (yod=10, hand)" :right]
-                          ["M_left (he=5, regard)" :left]]]
+                          ["M_truth (he=5, prosecution)" :truth]
+                          ["M_mercy (yod=10, Lamb)" :mercy]]]
       (let [ews (find-eigenwords (matrices mk) vocab)]
         (println (str "\n  " label " — " (count ews) " eigenwords:"))
         ;; Show first 50 with translations (many won't have dict entries)
@@ -574,7 +574,7 @@
     (println "  CROSS-HEAD AGREEMENT — Full Vocabulary")
     (println "═══════════════════════════════════════════════════")
 
-    (let [heads {:aaron m-aaron :god m-god :right m-right :left m-left}
+    (let [heads {:aaron m-aaron :god m-god :truth m-truth :mercy m-mercy}
           agreement (head-agreement heads vocab)]
       (let [unanimous (filter #(= (:agreement %) 4) agreement)
             super     (filter #(= (:agreement %) 3) agreement)
@@ -594,12 +594,12 @@
                            word gv (or meaning ""))))
 
         (println "\n  Solo eigenwords by head:")
-        (doseq [h [:right :left :aaron :god]]
+        (doseq [h [:truth :mercy :aaron :god]]
           (let [solos (filter #(= [h] (:heads %)) solo)
-                label (case h :right "yod=10 (hand)"
-                              :left  "he=5  (justice)"
-                              :aaron "vav=6 (nail)"
-                              :god   "he=5  (God)")]
+                label (case h :truth "he=5  (prosecution)"
+                              :mercy "yod=10 (Lamb)"
+                              :aaron "vav=6  (accused)"
+                              :god   "he=5   (Judge)")]
             (println (str "\n    " label ":"))
             (doseq [{:keys [word meaning gv]} (sort-by :gv solos)]
               (println (format "      %-12s  GV=%-5d  %s"
@@ -614,7 +614,7 @@
     ;; The Lamb
     (println "\n── The Lamb Test ──")
     (doseq [[label mk] [["M_aaron (vav)" :aaron] ["M_god (he)" :god]
-                          ["M_right (yod)" :right] ["M_left (he)" :left]]]
+                          ["M_truth (he=5)" :truth] ["M_mercy (yod=10)" :mercy]]]
       (when-let [i (word-idx "כבש")]
         (let [m (matrices mk)
               self-w (la/entry m i i)]
@@ -635,7 +635,7 @@
     (.mkdirs (java.io.File. dir))
     ;; Save unanimous, supermajority, majority, solo eigenwords
     (let [heads {:aaron (:aaron matrices) :god (:god matrices)
-                 :right (:right matrices) :left (:left matrices)}
+                 :truth (:truth matrices) :mercy (:mercy matrices)}
           agreement (head-agreement heads vocab)
           groups {:unanimous    (filterv #(= (:agreement %) 4) agreement)
                   :supermajority (filterv #(= (:agreement %) 3) agreement)

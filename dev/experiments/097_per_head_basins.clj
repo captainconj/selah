@@ -45,7 +45,7 @@
   [step-map]
   (println "Classifying per head...")
   (into {}
-    (for [reader [:aaron :god :right :left]]
+    (for [reader [:aaron :god :truth :mercy]]
       (let [classified (basin/classify-head step-map reader)
             counts (frequencies (map :class (vals classified)))]
         (println (format "  %s: %s" (name reader) (pr-str counts)))
@@ -57,7 +57,7 @@
   "For each word, how do the four heads agree?"
   [per-head-classified]
   (let [words (keys (per-head-classified :aaron))
-        readers [:aaron :god :right :left]]
+        readers [:aaron :god :truth :mercy]]
     (into {}
       (for [w words]
         (let [per-reader (into {}
@@ -87,7 +87,7 @@
 (defn extract-structures
   "Pull out the interesting structures from the agreement analysis."
   [agreement per-head-classified step-map]
-  (let [readers [:aaron :god :right :left]
+  (let [readers [:aaron :god :truth :mercy]
 
         ;; Unanimous fixed points — fixed for ALL 4 heads
         unanimous-fps (vec (sort (for [[w info] agreement
@@ -171,7 +171,7 @@
 (defn spotlight
   "Detailed per-head breakdown for key words."
   [step-map per-head-classified]
-  (let [readers [:aaron :god :right :left]
+  (let [readers [:aaron :god :truth :mercy]
         words ["כבש" "שכב" "יהוה" "אלהים" "אהבה" "אמת" "חיים"
                "תורה" "שלום" "ברית" "משה" "דם" "אור" "חסד"
                "בינה" "כהן" "שבת" "ארון" "בן" "אב"]]
@@ -195,7 +195,7 @@
 (defn build-per-head-index
   "Compact index: {word → {:aaron {:class :attractor} :god {...} ...}}"
   [per-head-classified]
-  (let [readers [:aaron :god :right :left]
+  (let [readers [:aaron :god :truth :mercy]
         words (keys (per-head-classified :aaron))]
     (into {}
       (for [w words]
@@ -211,7 +211,7 @@
 (defn cross-reference-096
   "Compare per-head attractors with the combined (096) attractor."
   [per-head-classified]
-  (let [readers [:aaron :god :right :left]
+  (let [readers [:aaron :god :truth :mercy]
         words (keys (per-head-classified :aaron))
         combined-idx (when (.exists (io/file "data/experiments/096/word-index.edn"))
                        (edn/read-string (slurp "data/experiments/096/word-index.edn")))]
@@ -266,7 +266,7 @@
             (let [nexts (into {} (for [[r info] per-head] [r (:next info)]))]
               (println (format "  %s (GV=%d): A→%s G→%s R→%s L→%s %s"
                                word gv
-                               (:aaron nexts) (:god nexts) (:right nexts) (:left nexts)
+                               (:aaron nexts) (:god nexts) (:truth nexts) (:mercy nexts)
                                (if (= 1 (count (set (vals nexts)))) "UNANIMOUS" "SPLIT")))))
         _ (println)
 
@@ -284,7 +284,7 @@
         ;; 7. Build summary
         summary {:total-words (count step-map)
                  :per-head-class-counts
-                 (into {} (for [r [:aaron :god :right :left]]
+                 (into {} (for [r [:aaron :god :truth :mercy]]
                             [r (frequencies (map :class (vals (per-head r))))]))
                  :agreement-distribution (:agreement-distribution structures)
                  :unanimous-fixed-points (:unanimous-fp-count structures)
@@ -314,7 +314,7 @@
     ;; 9. Verification
     (println)
     (println "Verification:")
-    (doseq [r [:aaron :god :right :left]]
+    (doseq [r [:aaron :god :truth :mercy]]
       (let [n (count (per-head r))]
         (println (format "  %s: %d words (expected %d) %s"
                          (name r) n (count step-map)

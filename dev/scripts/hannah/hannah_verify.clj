@@ -42,9 +42,9 @@
 ;; Sorted: [-2,3,4] [-2,4,3] [-1,1,2] [-1,1,3]
 ;; = כ ש ר ה = כשרה ← LIKE SARAH!
 (println "Right cherub: sort by [-col, row, idx]")
-(doseq [[s i] (sort-by #(o/read-key :right %) positions)]
-  (println (str "  [" s " " i "] key=" (o/read-key :right [s i]) " = " (o/letter-at [s i]))))
-(println (str "  → " (o/read-positions :right positions)))
+(doseq [[s i] (sort-by #(o/read-key :truth %) positions)]
+  (println (str "  [" s " " i "] key=" (o/read-key :truth [s i]) " = " (o/letter-at [s i]))))
+(println (str "  → " (o/read-positions :truth positions)))
 
 (println)
 
@@ -53,9 +53,9 @@
 ;; Sorted: [1,-1,2] [1,-1,3] [2,-4,3] [2,-3,4]
 ;; = ר ה ש כ = רהשכ
 (println "Left cherub: sort by [col, -row, idx]")
-(doseq [[s i] (sort-by #(o/read-key :left %) positions)]
-  (println (str "  [" s " " i "] key=" (o/read-key :left [s i]) " = " (o/letter-at [s i]))))
-(println (str "  → " (o/read-positions :left positions)))
+(doseq [[s i] (sort-by #(o/read-key :mercy %) positions)]
+  (println (str "  [" s " " i "] key=" (o/read-key :mercy [s i]) " = " (o/letter-at [s i]))))
+(println (str "  → " (o/read-positions :mercy positions)))
 
 (println)
 (println "=== CONFIRMED: Illumination #61 ===")

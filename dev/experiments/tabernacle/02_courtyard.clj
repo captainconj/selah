@@ -78,7 +78,7 @@
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
       (when (and by-head (some seq (vals by-head)))
-        (doseq [reader [:aaron :god :right :left]]
+        (doseq [reader [:aaron :god :truth :mercy]]
           (let [top-r (first (get by-head reader))]
             (when top-r
               (println (format "    %-6s: %-8s count=%-3d  %s"
@@ -147,7 +147,7 @@
                       :else (str "→ " (:next bstep)))]
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [top-r (first (get by-head reader))]
           (when top-r
             (println (format "    %-6s: %-8s count=%-3d  %s"
@@ -165,7 +165,7 @@
                       :else (str "→ " (:next bstep)))]
       (println (format "\n  %-8s gv=%-4d  %s  %s"
                        w (g/word-value w) class (or (dict/translate w) "?")))
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [top-r (first (get by-head reader))]
           (when top-r
             (println (format "    %-6s: %-8s count=%-3d  %s"

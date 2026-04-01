@@ -91,7 +91,7 @@
 (defn print-window [hebrew pos]
   (let [{:keys [letters by-head]} (window-by-head hebrew pos)]
     (println (format "  [%3d] %s:" pos letters))
-    (doseq [head [:aaron :god :right :left]]
+    (doseq [head [:aaron :god :truth :mercy]]
       (let [s (fmt-head by-head head 3)]
         (when (not= s "—")
           (println (format "    %-6s: %s" (name head) s)))))))

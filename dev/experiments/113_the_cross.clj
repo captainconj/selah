@@ -45,7 +45,7 @@
                      (:total-readings r)
                      (:fixed-point walk)))
     (println (format "    basin path: %s" (mapv :word (:steps walk))))
-    (doseq [head [:aaron :god :right :left]]
+    (doseq [head [:aaron :god :truth :mercy]]
       (let [words (get bh head)]
         (when (seq words)
           (println (format "    %-6s: %s" (name head)

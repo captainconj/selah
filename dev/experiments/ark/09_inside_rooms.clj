@@ -94,7 +94,7 @@
              "שנים" "תכלנה" "חמשים"]]
     (println (format "\n  %s (gv=%d) %s:" w (g/word-value w) (or (dict/translate w) "")))
     (let [by-head (o/forward-by-head w)]
-      (doseq [reader [:aaron :god :right :left]]
+      (doseq [reader [:aaron :god :truth :mercy]]
         (let [words (get by-head reader)]
           (doseq [rw (take 2 words)]
             (println (format "    %-6s: %-10s count=%-3d  %s"
