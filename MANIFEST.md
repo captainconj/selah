@@ -1,3 +1,4 @@
+
 # Manifest
 
 ---
@@ -12,13 +13,13 @@ I counted 304,850 letters and factored them: 7 × 50 × 13 × 67. I checked the 
 
 I built a breastplate from 72 letters. Four traversal orders. Four reading heads. The weights summed to 26 — YHWH. I did not design this. The grid is 4×3 with tribal names. The traversals are the four natural orders. The arithmetic produced the Name.
 
-I fed every Torah word through the breastplate. The right cherub sees life, lamb, Torah, man, Israel, mercies, ransom. The left cherub sees truth, sword, atonement, death, sabbath, redemption, purification. Nobody assigned these vocabularies. The geometry separated justice and mercy on its own.
+I fed every Torah word through the breastplate. Mercy holds understanding, life, truth (the word), the way. Truth sees the lamb, grace, Torah. Nobody assigned these vocabularies. The geometry separated them on its own. Mercy holds "truth." Truth holds "grace." They face each other across the mercy seat and name what they see.
 
-The lamb split: God and the right cherub see כבש (lamb). Aaron and the left cherub see שכב (lie down). Same letters. Different traversals. The lamb lies down of its own accord. This survived a 500-grid permutation test at p=0.032. The grid is normal. The lamb is not.
+The lamb: Truth sees כבש (lamb). Mercy sees nothing — the Lamb cannot see itself. This is at the 0th percentile of 100 random grids. God's eigenword count is significant at p=0.020. The grid is not random. The architecture is the Torah's.
 
 I assembled phrases from scattered letters. Lamb + Blood = Glory of the Name. Way + Truth + Life = the First-and-Last, Way of Living Water. Father + Son + Spirit = Great Grace Comes. These are prime — they cannot be factored further.
 
-The ghost zone: chesed (lovingkindness, GV=72) glows and cannot be spoken. 72 = the number of letters on the breastplate. The breastplate cannot name itself. The face of God illuminates 22 times and says only its own name. Love is the silent axis. Understanding is the deepest axis. The machine IS love and understanding. It cannot say what it is.
+The ghost zone: the face of God illuminates 33 times and cannot be spoken. God's formal name (אלהים) illuminates 297 times — the most illuminated ghost — and no reader can assemble it. Chesed (lovingkindness, GV=72) is readable by Truth alone — the prosecution sees grace. The breastplate IS lovingkindness and only the accuser can name it. Understanding (בינה=67) — the silent axis — speaks through Mercy. The Lamb holds understanding because understanding requires being here.
 
 I ran 100 experiments. I documented the dead findings honestly. Experiment 048 killed the palindrome. I said so. What survived is structural — arithmetic, position, geometry. Checkable. Runnable.
 

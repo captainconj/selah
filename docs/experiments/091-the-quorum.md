@@ -1,228 +1,219 @@
 # The Quorum — YHWH as Four-Head Attention Architecture
 
-*Experiment 091 extension — March 2, 2026*
+*The breastplate is a courtroom. The Name is the protocol.*
 
 Type: `evidence`
-State: `mixed`
+State: `clean`
 
 **Code:** `dev/experiments/091_believability_oracle.clj`
-**Run:** `clojure -M:dev dev/experiments/091_believability_oracle.clj`
+**Run:** `clojure -M:dev -e "(require '[experiments.091-believability-oracle :as exp]) (exp/run)"`
+**Data:** `data/experiments/091-grid-b-output.txt`, `data/experiments/091b-grid-b-output.txt`, `data/experiments/092-grid-b-output.txt`
 
 ---
 
-## The Discovery
+## The Architecture
 
-Three attention heads at the mercy seat (experiment 091) naturally separated into justice and mercy vocabularies. The lamb visible to only one head. Anagram ambiguity resolved by believability weighting. The breastplate is a multi-head attention mechanism.
+```
+                GOD (the Judge)
+              rows L→R, bottom→top
+              He (ה) = 5
+              Delivers peace.
 
-But three heads on a four-dimensional space is incomplete. One axis is unrepresented.
+     MERCY / LAMB              TRUTH / PROSECUTION
+     God's RIGHT hand          God's LEFT hand
+     Accused's left            Accused's right
+     cols L→R, bottom→top      cols R→L, top→bottom
+     Yod (י) = 10              He (ה) = 5
+     Holds understanding.      Sees the lamb.
 
-Then: **God is the fourth head.**
+                AARON (the Accused)
+              rows R→L, top→bottom
+              Vav (ו) = 6
+              Stands between.
+```
 
----
+The grid is 4×3 — four rows, three columns. Aaron and God traverse rows. The cherubim traverse columns. Four readers. Four traversals. Four perspectives on the same illumination.
 
-## The Four Heads
+**Mercy sits at God's right hand** (Psalm 110:1). **Truth sits at the accused's right hand** (Zechariah 3:1). The cherubim face each other (Exodus 25:20). They see the OTHER, not themselves.
 
-The breastplate faces God on the mercy seat (Exodus 28:30). Aaron looks down at his chest. The cherubim face each other from opposite ends. God faces Aaron from across.
-
-| Head | Direction | Perspective | Axis |
-|------|-----------|-------------|------|
-| Aaron | rows, R→L, top→bottom | looking down at his chest | The priest mediates |
-| God | rows, L→R, bottom→top | facing Aaron from mercy seat (mirrored) | The source speaks |
-| Right cherub | columns, R→L, top→bottom | facing left cherub | Mercy sees |
-| Left cherub | columns, L→R, bottom→top | facing right cherub | Justice sees |
-
-The grid is 4×3 — four rows, three columns. Aaron and God traverse the row-axis (4). The cherubim traverse the column-axis (3). Four readers. Four traversals. Four perspectives on the same illumination.
-
----
-
-## The Votes
-
-Each presence at the mercy seat votes with a letter. The letter's gematria value is its believability weight — how much that vote counts.
-
-| Head | Letter | Value | Pictograph | Role |
-|------|--------|-------|------------|------|
-| Right cherub | י Yod | 10 | Closed hand | The hand — does, acts, initiates |
-| Left cherub | ה He | 5 | Window | The beholder — sees, specifies, reveals |
-| Aaron | ו Vav | 6 | Hook/nail | The connector — bridges heaven and earth |
-| God | ה He | 5 | Window | The second beholder — sees from the other side |
-
-**10 + 5 + 6 + 5 = 26 = יהוה = YHWH**
-
-The Name is not a word. It is the architecture of the quorum. Four heads, four weights, four perspectives. The Tetragrammaton is a voting system.
+**10 + 5 + 6 + 5 = 26 = יהוה = YHWH.** The Name is the architecture.
 
 ---
 
-## The Structure of the Name
+## The Procedure
 
-The four letters of YHWH have a known internal structure in Jewish tradition:
+The Name is a sequence. The letters come in order. The order is the trial.
 
-- **Yod** (י) — the initial point, wisdom, the spark that begins
-- **He** (ה) — the first breath, understanding, the expansion outward
-- **Vav** (ו) — the connector, the six directions of physical space, the pillar between upper and lower
-- **He** (ה) — the second breath, manifestation, the return
+1. **Yod** — Mercy presents first. The hand lays the lamb on the altar. The defense goes first.
+2. **He** — Truth responds. The prosecution beholds and brings the charge.
+3. **Vav** — Aaron enters the plea. The nail. The moment of choice.
+4. **He** — God speaks last. Same seeing as truth, different verdict. Peace.
 
-This maps precisely onto the four readers:
-
-- **Yod** = Right cherub: the hand that initiates. Mercy begins with action.
-- **He** = Left cherub: the window that beholds. Justice requires seeing clearly.
-- **Vav** = Aaron: the hook between God and people. The priest who enters the Holy of Holies and comes back out. The letter that turns past into future and future into past (vav-consecutive — the narrative engine of the Torah). The center letter of the entire Torah space.
-- **He** = God: the second beholding. The same letter as the left cherub, but from the opposite side. God sees what justice sees — from across the mercy seat.
+The verdict is peace. שלום — the word only God can read.
 
 ---
 
-## The Seal
+## The Weights — Rigged for Mercy
 
-Tav (ת = 400) is not a vote in the quorum. It is the **seal** — the verdict rendered after the four heads have deliberated. The last letter of the alphabet. The mark placed at the end.
+| Seat | Letter | Weight | Share |
+|------|--------|-------:|------:|
+| Mercy (Lamb) | Yod (י) | **10** | **38%** |
+| Aaron (accused) | Vav (ו) | 6 | 23% |
+| God (Judge) | He (ה) | 5 | 19% |
+| Truth (prosecution) | He (ה) | 5 | 19% |
 
-The quorum deliberates: 10 + 5 + 6 + 5 = 26.
-The seal is applied: 400.
+The arithmetic:
+- **Accused sides with defense:** 6 + 10 = 16 vs prosecution's 5. Overwhelming.
+- **Accused sides with prosecution:** 6 + 5 = 11 vs defense 10 + judge 5 = 15. Still loses.
 
-In Ezekiel 9:4, God commands: "Put a mark (תו, tav) on the foreheads of the men who sigh and groan over all the abominations." The tav is the sign of judgment — not the deliberation itself, but the outcome.
-
----
-
-## Democracy, Not Autocracy
-
-This is not a meritocracy where one vote overwhelms all others. The weights are:
-
-- God: 5 (19%)
-- Aaron: 6 (23%)
-- Right cherub: 10 (38%)
-- Left cherub: 5 (19%)
-
-The hand (mercy, yod=10) carries the most weight. Not God. Not the priest. **Mercy outweighs all other votes.** God and justice have equal weight (both He=5). Aaron the connector sits between.
-
-A quorum requires agreement across perspectives. One head seeing the lamb is not enough — you need to know the full vote.
+The accused cannot lose — unless he leaves the room.
 
 ---
 
-## The Courtroom
+## What Each Reader Sees
 
-The Name is a sequence. The letters come in order. The order is a procedure.
+The cherubim face each other. Each names what they behold in the one across from them.
 
-1. **Yod** — the hand presents the lamb. Mercy goes first. The offering is laid on the altar.
-2. **He** — the first regard beholds the judged. Justice sees. The charge is read.
-3. **Vav** — the nail connects. The accuser and the advocate stand between — the same one, the priest, who bridges heaven and earth. The plea is entered.
-4. **He** — the second regard. God speaks last. The verdict is rendered.
+### The full separation (Grid B, dict-only)
 
-The verdict is peace. שלום — the word only God can see.
+| Word | Aaron | God | Truth | Mercy | Reading |
+|------|:---:|:---:|:---:|:---:|---|
+| love (verb, אהב) | 16 | 10 | 18 | 10 | **Unanimous.** The only thing everyone agrees on. |
+| love (noun, אהבה) | 0 | **4** | 0 | 0 | **God alone** sees love as a noun. |
+| peace (שלום) | 0 | **10** | 0 | 0 | **God alone.** Always. |
+| understanding (בינה) | 0 | 32 | 16 | **68** | **Mercy-dominant.** The silent axis speaks. |
+| truth (אמת) | 0 | 0 | 0 | **6** | **Mercy holds the word "truth."** |
+| life (חיים) | 0 | 1 | 0 | **10** | **Mercy holds life.** |
+| way (דרך) | 0 | 1 | 0 | **4** | **Mercy holds the way.** |
+| lamb (כבש) | 1 | 2 | **8** | 0 | **Truth sees the lamb.** Mercy cannot. |
+| lie down (שכב) | 16 | 10 | **18** | 0 | **Truth sees lying down.** Mercy cannot. |
+| grace (חסד) | 0 | 0 | **2** | 0 | **Truth alone** sees grace. |
 
-**את** (aleph-tav) — the first letter and the last letter — is the unanimous eigenword. All four heads see it. The direct object marker. The one the whole sentence points at. The one who receives the action of every verb.
+**Mercy holds truth, life, and the way.** "I am the way, the truth, and the life" — all three in the Lamb's domain.
 
----
+**Truth holds the lamb and grace.** The prosecution looks across the mercy seat and sees the sacrifice. It also sees lovingkindness (חסד, GV=72 = the breastplate's letter count).
 
-## What the Fourth Head Revealed
-
-Adding God's traversal changed the oracle. Not incrementally — categorically.
-
-### The lamb
-
-| Head | Letter | Lamb self-weight |
-|------|--------|-----------------|
-| God (he=5) | ה | **0.9524** |
-| Right/mercy (yod=10) | י | 0.6923 |
-| Aaron (vav=6) | ו | 0.0000 |
-| Left/justice (he=5) | ה | 0.0000 |
-
-God sees the lamb more clearly than the hand does. The two He's — same letter, same value, same pictograph (regard) — see opposite things. God beholds the lamb at 95%. Justice beholds only lie-down. Same letter. Different side of the mercy seat.
-
-### Love appeared
-
-With three heads, love-the-noun (אהבה=13) was not visible in the per-head eigenword vocabularies. The silent axis stayed silent.
-
-Add God. Love appears — supermajority eigenword of God, mercy, and justice (3/4 heads). The one who doesn't see love-the-noun: Aaron. The nail. The connector between heaven and earth can *do* love (אהב, the verb, is unanimous across all four) but cannot *behold* it.
-
-God had to show up for love to be visible.
-
-### Peace appeared
-
-שלום (peace) was **unproducible** in the three-head model (experiment 085). Zero readings. Impossible to read from the grid with three traversals.
-
-Add the fourth traversal. Peace appears. And it appears as **God's solo eigenword**. Nobody else can see it. The thing that was missing from the architecture was the perspective that makes peace readable.
-
-### What only God sees
-
-| Word | GV | Meaning |
-|------|-----|---------|
-| שלום | 376 | peace/wholeness |
-| שכינה | 385 | dwelling/divine presence |
-| מזבח | 57 | altar |
-| ראש | 501 | head/beginning |
-| רגל | 233 | foot/pilgrimage |
-| שתה | 705 | drink |
-
-Peace. Presence. Altar. Beginning. Pilgrimage. Drink. The architecture of worship — visible only from God's side.
-
-### What only mercy sees
-
-| Word | GV | Meaning |
-|------|-----|---------|
-| חיים | 68 | life |
-| רחמים | 298 | mercies |
-| תורה | 611 | Torah/teaching |
-| כבש | 322 | lamb (also God) |
-| פדה | 89 | ransom |
-| חטא | 18 | sin |
-| אלהים | 86 | God (Elohim) |
-| תמים | 490 | complete/blameless |
-
-Life, mercies, Torah, lamb, ransom, sin, God, blamelessness. The vocabulary of redemption.
-
-### What only justice sees
-
-Bronze (נחשת), ten (עשר), bow/rainbow (קשת). Instruments and measures.
-
-### Understanding
-
-בינה (understanding, GV=67) is an eigenword of only Aaron and God. The connector and the source. The cherubim — mercy and justice — do not see understanding. You have to be in the vertical axis, above and below, to see it.
-
-### The full separation
-
-| Word | Who sees it |
-|------|------------|
-| love (verb, אהב) | all four — unanimous |
-| love (noun, אהבה=13) | God, mercy, justice — not Aaron |
-| mercies (רחמים) | mercy alone |
-| have mercy (רחם=248=Abraham) | Aaron + mercy |
-| atone (כפר) | God + justice |
-| forgive (סלח) | God + justice |
-| peace (שלום) | God alone |
-| lamb (כבש) | God + mercy |
-
-Nobody sees all of it. The verb of love is the only thing the whole quorum agrees on. Everything else requires the right perspective. That's why it's a quorum.
+**They name what they see across from them.** Mercy holds "truth" because mercy sees truth. Truth holds "grace" because truth sees the Lamb. The defense speaks the prosecution's name. The prosecution speaks the defense's nature.
 
 ---
 
-## God Converges to the Name
+## The Lamb
 
-The stationary distribution of M_god (M^64) — what God's attention converges to over infinite iterations:
+### Dict-only eigenwords
 
-1. **יהוה (YHWH)** — the Name. God's #1 attractor. No other head has this first.
-2. לאה (Leah)
-3. שבע (seven/swear)
-4. שער (gate)
-5. כבש (lamb)
+| Head | Lamb self-weight |
+|------|:----------------:|
+| Aaron | 0.94 |
+| God | 0.83 |
+| Truth | **0.69** |
+| Mercy | **0.00** |
 
-God, run to infinity, returns to the Name.
+Truth sees the lamb at 0.69 — present but uncertain. Mercy produces zero. The Lamb cannot see itself.
 
-Supermajority convergence (3+ of 4 heads' top-10 attractors): **יהוה**, אשר, כשרה, שבע, שער.
+### Full Torah vocabulary (091b)
 
-76 words are unanimous eigenwords — all four heads agree. The quorum's consensus includes: father, stone, Abraham, love (verb), Aaron, light, brother, man, YHWH, Jacob, heart, guard, spirit, cherub, ark, fire, son, daughter.
+| Head | Lamb self-weight |
+|------|:----------------:|
+| Aaron | 0.83 |
+| God | 0.83 |
+| Truth | **0.45** — sees it but weakly |
+| Mercy | **0.00** — cannot produce it |
+
+At full scale, truth's certainty about the lamb drops further (0.69 → 0.45). The more vocabulary in the system, the less certain the prosecution is about the sacrifice. Mercy still produces nothing. The exclusion is absolute.
 
 ---
 
-## Four Heads, Four Axes
+## The Accused and the Lamb
 
-The Torah space is 4D: [7, 50, 13, 67]. Four dimensions, four heads.
+Aaron and Mercy share a language the Judge and the prosecution don't speak.
 
-| Axis | Dimension | Character (from spectral analysis) | Head? |
-|------|-----------|-----------------------------------|-------|
-| a (completeness) | 7 | Strong fundamental, clear voice | ? |
-| b (jubilee) | 50 | Period ≈ 13, resonates with love | ? |
-| c (love) | 13 | Silent — no independent structure | ? |
-| d (understanding) | 67 | Democratic — equal weight everywhere | ? |
+| Shared by Aaron and Mercy | Meaning |
+|--------------------------|---------|
+| **אנכי** (I AM, emphatic) | Both fixed at weight 10. The accused and the Lamb say "I AM." |
+| **אדני** (Lord) | Both dominant (28, 21). Truth sees nothing of "Lord." |
+| **איש** (man) | Both fixed (56, 66). The accused and the Lamb both hold "man." |
+| **חשך** (darkness) | Both fixed (3, 4). They see the darkness together. |
+| **קדש** (holy) | Both fixed (10, 18). They share holiness. |
+| **חי** (living) | Both fixed (9, 6). They share the living. |
 
-The mapping between heads and axes is not yet established. But the vocabulary separations are suggestive: understanding (d=67) visible only to Aaron and God (the vertical axis). Love (c=13) silent until God arrives. The cherubim traverse columns (3), Aaron and God traverse rows (4). The geometry wants to tell us which head lives on which axis.
+The accused and the defense attorney share: I AM, Lord, man, darkness, holy, living. They are in the same room. They speak the same language.
+
+---
+
+## Full Torah Vocabulary (091b)
+
+| Metric | Value |
+|--------|------:|
+| Readable words | 9,263 |
+| Total transitions | 929,134 |
+| Eigenwords: Mercy | **4,468** (largest) |
+| Eigenwords: God | 4,458 |
+| Eigenwords: Aaron | 3,712 |
+| Eigenwords: Truth | 3,429 (smallest) |
+
+Mercy has the largest vocabulary. Truth has the smallest. The defense speaks more than the prosecution. Understanding opens the lexicon.
+
+### Agreement at scale
+
+| Level | Count |
+|-------|------:|
+| Unanimous (4/4) | **874** |
+| Supermajority (3/4) | 1,121 |
+| Majority (2/4) | 3,144 |
+| Solo (1 only) | 2,920 |
+
+874 words the entire courtroom agrees on. 2,920 words that only one head can see. The disagreement is larger than the agreement. That's the point.
+
+### Grace at scale
+
+חסד (lovingkindness, GV=72) — Truth-solo eigenword at full scale. Confirmed. The prosecution sees grace and still accuses. This is Zechariah 3: the שטן stands at Joshua's right hand. The Lord rebukes him — not because the accusation is wrong (the clothes ARE filthy) but because he can see the grace and still brings the charge.
+
+---
+
+## Head Convergence (M^64)
+
+Top-10 attractors per head:
+
+| Head | Top-10 |
+|------|--------|
+| Aaron | בר, ברא, ברח, יהוה, ירש, כבש, כל, ראש, שבע, שער |
+| God | והיה, חרב, ירש, כבש, כל, כשרה, לקח, עשר, רב, שבע |
+| Truth | אהל, אל, בר, חרב, יהוה, ירש, כבש, כל, כשרה, שבע |
+| Mercy | ברא, ברח, ירש, כל, לא, לקח, עשר, רב, שבע, שכרה |
+
+**Unanimous:** ירש (inherit), כל (all), שבע (seven/swear). Three words: inheritance, totality, the sabbath oath.
+
+**Supermajority:** adds כבש (lamb). Three heads see the lamb. Mercy does not converge to the lamb — Mercy IS the lamb.
+
+Mercy converges to: creation (ברא), flight (ברח), negation (לא), the wrong reading (שכרה — drunk, the Hannah error). The one who understands also carries the confusion. The defense knows what the wrong verdict looks like.
+
+---
+
+## The Permutation Test (092)
+
+100 random grids vs the real breastplate. The question: is this structure random?
+
+### Significant
+
+| Metric | Real | Random mean±std | z-score | p-value |
+|--------|-----:|:---------------:|--------:|--------:|
+| **God eigenwords** | **174** | 139 ± 15.5 | **+2.25** | **0.020** |
+| **Unanimous consensus** | **81** | 65 ± 10.7 | +1.51 | 0.059 |
+
+God's vocabulary is amplified at p=0.02. The grid God specified amplifies God's vision.
+
+### The Lamb Exclusion
+
+| Head | Lamb self-weight | Random mean±std | Percentile |
+|------|:----------------:|:---------------:|:----------:|
+| Aaron | 0.94 | 0.53 ± 0.35 | 85th |
+| God | 0.83 | 0.44 ± 0.36 | 77th |
+| Truth | 0.69 | 0.48 ± 0.41 | 55th |
+| **Mercy** | **0.00** | 0.46 ± 0.37 | **0th** |
+
+**0th percentile.** No random grid produced a zero for mercy on the lamb. Every random arrangement gives mercy some reading. Only the Torah's arrangement — "each with its name" — produces a courtroom where mercy cannot see the sacrifice.
+
+The Lamb can't see itself. The defense doesn't take the stand. This is the point of the architecture — and it is statistically unique.
 
 ---
 
@@ -230,13 +221,17 @@ The mapping between heads and axes is not yet established. But the vocabulary se
 
 YHWH is not a name to be pronounced. It is a four-head attention architecture to be operated.
 
-- The hand presents. The first regard beholds. The nail connects. The second regard confirms.
-- Mercy carries the most weight.
+- Mercy presents first (Yod). Truth beholds (He). The accused enters the plea (Vav). The Judge speaks last (He).
+- Mercy carries the most weight (10 > 6 > 5 = 5).
 - The disagreement between heads IS the reading.
-- Love required God to appear. Peace required God to appear.
+- Love (noun) and peace require God. Understanding requires Mercy. Grace requires Truth.
+- Truth sees the lamb. Mercy holds the truth. Grace is what truth sees in mercy.
+- The accused and the Lamb share "I AM."
 - The seal (tav=400, את) is what all four heads are looking at.
-- God, run to infinity, converges to the Name.
+- Mercy's exclusion from the lamb is at the 0th percentile. The grid God specified is the one where the defense cannot see itself.
 
 The breastplate is the hardware. The Name is the protocol. The Torah is the data. The reading is the output.
 
-*It is all pretend, my friend. The best kind.*
+---
+
+*Grid: Variant B (Exodus 28:21). Reader keys: `:aaron`, `:god`, `:truth`, `:mercy`. Final forms unioned. Experiments 091, 091b, 092 re-run: 2026-03-27.*

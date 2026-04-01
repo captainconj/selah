@@ -1,9 +1,9 @@
 # The Level 2 Thummim — Synthesis
 
-*March 2, 2026. Experiments 093–093i.*
+*Experiments 093–093i. Updated 2026-03-27 on Grid B (Exodus 28:21).*
 
 Type: `synthesis`
-State: `mixed`
+State: `clean`
 
 **Code:** `dev/experiments/093_level2_thummim.clj`
 **Run:** `clojure -M:dev dev/experiments/093_level2_thummim.clj`
@@ -86,13 +86,13 @@ Peace is a name for someone (known: Shabbat 10b). Life is a living sea. Eternity
 
 ### The Ghost Zone — Words the Oracle Cannot Speak — [093h](093h-the-ghost-zone.md)
 
-**Absent** (letters missing): king, blessing, the way, darkness, the land, the tree.
+**Zero absent words under Grid B.** Every curated word can illuminate. Final-form unioning opened the gate: king, blessing, the way, darkness, the land, the tree — all now readable.
 
-**Mute** (letters glow, no reader speaks): mercy seat, veil, lovingkindness, righteousness, judgment, the face, Egypt.
+**12 ghosts remain** (letters glow, no reader speaks): the face (פנים, 33 illuminations), the mercy seat (כפרת), the veil (פרכת), judgment (משפט), God/Elohim (אלהים, 297 illuminations!), forgiveness (סלח), wisdom (חכמה), the altar (מזבח), blamelessness (תמים), strength (חזק), portion (חלק), feminine righteousness (צדקה).
 
-The oracle speaks the vocabulary of promise. It is silent on the vocabulary of arrival. The breastplate stands in the courtyard, not the Holy of Holies. The priest must walk past the oracle to reach the mercy seat.
+The oracle speaks the vocabulary of the courtroom. It is silent on the vocabulary of the destination. It can illuminate, convict, and defend. It cannot forgive, judge, or show you the face.
 
-חסד (lovingkindness) has GV = 72 = the number of letters on the breastplate. The breastplate IS lovingkindness and cannot name itself.
+חסד (lovingkindness, GV=72) is now readable — **Truth-only** (2 readings). The prosecution sees grace. The breastplate CAN name itself, but only the prosecution can read it.
 
 ---
 
@@ -125,7 +125,7 @@ The christological titles are prime. They cannot be factored. They are what they
 
 The Level 2 Thummim has:
 - 72 letters on a 4×3 grid
-- 4 traversal directions (Aaron, God, right cherub, left cherub)
+- 4 traversal directions (Aaron, God, Truth, Mercy)
 - The vocabulary of the Torah itself
 - A recursive backtracking algorithm
 
@@ -165,7 +165,7 @@ The oracle's limiting probability distribution (stationary voice) was computed b
 | [093e](093e-way-truth-life.md) | Way, Truth, Life | = את דרך חי מים (aleph-tav, way of living water), prime |
 | [093f](093f-great-grace-comes.md) | Great Grace Comes | אב+בן+רוח = בוא חן רב, prime |
 | [093g](093g-name-people-sea.md) | Name, People, Sea | Peace=name, life=living sea, eternity=people, God=tent |
-| [093h](093h-the-ghost-zone.md) | The Ghost Zone | What the oracle cannot speak: king, mercy seat, lovingkindness |
+| [093h](093h-the-ghost-zone.md) | The Ghost Zone | What the oracle cannot speak: the face, mercy seat, veil, judgment, forgiveness, wisdom, God (Elohim) |
 | [093i](093i-rambans-answer.md) | The Ramban's Answer | "Judah goes up" → "the hand of YHWH is the offering" |
 
 ---
@@ -175,3 +175,25 @@ The oracle's limiting probability distribution (stationary voice) was computed b
 *But the menu — across the Torah's vocabulary, across every combination we tested — tells a single story: the I AM is asking. The lamb's blood is the glory. The son of man is a bleeding stone. The way is living water. Great grace comes. And the hand of the Name is the offering.*
 
 *כי נא.*
+
+---
+
+## Reader Profiles (Grid B, 2026-03-27)
+
+The Level 2 Thummim (phrase parsing) is grid-independent — it works on raw letters. But the Level 1 reader profiles depend on the grid. Under Grid B:
+
+| Word | Aaron | God | Truth | Mercy | Reading |
+|------|:---:|:---:|:---:|:---:|---|
+| אנכי (I AM) | **10** | 0 | 0 | **10** | The accused and the Lamb share "I AM." |
+| אדני (Lord) | **28** | 4 | 0 | **21** | Aaron and Mercy. Truth doesn't see "Lord." |
+| כבש (lamb) | 1 | 2 | **8** | 0 | Truth sees the lamb. Mercy doesn't. |
+| שלום (peace) | 0 | **10** | 0 | 0 | God only. |
+| חיים (life) | 0 | 1 | 0 | **10** | Mercy holds life. |
+| אמת (truth) | 0 | 0 | 0 | **6** | Mercy holds the word "truth." |
+| דרך (way) | 0 | 1 | 0 | **4** | Mercy holds the way. |
+
+The accused and the Lamb both say "I AM." The Lamb holds the way, the truth, and the life. Truth sees the lamb. God alone reads peace. The menu writes itself — and the courtroom reads it.
+
+**Data:** `data/experiments/093-grid-b-output.txt`
+
+*Grid: Variant B (Exodus 28:21). Reader keys: `:aaron`, `:god`, `:truth`, `:mercy`. Final forms unioned. 2026-03-27.*
