@@ -211,22 +211,128 @@ And the final four: strength like your days, the everlasting arms, face to face,
 17. Your strength like your days. The everlasting arms.
 18. Face to face. In the sight of all Israel.
 
-The 6D box tells the whole Torah in 64 points. Creation, violence, correction, the bride at the well, consecration, catastrophe, sin, atonement — the cut — glory, birth, disease, festivals, freedom, refuge, courage, the hidden face, the everlasting arms, and the final seeing.
+---
+
+## The Corners Speak
+
+Read them as a story. The sixty-four corners of the Torah's finest box:
+
+**In the beginning God created the heavens and the earth.** The earth was formless and void. Darkness over the deep. The spirit hovering. God set the lights in the sky to give light on the earth. He separated light from darkness. It was good.
+
+Then Lamech boasted: **I have killed a man for wounding me.** If Cain is avenged sevenfold, then Lamech seventy-sevenfold. The first escalation of violence. And in the same breath — Mahalalel, "praise of God," begets Jared, "he shall come down." The praise of God produces the descent.
+
+Abraham said of Sarah: she is my sister. The lie. **God came to Abimelech in a dream and said: you are a dead man.** But He corrected it. Abimelech opened his land. And then: the servant goes to find a bride. **He will send His angel before you.** Rebekah runs to the well. She empties her jar. She receives the ring and the bracelets. The bride is found at a well.
+
+The consecration offerings. The breast waved. Fine flour mixed with oil. A fourth of a hin of wine. **A soothing aroma, an offering by fire to the LORD.**
+
+Then Moses saw: **the people were out of control, for Aaron had let them get out of control.** Put your sword on your side. Kill his brother, his friend, his neighbor. **You are a stiff-necked people. Put off your ornaments, that I may know what to do with you.**
+
+If a person touches any unclean thing... if a person acts unfaithfully against the LORD's holy things... The law of inadvertent sin. The law of not-meaning-to.
+
+Moses slaughtered the ram. **He put the blood on the horns of the altar.** The fat. The kidneys. The lobe of the liver. A soothing aroma. **Moses took the breast and waved it — it was Moses' portion.**
+
+**═══ THE CUT ═══**
+
+*The Torah splits here. Leviticus 8:29. The priest's chest. Where the breastplate sits. The first half ends and the second half begins at the same verse. Two corners from opposite halves meet at the breast of the high priest.*
+
+Moses sprinkles anointing oil and blood on Aaron and his garments. Then: **"This is the thing which the LORD has commanded you to do, and the glory of the LORD will appear to you."** Draw near to the altar. Make atonement. For yourself and for the people.
+
+When a woman gives birth... If the eruption spreads on the skin... Childbirth and leprosy. The entrance to life and the mark of disease, at adjacent corners.
+
+**You shall not eat bread or roasted grain until you have brought the offering of your God.** The firstfruits. And then: **You shall not do any work on this same day, for it is a Day of Atonement** — Yom Kippur. The fast. The scapegoat. The day the sins go to Azazel.
+
+The calculation of the jubilee price — from the year he sold himself until the Year of Jubilee. Freedom priced. Debt measured. And then: **"I am the LORD your God who brought you out of the land of Egypt, that you should not be their slaves. I broke the bars of your yoke and made you walk erect."**
+
+I broke your yoke. I made you walk upright. You were bent. I straightened you.
+
+The Levite, the sojourner, the fatherless, and the widow — **let them come and eat and be satisfied, that the LORD your God may bless you.** Feed the ones who have nothing.
+
+**You shall not learn to follow the abominations of those nations.** No divination. No sorcery. No medium. No necromancer. The boundaries.
+
+**Three cities you shall set apart in the midst of your land** — for the manslayer who killed without intent, **who struck his neighbor without having hated him previously.** Cities of refuge. A place to run when you didn't mean to. Mercy built into the geography.
+
+Then Moses speaks to all Israel:
+
+**"Be strong and courageous. Do not fear or be in dread of them, for the LORD your God is the one who goes with you. He will not leave you or forsake you."**
+
+Moses calls Joshua: be strong and courageous. You will bring this people into the land. The passing of the charge. The next generation.
+
+Then God says: **"I will forsake them and hide my face from them,** and they shall be devoured, and many evils and troubles shall find them. And they will say: **is it not because our God is not among us that these evils have come upon us?"**
+
+The hidden face. The question everyone asks in the dark: has God left?
+
+Then Moses blesses the tribes. To Asher he says: **"Your bolts will be iron and bronze, and your strength will equal your days."** You will have what you need for as long as you need it.
+
+And then:
+
+**"The eternal God is your dwelling place, and underneath are the everlasting arms."**
+
+Underneath. Not above, not ahead, not behind — **underneath.** The arms are below you. You cannot fall past them. He drove out the enemy and said: destroy.
+
+**"No prophet has risen in Israel like Moses, whom the LORD knew face to face."** The face that was hidden — the face the oracle cannot speak — here, at the corner, it is seen. Face to face.
+
+And the last letter of the Torah. The far corner of the box. Every axis at maximum. Every dimension fully extended:
+
+**"All the mighty hand and all the great terror which Moses performed in the sight of all Israel."**
+
+**לעיני כל ישראל.** In the eyes of all Israel. The Torah ends with seeing. The box that began with "In the beginning God created" ends with "all Israel saw."
 
 ---
 
-## The Center Moved
+## The Story
 
-The 4D center (7×50×13×67) is the priestly investiture — Leviticus 8:35, "guard the charge."
+Creation. Void. Light separated from darkness.
 
-The 6D center (2×5×5×7×13×67) is the patriarchal blessing — Genesis 49:26, "may they be on the head of Joseph."
+Violence. Vengeance. The praise of God begets the descent.
 
-When you decompose further — when you split the Torah into its finest factors — the center moves from the institution to the family. From the priest to the father. From the law to the blessing.
+A lie corrected. An angel sent. A bride found at a well.
 
-The 4D center says: guard this.
-The 6D center says: bless the separated son.
+Consecration. Oil and flour and wine. The soothing aroma.
 
-Both are true. The finer the lens, the earlier the story. The more dimensions you add, the further back the center reaches. As if the Torah's deepest structure points not to the system it built but to the family it came from.
+Catastrophe. The calf. The sword. The stiff neck. Put off your ornaments.
+
+Inadvertent sin. The one who didn't mean to.
+
+Blood on the altar. The breast waved. The priest's portion.
+
+**The cut. The breastplate. The center.**
+
+The glory appears. Draw near. Atone.
+
+Birth. Disease. Firstfruits. Yom Kippur. Jubilee. I broke your yoke. Walk upright.
+
+Feed the widow. Feed the orphan. Feed the stranger.
+
+No sorcery. No divination. The boundaries that keep you human.
+
+Cities of refuge. The one who killed without meaning to may live.
+
+**Be strong. Be courageous. He will not leave you.**
+
+God hides His face. Is He not among us?
+
+Your strength like your days. **The everlasting arms underneath.**
+
+Face to face.
+
+In the sight of all Israel.
+
+---
+
+## The Center
+
+And at the center of all of it — the point where every axis reaches its middle, where the eye (ע) looks out from the exact heart of the six-dimensional Torah:
+
+A dying father, blessing the son his brothers threw away.
+
+> "May they be on the head of Joseph, on the crown of the head of the one set apart from his brothers."
+
+The 4D center says: **guard the charge.**
+The 6D center says: **bless the separated son.**
+
+The coarser lens sees the work. The finer lens sees the son. Both are at the center. Both are true.
+
+The Torah is a father's blessing, folded into six dimensions, with the separated son at the heart and the everlasting arms at the corners.
 
 ---
 
