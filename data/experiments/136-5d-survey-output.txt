@@ -1,0 +1,128 @@
+=== Experiment 136 (5D): Decomposition Survey ===
+11 non-trivial 5D decompositions
+
+── Centers ──
+  2 × 5 × 5 × 7 × 871           center=[1 2 2 3 435]         pos=228637   sum=890   Numbers 23:22
+  2 × 5 × 5 × 13 × 469          center=[1 2 2 6 234]         pos=228637   sum=494   Numbers 23:22
+  2 × 5 × 5 × 67 × 91           center=[1 2 2 33 45]         pos=228637   sum=170   Numbers 23:22
+  2 × 5 × 7 × 13 × 335          center=[1 2 3 6 167]         pos=228637   sum=362   Numbers 23:22
+  2 × 5 × 7 × 65 × 67           center=[1 2 3 32 33]         pos=228637   sum=146   Numbers 23:22
+  2 × 5 × 13 × 35 × 67          center=[1 2 6 17 33]         pos=228637   sum=122   Numbers 23:22
+  2 × 7 × 13 × 25 × 67          center=[1 3 6 12 33]         pos=228637   sum=114   Numbers 23:22
+  5 × 5 × 7 × 13 × 134          center=[2 2 3 6 67]          pos=152425   sum=164   Leviticus 8:29
+  5 × 5 × 7 × 26 × 67           center=[2 2 3 13 33]         pos=152458   sum=110   Leviticus 8:29
+  5 × 5 × 13 × 14 × 67          center=[2 2 6 7 33]          pos=152458   sum=104   Leviticus 8:29
+  5 × 7 × 10 × 13 × 67          center=[2 3 5 6 33]          pos=152860   sum=102   Leviticus 8:35
+
+── Walk Smoothness (ranked) ──
+  5 × 5 × 7 × 13 × 134          mean=1.0      max=1      median=1     step1=100.0%
+  5 × 5 × 7 × 26 × 67           mean=2.0      max=67     median=1     step1=98.5%
+  5 × 5 × 13 × 14 × 67          mean=2.0      max=67     median=1     step1=98.5%
+  2 × 5 × 7 × 13 × 335          mean=2.0      max=357    median=1     step1=99.7%
+  5 × 7 × 10 × 13 × 67          mean=2.0      max=79     median=1     step1=98.5%
+  2 × 5 × 7 × 65 × 67           mean=2.0      max=141    median=1     step1=98.5%
+  2 × 5 × 13 × 35 × 67          mean=2.0      max=117    median=1     step1=98.5%
+  2 × 7 × 13 × 25 × 67          mean=2.0      max=109    median=1     step1=98.5%
+  2 × 5 × 5 × 67 × 91           mean=2.0      max=165    median=1     step1=98.9%
+  2 × 5 × 5 × 13 × 469          mean=2.0      max=489    median=1     step1=99.8%
+  2 × 5 × 5 × 7 × 871           mean=2.0      max=885    median=1     step1=99.9%
+
+── Fold Coordinates ──
+  2 × 5 × 5 × 7 × 871           fold=[1 0 0 0 0]
+  2 × 5 × 5 × 13 × 469          fold=[1 0 0 0 0]
+  2 × 5 × 5 × 67 × 91           fold=[1 0 0 0 0]
+  2 × 5 × 7 × 13 × 335          fold=[1 0 0 0 0]
+  2 × 5 × 7 × 65 × 67           fold=[1 0 0 0 0]
+  2 × 5 × 13 × 35 × 67          fold=[1 0 0 0 0]
+  2 × 7 × 13 × 25 × 67          fold=[1 0 0 0 0]
+  5 × 5 × 7 × 13 × 134          fold=[2 2 3 6 67]
+  5 × 5 × 7 × 26 × 67           fold=[2 2 3 13 0]
+  5 × 5 × 13 × 14 × 67          fold=[2 2 6 7 0]
+  5 × 7 × 10 × 13 × 67          fold=[2 3 5 0 0]
+
+── Aleph-Tav Fold Pairs ──
+  5 × 5 × 7 × 13 × 134          6032 ats  shares=["26.2%" "20.7%" "14.6%" "7.6%" "0.0%"]
+  5 × 5 × 7 × 26 × 67           6032 ats  shares=["26.2%" "20.7%" "14.6%" "0.0%" "1.7%"]
+  5 × 5 × 13 × 14 × 67          6032 ats  shares=["26.2%" "20.7%" "7.6%" "0.0%" "1.7%"]
+  5 × 7 × 10 × 13 × 67          6032 ats  shares=["26.2%" "15.4%" "0.0%" "7.6%" "1.7%"]
+  2 × 5 × 5 × 7 × 871           6032 ats  shares=["0.0%" "17.8%" "21.1%" "13.3%" "0.2%"]
+  2 × 5 × 5 × 13 × 469          6032 ats  shares=["0.0%" "17.8%" "21.1%" "6.8%" "0.3%"]
+  2 × 5 × 5 × 67 × 91           6032 ats  shares=["0.0%" "17.8%" "21.1%" "1.1%" "1.0%"]
+  2 × 5 × 7 × 13 × 335          6032 ats  shares=["0.0%" "17.8%" "15.3%" "7.2%" "0.4%"]
+  2 × 5 × 7 × 65 × 67           6032 ats  shares=["0.0%" "17.8%" "15.3%" "1.5%" "1.7%"]
+  2 × 5 × 13 × 35 × 67          6032 ats  shares=["0.0%" "17.8%" "8.0%" "2.6%" "1.7%"]
+  2 × 7 × 13 × 25 × 67          6032 ats  shares=["0.0%" "12.4%" "7.0%" "3.9%" "1.7%"]
+
+── ELS Hits ──
+  2 × 5 × 5 × 7 × 871:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=871     torah=20   yhwh=44 
+    skip=6097    torah=14   yhwh=40 
+  2 × 5 × 5 × 13 × 469:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=13      torah=17   yhwh=53 
+    skip=469     torah=17   yhwh=61 
+    skip=6097    torah=14   yhwh=40 
+  2 × 5 × 5 × 67 × 91:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=67      torah=14   yhwh=60 
+    skip=91      torah=21   yhwh=50 
+    skip=6097    torah=14   yhwh=40 
+  2 × 5 × 7 × 13 × 335:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=13      torah=17   yhwh=53 
+    skip=335     torah=24   yhwh=35 
+    skip=4355    torah=14   yhwh=61 
+  2 × 5 × 7 × 65 × 67:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=65      torah=19   yhwh=51 
+    skip=67      torah=14   yhwh=60 
+    skip=4355    torah=14   yhwh=61 
+  2 × 5 × 13 × 35 × 67:
+    skip=2       torah=46   yhwh=20 
+    skip=5       torah=18   yhwh=52 
+    skip=13      torah=17   yhwh=53 
+    skip=35      torah=11   yhwh=50 
+    skip=67      torah=14   yhwh=60 
+    skip=2345    torah=19   yhwh=56 
+  2 × 7 × 13 × 25 × 67:
+    skip=2       torah=46   yhwh=20 
+    skip=7       torah=20   yhwh=51 
+    skip=13      torah=17   yhwh=53 
+    skip=25      torah=21   yhwh=52 
+    skip=67      torah=14   yhwh=60 
+    skip=1675    torah=18   yhwh=41 
+  5 × 5 × 7 × 13 × 134:
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=13      torah=17   yhwh=53 
+    skip=134     torah=27   yhwh=56 
+    skip=1742    torah=15   yhwh=52 
+  5 × 5 × 7 × 26 × 67:
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=26      torah=22   yhwh=43 
+    skip=67      torah=14   yhwh=60 
+    skip=1742    torah=15   yhwh=52 
+  5 × 5 × 13 × 14 × 67:
+    skip=5       torah=18   yhwh=52 
+    skip=13      torah=17   yhwh=53 
+    skip=14      torah=21   yhwh=50 
+    skip=67      torah=14   yhwh=60 
+    skip=938     torah=22   yhwh=54 
+  5 × 7 × 10 × 13 × 67:
+    skip=5       torah=18   yhwh=52 
+    skip=7       torah=20   yhwh=51 
+    skip=10      torah=16   yhwh=50 
+    skip=13      torah=17   yhwh=53 
+    skip=67      torah=14   yhwh=60 
+    skip=871     torah=20   yhwh=44 
+    skip=8710    torah=23   yhwh=65 

@@ -1,0 +1,43 @@
+=== Experiment 135b: Decomposition Properties ===
+
+── Euler's totient ──
+phi(304,850) = 95040
+12!/7!       = 95040
+|M_12|       = 95040
+Match: true
+  -> Mathieu group M_12 acts on 12 points.
+  -> Breastplate has 12 stones.
+
+── Silent axis diagonal ──
+13^2 + 67^2 = 4658
+2 x 17 x 137 = 4658
+Match: true
+  -> The silent axes encode 137 in their diagonal.
+
+── Graph diameter ──
+(7-1)+(50-1)+(13-1)+(67-1) = 133
+137 - 4 = 133
+7 x 19 = 133
+  -> Fine structure constant minus dimensionality.
+
+── Mobius function ──
+mu(304,850) = 0  (5^2 divides N)
+  -> The breath is the only repeated prime.
+
+── Nearby number uniqueness ──
+Numbers in [304,840..304,860] with 4-tuple sum = 137:
+  304850: [[7 13 50 67]]
+
+── Gematria of composite axes ──
+  GV=130 (witness x He x love): 37 Torah words  [המכסה, נודע, יעמדו, עמך, ימינך...]
+  GV=134 (witness x understanding): 17 Torah words  [מצד, והנגע, בהוציאך, הפליט, וגמליהם...]
+  GV=175 (He x He x completeness): 17 Torah words  [להניף, הענן, ויפגעו, למינהם, ויקטן...]
+  GV=182 (witness x completeness x love): 13 Torah words  [בעינים, במעלם, לבנימן, עקבי, במקלי...]
+  GV=335 (He x understanding): 9 Torah words  [הערני, ואחשך, היקרך, הפרים, לשה...]
+  GV=455 (He x completeness x love): 21 Torah words  [ויתאבלו, המית, המחבת, הלכת, היתם...]
+  GV=469 (completeness x understanding): 16 Torah words  [נטית, אבותכם, ותבונה, והאזנת, באניות...]
+  GV=650 (witness x He x He x love): 14 Torah words  [שלישי, נרת, תמרדו, תרים, לשעירם...]
+  GV=670 (witness x He x understanding): 11 Torah words  [לתמר, תער, תקצף, שלשם, תרע...]
+  GV=871 (love x understanding): 0 Torah words
+  GV=938 (witness x completeness x understanding): 0 Torah words
+  GV=1675 (He x He x understanding): 0 Torah words

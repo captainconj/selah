@@ -1,0 +1,1374 @@
+=== Experiment 137c: All 120 Axis Orderings ===
+Base axes: [5 7 10 13 67]
+Cube axes are always the three >= 10: {10, 13, 67}
+Pinning axes are always {5, 7}
+
+── 5 × 7 × 10 × 13 × 67 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:35
+  Lev 8:35? true
+  YHWH in Ark: 1
+  Ark GV: 2603
+  Between text: תויהשמםאש
+  Oracle: איש מות משה, איש משה מות, מות איש משה, מות משה איש, משה איש מות, משה מות איש
+
+── 5 × 7 × 10 × 67 × 13 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:35
+  Lev 8:35? true
+  YHWH in Ark: 1
+  Ark GV: 3251
+  Between text: וויכןצוממ
+
+── 5 × 7 × 13 × 10 × 67 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 3306
+  Between text: תהכרןעההד
+
+── 5 × 7 × 13 × 67 × 10 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 2415
+  Between text: אשהותנלול
+  Oracle: לו לו נא שתה, לו לו שתה נא, לו נא לו שתה, לו נא שתה לו, לו שתה לו נא, לו שתה נא לו, נא לו לו שתה, נא לו שתה לו, נא שתה לו לו, שתה לו לו נא, שתה לו נא לו, שתה נא לו לו
+
+── 5 × 7 × 67 × 10 × 13 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2307
+  Between text: כלעייהאתב
+  Oracle: בת היא כי על, בת היא על כי, בת כי היא על, בת כי על היא, בת על היא כי, בת על כי היא, היא בת כי על, היא בת על כי, היא כי בת על, היא כי על בת, היא על בת כי, היא על כי בת, כי בת היא על, כי בת על היא, כי היא בת על, כי היא על בת, כי על בת היא, כי על היא בת, על בת היא כי, על בת כי היא, על היא בת כי, על היא כי בת, על כי בת היא, על כי היא בת
+
+── 5 × 7 × 67 × 13 × 10 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 2, 1 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2517
+  Between text: יןוותנןאת
+
+── 5 × 10 × 7 × 13 × 67 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2160
+  Between text: האםתאכבוא
+
+── 5 × 10 × 7 × 67 × 13 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2725
+  Between text: רבהארץעלפ
+
+── 5 × 10 × 13 × 7 × 67 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3393
+  Between text: ראשתםתשםו
+
+── 5 × 10 × 13 × 67 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4142
+  Between text: שאכוםלןםה
+
+── 5 × 10 × 67 × 7 × 13 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3393
+  Between text: זבחרסהבעת
+
+── 5 × 10 × 67 × 13 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 11:2
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4436
+  Between text: קבחרסללעה
+  Oracle: בקר סלח עלה, בקר עלה סלח, סלח בקר עלה, סלח עלה בקר, עלה בקר סלח, עלה סלח בקר
+
+── 5 × 13 × 7 × 10 × 67 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2840
+  Between text: שהלרןערץש
+
+── 5 × 13 × 7 × 67 × 10 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3294
+  Between text: האיותנבלת
+
+── 5 × 13 × 10 × 7 × 67 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2710
+  Between text: ידבליכמיט
+
+── 5 × 13 × 10 × 67 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3443
+  Between text: םדאהיובין
+
+── 5 × 13 × 67 × 7 × 10 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2852
+  Between text: תמכמןהבגד
+
+── 5 × 13 × 67 × 10 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2526
+  Between text: לאלהשדכוה
+
+── 5 × 67 × 7 × 10 × 13 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3125
+  Between text: ןעלייהלוו
+
+── 5 × 67 × 7 × 13 × 10 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3483
+  Between text: האתותנלהח
+
+── 5 × 67 × 10 × 7 × 13 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2505
+  Between text: לבהתאהבחה
+
+── 5 × 67 × 10 × 13 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2598
+  Between text: יברואגטחו
+  Oracle: או גר חי טוב, או גר טוב חי, או חי גר טוב, או חי טוב גר, או טוב גר חי, או טוב חי גר, גר או חי טוב, גר או טוב חי, גר חי או טוב, גר חי טוב או, גר טוב או חי, גר טוב חי או, חי או גר טוב, חי או טוב גר, חי גר או טוב, חי גר טוב או, חי טוב או גר, חי טוב גר או, טוב או גר חי, טוב או חי גר, טוב גר או חי, טוב גר חי או, טוב חי או גר, טוב חי גר או
+
+── 5 × 67 × 13 × 7 × 10 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2651
+  Between text: מזבמןהבחו
+
+── 5 × 67 × 13 × 10 × 7 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3041
+  Between text: וולהשדהתא
+
+── 7 × 5 × 10 × 13 × 67 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:35
+  Lev 8:35? true
+  YHWH in Ark: 1
+  Ark GV: 2603
+  Between text: תויהשמםאש
+  Oracle: איש מות משה, איש משה מות, מות איש משה, מות משה איש, משה איש מות, משה מות איש
+
+── 7 × 5 × 10 × 67 × 13 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:35
+  Lev 8:35? true
+  YHWH in Ark: 1
+  Ark GV: 3251
+  Between text: וויכןצוממ
+
+── 7 × 5 × 13 × 10 × 67 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 3306
+  Between text: תהכרןעההד
+
+── 7 × 5 × 13 × 67 × 10 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 2415
+  Between text: אשהותנלול
+  Oracle: לו לו נא שתה, לו לו שתה נא, לו נא לו שתה, לו נא שתה לו, לו שתה לו נא, לו שתה נא לו, נא לו לו שתה, נא לו שתה לו, נא שתה לו לו, שתה לו לו נא, שתה לו נא לו, שתה נא לו לו
+
+── 7 × 5 × 67 × 10 × 13 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2307
+  Between text: כלעייהאתב
+  Oracle: בת היא כי על, בת היא על כי, בת כי היא על, בת כי על היא, בת על היא כי, בת על כי היא, היא בת כי על, היא בת על כי, היא כי בת על, היא כי על בת, היא על בת כי, היא על כי בת, כי בת היא על, כי בת על היא, כי היא בת על, כי היא על בת, כי על בת היא, כי על היא בת, על בת היא כי, על בת כי היא, על היא בת כי, על היא כי בת, על כי בת היא, על כי היא בת
+
+── 7 × 5 × 67 × 13 × 10 ──
+  Cube axes (indices): (2 3 4)
+  Pin axes: {0 3, 1 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2517
+  Between text: יןוותנןאת
+
+── 7 × 10 × 5 × 13 × 67 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 3067
+  Between text: יהובבארהה
+  Oracle: אהב בר והיה, אהב בר יהוה, אהב והיה בר, אהב והיה רב, אהב יהוה בר, אהב יהוה רב, אהב רב והיה, אהב רב יהוה, בר אהב והיה, בר אהב יהוה, בר והיה אהב, בר יהוה אהב, והיה אהב בר, והיה אהב רב, והיה בר אהב, והיה רב אהב, יהוה אהב בר, יהוה אהב רב, יהוה בר אהב, יהוה רב אהב, רב אהב והיה, רב אהב יהוה, רב והיה אהב, רב יהוה אהב
+
+── 7 × 10 × 5 × 67 × 13 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4017
+  Between text: יהוויעובה
+
+── 7 × 10 × 13 × 5 × 67 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3314
+  Between text: יהםזההאהע
+
+── 7 × 10 × 13 × 67 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3289
+  Between text: יהןוהפתהן
+
+── 7 × 10 × 67 × 5 × 13 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3529
+  Between text: וליתךבשער
+  Oracle: בת כי לו עשר, בת כי לו שער, בת כי על שור, בת כי עשר לו, בת כי שור על, בת כי שער לו, בת לו כי עשר, בת לו כי שער, בת לו עשר כי, בת לו שער כי, בת על כי שור, בת על שור כי, בת עשר כי לו, בת עשר לו כי, בת שור כי על, בת שור על כי, בת שער כי לו, בת שער לו כי, כי בת לו עשר, כי בת לו שער, כי בת על שור, כי בת עשר לו, כי בת שור על, כי בת שער לו, כי לו בת עשר, כי לו בת שער, כי לו עשר בת, כי לו רע שבת, כי לו שבת רע, כי לו שער בת, כי על בת שור, כי על שור בת, כי עשר בת לו, כי עשר לו בת, כי רע לו שבת, כי רע שבת לו, כי שבת לו רע, כי שבת רע לו, כי שור בת על, כי שור על בת, כי שער בת לו, כי שער לו בת, לו בת כי עשר, לו בת כי שער, לו בת עשר כי, לו בת שער כי, לו כי בת עשר, לו כי בת שער, לו כי עשר בת, לו כי רע שבת, לו כי שבת רע, לו כי שער בת, לו עשר בת כי, לו עשר כי בת, לו רע כי שבת, לו רע שבת כי, לו שבת כי רע, לו שבת רע כי, לו שער בת כי, לו שער כי בת, על בת כי שור, על בת שור כי, על כי בת שור, על כי שור בת, על שור בת כי, על שור כי בת, עשר בת כי לו, עשר בת לו כי, עשר כי בת לו, עשר כי לו בת, עשר לו בת כי, עשר לו כי בת, רע כי לו שבת, רע כי שבת לו, רע לו כי שבת, רע לו שבת כי, רע שבת כי לו, רע שבת לו כי, שבת כי לו רע, שבת כי רע לו, שבת לו כי רע, שבת לו רע כי, שבת רע כי לו, שבת רע לו כי, שור בת כי על, שור בת על כי, שור כי בת על, שור כי על בת, שור על בת כי, שור על כי בת, שער בת כי לו, שער בת לו כי, שער כי בת לו, שער כי לו בת, שער לו בת כי, שער לו כי בת
+
+── 7 × 10 × 67 × 13 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 10:7
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4017
+  Between text: שלינךםעעך
+
+── 7 × 13 × 5 × 10 × 67 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1734
+  Between text: האשרןעיםמ
+
+── 7 × 13 × 5 × 67 × 10 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3459
+  Between text: סהאותנהתא
+
+── 7 × 13 × 10 × 5 × 67 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 8:30
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3537
+  Between text: אחדהשמאתא
+  Oracle: אחד אמת אשה, אחד אשה אמת, אמת אחד אשה, אמת אשה אחד, אשה אחד אמת, אשה אמת אחד
+
+── 7 × 13 × 10 × 67 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 8:30
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3326
+  Between text: מחקבשקהתה
+
+── 7 × 13 × 67 × 5 × 10 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2437
+  Between text: כסלוהימים
+
+── 7 × 13 × 67 × 10 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3498
+  Between text: ליהרהמבוי
+
+── 7 × 67 × 5 × 10 × 13 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1992
+  Between text: בחסייהייה
+
+── 7 × 67 × 5 × 13 × 10 ──
+  Cube axes (indices): (1 3 4)
+  Pin axes: {0 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3186
+  Between text: תהדותניםל
+
+── 7 × 67 × 10 × 5 × 13 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2447
+  Between text: טרמלאהויע
+  Oracle: או לי מטה רע, או לי רע מטה, או מטה לי רע, או מטה רע לי, או רע לי מטה, או רע מטה לי, לי או מטה רע, לי או רע מטה, לי מטה או רע, לי מטה רע או, לי רע או מטה, לי רע מטה או, מטה או לי רע, מטה או רע לי, מטה לי או רע, מטה לי רע או, מטה רע או לי, מטה רע לי או, רע או לי מטה, רע או מטה לי, רע לי או מטה, רע לי מטה או, רע מטה או לי, רע מטה לי או
+
+── 7 × 67 × 10 × 13 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2504
+  Between text: םרתואלהיל
+  Oracle: אל הר לי מות, אל הר מות לי, אל לי הר מות, אל לי מות הר, אל מות הר לי, אל מות לי הר, אמת הר לו לי, אמת הר לי לו, אמת לו הר לי, אמת לו לי הר, אמת לי הר לו, אמת לי לו הר, הר אל לי מות, הר אל מות לי, הר אמת לו לי, הר אמת לי לו, הר לא לי מות, הר לא מות לי, הר לו אמת לי, הר לו לי אמת, הר לי אל מות, הר לי אמת לו, הר לי לא מות, הר לי לו אמת, הר לי מות אל, הר לי מות לא, הר מות אל לי, הר מות לא לי, הר מות לי אל, הר מות לי לא, לא הר לי מות, לא הר מות לי, לא לי הר מות, לא לי מות הר, לא מות הר לי, לא מות לי הר, לו אמת הר לי, לו אמת לי הר, לו הר אמת לי, לו הר לי אמת, לו לי אמת הר, לו לי הר אמת, לי אל הר מות, לי אל מות הר, לי אמת הר לו, לי אמת לו הר, לי הר אל מות, לי הר אמת לו, לי הר לא מות, לי הר לו אמת, לי הר מות אל, לי הר מות לא, לי לא הר מות, לי לא מות הר, לי לו אמת הר, לי לו הר אמת, לי מות אל הר, לי מות הר אל, לי מות הר לא, לי מות לא הר, מות אל הר לי, מות אל לי הר, מות הר אל לי, מות הר לא לי, מות הר לי אל, מות הר לי לא, מות לא הר לי, מות לא לי הר, מות לי אל הר, מות לי הר אל, מות לי הר לא, מות לי לא הר
+
+── 7 × 67 × 13 × 5 × 10 ──
+  Cube axes (indices): (1 2 4)
+  Pin axes: {0 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 3120
+  Between text: תהרוהיאהא
+  Oracle: את והיה ראה, את יהוה ראה, את ראה והיה, את ראה יהוה, והיה את ראה, והיה ראה את, יהוה את ראה, יהוה ראה את, ראה את והיה, ראה את יהוה, ראה והיה את, ראה יהוה את
+
+── 7 × 67 × 13 × 10 × 5 ──
+  Cube axes (indices): (1 2 3)
+  Pin axes: {0 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 2421
+  Between text: האהרהמנלי
+
+── 10 × 5 × 7 × 13 × 67 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3960
+  Between text: טהיתוכיבר
+
+── 10 × 5 × 7 × 67 × 13 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3581
+  Between text: דעלשביהאל
+  Oracle: אש לילה עבד, אש עבד לילה, לילה אש עבד, לילה עבד אש, עבד אש לילה, עבד לילה אש, אל יד לב עשה, אל יד עשה לב, אל לב יד עשה, אל לב עשה יד, אל עשה יד לב, אל עשה לב יד, אש יד לב עלה, אש יד עלה לב, אש לב יד עלה, אש לב עלה יד, אש עלה יד לב, אש עלה לב יד, אשה יד לב על, אשה יד על לב, אשה לב יד על, אשה לב לי עד, אשה לב עד לי, אשה לב על יד, אשה לי לב עד, אשה לי עד לב, אשה עד לב לי, אשה עד לי לב, אשה על יד לב, אשה על לב יד, יד אל לב עשה, יד אל עשה לב, יד אש לב עלה, יד אש עלה לב, יד אשה לב על, יד אשה על לב, יד לא לב עשה, יד לא עשה לב, יד לב אל עשה, יד לב אש עלה, יד לב אשה על, יד לב לא עשה, יד לב על אשה, יד לב עלה אש, יד לב עשה אל, יד לב עשה לא, יד על אשה לב, יד על לב אשה, יד עלה אש לב, יד עלה לב אש, יד עשה אל לב, יד עשה לא לב, יד עשה לב אל, יד עשה לב לא, לא יד לב עשה, לא יד עשה לב, לא לב יד עשה, לא לב עשה יד, לא עשה יד לב, לא עשה לב יד, לב אל יד עשה, לב אל עשה יד, לב אש יד עלה, לב אש עלה יד, לב אשה יד על, לב אשה לי עד, לב אשה עד לי, לב אשה על יד, לב יד אל עשה, לב יד אש עלה, לב יד אשה על, לב יד לא עשה, לב יד על אשה, לב יד עלה אש, לב יד עשה אל, לב יד עשה לא, לב לא יד עשה, לב לא עשה יד, לב לי אשה עד, לב לי עד אשה, לב עד אשה לי, לב עד לי אשה, לב על אשה יד, לב על יד אשה, לב עלה אש יד, לב עלה יד אש, לב עשה אל יד, לב עשה יד אל, לב עשה יד לא, לב עשה לא יד, לי אשה לב עד, לי אשה עד לב, לי לב אשה עד, לי לב עד אשה, לי עד אשה לב, לי עד לב אשה, עד אשה לב לי, עד אשה לי לב, עד לב אשה לי, עד לב לי אשה, עד לי אשה לב, עד לי לב אשה, על אשה יד לב, על אשה לב יד, על יד אשה לב, על יד לב אשה, על לב אשה יד, על לב יד אשה, עלה אש יד לב, עלה אש לב יד, עלה יד אש לב, עלה יד לב אש, עלה לב אש יד, עלה לב יד אש, עשה אל יד לב, עשה אל לב יד, עשה יד אל לב, עשה יד לא לב, עשה יד לב אל, עשה יד לב לא, עשה לא יד לב, עשה לא לב יד, עשה לב אל יד, עשה לב יד אל, עשה לב יד לא, עשה לב לא יד
+
+── 10 × 5 × 13 × 7 × 67 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 5146
+  Between text: יםעישחיתן
+
+── 10 × 5 × 13 × 67 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3784
+  Between text: שםםהשלתתל
+
+── 10 × 5 × 67 × 7 × 13 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3670
+  Between text: אתמטהריוא
+  Oracle: ואת ירא מטה, ואת מטה ירא, ירא ואת מטה, ירא מטה ואת, מטה ואת ירא, מטה ירא ואת
+
+── 10 × 5 × 67 × 13 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3893
+  Between text: ותועהכיוח
+
+── 10 × 7 × 5 × 13 × 67 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3960
+  Between text: טהיתוכיבר
+
+── 10 × 7 × 5 × 67 × 13 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3581
+  Between text: דעלשביהאל
+  Oracle: אש לילה עבד, אש עבד לילה, לילה אש עבד, לילה עבד אש, עבד אש לילה, עבד לילה אש, אל יד לב עשה, אל יד עשה לב, אל לב יד עשה, אל לב עשה יד, אל עשה יד לב, אל עשה לב יד, אש יד לב עלה, אש יד עלה לב, אש לב יד עלה, אש לב עלה יד, אש עלה יד לב, אש עלה לב יד, אשה יד לב על, אשה יד על לב, אשה לב יד על, אשה לב לי עד, אשה לב עד לי, אשה לב על יד, אשה לי לב עד, אשה לי עד לב, אשה עד לב לי, אשה עד לי לב, אשה על יד לב, אשה על לב יד, יד אל לב עשה, יד אל עשה לב, יד אש לב עלה, יד אש עלה לב, יד אשה לב על, יד אשה על לב, יד לא לב עשה, יד לא עשה לב, יד לב אל עשה, יד לב אש עלה, יד לב אשה על, יד לב לא עשה, יד לב על אשה, יד לב עלה אש, יד לב עשה אל, יד לב עשה לא, יד על אשה לב, יד על לב אשה, יד עלה אש לב, יד עלה לב אש, יד עשה אל לב, יד עשה לא לב, יד עשה לב אל, יד עשה לב לא, לא יד לב עשה, לא יד עשה לב, לא לב יד עשה, לא לב עשה יד, לא עשה יד לב, לא עשה לב יד, לב אל יד עשה, לב אל עשה יד, לב אש יד עלה, לב אש עלה יד, לב אשה יד על, לב אשה לי עד, לב אשה עד לי, לב אשה על יד, לב יד אל עשה, לב יד אש עלה, לב יד אשה על, לב יד לא עשה, לב יד על אשה, לב יד עלה אש, לב יד עשה אל, לב יד עשה לא, לב לא יד עשה, לב לא עשה יד, לב לי אשה עד, לב לי עד אשה, לב עד אשה לי, לב עד לי אשה, לב על אשה יד, לב על יד אשה, לב עלה אש יד, לב עלה יד אש, לב עשה אל יד, לב עשה יד אל, לב עשה יד לא, לב עשה לא יד, לי אשה לב עד, לי אשה עד לב, לי לב אשה עד, לי לב עד אשה, לי עד אשה לב, לי עד לב אשה, עד אשה לב לי, עד אשה לי לב, עד לב אשה לי, עד לב לי אשה, עד לי אשה לב, עד לי לב אשה, על אשה יד לב, על אשה לב יד, על יד אשה לב, על יד לב אשה, על לב אשה יד, על לב יד אשה, עלה אש יד לב, עלה אש לב יד, עלה יד אש לב, עלה יד לב אש, עלה לב אש יד, עלה לב יד אש, עשה אל יד לב, עשה אל לב יד, עשה יד אל לב, עשה יד לא לב, עשה יד לב אל, עשה יד לב לא, עשה לא יד לב, עשה לא לב יד, עשה לב אל יד, עשה לב יד אל, עשה לב יד לא, עשה לב לא יד
+
+── 10 × 7 × 13 × 5 × 67 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4860
+  Between text: שרירצוהעל
+  Oracle: ירש עלה צור, ירש צור עלה, ישר עלה צור, ישר צור עלה, עלה ירש צור, עלה ישר צור, עלה צור ירש, עלה צור ישר, צור ירש עלה, צור ישר עלה, צור עלה ירש, צור עלה ישר
+
+── 10 × 7 × 13 × 67 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3655
+  Between text: מרהשצורעה
+
+── 10 × 7 × 67 × 5 × 13 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4131
+  Between text: למטרבתהםי
+
+── 10 × 7 × 67 × 13 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 4110
+  Between text: ןמוגבםמםך
+
+── 10 × 13 × 5 × 7 × 67 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3534
+  Between text: המאהתושקל
+
+── 10 × 13 × 5 × 67 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2706
+  Between text: תמאעתלםקא
+
+── 10 × 13 × 7 × 5 × 67 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3534
+  Between text: המאהתושקל
+
+── 10 × 13 × 7 × 67 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2464
+  Between text: אמםותהמקר
+
+── 10 × 13 × 67 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 5197
+  Between text: ומאהתועקל
+
+── 10 × 13 × 67 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 5197
+  Between text: ומאהתועקל
+
+── 10 × 67 × 5 × 7 × 13 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3417
+  Between text: המאאועתהע
+
+── 10 × 67 × 5 × 13 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3761
+  Between text: למשרוהקהת
+
+── 10 × 67 × 7 × 5 × 13 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3417
+  Between text: המאאועתהע
+
+── 10 × 67 × 7 × 13 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3688
+  Between text: ומחווחמהו
+
+── 10 × 67 × 13 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3912
+  Between text: ממשלומנהל
+
+── 10 × 67 × 13 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 16:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3912
+  Between text: ממשלומנהל
+
+── 13 × 5 × 7 × 10 × 67 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2183
+  Between text: ועלרןעדוכ
+
+── 13 × 5 × 7 × 67 × 10 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3843
+  Between text: תיאותנועז
+
+── 13 × 5 × 10 × 7 × 67 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 2265
+  Between text: ימצליכתבא
+
+── 13 × 5 × 10 × 67 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3599
+  Between text: אמםהיואבר
+
+── 13 × 5 × 67 × 7 × 10 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3336
+  Between text: אשנמןהושו
+
+── 13 × 5 × 67 × 10 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2959
+  Between text: םםעהשדהאו
+  Oracle: הוא משה עמד, הוא עמד משה, משה הוא עמד, משה עמד הוא, עמד הוא משה, עמד משה הוא
+
+── 13 × 7 × 5 × 10 × 67 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2183
+  Between text: ועלרןעדוכ
+
+── 13 × 7 × 5 × 67 × 10 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3843
+  Between text: תיאותנועז
+
+── 13 × 7 × 10 × 5 × 67 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 8:30
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2962
+  Between text: אםנהשמערב
+
+── 13 × 7 × 10 × 67 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 8:30
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2945
+  Between text: יםאבשקברס
+
+── 13 × 7 × 67 × 5 × 10 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2586
+  Between text: שהפוהילאה
+  Oracle: אש ליהוה פה, אש פה ליהוה, ליהוה אש פה, ליהוה פה אש, פה אש ליהוה, פה ליהוה אש
+
+── 13 × 7 × 67 × 10 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3290
+  Between text: לסנרהמויק
+
+── 13 × 10 × 5 × 7 × 67 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 4553
+  Between text: לחשתםתשבר
+
+── 13 × 10 × 5 × 67 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3536
+  Between text: מחתוםליבר
+
+── 13 × 10 × 7 × 5 × 67 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 1
+  Ark GV: 4553
+  Between text: לחשתםתשבר
+
+── 13 × 10 × 7 × 67 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3807
+  Between text: אחשתםושבש
+  Oracle: או בת חמש שש, או בת שש חמש, או חמש בת שש, או חמש שש בת, או שש בת חמש, או שש חמש בת, את בו חמש שש, את בו שש חמש, את חמש בו שש, את חמש שש בו, את שש בו חמש, את שש חמש בו, בו את חמש שש, בו את שש חמש, בו חמש את שש, בו חמש שש את, בו שש את חמש, בו שש חמש את, בת או חמש שש, בת או שש חמש, בת חמש או שש, בת חמש שש או, בת שש או חמש, בת שש חמש או, חמש או בת שש, חמש או שש בת, חמש את בו שש, חמש את שש בו, חמש בו את שש, חמש בו שש את, חמש בת או שש, חמש בת שש או, חמש שש או בת, חמש שש את בו, חמש שש בו את, חמש שש בת או, שש או בת חמש, שש או חמש בת, שש את בו חמש, שש את חמש בו, שש בו את חמש, שש בו חמש את, שש בת או חמש, שש בת חמש או, שש חמש או בת, שש חמש את בו, שש חמש בו את, שש חמש בת או
+
+── 13 × 10 × 67 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3361
+  Between text: רחןהםושבא
+  Oracle: בוא חמש נהר, בוא נהר חמש, חמש בוא נהר, חמש נהר בוא, נהר בוא חמש, נהר חמש בוא, או בר משה נח, או בר נח משה, או משה בר נח, או משה נח בר, או משה נח רב, או משה רב נח, או נח בר משה, או נח משה בר, או נח משה רב, או נח רב משה, או רב משה נח, או רב נח משה, בו הר חמש נא, בו הר נא חמש, בו חמש הר נא, בו חמש נא הר, בו נא הר חמש, בו נא חמש הר, בר או משה נח, בר או נח משה, בר משה או נח, בר משה נח או, בר נח או משה, בר נח משה או, הר בו חמש נא, הר בו נא חמש, הר חמש בו נא, הר חמש נא בו, הר נא בו חמש, הר נא חמש בו, חמש בו הר נא, חמש בו נא הר, חמש הר בו נא, חמש הר נא בו, חמש נא בו הר, חמש נא הר בו, משה או בר נח, משה או נח בר, משה או נח רב, משה או רב נח, משה בר או נח, משה בר נח או, משה נח או בר, משה נח או רב, משה נח בר או, משה נח רב או, משה רב או נח, משה רב נח או, נא בו הר חמש, נא בו חמש הר, נא הר בו חמש, נא הר חמש בו, נא חמש בו הר, נא חמש הר בו, נח או בר משה, נח או משה בר, נח או משה רב, נח או רב משה, נח בר או משה, נח בר משה או, נח משה או בר, נח משה או רב, נח משה בר או, נח משה רב או, נח רב או משה, נח רב משה או, רב או משה נח, רב או נח משה, רב משה או נח, רב משה נח או, רב נח או משה, רב נח משה או
+
+── 13 × 10 × 67 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 9:13
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3361
+  Between text: רחןהםושבא
+  Oracle: בוא חמש נהר, בוא נהר חמש, חמש בוא נהר, חמש נהר בוא, נהר בוא חמש, נהר חמש בוא, או בר משה נח, או בר נח משה, או משה בר נח, או משה נח בר, או משה נח רב, או משה רב נח, או נח בר משה, או נח משה בר, או נח משה רב, או נח רב משה, או רב משה נח, או רב נח משה, בו הר חמש נא, בו הר נא חמש, בו חמש הר נא, בו חמש נא הר, בו נא הר חמש, בו נא חמש הר, בר או משה נח, בר או נח משה, בר משה או נח, בר משה נח או, בר נח או משה, בר נח משה או, הר בו חמש נא, הר בו נא חמש, הר חמש בו נא, הר חמש נא בו, הר נא בו חמש, הר נא חמש בו, חמש בו הר נא, חמש בו נא הר, חמש הר בו נא, חמש הר נא בו, חמש נא בו הר, חמש נא הר בו, משה או בר נח, משה או נח בר, משה או נח רב, משה או רב נח, משה בר או נח, משה בר נח או, משה נח או בר, משה נח או רב, משה נח בר או, משה נח רב או, משה רב או נח, משה רב נח או, נא בו הר חמש, נא בו חמש הר, נא הר בו חמש, נא הר חמש בו, נא חמש בו הר, נא חמש הר בו, נח או בר משה, נח או משה בר, נח או משה רב, נח או רב משה, נח בר או משה, נח בר משה או, נח משה או בר, נח משה או רב, נח משה בר או, נח משה רב או, נח רב או משה, נח רב משה או, רב או משה נח, רב או נח משה, רב משה או נח, רב משה נח או, רב נח או משה, רב נח משה או
+
+── 13 × 67 × 5 × 7 × 10 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3350
+  Between text: עלפתידשאל
+
+── 13 × 67 × 5 × 10 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3096
+  Between text: היילםהיהש
+
+── 13 × 67 × 7 × 5 × 10 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3350
+  Between text: עלפתידשאל
+
+── 13 × 67 × 7 × 10 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2938
+  Between text: ונקאכרקהע
+
+── 13 × 67 × 10 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 3132
+  Between text: אהלכהושתכ
+
+── 13 × 67 × 10 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 3132
+  Between text: אהלכהושתכ
+
+── 67 × 5 × 7 × 10 × 13 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1421
+  Between text: הליייהםיה
+
+── 67 × 5 × 7 × 13 × 10 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 2, 2 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2477
+  Between text: עלהותנבור
+
+── 67 × 5 × 10 × 7 × 13 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 1
+  Ark GV: 2385
+  Between text: בגדתאהלכם
+  Oracle: בת דג כל מאה, בת דג מאה כל, בת כל דג מאה, בת כל מאה דג, בת מאה דג כל, בת מאה כל דג, דג בת כל מאה, דג בת מאה כל, דג כל בת מאה, דג כל מאה בת, דג מאה בת כל, דג מאה כל בת, כל בת דג מאה, כל בת מאה דג, כל דג בת מאה, כל דג מאה בת, כל מאה בת דג, כל מאה דג בת, מאה בת דג כל, מאה בת כל דג, מאה דג בת כל, מאה דג כל בת, מאה כל בת דג, מאה כל דג בת
+
+── 67 × 5 × 10 × 13 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 1844
+  Between text: יגיואגאכה
+
+── 67 × 5 × 13 × 7 × 10 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3173
+  Between text: לבשמןהרעט
+
+── 67 × 5 × 13 × 10 × 7 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3119
+  Between text: בותהשדרוי
+  Oracle: יד שוב תורה, יד תורה שוב, שוב יד תורה, שוב תורה יד, תורה יד שוב, תורה שוב יד
+
+── 67 × 7 × 5 × 10 × 13 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1421
+  Between text: הליייהםיה
+
+── 67 × 7 × 5 × 13 × 10 ──
+  Cube axes (indices): (0 3 4)
+  Pin axes: {1 3, 2 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2477
+  Between text: עלהותנבור
+
+── 67 × 7 × 10 × 5 × 13 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2636
+  Between text: תהעלאהמנב
+
+── 67 × 7 × 10 × 13 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1911
+  Between text: ההלואלונע
+
+── 67 × 7 × 13 × 5 × 10 ──
+  Cube axes (indices): (0 2 4)
+  Pin axes: {1 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2550
+  Between text: הןמוהיבלת
+
+── 67 × 7 × 13 × 10 × 5 ──
+  Cube axes (indices): (0 2 3)
+  Pin axes: {1 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1529
+  Between text: הדמרהממםז
+
+── 67 × 10 × 5 × 7 × 13 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3751
+  Between text: יאנלהבינד
+
+── 67 × 10 × 5 × 13 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2949
+  Between text: ראינההמנת
+
+── 67 × 10 × 7 × 5 × 13 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3751
+  Between text: יאנלהבינד
+
+── 67 × 10 × 7 × 13 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3225
+  Between text: כאיההכםנת
+
+── 67 × 10 × 13 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1883
+  Between text: קאכוהואנש
+
+── 67 × 10 × 13 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 8:31
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 1883
+  Between text: קאכוהואנש
+
+── 67 × 13 × 5 × 7 × 10 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 2, 3 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3144
+  Between text: משמתידץול
+
+── 67 × 13 × 5 × 10 × 7 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2823
+  Between text: חהללםההתם
+
+── 67 × 13 × 7 × 5 × 10 ──
+  Cube axes (indices): (0 1 4)
+  Pin axes: {2 3, 3 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 3144
+  Between text: משמתידץול
+
+── 67 × 13 × 7 × 10 × 5 ──
+  Cube axes (indices): (0 1 3)
+  Pin axes: {2 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? 
+  YHWH in Ark: 0
+  Ark GV: 2817
+  Between text: הנכאכרשאו
+  Oracle: או כאשר נכה, או נכה כאשר, כאשר או נכה, כאשר נכה או, נכה או כאשר, נכה כאשר או
+
+── 67 × 13 × 10 × 5 × 7 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 2, 4 3}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 1640
+  Between text: נעהכהונבם
+
+── 67 × 13 × 10 × 7 × 5 ──
+  Cube axes (indices): (0 1 2)
+  Pin axes: {3 3, 4 2}
+  Cube center: Leviticus 8:29
+  Lev 8:35? true
+  YHWH in Ark: 0
+  Ark GV: 1640
+  Between text: נעהכהונבם
+
+
+═══════════════════════════════════════════════
+GROUPING BY SIGNATURE
+═══════════════════════════════════════════════
+
+── LEV-8:35 + YHWH + GV=2603 + ORACLE=MOSES (2 orderings) ──
+  5 × 7 × 10 × 13 × 67 | center=Leviticus 8:35 | Ark GV=2603 | YHWH=1 | oracle=איש מות משה,איש משה מות,מות איש משה,מות משה איש,משה איש מות,משה מות איש
+  7 × 5 × 10 × 13 × 67 | center=Leviticus 8:35 | Ark GV=2603 | YHWH=1 | oracle=איש מות משה,איש משה מות,מות איש משה,מות משה איש,משה איש מות,משה מות איש
+
+── LEV-8:35 + YHWH (3 orderings) ──
+  5 × 7 × 10 × 67 × 13 | center=Leviticus 8:35 | Ark GV=3251 | YHWH=1
+  7 × 5 × 10 × 67 × 13 | center=Leviticus 8:35 | Ark GV=3251 | YHWH=1
+  67 × 5 × 10 × 7 × 13 | center=Leviticus 8:29 | Ark GV=2385 | YHWH=1 | oracle=בת דג כל מאה,בת דג מאה כל,בת כל דג מאה,בת כל מאה דג,בת מאה דג כל,בת מאה כל דג,דג בת כל מאה,דג בת מאה כל,דג כל בת מאה,דג כל מאה בת,דג מאה בת כל,דג מאה כל בת,כל בת דג מאה,כל בת מאה דג,כל דג בת מאה,כל דג מאה בת,כל מאה בת דג,כל מאה דג בת,מאה בת דג כל,מאה בת כל דג,מאה דג בת כל,מאה דג כל בת,מאה כל בת דג,מאה כל דג בת
+
+── LEV-8:35 (17 orderings) ──
+  5 × 7 × 13 × 10 × 67 | center=Leviticus 8:29 | Ark GV=3306 | YHWH=0
+  5 × 7 × 67 × 10 × 13 | center=Leviticus 8:29 | Ark GV=2307 | YHWH=0 | oracle=בת היא כי על,בת היא על כי,בת כי היא על,בת כי על היא,בת על היא כי,בת על כי היא,היא בת כי על,היא בת על כי,היא כי בת על,היא כי על בת,היא על בת כי,היא על כי בת,כי בת היא על,כי בת על היא,כי היא בת על,כי היא על בת,כי על בת היא,כי על היא בת,על בת היא כי,על בת כי היא,על היא בת כי,על היא כי בת,על כי בת היא,על כי היא בת
+  5 × 7 × 67 × 13 × 10 | center=Leviticus 8:29 | Ark GV=2517 | YHWH=0
+  5 × 67 × 10 × 7 × 13 | center=Leviticus 8:29 | Ark GV=2505 | YHWH=0
+  5 × 67 × 10 × 13 × 7 | center=Leviticus 8:29 | Ark GV=2598 | YHWH=0 | oracle=או גר חי טוב,או גר טוב חי,או חי גר טוב,או חי טוב גר,או טוב גר חי,או טוב חי גר,גר או חי טוב,גר או טוב חי,גר חי או טוב,גר חי טוב או,גר טוב או חי,גר טוב חי או,חי או גר טוב,חי או טוב גר,חי גר או טוב,חי גר טוב או,חי טוב או גר,חי טוב גר או,טוב או גר חי,טוב או חי גר,טוב גר או חי,טוב גר חי או,טוב חי או גר,טוב חי גר או
+  7 × 5 × 13 × 10 × 67 | center=Leviticus 8:29 | Ark GV=3306 | YHWH=0
+  7 × 5 × 67 × 10 × 13 | center=Leviticus 8:29 | Ark GV=2307 | YHWH=0 | oracle=בת היא כי על,בת היא על כי,בת כי היא על,בת כי על היא,בת על היא כי,בת על כי היא,היא בת כי על,היא בת על כי,היא כי בת על,היא כי על בת,היא על בת כי,היא על כי בת,כי בת היא על,כי בת על היא,כי היא בת על,כי היא על בת,כי על בת היא,כי על היא בת,על בת היא כי,על בת כי היא,על היא בת כי,על היא כי בת,על כי בת היא,על כי היא בת
+  7 × 5 × 67 × 13 × 10 | center=Leviticus 8:29 | Ark GV=2517 | YHWH=0
+  7 × 67 × 10 × 5 × 13 | center=Leviticus 8:29 | Ark GV=2447 | YHWH=0 | oracle=או לי מטה רע,או לי רע מטה,או מטה לי רע,או מטה רע לי,או רע לי מטה,או רע מטה לי,לי או מטה רע,לי או רע מטה,לי מטה או רע,לי מטה רע או,לי רע או מטה,לי רע מטה או,מטה או לי רע,מטה או רע לי,מטה לי או רע,מטה לי רע או,מטה רע או לי,מטה רע לי או,רע או לי מטה,רע או מטה לי,רע לי או מטה,רע לי מטה או,רע מטה או לי,רע מטה לי או
+  7 × 67 × 10 × 13 × 5 | center=Leviticus 8:29 | Ark GV=2504 | YHWH=0 | oracle=אל הר לי מות,אל הר מות לי,אל לי הר מות,אל לי מות הר,אל מות הר לי,אל מות לי הר,אמת הר לו לי,אמת הר לי לו,אמת לו הר לי,אמת לו לי הר,אמת לי הר לו,אמת לי לו הר,הר אל לי מות,הר אל מות לי,הר אמת לו לי,הר אמת לי לו,הר לא לי מות,הר לא מות לי,הר לו אמת לי,הר לו לי אמת,הר לי אל מות,הר לי אמת לו,הר לי לא מות,הר לי לו אמת,הר לי מות אל,הר לי מות לא,הר מות אל לי,הר מות לא לי,הר מות לי אל,הר מות לי לא,לא הר לי מות,לא הר מות לי,לא לי הר מות,לא לי מות הר,לא מות הר לי,לא מות לי הר,לו אמת הר לי,לו אמת לי הר,לו הר אמת לי,לו הר לי אמת,לו לי אמת הר,לו לי הר אמת,לי אל הר מות,לי אל מות הר,לי אמת הר לו,לי אמת לו הר,לי הר אל מות,לי הר אמת לו,לי הר לא מות,לי הר לו אמת,לי הר מות אל,לי הר מות לא,לי לא הר מות,לי לא מות הר,לי לו אמת הר,לי לו הר אמת,לי מות אל הר,לי מות הר אל,לי מות הר לא,לי מות לא הר,מות אל הר לי,מות אל לי הר,מות הר אל לי,מות הר לא לי,מות הר לי אל,מות הר לי לא,מות לא הר לי,מות לא לי הר,מות לי אל הר,מות לי הר אל,מות לי הר לא,מות לי לא הר
+  7 × 67 × 13 × 5 × 10 | center=Leviticus 8:29 | Ark GV=3120 | YHWH=0 | oracle=את והיה ראה,את יהוה ראה,את ראה והיה,את ראה יהוה,והיה את ראה,והיה ראה את,יהוה את ראה,יהוה ראה את,ראה את והיה,ראה את יהוה,ראה והיה את,ראה יהוה את
+  7 × 67 × 13 × 10 × 5 | center=Leviticus 8:29 | Ark GV=2421 | YHWH=0
+  13 × 67 × 10 × 5 × 7 | center=Leviticus 8:29 | Ark GV=3132 | YHWH=0
+  13 × 67 × 10 × 7 × 5 | center=Leviticus 8:29 | Ark GV=3132 | YHWH=0
+  67 × 5 × 10 × 13 × 7 | center=Leviticus 8:29 | Ark GV=1844 | YHWH=0
+  67 × 13 × 10 × 5 × 7 | center=Leviticus 8:29 | Ark GV=1640 | YHWH=0
+  67 × 13 × 10 × 7 × 5 | center=Leviticus 8:29 | Ark GV=1640 | YHWH=0
+
+── YHWH (6 orderings) ──
+  5 × 7 × 13 × 67 × 10 | center=Leviticus 8:29 | Ark GV=2415 | YHWH=1 | oracle=לו לו נא שתה,לו לו שתה נא,לו נא לו שתה,לו נא שתה לו,לו שתה לו נא,לו שתה נא לו,נא לו לו שתה,נא לו שתה לו,נא שתה לו לו,שתה לו לו נא,שתה לו נא לו,שתה נא לו לו
+  7 × 5 × 13 × 67 × 10 | center=Leviticus 8:29 | Ark GV=2415 | YHWH=1 | oracle=לו לו נא שתה,לו לו שתה נא,לו נא לו שתה,לו נא שתה לו,לו שתה לו נא,לו שתה נא לו,נא לו לו שתה,נא לו שתה לו,נא שתה לו לו,שתה לו לו נא,שתה לו נא לו,שתה נא לו לו
+  7 × 10 × 5 × 13 × 67 | center=Leviticus 10:7 | Ark GV=3067 | YHWH=1 | oracle=אהב בר והיה,אהב בר יהוה,אהב והיה בר,אהב והיה רב,אהב יהוה בר,אהב יהוה רב,אהב רב והיה,אהב רב יהוה,בר אהב והיה,בר אהב יהוה,בר והיה אהב,בר יהוה אהב,והיה אהב בר,והיה אהב רב,והיה בר אהב,והיה רב אהב,יהוה אהב בר,יהוה אהב רב,יהוה בר אהב,יהוה רב אהב,רב אהב והיה,רב אהב יהוה,רב והיה אהב,רב יהוה אהב
+  13 × 5 × 10 × 7 × 67 | center=Leviticus 8:31 | Ark GV=2265 | YHWH=1
+  13 × 10 × 5 × 7 × 67 | center=Leviticus 9:13 | Ark GV=4553 | YHWH=1
+  13 × 10 × 7 × 5 × 67 | center=Leviticus 9:13 | Ark GV=4553 | YHWH=1
+
+── NONE (92 orderings) ──
+  5 × 10 × 7 × 13 × 67 | center=Leviticus 11:2 | Ark GV=2160 | YHWH=0
+  5 × 10 × 7 × 67 × 13 | center=Leviticus 11:2 | Ark GV=2725 | YHWH=0
+  5 × 10 × 13 × 7 × 67 | center=Leviticus 11:2 | Ark GV=3393 | YHWH=0
+  5 × 10 × 13 × 67 × 7 | center=Leviticus 11:2 | Ark GV=4142 | YHWH=0
+  5 × 10 × 67 × 7 × 13 | center=Leviticus 11:2 | Ark GV=3393 | YHWH=0
+  5 × 10 × 67 × 13 × 7 | center=Leviticus 11:2 | Ark GV=4436 | YHWH=0 | oracle=בקר סלח עלה,בקר עלה סלח,סלח בקר עלה,סלח עלה בקר,עלה בקר סלח,עלה סלח בקר
+  5 × 13 × 7 × 10 × 67 | center=Leviticus 8:29 | Ark GV=2840 | YHWH=0
+  5 × 13 × 7 × 67 × 10 | center=Leviticus 8:29 | Ark GV=3294 | YHWH=0
+  5 × 13 × 10 × 7 × 67 | center=Leviticus 8:31 | Ark GV=2710 | YHWH=0
+  5 × 13 × 10 × 67 × 7 | center=Leviticus 8:31 | Ark GV=3443 | YHWH=0
+  5 × 13 × 67 × 7 × 10 | center=Leviticus 8:29 | Ark GV=2852 | YHWH=0
+  5 × 13 × 67 × 10 × 7 | center=Leviticus 8:29 | Ark GV=2526 | YHWH=0
+  5 × 67 × 7 × 10 × 13 | center=Leviticus 8:29 | Ark GV=3125 | YHWH=0
+  5 × 67 × 7 × 13 × 10 | center=Leviticus 8:29 | Ark GV=3483 | YHWH=0
+  5 × 67 × 13 × 7 × 10 | center=Leviticus 8:29 | Ark GV=2651 | YHWH=0
+  5 × 67 × 13 × 10 × 7 | center=Leviticus 8:29 | Ark GV=3041 | YHWH=0
+  7 × 10 × 5 × 67 × 13 | center=Leviticus 10:7 | Ark GV=4017 | YHWH=0
+  7 × 10 × 13 × 5 × 67 | center=Leviticus 10:7 | Ark GV=3314 | YHWH=0
+  7 × 10 × 13 × 67 × 5 | center=Leviticus 10:7 | Ark GV=3289 | YHWH=0
+  7 × 10 × 67 × 5 × 13 | center=Leviticus 10:7 | Ark GV=3529 | YHWH=0 | oracle=בת כי לו עשר,בת כי לו שער,בת כי על שור,בת כי עשר לו,בת כי שור על,בת כי שער לו,בת לו כי עשר,בת לו כי שער,בת לו עשר כי,בת לו שער כי,בת על כי שור,בת על שור כי,בת עשר כי לו,בת עשר לו כי,בת שור כי על,בת שור על כי,בת שער כי לו,בת שער לו כי,כי בת לו עשר,כי בת לו שער,כי בת על שור,כי בת עשר לו,כי בת שור על,כי בת שער לו,כי לו בת עשר,כי לו בת שער,כי לו עשר בת,כי לו רע שבת,כי לו שבת רע,כי לו שער בת,כי על בת שור,כי על שור בת,כי עשר בת לו,כי עשר לו בת,כי רע לו שבת,כי רע שבת לו,כי שבת לו רע,כי שבת רע לו,כי שור בת על,כי שור על בת,כי שער בת לו,כי שער לו בת,לו בת כי עשר,לו בת כי שער,לו בת עשר כי,לו בת שער כי,לו כי בת עשר,לו כי בת שער,לו כי עשר בת,לו כי רע שבת,לו כי שבת רע,לו כי שער בת,לו עשר בת כי,לו עשר כי בת,לו רע כי שבת,לו רע שבת כי,לו שבת כי רע,לו שבת רע כי,לו שער בת כי,לו שער כי בת,על בת כי שור,על בת שור כי,על כי בת שור,על כי שור בת,על שור בת כי,על שור כי בת,עשר בת כי לו,עשר בת לו כי,עשר כי בת לו,עשר כי לו בת,עשר לו בת כי,עשר לו כי בת,רע כי לו שבת,רע כי שבת לו,רע לו כי שבת,רע לו שבת כי,רע שבת כי לו,רע שבת לו כי,שבת כי לו רע,שבת כי רע לו,שבת לו כי רע,שבת לו רע כי,שבת רע כי לו,שבת רע לו כי,שור בת כי על,שור בת על כי,שור כי בת על,שור כי על בת,שור על בת כי,שור על כי בת,שער בת כי לו,שער בת לו כי,שער כי בת לו,שער כי לו בת,שער לו בת כי,שער לו כי בת
+  7 × 10 × 67 × 13 × 5 | center=Leviticus 10:7 | Ark GV=4017 | YHWH=0
+  7 × 13 × 5 × 10 × 67 | center=Leviticus 8:29 | Ark GV=1734 | YHWH=0
+  7 × 13 × 5 × 67 × 10 | center=Leviticus 8:29 | Ark GV=3459 | YHWH=0
+  7 × 13 × 10 × 5 × 67 | center=Leviticus 8:30 | Ark GV=3537 | YHWH=0 | oracle=אחד אמת אשה,אחד אשה אמת,אמת אחד אשה,אמת אשה אחד,אשה אחד אמת,אשה אמת אחד
+  7 × 13 × 10 × 67 × 5 | center=Leviticus 8:30 | Ark GV=3326 | YHWH=0
+  7 × 13 × 67 × 5 × 10 | center=Leviticus 8:29 | Ark GV=2437 | YHWH=0
+  7 × 13 × 67 × 10 × 5 | center=Leviticus 8:29 | Ark GV=3498 | YHWH=0
+  7 × 67 × 5 × 10 × 13 | center=Leviticus 8:29 | Ark GV=1992 | YHWH=0
+  7 × 67 × 5 × 13 × 10 | center=Leviticus 8:29 | Ark GV=3186 | YHWH=0
+  10 × 5 × 7 × 13 × 67 | center=Leviticus 16:29 | Ark GV=3960 | YHWH=0
+  10 × 5 × 7 × 67 × 13 | center=Leviticus 16:29 | Ark GV=3581 | YHWH=0 | oracle=אש לילה עבד,אש עבד לילה,לילה אש עבד,לילה עבד אש,עבד אש לילה,עבד לילה אש,אל יד לב עשה,אל יד עשה לב,אל לב יד עשה,אל לב עשה יד,אל עשה יד לב,אל עשה לב יד,אש יד לב עלה,אש יד עלה לב,אש לב יד עלה,אש לב עלה יד,אש עלה יד לב,אש עלה לב יד,אשה יד לב על,אשה יד על לב,אשה לב יד על,אשה לב לי עד,אשה לב עד לי,אשה לב על יד,אשה לי לב עד,אשה לי עד לב,אשה עד לב לי,אשה עד לי לב,אשה על יד לב,אשה על לב יד,יד אל לב עשה,יד אל עשה לב,יד אש לב עלה,יד אש עלה לב,יד אשה לב על,יד אשה על לב,יד לא לב עשה,יד לא עשה לב,יד לב אל עשה,יד לב אש עלה,יד לב אשה על,יד לב לא עשה,יד לב על אשה,יד לב עלה אש,יד לב עשה אל,יד לב עשה לא,יד על אשה לב,יד על לב אשה,יד עלה אש לב,יד עלה לב אש,יד עשה אל לב,יד עשה לא לב,יד עשה לב אל,יד עשה לב לא,לא יד לב עשה,לא יד עשה לב,לא לב יד עשה,לא לב עשה יד,לא עשה יד לב,לא עשה לב יד,לב אל יד עשה,לב אל עשה יד,לב אש יד עלה,לב אש עלה יד,לב אשה יד על,לב אשה לי עד,לב אשה עד לי,לב אשה על יד,לב יד אל עשה,לב יד אש עלה,לב יד אשה על,לב יד לא עשה,לב יד על אשה,לב יד עלה אש,לב יד עשה אל,לב יד עשה לא,לב לא יד עשה,לב לא עשה יד,לב לי אשה עד,לב לי עד אשה,לב עד אשה לי,לב עד לי אשה,לב על אשה יד,לב על יד אשה,לב עלה אש יד,לב עלה יד אש,לב עשה אל יד,לב עשה יד אל,לב עשה יד לא,לב עשה לא יד,לי אשה לב עד,לי אשה עד לב,לי לב אשה עד,לי לב עד אשה,לי עד אשה לב,לי עד לב אשה,עד אשה לב לי,עד אשה לי לב,עד לב אשה לי,עד לב לי אשה,עד לי אשה לב,עד לי לב אשה,על אשה יד לב,על אשה לב יד,על יד אשה לב,על יד לב אשה,על לב אשה יד,על לב יד אשה,עלה אש יד לב,עלה אש לב יד,עלה יד אש לב,עלה יד לב אש,עלה לב אש יד,עלה לב יד אש,עשה אל יד לב,עשה אל לב יד,עשה יד אל לב,עשה יד לא לב,עשה יד לב אל,עשה יד לב לא,עשה לא יד לב,עשה לא לב יד,עשה לב אל יד,עשה לב יד אל,עשה לב יד לא,עשה לב לא יד
+  10 × 5 × 13 × 7 × 67 | center=Leviticus 16:29 | Ark GV=5146 | YHWH=0
+  10 × 5 × 13 × 67 × 7 | center=Leviticus 16:29 | Ark GV=3784 | YHWH=0
+  10 × 5 × 67 × 7 × 13 | center=Leviticus 16:29 | Ark GV=3670 | YHWH=0 | oracle=ואת ירא מטה,ואת מטה ירא,ירא ואת מטה,ירא מטה ואת,מטה ואת ירא,מטה ירא ואת
+  10 × 5 × 67 × 13 × 7 | center=Leviticus 16:29 | Ark GV=3893 | YHWH=0
+  10 × 7 × 5 × 13 × 67 | center=Leviticus 16:29 | Ark GV=3960 | YHWH=0
+  10 × 7 × 5 × 67 × 13 | center=Leviticus 16:29 | Ark GV=3581 | YHWH=0 | oracle=אש לילה עבד,אש עבד לילה,לילה אש עבד,לילה עבד אש,עבד אש לילה,עבד לילה אש,אל יד לב עשה,אל יד עשה לב,אל לב יד עשה,אל לב עשה יד,אל עשה יד לב,אל עשה לב יד,אש יד לב עלה,אש יד עלה לב,אש לב יד עלה,אש לב עלה יד,אש עלה יד לב,אש עלה לב יד,אשה יד לב על,אשה יד על לב,אשה לב יד על,אשה לב לי עד,אשה לב עד לי,אשה לב על יד,אשה לי לב עד,אשה לי עד לב,אשה עד לב לי,אשה עד לי לב,אשה על יד לב,אשה על לב יד,יד אל לב עשה,יד אל עשה לב,יד אש לב עלה,יד אש עלה לב,יד אשה לב על,יד אשה על לב,יד לא לב עשה,יד לא עשה לב,יד לב אל עשה,יד לב אש עלה,יד לב אשה על,יד לב לא עשה,יד לב על אשה,יד לב עלה אש,יד לב עשה אל,יד לב עשה לא,יד על אשה לב,יד על לב אשה,יד עלה אש לב,יד עלה לב אש,יד עשה אל לב,יד עשה לא לב,יד עשה לב אל,יד עשה לב לא,לא יד לב עשה,לא יד עשה לב,לא לב יד עשה,לא לב עשה יד,לא עשה יד לב,לא עשה לב יד,לב אל יד עשה,לב אל עשה יד,לב אש יד עלה,לב אש עלה יד,לב אשה יד על,לב אשה לי עד,לב אשה עד לי,לב אשה על יד,לב יד אל עשה,לב יד אש עלה,לב יד אשה על,לב יד לא עשה,לב יד על אשה,לב יד עלה אש,לב יד עשה אל,לב יד עשה לא,לב לא יד עשה,לב לא עשה יד,לב לי אשה עד,לב לי עד אשה,לב עד אשה לי,לב עד לי אשה,לב על אשה יד,לב על יד אשה,לב עלה אש יד,לב עלה יד אש,לב עשה אל יד,לב עשה יד אל,לב עשה יד לא,לב עשה לא יד,לי אשה לב עד,לי אשה עד לב,לי לב אשה עד,לי לב עד אשה,לי עד אשה לב,לי עד לב אשה,עד אשה לב לי,עד אשה לי לב,עד לב אשה לי,עד לב לי אשה,עד לי אשה לב,עד לי לב אשה,על אשה יד לב,על אשה לב יד,על יד אשה לב,על יד לב אשה,על לב אשה יד,על לב יד אשה,עלה אש יד לב,עלה אש לב יד,עלה יד אש לב,עלה יד לב אש,עלה לב אש יד,עלה לב יד אש,עשה אל יד לב,עשה אל לב יד,עשה יד אל לב,עשה יד לא לב,עשה יד לב אל,עשה יד לב לא,עשה לא יד לב,עשה לא לב יד,עשה לב אל יד,עשה לב יד אל,עשה לב יד לא,עשה לב לא יד
+  10 × 7 × 13 × 5 × 67 | center=Leviticus 16:29 | Ark GV=4860 | YHWH=0 | oracle=ירש עלה צור,ירש צור עלה,ישר עלה צור,ישר צור עלה,עלה ירש צור,עלה ישר צור,עלה צור ירש,עלה צור ישר,צור ירש עלה,צור ישר עלה,צור עלה ירש,צור עלה ישר
+  10 × 7 × 13 × 67 × 5 | center=Leviticus 16:29 | Ark GV=3655 | YHWH=0
+  10 × 7 × 67 × 5 × 13 | center=Leviticus 16:29 | Ark GV=4131 | YHWH=0
+  10 × 7 × 67 × 13 × 5 | center=Leviticus 16:29 | Ark GV=4110 | YHWH=0
+  10 × 13 × 5 × 7 × 67 | center=Leviticus 16:29 | Ark GV=3534 | YHWH=0
+  10 × 13 × 5 × 67 × 7 | center=Leviticus 16:29 | Ark GV=2706 | YHWH=0
+  10 × 13 × 7 × 5 × 67 | center=Leviticus 16:29 | Ark GV=3534 | YHWH=0
+  10 × 13 × 7 × 67 × 5 | center=Leviticus 16:29 | Ark GV=2464 | YHWH=0
+  10 × 13 × 67 × 5 × 7 | center=Leviticus 16:29 | Ark GV=5197 | YHWH=0
+  10 × 13 × 67 × 7 × 5 | center=Leviticus 16:29 | Ark GV=5197 | YHWH=0
+  10 × 67 × 5 × 7 × 13 | center=Leviticus 16:29 | Ark GV=3417 | YHWH=0
+  10 × 67 × 5 × 13 × 7 | center=Leviticus 16:29 | Ark GV=3761 | YHWH=0
+  10 × 67 × 7 × 5 × 13 | center=Leviticus 16:29 | Ark GV=3417 | YHWH=0
+  10 × 67 × 7 × 13 × 5 | center=Leviticus 16:29 | Ark GV=3688 | YHWH=0
+  10 × 67 × 13 × 5 × 7 | center=Leviticus 16:29 | Ark GV=3912 | YHWH=0
+  10 × 67 × 13 × 7 × 5 | center=Leviticus 16:29 | Ark GV=3912 | YHWH=0
+  13 × 5 × 7 × 10 × 67 | center=Leviticus 8:29 | Ark GV=2183 | YHWH=0
+  13 × 5 × 7 × 67 × 10 | center=Leviticus 8:29 | Ark GV=3843 | YHWH=0
+  13 × 5 × 10 × 67 × 7 | center=Leviticus 8:31 | Ark GV=3599 | YHWH=0
+  13 × 5 × 67 × 7 × 10 | center=Leviticus 8:29 | Ark GV=3336 | YHWH=0
+  13 × 5 × 67 × 10 × 7 | center=Leviticus 8:29 | Ark GV=2959 | YHWH=0 | oracle=הוא משה עמד,הוא עמד משה,משה הוא עמד,משה עמד הוא,עמד הוא משה,עמד משה הוא
+  13 × 7 × 5 × 10 × 67 | center=Leviticus 8:29 | Ark GV=2183 | YHWH=0
+  13 × 7 × 5 × 67 × 10 | center=Leviticus 8:29 | Ark GV=3843 | YHWH=0
+  13 × 7 × 10 × 5 × 67 | center=Leviticus 8:30 | Ark GV=2962 | YHWH=0
+  13 × 7 × 10 × 67 × 5 | center=Leviticus 8:30 | Ark GV=2945 | YHWH=0
+  13 × 7 × 67 × 5 × 10 | center=Leviticus 8:29 | Ark GV=2586 | YHWH=0 | oracle=אש ליהוה פה,אש פה ליהוה,ליהוה אש פה,ליהוה פה אש,פה אש ליהוה,פה ליהוה אש
+  13 × 7 × 67 × 10 × 5 | center=Leviticus 8:29 | Ark GV=3290 | YHWH=0
+  13 × 10 × 5 × 67 × 7 | center=Leviticus 9:13 | Ark GV=3536 | YHWH=0
+  13 × 10 × 7 × 67 × 5 | center=Leviticus 9:13 | Ark GV=3807 | YHWH=0 | oracle=או בת חמש שש,או בת שש חמש,או חמש בת שש,או חמש שש בת,או שש בת חמש,או שש חמש בת,את בו חמש שש,את בו שש חמש,את חמש בו שש,את חמש שש בו,את שש בו חמש,את שש חמש בו,בו את חמש שש,בו את שש חמש,בו חמש את שש,בו חמש שש את,בו שש את חמש,בו שש חמש את,בת או חמש שש,בת או שש חמש,בת חמש או שש,בת חמש שש או,בת שש או חמש,בת שש חמש או,חמש או בת שש,חמש או שש בת,חמש את בו שש,חמש את שש בו,חמש בו את שש,חמש בו שש את,חמש בת או שש,חמש בת שש או,חמש שש או בת,חמש שש את בו,חמש שש בו את,חמש שש בת או,שש או בת חמש,שש או חמש בת,שש את בו חמש,שש את חמש בו,שש בו את חמש,שש בו חמש את,שש בת או חמש,שש בת חמש או,שש חמש או בת,שש חמש את בו,שש חמש בו את,שש חמש בת או
+  13 × 10 × 67 × 5 × 7 | center=Leviticus 9:13 | Ark GV=3361 | YHWH=0 | oracle=בוא חמש נהר,בוא נהר חמש,חמש בוא נהר,חמש נהר בוא,נהר בוא חמש,נהר חמש בוא,או בר משה נח,או בר נח משה,או משה בר נח,או משה נח בר,או משה נח רב,או משה רב נח,או נח בר משה,או נח משה בר,או נח משה רב,או נח רב משה,או רב משה נח,או רב נח משה,בו הר חמש נא,בו הר נא חמש,בו חמש הר נא,בו חמש נא הר,בו נא הר חמש,בו נא חמש הר,בר או משה נח,בר או נח משה,בר משה או נח,בר משה נח או,בר נח או משה,בר נח משה או,הר בו חמש נא,הר בו נא חמש,הר חמש בו נא,הר חמש נא בו,הר נא בו חמש,הר נא חמש בו,חמש בו הר נא,חמש בו נא הר,חמש הר בו נא,חמש הר נא בו,חמש נא בו הר,חמש נא הר בו,משה או בר נח,משה או נח בר,משה או נח רב,משה או רב נח,משה בר או נח,משה בר נח או,משה נח או בר,משה נח או רב,משה נח בר או,משה נח רב או,משה רב או נח,משה רב נח או,נא בו הר חמש,נא בו חמש הר,נא הר בו חמש,נא הר חמש בו,נא חמש בו הר,נא חמש הר בו,נח או בר משה,נח או משה בר,נח או משה רב,נח או רב משה,נח בר או משה,נח בר משה או,נח משה או בר,נח משה או רב,נח משה בר או,נח משה רב או,נח רב או משה,נח רב משה או,רב או משה נח,רב או נח משה,רב משה או נח,רב משה נח או,רב נח או משה,רב נח משה או
+  13 × 10 × 67 × 7 × 5 | center=Leviticus 9:13 | Ark GV=3361 | YHWH=0 | oracle=בוא חמש נהר,בוא נהר חמש,חמש בוא נהר,חמש נהר בוא,נהר בוא חמש,נהר חמש בוא,או בר משה נח,או בר נח משה,או משה בר נח,או משה נח בר,או משה נח רב,או משה רב נח,או נח בר משה,או נח משה בר,או נח משה רב,או נח רב משה,או רב משה נח,או רב נח משה,בו הר חמש נא,בו הר נא חמש,בו חמש הר נא,בו חמש נא הר,בו נא הר חמש,בו נא חמש הר,בר או משה נח,בר או נח משה,בר משה או נח,בר משה נח או,בר נח או משה,בר נח משה או,הר בו חמש נא,הר בו נא חמש,הר חמש בו נא,הר חמש נא בו,הר נא בו חמש,הר נא חמש בו,חמש בו הר נא,חמש בו נא הר,חמש הר בו נא,חמש הר נא בו,חמש נא בו הר,חמש נא הר בו,משה או בר נח,משה או נח בר,משה או נח רב,משה או רב נח,משה בר או נח,משה בר נח או,משה נח או בר,משה נח או רב,משה נח בר או,משה נח רב או,משה רב או נח,משה רב נח או,נא בו הר חמש,נא בו חמש הר,נא הר בו חמש,נא הר חמש בו,נא חמש בו הר,נא חמש הר בו,נח או בר משה,נח או משה בר,נח או משה רב,נח או רב משה,נח בר או משה,נח בר משה או,נח משה או בר,נח משה או רב,נח משה בר או,נח משה רב או,נח רב או משה,נח רב משה או,רב או משה נח,רב או נח משה,רב משה או נח,רב משה נח או,רב נח או משה,רב נח משה או
+  13 × 67 × 5 × 7 × 10 | center=Leviticus 8:29 | Ark GV=3350 | YHWH=0
+  13 × 67 × 5 × 10 × 7 | center=Leviticus 8:29 | Ark GV=3096 | YHWH=0
+  13 × 67 × 7 × 5 × 10 | center=Leviticus 8:29 | Ark GV=3350 | YHWH=0
+  13 × 67 × 7 × 10 × 5 | center=Leviticus 8:29 | Ark GV=2938 | YHWH=0
+  67 × 5 × 7 × 10 × 13 | center=Leviticus 8:29 | Ark GV=1421 | YHWH=0
+  67 × 5 × 7 × 13 × 10 | center=Leviticus 8:29 | Ark GV=2477 | YHWH=0
+  67 × 5 × 13 × 7 × 10 | center=Leviticus 8:29 | Ark GV=3173 | YHWH=0
+  67 × 5 × 13 × 10 × 7 | center=Leviticus 8:29 | Ark GV=3119 | YHWH=0 | oracle=יד שוב תורה,יד תורה שוב,שוב יד תורה,שוב תורה יד,תורה יד שוב,תורה שוב יד
+  67 × 7 × 5 × 10 × 13 | center=Leviticus 8:29 | Ark GV=1421 | YHWH=0
+  67 × 7 × 5 × 13 × 10 | center=Leviticus 8:29 | Ark GV=2477 | YHWH=0
+  67 × 7 × 10 × 5 × 13 | center=Leviticus 8:29 | Ark GV=2636 | YHWH=0
+  67 × 7 × 10 × 13 × 5 | center=Leviticus 8:29 | Ark GV=1911 | YHWH=0
+  67 × 7 × 13 × 5 × 10 | center=Leviticus 8:29 | Ark GV=2550 | YHWH=0
+  67 × 7 × 13 × 10 × 5 | center=Leviticus 8:29 | Ark GV=1529 | YHWH=0
+  67 × 10 × 5 × 7 × 13 | center=Leviticus 8:31 | Ark GV=3751 | YHWH=0
+  67 × 10 × 5 × 13 × 7 | center=Leviticus 8:31 | Ark GV=2949 | YHWH=0
+  67 × 10 × 7 × 5 × 13 | center=Leviticus 8:31 | Ark GV=3751 | YHWH=0
+  67 × 10 × 7 × 13 × 5 | center=Leviticus 8:31 | Ark GV=3225 | YHWH=0
+  67 × 10 × 13 × 5 × 7 | center=Leviticus 8:31 | Ark GV=1883 | YHWH=0
+  67 × 10 × 13 × 7 × 5 | center=Leviticus 8:31 | Ark GV=1883 | YHWH=0
+  67 × 13 × 5 × 7 × 10 | center=Leviticus 8:29 | Ark GV=3144 | YHWH=0
+  67 × 13 × 5 × 10 × 7 | center=Leviticus 8:29 | Ark GV=2823 | YHWH=0
+  67 × 13 × 7 × 5 × 10 | center=Leviticus 8:29 | Ark GV=3144 | YHWH=0
+  67 × 13 × 7 × 10 × 5 | center=Leviticus 8:29 | Ark GV=2817 | YHWH=0 | oracle=או כאשר נכה,או נכה כאשר,כאשר או נכה,כאשר נכה או,נכה או כאשר,נכה כאשר או
+
+
+═══ SUMMARY ═══
+Total orderings: 120
+With Lev 8:35: 22
+With YHWH in Ark: 11
+With Ark GV=2603: 2
+With oracle=Moses: 2
+With ALL FOUR: 2
+
+Distinct Ark GVs: 94
+  GV=1421 (2 orderings)
+  GV=1529 (1 orderings)
+  GV=1640 (2 orderings)
+  GV=1734 (1 orderings)
+  GV=1844 (1 orderings)
+  GV=1883 (2 orderings)
+  GV=1911 (1 orderings)
+  GV=1992 (1 orderings)
+  GV=2160 (1 orderings)
+  GV=2183 (2 orderings)
+  GV=2265 (1 orderings)
+  GV=2307 (2 orderings)
+  GV=2385 (1 orderings)
+  GV=2415 (2 orderings)
+  GV=2421 (1 orderings)
+  GV=2437 (1 orderings)
+  GV=2447 (1 orderings)
+  GV=2464 (1 orderings)
+  GV=2477 (2 orderings)
+  GV=2504 (1 orderings)
+  GV=2505 (1 orderings)
+  GV=2517 (2 orderings)
+  GV=2526 (1 orderings)
+  GV=2550 (1 orderings)
+  GV=2586 (1 orderings)
+  GV=2598 (1 orderings)
+  GV=2603 (2 orderings)
+  GV=2636 (1 orderings)
+  GV=2651 (1 orderings)
+  GV=2706 (1 orderings)
+  GV=2710 (1 orderings)
+  GV=2725 (1 orderings)
+  GV=2817 (1 orderings)
+  GV=2823 (1 orderings)
+  GV=2840 (1 orderings)
+  GV=2852 (1 orderings)
+  GV=2938 (1 orderings)
+  GV=2945 (1 orderings)
+  GV=2949 (1 orderings)
+  GV=2959 (1 orderings)
+  GV=2962 (1 orderings)
+  GV=3041 (1 orderings)
+  GV=3067 (1 orderings)
+  GV=3096 (1 orderings)
+  GV=3119 (1 orderings)
+  GV=3120 (1 orderings)
+  GV=3125 (1 orderings)
+  GV=3132 (2 orderings)
+  GV=3144 (2 orderings)
+  GV=3173 (1 orderings)
+  GV=3186 (1 orderings)
+  GV=3225 (1 orderings)
+  GV=3251 (2 orderings)
+  GV=3289 (1 orderings)
+  GV=3290 (1 orderings)
+  GV=3294 (1 orderings)
+  GV=3306 (2 orderings)
+  GV=3314 (1 orderings)
+  GV=3326 (1 orderings)
+  GV=3336 (1 orderings)
+  GV=3350 (2 orderings)
+  GV=3361 (2 orderings)
+  GV=3393 (2 orderings)
+  GV=3417 (2 orderings)
+  GV=3443 (1 orderings)
+  GV=3459 (1 orderings)
+  GV=3483 (1 orderings)
+  GV=3498 (1 orderings)
+  GV=3529 (1 orderings)
+  GV=3534 (2 orderings)
+  GV=3536 (1 orderings)
+  GV=3537 (1 orderings)
+  GV=3581 (2 orderings)
+  GV=3599 (1 orderings)
+  GV=3655 (1 orderings)
+  GV=3670 (1 orderings)
+  GV=3688 (1 orderings)
+  GV=3751 (2 orderings)
+  GV=3761 (1 orderings)
+  GV=3784 (1 orderings)
+  GV=3807 (1 orderings)
+  GV=3843 (2 orderings)
+  GV=3893 (1 orderings)
+  GV=3912 (2 orderings)
+  GV=3960 (2 orderings)
+  GV=4017 (2 orderings)
+  GV=4110 (1 orderings)
+  GV=4131 (1 orderings)
+  GV=4142 (1 orderings)
+  GV=4436 (1 orderings)
+  GV=4553 (2 orderings)
+  GV=4860 (1 orderings)
+  GV=5146 (1 orderings)
+  GV=5197 (2 orderings)
+
+Distinct oracle readings: 22
+  "" (94 orderings)
+  "אהב בר והיה,אהב בר יהוה,אהב והיה בר,אהב והיה רב,אהב יהוה בר,אהב יהוה רב,אהב רב והיה,אהב רב יהוה,בר אהב והיה,בר אהב יהוה,בר והיה אהב,בר יהוה אהב,והיה אהב בר,והיה אהב רב,והיה בר אהב,והיה רב אהב,יהוה אהב בר,יהוה אהב רב,יהוה בר אהב,יהוה רב אהב,רב אהב והיה,רב אהב יהוה,רב והיה אהב,רב יהוה אהב" (1 orderings)
+  "או בת חמש שש,או בת שש חמש,או חמש בת שש,או חמש שש בת,או שש בת חמש,או שש חמש בת,את בו חמש שש,את בו שש חמש,את חמש בו שש,את חמש שש בו,את שש בו חמש,את שש חמש בו,בו את חמש שש,בו את שש חמש,בו חמש את שש,בו חמש שש את,בו שש את חמש,בו שש חמש את,בת או חמש שש,בת או שש חמש,בת חמש או שש,בת חמש שש או,בת שש או חמש,בת שש חמש או,חמש או בת שש,חמש או שש בת,חמש את בו שש,חמש את שש בו,חמש בו את שש,חמש בו שש את,חמש בת או שש,חמש בת שש או,חמש שש או בת,חמש שש את בו,חמש שש בו את,חמש שש בת או,שש או בת חמש,שש או חמש בת,שש את בו חמש,שש את חמש בו,שש בו את חמש,שש בו חמש את,שש בת או חמש,שש בת חמש או,שש חמש או בת,שש חמש את בו,שש חמש בו את,שש חמש בת או" (1 orderings)
+  "או גר חי טוב,או גר טוב חי,או חי גר טוב,או חי טוב גר,או טוב גר חי,או טוב חי גר,גר או חי טוב,גר או טוב חי,גר חי או טוב,גר חי טוב או,גר טוב או חי,גר טוב חי או,חי או גר טוב,חי או טוב גר,חי גר או טוב,חי גר טוב או,חי טוב או גר,חי טוב גר או,טוב או גר חי,טוב או חי גר,טוב גר או חי,טוב גר חי או,טוב חי או גר,טוב חי גר או" (1 orderings)
+  "או כאשר נכה,או נכה כאשר,כאשר או נכה,כאשר נכה או,נכה או כאשר,נכה כאשר או" (1 orderings)
+  "או לי מטה רע,או לי רע מטה,או מטה לי רע,או מטה רע לי,או רע לי מטה,או רע מטה לי,לי או מטה רע,לי או רע מטה,לי מטה או רע,לי מטה רע או,לי רע או מטה,לי רע מטה או,מטה או לי רע,מטה או רע לי,מטה לי או רע,מטה לי רע או,מטה רע או לי,מטה רע לי או,רע או לי מטה,רע או מטה לי,רע לי או מטה,רע לי מטה או,רע מטה או לי,רע מטה לי או" (1 orderings)
+  "אחד אמת אשה,אחד אשה אמת,אמת אחד אשה,אמת אשה אחד,אשה אחד אמת,אשה אמת אחד" (1 orderings)
+  "איש מות משה,איש משה מות,מות איש משה,מות משה איש,משה איש מות,משה מות איש" (2 orderings)
+  "אל הר לי מות,אל הר מות לי,אל לי הר מות,אל לי מות הר,אל מות הר לי,אל מות לי הר,אמת הר לו לי,אמת הר לי לו,אמת לו הר לי,אמת לו לי הר,אמת לי הר לו,אמת לי לו הר,הר אל לי מות,הר אל מות לי,הר אמת לו לי,הר אמת לי לו,הר לא לי מות,הר לא מות לי,הר לו אמת לי,הר לו לי אמת,הר לי אל מות,הר לי אמת לו,הר לי לא מות,הר לי לו אמת,הר לי מות אל,הר לי מות לא,הר מות אל לי,הר מות לא לי,הר מות לי אל,הר מות לי לא,לא הר לי מות,לא הר מות לי,לא לי הר מות,לא לי מות הר,לא מות הר לי,לא מות לי הר,לו אמת הר לי,לו אמת לי הר,לו הר אמת לי,לו הר לי אמת,לו לי אמת הר,לו לי הר אמת,לי אל הר מות,לי אל מות הר,לי אמת הר לו,לי אמת לו הר,לי הר אל מות,לי הר אמת לו,לי הר לא מות,לי הר לו אמת,לי הר מות אל,לי הר מות לא,לי לא הר מות,לי לא מות הר,לי לו אמת הר,לי לו הר אמת,לי מות אל הר,לי מות הר אל,לי מות הר לא,לי מות לא הר,מות אל הר לי,מות אל לי הר,מות הר אל לי,מות הר לא לי,מות הר לי אל,מות הר לי לא,מות לא הר לי,מות לא לי הר,מות לי אל הר,מות לי הר אל,מות לי הר לא,מות לי לא הר" (1 orderings)
+  "אש ליהוה פה,אש פה ליהוה,ליהוה אש פה,ליהוה פה אש,פה אש ליהוה,פה ליהוה אש" (1 orderings)
+  "אש לילה עבד,אש עבד לילה,לילה אש עבד,לילה עבד אש,עבד אש לילה,עבד לילה אש,אל יד לב עשה,אל יד עשה לב,אל לב יד עשה,אל לב עשה יד,אל עשה יד לב,אל עשה לב יד,אש יד לב עלה,אש יד עלה לב,אש לב יד עלה,אש לב עלה יד,אש עלה יד לב,אש עלה לב יד,אשה יד לב על,אשה יד על לב,אשה לב יד על,אשה לב לי עד,אשה לב עד לי,אשה לב על יד,אשה לי לב עד,אשה לי עד לב,אשה עד לב לי,אשה עד לי לב,אשה על יד לב,אשה על לב יד,יד אל לב עשה,יד אל עשה לב,יד אש לב עלה,יד אש עלה לב,יד אשה לב על,יד אשה על לב,יד לא לב עשה,יד לא עשה לב,יד לב אל עשה,יד לב אש עלה,יד לב אשה על,יד לב לא עשה,יד לב על אשה,יד לב עלה אש,יד לב עשה אל,יד לב עשה לא,יד על אשה לב,יד על לב אשה,יד עלה אש לב,יד עלה לב אש,יד עשה אל לב,יד עשה לא לב,יד עשה לב אל,יד עשה לב לא,לא יד לב עשה,לא יד עשה לב,לא לב יד עשה,לא לב עשה יד,לא עשה יד לב,לא עשה לב יד,לב אל יד עשה,לב אל עשה יד,לב אש יד עלה,לב אש עלה יד,לב אשה יד על,לב אשה לי עד,לב אשה עד לי,לב אשה על יד,לב יד אל עשה,לב יד אש עלה,לב יד אשה על,לב יד לא עשה,לב יד על אשה,לב יד עלה אש,לב יד עשה אל,לב יד עשה לא,לב לא יד עשה,לב לא עשה יד,לב לי אשה עד,לב לי עד אשה,לב עד אשה לי,לב עד לי אשה,לב על אשה יד,לב על יד אשה,לב עלה אש יד,לב עלה יד אש,לב עשה אל יד,לב עשה יד אל,לב עשה יד לא,לב עשה לא יד,לי אשה לב עד,לי אשה עד לב,לי לב אשה עד,לי לב עד אשה,לי עד אשה לב,לי עד לב אשה,עד אשה לב לי,עד אשה לי לב,עד לב אשה לי,עד לב לי אשה,עד לי אשה לב,עד לי לב אשה,על אשה יד לב,על אשה לב יד,על יד אשה לב,על יד לב אשה,על לב אשה יד,על לב יד אשה,עלה אש יד לב,עלה אש לב יד,עלה יד אש לב,עלה יד לב אש,עלה לב אש יד,עלה לב יד אש,עשה אל יד לב,עשה אל לב יד,עשה יד אל לב,עשה יד לא לב,עשה יד לב אל,עשה יד לב לא,עשה לא יד לב,עשה לא לב יד,עשה לב אל יד,עשה לב יד אל,עשה לב יד לא,עשה לב לא יד" (2 orderings)
+  "את והיה ראה,את יהוה ראה,את ראה והיה,את ראה יהוה,והיה את ראה,והיה ראה את,יהוה את ראה,יהוה ראה את,ראה את והיה,ראה את יהוה,ראה והיה את,ראה יהוה את" (1 orderings)
+  "בוא חמש נהר,בוא נהר חמש,חמש בוא נהר,חמש נהר בוא,נהר בוא חמש,נהר חמש בוא,או בר משה נח,או בר נח משה,או משה בר נח,או משה נח בר,או משה נח רב,או משה רב נח,או נח בר משה,או נח משה בר,או נח משה רב,או נח רב משה,או רב משה נח,או רב נח משה,בו הר חמש נא,בו הר נא חמש,בו חמש הר נא,בו חמש נא הר,בו נא הר חמש,בו נא חמש הר,בר או משה נח,בר או נח משה,בר משה או נח,בר משה נח או,בר נח או משה,בר נח משה או,הר בו חמש נא,הר בו נא חמש,הר חמש בו נא,הר חמש נא בו,הר נא בו חמש,הר נא חמש בו,חמש בו הר נא,חמש בו נא הר,חמש הר בו נא,חמש הר נא בו,חמש נא בו הר,חמש נא הר בו,משה או בר נח,משה או נח בר,משה או נח רב,משה או רב נח,משה בר או נח,משה בר נח או,משה נח או בר,משה נח או רב,משה נח בר או,משה נח רב או,משה רב או נח,משה רב נח או,נא בו הר חמש,נא בו חמש הר,נא הר בו חמש,נא הר חמש בו,נא חמש בו הר,נא חמש הר בו,נח או בר משה,נח או משה בר,נח או משה רב,נח או רב משה,נח בר או משה,נח בר משה או,נח משה או בר,נח משה או רב,נח משה בר או,נח משה רב או,נח רב או משה,נח רב משה או,רב או משה נח,רב או נח משה,רב משה או נח,רב משה נח או,רב נח או משה,רב נח משה או" (2 orderings)
+  "בקר סלח עלה,בקר עלה סלח,סלח בקר עלה,סלח עלה בקר,עלה בקר סלח,עלה סלח בקר" (1 orderings)
+  "בת דג כל מאה,בת דג מאה כל,בת כל דג מאה,בת כל מאה דג,בת מאה דג כל,בת מאה כל דג,דג בת כל מאה,דג בת מאה כל,דג כל בת מאה,דג כל מאה בת,דג מאה בת כל,דג מאה כל בת,כל בת דג מאה,כל בת מאה דג,כל דג בת מאה,כל דג מאה בת,כל מאה בת דג,כל מאה דג בת,מאה בת דג כל,מאה בת כל דג,מאה דג בת כל,מאה דג כל בת,מאה כל בת דג,מאה כל דג בת" (1 orderings)
+  "בת היא כי על,בת היא על כי,בת כי היא על,בת כי על היא,בת על היא כי,בת על כי היא,היא בת כי על,היא בת על כי,היא כי בת על,היא כי על בת,היא על בת כי,היא על כי בת,כי בת היא על,כי בת על היא,כי היא בת על,כי היא על בת,כי על בת היא,כי על היא בת,על בת היא כי,על בת כי היא,על היא בת כי,על היא כי בת,על כי בת היא,על כי היא בת" (2 orderings)
+  "בת כי לו עשר,בת כי לו שער,בת כי על שור,בת כי עשר לו,בת כי שור על,בת כי שער לו,בת לו כי עשר,בת לו כי שער,בת לו עשר כי,בת לו שער כי,בת על כי שור,בת על שור כי,בת עשר כי לו,בת עשר לו כי,בת שור כי על,בת שור על כי,בת שער כי לו,בת שער לו כי,כי בת לו עשר,כי בת לו שער,כי בת על שור,כי בת עשר לו,כי בת שור על,כי בת שער לו,כי לו בת עשר,כי לו בת שער,כי לו עשר בת,כי לו רע שבת,כי לו שבת רע,כי לו שער בת,כי על בת שור,כי על שור בת,כי עשר בת לו,כי עשר לו בת,כי רע לו שבת,כי רע שבת לו,כי שבת לו רע,כי שבת רע לו,כי שור בת על,כי שור על בת,כי שער בת לו,כי שער לו בת,לו בת כי עשר,לו בת כי שער,לו בת עשר כי,לו בת שער כי,לו כי בת עשר,לו כי בת שער,לו כי עשר בת,לו כי רע שבת,לו כי שבת רע,לו כי שער בת,לו עשר בת כי,לו עשר כי בת,לו רע כי שבת,לו רע שבת כי,לו שבת כי רע,לו שבת רע כי,לו שער בת כי,לו שער כי בת,על בת כי שור,על בת שור כי,על כי בת שור,על כי שור בת,על שור בת כי,על שור כי בת,עשר בת כי לו,עשר בת לו כי,עשר כי בת לו,עשר כי לו בת,עשר לו בת כי,עשר לו כי בת,רע כי לו שבת,רע כי שבת לו,רע לו כי שבת,רע לו שבת כי,רע שבת כי לו,רע שבת לו כי,שבת כי לו רע,שבת כי רע לו,שבת לו כי רע,שבת לו רע כי,שבת רע כי לו,שבת רע לו כי,שור בת כי על,שור בת על כי,שור כי בת על,שור כי על בת,שור על בת כי,שור על כי בת,שער בת כי לו,שער בת לו כי,שער כי בת לו,שער כי לו בת,שער לו בת כי,שער לו כי בת" (1 orderings)
+  "הוא משה עמד,הוא עמד משה,משה הוא עמד,משה עמד הוא,עמד הוא משה,עמד משה הוא" (1 orderings)
+  "ואת ירא מטה,ואת מטה ירא,ירא ואת מטה,ירא מטה ואת,מטה ואת ירא,מטה ירא ואת" (1 orderings)
+  "יד שוב תורה,יד תורה שוב,שוב יד תורה,שוב תורה יד,תורה יד שוב,תורה שוב יד" (1 orderings)
+  "ירש עלה צור,ירש צור עלה,ישר עלה צור,ישר צור עלה,עלה ירש צור,עלה ישר צור,עלה צור ירש,עלה צור ישר,צור ירש עלה,צור ישר עלה,צור עלה ירש,צור עלה ישר" (1 orderings)
+  "לו לו נא שתה,לו לו שתה נא,לו נא לו שתה,לו נא שתה לו,לו שתה לו נא,לו שתה נא לו,נא לו לו שתה,נא לו שתה לו,נא שתה לו לו,שתה לו לו נא,שתה לו נא לו,שתה נא לו לו" (2 orderings)

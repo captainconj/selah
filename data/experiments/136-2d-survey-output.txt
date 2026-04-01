@@ -1,0 +1,173 @@
+=== Experiment 136 (2D): Decomposition Survey ===
+23 non-trivial 2D decompositions
+
+── Centers ──
+  2 × 152425  center=[1 76212]  pos=228637  Numbers 23:22
+  5 × 60970  center=[2 30485]  pos=152425  Leviticus 8:29
+  7 × 43550  center=[3 21775]  pos=152425  Leviticus 8:29
+  10 × 30485  center=[5 15242]  pos=167667  Leviticus 16:29
+  13 × 23450  center=[6 11725]  pos=152425  Leviticus 8:29
+  14 × 21775  center=[7 10887]  pos=163312  Leviticus 14:37
+  25 × 12194  center=[12 6097]  pos=152425  Leviticus 8:29
+  26 × 11725  center=[13 5862]  pos=158287  Leviticus 13:5
+  35 × 8710  center=[17 4355]  pos=152425  Leviticus 8:29
+  50 × 6097  center=[25 3048]  pos=155473  Leviticus 11:2
+  65 × 4690  center=[32 2345]  pos=152425  Leviticus 8:29
+  67 × 4550  center=[33 2275]  pos=152425  Leviticus 8:29
+  70 × 4355  center=[35 2177]  pos=154602  Leviticus 10:7
+  91 × 3350  center=[45 1675]  pos=152425  Leviticus 8:29
+  130 × 2345  center=[65 1172]  pos=153597  Leviticus 9:13
+  134 × 2275  center=[67 1137]  pos=153562  Leviticus 9:12
+  175 × 1742  center=[87 871]  pos=152425  Leviticus 8:29
+  182 × 1675  center=[91 837]  pos=153262  Leviticus 9:7
+  325 × 938  center=[162 469]  pos=152425  Leviticus 8:29
+  335 × 910  center=[167 455]  pos=152425  Leviticus 8:29
+  350 × 871  center=[175 435]  pos=152860  Leviticus 8:35
+  455 × 670  center=[227 335]  pos=152425  Leviticus 8:29
+  469 × 650  center=[234 325]  pos=152425  Leviticus 8:29
+
+── Walk Smoothness ──
+  (Lower mean = smoother walk through text)
+  5 × 60970  mean=1.0  max=1  median=1  step1=100.0%
+  7 × 43550  mean=1.0  max=1  median=1  step1=100.0%
+  13 × 23450  mean=1.0  max=1  median=1  step1=100.0%
+  25 × 12194  mean=1.0  max=1  median=1  step1=100.0%
+  35 × 8710  mean=1.0  max=1  median=1  step1=100.0%
+  65 × 4690  mean=1.0  max=1  median=1  step1=100.0%
+  67 × 4550  mean=1.0  max=1  median=1  step1=100.0%
+  91 × 3350  mean=1.0  max=1  median=1  step1=100.0%
+  175 × 1742  mean=1.0  max=1  median=1  step1=100.0%
+  325 × 938  mean=1.0  max=1  median=1  step1=100.0%
+  335 × 910  mean=1.0  max=1  median=1  step1=100.0%
+  455 × 670  mean=1.0  max=1  median=1  step1=100.0%
+  469 × 650  mean=1.0  max=1  median=1  step1=100.0%
+  10 × 30485  mean=1.6  max=30485  median=1  step1=100.0%
+  70 × 4355  mean=1.9  max=4355  median=1  step1=100.0%
+  130 × 2345  mean=2.0  max=2345  median=1  step1=100.0%
+  350 × 871  mean=2.0  max=871  median=1  step1=99.9%
+  182 × 1675  mean=2.0  max=1675  median=1  step1=99.9%
+  134 × 2275  mean=2.0  max=2275  median=1  step1=100.0%
+  50 × 6097  mean=2.1  max=6097  median=1  step1=100.0%
+  26 × 11725  mean=2.2  max=11725  median=1  step1=100.0%
+  14 × 21775  mean=2.3  max=21775  median=1  step1=100.0%
+  2 × 152425  mean=4.0  max=152425  median=1  step1=100.0%
+
+── Fold Coordinates ──
+  2 × 152425  fold-point=[1 0]
+  5 × 60970  fold-point=[2 30485]
+  7 × 43550  fold-point=[3 21775]
+  10 × 30485  fold-point=[5 0]
+  13 × 23450  fold-point=[6 11725]
+  14 × 21775  fold-point=[7 0]
+  25 × 12194  fold-point=[12 6097]
+  26 × 11725  fold-point=[13 0]
+  35 × 8710  fold-point=[17 4355]
+  50 × 6097  fold-point=[25 0]
+  65 × 4690  fold-point=[32 2345]
+  67 × 4550  fold-point=[33 2275]
+  70 × 4355  fold-point=[35 0]
+  91 × 3350  fold-point=[45 1675]
+  130 × 2345  fold-point=[65 0]
+  134 × 2275  fold-point=[67 0]
+  175 × 1742  fold-point=[87 871]
+  182 × 1675  fold-point=[91 0]
+  325 × 938  fold-point=[162 469]
+  335 × 910  fold-point=[167 455]
+  350 × 871  fold-point=[175 0]
+  455 × 670  fold-point=[227 335]
+  469 × 650  fold-point=[234 325]
+
+── Aleph-Tav Fold Pairs ──
+  2 × 152425  6032 ats  axis-sharing=[0 0]  pcts=["0.0%" "0.0%"]
+  5 × 60970  6032 ats  axis-sharing=[1583 0]  pcts=["26.2%" "0.0%"]
+  7 × 43550  6032 ats  axis-sharing=[1222 0]  pcts=["20.3%" "0.0%"]
+  10 × 30485  6032 ats  axis-sharing=[0 0]  pcts=["0.0%" "0.0%"]
+  13 × 23450  6032 ats  axis-sharing=[627 0]  pcts=["10.4%" "0.0%"]
+  14 × 21775  6032 ats  axis-sharing=[0 1]  pcts=["0.0%" "0.0%"]
+  25 × 12194  6032 ats  axis-sharing=[348 0]  pcts=["5.8%" "0.0%"]
+  26 × 11725  6032 ats  axis-sharing=[0 1]  pcts=["0.0%" "0.0%"]
+  35 × 8710  6032 ats  axis-sharing=[279 0]  pcts=["4.6%" "0.0%"]
+  50 × 6097  6032 ats  axis-sharing=[0 3]  pcts=["0.0%" "0.0%"]
+  65 × 4690  6032 ats  axis-sharing=[177 0]  pcts=["2.9%" "0.0%"]
+  67 × 4550  6032 ats  axis-sharing=[173 0]  pcts=["2.9%" "0.0%"]
+  70 × 4355  6032 ats  axis-sharing=[0 2]  pcts=["0.0%" "0.0%"]
+  91 × 3350  6032 ats  axis-sharing=[138 0]  pcts=["2.3%" "0.0%"]
+  130 × 2345  6032 ats  axis-sharing=[0 2]  pcts=["0.0%" "0.0%"]
+  134 × 2275  6032 ats  axis-sharing=[0 1]  pcts=["0.0%" "0.0%"]
+  175 × 1742  6032 ats  axis-sharing=[60 0]  pcts=["1.0%" "0.0%"]
+  182 × 1675  6032 ats  axis-sharing=[0 8]  pcts=["0.0%" "0.1%"]
+  325 × 938  6032 ats  axis-sharing=[30 0]  pcts=["0.5%" "0.0%"]
+  335 × 910  6032 ats  axis-sharing=[29 0]  pcts=["0.5%" "0.0%"]
+  350 × 871  6032 ats  axis-sharing=[0 12]  pcts=["0.0%" "0.2%"]
+  455 × 670  6032 ats  axis-sharing=[24 0]  pcts=["0.4%" "0.0%"]
+  469 × 650  6032 ats  axis-sharing=[24 0]  pcts=["0.4%" "0.0%"]
+
+── ELS at Stride Values ──
+  2 × 152425:
+    skip=2  torah=46  yhwh=20
+  5 × 60970:
+    skip=5  torah=18  yhwh=52
+    skip=60970  torah=3  yhwh=14
+  7 × 43550:
+    skip=7  torah=20  yhwh=51
+    skip=43550  torah=17  yhwh=24
+  10 × 30485:
+    skip=10  torah=16  yhwh=50
+    skip=30485  torah=13  yhwh=38
+  13 × 23450:
+    skip=13  torah=17  yhwh=53
+    skip=23450  torah=13  yhwh=40
+  14 × 21775:
+    skip=14  torah=21  yhwh=50
+    skip=21775  torah=11  yhwh=45
+  25 × 12194:
+    skip=25  torah=21  yhwh=52
+    skip=12194  torah=22  yhwh=38
+  26 × 11725:
+    skip=26  torah=22  yhwh=43
+    skip=11725  torah=22  yhwh=38
+  35 × 8710:
+    skip=35  torah=11  yhwh=50
+    skip=8710  torah=23  yhwh=65
+  50 × 6097:
+    skip=50  torah=34  yhwh=50
+    skip=6097  torah=14  yhwh=40
+  65 × 4690:
+    skip=65  torah=19  yhwh=51
+    skip=4690  torah=22  yhwh=48
+  67 × 4550:
+    skip=67  torah=14  yhwh=60
+    skip=4550  torah=18  yhwh=59
+  70 × 4355:
+    skip=70  torah=22  yhwh=63
+    skip=4355  torah=14  yhwh=61
+  91 × 3350:
+    skip=91  torah=21  yhwh=50
+    skip=3350  torah=19  yhwh=58
+  130 × 2345:
+    skip=130  torah=29  yhwh=66
+    skip=2345  torah=19  yhwh=56
+  134 × 2275:
+    skip=134  torah=27  yhwh=56
+    skip=2275  torah=17  yhwh=34
+  175 × 1742:
+    skip=175  torah=7  yhwh=62
+    skip=1742  torah=15  yhwh=52
+  182 × 1675:
+    skip=182  torah=23  yhwh=58
+    skip=1675  torah=18  yhwh=41
+  325 × 938:
+    skip=325  torah=11  yhwh=52
+    skip=938  torah=22  yhwh=54
+  335 × 910:
+    skip=335  torah=24  yhwh=35
+    skip=910  torah=23  yhwh=52
+  350 × 871:
+    skip=350  torah=32  yhwh=49
+    skip=871  torah=20  yhwh=44
+  455 × 670:
+    skip=455  torah=25  yhwh=49
+    skip=670  torah=16  yhwh=49
+  469 × 650:
+    skip=469  torah=17  yhwh=61
+    skip=650  torah=17  yhwh=64

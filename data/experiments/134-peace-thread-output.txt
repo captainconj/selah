@@ -1,0 +1,64 @@
+=== Experiment 134: The Peace Thread ===
+
+Summary:
+  aaron-only           217
+  aaron-only-short     83
+  ghosts               4674
+  god-only             829
+  god-only-short       250
+  left-only            715
+  left-only-short      233
+  right-only           852
+  right-only-short     317
+  shared               5539
+  total                12826
+
+=== THEOLOGICAL WORDS — READER PROFILE ===
+שלום   GV=376    A=0   G=35  R=0   L=0    total=35   god-only  peace/wholeness
+חסד    GV=72     A=0   G=0   R=0   L=0    total=0    ghost  lovingkindness
+פנים   GV=180    A=0   G=0   R=0   L=0    total=0    ghost  face
+מלך    GV=90     A=0   G=0   R=0   L=0    total=0    ghost  king
+צדק    GV=194    A=0   G=0   R=0   L=0    total=0    ghost  righteousness
+משפט   GV=429    A=0   G=0   R=0   L=0    total=0    ghost  judgment
+כבש    GV=322    A=0   G=1   R=4   L=0    total=5    shared  lamb
+תורה   GV=611    A=0   G=0   R=14  L=0    total=14   right-only  Torah/teaching
+חיים   GV=68     A=0   G=0   R=10  L=0    total=10   right-only  life
+אמת    GV=441    A=0   G=1   R=0   L=3    total=4    shared  truth
+רוח    GV=214    A=1   G=13  R=4   L=6    total=24   shared  spirit/wind
+כבוד   GV=32     A=0   G=8   R=2   L=1    total=11   shared  glory
+קדוש   GV=410    A=70  G=0   R=2   L=0    total=72   shared  holy
+כפרת   GV=700    A=0   G=0   R=0   L=0    total=0    ghost  mercy seat
+יהוה   GV=26     A=3   G=18  R=6   L=31   total=58   shared  YHWH
+נפש    GV=430    A=6   G=0   R=6   L=0    total=12   shared  soul
+שבת    GV=702    A=0   G=6   R=0   L=11   total=17   shared  sabbath
+ברכה   GV=227    A=0   G=12  R=7   L=10   total=29   shared  
+גאל    GV=34     A=0   G=2   R=0   L=3    total=5    shared  redeem
+סלח    GV=98     A=0   G=3   R=0   L=2    total=5    shared  forgive
+
+=== GOD-EXCLUSIVE SHORT WORDS (top 20) + BASIN ===
+יונק     GV=166   readings=66  fixed=יונק     converged  
+יינם     GV=110   readings=36  fixed=יינם     converged  
+שלום     GV=376   readings=35  fixed=שלום     converged  peace/wholeness
+יונה     GV=71    readings=33  fixed=ונהי     converged  
+מיום     GV=96    readings=30  fixed=מיום     converged  
+ישתה     GV=715   readings=30  fixed=ישתה     converged  
+מידם     GV=94    readings=24  fixed=מידם     converged  
+בשתי     GV=712   readings=24  fixed=תשיב     converged  
+ושתי     GV=716   readings=22  fixed=וישת     converged  
+ויתם     GV=456   readings=21  fixed=ויתם     converged  
+וינח     GV=74    readings=21  fixed=וינח     converged  
+ויפח     GV=104   readings=21  fixed=ויפח     converged  
+ולפי     GV=126   readings=18  fixed=ולפי     converged  
+סיני     GV=130   readings=18  fixed=סיני     converged  
+מותי     GV=456   readings=16  fixed=ימות     converged  
+בלתי     GV=442   readings=16  fixed=לבית     converged  
+משלח     GV=378   readings=13  fixed=משלח     converged  
+שלשם     GV=670   readings=13  fixed=שלשם     converged  
+שלפה     GV=415   readings=13  fixed=שלפה     converged  
+שניר     GV=560   readings=12  fixed=שניר     converged  
+
+=== PER-READER EXCLUSIVE COUNTS (short roots) ===
+God:   250 words
+Aaron: 83 words
+Right: 317 words
+Left:  233 words

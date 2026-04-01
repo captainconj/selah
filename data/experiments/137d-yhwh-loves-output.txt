@@ -1,0 +1,370 @@
+=== Experiment 137d: YHWH Loves ===
+Two spaces where the oracle between the cherubim reads אהב יהוה
+
+═══ 5×14×65×67 (He=2) ═══
+  Dims: 5 × 14 × 65 × 67
+  Cube axes: (1 2 3) | Pin: axis [0] = [2]
+  Cube center: Leviticus 10:7 (pos 154602)
+
+── Holy of Holies (1000 letters) ──
+  Letter count: 1000
+  GV: 71612
+  Verses: Exodus 35:31, Exodus 35:32, Exodus 35:33, Exodus 35:34, Exodus 35:35, Exodus 36:1, Exodus 36:2, Exodus 36:3, Exodus 36:4, Exodus 36:5, Exodus 36:6, Exodus 38:14, Exodus 38:15, Exodus 38:16, Exodus 38:17, Exodus 38:18, Exodus 38:19, Exodus 38:21, Exodus 38:22, Exodus 38:23, Exodus 38:24, Exodus 38:25, Exodus 40:30, Exodus 40:31, Exodus 40:33, Exodus 40:34, Exodus 40:35, Exodus 40:36, Exodus 40:37, Exodus 40:38, Leviticus 10:10, Leviticus 10:12, Leviticus 10:2, Leviticus 10:3, Leviticus 10:4, Leviticus 10:6, Leviticus 10:7, Leviticus 10:9, Leviticus 13:11, Leviticus 13:12, Leviticus 13:13, Leviticus 13:15, Leviticus 13:17, Leviticus 13:19, Leviticus 13:20, Leviticus 13:21, Leviticus 13:22, Leviticus 13:23, Leviticus 13:24, Leviticus 14:30, Leviticus 14:31, Leviticus 14:32, Leviticus 14:33, Leviticus 14:34, Leviticus 14:36, Leviticus 14:37, Leviticus 14:38, Leviticus 14:39, Leviticus 14:40, Leviticus 14:41, Leviticus 14:42, Leviticus 16:23, Leviticus 16:24, Leviticus 16:25, Leviticus 16:26, Leviticus 16:27, Leviticus 16:29, Leviticus 16:30, Leviticus 16:31, Leviticus 16:32, Leviticus 16:33, Leviticus 19:33, Leviticus 19:34, Leviticus 19:35, Leviticus 19:36, Leviticus 19:37, Leviticus 1:1, Leviticus 1:2, Leviticus 1:3, Leviticus 1:4, Leviticus 1:5, Leviticus 20:2, Leviticus 20:3, Leviticus 20:4, Leviticus 20:5, Leviticus 20:6, Leviticus 20:7, Leviticus 4:24, Leviticus 4:25, Leviticus 4:26, Leviticus 4:27, Leviticus 4:28, Leviticus 4:30, Leviticus 4:31, Leviticus 4:32, Leviticus 4:33, Leviticus 4:34, Leviticus 7:20, Leviticus 7:21, Leviticus 7:22, Leviticus 7:24, Leviticus 7:25, Leviticus 7:27, Leviticus 7:29, Leviticus 7:30, Leviticus 7:31, Leviticus 7:32, Leviticus 7:33
+  Text: אכהולחשבמחמחשבתולהוררשוחשבורקםאלואהליאבודשלכלאשרצולבוכלאשרנשניישראללמלםהעשיםאתכלביאמדיהעבדאליעשועודמשלשהולכתףהקלעיהחצרסבכסףוהםמחשקזרועשריםאמחשתוויהםכסמשכןמשכןהעורלמטהיהודםבתכלתובארופהתשעועשרמאותוחמשהווישםאתהכירתידיהםואתראתהחצרסביבעדוכבודיהואאתהמשכןובועדיוםהעלתםויקראאלמשבמכםקרבןלימיםיקריבנוכפרעליוושחועלראשהשעיבאצבעוונתןהכחלבזבחהשתהאחתממצותיםתמימהנקבהכהןמדמהבארכאשרהוסרחסלחלוואםכבחטאתבמקוםאדמהישפךאליהשלמיםאשרלובבהמהטמאהדבריהוהאלמטרפהיעשהלככרתההנפשהאונכרתההנפשמיוליהוהיביאנואתהחזהלבניוואתשואהרןלותהיהימתולפנייהוידםאהרןויםמאתפניהקדהאלאהרןולאהיקצףואחיכישמןמשחתיהךאתךבבאכםאאוביןהטהורהרןואלאלעזהמזבחכיקדששנתהואבעורעתאתכלעורהשרווטהראתהוטמאוהבשרהוהנהנהפךהנמקוםהשחיןשרושערההפךלושפלהאיננהנגעהואואםתותאשוהיתהמאתהאחדמןהתהעלהמנחהוכווידבריהוהרעתבביתארץאתהביתבטרםתוראהאתהנגצאהכהןמןהבשההנגעבקיראלמקוםטמאוקחואבניםאחלמועדופשטאבשאתבגדיווחהוהמשלחאתהחטאתואתשעואתבשרםואתהלכםלחקתעוהגרבתוככםכיאלכםועניתיוולבשאתבגםועלכלעםהקאתוכאזרחמכלהיכםלאתעשהלכםאנייהותםאתםאנייהגרבישראלאשהכרתיאתומקמועםהארץאתשההואובמשפנהאלהאבתואדשתםוהייתם
+
+── Ark (45 letters) ──
+  Text: ההנפשרתההנליהוהצףואחןמשחתךבבאכהנהפךםהשחיערההפ
+  GV: 3067
+  YHWH positions: [11]
+  Verses: Leviticus 10:6, Leviticus 10:7, Leviticus 10:9, Leviticus 13:17, Leviticus 13:19, Leviticus 13:20, Leviticus 7:25, Leviticus 7:27, Leviticus 7:29
+  Per-letter detail:
+    ה (5) pos=150178 — Leviticus 7:25
+    ה (5) pos=150179 — Leviticus 7:25
+    נ (50) pos=150180 — Leviticus 7:25
+    פ (80) pos=150181 — Leviticus 7:25
+    ש (300) pos=150182 — Leviticus 7:25
+    ר (200) pos=150245 — Leviticus 7:27
+    ת (400) pos=150246 — Leviticus 7:27
+    ה (5) pos=150247 — Leviticus 7:27
+    ה (5) pos=150248 — Leviticus 7:27
+    נ (50) pos=150249 — Leviticus 7:27
+    ל (30) pos=150312 — Leviticus 7:29
+    י (10) pos=150313 — Leviticus 7:29
+    ה (5) pos=150314 — Leviticus 7:29
+    ו (6) pos=150315 — Leviticus 7:29
+    ה (5) pos=150316 — Leviticus 7:29
+    צ (90) pos=154533 — Leviticus 10:6
+    ף (80) pos=154534 — Leviticus 10:6
+    ו (6) pos=154535 — Leviticus 10:6
+    א (1) pos=154536 — Leviticus 10:6
+    ח (8) pos=154537 — Leviticus 10:6
+    ן (50) pos=154600 — Leviticus 10:7
+    מ (40) pos=154601 — Leviticus 10:7
+    ש (300) pos=154602 — Leviticus 10:7
+    ח (8) pos=154603 — Leviticus 10:7
+    ת (400) pos=154604 — Leviticus 10:7
+    ך (20) pos=154667 — Leviticus 10:9
+    ב (2) pos=154668 — Leviticus 10:9
+    ב (2) pos=154669 — Leviticus 10:9
+    א (1) pos=154670 — Leviticus 10:9
+    כ (20) pos=154671 — Leviticus 10:9
+    ה (5) pos=158888 — Leviticus 13:17
+    נ (50) pos=158889 — Leviticus 13:17
+    ה (5) pos=158890 — Leviticus 13:17
+    פ (80) pos=158891 — Leviticus 13:17
+    ך (20) pos=158892 — Leviticus 13:17
+    ם (40) pos=158955 — Leviticus 13:19
+    ה (5) pos=158956 — Leviticus 13:19
+    ש (300) pos=158957 — Leviticus 13:19
+    ח (8) pos=158958 — Leviticus 13:19
+    י (10) pos=158959 — Leviticus 13:19
+    ע (70) pos=159022 — Leviticus 13:20
+    ר (200) pos=159023 — Leviticus 13:20
+    ה (5) pos=159024 — Leviticus 13:20
+    ה (5) pos=159025 — Leviticus 13:20
+    פ (80) pos=159026 — Leviticus 13:20
+
+── Mercy Seat (15 letters) ──
+  Text: ליהוהךבבאכערההפ
+  GV: 461
+  Verses: Leviticus 10:9, Leviticus 13:20, Leviticus 7:29
+  Per-letter detail:
+    ל (30) pos=150312 — Leviticus 7:29
+    י (10) pos=150313 — Leviticus 7:29
+    ה (5) pos=150314 — Leviticus 7:29
+    ו (6) pos=150315 — Leviticus 7:29
+    ה (5) pos=150316 — Leviticus 7:29
+    ך (20) pos=154667 — Leviticus 10:9
+    ב (2) pos=154668 — Leviticus 10:9
+    ב (2) pos=154669 — Leviticus 10:9
+    א (1) pos=154670 — Leviticus 10:9
+    כ (20) pos=154671 — Leviticus 10:9
+    ע (70) pos=159022 — Leviticus 13:20
+    ר (200) pos=159023 — Leviticus 13:20
+    ה (5) pos=159024 — Leviticus 13:20
+    ה (5) pos=159025 — Leviticus 13:20
+    פ (80) pos=159026 — Leviticus 13:20
+
+  Mercy Seat oracle (:dict):
+    (no readings)
+
+── Between Cherubim (9 letters) ──
+  Text: יהובבארהה
+  Right cherub: לךע
+  Left cherub: הכפ
+  Oracle readings (:dict):
+    אהב בר והיה
+    אהב בר יהוה
+    אהב והיה בר
+    אהב והיה רב
+    אהב יהוה בר
+    אהב יהוה רב
+    אהב רב והיה
+    אהב רב יהוה
+    בר אהב והיה
+    בר אהב יהוה
+    בר והיה אהב
+    בר יהוה אהב
+    והיה אהב בר
+    והיה אהב רב
+    והיה בר אהב
+    והיה רב אהב
+    יהוה אהב בר
+    יהוה אהב רב
+    יהוה בר אהב
+    יהוה רב אהב
+    רב אהב והיה
+    רב אהב יהוה
+    רב והיה אהב
+    רב יהוה אהב
+
+── Spines (through Ark center) ──
+    Axis 1 range [2 12]:
+      pos=132827 א (1) — Exodus 36:2
+      pos=137182 ש (300) — Exodus 38:21
+      pos=141537 ם (40) — Exodus 40:37
+      pos=145892 ד (4) — Leviticus 4:30
+      pos=150247 ה (5) — Leviticus 7:27
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=158957 ש (300) — Leviticus 13:19
+      pos=163312 א (1) — Leviticus 14:37
+      pos=167667 ח (8) — Leviticus 16:29
+      pos=172022 א (1) — Leviticus 20:3
+    Axis 2 range [27 37]:
+      pos=154267 פ (80) — Leviticus 10:2
+      pos=154334 ה (5) — Leviticus 10:3
+      pos=154401 נ (50) — Leviticus 10:4
+      pos=154468 ר (200) — Leviticus 10:6
+      pos=154535 ו (6) — Leviticus 10:6
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=154669 ב (2) — Leviticus 10:9
+      pos=154736 ה (5) — Leviticus 10:10
+      pos=154803 ל (30) — Leviticus 10:12
+      pos=154870 כ (20) — Leviticus 10:12
+    Axis 3 range [28 38]:
+      pos=154597 י (10) — Leviticus 10:7
+      pos=154598 ש (300) — Leviticus 10:7
+      pos=154599 מ (40) — Leviticus 10:7
+      pos=154600 ן (50) — Leviticus 10:7
+      pos=154601 מ (40) — Leviticus 10:7
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=154603 ח (8) — Leviticus 10:7
+      pos=154604 ת (400) — Leviticus 10:7
+      pos=154605 י (10) — Leviticus 10:7
+      pos=154606 ה (5) — Leviticus 10:7
+
+── Raw Ark positions (linear) ──
+  [150178 150179 150180 150181 150182 150245 150246 150247 150248 150249 150312 150313 150314 150315 150316 154533 154534 154535 154536 154537 154600 154601 154602 154603 154604 154667 154668 154669 154670 154671 158888 158889 158890 158891 158892 158955 158956 158957 158958 158959 159022 159023 159024 159025 159026]
+
+═══ 7×10×65×67 (completeness=3) ═══
+  Dims: 7 × 10 × 65 × 67
+  Cube axes: (1 2 3) | Pin: axis [0] = [3]
+  Cube center: Leviticus 10:7 (pos 154602)
+
+── Holy of Holies (1000 letters) ──
+  Letter count: 1000
+  GV: 71612
+  Verses: Exodus 35:31, Exodus 35:32, Exodus 35:33, Exodus 35:34, Exodus 35:35, Exodus 36:1, Exodus 36:2, Exodus 36:3, Exodus 36:4, Exodus 36:5, Exodus 36:6, Exodus 38:14, Exodus 38:15, Exodus 38:16, Exodus 38:17, Exodus 38:18, Exodus 38:19, Exodus 38:21, Exodus 38:22, Exodus 38:23, Exodus 38:24, Exodus 38:25, Exodus 40:30, Exodus 40:31, Exodus 40:33, Exodus 40:34, Exodus 40:35, Exodus 40:36, Exodus 40:37, Exodus 40:38, Leviticus 10:10, Leviticus 10:12, Leviticus 10:2, Leviticus 10:3, Leviticus 10:4, Leviticus 10:6, Leviticus 10:7, Leviticus 10:9, Leviticus 13:11, Leviticus 13:12, Leviticus 13:13, Leviticus 13:15, Leviticus 13:17, Leviticus 13:19, Leviticus 13:20, Leviticus 13:21, Leviticus 13:22, Leviticus 13:23, Leviticus 13:24, Leviticus 14:30, Leviticus 14:31, Leviticus 14:32, Leviticus 14:33, Leviticus 14:34, Leviticus 14:36, Leviticus 14:37, Leviticus 14:38, Leviticus 14:39, Leviticus 14:40, Leviticus 14:41, Leviticus 14:42, Leviticus 16:23, Leviticus 16:24, Leviticus 16:25, Leviticus 16:26, Leviticus 16:27, Leviticus 16:29, Leviticus 16:30, Leviticus 16:31, Leviticus 16:32, Leviticus 16:33, Leviticus 19:33, Leviticus 19:34, Leviticus 19:35, Leviticus 19:36, Leviticus 19:37, Leviticus 1:1, Leviticus 1:2, Leviticus 1:3, Leviticus 1:4, Leviticus 1:5, Leviticus 20:2, Leviticus 20:3, Leviticus 20:4, Leviticus 20:5, Leviticus 20:6, Leviticus 20:7, Leviticus 4:24, Leviticus 4:25, Leviticus 4:26, Leviticus 4:27, Leviticus 4:28, Leviticus 4:30, Leviticus 4:31, Leviticus 4:32, Leviticus 4:33, Leviticus 4:34, Leviticus 7:20, Leviticus 7:21, Leviticus 7:22, Leviticus 7:24, Leviticus 7:25, Leviticus 7:27, Leviticus 7:29, Leviticus 7:30, Leviticus 7:31, Leviticus 7:32, Leviticus 7:33
+  Text: אכהולחשבמחמחשבתולהוררשוחשבורקםאלואהליאבודשלכלאשרצולבוכלאשרנשניישראללמלםהעשיםאתכלביאמדיהעבדאליעשועודמשלשהולכתףהקלעיהחצרסבכסףוהםמחשקזרועשריםאמחשתוויהםכסמשכןמשכןהעורלמטהיהודםבתכלתובארופהתשעועשרמאותוחמשהווישםאתהכירתידיהםואתראתהחצרסביבעדוכבודיהואאתהמשכןובועדיוםהעלתםויקראאלמשבמכםקרבןלימיםיקריבנוכפרעליוושחועלראשהשעיבאצבעוונתןהכחלבזבחהשתהאחתממצותיםתמימהנקבהכהןמדמהבארכאשרהוסרחסלחלוואםכבחטאתבמקוםאדמהישפךאליהשלמיםאשרלובבהמהטמאהדבריהוהאלמטרפהיעשהלככרתההנפשהאונכרתההנפשמיוליהוהיביאנואתהחזהלבניוואתשואהרןלותהיהימתולפנייהוידםאהרןויםמאתפניהקדהאלאהרןולאהיקצףואחיכישמןמשחתיהךאתךבבאכםאאוביןהטהורהרןואלאלעזהמזבחכיקדששנתהואבעורעתאתכלעורהשרווטהראתהוטמאוהבשרהוהנהנהפךהנמקוםהשחיןשרושערההפךלושפלהאיננהנגעהואואםתותאשוהיתהמאתהאחדמןהתהעלהמנחהוכווידבריהוהרעתבביתארץאתהביתבטרםתוראהאתהנגצאהכהןמןהבשההנגעבקיראלמקוםטמאוקחואבניםאחלמועדופשטאבשאתבגדיווחהוהמשלחאתהחטאתואתשעואתבשרםואתהלכםלחקתעוהגרבתוככםכיאלכםועניתיוולבשאתבגםועלכלעםהקאתוכאזרחמכלהיכםלאתעשהלכםאנייהותםאתםאנייהגרבישראלאשהכרתיאתומקמועםהארץאתשההואובמשפנהאלהאבתואדשתםוהייתם
+
+── Ark (45 letters) ──
+  Text: ההנפשרתההנליהוהצףואחןמשחתךבבאכהנהפךםהשחיערההפ
+  GV: 3067
+  YHWH positions: [11]
+  Verses: Leviticus 10:6, Leviticus 10:7, Leviticus 10:9, Leviticus 13:17, Leviticus 13:19, Leviticus 13:20, Leviticus 7:25, Leviticus 7:27, Leviticus 7:29
+  Per-letter detail:
+    ה (5) pos=150178 — Leviticus 7:25
+    ה (5) pos=150179 — Leviticus 7:25
+    נ (50) pos=150180 — Leviticus 7:25
+    פ (80) pos=150181 — Leviticus 7:25
+    ש (300) pos=150182 — Leviticus 7:25
+    ר (200) pos=150245 — Leviticus 7:27
+    ת (400) pos=150246 — Leviticus 7:27
+    ה (5) pos=150247 — Leviticus 7:27
+    ה (5) pos=150248 — Leviticus 7:27
+    נ (50) pos=150249 — Leviticus 7:27
+    ל (30) pos=150312 — Leviticus 7:29
+    י (10) pos=150313 — Leviticus 7:29
+    ה (5) pos=150314 — Leviticus 7:29
+    ו (6) pos=150315 — Leviticus 7:29
+    ה (5) pos=150316 — Leviticus 7:29
+    צ (90) pos=154533 — Leviticus 10:6
+    ף (80) pos=154534 — Leviticus 10:6
+    ו (6) pos=154535 — Leviticus 10:6
+    א (1) pos=154536 — Leviticus 10:6
+    ח (8) pos=154537 — Leviticus 10:6
+    ן (50) pos=154600 — Leviticus 10:7
+    מ (40) pos=154601 — Leviticus 10:7
+    ש (300) pos=154602 — Leviticus 10:7
+    ח (8) pos=154603 — Leviticus 10:7
+    ת (400) pos=154604 — Leviticus 10:7
+    ך (20) pos=154667 — Leviticus 10:9
+    ב (2) pos=154668 — Leviticus 10:9
+    ב (2) pos=154669 — Leviticus 10:9
+    א (1) pos=154670 — Leviticus 10:9
+    כ (20) pos=154671 — Leviticus 10:9
+    ה (5) pos=158888 — Leviticus 13:17
+    נ (50) pos=158889 — Leviticus 13:17
+    ה (5) pos=158890 — Leviticus 13:17
+    פ (80) pos=158891 — Leviticus 13:17
+    ך (20) pos=158892 — Leviticus 13:17
+    ם (40) pos=158955 — Leviticus 13:19
+    ה (5) pos=158956 — Leviticus 13:19
+    ש (300) pos=158957 — Leviticus 13:19
+    ח (8) pos=158958 — Leviticus 13:19
+    י (10) pos=158959 — Leviticus 13:19
+    ע (70) pos=159022 — Leviticus 13:20
+    ר (200) pos=159023 — Leviticus 13:20
+    ה (5) pos=159024 — Leviticus 13:20
+    ה (5) pos=159025 — Leviticus 13:20
+    פ (80) pos=159026 — Leviticus 13:20
+
+── Mercy Seat (15 letters) ──
+  Text: ליהוהךבבאכערההפ
+  GV: 461
+  Verses: Leviticus 10:9, Leviticus 13:20, Leviticus 7:29
+  Per-letter detail:
+    ל (30) pos=150312 — Leviticus 7:29
+    י (10) pos=150313 — Leviticus 7:29
+    ה (5) pos=150314 — Leviticus 7:29
+    ו (6) pos=150315 — Leviticus 7:29
+    ה (5) pos=150316 — Leviticus 7:29
+    ך (20) pos=154667 — Leviticus 10:9
+    ב (2) pos=154668 — Leviticus 10:9
+    ב (2) pos=154669 — Leviticus 10:9
+    א (1) pos=154670 — Leviticus 10:9
+    כ (20) pos=154671 — Leviticus 10:9
+    ע (70) pos=159022 — Leviticus 13:20
+    ר (200) pos=159023 — Leviticus 13:20
+    ה (5) pos=159024 — Leviticus 13:20
+    ה (5) pos=159025 — Leviticus 13:20
+    פ (80) pos=159026 — Leviticus 13:20
+
+  Mercy Seat oracle (:dict):
+    (no readings)
+
+── Between Cherubim (9 letters) ──
+  Text: יהובבארהה
+  Right cherub: לךע
+  Left cherub: הכפ
+  Oracle readings (:dict):
+    אהב בר והיה
+    אהב בר יהוה
+    אהב והיה בר
+    אהב והיה רב
+    אהב יהוה בר
+    אהב יהוה רב
+    אהב רב והיה
+    אהב רב יהוה
+    בר אהב והיה
+    בר אהב יהוה
+    בר והיה אהב
+    בר יהוה אהב
+    והיה אהב בר
+    והיה אהב רב
+    והיה בר אהב
+    והיה רב אהב
+    יהוה אהב בר
+    יהוה אהב רב
+    יהוה בר אהב
+    יהוה רב אהב
+    רב אהב והיה
+    רב אהב יהוה
+    רב והיה אהב
+    רב יהוה אהב
+
+── Spines (through Ark center) ──
+    Axis 1 range [0 10]:
+      pos=132827 א (1) — Exodus 36:2
+      pos=137182 ש (300) — Exodus 38:21
+      pos=141537 ם (40) — Exodus 40:37
+      pos=145892 ד (4) — Leviticus 4:30
+      pos=150247 ה (5) — Leviticus 7:27
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=158957 ש (300) — Leviticus 13:19
+      pos=163312 א (1) — Leviticus 14:37
+      pos=167667 ח (8) — Leviticus 16:29
+      pos=172022 א (1) — Leviticus 20:3
+    Axis 2 range [27 37]:
+      pos=154267 פ (80) — Leviticus 10:2
+      pos=154334 ה (5) — Leviticus 10:3
+      pos=154401 נ (50) — Leviticus 10:4
+      pos=154468 ר (200) — Leviticus 10:6
+      pos=154535 ו (6) — Leviticus 10:6
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=154669 ב (2) — Leviticus 10:9
+      pos=154736 ה (5) — Leviticus 10:10
+      pos=154803 ל (30) — Leviticus 10:12
+      pos=154870 כ (20) — Leviticus 10:12
+    Axis 3 range [28 38]:
+      pos=154597 י (10) — Leviticus 10:7
+      pos=154598 ש (300) — Leviticus 10:7
+      pos=154599 מ (40) — Leviticus 10:7
+      pos=154600 ן (50) — Leviticus 10:7
+      pos=154601 מ (40) — Leviticus 10:7
+      pos=154602 ש (300) — Leviticus 10:7
+      pos=154603 ח (8) — Leviticus 10:7
+      pos=154604 ת (400) — Leviticus 10:7
+      pos=154605 י (10) — Leviticus 10:7
+      pos=154606 ה (5) — Leviticus 10:7
+
+── Raw Ark positions (linear) ──
+  [150178 150179 150180 150181 150182 150245 150246 150247 150248 150249 150312 150313 150314 150315 150316 154533 154534 154535 154536 154537 154600 154601 154602 154603 154604 154667 154668 154669 154670 154671 158888 158889 158890 158891 158892 158955 158956 158957 158958 158959 159022 159023 159024 159025 159026]
+
+═══ IDENTITY CHECK: Why are the Ark regions identical? ═══
+
+  Ark positions identical? true
+  Mercy positions identical? true
+  HoH positions identical? true
+
+── Coordinate mapping ──
+  Space 1 5 × 14 × 65 × 67:
+    Center: [2 7 32 33]
+    Cube ranges: {1 [2 12], 2 [27 37], 3 [28 38]}
+    Pin coords: {0 2}
+    Strides: [60970 4355 67 1]
+  Space 2 7 × 10 × 65 × 67:
+    Center: [3 5 32 33]
+    Cube ranges: {1 [0 10], 2 [27 37], 3 [28 38]}
+    Pin coords: {0 3}
+    Strides: [43550 4355 67 1]
+
+── First 10 Ark positions in both spaces ──
+  Space 1:
+    pos=150178 → coord=[2 6 31 31]
+    pos=150179 → coord=[2 6 31 32]
+    pos=150180 → coord=[2 6 31 33]
+    pos=150181 → coord=[2 6 31 34]
+    pos=150182 → coord=[2 6 31 35]
+    pos=150245 → coord=[2 6 32 31]
+    pos=150246 → coord=[2 6 32 32]
+    pos=150247 → coord=[2 6 32 33]
+    pos=150248 → coord=[2 6 32 34]
+    pos=150249 → coord=[2 6 32 35]
+  Space 2:
+    pos=150178 → coord=[3 4 31 31]
+    pos=150179 → coord=[3 4 31 32]
+    pos=150180 → coord=[3 4 31 33]
+    pos=150181 → coord=[3 4 31 34]
+    pos=150182 → coord=[3 4 31 35]
+    pos=150245 → coord=[3 4 32 31]
+    pos=150246 → coord=[3 4 32 32]
+    pos=150247 → coord=[3 4 32 33]
+    pos=150248 → coord=[3 4 32 34]
+    pos=150249 → coord=[3 4 32 35]
+
+═══ SUMMARY ═══
+
+5×14×65×67 (He=2):
+  Cube center: Leviticus 10:7
+  Ark GV: 3067
+  Between cherubim: יהובבארהה
+  YHWH at: [11]
+  Oracle readings: אהב בר והיה / אהב בר יהוה / אהב והיה בר / אהב והיה רב / אהב יהוה בר / אהב יהוה רב / אהב רב והיה / אהב רב יהוה / בר אהב והיה / בר אהב יהוה / בר והיה אהב / בר יהוה אהב / והיה אהב בר / והיה אהב רב / והיה בר אהב / והיה רב אהב / יהוה אהב בר / יהוה אהב רב / יהוה בר אהב / יהוה רב אהב / רב אהב והיה / רב אהב יהוה / רב והיה אהב / רב יהוה אהב
+
+7×10×65×67 (completeness=3):
+  Cube center: Leviticus 10:7
+  Ark GV: 3067
+  Between cherubim: יהובבארהה
+  YHWH at: [11]
+  Oracle readings: אהב בר והיה / אהב בר יהוה / אהב והיה בר / אהב והיה רב / אהב יהוה בר / אהב יהוה רב / אהב רב והיה / אהב רב יהוה / בר אהב והיה / בר אהב יהוה / בר והיה אהב / בר יהוה אהב / והיה אהב בר / והיה אהב רב / והיה בר אהב / והיה רב אהב / יהוה אהב בר / יהוה אהב רב / יהוה בר אהב / יהוה רב אהב / רב אהב והיה / רב אהב יהוה / רב והיה אהב / רב יהוה אהב

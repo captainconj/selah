@@ -1,0 +1,54 @@
+=== Experiment 136 (6D): The Floor ===
+Single decomposition: 2 × 5 × 5 × 7 × 13 × 67
+Sum = 99 = 99
+
+── Axes ──
+  axis 0: witness(2)  (size 2)
+  axis 1: He₁(5)  (size 5)
+  axis 2: He₂(5)  (size 5)
+  axis 3: completeness(7)  (size 7)
+  axis 4: love(13)  (size 13)
+  axis 5: understanding(67)  (size 67)
+
+── Center ──
+  center-coord = [1 2 2 3 6 33]
+  center-pos   = 228637
+  verse        = Numbers 23:22
+
+── Walk Smoothness ──
+  mean=2.0  max=93  median=1  step1=98.5%
+
+── Fold ──
+  fold-point coord = [1 0 0 0 0 0]
+  first letter     = [0 0 0 0 0 0]
+  last letter      = [1 4 4 6 12 66]
+
+── Strides ──
+  strides = [152425 30485 6097 871 67 1]
+  stride meanings:
+    stride[0] = 152425  (skip along axis 0: witness(2))
+    stride[1] = 30485  (skip along axis 1: He₁(5))
+    stride[2] = 6097  (skip along axis 2: He₂(5))
+    stride[3] = 871  (skip along axis 3: completeness(7))
+    stride[4] = 67  (skip along axis 4: love(13))
+    stride[5] = 1  (skip along axis 5: understanding(67))
+
+── ELS at Stride/Axis Values ──
+  skip=2        torah=46   yhwh=20   ← axis value
+  skip=5        torah=18   yhwh=52   ← axis value
+  skip=7        torah=20   yhwh=51   ← axis value
+  skip=13       torah=17   yhwh=53   ← axis value
+  skip=67       torah=14   yhwh=60   ← axis value
+  skip=871      torah=20   yhwh=44   ← stride
+  skip=6097     torah=14   yhwh=40   ← stride
+  skip=30485    torah=13   yhwh=38   ← stride
+
+── Aleph-Tav Fold Pairs ──
+  total aleph-tavs: 6032
+  axis sharing:
+    witness(2): 0 pairs share (0.0%)
+    He₁(5): 1075 pairs share (17.8%)
+    He₂(5): 1272 pairs share (21.1%)
+    completeness(7): 805 pairs share (13.3%)
+    love(13): 461 pairs share (7.6%)
+    understanding(67): 100 pairs share (1.7%)

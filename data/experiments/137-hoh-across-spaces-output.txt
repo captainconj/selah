@@ -1,0 +1,679 @@
+=== Experiment 137: Holy of Holies Across All Spaces ===
+47 qualifying decompositions
+
+── 10 × 13 × 2345 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3534
+  Mercy Seat GV: 1076
+  Right cherub: םלמ
+  Left cherub: דעה
+  Between cherubim: המאהתושקל
+
+── 10 × 35 × 871 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3322
+  Mercy Seat GV: 806
+  Right cherub: וול
+  Left cherub: תוה
+  Between cherubim: חברליהמנח
+
+── 10 × 65 × 469 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 5146
+  Mercy Seat GV: 1484
+  Right cherub: ערו
+  Left cherub: שטא
+  Between cherubim: יםעישחיתן
+
+── 10 × 67 × 455 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3417
+  Mercy Seat GV: 687
+  Right cherub: עבא
+  Left cherub: וזג
+  Between cherubim: המאאועתהע
+
+── 10 × 91 × 335 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 4860
+  Mercy Seat GV: 1656
+  Right cherub: עשל
+  Left cherub: םהש
+  Between cherubim: שרירצוהעל
+  Oracle readings: ירש עלה צור, ירש צור עלה, ישר עלה צור, ישר צור עלה, עלה ירש צור, עלה ישר צור, עלה צור ירש, עלה צור ישר, צור ירש עלה, צור ישר עלה, צור עלה ירש, צור עלה ישר
+
+── 13 × 14 × 1675 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 9:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3353
+  Mercy Seat GV: 1517
+  Right cherub: סחק
+  Left cherub: התל
+  Between cherubim: ךאתזההתעו
+
+── 13 × 25 × 938 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2628
+  Mercy Seat GV: 516
+  Right cherub: םבם
+  Left cherub: אהם
+  Between cherubim: וקרניאהיו
+
+── 13 × 35 × 670 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 3144
+  Mercy Seat GV: 698
+  Right cherub: כיה
+  Left cherub: רהש
+  Between cherubim: ינויהואלמ
+
+── 13 × 50 × 469 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:31
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 2265
+  Mercy Seat GV: 686
+  Right cherub: כאי
+  Left cherub: וםו
+  Between cherubim: ימצליכתבא
+
+── 13 × 67 × 350 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3350
+  Mercy Seat GV: 1010
+  Right cherub: האד
+  Left cherub: נכה
+  Between cherubim: עלפתידשאל
+
+── 13 × 70 × 335 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:30
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2962
+  Mercy Seat GV: 974
+  Right cherub: רםה
+  Left cherub: איי
+  Between cherubim: אםנהשמערב
+
+── 13 × 134 × 175 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:30
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3289
+  Mercy Seat GV: 275
+  Right cherub: וום
+  Left cherub: אלו
+  Between cherubim: יעליאכלהי
+  Oracle readings: היא כי לי על, היא כי על לי, היא לי כי על, היא לי על כי, היא על כי לי, היא על לי כי, כי היא לי על, כי היא על לי, כי לי היא על, כי לי על היא, כי על היא לי, כי על לי היא, לי היא כי על, לי היא על כי, לי כי היא על, לי כי על היא, לי על היא כי, לי על כי היא, על היא כי לי, על היא לי כי, על כי היא לי, על כי לי היא, על לי היא כי, על לי כי היא
+
+── 14 × 25 × 871 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 14:37
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3371
+  Mercy Seat GV: 731
+  Right cherub: זאש
+  Left cherub: ויכ
+  Between cherubim: בחהלפנריב
+
+── 14 × 65 × 335 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 14:37
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3040
+  Mercy Seat GV: 1080
+  Right cherub: ברת
+  Left cherub: שאה
+  Between cherubim: יבאחלץוהכ
+  Oracle readings: אב חי כל צוה, אב חי צוה כל, אב כל חי צוה, אב כל צוה חי, אב צוה חי כל, אב צוה כל חי, אח כי לב צוה, אח כי צוה לב, אח לב כי צוה, אח לב צוה כי, אח צוה כי לב, אח צוה לב כי, חי אב כל צוה, חי אב צוה כל, חי כל אב צוה, חי כל צוה אב, חי צוה אב כל, חי צוה כל אב, כי אח לב צוה, כי אח צוה לב, כי לב אח צוה, כי לב צוה אח, כי צוה אח לב, כי צוה לב אח, כל אב חי צוה, כל אב צוה חי, כל חי אב צוה, כל חי צוה אב, כל צוה אב חי, כל צוה חי אב, לב אח כי צוה, לב אח צוה כי, לב כי אח צוה, לב כי צוה אח, לב צוה אח כי, לב צוה כי אח, צוה אב חי כל, צוה אב כל חי, צוה אח כי לב, צוה אח לב כי, צוה חי אב כל, צוה חי כל אב, צוה כי אח לב, צוה כי לב אח, צוה כל אב חי, צוה כל חי אב, צוה לב אח כי, צוה לב כי אח
+
+── 14 × 67 × 325 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 14:37
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3111
+  Mercy Seat GV: 976
+  Right cherub: דוכ
+  Left cherub: הבי
+  Between cherubim: םעלפרחאשר
+  Oracle readings: אח על פר שמר, אח על שמר פר, אח פר על שמר, אח פר שמר על, אח שמר על פר, אח שמר פר על, אל חמש פר רע, אל חמש רע פר, אל פר חמש רע, אל פר רע חמש, אל רע חמש פר, אל רע פר חמש, חמש אל פר רע, חמש אל רע פר, חמש לא פר רע, חמש לא רע פר, חמש פר אל רע, חמש פר לא רע, חמש פר רע אל, חמש פר רע לא, חמש רע אל פר, חמש רע לא פר, חמש רע פר אל, חמש רע פר לא, לא חמש פר רע, לא חמש רע פר, לא פר חמש רע, לא פר רע חמש, לא רע חמש פר, לא רע פר חמש, על אח פר שמר, על אח שמר פר, על פר אח שמר, על פר שמר אח, על שמר אח פר, על שמר פר אח, פר אח על שמר, פר אח שמר על, פר אל חמש רע, פר אל רע חמש, פר חמש אל רע, פר חמש לא רע, פר חמש רע אל, פר חמש רע לא, פר לא חמש רע, פר לא רע חמש, פר על אח שמר, פר על שמר אח, פר רע אל חמש, פר רע חמש אל, פר רע חמש לא, פר רע לא חמש, פר שמר אח על, פר שמר על אח, רע אל חמש פר, רע אל פר חמש, רע חמש אל פר, רע חמש לא פר, רע חמש פר אל, רע חמש פר לא, רע לא חמש פר, רע לא פר חמש, רע פר אל חמש, רע פר חמש אל, רע פר חמש לא, רע פר לא חמש, שמר אח על פר, שמר אח פר על, שמר על אח פר, שמר על פר אח, שמר פר אח על, שמר פר על אח
+
+── 25 × 26 × 469 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:31
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3309
+  Mercy Seat GV: 569
+  Right cherub: ץאי
+  Left cherub: כםב
+  Between cherubim: לפרליכויכ
+  Oracle readings: כי כל לו פרי, כי כל פרי לו, כי כפר לו לי, כי כפר לי לו, כי לו כל פרי, כי לו כפר לי, כי לו לי כפר, כי לו פרי כל, כי לי כפר לו, כי לי לו כפר, כי פרי כל לו, כי פרי לו כל, כל כי לו פרי, כל כי פרי לו, כל לו כי פרי, כל לו פרי כי, כל פרי כי לו, כל פרי לו כי, כפר כי לו לי, כפר כי לי לו, כפר לו כי לי, כפר לו לי כי, כפר לי כי לו, כפר לי לו כי, לו כי כל פרי, לו כי כפר לי, לו כי לי כפר, לו כי פרי כל, לו כל כי פרי, לו כל פרי כי, לו כפר כי לי, לו כפר לי כי, לו לי כי כפר, לו לי כפר כי, לו פרי כי כל, לו פרי כל כי, לי כי כפר לו, לי כי לו כפר, לי כפר כי לו, לי כפר לו כי, לי לו כי כפר, לי לו כפר כי, פרי כי כל לו, פרי כי לו כל, פרי כל כי לו, פרי כל לו כי, פרי לו כי כל, פרי לו כל כי
+
+── 25 × 67 × 182 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 4029
+  Mercy Seat GV: 1619
+  Right cherub: תרי
+  Left cherub: ולא
+  Between cherubim: אתוןואחרש
+  Oracle readings: או אור נחשת, או נחשת אור, אור או נחשת, אור ואת נחש, אור נחש ואת, אור נחשת או, ואת אור נחש, ואת נחש אור, ואת נשא רוח, ואת רוח נשא, נחש אור ואת, נחש ואת אור, נחשת או אור, נחשת אור או, נשא ואת רוח, נשא רוח ואת, רוח ואת נשא, רוח נשא ואת, או את נח שור, או את שור נח, או נח את שור, או נח שור את, או שור את נח, או שור נח את, את או נח שור, את או שור נח, את נח או שור, את נח שור או, את שור או נח, את שור נח או, נח או את שור, נח או שור את, נח את או שור, נח את שור או, נח שור או את, נח שור את או, שור או את נח, שור או נח את, שור את או נח, שור את נח או, שור נח או את, שור נח את או
+
+── 25 × 91 × 134 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3722
+  Mercy Seat GV: 1837
+  Right cherub: דדו
+  Left cherub: תאו
+  Between cherubim: שתאשאתהזב
+  Oracle readings: אש את זה שבת, אש את שבת זה, אש זה את שבת, אש זה שבת את, אש שבת את זה, אש שבת זה את, את אש זה שבת, את אש שבת זה, את את זהב שש, את את שש זהב, את זה אש שבת, את זה שבת אש, את זהב את שש, את זהב שש את, את שבת אש זה, את שבת זה אש, את שש את זהב, את שש זהב את, זה אש את שבת, זה אש שבת את, זה את אש שבת, זה את שבת אש, זה שבת אש את, זה שבת את אש, זהב את את שש, זהב את שש את, זהב שש את את, שבת אש את זה, שבת אש זה את, שבת את אש זה, שבת את זה אש, שבת זה אש את, שבת זה את אש, שש את את זהב, שש את זהב את, שש זהב את את
+
+── 26 × 35 × 335 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 13:5
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 2862
+  Mercy Seat GV: 1063
+  Right cherub: יהת
+  Left cherub: ועו
+  Between cherubim: גידואבשמר
+
+── 26 × 67 × 175 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 13:5
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2693
+  Mercy Seat GV: 1584
+  Right cherub: האמ
+  Left cherub: קלת
+  Between cherubim: ןוהתואשמר
+
+── 35 × 65 × 134 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3362
+  Mercy Seat GV: 1428
+  Right cherub: אדה
+  Left cherub: תאר
+  Between cherubim: ליהשאתלאמ
+  Oracle readings: אמת אש לילה, אמת לילה אש, אש אמת לילה, אש לילה אמת, לילה אמת אש, לילה אש אמת, אל את לי משה, אל את משה לי, אל לי את משה, אל לי משה את, אל משה את לי, אל משה לי את, את אל לי משה, את אל משה לי, את לא לי משה, את לא משה לי, את לי אל משה, את לי לא משה, את לי משה אל, את לי משה לא, את משה אל לי, את משה לא לי, את משה לי אל, את משה לי לא, לא את לי משה, לא את משה לי, לא לי את משה, לא לי משה את, לא משה את לי, לא משה לי את, לי אל את משה, לי אל משה את, לי את אל משה, לי את לא משה, לי את משה אל, לי את משה לא, לי לא את משה, לי לא משה את, לי משה אל את, לי משה את אל, לי משה את לא, לי משה לא את, משה אל את לי, משה אל לי את, משה את אל לי, משה את לא לי, משה את לי אל, משה את לי לא, משה לא את לי, משה לא לי את, משה לי אל את, משה לי את אל, משה לי את לא, משה לי לא את
+
+── 35 × 67 × 130 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2663
+  Mercy Seat GV: 546
+  Right cherub: לוא
+  Left cherub: אדה
+  Between cherubim: בוהויקלמש
+
+── 50 × 67 × 91 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 11:2
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3393
+  Mercy Seat GV: 1180
+  Right cherub: לפש
+  Left cherub: האי
+  Between cherubim: זבחרסהבעת
+
+── 65 × 67 × 70 (3D) ──
+  Cube axes: (0 1 2) | Pin: {}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2852
+  Mercy Seat GV: 1012
+  Right cherub: חשס
+  Left cherub: למי
+  Between cherubim: תמכמןהבגד
+
+── 2 × 13 × 25 × 469 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 1}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2579
+  Mercy Seat GV: 845
+  Right cherub: ואה
+  Left cherub: וםת
+  Between cherubim: םצפבלעכהן
+
+── 2 × 13 × 35 × 335 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 1}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3883
+  Mercy Seat GV: 1702
+  Right cherub: שהי
+  Left cherub: מיש
+  Between cherubim: ואתכןלןתפ
+
+── 2 × 13 × 67 × 175 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 1}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3311
+  Mercy Seat GV: 1062
+  Right cherub: אתי
+  Left cherub: ריי
+  Between cherubim: לאשיאלנדה
+
+── 2 × 25 × 67 × 91 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 1}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2076
+  Mercy Seat GV: 651
+  Right cherub: שבב
+  Left cherub: לאנ
+  Between cherubim: אלמעדיאלפ
+
+── 2 × 35 × 65 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 1}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3039
+  Mercy Seat GV: 557
+  Right cherub: הכח
+  Left cherub: באב
+  Between cherubim: נדילביתהח
+
+── 5 × 10 × 13 × 469 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 11:2
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3393
+  Mercy Seat GV: 2568
+  Right cherub: שלא
+  Left cherub: רשנ
+  Between cherubim: ראשתםתשםו
+
+── 5 × 10 × 67 × 91 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 11:2
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3393
+  Mercy Seat GV: 1180
+  Right cherub: לפש
+  Left cherub: האי
+  Between cherubim: זבחרסהבעת
+
+── 5 × 13 × 14 × 335 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 8:30
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2936
+  Mercy Seat GV: 745
+  Right cherub: לםר
+  Left cherub: איא
+  Between cherubim: בנההשמאלל
+
+── 5 × 13 × 35 × 134 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2670
+  Mercy Seat GV: 1125
+  Right cherub: עדע
+  Left cherub: ואב
+  Between cherubim: לההשאתלאר
+  Oracle readings: אל אל הר שתה, אל אל שתה הר, אל הר אל שתה, אל הר לא שתה, אל הר שתה אל, אל הר שתה לא, אל לא הר שתה, אל לא שתה הר, אל שתה אל הר, אל שתה הר אל, אל שתה הר לא, אל שתה לא הר, הר אל אל שתה, הר אל לא שתה, הר אל שתה אל, הר אל שתה לא, הר לא אל שתה, הר לא לא שתה, הר לא שתה אל, הר לא שתה לא, הר שתה אל אל, הר שתה אל לא, הר שתה לא אל, הר שתה לא לא, לא אל הר שתה, לא אל שתה הר, לא הר אל שתה, לא הר לא שתה, לא הר שתה אל, לא הר שתה לא, לא לא הר שתה, לא לא שתה הר, לא שתה אל הר, לא שתה הר אל, לא שתה הר לא, לא שתה לא הר, שתה אל אל הר, שתה אל הר אל, שתה אל הר לא, שתה אל לא הר, שתה הר אל אל, שתה הר אל לא, שתה הר לא אל, שתה הר לא לא, שתה לא אל הר, שתה לא הר אל, שתה לא הר לא, שתה לא לא הר
+
+── 5 × 13 × 67 × 70 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2852
+  Mercy Seat GV: 1012
+  Right cherub: חשס
+  Left cherub: למי
+  Between cherubim: תמכמןהבגד
+
+── 5 × 14 × 65 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 10:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 3067
+  Mercy Seat GV: 461
+  Right cherub: לךע
+  Left cherub: הכפ
+  Between cherubim: יהובבארהה
+  Oracle readings: אהב בר והיה, אהב בר יהוה, אהב והיה בר, אהב והיה רב, אהב יהוה בר, אהב יהוה רב, אהב רב והיה, אהב רב יהוה, בר אהב והיה, בר אהב יהוה, בר והיה אהב, בר יהוה אהב, והיה אהב בר, והיה אהב רב, והיה בר אהב, והיה רב אהב, יהוה אהב בר, יהוה אהב רב, יהוה בר אהב, יהוה רב אהב, רב אהב והיה, רב אהב יהוה, רב והיה אהב, רב יהוה אהב
+
+── 5 × 26 × 35 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 2}
+  Cube center: Leviticus 9:13
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3738
+  Mercy Seat GV: 623
+  Right cherub: בוק
+  Left cherub: מאא
+  Between cherubim: עפעיקחץהם
+
+── 7 × 10 × 13 × 335 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 3}
+  Cube center: Leviticus 10:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3314
+  Mercy Seat GV: 842
+  Right cherub: מחר
+  Left cherub: ותמ
+  Between cherubim: יהםזההאהע
+
+── 7 × 10 × 65 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 3}
+  Cube center: Leviticus 10:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 3067
+  Mercy Seat GV: 461
+  Right cherub: לךע
+  Left cherub: הכפ
+  Between cherubim: יהובבארהה
+  Oracle readings: אהב בר והיה, אהב בר יהוה, אהב והיה בר, אהב והיה רב, אהב יהוה בר, אהב יהוה רב, אהב רב והיה, אהב רב יהוה, בר אהב והיה, בר אהב יהוה, בר והיה אהב, בר יהוה אהב, והיה אהב בר, והיה אהב רב, והיה בר אהב, והיה רב אהב, יהוה אהב בר, יהוה אהב רב, יהוה בר אהב, יהוה רב אהב, רב אהב והיה, רב אהב יהוה, רב והיה אהב, רב יהוה אהב
+
+── 7 × 13 × 25 × 134 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 3}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2268
+  Mercy Seat GV: 1127
+  Right cherub: מדה
+  Left cherub: קאם
+  Between cherubim: קוםשאתםלכ
+
+── 7 × 13 × 50 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 3}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 1734
+  Mercy Seat GV: 814
+  Right cherub: חהל
+  Left cherub: הלכ
+  Between cherubim: האשרןעיםמ
+
+── 7 × 25 × 26 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 3}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 2317
+  Mercy Seat GV: 1278
+  Right cherub: תהו
+  Left cherub: בלי
+  Between cherubim: משהרןעלפנ
+  Oracle readings: משה נער נפל, משה נפל נער, נהר נפל שמע, נהר שמע נפל, נער משה נפל, נער נפל משה, נפל משה נער, נפל נהר שמע, נפל נער משה, נפל ענה שמר, נפל שמע נהר, נפל שמר ענה, ענה נפל שמר, ענה שמר נפל, שמע נהר נפל, שמע נפל נהר, שמר נפל ענה, שמר ענה נפל
+
+── 10 × 13 × 35 × 67 (4D) ──
+  Cube axes: (0 1 2) | Pin: {3 33}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3062
+  Mercy Seat GV: 1123
+  Right cherub: ויט
+  Left cherub: מעם
+  Between cherubim: שמלאתהעקב
+
+── 10 × 13 × 35 × 67 (4D) ──
+  Cube axes: (0 1 3) | Pin: {2 17}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3534
+  Mercy Seat GV: 1076
+  Right cherub: םלמ
+  Left cherub: דעה
+  Between cherubim: המאהתושקל
+
+── 10 × 13 × 35 × 67 (4D) ──
+  Cube axes: (0 2 3) | Pin: {1 6}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3960
+  Mercy Seat GV: 789
+  Right cherub: מבם
+  Left cherub: הככ
+  Between cherubim: טהיתוכיבר
+
+── 10 × 13 × 35 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 5}
+  Cube center: Leviticus 16:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2605
+  Mercy Seat GV: 789
+  Right cherub: עבמ
+  Left cherub: יכר
+  Between cherubim: ובותוכאהא
+
+── 13 × 14 × 25 × 67 (4D) ──
+  Cube axes: (0 1 2) | Pin: {3 33}
+  Cube center: Leviticus 9:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3891
+  Mercy Seat GV: 1794
+  Right cherub: םלש
+  Left cherub: תום
+  Between cherubim: תאהכהזתעע
+
+── 13 × 14 × 25 × 67 (4D) ──
+  Cube axes: (0 1 3) | Pin: {2 12}
+  Cube center: Leviticus 9:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3353
+  Mercy Seat GV: 1517
+  Right cherub: סחק
+  Left cherub: התל
+  Between cherubim: ךאתזההתעו
+
+── 13 × 14 × 25 × 67 (4D) ──
+  Cube axes: (0 2 3) | Pin: {1 7}
+  Cube center: Leviticus 9:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3869
+  Mercy Seat GV: 806
+  Right cherub: לןן
+  Left cherub: במע
+  Between cherubim: יושאלהרבי
+  Oracle readings: אשר ויהי לב, אשר לב ויהי, ויהי אשר לב, ויהי לב אשר, ויהי לב ראש, ויהי ראש לב, לב אשר ויהי, לב ויהי אשר, לב ויהי ראש, לב ראש ויהי, ראש ויהי לב, ראש לב ויהי, או הר ישב לי, או הר לי ישב, או ישב הר לי, או ישב לי הר, או לי הר ישב, או לי ישב הר, איש בו הר לי, איש בו לי הר, איש הר בו לי, איש הר לי בו, איש לי בו הר, איש לי הר בו, בו איש הר לי, בו איש לי הר, בו הר איש לי, בו הר לי איש, בו לי איש הר, בו לי הר איש, הר או ישב לי, הר או לי ישב, הר איש בו לי, הר איש לי בו, הר בו איש לי, הר בו לי איש, הר ישב או לי, הר ישב לי או, הר לי או ישב, הר לי איש בו, הר לי בו איש, הר לי ישב או, ישב או הר לי, ישב או לי הר, ישב הר או לי, ישב הר לי או, ישב לי או הר, ישב לי הר או, לי או הר ישב, לי או ישב הר, לי איש בו הר, לי איש הר בו, לי בו איש הר, לי בו הר איש, לי הר או ישב, לי הר איש בו, לי הר בו איש, לי הר ישב או, לי ישב או הר, לי ישב הר או
+
+── 13 × 14 × 25 × 67 (4D) ──
+  Cube axes: (1 2 3) | Pin: {0 6}
+  Cube center: Leviticus 9:7
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 1583
+  Mercy Seat GV: 360
+  Right cherub: הןו
+  Left cherub: קמח
+  Between cherubim: ןויאלהמזב
+
+── 2 × 5 × 13 × 35 × 67 (5D) ──
+  Cube axes: (2 3 4) | Pin: {0 1, 1 2}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 3168
+  Mercy Seat GV: 1047
+  Right cherub: םכח
+  Left cherub: תאמ
+  Between cherubim: לךאלביתםה
+  Oracle readings: בת כל לי מאה, בת כל מאה לי, בת לי כל מאה, בת לי מאה כל, בת מאה כל לי, בת מאה לי כל, כל בת לי מאה, כל בת מאה לי, כל לי בת מאה, כל לי מאה בת, כל מאה בת לי, כל מאה לי בת, לי בת כל מאה, לי בת מאה כל, לי כל בת מאה, לי כל מאה בת, לי מאה בת כל, לי מאה כל בת, מאה בת כל לי, מאה בת לי כל, מאה כל בת לי, מאה כל לי בת, מאה לי בת כל, מאה לי כל בת
+
+── 2 × 7 × 13 × 25 × 67 (5D) ──
+  Cube axes: (2 3 4) | Pin: {0 1, 1 3}
+  Cube center: Numbers 23:22
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 1 occurrences
+  Ark GV: 2137
+  Mercy Seat GV: 736
+  Right cherub: לכר
+  Left cherub: ואא
+  Between cherubim: אפילבימשה
+
+── 5 × 5 × 13 × 14 × 67 (5D) ──
+  Cube axes: (2 3 4) | Pin: {0 2, 1 2}
+  Cube center: Leviticus 8:29
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? 
+  YHWH in Ark: 0 occurrences
+  Ark GV: 2804
+  Mercy Seat GV: 912
+  Right cherub: זהת
+  Left cherub: ילי
+  Between cherubim: בחורןעהקט
+
+── 5 × 7 × 10 × 13 × 67 (5D) ──
+  Cube axes: (2 3 4) | Pin: {0 2, 1 3}
+  Cube center: Leviticus 8:35
+  HoH letters: 1000 | Ark: 45 | Mercy Seat: 15
+  Lev 8:35 inside? true
+  YHWH in Ark: 1 occurrences
+  Ark GV: 2603 = 19 × 137
+  Mercy Seat GV: 1472
+  Right cherub: יםי
+  Left cherub: קיר
+  Between cherubim: תויהשמםאש
+  Oracle readings: איש מות משה, איש משה מות, מות איש משה, מות משה איש, משה איש מות, משה מות איש
+
+
+═══ SUMMARY ═══
+Total placements analyzed: 53
+Contain Lev 8:35: 7
+YHWH in Ark: 8
+Ark GV divisible by 137: 1
+
+── Spaces with Lev 8:35 ──
+  13 × 134 × 175 axes=(0 1 2) | YHWH=0 | Ark GV=3289
+  25 × 91 × 134 axes=(0 1 2) | YHWH=0 | Ark GV=3722
+  35 × 65 × 134 axes=(0 1 2) | YHWH=0 | Ark GV=3362
+  35 × 67 × 130 axes=(0 1 2) | YHWH=0 | Ark GV=2663
+  5 × 13 × 35 × 134 axes=(1 2 3) | YHWH=0 | Ark GV=2670
+  7 × 13 × 25 × 134 axes=(1 2 3) | YHWH=0 | Ark GV=2268
+  5 × 7 × 10 × 13 × 67 axes=(2 3 4) | YHWH=1 | Ark GV=2603
+
+── Spaces with YHWH in Ark ──
+  13 × 35 × 670 axes=(0 1 2) | count=1 | center=Leviticus 8:29
+  13 × 50 × 469 axes=(0 1 2) | count=1 | center=Leviticus 8:31
+  26 × 35 × 335 axes=(0 1 2) | count=1 | center=Leviticus 13:5
+  5 × 14 × 65 × 67 axes=(1 2 3) | count=1 | center=Leviticus 10:7
+  7 × 10 × 65 × 67 axes=(1 2 3) | count=1 | center=Leviticus 10:7
+  7 × 25 × 26 × 67 axes=(1 2 3) | count=1 | center=Leviticus 8:29
+  2 × 7 × 13 × 25 × 67 axes=(2 3 4) | count=1 | center=Numbers 23:22
+  5 × 7 × 10 × 13 × 67 axes=(2 3 4) | count=1 | center=Leviticus 8:35

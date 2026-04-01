@@ -1,0 +1,261 @@
+=== Experiment 135: Decompositions ===
+
+N = 304850 = 2 × 5² × 7 × 13 × 67
+
+Divisors: 48
+Match expected list: true
+
+Divisors up to √304850 (√304850 ≈ 552.1):
+  24 divisors: [1 2 5 7 10 13 14 25 26 35 50 65 67 70 91 130 134 175 182 325 335 350 455 469]
+
+4-fold decompositions: 123
+
+=== ALL DECOMPOSITIONS ===
+
+  1. [1 1 1 304850]  sum=304853  named=0  
+  2. [1 1 2 152425]  sum=152429  named=1  witness/division
+  3. [1 1 5 60970]  sum=60977  named=1  He
+  4. [1 1 7 43550]  sum=43559  named=1  completeness
+  5. [1 1 10 30485]  sum=30497  named=1  Yod
+  6. [1 1 13 23450]  sum=23465  named=1  love (אהבה=אחד=13)
+  7. [1 1 14 21775]  sum=21791  named=1  David/hand (דוד=יד=14)
+  8. [1 1 25 12194]  sum=12221  named=1  center of jubilee
+  9. [1 1 26 11725]  sum=11753  named=1  YHWH
+ 10. [1 1 35 8710]  sum=8747  named=1  7×5
+ 11. [1 1 50 6097]  sum=6149  named=1  jubilee
+ 12. [1 1 65 4690]  sum=4757  named=0  
+ 13. [1 1 67 4550]  sum=4619  named=1  understanding (בינה=67)
+ 14. [1 1 70 4355]  sum=4427  named=1  7×10
+ 15. [1 1 91 3350]  sum=3443  named=1  angel (מלאך=91)
+ 16. [1 1 130 2345]  sum=2477  named=0  
+ 17. [1 1 134 2275]  sum=2411  named=0  
+ 18. [1 1 175 1742]  sum=1919  named=0  
+ 19. [1 1 182 1675]  sum=1859  named=0  
+ 20. [1 1 325 938]  sum=1265  named=0  
+ 21. [1 1 335 910]  sum=1247  named=0  
+ 22. [1 1 350 871]  sum=1223  named=0  
+ 23. [1 1 455 670]  sum=1127  named=0  
+ 24. [1 1 469 650]  sum=1121  named=0  
+ 25. [1 2 5 30485]  sum=30493  named=2  witness/division, He
+ 26. [1 2 7 21775]  sum=21785  named=2  witness/division, completeness
+ 27. [1 2 13 11725]  sum=11741  named=2  witness/division, love (אהבה=אחד=13)
+ 28. [1 2 25 6097]  sum=6125  named=2  witness/division, center of jubilee
+ 29. [1 2 35 4355]  sum=4393  named=2  witness/division, 7×5
+ 30. [1 2 65 2345]  sum=2413  named=1  witness/division
+ 31. [1 2 67 2275]  sum=2345  named=2  witness/division, understanding (בינה=67)
+ 32. [1 2 91 1675]  sum=1769  named=2  witness/division, angel (מלאך=91)
+ 33. [1 2 175 871]  sum=1049  named=1  witness/division
+ 34. [1 2 325 469]  sum=797   named=1  witness/division
+ 35. [1 2 335 455]  sum=793   named=1  witness/division
+ 36. [1 5 5 12194]  sum=12205  named=2  He, He
+ 37. [1 5 7 8710]  sum=8723  named=2  He, completeness
+ 38. [1 5 10 6097]  sum=6113  named=2  He, Yod
+ 39. [1 5 13 4690]  sum=4709  named=2  He, love (אהבה=אחד=13)
+ 40. [1 5 14 4355]  sum=4375  named=2  He, David/hand (דוד=יד=14)
+ 41. [1 5 26 2345]  sum=2377  named=2  He, YHWH
+ 42. [1 5 35 1742]  sum=1783  named=2  He, 7×5
+ 43. [1 5 65 938]  sum=1009  named=1  He
+ 44. [1 5 67 910]  sum=983   named=2  He, understanding (בינה=67)
+ 45. [1 5 70 871]  sum=947   named=2  He, 7×10
+ 46. [1 5 91 670]  sum=767   named=2  He, angel (מלאך=91)
+ 47. [1 5 130 469]  sum=605   named=1  He
+ 48. [1 5 134 455]  sum=595   named=1  He
+ 49. [1 5 182 335]  sum=523   named=1  He
+ 50. [1 7 10 4355]  sum=4373  named=2  completeness, Yod
+ 51. [1 7 13 3350]  sum=3371  named=2  completeness, love (אהבה=אחד=13)
+ 52. [1 7 25 1742]  sum=1775  named=2  completeness, center of jubilee
+ 53. [1 7 26 1675]  sum=1709  named=2  completeness, YHWH
+ 54. [1 7 50 871]  sum=929   named=2  completeness, jubilee
+ 55. [1 7 65 670]  sum=743   named=1  completeness
+ 56. [1 7 67 650]  sum=725   named=2  completeness, understanding (בינה=67)
+ 57. [1 7 130 335]  sum=473   named=1  completeness
+ 58. [1 7 134 325]  sum=467   named=1  completeness
+ 59. [1 10 13 2345]  sum=2369  named=2  Yod, love (אהבה=אחד=13)
+ 60. [1 10 35 871]  sum=917   named=2  Yod, 7×5
+ 61. [1 10 65 469]  sum=545   named=1  Yod
+ 62. [1 10 67 455]  sum=533   named=2  Yod, understanding (בינה=67)
+ 63. [1 10 91 335]  sum=437   named=2  Yod, angel (מלאך=91)
+ 64. [1 13 14 1675]  sum=1703  named=2  love (אהבה=אחד=13), David/hand (דוד=יד=14)
+ 65. [1 13 25 938]  sum=977   named=2  love (אהבה=אחד=13), center of jubilee
+ 66. [1 13 35 670]  sum=719   named=2  love (אהבה=אחד=13), 7×5
+ 67. [1 13 50 469]  sum=533   named=2  love (אהבה=אחד=13), jubilee
+ 68. [1 13 67 350]  sum=431   named=2  love (אהבה=אחד=13), understanding (בינה=67)
+ 69. [1 13 70 335]  sum=419   named=2  love (אהבה=אחד=13), 7×10
+ 70. [1 13 134 175]  sum=323   named=1  love (אהבה=אחד=13)
+ 71. [1 14 25 871]  sum=911   named=2  David/hand (דוד=יד=14), center of jubilee
+ 72. [1 14 65 335]  sum=415   named=1  David/hand (דוד=יד=14)
+ 73. [1 14 67 325]  sum=407   named=2  David/hand (דוד=יד=14), understanding (בינה=67)
+ 74. [1 25 26 469]  sum=521   named=2  center of jubilee, YHWH
+ 75. [1 25 67 182]  sum=275   named=2  center of jubilee, understanding (בינה=67)
+ 76. [1 25 91 134]  sum=251   named=2  center of jubilee, angel (מלאך=91)
+ 77. [1 26 35 335]  sum=397   named=2  YHWH, 7×5
+ 78. [1 26 67 175]  sum=269   named=2  YHWH, understanding (בינה=67)
+ 79. [1 35 65 134]  sum=235   named=1  7×5
+ 80. [1 35 67 130]  sum=233   named=2  7×5, understanding (בינה=67)
+ 81. [1 50 67 91]  sum=209   named=3  jubilee, understanding (בינה=67), angel (מלאך=91)
+ 82. [1 65 67 70]  sum=203   named=2  understanding (בינה=67), 7×10
+ 83. [2 5 5 6097]  sum=6109  named=3  witness/division, He, He
+ 84. [2 5 7 4355]  sum=4369  named=3  witness/division, He, completeness
+ 85. [2 5 13 2345]  sum=2365  named=3  witness/division, He, love (אהבה=אחד=13)
+ 86. [2 5 35 871]  sum=913   named=3  witness/division, He, 7×5
+ 87. [2 5 65 469]  sum=541   named=2  witness/division, He
+ 88. [2 5 67 455]  sum=529   named=3  witness/division, He, understanding (בינה=67)
+ 89. [2 5 91 335]  sum=433   named=3  witness/division, He, angel (מלאך=91)
+ 90. [2 7 13 1675]  sum=1697  named=3  witness/division, completeness, love (אהבה=אחד=13)
+ 91. [2 7 25 871]  sum=905   named=3  witness/division, completeness, center of jubilee
+ 92. [2 7 65 335]  sum=409   named=2  witness/division, completeness
+ 93. [2 7 67 325]  sum=401   named=3  witness/division, completeness, understanding (בינה=67)
+ 94. [2 13 25 469]  sum=509   named=3  witness/division, love (אהבה=אחד=13), center of jubilee
+ 95. [2 13 35 335]  sum=385   named=3  witness/division, love (אהבה=אחד=13), 7×5
+ 96. [2 13 67 175]  sum=257   named=3  witness/division, love (אהבה=אחד=13), understanding (בינה=67)
+ 97. [2 25 67 91]  sum=185   named=4  witness/division, center of jubilee, understanding (בינה=67), angel (מלאך=91)
+ 98. [2 35 65 67]  sum=169   named=3  witness/division, 7×5, understanding (בינה=67)
+ 99. [5 5 7 1742]  sum=1759  named=3  He, He, completeness
+100. [5 5 13 938]  sum=961   named=3  He, He, love (אהבה=אחד=13)
+101. [5 5 14 871]  sum=895   named=3  He, He, David/hand (דוד=יד=14)
+102. [5 5 26 469]  sum=505   named=3  He, He, YHWH
+103. [5 5 67 182]  sum=259   named=3  He, He, understanding (בינה=67)
+104. [5 5 91 134]  sum=235   named=3  He, He, angel (מלאך=91)
+105. [5 7 10 871]  sum=893   named=3  He, completeness, Yod
+106. [5 7 13 670]  sum=695   named=3  He, completeness, love (אהבה=אחד=13)
+107. [5 7 26 335]  sum=373   named=3  He, completeness, YHWH
+108. [5 7 65 134]  sum=211   named=2  He, completeness
+109. [5 7 67 130]  sum=209   named=3  He, completeness, understanding (בינה=67)
+110. [5 10 13 469]  sum=497   named=3  He, Yod, love (אהבה=אחד=13)
+111. [5 10 67 91]  sum=173   named=4  He, Yod, understanding (בינה=67), angel (מלאך=91)
+112. [5 13 14 335]  sum=367   named=3  He, love (אהבה=אחד=13), David/hand (דוד=יד=14)
+113. [5 13 35 134]  sum=187   named=3  He, love (אהבה=אחד=13), 7×5
+114. [5 13 67 70]  sum=155   named=4  He, love (אהבה=אחד=13), understanding (בינה=67), 7×10
+115. [5 14 65 67]  sum=151   named=3  He, David/hand (דוד=יד=14), understanding (בינה=67)
+116. [5 26 35 67]  sum=133   named=4  He, YHWH, 7×5, understanding (בינה=67)
+117. [7 10 13 335]  sum=365   named=3  completeness, Yod, love (אהבה=אחד=13)
+118. [7 10 65 67]  sum=149   named=3  completeness, Yod, understanding (בינה=67)
+119. [7 13 25 134]  sum=179   named=3  completeness, love (אהבה=אחד=13), center of jubilee
+120. [7 13 50 67]  sum=137   named=4  completeness, love (אהבה=אחד=13), jubilee, understanding (בינה=67)
+121. [7 25 26 67]  sum=125   named=4  completeness, center of jubilee, YHWH, understanding (בינה=67)
+122. [10 13 35 67]  sum=125   named=4  Yod, love (אהבה=אחד=13), 7×5, understanding (בינה=67)
+123. [13 14 25 67]  sum=119   named=4  love (אהבה=אחד=13), David/hand (דוד=יד=14), center of jubilee, understanding (בינה=67)
+
+=== SPACES WITH {7, 13, 67} ===
+  [7 13 50 67]  sum=137 
+
+=== AXIS SUM DISTRIBUTION ===
+  sum=119     1 decomposition(s)  
+  sum=125     2 decomposition(s)  
+  sum=133     1 decomposition(s)  
+  sum=137     1 decomposition(s)  ← 1/α
+  sum=149     1 decomposition(s)  
+  sum=151     1 decomposition(s)  
+  sum=155     1 decomposition(s)  
+  sum=169     1 decomposition(s)  
+  sum=173     1 decomposition(s)  
+  sum=179     1 decomposition(s)  
+  sum=185     1 decomposition(s)  
+  sum=187     1 decomposition(s)  
+  sum=203     1 decomposition(s)  
+  sum=209     2 decomposition(s)  
+  sum=211     1 decomposition(s)  
+  sum=233     1 decomposition(s)  
+  sum=235     2 decomposition(s)  
+  sum=251     1 decomposition(s)  
+  sum=257     1 decomposition(s)  
+  sum=259     1 decomposition(s)  
+  sum=269     1 decomposition(s)  
+  sum=275     1 decomposition(s)  
+  sum=323     1 decomposition(s)  
+  sum=365     1 decomposition(s)  
+  sum=367     1 decomposition(s)  
+  sum=373     1 decomposition(s)  
+  sum=385     1 decomposition(s)  
+  sum=397     1 decomposition(s)  
+  sum=401     1 decomposition(s)  
+  sum=407     1 decomposition(s)  
+  sum=409     1 decomposition(s)  
+  sum=415     1 decomposition(s)  
+  sum=419     1 decomposition(s)  
+  sum=431     1 decomposition(s)  
+  sum=433     1 decomposition(s)  
+  sum=437     1 decomposition(s)  
+  sum=467     1 decomposition(s)  
+  sum=473     1 decomposition(s)  
+  sum=497     1 decomposition(s)  
+  sum=505     1 decomposition(s)  
+  sum=509     1 decomposition(s)  
+  sum=521     1 decomposition(s)  
+  sum=523     1 decomposition(s)  
+  sum=529     1 decomposition(s)  
+  sum=533     2 decomposition(s)  
+  sum=541     1 decomposition(s)  
+  sum=545     1 decomposition(s)  
+  sum=595     1 decomposition(s)  
+  sum=605     1 decomposition(s)  
+  sum=695     1 decomposition(s)  
+  sum=719     1 decomposition(s)  
+  sum=725     1 decomposition(s)  
+  sum=743     1 decomposition(s)  
+  sum=767     1 decomposition(s)  
+  sum=793     1 decomposition(s)  
+  sum=797     1 decomposition(s)  
+  sum=893     1 decomposition(s)  
+  sum=895     1 decomposition(s)  
+  sum=905     1 decomposition(s)  
+  sum=911     1 decomposition(s)  
+  sum=913     1 decomposition(s)  
+  sum=917     1 decomposition(s)  
+  sum=929     1 decomposition(s)  
+  sum=947     1 decomposition(s)  
+  sum=961     1 decomposition(s)  
+  sum=977     1 decomposition(s)  
+  sum=983     1 decomposition(s)  
+  sum=1009    1 decomposition(s)  
+  sum=1049    1 decomposition(s)  
+  sum=1121    1 decomposition(s)  
+  sum=1127    1 decomposition(s)  
+  sum=1223    1 decomposition(s)  
+  sum=1247    1 decomposition(s)  
+  sum=1265    1 decomposition(s)  
+  sum=1697    1 decomposition(s)  
+  sum=1703    1 decomposition(s)  
+  sum=1709    1 decomposition(s)  
+  sum=1759    1 decomposition(s)  
+  sum=1769    1 decomposition(s)  
+  sum=1775    1 decomposition(s)  
+  sum=1783    1 decomposition(s)  
+  sum=1859    1 decomposition(s)  
+  sum=1919    1 decomposition(s)  
+  sum=2345    1 decomposition(s)  
+  sum=2365    1 decomposition(s)  
+  sum=2369    1 decomposition(s)  
+  sum=2377    1 decomposition(s)  
+  sum=2411    1 decomposition(s)  
+  sum=2413    1 decomposition(s)  
+  sum=2477    1 decomposition(s)  
+  sum=3371    1 decomposition(s)  
+  sum=3443    1 decomposition(s)  
+  sum=4369    1 decomposition(s)  
+  sum=4373    1 decomposition(s)  
+  sum=4375    1 decomposition(s)  
+  sum=4393    1 decomposition(s)  
+  sum=4427    1 decomposition(s)  
+  sum=4619    1 decomposition(s)  
+  sum=4709    1 decomposition(s)  
+  sum=4757    1 decomposition(s)  
+  sum=6109    1 decomposition(s)  
+  sum=6113    1 decomposition(s)  
+  sum=6125    1 decomposition(s)  
+  sum=6149    1 decomposition(s)  
+  sum=8723    1 decomposition(s)  
+  sum=8747    1 decomposition(s)  
+  sum=11741   1 decomposition(s)  
+  sum=11753   1 decomposition(s)  
+  sum=12205   1 decomposition(s)  
+  sum=12221   1 decomposition(s)  
+  sum=21785   1 decomposition(s)  
+  sum=21791   1 decomposition(s)  
+  sum=23465   1 decomposition(s)  
+  sum=30493   1 decomposition(s)  
+  sum=30497   1 decomposition(s)  
+  sum=43559   1 decomposition(s)  
+  sum=60977   1 decomposition(s)  
+  sum=152429  1 decomposition(s)  
+  sum=304853  1 decomposition(s)  

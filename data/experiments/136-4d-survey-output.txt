@@ -1,0 +1,406 @@
+=== Experiment 136 (4D): Decomposition Survey ===
+41 non-trivial 4D decompositions
+Canonical: 7 × 50 × 13 × 67  sum=137
+
+── Centers ──
+    2 × 5 × 5 × 6097        center=[1 2 2 3048]      pos=228637   sum=6109  Numbers 23:22
+    2 × 5 × 7 × 4355        center=[1 2 3 2177]      pos=228637   sum=4369  Numbers 23:22
+    2 × 5 × 13 × 2345       center=[1 2 6 1172]      pos=228637   sum=2365  Numbers 23:22
+    2 × 5 × 35 × 871        center=[1 2 17 435]      pos=228637   sum=913   Numbers 23:22
+    2 × 5 × 65 × 469        center=[1 2 32 234]      pos=228637   sum=541   Numbers 23:22
+    2 × 5 × 67 × 455        center=[1 2 33 227]      pos=228637   sum=529   Numbers 23:22
+    2 × 5 × 91 × 335        center=[1 2 45 167]      pos=228637   sum=433   Numbers 23:22
+    2 × 7 × 13 × 1675       center=[1 3 6 837]       pos=228637   sum=1697  Numbers 23:22
+    2 × 7 × 25 × 871        center=[1 3 12 435]      pos=228637   sum=905   Numbers 23:22
+    2 × 7 × 65 × 335        center=[1 3 32 167]      pos=228637   sum=409   Numbers 23:22
+    2 × 7 × 67 × 325        center=[1 3 33 162]      pos=228637   sum=401   Numbers 23:22
+    2 × 13 × 25 × 469       center=[1 6 12 234]      pos=228637   sum=509   Numbers 23:22
+    2 × 13 × 35 × 335       center=[1 6 17 167]      pos=228637   sum=385   Numbers 23:22
+    2 × 13 × 67 × 175       center=[1 6 33 87]       pos=228637   sum=257   Numbers 23:22
+    2 × 25 × 67 × 91        center=[1 12 33 45]      pos=228637   sum=185   Numbers 23:22
+    2 × 35 × 65 × 67        center=[1 17 32 33]      pos=228637   sum=169   Numbers 23:22
+    5 × 5 × 7 × 1742        center=[2 2 3 871]       pos=152425   sum=1759  Leviticus 8:29
+    5 × 5 × 13 × 938        center=[2 2 6 469]       pos=152425   sum=961   Leviticus 8:29
+    5 × 5 × 14 × 871        center=[2 2 7 435]       pos=152860   sum=895   Leviticus 8:35
+    5 × 5 × 26 × 469        center=[2 2 13 234]      pos=152659   sum=505   Leviticus 8:31
+    5 × 5 × 67 × 182        center=[2 2 33 91]       pos=152425   sum=259   Leviticus 8:29
+    5 × 5 × 91 × 134        center=[2 2 45 67]       pos=152425   sum=235   Leviticus 8:29
+    5 × 7 × 10 × 871        center=[2 3 5 435]       pos=152860   sum=893   Leviticus 8:35
+    5 × 7 × 13 × 670        center=[2 3 6 335]       pos=152425   sum=695   Leviticus 8:29
+    5 × 7 × 26 × 335        center=[2 3 13 167]      pos=152592   sum=373   Leviticus 8:30
+    5 × 7 × 65 × 134        center=[2 3 32 67]       pos=152425   sum=211   Leviticus 8:29
+    5 × 7 × 67 × 130        center=[2 3 33 65]       pos=152425   sum=209   Leviticus 8:29
+    5 × 10 × 13 × 469       center=[2 5 6 234]       pos=155473   sum=497   Leviticus 11:2
+    5 × 10 × 67 × 91        center=[2 5 33 45]       pos=155473   sum=173   Leviticus 11:2
+    5 × 13 × 14 × 335       center=[2 6 7 167]       pos=152592   sum=367   Leviticus 8:30
+    5 × 13 × 35 × 134       center=[2 6 17 67]       pos=152425   sum=187   Leviticus 8:29
+    5 × 13 × 67 × 70        center=[2 6 33 35]       pos=152425   sum=155   Leviticus 8:29
+    5 × 14 × 65 × 67        center=[2 7 32 33]       pos=154602   sum=151   Leviticus 10:7
+    5 × 26 × 35 × 67        center=[2 13 17 33]      pos=153597   sum=133   Leviticus 9:13
+    7 × 10 × 13 × 335       center=[3 5 6 167]       pos=154602   sum=365   Leviticus 10:7
+    7 × 10 × 65 × 67        center=[3 5 32 33]       pos=154602   sum=149   Leviticus 10:7
+    7 × 13 × 25 × 134       center=[3 6 12 67]       pos=152425   sum=179   Leviticus 8:29
+    7 × 13 × 50 × 67        center=[3 6 25 33]       pos=152458   sum=137   Leviticus 8:29
+    7 × 25 × 26 × 67        center=[3 12 13 33]      pos=152458   sum=125   Leviticus 8:29
+    10 × 13 × 35 × 67       center=[5 6 17 33]       pos=167667   sum=125   Leviticus 16:29
+    13 × 14 × 25 × 67       center=[6 7 12 33]       pos=153262   sum=119   Leviticus 9:7
+
+── Center Convergence ──
+  Numbers 23:22: 16 spaces → 2 × 5 × 5 × 6097, 2 × 5 × 7 × 4355, 2 × 5 × 13 × 2345, 2 × 5 × 35 × 871, 2 × 5 × 65 × 469, 2 × 5 × 67 × 455, 2 × 5 × 91 × 335, 2 × 7 × 13 × 1675, 2 × 7 × 25 × 871, 2 × 7 × 65 × 335, 2 × 7 × 67 × 325, 2 × 13 × 25 × 469, 2 × 13 × 35 × 335, 2 × 13 × 67 × 175, 2 × 25 × 67 × 91, 2 × 35 × 65 × 67
+  Leviticus 8:29: 12 spaces → 5 × 5 × 7 × 1742, 5 × 5 × 13 × 938, 5 × 5 × 67 × 182, 5 × 5 × 91 × 134, 5 × 7 × 13 × 670, 5 × 7 × 65 × 134, 5 × 7 × 67 × 130, 5 × 13 × 35 × 134, 5 × 13 × 67 × 70, 7 × 13 × 25 × 134, 7 × 13 × 50 × 67, 7 × 25 × 26 × 67
+  Leviticus 10:7: 3 spaces → 5 × 14 × 65 × 67, 7 × 10 × 13 × 335, 7 × 10 × 65 × 67
+  Leviticus 8:30: 2 spaces → 5 × 7 × 26 × 335, 5 × 13 × 14 × 335
+  Leviticus 8:35: 2 spaces → 5 × 5 × 14 × 871, 5 × 7 × 10 × 871
+  Leviticus 11:2: 2 spaces → 5 × 10 × 13 × 469, 5 × 10 × 67 × 91
+
+── Walk Smoothness (ranked) ──
+  Canonical rank: 42 of 41
+
+    5 × 5 × 7 × 1742        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 5 × 13 × 938        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 5 × 67 × 182        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 5 × 91 × 134        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 7 × 13 × 670        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 7 × 65 × 134        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 7 × 67 × 130        mean=1.0      max=1      median=1     step1=100.0%
+    5 × 13 × 35 × 134       mean=1.0      max=1      median=1     step1=100.0%
+    5 × 13 × 67 × 70        mean=1.0      max=1      median=1     step1=100.0%
+    7 × 13 × 25 × 134       mean=1.0      max=1      median=1     step1=100.0%
+    2 × 5 × 7 × 4355        mean=1.9      max=4365   median=1     step1=100.0%
+    2 × 5 × 13 × 2345       mean=2.0      max=2361   median=1     step1=100.0%
+    7 × 13 × 50 × 67        mean=2.0      max=67     median=1     step1=98.5%
+    7 × 25 × 26 × 67        mean=2.0      max=67     median=1     step1=98.5%
+    5 × 7 × 26 × 335        mean=2.0      max=335    median=1     step1=99.7%
+    5 × 13 × 14 × 335       mean=2.0      max=335    median=1     step1=99.7%
+    2 × 5 × 67 × 455        mean=2.0      max=525    median=1     step1=99.8%
+    2 × 5 × 91 × 335        mean=2.0      max=429    median=1     step1=99.7%
+    7 × 10 × 13 × 335       mean=2.0      max=347    median=1     step1=99.7%
+    2 × 13 × 35 × 335       mean=2.0      max=381    median=1     step1=99.7%
+    2 × 7 × 65 × 335        mean=2.0      max=405    median=1     step1=99.7%
+    5 × 14 × 65 × 67        mean=2.0      max=131    median=1     step1=98.5%
+    7 × 10 × 65 × 67        mean=2.0      max=131    median=1     step1=98.5%
+    5 × 26 × 35 × 67        mean=2.0      max=101    median=1     step1=98.5%
+    10 × 13 × 35 × 67       mean=2.0      max=113    median=1     step1=98.5%
+    2 × 35 × 65 × 67        mean=2.0      max=165    median=1     step1=98.5%
+    13 × 14 × 25 × 67       mean=2.0      max=91     median=1     step1=98.5%
+    5 × 10 × 67 × 91        mean=2.0      max=157    median=1     step1=98.9%
+    2 × 25 × 67 × 91        mean=2.0      max=181    median=1     step1=98.9%
+    2 × 13 × 67 × 175       mean=2.0      max=253    median=1     step1=99.4%
+    5 × 5 × 26 × 469        mean=2.0      max=469    median=1     step1=99.8%
+    2 × 7 × 67 × 325        mean=2.0      max=397    median=1     step1=99.7%
+    2 × 5 × 65 × 469        mean=2.0      max=537    median=1     step1=99.8%
+    5 × 10 × 13 × 469       mean=2.0      max=481    median=1     step1=99.8%
+    2 × 13 × 25 × 469       mean=2.0      max=505    median=1     step1=99.8%
+    5 × 5 × 14 × 871        mean=2.0      max=871    median=1     step1=99.9%
+    5 × 7 × 10 × 871        mean=2.0      max=871    median=1     step1=99.9%
+    2 × 5 × 35 × 871        mean=2.0      max=909    median=1     step1=99.9%
+    2 × 7 × 25 × 871        mean=2.0      max=901    median=1     step1=99.9%
+    2 × 7 × 13 × 1675       mean=2.0      max=1693   median=1     step1=99.9%
+    2 × 5 × 5 × 6097        mean=2.1      max=6105   median=1     step1=100.0%
+
+── Fold Analysis ──
+    2 × 5 × 5 × 6097        fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 7 × 4355        fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 13 × 2345       fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 35 × 871        fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 65 × 469        fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 67 × 455        fold=[1 0 0 0]  at-center?=false
+    2 × 5 × 91 × 335        fold=[1 0 0 0]  at-center?=false
+    2 × 7 × 13 × 1675       fold=[1 0 0 0]  at-center?=false
+    2 × 7 × 25 × 871        fold=[1 0 0 0]  at-center?=false
+    2 × 7 × 65 × 335        fold=[1 0 0 0]  at-center?=false
+    2 × 7 × 67 × 325        fold=[1 0 0 0]  at-center?=false
+    2 × 13 × 25 × 469       fold=[1 0 0 0]  at-center?=false
+    2 × 13 × 35 × 335       fold=[1 0 0 0]  at-center?=false
+    2 × 13 × 67 × 175       fold=[1 0 0 0]  at-center?=false
+    2 × 25 × 67 × 91        fold=[1 0 0 0]  at-center?=false
+    2 × 35 × 65 × 67        fold=[1 0 0 0]  at-center?=false
+    5 × 5 × 7 × 1742        fold=[2 2 3 871]  at-center?=true
+    5 × 5 × 13 × 938        fold=[2 2 6 469]  at-center?=true
+    5 × 5 × 14 × 871        fold=[2 2 7 0]  at-center?=false
+    5 × 5 × 26 × 469        fold=[2 2 13 0]  at-center?=false
+    5 × 5 × 67 × 182        fold=[2 2 33 91]  at-center?=true
+    5 × 5 × 91 × 134        fold=[2 2 45 67]  at-center?=true
+    5 × 7 × 10 × 871        fold=[2 3 5 0]  at-center?=false
+    5 × 7 × 13 × 670        fold=[2 3 6 335]  at-center?=true
+    5 × 7 × 26 × 335        fold=[2 3 13 0]  at-center?=false
+    5 × 7 × 65 × 134        fold=[2 3 32 67]  at-center?=true
+    5 × 7 × 67 × 130        fold=[2 3 33 65]  at-center?=true
+    5 × 10 × 13 × 469       fold=[2 5 0 0]  at-center?=false
+    5 × 10 × 67 × 91        fold=[2 5 0 0]  at-center?=false
+    5 × 13 × 14 × 335       fold=[2 6 7 0]  at-center?=false
+    5 × 13 × 35 × 134       fold=[2 6 17 67]  at-center?=true
+    5 × 13 × 67 × 70        fold=[2 6 33 35]  at-center?=true
+    5 × 14 × 65 × 67        fold=[2 7 0 0]  at-center?=false
+    5 × 26 × 35 × 67        fold=[2 13 0 0]  at-center?=false
+    7 × 10 × 13 × 335       fold=[3 5 0 0]  at-center?=false
+    7 × 10 × 65 × 67        fold=[3 5 0 0]  at-center?=false
+    7 × 13 × 25 × 134       fold=[3 6 12 67]  at-center?=true
+    7 × 13 × 50 × 67        fold=[3 6 25 0]  at-center?=false
+    7 × 25 × 26 × 67        fold=[3 12 13 0]  at-center?=false
+    10 × 13 × 35 × 67       fold=[5 0 0 0]  at-center?=false
+    13 × 14 × 25 × 67       fold=[6 7 0 0]  at-center?=false
+
+── Aleph-Tav Fold Pairs ──
+    5 × 5 × 7 × 1742        6032 ats  shares=[1583 1248 881 0]  pcts=["26.2%" "20.7%" "14.6%" "0.0%"]
+    5 × 5 × 13 × 938        6032 ats  shares=[1583 1248 460 0]  pcts=["26.2%" "20.7%" "7.6%" "0.0%"]
+    5 × 5 × 14 × 871        6032 ats  shares=[1583 1248 0 12]  pcts=["26.2%" "20.7%" "0.0%" "0.2%"]
+    5 × 5 × 26 × 469        6032 ats  shares=[1583 1248 0 16]  pcts=["26.2%" "20.7%" "0.0%" "0.3%"]
+    5 × 5 × 67 × 182        6032 ats  shares=[1583 1248 92 0]  pcts=["26.2%" "20.7%" "1.5%" "0.0%"]
+    5 × 5 × 91 × 134        6032 ats  shares=[1583 1248 63 0]  pcts=["26.2%" "20.7%" "1.0%" "0.0%"]
+    5 × 7 × 10 × 871        6032 ats  shares=[1583 929 0 12]  pcts=["26.2%" "15.4%" "0.0%" "0.2%"]
+    5 × 7 × 13 × 670        6032 ats  shares=[1583 929 436 0]  pcts=["26.2%" "15.4%" "7.2%" "0.0%"]
+    5 × 7 × 26 × 335        6032 ats  shares=[1583 929 0 27]  pcts=["26.2%" "15.4%" "0.0%" "0.4%"]
+    5 × 7 × 65 × 134        6032 ats  shares=[1583 929 84 0]  pcts=["26.2%" "15.4%" "1.4%" "0.0%"]
+    5 × 7 × 67 × 130        6032 ats  shares=[1583 929 77 0]  pcts=["26.2%" "15.4%" "1.3%" "0.0%"]
+    5 × 10 × 13 × 469       6032 ats  shares=[1583 0 410 16]  pcts=["26.2%" "0.0%" "6.8%" "0.3%"]
+    5 × 10 × 67 × 91        6032 ats  shares=[1583 0 66 60]  pcts=["26.2%" "0.0%" "1.1%" "1.0%"]
+    5 × 13 × 14 × 335       6032 ats  shares=[1583 559 0 27]  pcts=["26.2%" "9.3%" "0.0%" "0.4%"]
+    5 × 13 × 35 × 134       6032 ats  shares=[1583 559 140 0]  pcts=["26.2%" "9.3%" "2.3%" "0.0%"]
+    5 × 13 × 67 × 70        6032 ats  shares=[1583 559 74 0]  pcts=["26.2%" "9.3%" "1.2%" "0.0%"]
+    5 × 14 × 65 × 67        6032 ats  shares=[1583 0 89 100]  pcts=["26.2%" "0.0%" "1.5%" "1.7%"]
+    5 × 26 × 35 × 67        6032 ats  shares=[1583 0 155 100]  pcts=["26.2%" "0.0%" "2.6%" "1.7%"]
+    2 × 5 × 5 × 6097        6032 ats  shares=[0 1075 1272 3]  pcts=["0.0%" "17.8%" "21.1%" "0.0%"]
+    7 × 10 × 13 × 335       6032 ats  shares=[1222 0 434 27]  pcts=["20.3%" "0.0%" "7.2%" "0.4%"]
+    7 × 10 × 65 × 67        6032 ats  shares=[1222 0 89 100]  pcts=["20.3%" "0.0%" "1.5%" "1.7%"]
+    7 × 13 × 25 × 134       6032 ats  shares=[1222 510 227 0]  pcts=["20.3%" "8.5%" "3.8%" "0.0%"]
+    7 × 13 × 50 × 67        6032 ats  shares=[1222 510 0 100]  pcts=["20.3%" "8.5%" "0.0%" "1.7%"]
+    7 × 25 × 26 × 67        6032 ats  shares=[1222 254 0 100]  pcts=["20.3%" "4.2%" "0.0%" "1.7%"]
+    2 × 5 × 7 × 4355        6032 ats  shares=[0 1075 922 2]  pcts=["0.0%" "17.8%" "15.3%" "0.0%"]
+    2 × 5 × 13 × 2345       6032 ats  shares=[0 1075 480 2]  pcts=["0.0%" "17.8%" "8.0%" "0.0%"]
+    2 × 5 × 35 × 871        6032 ats  shares=[0 1075 166 12]  pcts=["0.0%" "17.8%" "2.8%" "0.2%"]
+    2 × 5 × 65 × 469        6032 ats  shares=[0 1075 89 16]  pcts=["0.0%" "17.8%" "1.5%" "0.3%"]
+    2 × 5 × 67 × 455        6032 ats  shares=[0 1075 86 8]  pcts=["0.0%" "17.8%" "1.4%" "0.1%"]
+    2 × 5 × 91 × 335        6032 ats  shares=[0 1075 57 27]  pcts=["0.0%" "17.8%" "0.9%" "0.4%"]
+    2 × 7 × 13 × 1675       6032 ats  shares=[0 746 421 8]  pcts=["0.0%" "12.4%" "7.0%" "0.1%"]
+    2 × 7 × 25 × 871        6032 ats  shares=[0 746 222 12]  pcts=["0.0%" "12.4%" "3.7%" "0.2%"]
+    2 × 7 × 65 × 335        6032 ats  shares=[0 746 67 27]  pcts=["0.0%" "12.4%" "1.1%" "0.4%"]
+    2 × 7 × 67 × 325        6032 ats  shares=[0 746 67 15]  pcts=["0.0%" "12.4%" "1.1%" "0.2%"]
+    13 × 14 × 25 × 67       6032 ats  shares=[627 0 234 100]  pcts=["10.4%" "0.0%" "3.9%" "1.7%"]
+    10 × 13 × 35 × 67       6032 ats  shares=[0 480 155 100]  pcts=["0.0%" "8.0%" "2.6%" "1.7%"]
+    2 × 13 × 25 × 469       6032 ats  shares=[0 371 274 16]  pcts=["0.0%" "6.2%" "4.5%" "0.3%"]
+    2 × 13 × 35 × 335       6032 ats  shares=[0 371 194 27]  pcts=["0.0%" "6.2%" "3.2%" "0.4%"]
+    2 × 13 × 67 × 175       6032 ats  shares=[0 371 106 30]  pcts=["0.0%" "6.2%" "1.8%" "0.5%"]
+    2 × 25 × 67 × 91        6032 ats  shares=[0 204 66 60]  pcts=["0.0%" "3.4%" "1.1%" "1.0%"]
+    2 × 35 × 65 × 67        6032 ats  shares=[0 144 89 100]  pcts=["0.0%" "2.4%" "1.5%" "1.7%"]
+
+── ELS Hits (non-zero only) ──
+    2 × 5 × 5 × 6097:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=6097    torah=14   yhwh=40 
+    2 × 5 × 7 × 4355:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=4355    torah=14   yhwh=61 
+    2 × 5 × 13 × 2345:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=13      torah=17   yhwh=53 
+      skip=2345    torah=19   yhwh=56 
+    2 × 5 × 35 × 871:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=35      torah=11   yhwh=50 
+      skip=871     torah=20   yhwh=44 
+    2 × 5 × 65 × 469:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=65      torah=19   yhwh=51 
+      skip=469     torah=17   yhwh=61 
+    2 × 5 × 67 × 455:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=67      torah=14   yhwh=60 
+      skip=455     torah=25   yhwh=49 
+    2 × 5 × 91 × 335:
+      skip=2       torah=46   yhwh=20 
+      skip=5       torah=18   yhwh=52 
+      skip=91      torah=21   yhwh=50 
+      skip=335     torah=24   yhwh=35 
+    2 × 7 × 13 × 1675:
+      skip=2       torah=46   yhwh=20 
+      skip=7       torah=20   yhwh=51 
+      skip=13      torah=17   yhwh=53 
+      skip=1675    torah=18   yhwh=41 
+    2 × 7 × 25 × 871:
+      skip=2       torah=46   yhwh=20 
+      skip=7       torah=20   yhwh=51 
+      skip=25      torah=21   yhwh=52 
+      skip=871     torah=20   yhwh=44 
+    2 × 7 × 65 × 335:
+      skip=2       torah=46   yhwh=20 
+      skip=7       torah=20   yhwh=51 
+      skip=65      torah=19   yhwh=51 
+      skip=335     torah=24   yhwh=35 
+    2 × 7 × 67 × 325:
+      skip=2       torah=46   yhwh=20 
+      skip=7       torah=20   yhwh=51 
+      skip=67      torah=14   yhwh=60 
+      skip=325     torah=11   yhwh=52 
+    2 × 13 × 25 × 469:
+      skip=2       torah=46   yhwh=20 
+      skip=13      torah=17   yhwh=53 
+      skip=25      torah=21   yhwh=52 
+      skip=469     torah=17   yhwh=61 
+    2 × 13 × 35 × 335:
+      skip=2       torah=46   yhwh=20 
+      skip=13      torah=17   yhwh=53 
+      skip=35      torah=11   yhwh=50 
+      skip=335     torah=24   yhwh=35 
+    2 × 13 × 67 × 175:
+      skip=2       torah=46   yhwh=20 
+      skip=13      torah=17   yhwh=53 
+      skip=67      torah=14   yhwh=60 
+      skip=175     torah=7    yhwh=62 
+    2 × 25 × 67 × 91:
+      skip=2       torah=46   yhwh=20 
+      skip=25      torah=21   yhwh=52 
+      skip=67      torah=14   yhwh=60 
+      skip=91      torah=21   yhwh=50 
+      skip=6097    torah=14   yhwh=40 
+    2 × 35 × 65 × 67:
+      skip=2       torah=46   yhwh=20 
+      skip=35      torah=11   yhwh=50 
+      skip=65      torah=19   yhwh=51 
+      skip=67      torah=14   yhwh=60 
+      skip=4355    torah=14   yhwh=61 
+    5 × 5 × 7 × 1742:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=1742    torah=15   yhwh=52 
+    5 × 5 × 13 × 938:
+      skip=5       torah=18   yhwh=52 
+      skip=13      torah=17   yhwh=53 
+      skip=938     torah=22   yhwh=54 
+    5 × 5 × 14 × 871:
+      skip=5       torah=18   yhwh=52 
+      skip=14      torah=21   yhwh=50 
+      skip=871     torah=20   yhwh=44 
+    5 × 5 × 26 × 469:
+      skip=5       torah=18   yhwh=52 
+      skip=26      torah=22   yhwh=43 
+      skip=469     torah=17   yhwh=61 
+    5 × 5 × 67 × 182:
+      skip=5       torah=18   yhwh=52 
+      skip=67      torah=14   yhwh=60 
+      skip=182     torah=23   yhwh=58 
+    5 × 5 × 91 × 134:
+      skip=5       torah=18   yhwh=52 
+      skip=91      torah=21   yhwh=50 
+      skip=134     torah=27   yhwh=56 
+    5 × 7 × 10 × 871:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=10      torah=16   yhwh=50 
+      skip=871     torah=20   yhwh=44 
+      skip=8710    torah=23   yhwh=65 
+    5 × 7 × 13 × 670:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=13      torah=17   yhwh=53 
+      skip=670     torah=16   yhwh=49 
+      skip=8710    torah=23   yhwh=65 
+    5 × 7 × 26 × 335:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=26      torah=22   yhwh=43 
+      skip=335     torah=24   yhwh=35 
+      skip=8710    torah=23   yhwh=65 
+    5 × 7 × 65 × 134:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=65      torah=19   yhwh=51 
+      skip=134     torah=27   yhwh=56 
+      skip=8710    torah=23   yhwh=65 
+    5 × 7 × 67 × 130:
+      skip=5       torah=18   yhwh=52 
+      skip=7       torah=20   yhwh=51 
+      skip=67      torah=14   yhwh=60 
+      skip=130     torah=29   yhwh=66 
+      skip=8710    torah=23   yhwh=65 
+    5 × 10 × 13 × 469:
+      skip=5       torah=18   yhwh=52 
+      skip=10      torah=16   yhwh=50 
+      skip=13      torah=17   yhwh=53 
+      skip=469     torah=17   yhwh=61 
+      skip=6097    torah=14   yhwh=40 
+    5 × 10 × 67 × 91:
+      skip=5       torah=18   yhwh=52 
+      skip=10      torah=16   yhwh=50 
+      skip=67      torah=14   yhwh=60 
+      skip=91      torah=21   yhwh=50 
+      skip=6097    torah=14   yhwh=40 
+    5 × 13 × 14 × 335:
+      skip=5       torah=18   yhwh=52 
+      skip=13      torah=17   yhwh=53 
+      skip=14      torah=21   yhwh=50 
+      skip=335     torah=24   yhwh=35 
+      skip=4690    torah=22   yhwh=48 
+    5 × 13 × 35 × 134:
+      skip=5       torah=18   yhwh=52 
+      skip=13      torah=17   yhwh=53 
+      skip=35      torah=11   yhwh=50 
+      skip=134     torah=27   yhwh=56 
+      skip=4690    torah=22   yhwh=48 
+    5 × 13 × 67 × 70:
+      skip=5       torah=18   yhwh=52 
+      skip=13      torah=17   yhwh=53 
+      skip=67      torah=14   yhwh=60 
+      skip=70      torah=22   yhwh=63 
+      skip=4690    torah=22   yhwh=48 
+    5 × 14 × 65 × 67:
+      skip=5       torah=18   yhwh=52 
+      skip=14      torah=21   yhwh=50 
+      skip=65      torah=19   yhwh=51 
+      skip=67      torah=14   yhwh=60 
+      skip=4355    torah=14   yhwh=61 
+    5 × 26 × 35 × 67:
+      skip=5       torah=18   yhwh=52 
+      skip=26      torah=22   yhwh=43 
+      skip=35      torah=11   yhwh=50 
+      skip=67      torah=14   yhwh=60 
+      skip=2345    torah=19   yhwh=56 
+    7 × 10 × 13 × 335:
+      skip=7       torah=20   yhwh=51 
+      skip=10      torah=16   yhwh=50 
+      skip=13      torah=17   yhwh=53 
+      skip=335     torah=24   yhwh=35 
+      skip=4355    torah=14   yhwh=61 
+    7 × 10 × 65 × 67:
+      skip=7       torah=20   yhwh=51 
+      skip=10      torah=16   yhwh=50 
+      skip=65      torah=19   yhwh=51 
+      skip=67      torah=14   yhwh=60 
+      skip=4355    torah=14   yhwh=61 
+    7 × 13 × 25 × 134:
+      skip=7       torah=20   yhwh=51 
+      skip=13      torah=17   yhwh=53 
+      skip=25      torah=21   yhwh=52 
+      skip=134     torah=27   yhwh=56 
+      skip=3350    torah=19   yhwh=58 
+    7 × 13 × 50 × 67:
+      skip=7       torah=20   yhwh=51 
+      skip=13      torah=17   yhwh=53 
+      skip=50      torah=34   yhwh=50 
+      skip=67      torah=14   yhwh=60 
+      skip=3350    torah=19   yhwh=58 
+    7 × 25 × 26 × 67:
+      skip=7       torah=20   yhwh=51 
+      skip=25      torah=21   yhwh=52 
+      skip=26      torah=22   yhwh=43 
+      skip=67      torah=14   yhwh=60 
+      skip=1742    torah=15   yhwh=52 
+    10 × 13 × 35 × 67:
+      skip=10      torah=16   yhwh=50 
+      skip=13      torah=17   yhwh=53 
+      skip=35      torah=11   yhwh=50 
+      skip=67      torah=14   yhwh=60 
+      skip=2345    torah=19   yhwh=56 
+    13 × 14 × 25 × 67:
+      skip=13      torah=17   yhwh=53 
+      skip=14      torah=21   yhwh=50 
+      skip=25      torah=21   yhwh=52 
+      skip=67      torah=14   yhwh=60 
+      skip=1675    torah=18   yhwh=41 
