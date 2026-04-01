@@ -146,7 +146,7 @@
   [word]
   (let [per-head (oracle/forward-by-head word :torah)]
     (into {}
-      (for [reader [:aaron :god :right :left]]
+      (for [reader [:aaron :god :truth :mercy]]
         (let [top (first (get per-head reader))]
           [reader (when top
                     {:next (:word top)

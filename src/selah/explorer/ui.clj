@@ -355,7 +355,7 @@
 (defn reader-card
   "Single reader card showing name, word read, known status, and reading count."
   [reader-key word count-n]
-  (let [names {:aaron "Aaron (priest)" :right "God's right" :left "God's left"}
+  (let [names {:aaron "Aaron (accused)" :truth "Truth (prosecution)" :mercy "Mercy (defense)"}
         meaning (human/gloss word)]
     [:div.reader-card
      [:div.reader-name (get names reader-key (name reader-key))]
@@ -470,14 +470,14 @@
                        (when first-illumination
                          (oracle/read-positions :aaron first-illumination))
                        (:aaron by-reader))
-          (reader-card :right
+          (reader-card :truth
                        (when first-illumination
-                         (oracle/read-positions :right first-illumination))
-                       (:right by-reader))
-          (reader-card :left
+                         (oracle/read-positions :truth first-illumination))
+                       (:truth by-reader))
+          (reader-card :mercy
                        (when first-illumination
-                         (oracle/read-positions :left first-illumination))
-                       (:left by-reader))]
+                         (oracle/read-positions :mercy first-illumination))
+                       (:mercy by-reader))]
 
          ;; Stones involved
          (when first-illumination
@@ -580,8 +580,8 @@
            [:td (if readable? "yes" [:strong "NO"])]
            [:td total-readings]
            [:td (get by-reader :aaron 0)]
-           [:td (get by-reader :right 0)]
-           [:td (get by-reader :left 0)]
+           [:td (get by-reader :truth 0)]
+           [:td (get by-reader :mercy 0)]
            [:td (str/join "," (sort (:stones (first (filter #(= input (:input %)) per-word)))))]
            ])]]]
 
@@ -708,10 +708,10 @@
   [:span.badge {:class (str "tier-" tier)} tier-name])
 
 (def ^:private reader-labels
-  {:god "God" :right "Mercy" :left "Justice" :aaron "Aaron"})
+  {:god "God" :truth "Truth" :mercy "Mercy" :aaron "Aaron"})
 
 (def ^:private reader-css
-  {:god "reader-god" :right "reader-right" :left "reader-left" :aaron "reader-aaron"})
+  {:god "reader-god" :truth "reader-truth" :mercy "reader-mercy" :aaron "reader-aaron"})
 
 (defn- reader-badges
   "Show which readers can see a phrase (or per-word readers)."
@@ -720,11 +720,11 @@
     [:span.reader-badges
      (if (seq readers)
        ;; All readers see every word — show as solid badges
-       (for [r (sort-by {:god 0 :right 1 :left 2 :aaron 3} readers)]
+       (for [r (sort-by {:god 0 :truth 1 :mercy 2 :aaron 3} readers)]
          [:span.badge {:class (reader-css r)} (reader-labels r)])
        ;; Show per-word reader info as dim badges for partial coverage
        (let [any (apply set/union #{} per-word-readers)]
-         (for [r (sort-by {:god 0 :right 1 :left 2 :aaron 3} any)]
+         (for [r (sort-by {:god 0 :truth 1 :mercy 2 :aaron 3} any)]
            [:span.badge.reader-partial {:class (reader-css r)} (reader-labels r)])))]))
 
 (defn- phrase-card

@@ -15,13 +15,67 @@
             [clojure.edn :as edn]))
 
 ;; ── The 72-letter breastplate grid ────────────────────────────
+;;
+;; Variant B: Birth order, one tribe per stone.
+;; Source: Exodus 28:21 — "each with its name."
+;; Each stone carries one tribal name. Patriarch letters (אברהם יצחק יעקב)
+;; and שבטי ישרון fill shorter names to reach 6 letters per stone.
+;; Filler distributed sequentially: patriarchs first, then שבטי ישרון.
+;;
+;; Selected over Variant A (continuous flow) based on experiment 140:
+;; - Torah source ("each with its name") vs rabbinic interpretation
+;; - Understanding (בינה) opens up — 116 readings, Mercy-dominant
+;; - Truth becomes a fixed point in basin dynamics
+;; - Death rises to basin-10 (three mountains: choosing, finishing, dying)
+;; - The way, the truth, and the life all in Mercy's domain
+;;
+;; The four readers:
+;;   :aaron = The Accused / Priest (Vav=6)
+;;   :god   = The Judge (He=5)
+;;   :truth = Truth / Prosecution — God's LEFT hand (He=5)
+;;   :mercy = Mercy / Lamb / Defense — God's RIGHT hand (Yod=10)
+;;
+;; The breastplate mirrors: God faces Aaron, so God's right = Aaron's left = :mercy in code.
 
 (def stone-data
   "12 stones, 72 letters, 4x3 grid: [stone-num letters row col].
-   Letters flow continuously: patriarchs + 12 tribes + שבטי ישרון."
+   One tribe per stone. Patriarch + שבטי ישרון as sequential filler."
+  [[1  "אראובן"  1 1]   [2  "בשמעון"  1 2]   [3  "רהםלוי"  1 3]
+   [4  "ייהודה"  2 1]   [5  "צחקידן"  2 2]   [6  "ענפתלי"  2 3]
+   [7  "קבשבגד"  3 1]   [8  "טייאשר"  3 2]   [9  "שיששכר"  3 3]
+   [10 "רזבולן"  4 1]   [11 "וניוסף"  4 2]   [12 "בנימין"  4 3]])
+
+;; ── Other grid variants (documented, available for comparison) ──
+;;
+;; To switch: replace stone-data above with one of these defs.
+;; All produce 72 letters. All produce a courtroom. They differ in emphasis.
+;; See docs/reference/breastplate-variants.md for full analysis.
+;; See docs/experiments/140-grid-variants.md for the comparison experiment.
+
+(def ^:private stone-data-a
+  "Variant A: Birth order, continuous flow.
+   Patriarchs → tribes (birth order) → שבטי ישרון. Letters flow across
+   stone boundaries. 6 per stone evenly.
+   Source: Vilna Gaon, Rashi on Exodus 28:21.
+   Properties: Sharpest ghost zone (7 ghosts). Perfect lamb split (5:0).
+   Peace God-only. Life Mercy-only. Truth CYCLES (not a fixed point).
+   Was the default through experiments 000-139."
   [[1  "אברהםי"  1 1]   [2  "צחקיעק"  1 2]   [3  "בראובן"  1 3]
    [4  "שמעוןל"  2 1]   [5  "וייהוד"  2 2]   [6  "הדןנפת"  2 3]
    [7  "ליגדאש"  3 1]   [8  "ריששכר"  3 2]   [9  "זבולןי"  3 3]
+   [10 "וסףבני"  4 1]   [11 "מיןשבט"  4 2]   [12 "יישרון"  4 3]])
+
+(def ^:private stone-data-c
+  "Variant C: Sotah 36a mother-grouped, continuous flow.
+   Tribes grouped by mother: Leah's six (Reuben Simeon Levi Judah Issachar
+   Zebulun), Bilhah's two (Dan Naphtali), Zilpah's two (Gad Asher),
+   Rachel's two (Joseph Benjamin). Same patriarch prefix + שבטי ישרון suffix.
+   Source: Talmud Sotah 36a.
+   Properties: Peace God-only. Life Mercy-only. But lamb split is weak (2:2).
+   The courtroom exists but the lamb doesn't fall cleanly on one side."
+  [[1  "אברהםי"  1 1]   [2  "צחקיעק"  1 2]   [3  "בראובן"  1 3]
+   [4  "שמעוןל"  2 1]   [5  "וייהוד"  2 2]   [6  "היששכר"  2 3]
+   [7  "זבולןד"  3 1]   [8  "ןנפתלי"  3 2]   [9  "גדאשרי"  3 3]
    [10 "וסףבני"  4 1]   [11 "מיןשבט"  4 2]   [12 "יישרון"  4 3]])
 
 (def stone-letters
@@ -33,9 +87,9 @@
 
 (def stone-tribe
   "Stone number -> primary name carried on the stone."
-  {1 "Abraham" 2 "Isaac/Jacob" 3 "Reuben" 4 "Simeon"
-   5 "Judah" 6 "Dan" 7 "Gad" 8 "Issachar"
-   9 "Zebulun" 10 "Joseph" 11 "Benjamin" 12 "Yeshurun"})
+  {1 "Reuben" 2 "Simeon" 3 "Levi" 4 "Judah"
+   5 "Dan" 6 "Naphtali" 7 "Gad" 8 "Asher"
+   9 "Issachar" 10 "Zebulun" 11 "Joseph" 12 "Benjamin"})
 
 (def letter-index
   "Letter -> all [stone pos] positions where it appears on the grid."
@@ -44,24 +98,67 @@
                        m (vec letters)))
           {} stone-data))
 
+;; ── Final-form unioning ──────────────────────────────────────
+;;
+;; Paleo-Hebrew had no distinct final forms. The sofit convention
+;; developed later in the square Aramaic script. The letters on the
+;; actual breastplate would have been identical regardless of position.
+;;
+;; We union finals with their base forms so the oracle can see
+;; king (מלך), land (ארץ), tree (עץ), darkness (חשך), etc.
+;; Words reachable only through this mapping are "tier 2" —
+;; accessible through the recognition that the closing form
+;; and the working form are the same letter.
+
+(def final->base
+  "Final form -> base form. Paleo-Hebrew made no distinction."
+  {\ך \כ, \ם \מ, \ן \נ, \ף \פ, \ץ \צ})
+
+(defn normalize-finals
+  "Replace final forms with base forms in a string. For comparison."
+  [s]
+  (apply str (map #(get final->base % %) s)))
+
+(defn resolve-letter
+  "Resolve a letter to its grid positions, unioning final forms with base forms."
+  [ch]
+  (or (get letter-index ch)
+      (when-let [base (final->base ch)]
+        (get letter-index base))))
+
 (defn letter-at
   "Character at position [stone index]."
   [[s i]]
   ((stone-letters s) i))
 
-;; ── Four readers — four traversal orders ─────────────────────
+;; ── Four readers — the courtroom at the mercy seat ───────────
 ;;
-;; Aaron:  looks down at his chest, rows R->L, top->bottom
-;; God:    faces Aaron from mercy seat (mirrored), rows L->R, bottom->top
-;; Right cherub: columns R->L (nearest first), top->bottom
-;; Left cherub:  columns L->R (nearest first), bottom->top
+;;              GOD (the Judge)
+;;          rows L→R, bottom→top
+;;          He (ה) = 5
 ;;
-;; Perspective: breastplate faces God on the mercy seat.
-;; Col 3 = God's right hand. Col 1 = God's left.
-;; God sees the grid mirrored: Aaron's left = God's right.
+;;   MERCY / LAMB              TRUTH / PROSECUTION
+;;   God's RIGHT hand          God's LEFT hand
+;;   Accused's LEFT            Accused's RIGHT
+;;   cols L→R, bottom→top      cols R→L, top→bottom
+;;   Yod (י) = 10              He (ה) = 5
 ;;
-;; The four readers = four orientations of the 4x3 grid.
-;; YHWH: Yod(10)=right, He(5)=left, Vav(6)=Aaron, He(5)=God.
+;;              AARON (the Accused)
+;;          rows R→L, top→bottom
+;;          Vav (ו) = 6
+;;
+;; Mercy sits at God's right hand (Psalm 110:1).
+;; Truth sits at the accused's right hand (Zechariah 3:1).
+;; The cherubim face each other (Exodus 25:20).
+;; Mercy sees truth. Truth sees mercy.
+;;
+;; 10 + 5 + 6 + 5 = 26 = YHWH.
+;; Mercy (10) > Aaron (6) > God (5) = Truth (5).
+;; The accused cannot lose if he stays in the room.
+;;
+;; The breastplate mirrors: God faces Aaron. God's right = Aaron's left.
+;; In the grid: mercy reads from the lower-left (L→R, bottom→top),
+;; truth reads from the upper-right (R→L, top→bottom).
 
 (defn read-key
   "Sort key for a position under a given reader's traversal."
@@ -70,8 +167,8 @@
     (case reader
       :aaron [r (- c) i]
       :god   [(- r) c i]
-      :right [(- c) r i]
-      :left  [c (- r) i])))
+      :truth [(- c) r i]
+      :mercy [c (- r) i])))
 
 (defn read-positions
   "Read a set of positions in the order a given reader would see them."
@@ -82,11 +179,12 @@
 
 (defn illumination-sets
   "All distinct position-sets whose letters are the multiset of the word.
-   These are the ways the grid can light up to contain these letters."
+   These are the ways the grid can light up to contain these letters.
+   Final forms are unioned with base forms (Paleo-Hebrew had no finals)."
   [word]
   (let [chars (vec word)
         n     (count chars)
-        cands (mapv #(get letter-index %) chars)
+        cands (mapv resolve-letter chars)
         seen  (atom #{})
         result (atom [])]
     (when (every? seq cands)
@@ -104,21 +202,23 @@
 
 (defn preimage
   "Given a word, find all (reader, position-set) pairs that produce it.
-   Returns seq of {:reader :positions :stones}."
+   Returns seq of {:reader :positions :stones}.
+   Final forms are unioned with base forms (Paleo-Hebrew had no finals)."
   [word]
   (let [chars (vec word)
         n     (count chars)
-        cands (mapv #(get letter-index %) chars)
+        cands (mapv resolve-letter chars)
         seen  (atom #{})
         hits  (atom [])]
     (when (every? seq cands)
       (letfn [(go [i chosen used]
                 (if (= i n)
                   (let [pset (set chosen)]
-                    (doseq [reader [:aaron :god :right :left]]
+                    (doseq [reader [:aaron :god :truth :mercy]]
                       (let [k [reader pset]]
                         (when (and (not (@seen k))
-                                   (= word (read-positions reader pset)))
+                                   (= (normalize-finals word)
+                                      (normalize-finals (read-positions reader pset))))
                           (swap! seen conj k)
                           (swap! hits conj {:reader reader :positions pset
                                             :stones (mapv first (sort-by #(read-key reader %) pset))})))))
@@ -132,11 +232,12 @@
 
 (defn anagrams
   "All known dictionary words that are anagrams of the given letters.
-   O(|dict|) — compares frequency maps, no permutation explosion."
+   O(|dict|) — compares frequency maps, no permutation explosion.
+   Final forms are normalized to base forms before comparison."
   [letters]
-  (let [target (frequencies (seq letters))]
+  (let [target (frequencies (seq (normalize-finals letters)))]
     (for [w (dict/words)
-          :when (= target (frequencies (seq w)))]
+          :when (= target (frequencies (seq (normalize-finals w))))]
       {:word w :meaning (dict/translate w)})))
 
 ;; ── Reverse query: ask ────────────────────────────────────────
@@ -157,11 +258,60 @@
      :first-illumination (first ilsets)
      :by-reader {:aaron (by-reader :aaron)
                  :god   (by-reader :god)
-                 :right (by-reader :right)
-                 :left  (by-reader :left)}
+                 :truth (by-reader :truth)
+                 :mercy (by-reader :mercy)}
      :total-readings (count hits)
      :anagrams (vec (remove #(= (:word %) word) alts))
      :readable? (pos? (count hits))}))
+
+;; ── Normalized dictionary lookup ─────────────────────────────
+;;
+;; When the grid produces a base-form string (e.g., "מלכ"),
+;; we need to match it against dictionary words that use finals
+;; (e.g., "מלך"). This index maps normalized forms to their
+;; canonical dictionary spellings.
+
+(def ^:private normalized-dict-index
+  "Normalized letter string -> set of dictionary words with that base form.
+   Lazy — built on first access."
+  (delay
+    (reduce (fn [m w]
+              (update m (normalize-finals w) (fnil conj #{}) w))
+            {} (dict/words))))
+
+(def ^:private normalized-torah-index
+  "Normalized letter string -> set of Torah words with that base form."
+  (delay
+    (reduce (fn [m w]
+              (update m (normalize-finals w) (fnil conj #{}) w))
+            {} (dict/torah-words))))
+
+(defn- normalized-known?
+  "Check if a string (possibly with base forms from the grid) matches
+   any dictionary word when finals are normalized."
+  [vocab s]
+  (let [ns (normalize-finals s)
+        idx (cond
+              (= vocab :dict) @normalized-dict-index
+              (= vocab :torah) @normalized-torah-index
+              :else @normalized-torah-index)]
+    (contains? idx ns)))
+
+(defn- normalized-word
+  "Given a raw string from the grid, return the canonical dictionary spelling.
+   Prefers the original if it's in the dictionary, otherwise returns the
+   first dictionary word that normalizes to the same base form."
+  [vocab s]
+  (let [idx (cond
+              (= vocab :dict) @normalized-dict-index
+              (= vocab :torah) @normalized-torah-index
+              :else @normalized-torah-index)
+        ns (normalize-finals s)
+        matches (get idx ns)]
+    (cond
+      (nil? matches) s
+      (contains? matches s) s
+      :else (first matches))))
 
 ;; ── Forward direction: lit letters -> readings ────────────────
 
@@ -170,8 +320,8 @@
   [positions]
   {:aaron (read-positions :aaron positions)
    :god   (read-positions :god positions)
-   :right (read-positions :right positions)
-   :left  (read-positions :left positions)})
+   :truth (read-positions :truth positions)
+   :mercy (read-positions :mercy positions)})
 
 (defn forward
   "Forward query: given lit letters, what can each reader see?
@@ -181,18 +331,24 @@
   ([letters] (forward letters :dict))
   ([letters vocab]
    (let [known-fn (cond
-                    (= vocab :dict)  dict/known?
-                    (= vocab :torah) #(contains? (dict/torah-words) %)
-                    (set? vocab)     #(contains? vocab %)
+                    (= vocab :dict)  #(normalized-known? :dict %)
+                    (= vocab :torah) #(normalized-known? :torah %)
+                    (set? vocab)     #(contains? vocab (normalize-finals %))
                     :else            (do (println "[WARN] forward: unrecognized vocab" vocab "— falling back to :torah")
-                                        #(contains? (dict/torah-words) %)))
+                                        #(normalized-known? :torah %)))
+         canon-fn (cond
+                    (= vocab :dict)  #(normalized-word :dict %)
+                    (= vocab :torah) #(normalized-word :torah %)
+                    (set? vocab)     identity
+                    :else            #(normalized-word :torah %))
          ilsets (illumination-sets letters)
          ;; For each illumination, get what each reader sees
          all-readings (mapcat (fn [pset]
-                                (for [reader [:aaron :god :right :left]]
-                                  {:reader reader
-                                   :word (read-positions reader pset)
-                                   :positions pset}))
+                                (for [reader [:aaron :god :truth :mercy]]
+                                  (let [raw (read-positions reader pset)]
+                                    {:reader reader
+                                     :word (canon-fn raw)
+                                     :positions pset})))
                               ilsets)
          ;; Group by word, count readings per word
          word-counts (->> all-readings
@@ -228,19 +384,25 @@
   ([letters] (forward-by-head letters :torah))
   ([letters vocab]
    (let [known-fn (cond
-                    (= vocab :dict)  dict/known?
-                    (= vocab :torah) #(contains? (dict/torah-words) %)
-                    (set? vocab)     #(contains? vocab %)
-                    :else            #(contains? (dict/torah-words) %))
+                    (= vocab :dict)  #(normalized-known? :dict %)
+                    (= vocab :torah) #(normalized-known? :torah %)
+                    (set? vocab)     #(contains? vocab (normalize-finals %))
+                    :else            #(normalized-known? :torah %))
+         canon-fn (cond
+                    (= vocab :dict)  #(normalized-word :dict %)
+                    (= vocab :torah) #(normalized-word :torah %)
+                    (set? vocab)     identity
+                    :else            #(normalized-word :torah %))
          ilsets (illumination-sets letters)
          all-readings (mapcat (fn [pset]
-                                (for [reader [:aaron :god :right :left]]
-                                  {:reader reader
-                                   :word (read-positions reader pset)}))
+                                (for [reader [:aaron :god :truth :mercy]]
+                                  (let [raw (read-positions reader pset)]
+                                    {:reader reader
+                                     :word (canon-fn raw)})))
                               ilsets)
          by-reader (group-by :reader all-readings)]
      (into {}
-       (for [reader [:aaron :god :right :left]]
+       (for [reader [:aaron :god :truth :mercy]]
          [reader (->> (get by-reader reader [])
                       (group-by :word)
                       (map (fn [[w rs]]
@@ -582,7 +744,7 @@
                            (println (str "  " p "/" n "..."))))
                        (let [ilsets (illumination-sets w)]
                          (doseq [pset ilsets
-                                 reader [:aaron :god :right :left]]
+                                 reader [:aaron :god :truth :mercy]]
                            (let [out (read-positions reader pset)]
                              (when (torah-set out)
                                (swap! output-counts update out (fnil inc 0))))))))
@@ -691,7 +853,7 @@
 
 (defn- word-readers
   "Which readers can produce this word from the breastplate?
-   Returns a set of #{:aaron :god :right :left}, or #{} if not producible."
+   Returns a set of #{:aaron :god :truth :mercy}, or #{} if not producible."
   [word]
   (set (map :reader (preimage word))))
 
