@@ -112,32 +112,115 @@ The letter ו (vav, the nail) at b=25. The letter ח (chet, the fence) at b=24. 
 | (6,49,12,0) | Deuteronomy 34:11 | "No prophet has risen in Israel like Moses, whom the LORD knew face to face" |
 | **(6,49,12,66)** | **Deuteronomy 34:12** | **The last letter of the Torah** — "all the mighty hand and all the great terror which Moses performed in the sight of all Israel" |
 
-### The four extreme corners
+### The corners speak
 
-The box has four "true" corners — the combinations of all-minimum and all-maximum on each axis:
+Read them as a story. The sixteen corners of the canonical box, in order:
 
-| | a=0 (beginning) | a=6 (end) |
-|---|---|---|
-| **b=0, c=0, d=0** | **Genesis 1:1** — In the beginning | **Deuteronomy 6:1** — The commandment (Shema) |
-| **b=49, c=12, d=66** | Genesis 30:42 — Jacob's strength | **Deuteronomy 34:12** — The last letter |
+**The a=0 face — Genesis. The beginning.**
 
-The origin is Creation. The far corner of the a-axis is the Shema. The diagonal far corner is the last letter of the Torah. The Torah box starts at "In the beginning" and ends at "in the sight of all Israel."
+**(0,0,0,0)** — Genesis 1:1
+> "In the beginning God created the heavens and the earth."
 
-### The Genesis layer (a=0)
+The origin. The first letter. Where everything starts.
 
-All eight a=0 corners are in **Genesis 1** and **Genesis 30.** The first day of creation and Jacob's contest with Laban over the flocks. The birth of the world and the birth of Israel's wealth.
+**(0,0,0,66)** — Genesis 1:2
+> "The earth was formless and void, and darkness was over the face of the deep, and the spirit of God was hovering over the face of the waters."
 
-### The Deuteronomy layer (a=6)
+One step along the d-axis (understanding) from the origin: the void. The darkness. The hovering. The raw material before God speaks.
 
-All eight a=6 corners are in **Deuteronomy 6** and **Deuteronomy 33-34.** The commandment to love God (the Shema) and Moses' final blessing and death. The instruction and the farewell.
+**(0,0,12,0)** — Genesis 1:17
+> "God set them in the firmament of the heavens to give light on the earth."
 
-### The b=49 finding — Laban and the everlasting arms
+At the far end of the c-axis (love): God places the lights. Love's axis reaches from creation to illumination.
 
-The b-axis maximum (b=49) corners are:
-- Genesis 30: Jacob and Laban's struggle over the flocks
-- Deuteronomy 33:27: "The eternal God is your dwelling place, and underneath are the everlasting arms"
+**(0,0,12,66)** — Genesis 1:18
+> "To rule over the day and the night, and to separate the light from the darkness. And God saw that it was good."
 
-The 50th position on the jubilee axis: human striving on one end, everlasting arms on the other. The far reaches of jubilee hold both the labor and the rest.
+The corner where love and understanding both reach their maximum in the first seventh: separation of light from darkness. And God saw — it was good.
+
+**(0,49,0,0)** — Genesis 30:27
+> Laban: "I have learned by divination that **the LORD has blessed me because of you.**"
+
+At the far end of the b-axis (jubilee): a pagan admits that God's blessing came through Jacob. The farthest reach of the freedom-axis, in the first seventh, is a gentile recognizing the source of his prosperity.
+
+**(0,49,0,66)** — Genesis 30:29
+> Jacob: "You know how I have served you, and how your livestock has fared with me."
+
+The testimony of faithful service. At the corner of jubilee and understanding.
+
+**(0,49,12,0)** — Genesis 30:41
+> Jacob sets his rods before the stronger of the flock.
+
+The strategy. The wisdom. At the corner of jubilee and love.
+
+**(0,49,12,66)** — Genesis 30:42
+> "The feebler were Laban's and the stronger Jacob's."
+
+The result. At the corner where jubilee, love, and understanding all reach their boundary: the strong belong to the one who served.
+
+---
+
+**The a=6 face — Deuteronomy. The end.**
+
+**(6,0,0,0)** — Deuteronomy 6:1
+> "This is the commandment, the statutes and the judgments which the LORD your God has commanded, to teach you, to do in the land you are crossing over to possess."
+
+The far end of the a-axis (completeness). Seven days later: the commandment. This is what the seven days produce — an instruction for the land.
+
+**(6,0,0,66)** — Deuteronomy 6:2
+> "That you might fear the LORD your God, to keep all His statutes and commandments — you and your son and your grandson, **all the days of your life.**"
+
+The fear of the LORD. Three generations. All the days of your life. At the corner of completeness and understanding.
+
+**(6,0,12,0)** — Deuteronomy 6:18
+> "**Do what is right and good in the sight of the LORD,** that it may go well with you, and that you may enter and possess **the good land** which the LORD swore to your fathers."
+
+At the corner of completeness and love: do what is right and good. Enter the good land. The instruction at the edge of love.
+
+**(6,0,12,66)** — Deuteronomy 6:18 (same verse)
+> Same. Two corners land on the same verse. The corner of completeness, love, and understanding — all at maximum — says the same thing: do what is right and good.
+
+**(6,49,0,0)** — Deuteronomy 33:25
+> "Your bolts will be iron and bronze, and **your strength like your days.**"
+
+Moses' final blessing. At the far corner of completeness and jubilee: your strength matches your need. You will have what you need for as long as you need it.
+
+**(6,49,0,66)** — Deuteronomy 33:27
+> **"The eternal God is your dwelling place, and underneath are the everlasting arms.** He drove out the enemy before you and said: Destroy!"
+
+The everlasting arms. At the corner where completeness, jubilee, and understanding all reach their maximum. The farthest point you can go along three axes simultaneously — and what you find there is that God is your home and His arms are underneath you.
+
+**(6,49,12,0)** — Deuteronomy 34:11
+> "No prophet has risen in Israel like Moses, whom **the LORD knew face to face.**"
+
+Face to face. At the corner of completeness, jubilee, and love. The farthest reach of three axes: the face-to-face encounter. And פנים (face) is ghost on the breastplate — 33 illuminations, zero readings. The face cannot be spoken. But at the corner, it is seen.
+
+**(6,49,12,66)** — Deuteronomy 34:12
+> "All the mighty hand and all the great terror which Moses performed **in the sight of all Israel.**"
+
+The last letter of the Torah. The far corner of the entire box. Completeness, jubilee, love, understanding — all at maximum. And what's there: **in the sight of all Israel.** The Torah's last word is seeing. The box that began with "In the beginning God created" ends with "all Israel saw."
+
+---
+
+### The story the corners tell
+
+Read the sixteen in order:
+
+**God creates.** The earth is void. The spirit hovers. The lights are set. Light separates from darkness. It is good.
+
+**The LORD has blessed me because of you.** I have served you faithfully. The stronger belong to the one who served.
+
+**This is the commandment.** Fear the LORD. Do what is right and good. Enter the good land.
+
+**Your strength like your days. The eternal God is your dwelling place. Underneath are the everlasting arms.**
+
+**No prophet like Moses — the LORD knew him face to face.** In the sight of all Israel.
+
+Creation → blessing through service → commandment → everlasting arms → face to face → all Israel sees.
+
+The origin is making. The corners trace through faithful labor, instruction, the promise of strength, the arms of God, and the face-to-face encounter. The last corner says: everyone sees.
+
+The box doesn't end in mystery. It ends in sight. **לעיני כל ישראל** — in the eyes of all Israel. The Torah's geometry begins with creating and ends with seeing. The first corner is the act. The last corner is the witness.
 
 ---
 
