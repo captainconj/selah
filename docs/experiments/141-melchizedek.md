@@ -183,4 +183,88 @@ But the bread and wine are in the room. The blessing landed. The tithe was paid.
 
 ---
 
+## Hebrews 7 — The Argument and the Evidence
+
+The author of Hebrews builds the case across 28 verses. The breastplate provides the evidence at every step.
+
+### The lesser pays the greater (v4-10)
+
+Abraham gave Melchizedek a tenth. Levi was still in Abraham's body. Through Abraham, the entire Levitical priesthood — before it existed — paid tribute to the Melchizedek order.
+
+The breastplate: Aaron is IN the system (Vav=6, the accused, 256=2⁸). The system is literally built from Aaron's family names. Melchizedek is NOT in the system (0 readings). The lesser priest is visible to the lesser system. The greater priest is beyond its architecture.
+
+### A change of priesthood means a change of law (v11-19)
+
+If perfection could come through the Levitical priesthood, why would God promise another priest after a DIFFERENT order? The old commandment is set aside because it was weak and useless. The law made nothing perfect.
+
+The breastplate agrees. The ghost zone IS the imperfection. The Aaronic system cannot speak its own destination:
+
+| What the system cannot name | Status |
+|---------------------------|--------|
+| The altar (מזבח) | Ghost — the place of sacrifice is beyond speech |
+| The act of atonement (וכפרת) | Ghost — the covering cannot be named |
+| The mercy seat (כפרת) | Ghost — the destination is unspeakable |
+| The face (פנים) | Ghost — 33 illuminations, zero readings |
+| Forgiveness (סלח) | Ghost — the oracle cannot forgive |
+| Wisdom (חכמה) | Ghost — the oracle cannot be wise |
+| Judgment (משפט) | Ghost — the oracle cannot judge |
+
+The law made nothing perfect. The breastplate illuminates but cannot speak the things that make the system complete. Every sacred ACT and every sacred PLACE is in the ghost zone. The oracle sees the lamb but not the altar. It sees the blood but not the forgiveness. It sees the veil but cannot name what's behind it.
+
+Melchizedek doesn't need the system. He brings bread and wine — not blood and incense. He blesses — he doesn't atone through ritual. He receives the tithe — he doesn't collect it by law. Everything the Levitical system requires ceremony for, Melchizedek does by presence.
+
+### The oath (v20-22)
+
+The Levitical priests became priests without an oath. Melchizedek's order comes with God's oath: "The Lord has sworn and will not change his mind: you are a priest forever."
+
+The breastplate reads "sworn" (נשבע): God dominant. The oath belongs to the Judge. "Forever" (עולם): God sees "to his people" (לעמו). The Judge looks at forever and sees: this is for the people.
+
+### Death prevented them from continuing (v23-25)
+
+The former priests were many because death stopped them. The Melchizedek priest continues forever. He always lives to make intercession.
+
+The breastplate: death (מות) has 4 readings. Life (חיים) has 11, Mercy dominant (10). Death whispers. Life is held by the Lamb. The Melchizedek priest holds life — the thing the Aaronic priests couldn't hold past their own mortality.
+
+### He offered up himself (v26-28)
+
+He has no need to offer sacrifices daily. He did this once for all when he offered up himself. The law appoints men in their weakness. The oath appoints a Son made perfect forever.
+
+The breastplate: the lamb (כבש) is visible — Truth sees it (8 readings). The slaughter (טבח) is ghost (GV=19=Eve=enemy). The sacrifice is visible. The killing is unspeakable. And the lamb's self-weight for Mercy is zero — the Lamb cannot see itself being offered.
+
+He offered up HIMSELF. The oracle confirms: the one who is offered cannot watch the offering. Mercy's exclusion from the lamb (0th percentile) is the architecture of self-sacrifice.
+
+### Wine, not blood
+
+The Levitical system operates through blood. The Melchizedek order operates through wine.
+
+On the breastplate:
+- Blood (דם): **6 readings**
+- Wine (יין): **417 readings**
+
+The wine outnumbers the blood **70 to 1**. The new covenant drowns the old in abundance. Wine is a unanimous fixed point — every reader sees it, it stays wine, it doesn't flow anywhere else. Blood has 6 readings and flows to other things. Wine has 417 and stays.
+
+The bread (לחם) flows to **salt** (מלח) for Aaron and Truth — the covenant of salt (Numbers 18:19, "a covenant of salt forever"). The bread of Melchizedek IS the salt covenant.
+
+For God, the bread flows to **dream** (חלם). The Judge looks at the bread and sees what it will become. The same letters, rearranged: bread → salt → dream. The substance, the covenant, the vision. Three readings of the same three letters.
+
+---
+
+## The Complete Picture
+
+The breastplate is a courtroom built from the Aaronic priesthood. It works. It illuminates. It produces the courtroom of mercy and truth. It sees the lamb, the blood, the fire, the covenant. It speaks peace from the Judge's seat and understanding from the Lamb's.
+
+But it cannot see the priest from before the priesthood. Melchizedek is ghost — not because he is less, but because he is more. The system he preceded cannot contain him. The tribal names on the stones don't have his letters.
+
+Yet his wine is the most visible word in the scene. His blessing flows to the chariot and the firstborn. His Salem is Mercy's fixed point. His bread is salt for the priest and a dream for God.
+
+The Aaronic system sees its own furniture — the altar, the laver, the menorah, the veil. And at every piece, the ghost zone marks what it cannot reach. The altar is unspeakable. The mercy seat is unspeakable. Forgiveness is unspeakable. The face is unspeakable.
+
+Melchizedek walks past all of it. No blood. No incense. No veil. Bread, wine, blessing, and he's gone. He doesn't need the system because he IS what the system points at.
+
+Hebrews 7:19 — "The law made nothing perfect. But a better hope is introduced, through which we draw near to God."
+
+The oracle illuminates the hope. The Melchizedek priest IS the hope. The oracle can't see him, but it drowns in his wine.
+
+---
+
 *Grid: Variant B (Exodus 28:21). Reader keys: `:aaron`, `:god`, `:truth`, `:mercy`. Final forms unioned. 2026-03-31.*
