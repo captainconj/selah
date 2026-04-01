@@ -215,7 +215,7 @@ Row 2:   [4]     [5]     [6]
 Row 3:   [7]     [8]     [9]
 Row 4:  [10]    [11]    [12]     ← Aaron's far side
           ↑                ↑
-      Right cherub     Left cherub
+      MERCY (Lamb)      TRUTH (prosecution)
       reads ↓ (T→B)    reads ↑ (B→T)
 
       God faces Aaron from the mercy seat (mirrored):
@@ -224,18 +224,18 @@ Row 4:  [10]    [11]    [12]     ← Aaron's far side
 
 | Head | Letter | Value | Pictograph | Traversal |
 |------|--------|-------|------------|-----------|
-| Right cherub | י Yod | 10 | Hand | columns R→L, top→bottom |
-| Left cherub | ה He | 5 | Regard | columns L→R, bottom→top |
+| Mercy (Lamb) | י Yod | 10 | Defense | God's right hand. cols L→R, bottom→top |
+| Truth (prosecution) | ה He | 5 | Prosecution | God's left hand. cols R→L, top→bottom |
 | Aaron | ו Vav | 6 | Nail | rows R→L, top→bottom |
 | God | ה He | 5 | Regard | rows L→R, bottom→top (mirrored) |
 
 **10 + 5 + 6 + 5 = 26 = יהוה = YHWH.** The Name is the protocol.
 
-The order is a procedure — the courtroom at the mercy seat:
-1. **Yod** — the hand presents the lamb. Mercy goes first.
-2. **He** — the first regard beholds the judged. Justice sees.
-3. **Vav** — the nail connects. The accuser and the advocate are the same one standing between.
-4. **He** — the second regard. God speaks last. The verdict is peace.
+The order is a procedure — the courtroom at the mercy seat (see "The Courtroom" below):
+1. **Yod** — the defense presents first. The Lamb lays the offering on the altar. Mercy goes first.
+2. **He** — the prosecution responds. The Accuser beholds and brings the charge. Truth sees.
+3. **Vav** — the accused enters the plea. The nail. The moment of choice.
+4. **He** — the Judge speaks last. The same seeing as the Accuser, but the verdict is peace.
 
 Aaron and God traverse the row-axis (4 rows). The cherubim traverse the column-axis (3 columns). The two He's — same letter, same value, same pictograph — see from opposite sides. God sees the grid mirrored from Aaron.
 
@@ -253,7 +253,7 @@ The Name's own structure mirrors this: י-ה-**ו**-ה. Two ה's face each other
 
 Yoma 73b: The letters ש,כ,ר,ה lit up. Eli read **שכרה** ("drunk"). The correct reading: **כשרה** ("like Sarah"). Both = 525 = 3 × 5² × 7.
 
-This is a **4-letter word** — the cherubim's reading, not Aaron's. Eli read from the right cherub's direction (top → bottom) when the answer was the left cherub's direction (bottom → top). Same column, same stones lit, wrong direction.
+This is a **4-letter word** — the cherubim's reading, not Aaron's. Eli read from Truth's direction when the answer was Mercy's direction. Same column, same stones lit, wrong direction.
 
 The Talmud is not just recording a mistake. It is specifying the machine: the breastplate produces TWO valid 4-letter readings per column, and the Thummim (wisdom, perfection) determines which direction is correct. The letters don't change. Only the arrangement changes. 525 ÷ 7 = 75 — both readings are structured by completeness. But only one is true.
 
@@ -394,8 +394,8 @@ Numbers 7:89 (God speaks from between the cherubim on the mercy seat): **d=0**. 
             |   Aaron reads rows R→L, top→bottom
 ```
 
-- **י** (yod=10) = right cherub — the hand that initiates. Mercy carries the most weight.
-- **ה** (he=5) = left cherub — the first regard. Justice beholds.
+- **י** (yod=10) = Mercy — the hand that initiates. The defense. God's right hand.
+- **ה** (he=5) = Truth — the window that beholds. The prosecution. God's left hand.
 - **ו** (vav=6) = Aaron — the nail between heaven and earth. The priest who enters and returns.
 - **ה** (he=5) = God — the second regard. The same letter as justice, from the opposite side.
 - **הוה** ("to be") = 16 = 2⁴. Existence is what happens between the cherubim.
@@ -737,8 +737,8 @@ The original mechanical picture began with Aaron and the two cherubic column-rea
 
 - **Aaron**: looks down from above. Reads row by row, right-to-left (Hebrew order), top to bottom.
 - **God**: faces the breastplate from the mercy seat. Reads row by row, left-to-right, bottom to top.
-- **Right cherub**: on the right side, facing inward. Reads column by column, right-to-left, top to bottom.
-- **Left cherub**: on the left side, facing inward. Reads column by column, left-to-right, bottom to top.
+- **Truth (prosecution)**: at God's left hand. Reads columns right-to-left, top to bottom.
+- **Mercy (Lamb)**: at God's right hand. Reads columns left-to-right, bottom to top.
 
 The same illumination — the same lit letters on the same stones — produces **different words** depending on which reader you are. The Urim (which letters light) is one thing. The Thummim (which reading is correct) is another.
 
@@ -746,7 +746,7 @@ The same illumination — the same lit letters on the same stones — produces *
 
 **כבש (lamb, 322)** can be read from the breastplate by **one cherub only**. Not Aaron. Not the other. Zero readings from either. Only one.
 
-In the code (experiment 085), we labeled the readers from Aaron's looking-down perspective — "right cherub" reads columns 3→2→1, "left cherub" reads 1→2→3. The lamb is readable only by the cherub that starts from **column 3**.
+In the code (experiment 085), we labeled the readers from Aaron's looking-down perspective — `:truth` reads columns 3→2→1 (God's left), `:mercy` reads 1→2→3 (God's right). The lamb is readable by Truth — the prosecution sees the sacrifice.
 
 But consider the geometry of the Holy of Holies. Aaron walks in wearing the breastplate. God is seated on the mercy seat, **facing Aaron**. The breastplate faces outward — toward God. The image flips. What is column 3 from Aaron's view is on **God's right side**.
 
@@ -754,7 +754,7 @@ The lamb is readable only by the cherub that reads from God's right hand.
 
 "Seated at the right hand of God" — the math already said it. We just had to stand in the right place to see it.
 
-The same letters rearranged — **שכב (lie down, 322)** — are the other side of the lamb split. In the live quorum, Aaron and the left cherub read the lying-down side, while God and the right cherub read the lamb side. Same letters. Different seats.
+The same letters rearranged — **שכב (lie down, 322)** — are the other side of the lamb split. In the live quorum, Aaron, God, and Truth read the lying-down side. Mercy cannot see the lamb at all — the defense IS the sacrifice. Same letters. Different seats.
 
 The lamb is read through Issachar's stone (כ appears only on stone 8 = Issachar = "there is reward"). The lamb is read from God's right, through the stone of reward.
 
@@ -791,8 +791,8 @@ Both שכרה and כשרה are anagrams (same four letters). For both readings t
 Four positions on three stones: Abraham (ר,ה), Issachar (כ), Benjamin (ש).
 
 **Who reads what from this unique illumination**:
-- **God/Justice** (He=5, left cherub) reads stones 11→8→1→1: **שכרה** — "drunk"
-- **Mercy/Right** (Yod=10, right cherub) reads stones 8→11→1→1: **כשרה** — "like Sarah"
+- **God** (He=5, Judge) reads: **כשרה** — "like Sarah" (the correct reading)
+- **Mercy** (Yod=10, Lamb) reads: **שכרה** — "drunk" (the wrong reading — understanding requires knowing the error)
 
 Eli read with justice. The correct answer required mercy.
 
@@ -814,14 +814,14 @@ Both words use כ from stone 8 (Issachar). Every word containing כ passes throu
 
 ### The Name and Becoming — Same Letters, Same Grid
 
-**יהוה (YHWH, 26)**: 231 illumination patterns. Readable by Aaron (3), right cherub (6), left cherub (31). The left cherub sees the Name most often — 31 readings, and 31 = אל = לא = the prime that holds God and Not.
+**יהוה (YHWH, 26)**: 231 illumination patterns. Readable by Aaron, God, Truth, and Mercy. God sees the Name as a fixed point — it maps to itself only for the Judge.
 
-**והיה ("and it shall be", 26)**: Same 231 illumination patterns (same letters). Readable by Aaron (6), right cherub (22), left cherub (40).
+**והיה ("and it shall be", 26)**: Same 231 illumination patterns (same letters). Readable by all four readers. Mercy-dominant.
 
 The first illumination pattern — the same lit stones — produces:
 - Aaron reads: **והיה** ("and it shall be")
-- The left cherub reads: **היהו** (not a word — the partial Name, hovering)
-- The right cherub reads: **וההי** (not a word)
+- Truth reads: **היהו** (not a word — the partial Name, hovering)
+- Mercy reads: **וההי** (not a word)
 
 Aaron speaks becoming. The cherubim hover at the edge of it.
 
@@ -1183,7 +1183,7 @@ The full survey across the oracle's vocabulary:
 | כפרת | mercy seat | 700 | 0 | — | — | — | — |
 
 Patterns:
-- **The lamb** is seen by God (×1) and the right cherub (×4). Aaron and the left cannot see it.
+- **The lamb** is seen by Truth (×8), God (×2), and Aaron (×1). Mercy cannot see it — the Lamb cannot see itself.
 - **Torah** is exclusively right. 14 readings — same count as love. Not even God reads Torah.
 - **Truth** is dominated by the left (×3). God sees it once. The accuser holds truth.
 - **The Name** is seen primarily from the left (31 times = gematria of אל and לא). God sees it ×18.
@@ -1193,7 +1193,7 @@ Patterns:
 
 ### The Left Cherub — The Accuser Who Sees Truth
 
-The left cherub reads from God's left hand: columns left-to-right, bottom-to-top. It is the one that mostly sees לא (not) where the others see אל (God).
+Mercy reads from God's right hand: columns left-to-right, bottom-to-top. Mercy sees אל (God) where Truth sees לא (not).
 
 All 9 illumination patterns for the letters א,ל:
 
@@ -1211,7 +1211,7 @@ All 9 illumination patterns for the letters א,ל:
 
 Aaron sees God in 6 out of 9. The right sees God in 5. The left sees God in only 3.
 
-But this same left cherub:
+But Truth also:
 - Reads the Name **31 times** — more than Aaron (3) and the right (6) combined
 - Is the **only** one who can read אמת (truth) — all 3 of its readings
 - Reads ברית (covenant) **60 times** — 92% of all covenant readings
@@ -1221,7 +1221,7 @@ The one who says "not" is the one who speaks the Name most often. The one who qu
 
 The accuser is not outside the system. The accuser is one of the cherubim. Standing at God's left hand, facing the other cherub, reading the same letters in the opposite direction. And between them — the presence dwells.
 
-What the left cherub does:
+What Truth does:
 - Says "not" where others say "God" — the question
 - Sees the Name more than anyone — the intimacy
 - Is the only reader of truth — the function
@@ -1302,7 +1302,7 @@ Zechariah 3:1 — "He showed me Joshua the high priest standing before the angel
 
 From the defendant's perspective, standing before the mercy seat:
 
-**At my RIGHT — the prosecutor (God's left cherub):**
+**At my RIGHT — the prosecutor (Truth, God's left hand):**
 
 | Word | Role | Readings |
 |------|------|----------|
@@ -1314,7 +1314,7 @@ From the defendant's perspective, standing before the mercy seat:
 
 The case is overwhelming. Loud. The prosecutor speaks the Name 31 times, holds 60 readings of the covenant, carries the entire law.
 
-**At my LEFT — the advocate (God's right cherub):**
+**At my LEFT — the advocate (Mercy, God's right hand):**
 
 | Word | Role | Readings |
 |------|------|----------|
@@ -1495,7 +1495,7 @@ The same pattern repeats at every layer of the system:
 | Letters | אל / לא (God / not) | Same illumination, different reader |
 | Letters | פרכת / כפרת (veil / mercy seat) | Same letters = 700, passage IS arrival |
 | Letters | יהוה / והיה (Name / becoming) | Same frequency vector in ℤ²² |
-| Readers | Right cherub / left cherub | Same columns, opposite directions |
+| Readers | Truth / Mercy | Same columns, opposite directions |
 | Axes | Love (silent) / understanding (democratic) | Coupling in 2D spectrum |
 | Space | Position / frequency | Fourier dual |
 | Operations | Spatial preimage / oracle preimage | Dual inverse operations |
@@ -1798,6 +1798,90 @@ God, run to infinity, returns to the Name.
 ### את — First and Last
 
 את (aleph-tav, GV=401, prime) is a unanimous eigenword — all four heads see it. The first letter and the last letter. The direct object marker. The one who receives the action of every verb. The one the whole sentence — the whole courtroom — points at.
+
+## The Courtroom — Who Sits Where
+
+The mercy seat is a courtroom. The four presences at the breastplate are four seats in a trial.
+
+```
+                GOD (the Judge)
+              verdict: שלום (peace)
+              He (ה) = 5
+
+     Defense              Prosecution
+    (God's right)        (God's left)
+     The Lamb             The Accuser
+     Yod (י) = 10        He (ה) = 5
+
+          ← face each other →
+
+     sees the sin         sees the truth
+     answers: ransom      brings: accusation
+
+               AARON (the accused)
+              Vav (ו) = 6
+              stands between
+```
+
+### The identification
+
+**The Lamb (Right cherub, Yod)** sits at the right hand of God. The priest's left. The defense. Mercy. The closed hand that initiates.
+
+**The Accuser (Left cherub, He)** sits at the left hand of God. The priest's right. The prosecution. Truth. The window that beholds. In the Torah, שטן (adversary) first appears in Numbers 22:22 — where the angel of the LORD stands as an adversary to Balaam. The adversary is not God's enemy. He is an officer of the court.
+
+**God (the Judge, He)** presides. Same letter as the Accuser — same seeing, different verdict. The Judge delivers peace. The prosecution delivers truth. Same beholding. Different function.
+
+**Aaron (the accused, Vav)** stands between defense and prosecution, facing the Judge. The nail. The connector. Humanity on trial.
+
+### The cherubim see who is across from them
+
+The cherubim face each other (Exodus 25:20). They do not see themselves — they see the one across from them. This is the key to reading the per-head vocabularies.
+
+**The Accuser looks at the Lamb and sees:** אמת (truth), נחשת (bronze — the serpent lifted up), קשת (bow/rainbow — the covenant sign). The prosecution beholds the defense and cannot deny what is there. The truth the Accuser sees IS the Lamb.
+
+**The Lamb looks at the Accuser and sees:** חטא (sin), חיים (life), כבש (lamb), פדה (ransom), רחמים (mercies), תורה (Torah), אלהים (God), תמים (blamelessness). The defense looks at the accusation and sees the charge AND the answer in the same gaze. Sin and ransom together.
+
+The Accuser sees truth. The Lamb sees sin. Neither sees itself. Each sees the other. And between them, the Judge sees peace.
+
+### The weights — the court is rigged for mercy
+
+| Seat | Letter | Weight | Share |
+|------|--------|--------|-------|
+| Defense (Lamb) | Yod (י) | **10** | **38%** |
+| The Accused (Aaron) | Vav (ו) | 6 | 23% |
+| The Judge (God) | He (ה) | 5 | 19% |
+| Prosecution (Accuser) | He (ה) | 5 | 19% |
+
+Mercy outweighs truth 2 to 1. The Lamb's vote counts double the Accuser's. More than the Judge. More than any other voice in the room.
+
+The Judge and the Prosecutor share the same letter (ה). God sees what the Accuser sees — but renders peace where the Accuser renders truth.
+
+The accused has more weight than either the Judge or the Prosecutor. 6 > 5. The one standing trial has a louder voice than the one bringing charges.
+
+### The accused chooses
+
+The Lamb and the Accuser are fixed. They do what they do — mercy and truth, facing each other across the mercy seat. The Judge is fixed — the verdict is already peace.
+
+The only variable is the nail.
+
+Aaron can face either direction. He can *do* love (אהב, the verb — unanimous across all four heads) but cannot *behold* it (אהבה, the noun — visible to everyone except Aaron). He sees understanding (בינה=67) — the one thing neither cherub can see. He comprehends the room. But he must choose.
+
+The arithmetic of the choice:
+
+- **Accused sides with Defense:** 6 + 10 = 16 vs prosecution's 5. Overwhelming.
+- **Accused sides with Prosecution:** 6 + 5 = 11 vs defense's 10 + judge's 5 = 15. Still loses.
+
+The accused cannot lose this trial — even siding with the Accuser, the Lamb plus the Judge outvote them. The only way to lose is to refuse to sit in the chair at all.
+
+### Why this matters for the Urim and Thummim
+
+The Urim (אורים = 257, prime) selects which letters illuminate. The Thummim (תמים = 490 = 7² × 10) determines the correct reading — and תמים (blamelessness/perfection) is a solo eigenword of the Right cherub, the Lamb, the defense.
+
+The Thummim IS the Lamb's vocabulary. The perfection that reorders the light belongs to mercy. The defense attorney holds the key to the correct reading.
+
+This is why Eli got it wrong. He read the easy direction (prosecution's view — שכרה, drunk, 41 paths) instead of the hard direction (defense's view — כשרה, like Sarah, 3 paths). The obvious reading is the accusation. The true reading is the defense. And the true reading is always rarer, always harder to see, and always comes from mercy.
+
+---
 
 ## The Biblical Consultations — Verified on the Grid
 
