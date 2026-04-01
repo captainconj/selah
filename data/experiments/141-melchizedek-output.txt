@@ -1,0 +1,246 @@
+═══════════════════════════════════════════════════
+  EXPERIMENT 141 — MELCHIZEDEK
+  The priest with no genealogy.
+═══════════════════════════════════════════════════
+
+── THE NAME ──
+
+  מלכי-צדק = Melchi-zedek = My King of Righteousness
+  מלכי (my king) = 100
+  צדק (righteousness) = 194
+  מלכיצדק (combined) = 294
+  מלך (king) = 90
+  שלם (Salem/complete) = 370
+  שלום (peace) = 376
+
+  294 = 2 × 3 × 7 × 7. Completeness squared.
+  294 = 294
+
+
+── GENESIS 14:18-20 — THE MEETING ──
+
+  v18: And Melchizedek king of Salem brought forth bread and wine;
+       and he was priest of God Most High.
+  v19: And he blessed him and said: Blessed be Abram of God Most High,
+       possessor of heaven and earth.
+  v20: And blessed be God Most High, who has delivered your enemies
+       into your hand. And he gave him a tithe of all.
+
+  Melchizedek          מלכיצדק  GV=294   A=0   G=0   T=0   M=0    total=0
+  my king              מלכי     GV=100   A=5   G=0   T=0   M=0    total=5
+  righteousness        צדק      GV=194   A=2   G=0   T=2   M=0    total=4
+  king                 מלך      GV=90    A=1   G=0   T=0   M=0    total=1
+  THE king             המלך     GV=95    A=1   G=0   T=0   M=0    total=1
+  Salem                שלם      GV=370   A=0   G=5   T=0   M=6    total=11
+  peace                שלום     GV=376   A=0   G=10  T=0   M=0    total=10
+  brought forth        הוציא    GV=112   A=18  G=4   T=22  M=0    total=44
+  bread                לחם      GV=78    A=0   G=1   T=0   M=1    total=2
+  wine                 יין      GV=70    A=103 G=129 T=126 M=59   total=417
+  priest               כהן      GV=75    A=0   G=6   T=2   M=0    total=8
+  God (El)             אל       GV=31    A=5   G=4   T=3   M=6    total=18
+  Most High            עליון    GV=166   A=74  G=3   T=82  M=0    total=159
+  blessed              ברוך     GV=228   A=2   G=0   T=0   M=16   total=18
+  bless                ברך      GV=222   A=1   G=4   T=0   M=7    total=12
+  Abram                אברם     GV=243   A=0   G=6   T=0   M=18   total=24
+  heaven               שמים     GV=390   A=0   G=0   T=0   M=21   total=21
+  earth/land           ארץ      GV=291   A=1   G=2   T=0   M=4    total=7
+  enemies              צריך     GV=320   A=0   G=0   T=0   M=0    total=0
+  hand                 יד       GV=14    A=16  G=20  T=28  M=8    total=72
+  tithe                מעשר     GV=610   A=24  G=1   T=8   M=6    total=39
+  all                  כל       GV=50    A=1   G=2   T=1   M=2    total=6
+
+
+── PSALM 110:1,4 — THE OATH ──
+
+  v1: The LORD said to my Lord: Sit at my right hand
+      until I make your enemies a footstool for your feet.
+  v4: The LORD has sworn and will not change his mind:
+      You are a priest forever after the order of Melchizedek.
+
+  sit                  שב       GV=302   A=24  G=11  T=28  M=7    total=70
+  right hand           ימין     GV=110   A=48  G=48  T=119 M=19   total=234
+  enemies              איביך    GV=43    A=0   G=0   T=0   M=54   total=54
+  footstool            הדם      GV=49    A=0   G=3   T=0   M=3    total=6
+  sworn                נשבע     GV=422   A=0   G=24  T=6   M=4    total=34
+  priest               כהן      GV=75    A=0   G=6   T=2   M=0    total=8
+  forever              עולם     GV=146   A=0   G=0   T=0   M=1    total=1
+  order/manner         דברת     GV=606   A=0   G=0   T=0   M=10   total=10
+  YHWH                 יהוה     GV=26    A=5   G=48  T=11  M=20   total=84
+
+
+── HEBREWS 7 — THE COMPARISON ──
+
+  Without father, without mother, without genealogy,
+  having neither beginning of days nor end of life,
+  but made like the Son of God, he remains a priest forever.
+
+  father               אב       GV=3     A=14  G=6   T=12  M=8    total=40
+  mother               אם       GV=41    A=0   G=3   T=0   M=3    total=6
+  son                  בן       GV=52    A=16  G=18  T=14  M=20   total=68
+  son of God           בנאל     GV=83    A=2   G=20  T=7   M=8    total=37
+  beginning            ראשית    GV=911   A=0   G=14  T=0   M=40   total=54
+  end                  קץ       GV=190   A=0   G=1   T=0   M=1    total=2
+  life                 חיים     GV=68    A=0   G=1   T=0   M=10   total=11
+  death                מות      GV=446   A=2   G=1   T=0   M=1    total=4
+  forever              עולם     GV=146   A=0   G=0   T=0   M=1    total=1
+  covenant             ברית     GV=612   A=0   G=28  T=0   M=37   total=65
+  oath                 שבועה    GV=383   A=0   G=3   T=0   M=16   total=19
+
+── Thummim: Melchizedek (מלכיצדק, GV=294) ──
+  10 phrases
+  מכל צדיק — , 
+  מלכי צדק — , righteousness
+  צדיק מכל — , 
+  צדק מלכי — righteousness, 
+  כל מי צדק — all/every, , righteousness
+  כל צדק מי — all/every, righteousness, 
+  מי כל צדק — , all/every, righteousness
+  מי צדק כל — , righteousness, all/every
+  צדק כל מי — righteousness, all/every, 
+  צדק מי כל — righteousness, , all/every
+
+── Thummim: king of righteousness (מלךצדק, GV=284) ──
+  6 phrases
+  למך צדק — , righteousness
+  מלך צדק — king, righteousness
+  מצד קלך — , 
+  צדק למך — righteousness, 
+  צדק מלך — righteousness, king
+  קלך מצד — , 
+
+── Thummim: king of Salem (מלךשלם, GV=460) ──
+  14 phrases
+  לך שלמם — to you / go, 
+  למך לשם — , 
+  למך שלם — , 
+  למלך שם — , there/name
+  לשלם מך — , 
+  לשם למך — , 
+  לשם מלך — , king
+  מך לשלם — , 
+  מלך לשם — king, 
+  מלך שלם — king, 
+  שלם למך — , 
+  שלם מלך — , king
+  שלמם לך — , to you / go
+  שם למלך — there/name, 
+
+── Thummim: king of peace (מלךשלום, GV=466) ──
+  96 phrases
+  ולך שלמם — , 
+  ולמך לשם — , 
+  ולמך שלם — , 
+  ולשם למך — , 
+  ולשם מלך — , king
+  ומך לשלם — , 
+  ומלך לשם — , 
+  ומלך שלם — , 
+  ומשלם לך — , to you / go
+  ושלם למך — , 
+  ושלם מלך — , king
+  ושם למלך — , 
+  לך ומשלם — to you / go, 
+  למך ולשם — , 
+  למך ושלם — , 
+
+── Thummim: priest of God Most High (כהןאלעליון, GV=272) ──
+  14234 phrases
+  יאכלון עלהן — , 
+  עלהן יאכלון — , 
+  אהל ויען לכן — tent, , 
+  אהל וכן לעין — tent, , 
+  אהל כן עליון — tent, thus/so, 
+  אהל לכן ויען — tent, , 
+  אהל לעין וכן — tent, , 
+  אהל עליון כן — tent, , thus/so
+  אהלו יען לכן — , , 
+  אהלו כן לעין — , thus/so, 
+  אהלו כעין לן — , , 
+  אהלו לכן יען — , , 
+  אהלו לכן עין — , , eye
+  אהלו לן כעין — , , 
+  אהלו לעין כן — , , thus/so
+  אהלו עין לכן — , eye, 
+  אהלי כן לעון — , thus/so, 
+  אהלי כן עלון — , thus/so, 
+  אהלי לכן עון — , , 
+  אהלי לעון כן — , , thus/so
+
+── Thummim: bread and wine (לחםויין, GV=154) ──
+  80 phrases
+  וחם ילין — , 
+  ויחן לים — , 
+  ויין חלם — , 
+  ויין לחם — , bread
+  וילן יחם — , 
+  ולחם יין — , wine
+  חולם יין — , wine
+  חום ילין — , 
+  חילם יון — , 
+  חלום יין — , wine
+  חלם ויין — , 
+  יון חילם — , 
+  יון ילחם — , 
+  יון לחים — , 
+  יחם וילן — , 
+  יחן ליום — , 
+  יין ולחם — wine, 
+  יין חולם — wine, 
+  יין חלום — wine, 
+  ילחם יון — , 
+
+
+── BASIN WALKS ──
+
+  my king (מלכי):
+    basin: A=מלכי(5) G=כלים(1) T=dead M=dead
+  righteousness (צדק):
+    basin: A=צדק(2) G=dead T=צדק(2) M=dead
+  Salem (שלם):
+    basin: A=משל(7) G=לשם(7) T=משל(6) M=שלם(6)
+  priest (כהן):
+    basin: A=הנך(3) G=נכה(6) T=כהן(2) M=הנך(8)
+  bread (לחם):
+    basin: A=מלח(2) G=חלם(1) T=מלח(2) M=חלם(1)
+  wine (יין):
+    basin: A=יין(103) G=יין(129) T=יין(126) M=יין(59)
+  bless (ברך):
+    basin: A=רכב(8) G=בכר(12) T=רכב(6) M=בכר(12)
+  tithe (מעשר):
+    basin: A=מעשר(24) G=משער(16) T=מעשר(8) M=משער(6)
+  Most High (עליון):
+    basin: A=עליון(74) G=עלינו(3) T=עלינו(85) M=dead
+  forever (עולם):
+    basin: A=מעלו(8) G=לעמו(3) T=מעלו(6) M=לעמו(2)
+
+
+── COMPARISON: TWO PRIESTHOODS ──
+
+                   Melchizedek  Aaron   
+  name GV          294       256     
+                   2×3×7²    2⁸      
+  brings           bread+wine  blood+incense
+  genealogy        none      Levi→Aaron
+  duration         forever   until destroyed
+  Psalm 110:4      his order  —       
+  Hebrews 7        greater   lesser  
+
+  אהרן (Aaron) GV=256 = 2⁸ = 256
+  מלכיצדק GV=294 = 2×3×7² = 294
+  Difference: 38 = 38
+  38 = ? לח (moist/fresh)
+
+
+── THE VISIBILITY QUESTION ──
+
+  Who does the oracle see?
+  Noah (נח):         6 readings
+  Abram (אברם):      24 readings
+  Abraham (אברהם):   24 readings
+  Melchizedek:       0 readings
+
+  Noah: visible. Abraham: visible. Melchizedek: ?
+
+═══════════════════════════════════════════════════
+  Done. The priest with no genealogy.
+═══════════════════════════════════════════════════
