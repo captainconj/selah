@@ -3,7 +3,7 @@
 *Feed the oracle to itself. Every word flows downhill to its dominant anagram.*
 
 Type: `evidence`
-State: `clean`
+State: `clean` (updated 2026-03-25: final-form unioning fix)
 
 **Code:** `dev/experiments/096_basin_classification.clj`
 **Run:** `clojure -M:dev dev/experiments/096_basin_classification.clj`
@@ -16,20 +16,32 @@ In experiment 091 we discovered that truth (אמת), life (חיים), and love-t
 
 We ran `basin/landscape` over all 12,826 unique Hebrew word forms in the five books. Every word was walked up to 30 steps. The raw results were classified, the cycles resolved, and the statistics computed.
 
+## The Final-Form Fix (2026-03-25)
+
+The original landscape treated final-form letters (ך ם ן ף ץ) as distinct from their non-final counterparts. This meant that a word containing ך could never be recognized as an anagram of a word containing כ — the oracle saw them as different letters and produced no match.
+
+The fix: union final forms with their base letters (ך→כ, ם→מ, ן→נ, ף→פ, ץ→צ) when computing breastplate illumination. This is the correct behavior — the breastplate has 22 stones, not 27. A כ at end-of-word lights the same stone as a כ mid-word.
+
+The effect was immediate and large. **687 words came alive.** The dead zone shrank from 4,256 to 3,569. Words that had been mute — דרך (way), עץ (tree), מלך (king), ארץ (land), חשך (darkness), ברך (bless), הלך (walk) — now illuminate and flow. Some became fixed points. Some became attractors drawing other words toward them. The landscape opened.
+
+The theorems (anagram class = basin, depth = 1, cycles = period 2) are unaffected — they are structural properties of the step function, independent of which words are alive. What changed is the *population*: more words participate, the dead zone is smaller, and some words moved categories.
+
+All numbers below reflect the post-fix landscape.
+
 ## The Classification
 
-Every word falls into exactly one of five classes:
+Every word falls into exactly one of three classes:
 
 | Class | Count | % | Description |
 |-------|-------|---|-------------|
-| **Fixed point** | 6,104 | 47.6% | Maps to itself: f(w) = w |
-| **Transient** | 2,453 | 19.1% | Flows to a fixed point in one step |
-| **Dead end** | 4,256 | 33.2% | No illumination output |
-| **Cycle member** | 8 | 0.1% | Part of a period-2 orbit |
-| **Cycle transient** | 5 | 0.0% | Feeds into a cycle |
+| **Attractor** | 5,965 | 46.5% | Fixed points and cycle members |
+| **Cycle** | 261 | 2.0% | Period-2 orbits and their transients |
+| **Dead end** | 3,569 | 27.8% | No illumination output |
 | **Total** | **12,826** | **100%** | |
 
-Two-thirds of the Torah vocabulary converges. Of those that converge, 71% are already at rest.
+Nearly three-quarters of the Torah vocabulary is alive. The dead zone dropped from 33.2% to 27.8% after the final-form fix — 687 fewer silent words.
+
+*Pre-fix numbers for reference: 6,104 fixed / 2,453 transient / 4,256 dead / 8 cycle / 5 cycle-transient.*
 
 ---
 
