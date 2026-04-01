@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════
+  THE CANONICAL 4D: 7 × 50 × 13 × 67
+═══════════════════════════════════════════════════
+
+═══ 7 × 50 × 13 × 67 ═══
+  4D, axis sum = 137
+
+  CENTER: (3,24,6,33) → Leviticus 8:23  letter=ח
+
+  CORNERS:
+    (0,0,0,0) idx=0      → Genesis 1:1  ב
+    (0,0,0,66) idx=66     → Genesis 1:2  מ
+    (0,0,12,0) idx=804    → Genesis 1:17  ל
+    (0,0,12,66) idx=870    → Genesis 1:18  א
+    (0,49,0,0) idx=42679  → Genesis 30:27  ח
+    (0,49,0,66) idx=42745  → Genesis 30:29  א
+    (0,49,12,0) idx=43483  → Genesis 30:41  ש
+    (0,49,12,66) idx=43549  → Genesis 30:42  י
+    (6,0,0,0) idx=261300 → Deuteronomy 6:1  ל
+    (6,0,0,66) idx=261366 → Deuteronomy 6:2  ו
+    (6,0,12,0) idx=262104 → Deuteronomy 6:18  ש
+    (6,0,12,66) idx=262170 → Deuteronomy 6:18  ך
+    (6,49,0,0) idx=303979 → Deuteronomy 33:25  ל
+    (6,49,0,66) idx=304045 → Deuteronomy 33:27  ע
+    (6,49,12,0) idx=304783 → Deuteronomy 34:11  ר
+    (6,49,12,66) idx=304849 → Deuteronomy 34:12  ל
+
+  FACE CENTERS:
+    axis=0 val=0     (0,24,6,33) → Genesis 18:19  א
+    axis=1 val=0     (3,0,6,33) → Exodus 35:2  ת
+    axis=2 val=0     (3,24,0,33) → Leviticus 8:15  ח
+    axis=3 val=0     (3,24,6,0) → Leviticus 8:22  י
+    axis=3 val=66    (3,24,6,66) → Leviticus 8:23  נ
+    axis=2 val=12    (3,24,12,33) → Leviticus 8:28  א
+    axis=1 val=49    (3,49,6,33) → Leviticus 21:7  ל
+    axis=0 val=6     (6,24,6,33) → Deuteronomy 20:20  ש
+
+═══════════════════════════════════════════════════
+  THE 6D: 2 × 5 × 5 × 7 × 13 × 67
+  64 corners. The full prime factorization.
+═══════════════════════════════════════════════════
+
+═══ 2 × 5 × 5 × 7 × 13 × 67 ═══
+  6D, axis sum = 99
+
+  CENTER: (0,2,2,3,6,33) → Genesis 49:26  letter=ע
+
+  CORNERS:
+    (0,0,0,0,0,0) idx=0      → Genesis 1:1  ב
+    (0,0,0,0,0,66) idx=66     → Genesis 1:2  מ
+    (0,0,0,0,12,0) idx=804    → Genesis 1:17  ל
+    (0,0,0,0,12,66) idx=870    → Genesis 1:18  א
+    (0,0,0,6,0,0) idx=5226   → Genesis 4:23  ו
+    (0,0,0,6,0,66) idx=5292   → Genesis 4:24  ק
+    (0,0,0,6,12,0) idx=6030   → Genesis 5:15  ש
+    (0,0,0,6,12,66) idx=6096   → Genesis 5:16  נ
+    (0,0,4,0,0,0) idx=24388  → Genesis 20:2  ש
+    (0,0,4,0,0,66) idx=24454  → Genesis 20:3  מ
+    (0,0,4,0,12,0) idx=25192  → Genesis 20:15  ב
+    (0,0,4,0,12,66) idx=25258  → Genesis 20:16  ת
+    (0,0,4,6,0,0) idx=29614  → Genesis 24:6  א
+    (0,0,4,6,0,66) idx=29680  → Genesis 24:7  ו
+    (0,0,4,6,12,0) idx=30418  → Genesis 24:20  ד
+    (0,0,4,6,12,66) idx=30484  → Genesis 24:22  י
+    (0,4,0,0,0,0) idx=121940 → Exodus 29:25  נ
+    (0,4,0,0,0,66) idx=122006 → Exodus 29:26  ה
+    (0,4,0,0,12,0) idx=122744 → Exodus 29:40  ת
+    (0,4,0,0,12,66) idx=122810 → Exodus 29:41  י
+    (0,4,0,6,0,0) idx=127166 → Exodus 32:25  צ
+    (0,4,0,6,0,66) idx=127232 → Exodus 32:27  כ
+    (0,4,0,6,12,0) idx=127970 → Exodus 33:5  י
+    (0,4,0,6,12,66) idx=128036 → Exodus 33:5  ד
+    (0,4,4,0,0,0) idx=146328 → Leviticus 5:2  פ
+    (0,4,4,0,0,66) idx=146394 → Leviticus 5:2  נ
+    (0,4,4,0,12,0) idx=147132 → Leviticus 5:15  נ
+    (0,4,4,0,12,66) idx=147198 → Leviticus 5:15  ס
+    (0,4,4,6,0,0) idx=151554 → Leviticus 8:15  ע
+    (0,4,4,6,0,66) idx=151620 → Leviticus 8:16  ה
+    (0,4,4,6,12,0) idx=152358 → Leviticus 8:28  מ
+    (0,4,4,6,12,66) idx=152424 → Leviticus 8:29  ה
+    (1,0,0,0,0,0) idx=152425 → Leviticus 8:29  ח
+    (1,0,0,0,0,66) idx=152491 → Leviticus 8:30  ה
+    (1,0,0,0,12,0) idx=153229 → Leviticus 9:6  ה
+    (1,0,0,0,12,66) idx=153295 → Leviticus 9:7  ב
+    (1,0,0,6,0,0) idx=157651 → Leviticus 12:2  י
+    (1,0,0,6,0,66) idx=157717 → Leviticus 12:4  ה
+    (1,0,0,6,12,0) idx=158455 → Leviticus 13:7  ח
+    (1,0,0,6,12,66) idx=158521 → Leviticus 13:8  ה
+    (1,0,4,0,0,0) idx=176813 → Leviticus 23:14  י
+    (1,0,4,0,0,66) idx=176879 → Leviticus 23:15  ב
+    (1,0,4,0,12,0) idx=177617 → Leviticus 23:28  ם
+    (1,0,4,0,12,66) idx=177683 → Leviticus 23:29  ז
+    (1,0,4,6,0,0) idx=182039 → Leviticus 25:50  ה
+    (1,0,4,6,0,66) idx=182105 → Leviticus 25:51  ת
+    (1,0,4,6,12,0) idx=182843 → Leviticus 26:13  ה
+    (1,0,4,6,12,66) idx=182909 → Leviticus 26:13  מ
+    (1,4,0,0,0,0) idx=274365 → Deuteronomy 14:11  ת
+    (1,4,0,0,0,66) idx=274431 → Deuteronomy 14:14  ב
+    (1,4,0,0,12,0) idx=275169 → Deuteronomy 14:29  ך
+    (1,4,0,0,12,66) idx=275235 → Deuteronomy 15:2  ה
+    (1,4,0,6,0,0) idx=279591 → Deuteronomy 18:9  ת
+    (1,4,0,6,0,66) idx=279657 → Deuteronomy 18:11  ו
+    (1,4,0,6,12,0) idx=280395 → Deuteronomy 19:2  ת
+    (1,4,0,6,12,66) idx=280461 → Deuteronomy 19:4  ר
+    (1,4,4,0,0,0) idx=298753 → Deuteronomy 31:6  ז
+    (1,4,4,0,0,66) idx=298819 → Deuteronomy 31:7  ר
+    (1,4,4,0,12,0) idx=299557 → Deuteronomy 31:17  ה
+    (1,4,4,0,12,66) idx=299623 → Deuteronomy 31:17  ה
+    (1,4,4,6,0,0) idx=303979 → Deuteronomy 33:25  ל
+    (1,4,4,6,0,66) idx=304045 → Deuteronomy 33:27  ע
+    (1,4,4,6,12,0) idx=304783 → Deuteronomy 34:11  ר
+    (1,4,4,6,12,66) idx=304849 → Deuteronomy 34:12  ל
+
+  FACE CENTERS:
+    axis=1 val=0     (0,0,2,3,6,33) → Genesis 13:3  ת
+    axis=2 val=0     (0,2,0,3,6,33) → Genesis 42:21  נ
+    axis=3 val=0     (0,2,2,0,6,33) → Genesis 47:27  ו
+    axis=4 val=0     (0,2,2,3,0,33) → Genesis 49:14  י
+    axis=5 val=0     (0,2,2,3,6,0) → Genesis 49:25  ו
+    axis=0 val=0     (0,2,2,3,6,33) → Genesis 49:26  ע
+    axis=5 val=66    (0,2,2,3,6,66) → Genesis 49:26  י
+    axis=4 val=12    (0,2,2,3,12,33) → Genesis 49:33  ף
+    axis=3 val=6     (0,2,2,6,6,33) → Exodus 1:18  ח
+    axis=2 val=4     (0,2,4,3,6,33) → Exodus 8:8  י
+    axis=1 val=4     (0,4,2,3,6,33) → Exodus 38:21  ש
+    axis=0 val=1     (1,2,2,3,6,33) → Numbers 23:22  כ
