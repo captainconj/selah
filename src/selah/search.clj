@@ -22,48 +22,88 @@
 (defonce ^:dynamic *index* (atom nil))
 
 (defn build!
-  "Build the Torah index. Call once."
+  "Build the Torah index. Call once.
+   Indexes letters, verses (with text), and word boundaries."
   []
   (println "[search] Building Torah index...")
   (let [letters (vec (mapcat sefaria/book-letters
                              ["Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"]))
         n (count letters)
-        ;; Build verse index
+        ;; Build verse + word index in a single pass
         pos (atom 0)
         verses (atom [])
+        words (atom [])
         _ (doseq [book ["Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"]]
             (doseq [ch (range 1 (inc (get sefaria/book-chapters book)))]
               (let [vs (sefaria/fetch-chapter book ch)]
                 (doseq [[v-idx verse] (map-indexed vector vs)]
-                  (let [clean (apply str (filter norm/hebrew-letter? (norm/strip-html verse)))
+                  (let [stripped (norm/strip-html verse)
+                        clean (apply str (filter norm/hebrew-letter? stripped))
                         len (count clean)
-                        start @pos]
+                        v-start @pos
+                        ;; Extract words: split on spaces/maqaf/sof-pasuq, track letter positions
+                        ;; Niqqud and cantillation are WITHIN words, not boundaries.
+                        _ (let [word-break? (fn [c] (or (= c \space)
+                                                        (= c \־)     ;; maqaf U+05BE
+                                                        (= c \׃)))]  ;; sof-pasuq U+05C3
+                            (loop [chars (seq stripped) w-chars [] w-start @pos]
+                              (if-not chars
+                                ;; Flush last word
+                                (when (seq w-chars)
+                                  (swap! words conj {:word (apply str w-chars)
+                                                     :start w-start
+                                                     :end @pos
+                                                     :verse-idx (count @verses)}))
+                                (let [c (first chars)]
+                                  (cond
+                                    ;; Hebrew letter — part of current word
+                                    (norm/hebrew-letter? c)
+                                    (do (swap! pos inc)
+                                        (recur (next chars) (conj w-chars c) w-start))
+
+                                    ;; Word boundary — flush current word
+                                    (word-break? c)
+                                    (do (when (seq w-chars)
+                                          (swap! words conj {:word (apply str w-chars)
+                                                             :start w-start
+                                                             :end @pos
+                                                             :verse-idx (count @verses)}))
+                                        (recur (next chars) [] @pos))
+
+                                    ;; Niqqud/cantillation — skip, stay in current word
+                                    :else
+                                    (recur (next chars) w-chars w-start))))))]
                     (swap! verses conj {:book book :ch ch :vs (inc v-idx)
-                                        :start start :end (+ start len)})
-                    (swap! pos + len))))))
+                                        :start v-start :end (+ v-start len)
+                                        :text clean}))))))
         vi (vec @verses)
+        wi (vec @words)
         ;; Letter inverted index: char → sorted int array of positions
         letter-idx (reduce (fn [m i]
                              (update m (nth letters i) (fnil conj []) i))
                            {} (range n))
-        ;; Verse lookup: binary search
-        verse-at (fn [idx]
-                   (loop [lo 0 hi (dec (count vi))]
-                     (if (> lo hi) nil
-                       (let [mid (quot (+ lo hi) 2)
-                             v (nth vi mid)]
-                         (cond
-                           (< idx (:start v)) (recur lo (dec mid))
-                           (>= idx (:end v)) (recur (inc mid) hi)
-                           :else v)))))]
+        ;; Binary search helper
+        bsearch (fn [index idx key-start key-end]
+                  (loop [lo 0 hi (dec (count index))]
+                    (if (> lo hi) nil
+                      (let [mid (quot (+ lo hi) 2)
+                            entry (nth index mid)]
+                        (cond
+                          (< idx (key-start entry)) (recur lo (dec mid))
+                          (>= idx (key-end entry)) (recur (inc mid) hi)
+                          :else entry)))))
+        verse-at (fn [idx] (bsearch vi idx :start :end))
+        word-at  (fn [idx] (bsearch wi idx :start :end))]
     (reset! *index*
             {:letters letters
              :n n
              :letter-idx letter-idx
              :verses vi
-             :verse-at verse-at})
-    (println (format "[search] Indexed %,d letters, %d verses, %d letter types."
-                     n (count vi) (count letter-idx)))))
+             :words wi
+             :verse-at verse-at
+             :word-at word-at})
+    (println (format "[search] Indexed %,d letters, %,d verses, %,d words, %d letter types."
+                     n (count vi) (count wi) (count letter-idx)))))
 
 (defn index [] @*index*)
 
@@ -160,13 +200,16 @@
                 first-positions)))))
 
 (defn enrich-hit
-  "Enrich a search hit with coordinates, verses, and analysis."
-  [{:keys [letters verse-at]} view word skip start]
+  "Enrich a search hit with coordinates, verses, Torah words, and analysis."
+  [{:keys [letters verse-at word-at]} view word skip start]
   (let [n (count letters)
         wlen (count (vec word))
         positions (mapv #(+ start (* skip %)) (range wlen))
         coords (mapv (:idx->coord view) positions)
         verse-refs (mapv verse-at positions)
+        ;; Torah words at each letter position
+        torah-words (mapv word-at positions)
+        unique-torah-words (vec (distinct (remove nil? (map :word torah-words))))
         ;; Which axes are constant across all positions?
         constant-axes (for [i (range (:k view))
                            :let [vals (map #(nth % i) coords)]
@@ -180,8 +223,10 @@
         ;; Verse span
         first-verse (first verse-refs)
         last-verse (last verse-refs)
-        ;; Words at each position (the Torah word containing each letter)
-        letter-gvs (mapv #(g/letter-value (nth letters %)) positions)]
+        unique-verses (vec (distinct (remove nil? verse-refs)))
+        ;; Gematria at each position
+        letter-gvs (mapv #(g/letter-value (nth letters %)) positions)
+        torah-word-gvs (mapv #(when % (g/word-value (:word %))) torah-words)]
     {:word word
      :skip skip
      :start start
@@ -190,12 +235,18 @@
      :verse-refs verse-refs
      :first-verse first-verse
      :last-verse last-verse
+     :unique-verses unique-verses
      :letter-span (- (last positions) (first positions))
      :constant-axes (vec constant-axes)
      :varying-axes (vec varying-axes)
      :word-gv (g/word-value word)
      :position-letter-gvs letter-gvs
-     :position-letter-gv-sum (reduce + letter-gvs)}))
+     :position-letter-gv-sum (reduce + letter-gvs)
+     ;; Fiber context — the Torah words this fiber passes through
+     :torah-words torah-words
+     :unique-torah-words unique-torah-words
+     :torah-word-count (count unique-torah-words)
+     :torah-word-gvs torah-word-gvs}))
 
 ;; ══════════════════════════════════════════════════════
 ;; LAYER 5: PUBLIC API
@@ -309,10 +360,14 @@
   "Pretty-print search results."
   [hits & {:keys [limit] :or {limit 20}}]
   (println (format "  %d hits\n" (count hits)))
-  (doseq [{:keys [word skip start coords first-verse last-verse
-                   letter-span constant-axes varying-axes]} (take limit hits)]
-    (println (format "  skip=%-6d  start=%-6d  span=%-6d  %s %d:%d → %s %d:%d  const=%s vary=%s"
-                     skip start letter-span
+  (doseq [{:keys [word skip start first-verse last-verse
+                   letter-span constant-axes varying-axes
+                   unique-torah-words torah-word-count]} (take limit hits)]
+    (println (format "  skip=%-6d  start=%-6d  span=%-6d  words=%-2d  %s %d:%d → %s %d:%d  const=%s vary=%s"
+                     skip start letter-span torah-word-count
                      (:book first-verse) (:ch first-verse) (:vs first-verse)
                      (:book last-verse) (:ch last-verse) (:vs last-verse)
-                     constant-axes varying-axes))))
+                     constant-axes varying-axes))
+    (when (seq unique-torah-words)
+      (println (format "    passes through: %s"
+                       (str/join " " unique-torah-words))))))
