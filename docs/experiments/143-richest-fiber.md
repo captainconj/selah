@@ -2,6 +2,12 @@
 
 *The richest fiber in the Torah starts at the dividing of light from darkness and reads the whole story: beauty, hiding, expulsion, Hebrew, covenant, water, sons, tent, the coming one.*
 
+Type: `exploration`
+State: `clean`
+
+**Code:** `dev/experiments/fiber/143ac_richest_fiber.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ac-richest-fiber :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Finding It

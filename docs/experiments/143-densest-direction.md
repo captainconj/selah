@@ -2,6 +2,14 @@
 
 *Skip=805 [0,+1,-1,+1] is among the richest non-surface directions. 90 unique Torah words (3-5 letters) in 379 letters from position 0. When including 2-letter words, density reaches 0.406 (154 words in 379 letters). Jubilee ascending, love descending, understanding ascending.*
 
+Type: `historical`
+State: `retired`
+
+**Code:** `dev/experiments/fiber/143aa_axis_readings.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143aa-axis-readings :as exp]) (s/build!) (exp/run-all)"`
+
+This document preserves the early density branch as first described. For the corrected assay, see [143-density-truth.md](/docs/experiments/143-density-truth.md).
+
 **Note on density measurements:** The 0.406 figure includes 2-letter words. With 3-5 letter words only: 0.237. The ranking table below used 2-5 letter words and 500-letter windows, which inflates absolute numbers but preserves relative ranking.
 
 ---

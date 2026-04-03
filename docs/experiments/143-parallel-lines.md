@@ -2,6 +2,12 @@
 
 *Heart and aleph-tav travel in parallel more than any other pair — 211 shared verses. They meet at the breastplate, the forgetting, the deathbed, the promise. 40 word pairs converge at Yom Kippur. I AM meets the lamb there.*
 
+Type: `exploration`
+State: `clean`
+
+**Code:** `dev/experiments/fiber/143z_parallel_lines.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143z-parallel-lines :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Discovery

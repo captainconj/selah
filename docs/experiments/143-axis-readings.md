@@ -2,6 +2,12 @@
 
 *Each axis reads as a text. The completeness axis spells "in the midst" with its center in "your God." The love axis begins with purity and evil. The jubilee axis carries the rock, the staff, and "go."*
 
+Type: `exploration`
+State: `clean`
+
+**Code:** `dev/experiments/fiber/143aa_axis_readings.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143aa-axis-readings :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Completeness Axis — 7 Letters

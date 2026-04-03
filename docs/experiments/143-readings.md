@@ -2,6 +2,12 @@
 
 *The screw reads the Torah in every direction. Some fibers spell sentences. Some fibers speak.*
 
+Type: `exploration`
+State: `clean`
+
+**Code:** `dev/experiments/fiber/143x_readings.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143x-readings :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Manasseh Reaches His Father

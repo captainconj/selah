@@ -5,6 +5,9 @@
 Type: `correction`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ad_density_truth.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ad-density-truth :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Correction
@@ -60,7 +63,7 @@ Density does NOT decay smoothly with skip distance:
 | 200-500 | 0.17-0.28 (still fluctuating) |
 | 500-1000 | 0.16-0.26 (no clear decay) |
 
-There is no simple "closer letters = more words" relationship. Skip=500 (0.263) is denser than skip=50 (0.207). Nearby skips can trade places unexpectedly. The landscape is rugged, not smooth.
+There is no simple "closer letters = more words" relationship. Skip=500 (0.263) is denser than skip=50 (0.207), and nearby skips can trade places unexpectedly. The landscape is rugged, not smooth.
 
 Certain skips appear "resonant" — producing more words than their neighbors — but the pattern is not obviously tied to the factors of 304,850 or to theological numbers. This is an open question.
 

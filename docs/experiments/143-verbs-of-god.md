@@ -2,6 +2,12 @@
 
 *Each verb finds its own story. Choose finds the lawgiver. Love finds the curse. See finds the forbidden fruit. Give finds the surrender of idols. Remember finds Shechem. The verbs know what they do.*
 
+Type: `exploration`
+State: `mixed`
+
+**Code:** `dev/experiments/fiber/143y_verbs_of_god.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143y-verbs-of-god :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Verbs
