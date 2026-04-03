@@ -159,11 +159,10 @@
                  (println)
                  (println "=== GOD-EXCLUSIVE SHORT WORDS (top 20) + BASIN ===")
                  (doseq [d with-basins]
-                   (printf "%-8s GV=%-5d readings=%-3d fixed=%-8s %s  %s\n"
+                   (printf "%-8s GV=%-5d readings=%-3d fixed=%-8s %s\n"
                            (:word d) (:gv d) (:total d)
                            (or (:fixed-point d) "nil")
-                           (if (:converged? d) "converged" "diverged")
-                           (or (:meaning d) "")))
+                           (if (:converged? d) "converged" "diverged")))
                  (println)
                  (println "=== PER-READER EXCLUSIVE COUNTS (short roots) ===")
                  (printf "God:   %d words\n" (count (short god-only)))
