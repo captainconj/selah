@@ -139,7 +139,7 @@ Discovered and verified computationally:
 - **phi(304,850) = 95,040 = 12!/7! = |M_12|** — Euler's totient equals the order of the Mathieu group M_12, a sporadic simple group that acts on 12 points. The breastplate has 12 stones. 95,040 = the number of ordered 5-selections from 12 objects.
 - **13^2 + 67^2 = 4,658 = 2 x 17 x 137** — the squared face diagonal of the two silent axes (love, understanding) factors to contain the axis sum 137.
 - **Graph diameter = 133 = 137 - 4 = 7 x 19** — the Manhattan distance corner-to-corner equals the fine structure constant minus the dimensionality. Also equals the axis sum of the #2 ranked decomposition (5x26x35x67, the Name-of-God space).
-- **Uniqueness**: no integer in [304,840..304,860] besides 304,850 has a non-trivial 4-tuple decomposition (all factors > 1) summing to 137.
+- **Uniqueness (narrow claim)**: among integers in [304,840..304,860], only 304,850 can be written as a product of exactly four factors all ≥ 2 whose sum equals 137. Verified by exhaustive search over all ordered 4-tuples (a ≤ b ≤ c ≤ d, each ≥ 2, a×b×c×d = n, a+b+c+d = 137). Code: `dev/experiments/135b_decomposition_properties.clj:65`.
 - **mu(304,850) = 0** — the Mobius function vanishes because 5^2 divides it. The breath (He) is the only repeated prime.
 
 ### 12. Torah Walk Smoothness

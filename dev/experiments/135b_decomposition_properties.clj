@@ -63,8 +63,9 @@
          sort vec)))
 
 (defn four-tuples-with-sum
-  "Find all non-trivial 4-tuples [a b c d] where a*b*c*d = n, a+b+c+d = target,
-   a <= b <= c <= d, and all factors > 1."
+  "Find all ordered 4-tuples [a b c d] where a*b*c*d = n, a+b+c+d = target,
+   a <= b <= c <= d, and all factors >= 2 (no trivial factor of 1).
+   Used to test uniqueness of 304,850 among nearby integers."
   [n target]
   (let [divs (filterv #(> % 1) (divisors n))
         results (atom [])]
