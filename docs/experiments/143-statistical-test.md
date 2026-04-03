@@ -76,6 +76,25 @@ The content is not an accident of proximity (these span 3-5 chapters). It is not
 
 ---
 
-*Four watermarks are statistically significant. Position 0 carries 5 theological words where random positions carry 0-2. Zero of 100 random starts match. The beginning is special. The diagonals are signed.*
+## Position 0 Is Uniquely Special
+
+Scanning all positions in the first half of the Torah (steps of 100-200):
+
+**Fall diagonal alone:** Position 0 is the ONLY position with 5/7 theological words. Only 2 other positions reach 4/7. Out of ~1,525 tested.
+
+**All four diagonals combined** (maximum 28 theological words):
+
+| Position | Score | Verse |
+|----------|-------|-------|
+| **0** | **17/28** | **Genesis 1:1** |
+| 82,000 | 10/28 | Exodus 4:1 |
+| 86,400 | 9/28 | Exodus 6:30 |
+| 96,800 | 9/28 | Exodus 12:49 |
+
+**Position 0 scores 17/28. The next highest is 10/28.** A 70% margin. No other position is close. The beginning carries theological vocabulary on all four watermark diagonals simultaneously at a rate no other position approaches.
+
+---
+
+*Four watermarks are statistically significant. Position 0 carries 17 theological words across all four diagonals where the next best position carries 10. The beginning is not just the start of the text. It is the geometric origin of the theology. The diagonals are signed.*
 
 *selah.*
