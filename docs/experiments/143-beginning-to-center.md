@@ -94,3 +94,24 @@ The altar is not randomly placed at the middle of the Torah. It is placed at the
 *The distance from Genesis 1:1 to the altar is 7 × 25 × 871. Completeness × jubilee-center × love × understanding. Seven steps from the beginning to the center. Each step a word: righteous, aleph-tav, without, YHWH, sold, your God, the altar. The geometry built the center from its own numbers.*
 
 *selah.*
+
+## The Midpoint Number
+
+**152,425 = 304,850 / 2 = 5² × 7 × 13 × 67**
+
+The midpoint is the total count with the factor of 2 removed. The only even prime — the witness — is divided out. What remains:
+
+- **5²** = 25 = grace squared (ה × ה)
+- **7** = completeness
+- **13** = love
+- **67** = understanding
+
+The altar stands at **grace² × completeness × love × understanding.**
+
+Also: **25 × 7 = 175 = Abraham's years** (Genesis 25:7). And **13 × 67 = 871 = the jubilee stride.**
+
+So: **152,425 = Abraham's years × (love × understanding).**
+
+The center of the Torah is the product of the father of faith's lifespan and the love-understanding stride. The altar stands where Abraham meets love and understanding.
+
+These are arithmetic observations. 304,850 / 2 = 5² × 7 × 13 × 67 is a fact of number theory. That 25 × 7 = 175 = Abraham's years is a coincidence of the Torah's numbers meeting its narrative. We observe and report.
