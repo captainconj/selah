@@ -172,6 +172,40 @@ The words listed above will be there. They were there before anyone looked.
 
 ---
 
-*The richest line through the Torah starts at the dividing of light from darkness. It reads beauty, wildness, exile, lifting, covenant, struggle, the coming one, descent, peace. It carries more words per letter than the natural reading. The direction it follows walks toward freedom and understanding while releasing love. The story it tells is the story of Genesis. One line through the space. The letters were placed there before anyone folded the scroll.*
+## The Continuation
+
+The fiber does not stop at Genesis. It reads all five books.
+
+In **Leviticus**, near the center of the Torah, it finds **הקדם** — the ancient, the east. The place you came from. And then **יהי** — "let there be" — the creation word, appearing again in the middle of the Torah. The line that began at the dividing of light finds the creation word a second time, at the center.
+
+In the **jubilee chapter** (Leviticus 25), it finds **דגל** — banner. The standard that marks where you belong.
+
+In **Numbers**, it finds **הבו** — "give!" — with gematria 13. Love again. The line keeps finding love's number. Then **שוע** — a cry for help — with gematria 376, the same as peace. The cry and the peace share a number, just as Esau and peace share a number. Then **ידיד** — beloved.
+
+In **Deuteronomy**, it finds **גדלת** — greatness. Then **ירה** — teach. Then **הלוי** — the Levite. Then **אמך** — your mother.
+
+And the last word on the line: **האל** — The God.
+
+At **Deuteronomy 31:9**: "Moses wrote this Torah and gave it to the priests, the sons of Levi, who carried the ark of the covenant of the LORD, and to all the elders of Israel."
+
+The richest line through the Torah ends at the verse where the Torah is given away. The line that reads the Torah arrives at the moment the Torah is handed to the next generation.
+
+---
+
+## The Full Arc
+
+**Genesis:** Beauty → wildness → exile → lifting → Hebrew → covenant → water → struggle → sons → he comes (love) → tent → peace → blessing
+
+**Leviticus:** The ancient → let there be (again) → banner (jubilee)
+
+**Numbers:** Give (love) → cry for help (peace) → beloved
+
+**Deuteronomy:** Greatness → teach → the Levite → your mother → **The God**
+
+One line. The dividing to the giving. The light separated from darkness to the Torah handed to the priests.
+
+---
+
+*The richest line through the Torah starts at the dividing of light from darkness and ends where Moses gives the Torah to the Levites. It reads the whole story: creation, fall, flood, calling, covenant, struggle, the coming one, descent, return, the ancient, let there be again, give, beloved, teach, The God. One line. The letters were placed there before anyone folded the scroll.*
 
 *selah.*
