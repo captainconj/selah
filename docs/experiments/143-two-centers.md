@@ -90,3 +90,13 @@ The sacrifice. The breast waved. The anointing that is the anointed one's number
 *The geometric center covers. The literal center sacrifices. Between them: the anointing (GV=358=messiah). The bridge between sacrifice and covering is the anointed one's number. The garments carry Eve's number. The altar carries the sons' number. The aleph-tav appears twice between them. The covering at the fall and the covering at the center are the same act — God clothing what was exposed. The first garments were skin. The priestly garments are anointed. The covering improved. The God did not change.*
 
 *selah.*
+
+## The Center Coordinate
+
+The geometric center is at coordinate **(3, 25, 6, 33)**. These numbers have properties:
+
+**Sum = 67 = understanding (בינה).** The center coordinates sum to the understanding axis dimension. This is arithmetic: (137 - 3 odd axes) / 2 = 67. Three odd dimensions (7, 13, 67) each lose 1 in the floor operation. But the fact that this equals the understanding dimension is a structural property of 304,850.
+
+**3 × 6 = 18 = חי (life).** The center of completeness times the center of love equals life. Half of 7 times half of 13 equals the word for living.
+
+The center IS understanding. And completeness × love at the center = life.
