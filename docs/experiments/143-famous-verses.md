@@ -104,6 +104,42 @@ The fall diagonal from "I AM" finds Moses, then doing, then celebration.
 
 ---
 
-*The Shema on the love axis reads its own instructions: on the way, in your gates. The surface reads it three times: hear, hear, hear, Israel. The densest direction reads the reason: he brought us out, YHWH. The commandments on the fall diagonal read the cost: I AM, fear, gored, died. Love your neighbor on the fall diagonal reads: not, not, aleph-tav, I separated, his holy. Each verse, each direction — a different reading of the same starting point.*
+*The Shema on the love axis reads its own instructions: on the way, in your gates. Genesis 1:1 on the love axis retells creation. The priestly blessing on the fall diagonal reaches the lambs. The last verse looks backward on jubilee and finds "I will hide my face." Each verse, each direction — a different reading of the same starting point.*
+
+## Genesis 1:1 on the Love Axis Retells Creation
+
+| Step | Inside | Verse |
+|------|--------|-------|
+| 0 | **בראשית** (beginning) | Genesis 1:1 |
+| 1 | **מרחפת** (hovering) | Genesis 1:2 |
+| 2 | **בין** (between) | Genesis 1:4 |
+| 3 | **ויאמר** (he said) | Genesis 1:6 |
+| 4 | **המים** (the waters) | Genesis 1:7 |
+| 5 | **ויהי** (it was) | Genesis 1:8 |
+| 6 | **ויקרא** (he called) | Genesis 1:10 |
+
+Beginning → hovering → between → said → waters → it was → he called. The love axis from the first verse retells Days 1-3: the spirit hovers, the light divides, God speaks, the waters separate, it becomes, He names. Creation read along love IS creation.
+
+## The Priestly Blessing Reaches the Lambs
+
+Numbers 6:24: "YHWH bless you and keep you."
+
+Fall diagonal: **יברכך → בלולה → בקר → לחטאת → כבשים**
+"Bless you → mixed → morning → for sin offering → **lambs**."
+
+The blessing, read toward freedom-without-love, reaches the sin offering and the lambs. The blessing contains the sacrifice.
+
+Surface: **יברכך** × 5. "Bless you" five times. Like the Shema finding "hear" three times.
+
+## The Last Verse Looks Backward
+
+Deuteronomy 34:12: "the great things Moses did in the sight of all Israel."
+
+Backward along jubilee: ולכל ← אמר ← **ישראל** ← **במשפט** ← **אסתירה**
+"To all ← said ← Israel ← in judgment ← **I will hide my face**."
+
+**Deuteronomy 31:18 — "I will surely hide my face on that day."**
+
+The last verse is about seeing — "in the sight of all Israel." The jubilee axis backward from the last verse finds the hiding of the face. Seeing → hiding. The ending and its reflection are opposites on the same line.
 
 *selah.*
