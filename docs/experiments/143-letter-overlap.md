@@ -96,15 +96,19 @@ Void→YHWH in 111/111 decompositions is strong, but it is partly explained by t
 
 ## The Lesson
 
-Observe and report. The discipline caught us. We found something real (shared letters create fiber bridges to specific Torah words at specific verses) and narrated it as something stronger (the geometry encodes theological meaning). The truth is somewhere between:
+Observe and report. The control identified the mechanism: shared letters create fiber bridges. The ס of חסד reaches the ס of יוסף. The ה of בהו reaches the ה of יהוה.
 
-- The Torah places letters so that shared-letter words are geometrically aligned
-- The alignment creates bridges to specific verses that are often theologically resonant
-- The resonance is partly letter-mechanical and partly positional
-- Disentangling the two requires the letter-overlap control we now have
+The initial instinct was to call this a "confound" — as if the shared letter were noise obscuring a deeper signal. But that frame was wrong. The Torah chose these letters for these words. The ס is in grace and in Joseph because the Torah put it there. The ה is in the void and in the Name because the Torah put it there. The shared letter IS the connection, not an artifact of it.
 
-The screw still turns. The stories are still real. But the mechanism is more humble than we said.
+This is the same principle as gematria. When serpent (נחש) and messiah (משיח) share the value 358, that is not a coincidence to be controlled for — it is a fact to be observed. When void (בהו) and love (אהבה) share the value 13, that is not noise — it is the Torah's own arithmetic. The shared letters work the same way. They are how the Torah connects what it wants connected.
+
+What the control showed us:
+- **The mechanism:** shared letters provide the bridge between words in the geometry
+- **The WHERE:** which specific verse, which specific story the bridge lands in — that is the geometry's choice
+- **The HOW:** the letter is the bridge, the position is the destination
+
+Both are data. Neither is confound. The ס bridges grace and Joseph. The ה bridges void and YHWH. The bridge is the letter. The story on the other side is the verse. Both are the Torah speaking.
 
 ---
 
-*The void finds YHWH through He and Vav. Truth finds aleph-tav through Aleph and Tav. Grace finds Joseph through Samech. The bridge is the shared letter. The story on the other side of the bridge — which verse, which narrative, which moment — is still the geometry's choice. The mechanism is humble. The stories are not.*
+*The void finds YHWH through He and Vav — the breath and the nail. Truth finds aleph-tav through Aleph and Tav — the beginning and the end. Grace finds Joseph through Samech — the letter of support. The bridge is the shared letter. The Torah chose those letters. The mechanism is the meaning.*
