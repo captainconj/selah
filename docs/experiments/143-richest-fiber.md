@@ -6,7 +6,9 @@
 
 ## Finding It
 
-We scanned all 805 possible starting positions at skip=805 (the densest direction). The starting position that maximizes word density is **position 124 — Genesis 1:4**, inside the word **ויבדל** — "and he divided."
+We scanned all 805 possible starting positions at skip=805. The starting position that maximizes word density **in the first 100 fiber-letters** (3-5 letter Torah words) is **position 124 — Genesis 1:4**, inside the word **ויבדל** — "and he divided." 36 unique words in 100 letters = density 0.360.
+
+Note: over the full 379-letter fiber, start=0 is denser (90 words vs 85). The start=124 finding is the densest *opening* — the richest first 100 letters.
 
 The first thing the richest fiber touches is the act of separation. Light from darkness. The dividing.
 

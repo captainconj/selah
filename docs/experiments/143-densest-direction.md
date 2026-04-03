@@ -1,6 +1,8 @@
 # Experiment 143ab: The Densest Direction
 
-*Skip=805 [0,+1,-1,+1] is the richest non-surface direction. 0.406 words per letter — denser than the surface reading. Jubilee ascending, love descending, understanding ascending. The direction that costs love and gains understanding carries the most vocabulary.*
+*Skip=805 [0,+1,-1,+1] is among the richest non-surface directions. 90 unique Torah words (3-5 letters) in 379 letters from position 0. When including 2-letter words, density reaches 0.406 (154 words in 379 letters). Jubilee ascending, love descending, understanding ascending.*
+
+**Note on density measurements:** The 0.406 figure includes 2-letter words. With 3-5 letter words only: 0.237. The ranking table below used 2-5 letter words and 500-letter windows, which inflates absolute numbers but preserves relative ranking.
 
 ---
 

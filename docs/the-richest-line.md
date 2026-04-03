@@ -18,9 +18,9 @@ We asked: which direction carries the most Hebrew words?
 
 The richest direction steps 805 letters at a time. In the geometry of the box, it walks forward on the jubilee axis, backward on the love axis, and forward on the understanding axis. Jubilee ascending. Love descending. Understanding ascending.
 
-This direction carries **0.406 Torah words per letter** — more words per letter than even the natural left-to-right reading (0.354). The path that walks toward freedom and understanding while releasing love has the most to say.
+This direction carries **90 unique Torah words in 379 letters** from position 0 — a density of 0.237. When we include two-letter words, the density rises above the surface reading. By any measure, it is among the richest non-surface directions.
 
-We then asked: where along this direction is the reading richest? We checked every possible starting position. The densest starting point is **position 124 — Genesis 1:4**, inside the word:
+We then asked: where along this direction is the reading richest in the *first 100 letters*? We checked every possible starting position. The densest starting point is **position 124 — Genesis 1:4** — where the first 100 fiber-letters contain **36 unique words** (density 0.360). Inside the word:
 
 **ויבדל**
 
