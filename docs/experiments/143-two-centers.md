@@ -66,6 +66,27 @@ The covering at the fall (Genesis 3:21) and the covering at the center (Leviticu
 
 ---
 
-*The geometric center covers. The literal center sacrifices. The garments carry Eve's number. The altar carries the sons' number. The covering at the fall and the covering at the center are the same act — God clothing what was exposed. The first garments were skin. The priestly garments are anointed. The covering improved. The God did not change.*
+## The Bridge
+
+Between the two centers (435 letters, Leviticus 8:29-30), the key words:
+
+| Word | GV | What it is |
+|------|-----|-----------|
+| תנופה (wave offering) | 541 | The breast, waved before God |
+| **המשחה** (the anointing) | **358** | **= משיח (messiah) = נחש (serpent)** |
+| הדם (the blood) | 49 | From the altar |
+| אהרן (Aaron) | 256 | The priest |
+| ויקדש (he consecrated) | 420 | The sanctification |
+| את (aleph-tav) | 401 | Appears **twice** in this span |
+
+**The anointing oil carries the messiah's number.** GV of המשחה = 358 = משיח = נחש. The anointing that sits between the altar and the garments IS the messiah's number. The bridge between the sacrifice and the covering.
+
+**ALTAR → breast → anointing (358=messiah) → blood → Aaron → GARMENTS**
+
+The sacrifice. The breast waved. The anointing that is the anointed one's number. The blood. The priest. The covering. The aleph-tav twice.
+
+---
+
+*The geometric center covers. The literal center sacrifices. Between them: the anointing (GV=358=messiah). The bridge between sacrifice and covering is the anointed one's number. The garments carry Eve's number. The altar carries the sons' number. The aleph-tav appears twice between them. The covering at the fall and the covering at the center are the same act — God clothing what was exposed. The first garments were skin. The priestly garments are anointed. The covering improved. The God did not change.*
 
 *selah.*
