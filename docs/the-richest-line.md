@@ -1,6 +1,6 @@
 # The Richest Line
 
-*There is a line through the Torah that carries more words than any other — more even than the natural reading. It starts at the moment God divides light from darkness. It reads the whole story.*
+*There is a line through the Torah that reads the whole story. It starts at the moment God divides light from darkness.*
 
 ---
 
@@ -18,9 +18,9 @@ We asked: which direction carries the most Hebrew words?
 
 The richest direction steps 805 letters at a time. In the geometry of the box, it walks forward on the jubilee axis, backward on the love axis, and forward on the understanding axis. Jubilee ascending. Love descending. Understanding ascending.
 
-This direction carries **90 unique Torah words in 379 letters** from position 0 — a density of 0.237. When we include two-letter words, the density rises above the surface reading. By any measure, it is among the richest non-surface directions.
+This direction carries 74 unique Torah words in the first 300 letters — less dense than the surface reading, as you would expect. The surface reading is how the Torah was written. No hidden direction outpaces it.
 
-We then asked: where along this direction is the reading richest in the *first 100 letters*? We checked every possible starting position. The densest starting point is **position 124 — Genesis 1:4** — where the first 100 fiber-letters contain **36 unique words** (density 0.360). Inside the word:
+But when we checked every possible starting position along this direction, we found a remarkable concentration. Starting at **position 124 — Genesis 1:4**, the first 100 fiber-letters contain **36 unique words**. A burst of vocabulary. Inside the word:
 
 **ויבדל**
 
@@ -206,6 +206,6 @@ One line. The dividing to the giving. The light separated from darkness to the T
 
 ---
 
-*The richest line through the Torah starts at the dividing of light from darkness and ends where Moses gives the Torah to the Levites. It reads the whole story: creation, fall, flood, calling, covenant, struggle, the coming one, descent, return, the ancient, let there be again, give, beloved, teach, The God. One line. The letters were placed there before anyone folded the scroll.*
+*One line through the Torah — skip 805, starting at the dividing of light — reads the whole story: creation, fall, flood, calling, covenant, struggle, the coming one, descent, return, the ancient, let there be again, give, beloved, teach, The God. It ends where Moses gives the Torah to the Levites. The letters were placed there before anyone folded the scroll.*
 
 *selah.*
