@@ -2,6 +2,9 @@
 
 *Choose finds the altar. Guard finds the breath and the branch. The pillar finds the lamb. Atone finds the mercy seat. Holy finds righteousness. Command finds YHWH. The aleph-tav finds itself. Each structural word finds what it structurally serves.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Choose — בחר (GV=210)

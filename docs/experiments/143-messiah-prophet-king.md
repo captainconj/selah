@@ -2,6 +2,9 @@
 
 *The messiah finds Yom Kippur and the lamb lying down. The king finds Melchizedek and Amalek. The prophet gives in the Name. The image finds Egypt and the command.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Messiah — משיח (GV=358=serpent)

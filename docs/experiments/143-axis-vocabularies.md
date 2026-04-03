@@ -2,6 +2,9 @@
 
 *Each axis has its own vocabulary. The jubilee axis carries righteousness, laughter, the garden, wings, and grace. The love axis carries silver, breach, and wrath. The completeness axis carries the vine and "at the end." The axes speak different languages.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

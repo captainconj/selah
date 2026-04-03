@@ -2,6 +2,9 @@
 
 *Anagram pairs seek each other in the geometry. The head finds "blessed" at 17x. The serpent finds the breastplate at 27x. Flesh and breaking attract mutually. The oracle's anagram principle is confirmed by the space.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Discovery

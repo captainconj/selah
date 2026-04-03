@@ -2,6 +2,9 @@
 
 *Eve finds the Name. Leah IS the tent. Miriam finds the sea. Rebekah finds the incense. Hagar and Isaac share a number. Each woman's fibers trace her story.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Eve — חוה (GV=19)

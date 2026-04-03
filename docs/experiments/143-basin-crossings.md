@@ -2,6 +2,9 @@
 
 *The lamb lies down. In the basin walk, כבש → שכב. In the space, their fibers cross 73 times. The crossing points are the Torah's structural joints.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Basin Walk

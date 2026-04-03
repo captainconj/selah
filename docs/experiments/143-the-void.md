@@ -2,6 +2,9 @@
 
 *בהו (void, GV=13=love). The void before creation was love. Its fibers find love everywhere — in the garden, in the father's grief, in the commandment to love.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Word

@@ -2,6 +2,9 @@
 
 *The findings are not artifacts of the canonical 4D. They hold across all 111 decompositions. The void finds YHWH in every space. Grace finds Joseph in 91%. Head finds blessed in 87%. The structure is invariant.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

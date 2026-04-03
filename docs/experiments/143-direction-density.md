@@ -2,6 +2,9 @@
 
 *The Torah is saturated with words in every direction. 303 of 313 tested words appear on all five axes. The heart is omnidirectional. The Name crosses itself 40% of the time.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Direction Density

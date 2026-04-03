@@ -2,6 +2,9 @@
 
 *Which Torah words host fibers more than chance predicts? Not the common words. The rare ones. The meaningful ones.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

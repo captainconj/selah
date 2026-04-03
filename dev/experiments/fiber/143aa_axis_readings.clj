@@ -2,8 +2,11 @@
   "Experiment 143aa-ab: Axis readings and direction density.
 
    Each axis reads as a text. Completeness: בתוך (in the midst).
-   Skip=805 is the densest non-surface direction (0.406 words/letter).
-   Love and Abel adjacent at the sea crossing."
+   Earlier drafts overstated skip=805 by mixing 2-5 letter counts,
+   unequal fiber lengths, and different start positions.
+   The corrected result: skip=805 is a rich direction, but not denser
+   than the surface reading under fair comparison.
+   Love and Abel remain adjacent at the sea crossing."
   (:require [selah.search :as s]
             [selah.fiber :as f]
             [selah.gematria :as g]

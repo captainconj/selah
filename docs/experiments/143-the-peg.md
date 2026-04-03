@@ -2,6 +2,9 @@
 
 *יתד (peg, GV=414). The pegs hold the tabernacle curtains taut. In the space, the peg holds the narrative taut.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Word

@@ -2,6 +2,9 @@
 
 *One verse hosts fibers from all seven search words. It is about wisdom of heart.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

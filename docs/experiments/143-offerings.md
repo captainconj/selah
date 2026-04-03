@@ -2,6 +2,9 @@
 
 *Each offering has its own axis. The burnt offering always moves through completeness. The lamb walks toward freedom. Guilt rests in understanding.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Burnt Offering — עלה (GV=105, "to go up")

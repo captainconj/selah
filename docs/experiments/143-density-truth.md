@@ -60,7 +60,7 @@ Density does NOT decay smoothly with skip distance:
 | 200-500 | 0.17-0.28 (still fluctuating) |
 | 500-1000 | 0.16-0.26 (no clear decay) |
 
-There is no simple "closer letters = more words" relationship. Skip=500 (0.263) is denser than skip=50 (0.207). Skip=7 (0.257) is denser than skip=10 (0.260) — wait, skip=10 is actually higher. The landscape is rugged, not smooth.
+There is no simple "closer letters = more words" relationship. Skip=500 (0.263) is denser than skip=50 (0.207). Nearby skips can trade places unexpectedly. The landscape is rugged, not smooth.
 
 Certain skips appear "resonant" — producing more words than their neighbors — but the pattern is not obviously tied to the factors of 304,850 or to theological numbers. This is an open question.
 

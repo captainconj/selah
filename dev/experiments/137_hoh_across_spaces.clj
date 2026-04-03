@@ -273,17 +273,16 @@
          :ark-gv        (:gv ark-info)
          :mercy-gv      (:gv mercy-info)
 
-         ;; Oracle between cherubim
-         :between-text  (:text between-info)
+         ;; Oracle between cherubim. Keep saved artifacts Hebrew-first.
+         :between-text   (:text between-info)
          :between-oracle (mapv (fn [r]
-                                 {:text (:text r)
-                                  :meanings (vec (:meanings r))})
+                                 {:text (:text r)})
                                between-oracle)
 
-         ;; Cherubim
-         :truth-text    (:text right-info)
-         :mercy-text     (:text left-info)
-         :mercy-text    (:text mercy-info)
+         ;; Cherubim / mercy seat
+         :truth-text      (:text right-info)
+         :mercy-text      (:text left-info)
+         :mercy-seat-text (:text mercy-info)
 
          ;; Verse span
          :hoh-verses    (:verses hoh-info)

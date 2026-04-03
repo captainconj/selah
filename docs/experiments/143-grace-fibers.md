@@ -2,6 +2,9 @@
 
 *The ghost word has fibers. חסד cannot be read on the breastplate. But it can be found in the space. And it keeps landing in Joseph.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Ghost

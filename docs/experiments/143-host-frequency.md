@@ -2,6 +2,9 @@
 
 *What Torah words do fibers land in? The geometry has a vocabulary.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

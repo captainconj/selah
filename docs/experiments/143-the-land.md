@@ -2,6 +2,9 @@
 
 *The inheritance walks from sons through Sihon through the jubilee to the menorah. The border walks from plague to "no other gods." The land vocabulary traces possession and loss.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Vocabulary

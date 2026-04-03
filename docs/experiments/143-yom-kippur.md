@@ -2,6 +2,9 @@
 
 *The lamb and peace travel on parallel lines through the 4D space. They share the same skip distance. They converge at Leviticus 16 — the Day of Atonement. The lamb atones. Peace starts at "I AM sent me."*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Question

@@ -2,6 +2,9 @@
 
 *Where do fibers from different search words converge on the same Torah word? The geometry has gathering places.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Method

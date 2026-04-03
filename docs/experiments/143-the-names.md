@@ -2,6 +2,9 @@
 
 *אנכי (I AM) walks from love through the serpent to the cherubim. אהיה (I will be) walks through the promise of Isaac. The Names trace the story.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## I AM — אנכי (GV=81)

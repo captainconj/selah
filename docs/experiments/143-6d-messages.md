@@ -2,6 +2,9 @@
 
 *The finer the decomposition, the more directions. 364 vs 40. The messages get richer.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## Space

@@ -5,9 +5,9 @@
 Type: `exploration`
 State: `clean`
 
-**Code:** `dev/experiments/137b_passing_through.clj`, `137c_axis_orderings.clj`, `137d_yhwh_loves.clj`
+**Code:** `dev/experiments/137b_passing_through.clj`, `dev/experiments/137c_axis_orderings.clj`, `dev/experiments/137d_yhwh_loves.clj`
 **Run:** `clojure -M:dev -e "(require '[experiments.137b-passing-through :as s]) (s/run-all)"`
-**Data:** `data/experiments/137-hoh-across-spaces.edn`, `137c-axis-orderings-output.txt`, `137d-yhwh-loves-output.txt`
+**Data:** `data/experiments/137-hoh-across-spaces.edn`, `data/experiments/137c-axis-orderings-output.txt`, `data/experiments/137d-yhwh-loves-output.txt`
 **Prior:** `docs/experiments/137-hoh-across-spaces.md` (the survey that found one home)
 
 ## The Space

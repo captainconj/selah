@@ -2,6 +2,9 @@
 
 *The void finds YHWH through their shared letters. Truth finds aleph-tav through their shared letters. Grace finds Joseph through samech. The mechanism is simpler than we thought. The question is what this simplicity means.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Control

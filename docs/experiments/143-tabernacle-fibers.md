@@ -2,6 +2,9 @@
 
 *The building blocks of the tabernacle are search words. Their fibers trace the stories that make the house possible.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Idea

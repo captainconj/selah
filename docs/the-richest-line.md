@@ -32,7 +32,7 @@ The richest reading of the Torah begins at the moment God separates light from d
 
 ## What the Line Reads
 
-Starting at position 124, picking up every 805th letter, the line passes through 36 Torah words in its first 100 letters. Here is what it finds, in order:
+Starting at position 124, picking up every 805th letter, the line passes through **36 unique 3-5 letter Torah words in its first 100 letters**. What follows is the narrative spine selected from that raw hit set:
 
 ---
 
@@ -160,15 +160,22 @@ The wild brother and wholeness. The one who sold his birthright and the verdict 
 
 ## How to Check
 
-The Torah's letters are public. The arithmetic is elementary. Anyone with the text and a counting machine can verify every word on this line.
+The Torah's letters are public. The arithmetic is elementary. The direct reproduction path is:
 
-```
-Start at letter 124 of the Torah (Genesis 1:4, inside "and he divided").
-Read every 805th letter.
-Look for Hebrew words in the sequence.
+```clojure
+(require '[selah.search :as s]
+         '[experiments.fiber.143ac-richest-fiber :as exp])
+(s/build!)
+(exp/run-all)
 ```
 
-The words listed above will be there. They were there before anyone looked.
+That run confirms:
+- `skip=805`
+- best `first-100` start = `124`
+- `36` unique `3-5` letter Torah words in that window
+- the fuller `379`-letter line from the same start
+
+The public story told above is a curated reading of that verified line, not the entire raw hit list.
 
 ---
 

@@ -2,6 +2,9 @@
 
 *"And he said" is the universal bridge — 19 of 25 search words pass through it. Speech is the connective tissue. Grace exists in only 57% of directions. The pillar is missing from jubilee. The heart is everywhere.*
 
+Type: `exploration`
+State: `mixed`
+
 ---
 
 ## The Saturation
