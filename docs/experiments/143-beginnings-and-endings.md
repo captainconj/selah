@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ao_beginnings_endings.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ao-beginnings-endings :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Every Direction Begins at the House

@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143k_the_void.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143k-the-void :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Word

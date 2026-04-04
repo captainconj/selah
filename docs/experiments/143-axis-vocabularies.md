@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143w_axis_vocabularies.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143w-axis-vocabularies :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

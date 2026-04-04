@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143o_yom_kippur.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143o-yom-kippur :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Question

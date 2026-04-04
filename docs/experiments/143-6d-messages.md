@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143b_messages.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143b-messages :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Space

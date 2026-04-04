@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143s_cross_decomposition.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143s-cross-decomposition :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

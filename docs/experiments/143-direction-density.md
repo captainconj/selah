@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143u_direction_density.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143u-direction-density :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Direction Density

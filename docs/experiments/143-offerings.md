@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143l_offerings.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143l-offerings :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Burnt Offering — עלה (GV=105, "to go up")

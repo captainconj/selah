@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143_host_frequency.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143-host-frequency :as exp]) (s/build!) (let [hosts (exp/host-frequency [7 50 13 67] [\"תורה\" \"כבש\" \"שלום\" \"יהוה\" \"אמת\" \"חיים\"])] (exp/print-top-hosts hosts 50))"`
+
 ---
 
 ## Method

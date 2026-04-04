@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ai_rarest_words.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ai-rarest-words :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

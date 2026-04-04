@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ak_axis_walks.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ak-axis-walks :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Love Axis — 13 Stations

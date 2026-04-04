@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143g_verse_magnets.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143g-verse-magnets :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

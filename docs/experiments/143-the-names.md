@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143j_the_names.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143j-the-names :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## I AM — אנכי (GV=81)

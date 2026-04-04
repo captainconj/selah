@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ah_the_survey.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ah-the-survey :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

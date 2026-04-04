@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ae_theological_skips.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ae-theological-skips :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Completeness Reading (skip=7)

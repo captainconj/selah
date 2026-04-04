@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143p_structural_words.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143p-structural-words :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Choose — בחר (GV=210)

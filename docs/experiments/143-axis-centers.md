@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ag_axis_centers.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ag-axis-centers :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Method

@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143am_diagonal_narratives.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143am-diagonal-narratives :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Freedom-Love Diagonal [0,+1,-1,0]

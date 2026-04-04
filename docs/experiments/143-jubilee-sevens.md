@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143ap_jubilee_sevens.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143ap-jubilee-sevens :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Structure

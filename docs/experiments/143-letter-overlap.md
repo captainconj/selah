@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143t_letter_overlap.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143t-letter-overlap :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Control

@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143al_the_fall_diagonal.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143al-the-fall-diagonal :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Direction

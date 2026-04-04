@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143af_geography.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143af-geography :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Vocabulary by Book

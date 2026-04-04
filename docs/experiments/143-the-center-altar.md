@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `clean`
 
+**Code:** `dev/experiments/fiber/143an_center_altar.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143an-center-altar :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Center

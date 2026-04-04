@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143m_the_land.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143m-the-land :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## The Vocabulary

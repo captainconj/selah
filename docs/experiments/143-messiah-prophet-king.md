@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143q_messiah_prophet_king.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143q-messiah-prophet-king :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Messiah — משיח (GV=358=serpent)

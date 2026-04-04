@@ -5,6 +5,9 @@
 Type: `exploration`
 State: `mixed`
 
+**Code:** `dev/experiments/fiber/143r_the_women.clj`
+**Run:** `clojure -M:dev -e "(require '[selah.search :as s] '[experiments.fiber.143r-the-women :as exp]) (s/build!) (exp/run-all)"`
+
 ---
 
 ## Eve — חוה (GV=19)
