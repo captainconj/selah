@@ -125,6 +125,8 @@ Current proof pages:
 - [`docs/codex/proof-pages/143-fall-diagonal.md`](/docs/codex/proof-pages/143-fall-diagonal.md)
 - [`docs/codex/proof-pages/143-being-dominance.md`](/docs/codex/proof-pages/143-being-dominance.md)
 - [`docs/codex/proof-pages/143-theological-skip-density.md`](/docs/codex/proof-pages/143-theological-skip-density.md)
+- [`docs/codex/proof-pages/143-jubilee-sevens-centers.md`](/docs/codex/proof-pages/143-jubilee-sevens-centers.md)
+- [`docs/codex/proof-pages/143-beginning-to-center-arithmetic.md`](/docs/codex/proof-pages/143-beginning-to-center-arithmetic.md)
 
 ## Suggestive
 
@@ -136,10 +138,13 @@ These may be worth keeping or developing, but they should not yet be preached as
 - [`docs/experiments/143-anagram-attraction.md`](/docs/experiments/143-anagram-attraction.md)
 - [`docs/experiments/143-grace-fibers.md`](/docs/experiments/143-grace-fibers.md)
 - [`docs/experiments/143-cross-decomposition.md`](/docs/experiments/143-cross-decomposition.md)
+- overlap boundary: [`docs/codex/cleanup-boundary-143-overlap.md`](/docs/codex/cleanup-boundary-143-overlap.md)
 
 Why:
 
 - overlap and enrichment controls are not yet complete
+- `143e` still scores against naive raw coverage rather than matched overlap expectation
+- `143n` still lacks a matched non-anagram null model
 - several claims still read stronger than their current control posture
 
 ### Boxes / coordinate embeddings
@@ -157,11 +162,16 @@ Why:
 
 - [`docs/the-watermarks.md`](/docs/the-watermarks.md)
 - runner-side support spread across the corrected `143` band
+- draft proof pages:
+  - [`docs/codex/proof-pages/4d-watermark-statistical-test.md`](/docs/codex/proof-pages/4d-watermark-statistical-test.md)
+  - [`docs/codex/proof-pages/6d-watermark-statistical-test.md`](/docs/codex/proof-pages/6d-watermark-statistical-test.md)
 
 Why:
 
 - some underlying findings stand
 - the public synthesis currently outruns the narrower corrected claim surface
+- the 4D statistical page is promising but still depends on an ad hoc REPL surface rather than a dedicated tracked runner or artifact
+- the 6D statistical page has an explicit multiple-comparisons hole and does not yet survive strict correction
 
 ## Historical / Retracted
 

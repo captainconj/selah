@@ -1,6 +1,6 @@
 # Experiment 143bd: 6D Watermarks
 
-*364 directions instead of 40. The 4D watermarks are embedded in the 6D space. New 6D-only fibers find Isaac doubled at the binding and the famine, Egypt reaching the doubled Name at the center of the Torah.*
+*364 directions instead of 40. The 4D watermarks are embedded in the 6D space. New 6D-only fibers find Isaac doubled at the binding and the famine, and Egypt reaching the doubled Name at the center of the Torah. The statistical surface is promising, but still under assay.*
 
 Type: `exploration`
 State: `clean`
@@ -71,7 +71,7 @@ The 4D space has 40 directions. The 6D space has 364 — nine times more. The 4D
 | Egypt→center | Camels → Egypt → YHWH doubled at Lev 8:29 → judgment | Yes |
 | Moses doubled | To drink → evil → Moses → was → Moses → your souls | Yes |
 
-The finer decomposition reveals fibers that the coarser cannot see — because they require movement in the 5th and 6th dimensions (the split pentads from 50 = 5×5×2).
+The finer decomposition exposes fibers that the coarser cannot see — because they require movement in the 5th and 6th dimensions (the split pentads from 50 = 5×5×2). What remains open is how much weight those selected fibers can bear as a statistical class.
 
 ---
 
@@ -106,4 +106,6 @@ The finer decomposition reveals fibers that the coarser cannot see — because t
 | **Sinai** | 25,327 | 10 | **5** | 0.6 | 3 | **< 0.5%** |
 | **Egypt** | 30,551 | 9 | **4** | 0.5 | 3 | **< 0.5%** |
 
-All three 6D-only fibers are statistically significant at p<0.5%. Zero of 200 random starts match position 0's theological content on any fiber. The 6D watermarks are proven, like the 4D ones.
+In this draft test, all three 6D-only fibers land at p<0.5%, and zero of 200 sampled random starts match position 0's theological content on any of the three selected fibers.
+
+That is suggestive, not conclusive. The 6D space has 364 directions, so these selected fibers carry a multiple-comparisons burden that this 200-start draft test does not yet discharge. The 6D watermarks therefore remain under assay rather than standing as first-canon proof.

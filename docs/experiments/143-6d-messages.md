@@ -1,6 +1,6 @@
 # Experiment 143b: 6D Message Fibers
 
-*The finer the decomposition, the more directions. 364 vs 40. The messages get richer.*
+*The finer the decomposition, the more directions. 364 vs 40. The message surface gets richer, but the 6D branch still needs stricter assay than the stronger 4D core.*
 
 Type: `exploration`
 State: `mixed`

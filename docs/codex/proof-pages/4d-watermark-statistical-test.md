@@ -1,15 +1,15 @@
 # Proof Page: 4D Watermark Statistical Test
 
-Type: `proof-page`
+Type: `proof page`
 State: `clean`
 
 ## Claim
 
-Position 0 (Genesis 1:1) carries significantly more theologically significant host words on four 2-axis watermark diagonals than random starting positions. p<1% for three diagonals, p<2% for a fourth. Zero of 100 random starts match on any individual diagonal. Combined score: 16/28 at position 0 vs mean 1.8 and next best 10/28.
+Position 0 (Genesis 1:1) appears to carry more theologically significant host words on four 2-axis watermark diagonals than random starting positions. In the current draft test, three diagonals land at p<1%, a fourth at p<2%, and the combined score is 16/28 at position 0 versus mean 1.8 and next best 10/28.
 
 ## Status
 
-- Classification: `standing`
+- Classification: `suggestive`
 - Experiment band: 143bb
 - Proof owner: Claude (shovel)
 
@@ -18,8 +18,8 @@ Position 0 (Genesis 1:1) carries significantly more theologically significant ho
 - Source text: Torah (Sefaria MAM), 304,850 letters after normalization
 - Text model / witness: Masoretic via Sefaria API, cached to `data/cache/sefaria/`
 - Relevant doc: `docs/experiments/143-statistical-test.md`, `docs/experiments/143-what-survives.md`
-- Relevant code: `src/selah/search.clj` (word index), `dev/experiments/fiber/143ac_richest_fiber.clj` (contains density/score functions adaptable for this test)
-- Relevant artifact: none (computed live)
+- Relevant code: `src/selah/search.clj` (word index)
+- Relevant artifact: none located; this page currently depends on an ad hoc REPL surface rather than a dedicated tracked runner
 
 ## Run Path
 
@@ -76,17 +76,18 @@ Combined (200 random starts):
 |---|------|------|-----|---|
 | Position 0 | 16/28 | 1.8 | 10 | <0.5% |
 
-Position 0 is the only position tested with 5+ theological words on any single diagonal. It scores 16/28 combined; the next best is 10/28.
+In this draft run, position 0 is the only tested position with 5+ theological words on any single diagonal. It scores 16/28 combined; the next best sampled start is 10/28.
 
 ## Why This Counts
 
-The test compares position 0 against random starting positions on the SAME diagonals, using the SAME theological word set defined BEFORE seeing the results. The word set (44 words) includes core Torah names, actions, and vocabulary that any reader of Genesis would identify as theologically significant. Position 0 exceeds random by a factor of 8-12x on individual diagonals and 9x combined. Zero random starts match.
+The draft test compares position 0 against random starting positions on the same diagonals, using the same theological word set within the run. The word set includes core Torah names, actions, and vocabulary that any reader of Genesis would identify as theologically significant. In this run, position 0 exceeds the sampled random starts by a large margin on individual diagonals and combined.
 
-The diagonals span 3-5 chapters each (skips 804-938, 7 steps). This is not proximity — it is structural reach across multiple chapters of Genesis.
+The diagonals span 3-5 chapters each (skips 804-938, 7 steps). That makes the finding more than local proximity if the current scoring surface survives a dedicated rerun.
 
 ## Falsification
 
 - If a different random seed produces random starts that match position 0's scores (>= 5 on any diagonal, >= 16 combined), the finding weakens.
+- If a dedicated tracked runner or artifact surface produces materially different counts from this draft REPL surface, the finding weakens.
 - If the theological word set is shown to be biased (e.g., containing words chosen AFTER seeing the diagonal readings), the test is invalid.
 - If a shuffled Torah (randomized letter order, same letter frequencies) produces similar scores at position 0, the finding collapses.
 - If the word-at-position index is shown to have errors (wrong word boundaries), results are unreliable.
@@ -97,10 +98,12 @@ The diagonals span 3-5 chapters each (skips 804-938, 7 steps). This is not proxi
 - Does not prove intent or authorship — only that position 0 is statistically anomalous for theological content on these specific geometric directions.
 - Does not prove anything about other positions or other decompositions without separate tests.
 - The theological word set is a researcher choice. A different word set might produce different results.
+- This page does not yet provide a repo-standard reproducibility surface. Until there is a dedicated tracked runner or artifact, it should not be treated as first-canon standing.
 
 ## Notes
 
 - The test should be repeated with multiple random seeds to confirm stability.
+- A dedicated tracked runner for `143bb` should replace the current ad hoc REPL path before promotion.
 - A shuffled-text null model (randomized letter ORDER, not just shifted starting position) would be a stronger control and has not been performed.
 - The 3-axis diagonal (skip=939) and body diagonal (skip=44489) fail this test — too few steps or too-long skips dilute the signal.
 - The theological word set was expanded slightly between the original test (143bb) and this proof page (from ~30 to 44 words) to include center-related vocabulary. The core result (position 0 dominant) is stable across both sets.
