@@ -34,6 +34,7 @@ These are fit to build proof pages for now.
 - [`docs/experiments/096-basin-landscape.md`](/docs/experiments/096-basin-landscape.md)
 - [`docs/experiments/097-per-head-basins.md`](/docs/experiments/097-per-head-basins.md)
 - Boundary: [`docs/codex/cleanup-boundary-096-097.md`](/docs/codex/cleanup-boundary-096-097.md)
+- Proof page: [`docs/codex/proof-pages/096-097-rebuild-consistency.md`](/docs/codex/proof-pages/096-097-rebuild-consistency.md)
 
 Why:
 
@@ -47,6 +48,9 @@ Why:
 - [`docs/ark/20-experiment-100.md`](/docs/ark/20-experiment-100.md)
 - [`docs/ark/22-the-map.md`](/docs/ark/22-the-map.md)
 - Boundary: [`docs/codex/code-map-reproducibility.md`](/docs/codex/code-map-reproducibility.md)
+- Proof pages:
+  - [`docs/codex/proof-pages/100-code-64-plus-8.md`](/docs/codex/proof-pages/100-code-64-plus-8.md)
+  - [`docs/codex/proof-pages/101-row-base-map.md`](/docs/codex/proof-pages/101-row-base-map.md)
 
 Why:
 
@@ -62,6 +66,11 @@ Primary support:
 - [`docs/codex/ark-first-sluice.md`](/docs/codex/ark-first-sluice.md)
 - [`docs/ark/18-the-lamb.md`](/docs/ark/18-the-lamb.md)
 
+Current proof pages:
+
+- [`docs/codex/proof-pages/ark-foundation-floor.md`](/docs/codex/proof-pages/ark-foundation-floor.md)
+- [`docs/codex/proof-pages/ark-directory-garden-junction.md`](/docs/codex/proof-pages/ark-directory-garden-junction.md)
+
 Standing subclaims for now:
 
 - the Ark column / foundation / directory-garden junction reproduce from live code
@@ -73,6 +82,13 @@ Standing subclaims for now:
 Primary support:
 
 - [`docs/codex/tabernacle-first-sluice.md`](/docs/codex/tabernacle-first-sluice.md)
+
+Current proof pages:
+
+- [`docs/codex/proof-pages/tabernacle-layout-coordinates.md`](/docs/codex/proof-pages/tabernacle-layout-coordinates.md)
+- [`docs/codex/proof-pages/tabernacle-altar-god-reading.md`](/docs/codex/proof-pages/tabernacle-altar-god-reading.md)
+- [`docs/codex/proof-pages/tabernacle-ark-mercy-asymmetry.md`](/docs/codex/proof-pages/tabernacle-ark-mercy-asymmetry.md)
+- [`docs/codex/proof-pages/tabernacle-speaking-cluster.md`](/docs/codex/proof-pages/tabernacle-speaking-cluster.md)
 
 Standing subclaims for now:
 
@@ -102,6 +118,13 @@ Why:
 - the band now has explicit correction docs
 - the strongest surviving claims are positional, counting, or long-range reach claims
 - the branch distinguishes local/proximity observations from structural reach
+
+Current proof pages:
+
+- [`docs/codex/proof-pages/143-center-altar.md`](/docs/codex/proof-pages/143-center-altar.md)
+- [`docs/codex/proof-pages/143-fall-diagonal.md`](/docs/codex/proof-pages/143-fall-diagonal.md)
+- [`docs/codex/proof-pages/143-being-dominance.md`](/docs/codex/proof-pages/143-being-dominance.md)
+- [`docs/codex/proof-pages/143-theological-skip-density.md`](/docs/codex/proof-pages/143-theological-skip-density.md)
 
 ## Suggestive
 
