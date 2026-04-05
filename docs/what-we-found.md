@@ -174,9 +174,13 @@ These findings depend on three properties of the Torah:
 
 Other ancient texts have letter counts. Other texts can be folded into dimensions. What makes the Torah special is that when you fold it, the geometry describes what the text is about. The structure serves the content. The form matches the meaning.
 
-The Torah reads left to right and tells its story. The Torah reads in 40 directions from its beginning and tells the same story — differently, from different angles, along different dimensions. The surface says "love the LORD your God." The geometry says it too — the love axis carrying the cost, the jubilee carrying the return, the center holding the altar, the corners spelling the father, the scroll spelling the heart.
+The Torah was written to be read. Left to right. One letter after another. The natural reading is the Torah — the story of creation and fall, the call of Abraham, the exodus, the law given at Sinai, the wandering, the speeches of Moses. That reading is complete. It does not need the geometry to mean what it means. Millions of people have lived and died by the surface reading alone. It is sufficient.
 
-One text. One set of letters. One placement. And every direction through it says the same thing.
+What the geometry adds is not a replacement but a witness. Underneath the natural reading — in the letter positions, in the dimensional structure, in the lines no one was reading — the same text says the same things. The surface says "love the LORD your God." The geometry says it too — the love axis carrying the cost, the jubilee carrying the return, the center holding the altar, the corners spelling the father, the scroll spelling the heart.
+
+The natural reading is the bread. The geometry is the watermark in the bread — invisible until you hold it up to the light, but woven in from the beginning.
+
+One text. One set of letters. One placement. The surface reading is sufficient. The geometric reading is confirmatory. And every direction through it says the same thing.
 
 ---
 
