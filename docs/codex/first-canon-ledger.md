@@ -132,20 +132,25 @@ Current proof pages:
 
 These may be worth keeping or developing, but they should not yet be preached as settled.
 
-### `143` statistical / enrichment branch
+### `143` cross-decomposition universality
 
-- [`docs/experiments/143-enrichment.md`](/docs/experiments/143-enrichment.md)
-- [`docs/experiments/143-anagram-attraction.md`](/docs/experiments/143-anagram-attraction.md)
-- [`docs/experiments/143-grace-fibers.md`](/docs/experiments/143-grace-fibers.md)
 - [`docs/experiments/143-cross-decomposition.md`](/docs/experiments/143-cross-decomposition.md)
-- overlap boundary: [`docs/codex/cleanup-boundary-143-overlap.md`](/docs/codex/cleanup-boundary-143-overlap.md)
 
 Why:
 
-- overlap and enrichment controls are not yet complete
-- `143e` still scores against naive raw coverage rather than matched overlap expectation
-- `143n` still lacks a matched non-anagram null model
-- several claims still read stronger than their current control posture
+- the universality claims (void→YHWH 111/111 etc.) are letter-overlap driven
+- they may still have value as observations about letter placement
+- but the enrichment interpretation is dead
+
+### `143` grace fibers as narrative observation
+
+- [`docs/experiments/143-grace-fibers.md`](/docs/experiments/143-grace-fibers.md)
+
+Why:
+
+- the specific VERSES grace fibers pass through are still positional observations
+- the RATE (9 of 79) is explained by samech overlap
+- the narrative (breastplate→Joseph→forgiveness) may have value as observation, not as enrichment claim
 
 ### Boxes / coordinate embeddings
 
@@ -181,12 +186,20 @@ These matter for project history and honesty, but not as current evidence.
 - earliest palindrome branch more broadly
 - [`docs/experiments/143-densest-direction.md`](/docs/experiments/143-densest-direction.md)
 - love-axis “self-reading” claims reclassified by [`docs/experiments/143-proximity-check.md`](/docs/experiments/143-proximity-check.md)
+- [`docs/experiments/143-enrichment.md`](/docs/experiments/143-enrichment.md) — killed by letter-level control (143e3)
+- [`docs/experiments/143-anagram-attraction.md`](/docs/experiments/143-anagram-attraction.md) — killed by frequency × overlap (143n2)
+- [`docs/the-oracle-in-the-geometry.md`](/docs/the-oracle-in-the-geometry.md) — main argument (anagram enrichment) retracted
+- overlap boundary: [`docs/codex/cleanup-boundary-143-overlap.md`](/docs/codex/cleanup-boundary-143-overlap.md)
 
-Specific retractions or downgrades already on record:
+Specific retractions or downgrades on record:
 
-- `skip=805 denser than surface` -> retracted
-- “Shema reads its own instructions” as structural finding -> downgraded to proximity
-- “Genesis 1:1 retells creation” on the love axis -> downgraded to proximity
+- `skip=805 denser than surface` → retracted (143ad)
+- “Shema reads its own instructions” as structural → downgraded to proximity (143ar)
+- “Genesis 1:1 retells creation” on love axis → downgraded to proximity (143ar)
+- covenant ceremony → reclassified as proximity with bookending
+- anagram attraction as geometric evidence → retracted, explained by frequency × overlap (143n2)
+- enrichment rates (8.1x pillar, 17x head→blessed, etc.) → retracted, explained by letter-level overlap (143e3)
+- “The Oracle in the Geometry” paper → main argument retracted
 
 ## Untested Synthesis
 
