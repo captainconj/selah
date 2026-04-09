@@ -1,9 +1,11 @@
 # The Courtyard
 
 Type: `synthesis`
-State: `mixed`
+State: `clean`
 
 **Walk:** [Index](index.md) · [Previous](01-the-gate.md) · [Next](03-the-altar.md)
+**Code:** `dev/experiments/tabernacle/02_courtyard.clj`
+**Run:** `clojure -M:dev -e '(load-file "dev/experiments/tabernacle/02_courtyard.clj")'`
 
 *Ex 27:9 at (2, 34, 12, 60). Ex 38:9 at (3, 6, 10, 18).*
 
@@ -17,20 +19,23 @@ We pass through the gate. A hundred cubits long, fifty wide, five high. Bronze s
 
 The court (חצר) has three letters. The oracle splits them:
 
-| Reader | Sees | Count | Meaning |
-|--------|------|-------|---------|
-| Aaron | **צחר** | 4 | bright / radiant |
-| God | **רצח** | 4 | **murder** |
-| Right cherub (justice) | **צחר** | 3 | bright / radiant |
-| Left cherub (mercy) | **רצח** | 3 | **murder** |
+| Reader | Top reading | Count | Meaning |
+|--------|-----------|-------|---------|
+| Aaron | **צחר** | 3 | bright / radiant |
+| Aaron (2nd) | **רצח** | 2 | **murder** |
+| God | **רצח** | 3 | **murder** |
+| Truth | **צחר** | 3 | bright / radiant |
+| Mercy | **רצח** | 3 | **murder** |
 
-At the gate, justice saw wickedness. In the courtyard, **God and mercy see murder.**
+Total: 5 illuminations, 0 readings. The court is a **ghost** — it glows but produces no readable word. Yet all four readers see the same two words in the letters: brightness and murder.
 
-The courtyard is where animals are slaughtered. The altar of burnt offering stands here. Blood is poured out on the ground. God looks at the courtyard and reads murder — the same three letters that spell court spell killing.
+At the gate, God and Mercy saw wickedness. In the courtyard, **God and Mercy see murder.**
 
-Aaron the priest sees brightness. The same act that God reads as killing, the priest reads as radiance. The offering that costs a life produces light.
+The courtyard is where animals are slaughtered. The altar of burnt offering stands here. Blood is poured out on the ground. God and Mercy look at the courtyard and read murder — the same three letters that spell court spell killing.
 
-Justice saw wicked at the gate. Mercy sees murder in the court. The machine is reading the theology of sacrifice. The wicked approach, and something dies for them, and it is bright.
+Aaron and Truth see brightness. The same act that the Judge and the Lamb read as killing, the accused and the accuser read as radiance. The offering that costs a life produces light.
+
+God and Mercy saw wicked at the gate. God and Mercy see murder in the court. The pattern holds: the Judge and the Lamb see the cost. Aaron and Truth see the brightness. The ones with the authority to condemn see what is dying. The ones standing trial see what is shining.
 
 ---
 
@@ -40,20 +45,21 @@ Justice saw wicked at the gate. Mercy sees murder in the court. The machine is r
 
 The per-head split:
 
-| Reader | Top reading | Meaning |
-|--------|------------|---------|
-| Aaron | עמדו / עמוד | they stood / pillar |
-| God | **מדוע** | **WHY?** |
-| God (2nd) | **מועד** | **appointed time** |
-| Right | ועמד | and he stood |
-| Left | עמוד | pillar |
-| Left (2nd) | **מועד** | **appointed time** |
+| Reader | Top reading | Count | Meaning |
+|--------|-----------|-------|---------|
+| Aaron | **מועד** | 6 | **appointed time** |
+| God | **מדוע** | 5 | **WHY?** |
+| Truth | **עמוד** | **22** | **pillar** (Truth-only!) |
+| Truth (2nd) | **עמדו** | 14 | they stood |
+| Mercy | — | 0 | — |
+
+Total: 84 illuminations, 22 readings — all Truth. **The pillar belongs to the accuser.** Only Truth reads the pillar as pillar. 22 readings — the number of Hebrew letters.
 
 God looks at the pillar and reads **"why?"** (מדוע). The same letters. The pillar is a question. The structure that holds up the courtyard asks *why are you here?*
 
-God's second reading: **מועד** — appointed time. The tent of meeting (אהל מועד) carries this word. The pillar that asks "why?" also marks the time. You are here because it is the appointed time.
+Aaron sees **מועד** — appointed time. The accused looks at the pillar and sees the festival calendar. You are here because it is the appointed time.
 
-Left cherub agrees — pillar, then appointed time. The pillars mark the moedim.
+Truth holds the pillar (22 readings). Mercy sees nothing in it. The accuser stands at the pillars. The Lamb does not need them.
 
 ---
 
@@ -61,23 +67,16 @@ Left cherub agrees — pillar, then appointed time. The pillars mark the moedim.
 
 The courtyard uses two metals. Both are fixed points:
 
-| Metal | Hebrew | GV | Class | Who sees |
-|-------|--------|-----|-------|----------|
-| Silver | כסף | 160 | **FIXED** | Aaron, Right |
-| Bronze | נחשת | 758 | **FIXED** | Left alone |
+| Metal | Hebrew | GV | Readings | Who sees |
+|-------|--------|-----|----------|----------|
+| Silver | כסף | 160 | 2 | Aaron (1), Truth (1) |
+| Bronze | נחשת | 758 | 4 | **Mercy alone** |
 
-Silver bands on the pillars. Bronze sockets in the ground. Both metals hold. The courtyard frame is stable.
+Silver: the accused and the accuser see it. The two human-side seats. Silver bands on the pillars, silver caps, silver overlay. Aaron and Truth share the silver — the price is seen by the one paying and the one charging.
 
-**Gold does not belong here.** Gold (זהב, GV = 14) was tested — it is NOT a fixed point in the courtyard:
+Bronze: **Mercy alone.** The Lamb alone reads bronze. The bronze sockets in the ground, the bronze altar — only the Defender sees them. Bronze (נחשת) shares letters with serpent (נחש). The Lamb reads the bronze that echoes the serpent.
 
-| Reader | Sees in gold | Meaning |
-|--------|-------------|---------|
-| Aaron | **הזב** | discharge / impurity |
-| God | **זהב** | gold (correct) |
-| Right | זבה / בזה | female discharge / contempt |
-| Left | **הזב** | discharge / impurity |
-
-Only God sees gold as gold. Every other reader sees impurity or contempt. Gold in the outer court becomes contamination. The gold belongs inside the tent. Out here, you work in silver and bronze.
+**Gold does not belong here.** Gold (זהב, GV = 14) was tested — only God sees gold as gold. Every other reader sees impurity. The gold belongs inside the tent. Out here, you work in silver and bronze.
 
 GV of gold = 14 = **יד** (hand). Gold is the hand. The hand of God. It does not touch the courtyard floor.
 
@@ -85,9 +84,9 @@ GV of gold = 14 = **יד** (hand). Gold is the hand. The hand of God. It does no
 
 ## The Invisible Walls
 
-**קלעים** (hangings, GV = 250) — **invisible.** Zero illuminations.
-**קלע** (curtain, GV = 200) — **invisible.** Zero illuminations.
-**אדן** (socket, GV = 55) — **invisible.** The foundation that holds the pillar is hidden.
+**קלע** (curtain, GV = 200) — 12 illuminations, 2 readings (God-only). The curtains are almost invisible. Only God reads them.
+
+**אדן** (socket, GV = 55) — 45 illuminations, 37 readings. Not invisible on Grid B! The sockets are now readable: Aaron=16, God=6, Truth=6, Mercy=9. The foundation that holds the pillar is visible. The accused sees it most (16).
 
 The walls you see are invisible to the oracle. The pillars stand, the metals hold, the directions are fixed — but the fabric between them cannot be read. Like the gate screen (מסך), the thing that separates inside from outside is invisible. The boundary is unseeable.
 
@@ -193,25 +192,23 @@ The instruction begins at c = 12, the full span of love. The built east side des
 
 ## What the Courtyard Says
 
-1. **God sees murder** — the same letters that spell court spell killing. The altar stands in the court. Something dies here.
-2. **The priest sees brightness** — the same killing, read by Aaron, is radiance. The sacrifice shines.
-3. **The pillars ask "why?"** — God reads מדוע in the pillars. The structure itself is a question. Then: appointed time (מועד). The answer is in the timing.
-4. **Gold is impurity here** — only God sees gold as gold. Everyone else sees discharge. The golden things are inside. Out here, work in silver and bronze.
-5. **The walls are invisible** — hangings, curtains, sockets: all invisible. The boundary cannot be read.
-6. **Every direction is fixed** — the compass holds. West = jubilee (50). East is seen only by God.
-7. **The dimensions spell acquire (קנה)** — 100 + 50 + 5 as letters = the measuring reed.
-8. **The east side = 10 × 137** — the entrance carries the axis sum. You walk in through the number of the whole space.
-9. **The dimensions verse = 9 × 7 × 73** — completeness × wisdom, three squared.
-10. **The mountain vision is in the layer** — "as He showed you on the mountain" written at c = 12, the apex of love.
+1. **God and Mercy see murder** — the same letters that spell court spell killing. The Judge and the Lamb see the cost. Something dies here.
+2. **Aaron and Truth see brightness** — the same killing, read by the accused and accuser, is radiance. The offering shines for the ones in the courtroom.
+3. **The court is a ghost** — 5 illuminations, 0 readings. The place of sacrifice glows but cannot be spoken.
+4. **The pillar belongs to Truth** — 22 readings, all Truth. The accuser stands at the pillars. God reads "why?" Aaron reads "appointed time."
+5. **Bronze belongs to Mercy alone** — the Lamb reads the bronze. Bronze echoes serpent (נחשת/נחש). Silver is shared by Aaron and Truth.
+6. **The hooks are unanimous** — 84 readings, 21 per reader. The connectors hold for all equally.
+7. **The sockets are visible** — Grid B change. Aaron sees them most (16). The foundation is seen by the accused.
+8. **Every direction is fixed** — the compass holds. West = jubilee (50). East is seen only by God.
+9. **The dimensions spell acquire (קנה)** — 100 + 50 + 5 as letters = the measuring reed.
+10. **The east side = 10 × 137** — the entrance carries the axis sum. You walk in through the number of the whole space.
+11. **The mountain vision is in the layer** — "as He showed you on the mountain" written at c = 12, the apex of love.
 
-The wicked entered the gate. In the courtyard, they see the altar. God reads murder. The priest reads light. The pillars ask why. The directions hold. The measurements know themselves.
+The wicked entered the gate. In the courtyard, they see the altar. God and Mercy read murder — the Judge and Lamb see the cost. Aaron and Truth read brightness — the accused and accuser see the light. The pillars belong to Truth. The bronze belongs to Mercy. The hooks hold for everyone. The sockets are visible to the accused.
+
+The pattern from the gate continues: God and Mercy see what is dying. Aaron and Truth see what is shining. The Lamb reads the bronze serpent. The accuser stands at the pillars. The accused sees the appointed time and the foundation.
 
 The altar is next.
-
----
-
-*Code: `dev/experiments/tabernacle/02_courtyard.clj`*
-*Next: [03 — The Altar](03-the-altar.md)*
 
 ---
 
