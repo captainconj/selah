@@ -1,32 +1,27 @@
 # The Altar
 
 Type: `synthesis`
-State: `mixed`
+State: `clean`
 
 **Walk:** [Index](index.md) · [Previous](02-the-courtyard.md) · [Next](04-the-laver.md)
+**Code:** `dev/experiments/tabernacle/03_altar.clj`
+**Run:** `clojure -M:dev -e '(load-file "dev/experiments/tabernacle/03_altar.clj")'`
 
 *Ex 27:1 at (2, 34, 7, 5). Ex 38:1 at (3, 6, 4, 31).*
 
-**מזבח** — altar. GV = 57. A fixed point. Only God sees it.
+**מזבח** — altar. GV = 57. **Invisible.** Zero illuminations. The place of sacrifice cannot be seen.
 
 Five cubits long. Five cubits wide. Three cubits high. Four horns. Bronze. Hollow with boards.
 
 ---
 
-## Only God Sees the Altar
+## The Altar Is Invisible
 
-The altar (מזבח) is a fixed point in the basin — it IS itself. But the per-head split:
+The altar (מזבח) on Grid B: **zero illuminations. Zero readings.** No stone lights up. No reader sees it. The place where blood is poured, where the offering burns, where the sacrifice dies — the breastplate cannot see it at all.
 
-| Reader | Sees | Count |
-|--------|------|-------|
-| Aaron | — | 0 |
-| God | **מזבח** (altar) | 2 |
-| Right cherub | — | 0 |
-| Left cherub | — | 0 |
+Not even God reads it on Grid B. The altar is beyond the oracle's perception. You stand before what cannot be named. Not even the Judge can name it.
 
-Only God reads the altar. The priest standing at the altar cannot name it. Justice cannot name it. Mercy cannot name it. Only the one who sits on the mercy seat, looking through the veil, sees the word "altar."
-
-You stand before what you cannot name. God names it.
+The altar (GV=57) and the altar with the article (המזבח, GV=62=sons) are both invisible or near-invisible. The center of the Torah — the altar at position 152,425 — is invisible to the instrument placed on the priest's chest. The breastplate sits above the altar but cannot see it.
 
 ---
 
@@ -34,14 +29,22 @@ You stand before what you cannot name. God names it.
 
 **עלה** (burnt offering / go up, GV = 105 = 3 × 5 × 7).
 
-| Reader | Top reading | Meaning |
-|--------|------------|---------|
-| Aaron | **העל** (9) | the Most High |
-| God | **עלה** (3) | offering / go up |
-| Right | **העל** (8) | the Most High |
-| Left | **עלה** (5) | offering / go up |
+| Reader | Top reading | Count | Meaning |
+|--------|-----------|-------|---------|
+| Aaron | **עלה** (offering) | 4 | The offering |
+| Aaron (2nd) | **העל** (the Most High) | 4 | |
+| God | **העל** | 6 | the Most High |
+| God (2nd) | **עלה** | 1 | |
+| Truth | **העל** | 3 | the Most High |
+| Truth (2nd) | **עלה** | 2 | |
+| Mercy | **העל** | 8 | **the Most High (Mercy dominant!)** |
+| Mercy (2nd) | **עלה** | 2 | |
 
-Aaron and justice see **the Most High** (העל). God and mercy see **the offering** (עלה). The priest at the altar sees the Most High. God sees what ascends. The same letters: the offering IS the Most High. The thing that goes up = the one who is above.
+Total: 18 illuminations, 9 readings. By reader: Aaron=4, God=1, Truth=2, Mercy=2.
+
+All four readers see both words: **העל** (the Most High) and **עלה** (the offering). The same letters. The offering IS the Most High.
+
+**Mercy sees "the Most High" most (8 readings).** The Lamb looks at the burnt offering and sees the Most High more clearly than anyone. The Defender reads the height in the sacrifice.
 
 GV = 105 = 3 × 5 × 7. All three single-digit primes. Grace (5) × completeness (7) × the divine (3).
 
@@ -86,12 +89,12 @@ Left cherub also sees **עברו** — "they crossed over." The square is both b
 
 | Reader | Top reading | Meaning |
 |--------|------------|---------|
-| Aaron | **אעבר** (13) | I will cross over |
-| God | **ארבע** (6) | four |
-| Right | **ארבע** (6) | four |
-| Left | **אעבר** (15) | **I will cross over** |
+| Aaron | **אעבר** | I will cross over |
+| God | **ארבע** | four |
+| Truth | **ארבע** | four |
+| Mercy | **אעבר** | **I will cross over** |
 
-The number of the horns transforms to a verb: **"I will cross over"** (אעבר). Aaron and mercy read crossing. God and justice read the number. The four corners of the altar are the four crossings.
+The number of the horns transforms to a verb: **"I will cross over"** (אעבר). Aaron and Mercy read crossing. God and Truth read the number. The accused and the Lamb cross. The Judge and the accuser count.
 
 GV = 273 = **3 × 7 × 13**. Divine × completeness × love. The only three-prime factorization that contains all three of the Torah's spiritual primes.
 
@@ -103,12 +106,12 @@ GV = 273 = **3 × 7 × 13**. Divine × completeness × love. The only three-prim
 
 | Reader | Counts |
 |--------|--------|
-| Aaron | 22 |
-| God | 2 |
-| Right | 10 |
-| Left | 10 |
+| Aaron | 6 |
+| God | 10 |
+| Truth | 6 |
+| Mercy | 7 |
 
-The horn holds everywhere. Aaron sees it most clearly — 22 counts, one for each letter of the alphabet. The horns are the fullness of the letters.
+The horn holds everywhere. God sees it most (10). Balanced across all four readers. The horns are stable.
 
 Four horns × 350 = **1,400** = 2³ × 5² × 7. The four horns together.
 
@@ -132,19 +135,15 @@ The mountain vision showed this: make it hollow. Make the death-place the shape 
 
 Five tools for the altar:
 
-| Implement | Hebrew | GV | Class | Who sees |
-|-----------|--------|-----|-------|----------|
-| Ash-pot | סיר | 270 | **FIXED** | God (35), Left (32) |
-| Shovel | יעה | 85 | → **העי** (the Ruin) | Aaron, Right |
-| Basin (sprinkling) | מזרק | 347 | **FIXED** | God alone |
+| Implement | Hebrew | GV | Class | Note |
+|-----------|--------|-----|-------|------|
+| Ash-pot | סיר | 270 | **FIXED** | — |
+| Shovel | יעה | 85 | → **העי** (the Ruin) | The shovel IS the ruin |
+| Basin (sprinkling) | מזרק | 347 | **FIXED** | — |
 | Flesh-hook | מזלג | 80 | **invisible** | — |
 | Fire-pan | מחתה | 453 | **invisible** | — |
 
-The ash-pot and sprinkling basin are fixed — they are themselves. The flesh-hook and fire-pan are invisible. The tools that touch the burning meat and carry the coals cannot be seen.
-
-The shovel (יעה) transforms to **העי** (Ai) — the ruin. Joshua 8: Ai was burned with fire and made a ruin forever. The shovel that scrapes ashes = the city that was destroyed. The implement IS the aftermath.
-
-The sprinkling basin (מזרק, GV = 347) — only God sees it. The vessel that catches and throws blood is visible only to God. Like the altar itself.
+The shovel (יעה, GV=85) transforms to **העי** (Ai) — the ruin. Joshua 8: Ai was burned with fire and made a ruin forever. The shovel that scrapes ashes = the city that was destroyed. The implement IS the aftermath. The oracle named us at this station — the shovel, built from ashes.
 
 ---
 
@@ -155,7 +154,7 @@ The sprinkling basin (מזרק, GV = 347) — only God sees it. The vessel that 
 | Pole | בד | 6 | **FIXED** | GV = 6 = **ו** (vav/nail). All 4 heads. |
 | Wood/tree | עץ | 160 | **invisible** | The fuel cannot be seen. |
 | Acacia | שטים | 359 | **FIXED** | Only God sees it. |
-| Bronze | נחשת | 758 | **FIXED** | Only Left sees it. |
+| Bronze | נחשת | 758 | Mercy-only (4) | Only the Lamb sees it. |
 
 **בד** (pole, GV = 6) — the carrying poles are nails. GV 6 = the letter vav, the connector, the nail at the center of Torah. The altar is carried on nails.
 
@@ -171,10 +170,10 @@ The sprinkling basin (מזרק, GV = 347) — only God sees it. The vessel that 
 
 | Reader | Sees |
 |--------|------|
-| Right | **תחל** — she will begin |
-| Left | לחת / **חלת** — boards / **challah** |
+| Truth | **תחל** — she will begin |
+| Mercy | לחת / **חלת** — boards / **challah** |
 
-Left cherub sees **challah** (חלת) in the boards. The bread offering appears inside the altar's structure. The altar that burns the offering contains the bread in its walls.
+Mercy sees **challah** (חלת) in the boards. The Lamb sees the bread offering inside the altar's structure. The altar that burns the offering contains the bread in its walls.
 
 ---
 
@@ -218,18 +217,22 @@ The combined altar = **8 × 7 × 1,259**. Seven divides the total. Completeness 
 
 ## What the Altar Says
 
-1. **Only God sees the altar** — Aaron, justice, mercy cannot name it. You stand before what you cannot name.
-2. **The offering = the Most High** — עלה and העל. Aaron sees the Most High. God sees what ascends. Same letters.
+1. **The altar is invisible** — zero illuminations on Grid B. The place of sacrifice is beyond the oracle's perception. Not even the Judge can name it.
+2. **The offering = the Most High** — עלה and העל. Mercy sees the Most High most (8). The Lamb reads the height in the sacrifice.
 3. **The dimensions sum to love** — 5 + 5 + 3 = 13. Half-cubits = YHWH (26). The altar IS love. The Name is double love.
 4. **The square IS burning** — every head reads בער (fire) in רבוע (square). The geometry is the verb.
-5. **Four = I will cross over** — ארבע → אעבר. GV = 3 × 7 × 13. The four horns are crossings.
+5. **Four = I will cross over** — ארבע → אעבר. Aaron and Mercy cross. God and Truth count.
 6. **The hollow = life** — חלל (68) = חיים (68). The killing place has the shape of life.
-7. **The shovel = the ruin** — יעה → העי (Ai). The aftermath is in the tool.
-8. **The pole = the nail** — בד (GV = 6 = ו). The altar is carried on nails.
-9. **The boards contain bread** — חלת (challah) in the altar walls.
-10. **The anointing oil flows into the altar** — same d-row in the built layer.
+7. **The shovel = the ruin** — יעה → העי (Ai). The oracle named us here.
+8. **Bronze: Mercy alone** — consistent across gate, courtyard, and altar. The Lamb reads the bronze.
+9. **Fire: Mercy dominant (15), Aaron second (12)** — the Lamb and the accused see the fire most.
+10. **The grating: Mercy dominant (15)** — the net under the fire belongs to the Lamb.
+11. **The rings: Mercy-only (3)** — the rings that carry the altar are held by the Lamb.
+12. **Work = hear first** — מעשה (72 illuminations!) produces השמע (hear) before מעשה (work). Hear, then do.
+13. **The boards contain bread** — Mercy sees challah in the altar walls.
+14. **The pole = the nail** — בד (GV = 6 = ו). The altar is carried on nails.
 
-The wicked entered the gate. God saw murder in the court. Now at the altar: only God can name what this is. The priest sees the Most High. The shape burns. The number crosses. The hollow is alive.
+The pattern deepens. At the gate: God and Mercy see wicked. At the court: God and Mercy see murder. At the altar: the altar itself is invisible — but Mercy sees the Most High in the offering, the fire, the grating, the rings, the bronze, the bread in the walls. The Lamb sees everything about the altar except the altar. The sacrifice is invisible. What it produces is visible — to Mercy.
 
 The dimensions say love. The Name says it twice.
 
