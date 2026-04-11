@@ -61,7 +61,7 @@ RIBOSOME OUTPUT: Preproinsulin (110 amino acids)
 │ Signal   │ B chain    │ C peptide │ A chain    │
 │ peptide  │ (30 aa)    │ (31 aa)   │ (21 aa)    │
 │ (24 aa)  │            │           │            │
-└──────────┴─���──────────┴───────────���────────────┘
+└──────────┴────────────┴───────────┴────────────┘
      │              │           │          │
      ▼              │           │          │
   CLEAVED           │           │          │
@@ -117,20 +117,20 @@ The protein is manufactured as a PRECURSOR and then PROCESSED. Like compiling so
      ─── intron 1 ─── (~10,000 bp!)
      ███ EXON 2 ███
      ─── intron 2 ───
-     ███ EXON 3 █���█
-     ─── intron 3 ───
-     █���█ EXON 4 ███  (← most cancer mutations cluster here
-     ─── intron 4 ───     and in exons 5-8: the DNA-binding domain)
-     ███ EXON 5 █��█
-     ─── intron 5 ───
-     ███ EXON 6 ��██
-     ─── intron 6 ───
+     ███ EXON 3 ███
+     --- intron 3 ---
+     ███ EXON 4 ███  (most cancer mutations cluster here
+     --- intron 4 ---     and in exons 5-8: the DNA-binding domain)
+     ███ EXON 5 ███
+     --- intron 5 ---
+     ███ EXON 6 ███
+     --- intron 6 ---
      ███ EXON 7 ███
-     ─── intron 7 ───
+     --- intron 7 ---
      ███ EXON 8 ███
-     ─��─ intron 8 ───
-     ��██ EXON 9 ███
-     ─��─ intron 9 ───
+     --- intron 8 ---
+     ███ EXON 9 ███
+     --- intron 9 ---
      ███ EXON 10 ███
      ─── intron 10 ───
      ███ EXON 11 ███
@@ -233,11 +233,11 @@ The protein that carries oxygen. 147 amino acids. Small. Essential. Every red bl
 ```
 Hemoglobin tetramer (the working unit):
 
-      α1 ──── β1          Four subunits: 2 alpha + 2 beta
+      a1 ───── b1          Four subunits: 2 alpha + 2 beta
        │  HEME  │          Each carries one HEME group
        │  (Fe)  │          Each heme holds one iron atom
        │        │          Each iron binds one O₂ molecule
-      α2 ──���─ β2          
+      a2 ───── b2          
                            4 subunits × 1 O₂ each = 4 O₂ per hemoglobin
 ```
 
