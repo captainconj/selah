@@ -12,6 +12,71 @@ What follows is the complete analogy. Every component of a computer has a cellul
 
 ---
 
+## The Master Table
+
+| System | Computer | Cell | Known? |
+|--------|----------|------|--------|
+| **Storage** | | | |
+| Master copy | Hard drive | **DNA** (3.2B base pairs, nucleus) | ✓ Fully mapped |
+| Boot sector | MBR / partition table | **Centromere** (chromosome anchor) | ✓ |
+| End-of-file markers | EOF | **Telomeres** (protective caps, shorten with age) | ✓ |
+| Parallel I/O starts | Boot sectors | **Origins of replication** (thousands per genome) | ✓ |
+| Volumes | Drives / partitions | **Chromosomes** (23 pairs) | ✓ |
+| Files | Programs / data | **Genes** (~20,000 protein-coding) | ✓ |
+| File headers | Metadata | **Promoters** (when/where to start reading) | ✓ |
+| Symlinks / pointers | Remote references | **Enhancers / silencers** (distant regulatory switches) | ~50% |
+| **Reading & Execution** | | | |
+| Instruction fetch | Fetch cycle | **RNA Polymerase** (reads DNA → mRNA) | ✓ |
+| Working copy / RAM | Loaded program | **mRNA** (temporary copy, read then destroyed) | ✓ |
+| Decoder / lookup table | Instruction decoder | **tRNA** (maps codon → amino acid) | ✓ |
+| CPU | Processor | **Ribosome** (reads mRNA, assembles protein) | ✓ |
+| Instruction set | Character encoding | **Codon table** (64 codons → 20 amino acids) | ✓ Universal |
+| Byte alignment | Word alignment | **Reading frame** (which triplet you start on) | ✓ |
+| File signature | Magic number | **Start codon** (ATG — always the same) | ✓ |
+| EOF marker | End of file | **Stop codons** (TAA, TAG, TGA) | ✓ |
+| Multi-core | Parallel execution | **Polysome** (multiple ribosomes on one mRNA) | ✓ |
+| **Processing & QC** | | | |
+| Post-processing | Compile → link → validate | **Endoplasmic reticulum** (folding, modification) | ✓ |
+| Error handling | Try-catch | **Chaperone proteins** (assist folding, retry) | ✓ |
+| Package router | Deployment pipeline | **Golgi apparatus** (sort, address, ship) | ✓ |
+| Garbage collector | Mark and sweep | **Proteasome** (ubiquitin-tagged → shredded → recycled) | ✓ |
+| **Control System** | | | |
+| Control logic | AND/OR/NOT gates | **Transcription factors** (~1,600, combinatorial) | ~20% wired |
+| File permissions | chmod / ACL | **Epigenetic marks** (methyl, acetyl, phospho) | ~30% |
+| Compression | zip / encryption | **Chromatin** (DNA wrapped on histones, tight=off) | ~20% |
+| Circuit board layout | PCB trace routing | **3D genome folding** (chromosome territories, loops) | ~10% |
+| **Power** | | | |
+| Power supply | Electricity / PSU | **ATP** (~40 kg/day recycled, universal currency) | ✓ |
+| Power plant | Generator | **Mitochondria** (own genome, own ribosomes, maternal) | ✓ |
+| **Communication** | | | |
+| Data bus | Interconnect | **Signal transduction** (MAPK, PI3K, Wnt, Notch...) | ~40% |
+| I/O ports | USB / network | **Membrane receptors** (thousands of types) | ~50% |
+| Firewall | Intrusion detection | **Immune system** (self/non-self, memory, response) | ~60% |
+| Runtime code generation | JIT compiler | **VDJ recombination** (10^11 possible antibodies) | ✓ |
+| **System Administration** | | | |
+| Sysadmin | Root process | **p53** (pause, repair, or kill the cell) | ✓ |
+| Process table | Task manager | **MHC/HLA** (display internal proteins on surface) | ✓ |
+| Scheduled tasks | Cron jobs | **Cell cycle checkpoints** (G1, S, G2, M gates) | ✓ |
+| Clock | System clock | **Circadian genes** (24-hour rhythm, every cell) | ✓ |
+| **Meta** | | | |
+| Self-replication | `fork()` | **Cell division** (mitosis/meiosis) | ✓ |
+| Full system backup | Disk clone | **Germ cells** (egg/sperm — full genome to next gen) | ✓ |
+| Version control | Git | **Meiotic recombination** (shuffle parental chromosomes) | ✓ |
+| Language / grammar | ASCII / Unicode | **Genetic code** (same in all life, 3.8B years) | ✓ Universal |
+| Storage density | Bits per cm³ | **1 gram DNA = 215 petabytes** | ✓ |
+
+### What We Know vs Don't Know
+
+| Category | Known | Unknown |
+|----------|-------|---------|
+| Parts list (what exists) | ~95% | ~5% |
+| Individual mechanisms (how each part works) | ~80% | ~20% |
+| Wiring diagram (how parts connect) | ~20% | ~80% |
+| Developmental program (one cell → organism) | ~5% | ~95% |
+| Full simulation capability | ~0.01% (simplest bacterium only) | ~99.99% |
+
+---
+
 ## Storage
 
 ### The Hard Drive: DNA
